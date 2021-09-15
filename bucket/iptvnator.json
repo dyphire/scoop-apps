@@ -1,0 +1,40 @@
+{
+    "homepage": "https://github.com/4gray/iptvnator",
+    "description": "Cross-platform IPTV player",
+    "license": "MIT",
+    "version": "0.8.0",
+    "url": "https://github.com/4gray/iptvnator/releases/download/v0.8.0/iptvnator-Setup-0.8.0.exe#/dl.7z",
+    "hash": "sha512:a2a41c9b9157cf4c3b7f094078cb31cf11743a33b67f99f8ab9bf1076ca76c51a417060bc1c449406e98d24b49d7a0f244fc27de43c07efcdf2df923691a6733",
+    "architecture": {
+        "64bit": {
+            "installer": {
+                "script": [
+                    "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+                    "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Unins*\" -Force -Recurse"
+                ]
+            }
+        },
+        "32bit": {
+            "installer": {
+                "script": [
+                    "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\"",
+                    "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Unins*\" -Force -Recurse"
+                ]
+            }
+        }
+    },
+    "shortcuts": [
+        [
+            "iptvnator.exe",
+            "IPTVnator"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/4gray/iptvnator/releases/download/v$version/iptvnator-Setup-$version.exe#/dl.7z",
+        "hash": {
+            "url": "$baseurl/latest.yml",
+            "regex": "sha512:\\s+$base64"
+        }
+    }
+}

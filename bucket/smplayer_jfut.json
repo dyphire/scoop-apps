@@ -1,0 +1,45 @@
+{
+    "homepage": "https://www.smplayer.info/",
+    "version": "21.8.0",
+    "license": "GPLv2",
+    "architecture": {
+        "64bit": {
+            "url": "https://sourceforge.net/projects/smplayer/files/SMPlayer/21.8.0/smplayer-21.8.0-x64.exe#/dl.7z",
+            "hash": "53222ad52cb2144231773c49877d2ad2bcdfbc55e5c4c6b50805621e2149d8bc"
+        },
+        "32bit": {
+            "url": "https://sourceforge.net/projects/smplayer/files/SMPlayer/21.8.0/smplayer-21.8.0-win32.exe#/dl.7z",
+            "hash": "1af4bc55453fd89c1ffa9b3bac076a306cd90676588efaa1605e676d59ee5202"
+        }
+    },
+    "bin": "smplayer.exe",
+    "shortcuts": [
+        [
+            "smplayer.exe",
+            "SMPlayer"
+        ]
+    ],
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse",
+    "checkver": {
+        "url": "https://www.smplayer.info/downloads/",
+        "re": "Click here to download SMPlayer ([\\d.]+) \\(32-bit\\)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://sourceforge.net/projects/smplayer/files/SMPlayer/$version/smplayer-$version-x64.exe#/dl.7z",
+                "hash": {
+                    "url": "https://www.fosshub.com/SMPlayer.html",
+                    "find": "SMPlayer  Windows 64 bit.*\\n.*\\n.*\\n.*\\n.*\\n.*\\n.*SHA256: ([a-fA-F0-9]{64})</strong>"
+                }
+            },
+            "32bit": {
+                "url": "https://sourceforge.net/projects/smplayer/files/SMPlayer/$version/smplayer-$version-win32.exe#/dl.7z",
+                "hash": {
+                    "url": "https://www.fosshub.com/SMPlayer.html",
+                    "find": "SMPlayer  Windows 32 bit.*\\n.*\\n.*\\n.*\\n.*\\n.*\\n.*SHA256: ([a-fA-F0-9]{64})</strong>"
+                }
+            }
+        }
+    }
+}

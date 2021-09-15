@@ -1,0 +1,38 @@
+{
+    "homepage": "https://github.com/HMBSbige/ShadowsocksR-Windows/",
+    "description": "ShadowsocksR-Windows Client by HMBSbige",
+    "version": "5.4.2",
+    "license": "MIT",
+    "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/releases/download/5.4.2/ShadowsocksR-5.4.2.7z",
+    "hash": "a83ef65d4a7061fb2d72a3284361248d867149dc138d6f0dc3d7088a5fb499ca",
+    "extract_dir": "ShadowsocksR",
+    "pre_install": [
+        "function CreateFile ($name, $value = $null) {",
+        "    if (!(Test-Path \"$persist_dir\\$name\")) {",
+        "        Set-Content \"$dir\\$name\" $value -Encoding Ascii",
+        "    }",
+        "}",
+        "CreateFile 'gui-config.json' '{}' ",
+        "'pac.txt', 'user-rule.txt' | ForEach-Object { CreateFile $_ }"
+    ],
+    "persist": [
+        "gui-config.json",
+        "user-rule.txt",
+        "pac.txt"
+    ],
+    "bin": "",
+    "shortcuts": [
+        [
+            "ShadowsocksR.exe",
+            "SSR"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/releases/download/$version/ShadowsocksR-$version.7z",
+        "hash": {
+            "url": "https://github.com/HMBSbige/ShadowsocksR-Windows/releases/latest",
+            "find": "$basename</sub>[\\S\\s]+?$sha256"
+        }
+    }
+}

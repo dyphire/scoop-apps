@@ -1,0 +1,32 @@
+{
+    "description": "IBM WAS Liberty Kernel",
+    "homepage": "https://www.ibm.com/cloud/websphere-liberty",
+    "license": "https://www.ibm.com/software/sla/sladb.nsf/lilookup/ECC6778DBF4CC09085258599007151EC?OpenDocument",
+    "version": "21.0.0.9",
+    "url": "https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/downloads/wlp/21.0.0.9/wlp-kernel-21.0.0.9.zip",
+    "hash": "5b46612a7e54f393a0849a982f5bfd8df3320631ffcb652f3e98392b5f262b20",
+    "extract_dir": "wlp",
+    "bin": [
+        "bin\\binaryLog.bat",
+        "bin\\configUtility.bat",
+        "bin\\featureManager.bat",
+        "bin\\installUtility.bat",
+        "bin\\productInfo.bat",
+        "bin\\securityUtility.bat",
+        [
+            "bin\\server.bat",
+            "wlp"
+        ],
+        "bin\\serverSchemaGen.bat"
+    ],
+    "persist": "usr",
+    "checkver": {
+        "url": "https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/downloads/wlp/",
+        "re": "([\\d]{2}.[\\d.]+)/",
+        "reverse": true
+    },
+    "autoupdate": {
+        "url": "https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/downloads/wlp/$version/wlp-kernel-$version.zip"
+    },
+    "notes": "server.bat is renamed to wlp"
+}

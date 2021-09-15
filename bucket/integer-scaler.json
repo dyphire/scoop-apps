@@ -1,0 +1,44 @@
+{
+    "version": "2.17",
+    "description": "IntegerScaler is a free utility for pixel-perfect integer-ratio scaling of games with no blur.",
+    "homepage": "https://tanalin.com/en/projects/integer-scaler/",
+    "license": "Freeware",
+    "url": "https://dl.tanalin.com/projects/integer-scaler/IntegerScaler-2.17.7z",
+    "hash": "a10d3af7e0df2a25bca3493f6f501a4994386559d2885df7e55ad9f948db8fc7",
+    "architecture": {
+        "64bit": {
+            "bin": [
+                [
+                    "IntegerScaler_64bit.exe",
+                    "IntegerScaler"
+                ]
+            ],
+            "shortcuts": [
+                [
+                    "IntegerScaler_64bit.exe",
+                    "IntegerScaler"
+                ]
+            ]
+        },
+        "32bit": {
+            "bin": [
+                [
+                    "IntegerScaler_32bit.exe",
+                    "IntegerScaler"
+                ]
+            ],
+            "shortcuts": [
+                [
+                    "IntegerScaler_32bit.exe",
+                    "IntegerScaler"
+                ]
+            ]
+        }
+    },
+    "checkver": {
+        "regex": "IntegerScaler-([\\d.]+)\\.7z"
+    },
+    "autoupdate": {
+        "url": "https://dl.tanalin.com/projects/integer-scaler/IntegerScaler-$version.7z"
+    }
+}
