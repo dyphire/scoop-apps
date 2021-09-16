@@ -23,7 +23,7 @@ for bucket in ${buckets[@]}; do
     bucket_name=$(echo $bucket | awk -F',' '{print $1}')
     app_num=$(echo $bucket | awk -F',' '{print $2}')
     star_num=$(echo $bucket | awk -F',' '{print $3}')
-    if [ "$app_num" -gt 10 -a "$star_num" -gt 0 ];then
+    if [ "$app_num" -gt 10 -a "$star_num" -gt 1 ];then
         echo "$bucket_name" >> bucket.config
     fi
 done
