@@ -1,0 +1,33 @@
+{
+    "homepage": "https://pecl.php.net/package/oci8",
+    "version": "2.1.7",
+    "license": "http://www.php.net/license/3_01.txt",
+    "architecture": {
+        "64bit": {
+            "url": "http://windows.php.net/downloads/pecl/releases/oci8/2.1.7/php_oci8-2.1.7-7.1-ts-vc14-x64.zip",
+            "hash": "513d28a917e3190a939400f358a460114cf2254d32d126bf3a2401ba8cbbe19c"
+        },
+        "32bit": {
+            "url": "http://windows.php.net/downloads/pecl/releases/oci8/2.1.7/php_oci8-2.1.7-7.1-ts-vc14-x86.zip",
+            "hash": "adf8cd48fa24c4b4f91d2f67bfc64d046a75c09627eb905aa5581e50842db427"
+        }
+    },
+    "depends": [
+        "php"
+    ],
+    "post_install": "$phpconfd = \"$persist_dir\\..\\php\\cli\\conf.d\"; if((test-path $phpconfd)) { echo \"Enabling extension $(Convert-Path $phpconfd)\\oci8.ini\"; echo \"extension=$dir\\php_oci8.dll\" | sc \"$phpconfd\\oci8.ini\"; echo \"Remove-Item '$(Convert-Path $phpconfd)\\oci8.ini'\" | sc \"$dir\\uninstall.ps1\" } else { write-host -f yellow \"PHP was not installed through scoop, you have to activate php_oci8.dll manually!\" }",
+    "checkver": "oci8/([\\d.]+)/windows",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "http://windows.php.net/downloads/pecl/releases/oci8/$version/php_oci8-$version-7.1-ts-vc14-x64.zip"
+            },
+            "32bit": {
+                "url": "http://windows.php.net/downloads/pecl/releases/oci8/$version/php_oci8-$version-7.1-ts-vc14-x86.zip"
+            }
+        }
+    },
+    "uninstaller": {
+        "file": "uninstall.ps1"
+    }
+}

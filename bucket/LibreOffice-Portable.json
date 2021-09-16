@@ -1,0 +1,28 @@
+{
+    "version": "7.2.0",
+    "description": "LibreOffice. Complete office suite",
+    "homepage": "https://portableapps.com/apps/office/libreoffice_portable",
+    "license": "",
+    "url": "https://ftp.osuosl.org/pub/tdf/libreoffice/portable/7.2.0/LibreOfficePortable_7.2.0_MultilingualStandard.paf.exe",
+    "hash": "b297e586ad058fa7635760c782b2e1765af82f4049fe4dbee11c765aab27e349",
+    "bin": "LibreOfficePortable.exe",
+    "shortcuts": [
+        [
+            "LibreOfficePortable.exe",
+            "LibreOffice"
+        ]
+    ],
+    "persist": "Data",
+    "checkver": {
+        "url": "https://portableapps.com/apps/office/libreoffice_portable",
+        "regex": "Version ([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://ftp.osuosl.org/pub/tdf/libreoffice/portable/$version/LibreOfficePortable_$version_MultilingualStandard.paf.exe",
+        "hash": {
+            "url": "https://portableapps.com/apps/office/libreoffice_portable",
+            "regex": "MD5 Hash: +[\\w]{32}"
+        }
+    },
+    "post_install": "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+}

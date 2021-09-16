@@ -1,0 +1,39 @@
+{
+    "homepage": "https://github.com/v2fly/v2ray-core",
+    "description": "A unified platform for anti-censorship. (This is V2Fly, a community-driven edition of V2Ray)",
+    "version": "4.41.1",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/v2fly/v2ray-core/releases/download/v4.41.1/v2ray-windows-64.zip",
+            "hash": "sha512:4d983cb165f62ae7b133174c8e87282273c1bf56fcc59175584e0bbaf022693558febd47a54a26ea1d8091e3dc8acc7a5975afd1127e9e57eac35b4a48999cb7"
+        },
+        "32bit": {
+            "url": "https://github.com/v2fly/v2ray-core/releases/download/v4.41.1/v2ray-windows-32.zip",
+            "hash": "sha512:fae1cb7b1a96616a8e1dde278078ed87e433bbd1bffd4f9f20d935cce1472c0e3b618e31095e7e281f66caf8b0a1d9c3f7bc1fb8a8f884bca1d14f27ea896c2e"
+        }
+    },
+    "bin": [
+        "v2ctl.exe",
+        "v2ray.exe",
+        "wv2ray.exe"
+    ],
+    "persist": "config.json",
+    "checkver": {
+        "github": "https://github.com/v2fly/v2ray-core"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/v2fly/v2ray-core/releases/download/v$version/v2ray-windows-64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/v2fly/v2ray-core/releases/download/v$version/v2ray-windows-32.zip"
+            }
+        },
+        "hash": {
+            "url": "$url.dgst",
+            "regex": "SHA512= $sha512"
+        }
+    }
+}

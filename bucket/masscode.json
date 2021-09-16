@@ -1,0 +1,17 @@
+{
+    "homepage": "https://github.com/antonreshetov/massCode",
+    "version": "1.0.0-alpha.7",
+    "license": "MIT",
+    "url": "https://github.com/antonreshetov/massCode/releases/download/v1.0.0-alpha.7/massCode.Setup.1.0.0-alpha.7.exe#/dl.7z",
+    "hash": "5c6db1cf1b369a9c993ce18da515e76ef02586a96483d82eb3c8739c7b7f3485",
+    "extract_dir": "$PLUGINSDIR",
+    "installer": {
+        "script": "Expand-7zipArchive \"$dir\\app-64.7z\" \"$dir\""
+    },
+    "shortcuts": [
+        [
+            "masscode.exe",
+            "massCode"
+        ]
+    ]
+}

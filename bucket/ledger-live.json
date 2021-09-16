@@ -1,0 +1,25 @@
+{
+    "homepage": "https://github.com/LedgerHQ/ledger-live-desktop",
+    "version": "2.33.1",
+    "license": "MIT",
+    "url": "https://github.com/LedgerHQ/ledger-live-desktop/releases/download/v2.33.1/ledger-live-desktop-2.33.1-win.exe#/dl.7z",
+    "hash": "c7395c632b8b83fb17f9b32e300eae14008e9bdfb7864038e5b74d2104f8eda2",
+    "extract_dir": "$PLUGINSDIR",
+    "installer": {
+        "script": "Expand-7zipArchive \"$dir\\app-64.7z\" \"$dir\""
+    },
+    "env_set": {
+        "LEDGER_CONFIG_DIRECTORY": "$dir\\data"
+    },
+    "persist": "data",
+    "shortcuts": [
+        [
+            "Ledger Live.exe",
+            "Ledger Live"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/LedgerHQ/ledger-live-desktop/releases/download/v$version/ledger-live-desktop-$version-win.exe#/dl.7z"
+    }
+}

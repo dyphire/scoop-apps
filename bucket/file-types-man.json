@@ -1,0 +1,41 @@
+{
+    "homepage": "https://www.nirsoft.net/utils/file_types_manager.html",
+    "description": "File Types Manager for Windows",
+    "version": "1.95",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.nirsoft.net/utils/filetypesman-x64.zip",
+            "hash": "d032ee7ea72b6678a65c3500f19eb3edb58574f33a2be9ff0ac6d9ef9ea29ada"
+        },
+        "32bit": {
+            "url": "https://www.nirsoft.net/utils/filetypesman.zip",
+            "hash": "a15df5aad7d0efc1c1dc717618b21433ee1f1bd8d9ea620550937de1f10af32f"
+        }
+    },
+    "bin": [
+        [
+            "FileTypesMan.exe",
+            "filetypesman"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "FileTypesMan.exe",
+            "FileTypesMan"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.nirsoft.net/utils/file_types_manager.html",
+        "regex": "Versions History</h4>\\s*<ul>\\s*<li>Version\\s*([\\d\\.]+):"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.nirsoft.net/utils/filetypesman-x64.zip"
+            },
+            "32bit": {
+                "url": "https://www.nirsoft.net/utils/filetypesman.zip"
+            }
+        }
+    }
+}

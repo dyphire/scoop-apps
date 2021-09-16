@@ -1,0 +1,16 @@
+{
+    "homepage": "https://github.com/pfmoore/builder-sed",
+    "description": "GNU sed (stream editor) is a non-interactive command-line text editor.",
+    "license": "GPL",
+    "version": "4.7-1",
+    "url": "https://github.com/pfmoore/builder-sed/releases/download/4.7-1/sed-4.7-1.zip",
+    "hash": "89e6522e31c3e6561ca8b3ac54d4aed78a7483dd3e1530e57eb09d4ae111bdc7",
+    "bin": "sed.exe",
+    "checkver": {
+        "url": "https://github.com/pfmoore/builder-sed/releases/latest",
+        "re": "/releases/tag/(?:v|V)?([-\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/pfmoore/builder-sed/releases/download/$version/sed-$version.zip"
+    }
+}

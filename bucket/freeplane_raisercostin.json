@@ -1,0 +1,22 @@
+{
+    "homepage": "https://www.freeplane.org/wiki/index.php/Main_Page",
+    "version": "1.6.15",
+    "description": "Freeplane is a powerful and free software for building mind maps. It is a redesigned version of the well known Small FreeMind iconFreeMind , and is created by one of FreeMind's key developers.",
+    "license": "GNU GPL V2+",
+    "hash": "92681853bd60745426ebbc8c77c6292aa3962fa46c61bc73f66b0e0551fdce73",
+    "url": "https://netix.dl.sourceforge.net/project/freeplane/freeplane%20stable/archive/1.6.15/freeplane_bin-1.6.15.zip",
+    "extract_dir": "freeplane-1.6.15",
+    "bin": "freeplane.exe",
+    "suggest": {
+        "JDK": [
+            "java/oraclejdk",
+            "java/openjdk"
+        ]
+    },
+    "shortcuts": [
+        [
+            "freeplane.exe",
+            "Freeplane"
+        ]
+    ]
+}

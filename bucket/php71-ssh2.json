@@ -1,0 +1,33 @@
+{
+    "homepage": "https://pecl.php.net/package/ssh2",
+    "version": "1.1.2",
+    "license": "http://www.php.net/license/3_01.txt",
+    "architecture": {
+        "64bit": {
+            "url": "http://windows.php.net/downloads/pecl/releases/ssh2/1.1.2/php_ssh2-1.1.2-7.1-ts-vc14-x64.zip",
+            "hash": "bcdf23aee27e04993bd0d42a7650cd86f0b5c8b8c23fd338a14e74fc85580b26"
+        },
+        "32bit": {
+            "url": "http://windows.php.net/downloads/pecl/releases/ssh2/1.1.2/php_ssh2-1.1.2-7.1-ts-vc14-x86.zip",
+            "hash": "a91667a1721950e929c5d41da37837428254bc3dab55183a72b2fb6656e50611"
+        }
+    },
+    "depends": [
+        "php"
+    ],
+    "post_install": "$phpconfd = \"$persist_dir\\..\\php\\cli\\conf.d\"; if((test-path $phpconfd)) { echo \"Enabling extension $(Convert-Path $phpconfd)\\ssh2.ini\"; echo \"extension=$dir\\php_ssh2.dll\" | sc \"$phpconfd\\ssh2.ini\"; echo \"Remove-Item '$(Convert-Path $phpconfd)\\ssh2.ini'\" | sc \"$dir\\uninstall.ps1\" } else { write-host -f yellow \"PHP was not installed through scoop, you have to activate php_ssh2.dll manually!\" }",
+    "checkver": "ssh2/([\\d.]+)/windows",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "http://windows.php.net/downloads/pecl/releases/ssh2/$version/php_ssh2-$version-7.1-ts-vc14-x64.zip"
+            },
+            "32bit": {
+                "url": "http://windows.php.net/downloads/pecl/releases/ssh2/$version/php_ssh2-$version-7.1-ts-vc14-x86.zip"
+            }
+        }
+    },
+    "uninstaller": {
+        "file": "uninstall.ps1"
+    }
+}

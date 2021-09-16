@@ -1,0 +1,37 @@
+{
+    "homepage": "https://github.com/PowerShell/PowerShell",
+    "description": "PowerShell for every system",
+    "version": "7.1.4",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.1.4/PowerShell-7.1.4-win-x64.zip",
+            "hash": "ec5792d74eae88601d20734c857212920135aa5899823dcaf1c0143daedd8108"
+        },
+        "32bit": {
+            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.1.4/PowerShell-7.1.4-win-x86.zip",
+            "hash": "b44702f129514e638798d62a6f3eacb62ef8a628052f71f1ceed179ede3d4564"
+        }
+    },
+    "bin": "pwsh.exe",
+    "shortcuts": [
+        [
+            "pwsh.exe",
+            "PowerShell Core"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/PowerShell/PowerShell/releases/download/v$version/PowerShell-$version-win-x64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/PowerShell/PowerShell/releases/download/v$version/PowerShell-$version-win-x86.zip"
+            }
+        },
+        "hash": {
+            "find": "\"body\":\\s*\".*-\\s*$basename\\\\r\\\\n\\s*-\\s*([^\\\\]*)\\\\r\\\\n",
+            "url": "https://api.github.com/repos/PowerShell/PowerShell/releases/latest"
+        }
+    }
+}

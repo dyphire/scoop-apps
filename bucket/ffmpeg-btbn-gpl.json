@@ -1,0 +1,27 @@
+{
+    "homepage": "https://github.com/BtbN/FFmpeg-Builds",
+    "description": "FFmpeg built by BtbN (GPL).",
+    "version": "autobuild-2021-09-15-12-22",
+    "url": "https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2021-09-15-12-22/ffmpeg-n4.4-152-gdf288deb9b-linux64-gpl-4.4.tar.xz",
+    "hash": "e2ba6fc692e6347678b959b8b0fd11924fe5afe9d59e03c55a5af5d0a6d079f0",
+    "installer": {
+        "script": [
+            "$firstLevelFolderName = (Get-Childitem -path $dir -Depth 1 -Directory | Select-Object -Property Name)[0].Name",
+            "Get-ChildItem -Path \"$dir\\$firstLevelFolderName\" | Copy-Item -Destination \"$dir\" -Recurse -Container",
+            "Remove-Item -Path \"$dir\\$firstLevelFolderName\" -Recurse -Force"
+        ]
+    },
+    "bin": [
+        "bin\\ffmpeg.exe",
+        "bin\\ffplay.exe",
+        "bin\\ffprobe.exe"
+    ],
+    "checkver": {
+        "url": "https://api.github.com/repos/BtbN/FFmpeg-Builds/releases/latest",
+        "jp": "assets[8].browser_download_url",
+        "re": "download/(?<version>autobuild-\\d+-\\d+-\\d+-\\d+-\\d+)/(?<filename>[a-z\\-\\d\\.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/BtbN/FFmpeg-Builds/releases/download/$matchVersion/$matchFilename"
+    }
+}

@@ -1,0 +1,100 @@
+{
+    "homepage": "http://dlang.org/",
+    "version": "2.071.2",
+    "license": "Boost",
+    "url": "http://downloads.dlang.org/releases/2.x/2.071.2/dmd.2.071.2.windows.7z",
+    "hash": "sha1:d0d54529fa6ed01c414079f89a2f4aab4fa5403c",
+    "extract_dir": "dmd2",
+    "bin": ["windows\\bin\\dmd.exe", "windows\\bin\\rdmd.exe"],
+    "env_set": {
+        "DMD_HOME": "$dir"
+    },
+    "checkver": {
+        "url": "https://dlang.org/index.html",
+        "re": "Latest version: ([\\d.]+)"
+    },
+    "post_install": "
+        $vsPrefixMap = @{
+            '14.0' = ';VC2015 ';
+            '12.0' = ';VC2013 ';
+            '11.0' = ';VC2012 ';
+            '10.0' = ';VC2010 ';
+            '9.0'  = ';VC2008 ';
+        }
+
+        $wdkRegKeyMap = @{
+            '10.0' = @('SOFTWARE\\Microsoft\\Windows Kits\\Installed Roots', 'KitsRoot10');
+            '8.1' = @('SOFTWARE\\Microsoft\\Windows Kits\\Installed Roots', 'KitsRoot81');
+            '8.0' = @('SOFTWARE\\Microsoft\\Windows Kits\\Installed Roots', 'KitsRoot');
+            '7.11' = @('SOFTWARE\\Microsoft\\Microsoft SDKs\\Windows\\v7.1a', 'InstallationFolder');
+            '7.01' = @('SOFTWARE\\Microsoft\\Microsoft SDKs\\Windows\\v7.0a', 'InstallationFolder');
+            '6.01' = @('SOFTWARE\\Microsoft\\Microsoft SDKs\\Windows\\v6.0a', 'InstallationFolder');
+        }
+
+        function openLocalMachineKey() {
+            [Microsoft.Win32.RegistryKey]::OpenBaseKey([Microsoft.Win32.RegistryHive]::LocalMachine, [Microsoft.Win32.RegistryView]::Registry32)
+        }
+
+        function getVSPath($version) {
+            $lmKey = openLocalMachineKey
+            $vcKey = $lmKey.OpenSubKey(\"SOFTWARE\\Microsoft\\VisualStudio\\$version\\Setup\\VC\")
+
+            if ($vcKey -ne $null) {
+                $vcKey.GetValue('ProductDir')
+                $vcKey.Close()
+            }
+            $lmKey.Close()
+        }
+
+        function getUCRTVersion($wdkPath) {
+            $ucrtPath = Join-Path $wdkPath '\\Lib'
+            Get-ChildItem $ucrtPath -name -filter 10.* | sort -descending | select -first 1
+        }
+
+        function getWDKPath($version) {
+            $lmKey = openLocalMachineKey
+            $wdkRegInfo = $wdkRegKeyMap[$version]
+            $wdkKey = $lmKey.OpenSubKey($wdkRegInfo[0])
+
+            if ($wdkKey -ne $null) {
+                $wdkKey.GetValue($wdkRegInfo[1])
+                $wdkKey.Close()
+            }
+            $lmKey.Close()
+        }
+
+        function replaceLine($filename, $oldLine, $newLine) {
+            $content = gc $filename | % {$_.replace($oldLine, $newLine)}
+            $content | sc $filename
+        }
+
+        $vsPath, $vsPrefix = $vsPrefixMap.keys | % {$out = @{}} {$out[$_] = getVSPath $_} {$out.getenumerator()} |
+            ? {$_.value} | sort @{e={$_.key -as [float]}; descending=$true} | select -first 1 | % {$_.value.Trimend('\\'), $vsPrefixMap[$_.key]}
+
+        $wdkPath = $wdkRegKeyMap.GetEnumerator() | % {$_.Key} | % {getWDKPath $_} | select -first 1 | % {$_.Trimend('\\')}
+
+        $iniFile = Join-Path $dir '\\windows\\bin\\sc.ini'
+
+        if (!$vsPath) {
+            'Could not detect Visual Studio (2008-2015 are supported). No 64-bit support.'
+        }
+        else {
+            replaceLine $iniFile $vsPrefix ''
+            replaceLine $inifile ';VCINSTALLDIR=' \"VCINSTALLDIR=$vsPath\"
+        }
+
+        if (!$wdkPath) {
+            'Could not detect Windows SDK (6.0A-10.0 are supported). No 64-bit support.'
+        }
+        else {
+            $ucrtVersion = getUCRTVersion $wdkPath
+
+            if ($ucrtVersion) {
+                replaceLine $iniFile ';UCRTVersion=' \"UCRTVersion=$ucrtVersion\"
+                replaceLine $iniFile ';UniversalCRTSdkDir=' \"UniversalCRTSdkDir=$wdkPath\"
+            }
+
+            replaceLine $iniFile ';WindowsSdkDir=' \"WindowsSdkDir=$wdkPath\"
+        }
+    "
+}

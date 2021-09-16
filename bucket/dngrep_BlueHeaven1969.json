@@ -1,0 +1,40 @@
+{
+    "homepage": "http://dngrep.github.io/",
+    "description": "Graphical GREP tool for Windows",
+    "version": "2.9.378",
+    "license": "GPL-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/dnGrep/dnGrep/releases/download/v2.9.378.0/dnGREP.2.9.378.x64.msi",
+            "hash": "e1bf344ba90f4b0100839bcee0f62e81d5463e246914613639a2de24b6e8c0a8"
+        },
+        "32bit": {
+            "url": "https://github.com/dnGrep/dnGrep/releases/download/v2.9.378.0/dnGREP.2.9.378.x86.msi",
+            "hash": "e882ae81a16a91ecf76a0fcc209cadc210a79a02a6a3ff2503cad2d3dd6512f6"
+        }
+    },
+    "bin": "dnGREP.exe",
+    "checkver": {
+        "url": "https://github.com/dnGrep/dnGrep/releases",
+        "regex": "dnGREP.([\\d.]+).x64.msi"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/dnGrep/dnGrep/releases/download/v$version.0/dnGREP.$version.x64.msi"
+            },
+            "32bit": {
+                "url": "https://github.com/dnGrep/dnGrep/releases/download/v$version.0/dnGREP.$version.x86.msi"
+            }
+        }
+    },
+    "shortcuts": [
+        [
+            "dnGREP.exe",
+            "dnGREP"
+        ]
+    ],
+    "persist": "dnGREP.Settings.dat",
+    "pre_install": "Add-Content \"$dir\\dnGREP.Settings.dat\" $null",
+    "extract_dir": "dnGREP"
+}

@@ -1,0 +1,37 @@
+{
+    "homepage": "https://cemu.info",
+    "version": "1.25.3",
+    "description": "Wii U emulator",
+    "url": "http://cemu.info/releases/cemu_1.25.3.zip",
+    "hash": "15baec905eea7aebcb3047835797dbc6afbb5fd310342ec39f4bc5865ce911ef",
+    "extract_dir": "cemu_1.25.3",
+    "bin": "Cemu.exe",
+    "shortcuts": [
+        [
+            "Cemu.exe",
+            "Wii U"
+        ]
+    ],
+    "persist": [
+        "gameProfiles",
+        "controllerProfiles",
+        "graphicPacks",
+        "shaderCache/transferable",
+        "mlc01",
+        "settings.xml"
+    ],
+    "installer": {
+        "script": [
+            "if (-not (Test-Path $dir\\settings.xml)) {",
+            "  Start-Process $dir\\Cemu.exe; Start-Sleep -Seconds 1; Stop-Process -Name Cemu",
+            "}"
+        ]
+    },
+    "checkver": {
+        "regex": "Cemu ([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "http://cemu.info/releases/cemu_$version.zip",
+        "extract_dir": "cemu_$version"
+    }
+}

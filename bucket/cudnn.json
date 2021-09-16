@@ -1,0 +1,53 @@
+{
+    "version": "8.2.2.26",
+    "description": "NVIDIA CUDA Deep Neural Network (cuDNN) is a GPU-accelerated library of primitives for deep neural networks.",
+    "homepage": "https://developer.nvidia.com/rdp/cudnn-download",
+    "depends": [
+        "cuda",
+        "sudo"
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "http://developer.download.nvidia.com/compute/redist/cudnn/v8.2.2/cudnn-10.2-windows10-x64-v8.2.2.26.zip",
+            "hash": "27dee1094c49f4993754ddecd1e3bf4a14b1d4d43951cc5956d2375eb3bcb9f8"
+        }
+    },
+    "extract_dir": "cuda",
+    "installer": {
+        "script": [
+            "if (!$env:CUDA_PATH) {",
+            "    Write-Error \"Environment variable 'CUDA_PATH' not found.\"",
+            "    return",
+            "}",
+            "sudo Copy-Item -LiteralPath (Get-ChildItem -LiteralPath $dir).FullName -Destination $env:CUDA_PATH -Recurse -Force"
+        ]
+    },
+    "uninstaller": {
+        "script": [
+            "if (!$env:CUDA_PATH) {",
+            "    Write-Error \"Environment variable 'CUDA_PATH' not found.\"",
+            "    return",
+            "}",
+            "$cudnnFiles = Get-ChildItem -LiteralPath $env:CUDA_PATH -File -Recurse | Where-Object {",
+            "    $_.Name -like 'cudnn64.*.dll' -or",
+            "    $_.Name -like 'cudnn.h' -or",
+            "    $_.Name -like 'cudnn.lib'",
+            "}",
+            "sudo Remove-Item -LiteralPath $cudnnFiles -Force"
+        ]
+    },
+    "checkver": {
+        "url": "https://developer.nvidia.com/rdp/cudnn-archive",
+        "regex": "cudnn-(?<cudaversion>[\\d.]+)-windows10-x64-v([\\d.]+)\\.zip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "http://developer.download.nvidia.com/compute/redist/cudnn/v$matchHead/cudnn-$matchCudaversion-windows10-x64-v$version.zip",
+                "hash": {
+                    "url": "$url.sha256"
+                }
+            }
+        }
+    }
+}

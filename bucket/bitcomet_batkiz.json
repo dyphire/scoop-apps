@@ -1,0 +1,40 @@
+{
+    "version": "1.79",
+    "homepage": "https://www.bitcomet.com/",
+    "description": "BitComet is a powerful, super-fast and easy-to-use, free BitTorrent download client.",
+    "license": {
+        "identifier": "BitComet Software License Agreement",
+        "url": "https://www.bitcomet.com/en/license"
+    },
+    "url": "https://download.bitcomet.com/achive/BitComet_1.79.zip",
+    "hash": "141d9725a526b870a4b362110650452313e45f9f95af6b8afe442aa82ef8edc3",
+    "architecture": {
+        "32bit": {
+            "shortcuts": [
+                [
+                    "BitComet.exe",
+                    "BitComet"
+                ]
+            ]
+        },
+        "64bit": {
+            "shortcuts": [
+                [
+                    "BitComet_x64.exe",
+                    "BitComet"
+                ]
+            ]
+        }
+    },
+    "checkver": {
+        "url": "https://www.bitcomet.com/en/archive",
+        "regex": "BitComet_([\\d.]+)\\.zip"
+    },
+    "autoupdate": {
+        "url": "https://download.bitcomet.com/achive/BitComet_$version.zip",
+        "hash": {
+            "regex": "zip.*?SHA256.*?($sha256)",
+            "url": "https://www.bitcomet.com/en/archive"
+        }
+    }
+}

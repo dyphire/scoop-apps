@@ -1,0 +1,43 @@
+{
+    "version": "136",
+    "description": "Free PDF, eBook reader.",
+    "homepage": "https://www.sumatrapdfreader.org",
+    "license": "GPL-3.0-only,BSD-2-Clause",
+    "architecture": {
+        "64bit": {
+            "url": "https://kjkpub.s3.amazonaws.com/software/sumatrapdf/daily/SumatraPDF-prerel-13604-64.zip",
+            "hash": "8e17333729c90a19d536b8789cf1153a6ec12a30e04a76785906dc6e9b648433"
+        }
+    },
+    "pre_install": [
+        "Get-Item \"$dir\\SumatraPDF*.exe\" | Rename-Item -NewName 'SumatraPDF.exe'",
+        "$file = 'SumatraPDF-settings.txt'",
+        "if (-not (Test-Path \"$persist_dir\\$file\")) {",
+        "    Write-Host 'File' $file 'does not exists. Creating.' -f Yellow",
+        "    $CONT = @('CheckForUpdates = false')",
+        "    Set-Content \"$dir\\$file\" ($CONT -join \"`r`n\") -Encoding Ascii",
+        "}"
+    ],
+    "bin": "SumatraPDF.exe",
+    "shortcuts": [
+        [
+            "SumatraPDF.exe",
+            "SumatraPDF"
+        ]
+    ],
+    "persist": [
+        "SumatraPDF-settings.txt",
+        "sumatrapdfcache"
+    ],
+    "checkver": {
+        "url": "https://kjkpubsf.sfo2.digitaloceanspaces.com/software/sumatrapdf/sumadaily.js",
+        "regex": "var sumLatestVer = (?<version>[\\d\\.]+)(?<minor>[\\d][\\d]);"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://kjkpub.s3.amazonaws.com/software/sumatrapdf/daily/SumatraPDF-prerel-$version$matchMinor-64.zip"
+            }
+        }
+    }
+}

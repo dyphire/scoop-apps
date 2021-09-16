@@ -1,0 +1,46 @@
+{
+    "homepage": "https://www.mozilla.org/en-US/firefox/new/",
+    "description": "The 100% fresh, free-range, ethical browser, with more speed, privacy and freedom. This is the stable version, in en-US.",
+    "version": "92.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://download.mozilla.org/?product=firefox-92.0-SSL&os=win64&lang=en-US#/firefox-setup.exe#/dl.7z",
+            "hash": "fb2a1ae356544978332460a1b6d64c982fe09868063e64971e4ffe5a734bac20",
+            "extract_dir": "core"
+        },
+        "32bit": {
+            "url": "https://download.mozilla.org/?product=firefox-92.0-SSL&os=win&lang=en-US#/firefox-setup.exe#/dl.7z",
+            "hash": "3d8aa0e2c74114104387c7e6e369e19a2957d1b738c274bd3c1c2f3d69f1b5fa",
+            "extract_dir": "core"
+        }
+    },
+    "bin": "firefox.exe",
+    "shortcuts": [
+        [
+            "firefox.exe",
+            "Mozilla Firefox"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.mozilla.org/en-US/firefox/all/",
+        "re": "data-latest-firefox=\"([\\d.]+)\""
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download.mozilla.org/?product=firefox-$version-SSL&os=win64&lang=en-US#/firefox-setup.exe#/dl.7z",
+                "hash": {
+                    "find": "([a-fA-F0-9]{64})\\s+(?:win64/en-US/Firefox Setup ([\\d.]+).exe)",
+                    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/$version/SHA256SUMS"
+                }
+            },
+            "32bit": {
+                "url": "https://download.mozilla.org/?product=firefox-$version-SSL&os=win&lang=en-US#/firefox-setup.exe#/dl.7z",
+                "hash": {
+                    "find": "([a-fA-F0-9]{64})\\s+(?:win32/en-US/Firefox Setup ([\\d.]+).exe)",
+                    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/$version/SHA256SUMS"
+                }
+            }
+        }
+    }
+}

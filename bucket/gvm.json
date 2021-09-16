@@ -1,0 +1,38 @@
+{
+    "homepage": "https://github.com/andrewkroh/gvm",
+    "description": "Cross-platform Go Version Manager",
+    "version": "0.3.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/andrewkroh/gvm/releases/download/v0.3.0/gvm-windows-amd64.exe",
+            "hash": "6a8e193ee1fcc879103a4e865c8f3ca365b5a85a3e4c13184a854ae4ebff21ea",
+            "bin": [
+                [
+                    "gvm-windows-amd64.exe",
+                    "gvm"
+                ]
+            ]
+        },
+        "32bit": {
+            "url": "https://github.com/andrewkroh/gvm/releases/download/v0.3.0/gvm-windows-386.exe",
+            "hash": "cd197277fcaf2c442f377053160f67612c4cc4486c1b437830156d53b19c0403",
+            "bin": [
+                [
+                    "gvm-windows-386.exe",
+                    "gvm"
+                ]
+            ]
+        }
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/andrewkroh/gvm/releases/download/v$version/gvm-windows-amd64.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/andrewkroh/gvm/releases/download/v$version/gvm-windows-386.exe"
+            }
+        }
+    }
+}

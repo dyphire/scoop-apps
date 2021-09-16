@@ -1,0 +1,33 @@
+{
+    "homepage": "https://github.com/Hibbiki/chromium-win32",
+    "description": "Chromium for Windows x86, built by Hibbiki.",
+    "version": "88.0.4324.104-r1784",
+    "url": "https://github.com/Hibbiki/chromium-win32/releases/download/v88.0.4324.104-r1784/chrome.sync.7z",
+    "hash": "86d389d4d6145e202ba519e8c9afb77919af4ba45f92ce6b745c4b31000d6615",
+    "installer": {
+        "script": [
+            "Get-ChildItem -Path \"$dir\\Chrome-bin\" | Move-Item -Destination \"$dir\"",
+            "Remove-Item -Path \"$dir\\Chrome-bin\" -Recurse -Force"
+        ]
+    },
+    "bin": [
+        [
+            "chrome.exe",
+            "chromium-hibbiki"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "chrome.exe",
+            "Chromium x86 (by Hibbiki)"
+        ]
+    ],
+    "checkver": {
+        "url": "https://api.github.com/repos/Hibbiki/chromium-win32/releases/latest",
+        "jp": "tag_name",
+        "re": "(?:v|V)?([\\d.]+-r\\d+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/Hibbiki/chromium-win32/releases/download/v$version/chrome.sync.7z"
+    }
+}

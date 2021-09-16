@@ -1,0 +1,21 @@
+{
+    "version": "1.5.0.0",
+    "description": "The msstyleEditor is an editor for Windows 7, 8 and 10 visual styles (.msstyles files). It allows you to change visual styles without using a hex editor or a PE resource tool. It lists all components, can add/remove/modify the majority of properties, as well as extract and replace images.",
+    "homepage": "https://github.com/nptr/msstyleEditor/",
+    "license": {
+        "identifier": "MIT",
+        "url": "https://github.com/nptr/msstyleEditor/blob/master/LICENSE.txt"
+    },
+    "url": "https://github.com/nptr/msstyleEditor/releases/download/1.5.0.0/msstyleEditorX64.zip",
+    "hash": "dc23249a12a01916fc0a3716e1bf46f3b2af1e2283da37be1c65eb11fb81c90d",
+    "shortcuts": [
+        [
+            "msstyleEditor.exe",
+            "msstyleEditor"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/nptr/msstyleEditor/releases/download/$version/msstyleEditorX64.zip"
+    }
+}

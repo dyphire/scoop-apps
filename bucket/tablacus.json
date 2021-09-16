@@ -1,0 +1,38 @@
+{
+    "homepage": "https://tablacus.github.io/explorer_en.html",
+    "license": "MIT",
+    "version": "21.9.5",
+    "url": "https://github.com/tablacus/TablacusExplorer/releases/download/21.9.5/te210905.zip",
+    "hash": "7dd632778c35c7974fa63e61e9732191d27be5a9b208f3ad51f9a9dd4a1f6e19",
+    "architecture": {
+        "64bit": {
+            "pre_install": [
+                "Rename-Item \"$dir\\TE64.exe\" \"$dir\\TE.exe\"",
+                "Remove-Item \"$dir\\TE32.exe\" -Force"
+            ]
+        },
+        "32bit": {
+            "pre_install": [
+                "Rename-Item \"$dir\\TE32.exe\" \"$dir\\TE.exe\"",
+                "Remove-Item \"$dir\\TE64.exe\" -Force"
+            ]
+        }
+    },
+    "bin": "TE.exe",
+    "shortcuts": [
+        [
+            "TE.exe",
+            "Tablacus Explorer"
+        ]
+    ],
+    "persist": [
+        "config",
+        "addons"
+    ],
+    "checkver": {
+        "regex": "Version <span id=\"ver\">([\\d.]+)</span>[\\w\\W]*?te(?<cleanpadding>\\d+)\\.zip"
+    },
+    "autoupdate": {
+        "url": "https://github.com/tablacus/TablacusExplorer/releases/download/$version/te$matchCleanpadding.zip"
+    }
+}

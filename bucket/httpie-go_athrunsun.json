@@ -1,0 +1,14 @@
+{
+    "version": "0.6.0",
+    "description": "httpie-like HTTP client written in Go",
+    "homepage": "https://github.com/nojima/httpie-go",
+    "url": "https://github.com/nojima/httpie-go/releases/download/v0.6.0/httpie-go_windows.exe",
+    "hash": "787a5903e7e25c9df734cb57d760cc111d91db80344f0119ebf601f7876e4f6e",
+    "bin": [
+        ["httpie-go_windows.exe", "httpie-go"]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/nojima/httpie-go/releases/download/v$version/httpie-go_windows.exe"
+    }
+}

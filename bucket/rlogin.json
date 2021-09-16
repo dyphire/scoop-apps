@@ -1,0 +1,23 @@
+{
+    "homepage": "https://github.com/kmiya-culti/RLogin",
+    "version": "6430626",
+    "url": "https://github.com/kmiya-culti/RLogin/files/6430626/rlogin_x64.zip",
+    "hash": "b61a7126c2e710a7f117ce1f6a6bf56ac34069726e60c02b6d66c5165fe2a6a5",
+    "persist": "RLogin.ini",
+    "bin": "RLogin.exe",
+    "shortcuts": [
+        [
+            "RLogin.exe",
+            "RLogin"
+        ]
+    ],
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\RLogin.ini\")) {",
+        "    New-Item -Force -Path \"$dir\" -Name 'RLogin.ini' -Value '' | Out-Null",
+        "}"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/kmiya-culti/RLogin/files/$version/rlogin_x64.zip"
+    }
+}

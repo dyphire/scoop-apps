@@ -1,0 +1,21 @@
+{
+    "homepage": "http://www.info-zip.org",
+    "version": "3.0",
+    "license": "http://www.info-zip.org/doc/LICENSE",
+    "architecture": {
+        "32bit": {
+            "url": "http://fossies.org/windows/misc/zip300xn.zip",
+            "hash": "sha1:e5b6648f37486bd98e323c01aebed0f0968db829"
+        },
+        "64bit": {
+            "url": "http://fossies.org/windows/misc/zip300xn-x64.zip",
+            "hash": "sha1:6a7e45a2d7b5a3f5a55de3f4483a04e3d96b22af"
+        }
+    },
+    "bin": [
+        "zip.exe",
+        "zipcloak.exe",
+        "zipnote.exe",
+        "zipsplit.exe"
+    ]
+}

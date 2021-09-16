@@ -1,0 +1,14 @@
+{
+  "name": "php-bucket-utils",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:nueko/php-bucket.git",
+  "author": "nueko <nueko@yahoo.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "hasha": "^3.0.0",
+    "jsonfile": "^3.0.0",
+    "request": "^2.81.0"
+  }
+}

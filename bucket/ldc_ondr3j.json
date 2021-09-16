@@ -1,0 +1,21 @@
+{
+    "homepage": "https://wiki.dlang.org/LDC",
+    "version": "1.1.0-beta6",
+    "license": "https://raw.githubusercontent.com/ldc-developers/ldc/master/LICENSE",
+    "architecture": {
+        "32bit": {
+            "url": "https://github.com/ldc-developers/ldc/releases/download/v1.1.0-beta6/ldc2-1.1.0-beta6-win32-msvc.zip",
+            "hash": "sha1:eb9b557aedcd137bc2c2fc0e9315c01140e65f43",
+            "extract_dir": "ldc2-1.1.0-beta6-win32-msvc"
+        },
+        "64bit": {
+            "url": "https://github.com/ldc-developers/ldc/releases/download/v1.1.0-beta6/ldc2-1.1.0-beta6-win64-msvc.zip",
+            "hash": "sha1:e19975fafd99de62ff148c7f59467002192e5fa2",
+            "extract_dir": "ldc2-1.1.0-beta6-win64-msvc"
+        }
+    },
+    "bin": [
+        "bin\\ldc2.exe",
+        "bin\\ldmd2.exe"
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "version": "2.16.14",
+    "homepage": "http://winmerge.org",
+    "license": "GPL-2.0-only",
+    "url": "https://download3.portableapps.com/portableapps/WinMergePortable/WinMergePortable_2.16.14.paf.exe#/dl.7z",
+    "hash": "d521c663105754cf6469d3a983fcf28fb26b1cbaa6aa24b7114d34030be766af",
+    "bin": [
+        [
+            "WinMergePortable.exe",
+            "WinMerge"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "WinMergePortable.exe",
+            "WinMergePortable"
+        ]
+    ],
+    "pre_install": [
+        "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
+        "function DisableSplash([String] $portableappname) {",
+        "   $portableini = \"$dir\\$portableappname.ini\"",
+        "   if(!(test-path \"$portableini\")) {",
+        "       Copy-Item \"$dir\\Other\\Source\\AppNamePortable.ini\" \"$portableini\"",
+        "       (Get-Content \"$portableini\").replace('DisableSplashScreen=false', 'DisableSplashScreen=true') | Set-Content \"$portableini\"",
+        "   }",
+        "}",
+        "DisableSplash 'WinMergePortable'"
+    ],
+    "persist": [
+        "Data",
+        "App\\WinMerge\\MergePlugins",
+        "App\\WinMerge64\\MergePlugins"
+    ],
+    "post_install": [
+        "function PersistDirUpdate([String] $folder) {",
+        "   if(test-path \"$dir\\$folder.original\") {",
+        "       Write-Output \"[post_install] Persist Overwriting from original files - $folder\"",
+        "       Copy-Item \"$dir\\$folder.original\\*\" \"$dir\\$folder\" -Recurse -Force",
+        "       Remove-Item \"$dir\\$folder.original\" -Recurse -Force",
+        "   }",
+        "}",
+        "PersistDirUpdate 'App\\WinMerge\\MergePlugins'",
+        "PersistDirUpdate 'App\\WinMerge64\\MergePlugins'"
+    ],
+    "checkver": {
+        "url": "https://portableapps.com/apps/utilities/winmerge_portable",
+        "re": "Version ([\\d.]+) for Windows"
+    },
+    "autoupdate": {
+        "url": "https://download3.portableapps.com/portableapps/WinMergePortable/WinMergePortable_$version.paf.exe#/dl.7z"
+    },
+    "notes": [
+        "If WinMerge fails to start, you probably need to install the Microsoft Visual C++ 2008 Redistributable package:",
+        "https://www.microsoft.com/en-au/download/details.aspx?id=5582"
+    ]
+}

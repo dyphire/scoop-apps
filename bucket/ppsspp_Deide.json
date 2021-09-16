@@ -1,0 +1,55 @@
+{
+    "version": "1.11.3",
+    "license": "GPL-2.0-only",
+    "homepage": "https://www.ppsspp.org",
+    "description": "PSP Emulator",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.ppsspp.org/files/1_11_3/ppsspp_win.zip",
+            "hash": "8422c97c3167556664cd593c5acefe14de3111ca2965d7bf7840aec6398a0065",
+            "bin": [
+                [
+                    "PPSSPPWindows64.exe",
+                    "ppsspp"
+                ]
+            ],
+            "shortcuts": [
+                [
+                    "PPSSPPWindows64.exe",
+                    "PPSSPP"
+                ]
+            ]
+        },
+        "32bit": {
+            "url": "https://www.ppsspp.org/files/1_11_3/ppsspp_win.zip",
+            "hash": "8422c97c3167556664cd593c5acefe14de3111ca2965d7bf7840aec6398a0065",
+            "bin": [
+                [
+                    "PPSSPPWindows.exe",
+                    "ppsspp"
+                ]
+            ],
+            "shortcuts": [
+                [
+                    "PPSSPPWindows.exe",
+                    "PSP"
+                ]
+            ]
+        }
+    },
+    "persist": "memstick",
+    "checkver": {
+        "url": "https://www.ppsspp.org/downloads.html",
+        "re": "Download (\\d+\\.\\d+\\.\\d+) zip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.ppsspp.org/files/$underscoreVersion/ppsspp_win.zip"
+            },
+            "32bit": {
+                "url": "https://www.ppsspp.org/files/$underscoreVersion/ppsspp_win.zip"
+            }
+        }
+    }
+}

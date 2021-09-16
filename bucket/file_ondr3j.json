@@ -1,0 +1,11 @@
+{
+    "version": "5.29",
+    "homepage": "http://www.darwinsys.com/file/",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/nscaife/file-windows/releases/download/20170108/file-windows-20170108.zip",
+            "hash": "sha1:4bd77b0c72ee006f48f226291525b6c6f88789de"
+        }
+    },
+    "bin": "file.exe"
+}

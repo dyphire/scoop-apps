@@ -1,0 +1,24 @@
+{
+    "homepage": "https://fnm.vercel.app",
+    "description": "Fast and simple Node.js version manager, built in Rust",
+    "license": " GPL-3.0-only",
+    "version": "1.26.0",
+    "url": "https://github.com/Schniz/fnm/releases/download/v1.26.0/fnm-windows.zip",
+    "hash": "5a6e4de11c2fdefbf7dbdf4e9a1448003ee8f5b42bd62363941749b20f8df6a2",
+    "bin": "fnm.exe",
+    "checkver": {
+        "github": "https://github.com/Schniz/fnm"
+    },
+    "autoupdate": {
+        "url": "https://github.com/Schniz/fnm/releases/download/v$version/fnm-windows.zip"
+    },
+    "notes": [
+        "To use fnm, add following code to your PowerShell PROFILE:",
+        "",
+        "(& fnm env --use-on-cd) | Out-String | Invoke-Expression",
+        "",
+        "To use fnm tab-completions, add following code to your PowerShell PROFILE:",
+        "",
+        "(& fnm completions --shell powershell) | Out-String | Invoke-Expression"
+    ]
+}

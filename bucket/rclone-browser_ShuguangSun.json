@@ -1,0 +1,22 @@
+{
+    "homepage": "https://github.com/mmozeiko/RcloneBrowser",
+    "version": "1.2",
+    "license": "GPL",
+    "url": "https://github.com/mmozeiko/RcloneBrowser/releases/download/1.2/rclone-browser-1.2-a1156a0-win64.zip",
+    "hash": "a982f563c086ac83645347abbc4cea39ffd40386101f05fa1c343d1397aea29d",
+    "extract_dir": "rclone-browser-1.2-a1156a0-win64",
+    "shortcuts": [
+        [
+            "RcloneBrowser.exe",
+            "RcloneBrowser"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/mmozeiko/RcloneBrowser/releases/latest",
+        "re": "(?<version>[\\d\\w.]+)/rclone-browser-(?<long>[\\d.\\w.-]+)-win64\\.zip"
+    },
+    "autoupdate": {
+        "url": "https://github.com/mmozeiko/RcloneBrowser/releases/download/$matchVersion/rclone-browser-$matchLong-a1156a0-win64.zip",
+        "extract_dir": "rclone-browser-$matchLong-a1156a0-win64"
+    }
+}

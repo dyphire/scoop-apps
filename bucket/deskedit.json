@@ -1,0 +1,24 @@
+{
+    "homepage": "https://www.sordum.org/",
+    "license": "EULA",
+    "version": "1.0",
+    "url": "https://www.sordum.org/files/small-tools/DeskEdit.zip",
+    "hash": "918c73e69411bd0667af3654a84c03f7f9d9dd33f91018d8c3696ad65ab5f214",
+    "extract_dir": "DeskEdit",
+    "bin": "DeskEdit.exe",
+    "shortcuts": [
+        [
+            "DeskEdit.exe",
+            "Win\\Desktop.ini Editor"
+        ]
+    ],
+
+    "persist": "DeskEdit.ini",
+    "checkver": {
+        "url": "https://www.sordum.org/?s=DeskEdit",
+        "re": "Desktop.ini Editor v([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://www.sordum.org/files/small-tools/DeskEdit.zip"
+    }
+}

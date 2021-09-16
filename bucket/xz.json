@@ -1,0 +1,17 @@
+{
+    "homepage": "http://tukaani.org/xz/",
+    "version": "5.2.2",
+    "license": "http://tukaani.org/xz/#licensing",
+    "architecture": {
+        "64bit": {
+            "url": "http://patrovic.com/dl/xz-5.2.2-vc14-x64.zip",
+            "hash": "sha1:dbdc2d58c5e77514767a1759af831454c7240d4c"
+        }
+    },
+    "env_add_path": "bin",
+    "env_set": {
+        "XZ_HOME": "$dir",
+        "XZ_LIB": "$dir\\lib",
+        "XZ_INCLUDE": "$dir\\include"
+    }
+}

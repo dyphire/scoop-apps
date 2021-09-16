@@ -1,0 +1,40 @@
+{
+    "version": "0.34.2",
+    "license": "MIT",
+    "homepage": "https://github.com/be5invis/Sarasa-Gothic",
+    "url": "https://github.com/be5invis/Sarasa-Gothic/releases/download/v0.34.2/sarasa-gothic-ttc-0.34.2.7z",
+    "hash": "8ab435037bb426f7dc53ce2c3dc17390d1f2967cf29084202589fb62f54ac25d",
+    "installer": {
+        "script": [
+            "$Destination = (New-Object -ComObject Shell.Application).Namespace(0x14)",
+            "$TempFolder  = \"C:\\Windows\\Temp\\Fonts\"",
+            "New-Item -ItemType Directory -Force -Path $SourceDir",
+            "New-Item $TempFolder -Type Directory -Force | Out-Null",
+            "Get-ChildItem -Path $dir -Filter '*.ttf','*.ttc','*.otf' | ForEach-Object {",
+            "    If (-not(Test-Path \"$env:windir\\Fonts\\$($_.Name)\")) {",
+            "        $Font = \"$TempFolder\\$($_.Name)\"",
+            "        Copy-Item $($_.FullName) -Destination $TempFolder",
+            "        $Destination.CopyHere($Font,0x10)",
+            "        Remove-Item $Font -Force",
+            "    }",
+            "}"
+        ]
+    },
+    "uninstaller": {
+        "script": [
+            "if(!(is_admin)) { error \"Admin rights are required, please run 'sudo scoop uninstall $app'\"; exit 1 }",
+            "Get-ChildItem $dir -filter 'sarasa*.ttf' | ForEach-Object {",
+            "    Remove-Item \"$env:windir\\Fonts\\$($_.Name)\" -Force -ErrorAction SilentlyContinue",
+            "}",
+            "(Get-Content -Path $dir\\fontCollection) | ForEach-Object {",
+            "    echo $_",
+            "    Remove-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name $_ -Force -ErrorAction SilentlyContinue",
+            "}",
+            "Write-Host \"The '$app' Font family has been uninstalled and will not be present after restarting your computer.\" -Foreground Magenta"
+        ]
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/be5invis/Sarasa-Gothic/releases/download/v$version/sarasa-gothic-ttc-$version.7z"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "homepage": "https://www.kaoriya.net/software/cmigemo/",
+    "description": "C/Migemo Library.",
+    "license": "MIT",
+    "version": "20110227",
+    "architecture": {
+        "64bit": {
+            "url": "http://files.kaoriya.net/cmigemo/cmigemo-default-win64-20110227.zip",
+            "bin": "cmigemo-default-win64/cmigemo.exe"
+        },
+        "32bit": {
+            "url": "http://files.kaoriya.net/cmigemo/cmigemo-default-win32-20110227.zip",
+            "bin": "cmigemo-default-win32/cmigemo.exe"
+        }
+    }
+}

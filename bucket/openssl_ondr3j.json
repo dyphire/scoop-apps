@@ -1,0 +1,12 @@
+{
+    "version": "1.0.2k",
+    "homepage": "https://www.openssl.org/",
+    "license": "https://www.openssl.org/source/license.txt",
+    "architecture": {
+        "64bit": {
+            "url": "http://windows.php.net/downloads/php-sdk/deps/vc14/x64/openssl-1.0.2k-vc14-x64.zip",
+            "hash": "sha1:fac1852391890d77ce594a054553d576d9a0943b"
+        }
+    },
+    "env_add_path": "bin"
+}

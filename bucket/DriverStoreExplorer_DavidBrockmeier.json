@@ -1,0 +1,21 @@
+{
+    "version": "0.11.72",
+    "description": "DriverStore Explorer [RAPR] makes it easier to deal with Windows driver store. Supported operations include enumeration, adding a driver package (stage), adding & installing, deletion and force deletion from the driver store.",
+    "homepage": "https://github.com/lostindark/DriverStoreExplorer/",
+    "license": {
+        "identifier": "MIT",
+        "url": "https://github.com/lostindark/DriverStoreExplorer/blob/master/LICENSE.txt"
+    },
+    "url": "https://github.com/lostindark/DriverStoreExplorer/releases/download/v0.11.72/DriverStoreExplorer.v0.11.72.zip",
+    "hash": "0193e6bbdf85d4ec118b7ccecb6837bd6ed38a8cd193de924d8028003ae712c5",
+    "shortcuts": [
+        [
+            "rapr.exe",
+            "DriverStore Explorer"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/lostindark/DriverStoreExplorer/releases/download/v$version/DriverStoreExplorer.v$version.zip"
+    }
+}
