@@ -19,8 +19,8 @@ jobs:
       run: bash .github/workflows/autoupdate.sh
     - name: Commit files
       run: |
-        git config --local user.email "github-actions@noreply.github.com"
-        git config --local user.name "github-actions"
+        git config --local user.email "61936050+dyphire@users.noreply.github.com"
+        git config --local user.name "dyphire"
         git add .
         git commit -m "Update `date`" -a
     - name: Push changes
