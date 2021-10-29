@@ -1,12 +1,12 @@
 {
-    "version": "2022.01.1-daily+167",
+    "version": "2022.01.1-daily+172",
     "homepage": "https://www.rstudio.com/",
     "description": "An IDE for R, which includes a console, syntax-highlighting editor that supports direct code execution, as well as tools for plotting, history, debugging and workspace management.",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://s3.amazonaws.com/rstudio-ide-build/desktop/windows/RStudio-2022.01.1-daily-167.exe#/dl.7z",
-            "hash": "3b585ade31c3ef425fd086dc3ad38de2775ebba90210c992201778d11073b400"
+            "url": "https://s3.amazonaws.com/rstudio-ide-build/desktop/windows/RStudio-2022.01.1-daily-172.zip",
+            "hash": "7bb3dc1e4d95a7edfe2f8ed82553cbee407790c848515f49d6c118e47940bf1f"
         }
     },
     "bin": [
@@ -23,17 +23,17 @@
     ],
     "checkver": {
         "url": "https://dailies.rstudio.com/rstudio/latest/index.json",
-        "jsonpath": ".products.desktop.platforms['windows'].version",
+        "jsonpath": ".products.desktop.platforms['windows-xcopy'].version",
         "regex": "(?<date>[\\d.]+)(?<type>-daily)\\+(?<build>\\d+)",
         "replace": "${date}${type}+${build}"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://s3.amazonaws.com/rstudio-ide-build/desktop/windows/RStudio-$matchDate$matchType-$matchBuild.exe#/dl.7z",
+                "url": "https://s3.amazonaws.com/rstudio-ide-build/desktop/windows/RStudio-$matchDate$matchType-$matchBuild.zip",
                 "hash": {
                     "mode": "json",
-                    "jsonpath": ".products.desktop.platforms['windows'].sha256",
+                    "jsonpath": ".products.desktop.platforms['windows-xcopy'].sha256",
                     "url": "https://dailies.rstudio.com/rstudio/latest/index.json"
                 }
             }

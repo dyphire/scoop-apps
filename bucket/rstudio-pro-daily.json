@@ -1,12 +1,12 @@
 {
-    "version": "2022.01.1-daily+166.pro4",
+    "version": "2022.01.1-daily+171.pro1",
     "homepage": "https://www.rstudio.com/",
     "description": "An IDE for R, which includes a console, syntax-highlighting editor that supports direct code execution, as well as tools for plotting, history, debugging and workspace management.",
     "license": "https://rstudio.com/about/eula/",
     "architecture": {
         "64bit": {
-            "url": "https://s3.amazonaws.com/rstudio-ide-build/desktop/windows/RStudio-pro-2022.01.1-daily-166.pro4.exe#/dl.7z",
-            "hash": "5e1fdaaaf7cda1b46d07572760a7679a1e8d5b4bd2e3c0cf6d61d124f9667863"
+            "url": "https://s3.amazonaws.com/rstudio-ide-build/desktop/windows/RStudio-pro-2022.01.1-daily-171.pro1.zip",
+            "hash": "c3d526fc3b291f6acc6a0b3db4b0a4d8de58bb11efcab0c998b2578ba0559d2c"
         }
     },
     "bin": [
@@ -23,17 +23,17 @@
     ],
     "checkver": {
         "url": "https://dailies.rstudio.com/rstudio/latest/index.json",
-        "jsonpath": ".products['desktop-pro'].platforms['windows'].version",
+        "jsonpath": ".products['desktop-pro'].platforms['windows-xcopy'].version",
         "regex": "(?<date>[\\d.]+)(?<type>-daily)\\+(?<build>\\d+)(?<pro>\\.pro\\d+)",
         "replace": "${date}${type}+${build}${pro}"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://s3.amazonaws.com/rstudio-ide-build/desktop/windows/RStudio-pro-$matchDate$matchType-$matchBuild$matchPro.exe#/dl.7z",
+                "url": "https://s3.amazonaws.com/rstudio-ide-build/desktop/windows/RStudio-pro-$matchDate$matchType-matchBuild$matchPro.zip",
                 "hash": {
                     "mode": "json",
-                    "jsonpath": ".products['desktop-pro'].platforms['windows'].sha256",
+                    "jsonpath": ".products['desktop-pro'].platforms['windows-xcopy'].sha256",
                     "url": "https://dailies.rstudio.com/rstudio/latest/index.json"
                 }
             }
