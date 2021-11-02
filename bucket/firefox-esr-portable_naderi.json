@@ -1,6 +1,6 @@
 {
     "version": "78.15.0",
-    "description": "Extended Support Release of Firefox: the popular open source web browser",
+    "description": "Extended Support Release of Firefox: the popular open source web browser.",
     "homepage": "https://www.mozilla.org/en-US/firefox/organizations/",
     "license": "MPL-2.0",
     "architecture": {
@@ -17,16 +17,23 @@
     "bin": [
         [
             "firefox.exe",
-            "firefox-esr"
+            "firefox",
+            "-profile \"$dir\\profile\""
+        ],
+        [
+            "firefox.exe",
+            "firefox-esr",
+            "-profile \"$dir\\profile\""
         ]
     ],
     "shortcuts": [
         [
             "firefox.exe",
-            "Firefox ESR"
+            "Firefox ESR",
+            "-profile \"$dir\\profile\""
         ]
     ],
-    "persist": "distribution",
+    "persist": "profile",
     "checkver": {
         "url": "https://aus5.mozilla.org/update/6/Firefox/78.0/_/WINNT_x86_64-msvc-x64/en-US/esr/_/_/_/_/update.xml",
         "xpath": "/updates/update/@appVersion"
