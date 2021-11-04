@@ -37,7 +37,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - borger/scoop-galaxy-integrations
 - Calinou/scoop-games
 - TheCjw/scoop-retools
-- mintegrator/scoopet
+- ivaquero/scoopet
 - kodybrown/scoop-nirsoft
 - Ash258/Scoop-JetBrains
 - ScoopInstaller/Versions
@@ -54,8 +54,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - TheRandomLabs/Scoop-Bucket
 - tetradice/scoop-iyokan-jp
 - cderv/r-bucket
-- Qv2ray/mochi
 - wangzq/scoop-bucket
+- Qv2ray/mochi
 - ZvonimirSun/scoop-iszy
 - zhoujin7/tomato
 - dodorz/scoop
