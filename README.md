@@ -48,9 +48,9 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - MCOfficer/scoop-nirsoft
 - everyx/scoop-bucket
 - KNOXDEV/wsl
+- hermanjustnu/scoop-emulators
 - Ash258/Scoop-Sysinternals
 - echoiron/echo-scoop
-- hermanjustnu/scoop-emulators
 - TheRandomLabs/Scoop-Bucket
 - tetradice/scoop-iyokan-jp
 - cderv/r-bucket
