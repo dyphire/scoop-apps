@@ -1,0 +1,46 @@
+{
+    "description": "Popular open source web browser. Cross-platform and available in many languages.",
+    "homepage": "https://www.mozilla.org/zh-CN/firefox/new/",
+    "version": "94.0.1",
+    "license": "MPL-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/94.0.1/win64/zh-CN/Firefox%20Setup%2094.0.1.exe#/firefox.7z",
+            "hash": "sha512:bcd3738301d61fe82309c624f666520df1a14df7dfefc77b96e9ae51592109f345cb5295d4ea01205a668dce88ece224a8e4038b72c36dc88e9b52bfed59ab0f"
+        },
+        "32bit": {
+            "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/94.0.1/win32/zh-CN/Firefox%20Setup%2094.0.1.exe#/firefox.7z",
+            "hash": "sha512:067903bda084ffff32f3f1d27d694a5f1e17160f0b3f033077734b1036c85ef574b20d34a393a6921ca1b4070db45202ce79b6298018f9de8cc49561967ba96c"
+        }
+    },
+    "extract_dir": "core",
+    "bin": "firefox.exe",
+    "shortcuts": [
+        [
+            "firefox.exe",
+            "Mozilla Firefox"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.mozilla.org/zh-CN/firefox/all/",
+        "re": "data-latest-firefox=\"([\\d.]+)\""
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/$version/win64/zh-CN/Firefox%20Setup%20$version.exe#/firefox.7z",
+                "hash": {
+                    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/$version/SHA512SUMS",
+                    "regex": "$sha512\\s+win64/zh-CN/$basename"
+                }
+            },
+            "32bit": {
+                "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/$version/win32/zh-CN/Firefox%20Setup%20$version.exe#/firefox.7z",
+                "hash": {
+                    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/$version/SHA512SUMS",
+                    "regex": "$sha512\\s+win32/zh-CN/$basename"
+                }
+            }
+        }
+    }
+}

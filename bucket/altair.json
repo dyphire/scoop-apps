@@ -1,0 +1,36 @@
+{
+    "version": "4.1.0",
+    "description": "Feature-rich GraphQL Client",
+    "homepage": "https://altair.sirmuel.design",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/altair-graphql/altair/releases/download/v4.1.0/altair_4.1.0_x64_win.exe#/dl.7z",
+            "hash": "sha512:9f9d3652c8e57138b6b5bf0a362c91c7bf4b6db57464e34754c69ad44b3844ea527c152ae6b676e269ad9e19b3f56a05c4f1976461f4b95be3d59ad52c2b9126",
+            "pre_install": [
+                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+                "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Force -Recurse"
+            ]
+        }
+    },
+    "shortcuts": [
+        [
+            "Altair GraphQL Client.exe",
+            "Altair GraphQL Client"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/altair-graphql/altair"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/altair-graphql/altair/releases/download/v$version/altair_$version_x64_win.exe#/dl.7z",
+                "hash": {
+                    "url": "$baseurl/latest.yml",
+                    "regex": "sha512:\\s+$base64"
+                }
+            }
+        }
+    }
+}

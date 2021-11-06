@@ -1,0 +1,39 @@
+{
+    "homepage": "https://www.binance.com/",
+    "description": "Binance's cryptocurrency exchange. Trade. Anywhere.",
+    "version": "1.26.0",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://ftp.binance.com/electron-desktop/windows/production/binance-setup-1.26.0.exe#/binance-setup.7z",
+            "hash": "sha512:7bcc5552b518cebe87ce23c53d5fd0a32cf4d96e40cf38f3ea05227744fa46da45390f48729dc8367f0f22c083760dd43b882d8250776d04f590654850e542a7",
+            "installer": {
+                "script": [
+                    "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+                    "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninst*\" -Force -Recurse"
+                ]
+            }
+        }
+    },
+    "shortcuts": [
+        [
+            "Binance.exe",
+            "Binance"
+        ]
+    ],
+    "checkver": {
+        "url": "https://ftp.binance.com/electron-desktop/windows/production/latest.yml",
+        "regex": "binance-setup-([\\d.]+).exe"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://ftp.binance.com/electron-desktop/windows/production/binance-setup-$version.exe#/binance-setup.7z"
+            }
+        },
+        "hash": {
+            "url": "https://ftp.binance.com/electron-desktop/windows/production/latest.yml",
+            "regex": "(?sm)$version.exe.*?sha512: $base64"
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "version": "5.4.8",
+    "description": "Mudfish VPN. VPN service focused to boost network experience with various WAN Optimization.",
+    "homepage": "https://mudfish.net",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://mudfish.net/releases/mudfish-5.4.8-x86_64-win2k-setup.exe#/cosi.7z",
+            "hash": "a90b3f2fef6917869fbcd430bb6aa6dd7176639800f24f5597e229669bb9608e"
+        },
+        "32bit": {
+            "url": "https://mudfish.net/releases/mudfish-5.4.8-i386-win2k-setup.exe#/cosi.7z",
+            "hash": "53593ccf400333e9775c19747e5899418510cc955025bebf6693c13084d01b9a"
+        }
+    },
+    "pre_install": [
+        "try { Get-Command 'Test-Persistence' -ErrorAction 'Stop' | Out-Null } catch { error 'Shovel flavour of scoop is required'; exit 258 }",
+        "Remove-AppDirItem '$*'"
+    ],
+    "shortcuts": [
+        [
+            "mudrun.exe",
+            "Mudfish Dashboard"
+        ]
+    ],
+    "checkver": {
+        "url": "https://mudfish.net/download",
+        "regex": "<strong>v([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://mudfish.net/releases/mudfish-$version-x86_64-win2k-setup.exe#/cosi.7z"
+            },
+            "32bit": {
+                "url": "https://mudfish.net/releases/mudfish-$version-i386-win2k-setup.exe#/cosi.7z"
+            }
+        }
+    }
+}

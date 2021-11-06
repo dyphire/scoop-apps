@@ -1,0 +1,23 @@
+{
+    "version": "2021.1.3",
+    "description": "Tracks user's head movements and relaying the information to games and flight simulation software.",
+    "homepage": "https://github.com/opentrack/opentrack",
+    "license": "ISC",
+    "url": "https://github.com/opentrack/opentrack/releases/download/opentrack-2021.1.3/opentrack-win32-portable-2021.1.3.7z",
+    "hash": "a6b2f60efb1b99ba6cb8110bef4c6fd4850fcb0a980be484c62a3f5ae132c973",
+    "extract_dir": "install",
+    "bin": "opentrack.exe",
+    "shortcuts": [
+        [
+            "opentrack.exe",
+            "Opentrack"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/opentrack/opentrack",
+        "regex": "tag/opentrack-([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/opentrack/opentrack/releases/download/opentrack-$version/opentrack-win32-portable-$version.7z"
+    }
+}

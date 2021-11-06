@@ -1,0 +1,28 @@
+{
+    "version": "0.1.7",
+    "description": "VirusTotal Uploader. Simple file uploader to VirusTotal",
+    "homepage": "https://github.com/SamuelTulach/VirusTotalUploader",
+    "license": {
+        "identifier": "GPL-3.0-only",
+        "url": "https://github.com/SamuelTulach/VirusTotalUploader/blob/master/LICENSE"
+    },
+    "url": "https://github.com/SamuelTulach/VirusTotalUploader/releases/download/0.1.7/setup_anycpu.zip",
+    "hash": "19a0742ae3ad281622d648d77c95cea957b7b9634dc9e15e230c9ff97eb925f3",
+    "pre_install": [
+        "Rename-Item \"$dir\\uploader.exe\" 'installer.exe'",
+        "Expand-InnoArchive \"$dir\\installer.exe\" -Removal",
+        "Copy-Item \"$persist_dir\\vtu_settings.json\" $dir -ErrorAction SilentlyContinue -Force"
+    ],
+    "pre_uninstall": "Copy-Item \"$dir\\vtu_settings.json\" $persist_dir -ErrorAction SilentlyContinue -Force",
+    "shortcuts": [
+        [
+            "uploader.exe",
+            "VirusTotal Uploader"
+        ]
+    ],
+    "persist": "vtu_settings.json",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/SamuelTulach/VirusTotalUploader/releases/download/$version/setup_anycpu.zip"
+    }
+}

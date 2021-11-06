@@ -1,0 +1,46 @@
+{
+    "version": "91.3.0",
+    "description": "A free email application that’s easy to set up and customize.",
+    "homepage": "https://www.thunderbird.net/ja/",
+    "license": "MPL-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://archive.mozilla.org/pub/thunderbird/releases/91.3.0/win64/ja/Thunderbird%20Setup%2091.3.0.exe#/dl.7z",
+            "hash": "sha512:654501e716d5a356bc7529c15c56918f78fd157887ea8c783702674191a43e3724d0de5de431d1d445b8634e6dcbfcc29fdfd1c73f4d0272a8fb3c6de4d43763"
+        },
+        "32bit": {
+            "url": "https://archive.mozilla.org/pub/thunderbird/releases/91.3.0/win32/ja/Thunderbird%20Setup%2091.3.0.exe#/dl.7z",
+            "hash": "sha512:b6a7c0fb0515438a1ad4ec2fefdaf454b5e813588e475386e1b6911cfb2d61380e0105a6ab952cc33f1509d3ea3c2125d82add36a244ec1ccd0da332901a83c5"
+        }
+    },
+    "extract_dir": "core",
+    "bin": "thunderbird.exe",
+    "shortcuts": [
+        [
+            "thunderbird.exe",
+            "Mozilla Thunderbird"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.thunderbird.net/thunderbird/all/",
+        "regex": "thunderbird/([\\d.]+)/"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://archive.mozilla.org/pub/thunderbird/releases/$version/win64/ja/Thunderbird%20Setup%20$version.exe#/dl.7z",
+                "hash": {
+                    "url": "https://archive.mozilla.org/pub/thunderbird/releases/$version/SHA512SUMS",
+                    "regex": "$sha512\\s+win64/ja/$basename"
+                }
+            },
+            "32bit": {
+                "url": "https://archive.mozilla.org/pub/thunderbird/releases/$version/win32/ja/Thunderbird%20Setup%20$version.exe#/dl.7z",
+                "hash": {
+                    "url": "https://archive.mozilla.org/pub/thunderbird/releases/$version/SHA512SUMS",
+                    "regex": "$sha512\\s+win32/ja/$basename"
+                }
+            }
+        }
+    }
+}

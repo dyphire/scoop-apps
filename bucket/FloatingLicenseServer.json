@@ -1,0 +1,20 @@
+{
+    "version": "29591",
+    "description": "Floating License Server. Centralized license management and usage reporting for Jetbrains tools",
+    "homepage": "https://www.jetbrains.com/license-server/",
+    "license": "Unknown",
+    "url": "https://download.jetbrains.com/lcsrv/license-server-installer.msi",
+    "hash": "8c1d8ef295d9c11b966c915ad6b997f8b103ebf4e85931d56a406b7d24b46a07",
+    "extract_dir": "LicenseService",
+    "bin": "bin\\license-server.bat",
+    "checkver": {
+        "url": "https://www.jetbrains.com/help/license_server/release_notes.html",
+        "regex": "Build\\s+#([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://download.jetbrains.com/lcsrv/license-server-installer.msi",
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}

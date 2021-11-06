@@ -1,0 +1,28 @@
+{
+    "version": "5.8.3",
+    "description": "Video and audio conferencing, chat, and webinars",
+    "homepage": "https://zoom.us",
+    "license": {
+        "identifier": "Shareware",
+        "url": "https://zoom.us/terms"
+    },
+    "url": "https://www.zoom.us/client/latest/ZoomInstaller.exe#/dl.7z",
+    "hash": "2895655648e89508da4d6733c0eb0c33fb1fedb3ae1f007d173c42b29bd267c3",
+    "pre_install": [
+        "Expand-7zipArchive \"$dir\\Zoom.msi\" -Removal",
+        "Remove-Item \"$dir\\Install*\""
+    ],
+    "shortcuts": [
+        [
+            "Zoom.exe",
+            "Zoom"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.zoom.us/download",
+        "regex": "Version ([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://www.zoom.us/client/latest/ZoomInstaller.exe#/dl.7z"
+    }
+}

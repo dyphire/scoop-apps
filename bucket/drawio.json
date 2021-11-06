@@ -1,0 +1,22 @@
+{
+    "version": "15.4.0",
+    "homepage": "https://github.com/jgraph/drawio-desktop",
+    "license": "Apache-2.0",
+    "url": "https://github.com/jgraph/drawio-desktop/releases/download/v15.4.0/draw.io-15.4.0-windows-no-installer.exe",
+    "hash": "94e2c63266d2b79b79e6152db54ff21024d34cec64c89fbccb5a8d7c327e6289",
+    "pre_install": "Rename-Item -Path \"$dir\\draw.io-*.exe\" -NewName \"draw.io.exe\"",
+    "bin": "draw.io.exe",
+    "shortcuts": [
+        [
+            "draw.io.exe",
+            "draw.io"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/jgraph/drawio-desktop",
+        "regex": "tag/v([\\w.-]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/jgraph/drawio-desktop/releases/download/v$version/draw.io-$version-windows-no-installer.exe"
+    }
+}

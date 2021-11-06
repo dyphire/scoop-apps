@@ -1,0 +1,39 @@
+{
+    "homepage": "https://www.yuque.com/",
+    "description": "Professional note and document repositories",
+    "version": "0.9.31",
+    "license": {
+        "identifier": "EULA",
+        "url": "https://www.yuque.com/terms"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://app.nlark.com/yuque-desktop/Yuque-0.9.31.exe#/Yuque_0.9.31.7z",
+            "hash": "99f0a2f32016bbbfff94d53423f022a30e4db8b41b7cde57583d7a5f313bf6cd",
+            "installer": {
+                "script": [
+                    "Expand-7zipArchive \"$dir\\`$PLUGINSDIR/app-64.7z\" \"$dir\" -Removal",
+                    "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse"
+                ]
+            }
+        }
+    },
+    "shortcuts": [
+        [
+            "语雀.exe",
+            "语雀"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.yuque.com/yuque/yuque-desktop/changelog",
+        "regex": "载地址([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://app.nlark.com/yuque-desktop/Yuque-$version.exe#/Yuque_$version.7z"
+            }
+        }
+    },
+    "notes": "Your Yuque data are not persisted by Scoop and still storaged in '%APPDATA%\\yuque-desktop'."
+}

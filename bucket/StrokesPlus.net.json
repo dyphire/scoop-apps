@@ -1,0 +1,21 @@
+{
+    "homepage": "https://www.strokesplus.net/",
+    "license": "Proprietary",
+    "version": "0.5.5.0",
+    "url": "https://www.strokesplus.net/files/StrokesPlus.net_Portable_0.5.5.0.zip",
+    "hash": "680d5d05f23d7fb9f019393d47e15881d70ae90c8b85502320bd4381a3d940ed",
+    "bin": "StrokesPlus.net.exe",
+    "shortcuts": [
+        [
+            "StrokesPlus.net.exe",
+            "StrokesPlus.net"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.strokesplus.net/Downloads",
+        "regex": "<h4>Latest Release: <b>([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://www.strokesplus.net/files/StrokesPlus.net_Portable_$version.zip"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "homepage": "https://www.nikse.dk/SubtitleEdit/",
+    "license": "GNU",
+    "version": "3.6.2",
+    "url": "https://github.com/SubtitleEdit/subtitleedit/releases/download/3.6.2/SE362.zip",
+    "hash": "a337fcc34f7df3a1a4912b088cd9d2b3903edfb5a03996c4e731d17861e2f4c1",
+    "shortcuts": [
+        [
+            "SubtitleEdit.exe",
+            "Subtitle Edit"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/SubtitleEdit/subtitleedit"
+    },
+    "autoupdate": {
+        "url": "https://github.com/SubtitleEdit/subtitleedit/releases/download/$version/SE$cleanVersion.zip"
+    }
+}

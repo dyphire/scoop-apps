@@ -1,0 +1,18 @@
+{
+    "homepage": "https://www.douyu.com/client",
+    "version": "8.5.0.2",
+    "url": "https://sta-op.douyucdn.cn/dypc-client/pkg/Douyu_Live_PC_Client/20211021175656544/DouyuLive_8.5.0.2_Server_1.1.1.4.exe#/dl.7z",
+    "hash": "1e833083708b2ee584bed6003271351458bc59e325648b92b0d79107bde0471a",
+    "extract_dir": "Client",
+    "post_install": "Remove-Item \"$dir\\$version\\pctools\", \"$dir\\$version\\Update\" -Force -Recurse",
+    "shortcuts": [
+        [
+            "DouyuLive.exe",
+            "Douyu"
+        ]
+    ],
+    "checkver": "//(?<url>.+)/DouyuLive_([\\d\\.]+)_Server_(?<ver2>[\\d\\.]+)\\.exe",
+    "autoupdate": {
+        "url": "https://$matchUrl/DouyuLive_$version_Server_$matchVer2.exe#/dl.7z"
+    }
+}
