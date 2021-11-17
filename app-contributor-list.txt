@@ -231,6 +231,7 @@ teamspeak3.json    ScoopInstaller/Extras
 gammy.json    ScoopInstaller/Extras
 crystaldiskinfo.json    ScoopInstaller/Extras
 openark.json    ScoopInstaller/Extras
+bat2exe.json    ScoopInstaller/Extras
 fat32format-gui.json    ScoopInstaller/Extras
 macintosh.js.json    ScoopInstaller/Extras
 winmerge2011.json    ScoopInstaller/Extras
@@ -3023,6 +3024,7 @@ CLion-EAP.json    Ash258/Scoop-JetBrains
 IntelliJ-IDEA-Education-portable.json    Ash258/Scoop-JetBrains
 php73-xdebug.json    ScoopInstaller/Versions
 sbt013.json    ScoopInstaller/Versions
+wox-beta.json    ScoopInstaller/Versions
 elasticsearch2.json    ScoopInstaller/Versions
 7zip-beta.json    ScoopInstaller/Versions
 mongodb34.json    ScoopInstaller/Versions
@@ -3047,6 +3049,8 @@ slack-beta.json    ScoopInstaller/Versions
 imagemagick-ffmpeg.json    ScoopInstaller/Versions
 dotnet-sdk-lts.json    ScoopInstaller/Versions
 spotbugs-beta.json    ScoopInstaller/Versions
+gcc-msys.json    ScoopInstaller/Versions
+v-weekly.json    ScoopInstaller/Versions
 springboot15.json    ScoopInstaller/Versions
 rclone-beta.json    ScoopInstaller/Versions
 helm2.json    ScoopInstaller/Versions
@@ -3073,7 +3077,9 @@ stunnel549.json    ScoopInstaller/Versions
 postgresql10.json    ScoopInstaller/Versions
 stunnel-beta.json    ScoopInstaller/Versions
 openssl10-light.json    ScoopInstaller/Versions
+gcc-ucrt.json    ScoopInstaller/Versions
 deepgit402.json    ScoopInstaller/Versions
+gcc-llvm.json    ScoopInstaller/Versions
 php71.json    ScoopInstaller/Versions
 graphicsmagick-q16.json    ScoopInstaller/Versions
 vivaldi-beta.json    ScoopInstaller/Versions
@@ -3110,6 +3116,7 @@ openssl-light.json    ScoopInstaller/Versions
 python39.json    ScoopInstaller/Versions
 ruby25.json    ScoopInstaller/Versions
 lua-joedf.json    ScoopInstaller/Versions
+openrgb-nightly.json    ScoopInstaller/Versions
 php73.json    ScoopInstaller/Versions
 php55.json    ScoopInstaller/Versions
 nodejs14.json    ScoopInstaller/Versions
@@ -3124,6 +3131,7 @@ miniconda2_ScoopInstaller.json    ScoopInstaller/Versions
 elasticsearch5.json    ScoopInstaller/Versions
 wget120.json    ScoopInstaller/Versions
 nodejs12.json    ScoopInstaller/Versions
+gcc-llvm-ucrt.json    ScoopInstaller/Versions
 gitea-beta.json    ScoopInstaller/Versions
 7zip-zstd.json    ScoopInstaller/Versions
 ant19.json    ScoopInstaller/Versions
@@ -3146,6 +3154,7 @@ love10.json    ScoopInstaller/Versions
 msys2-20200517.json    ScoopInstaller/Versions
 python-beta.json    ScoopInstaller/Versions
 nodejs7.json    ScoopInstaller/Versions
+cuda80.json    ScoopInstaller/Versions
 openssl10.json    ScoopInstaller/Versions
 flow031.json    ScoopInstaller/Versions
 nodejs11.json    ScoopInstaller/Versions
@@ -5667,7 +5676,7 @@ miniconda3_AStupidBear.json    AStupidBear/scoop-bear
 regextester.json    AStupidBear/scoop-bear
 eudic_AStupidBear.json    AStupidBear/scoop-bear
 llvm.json    AStupidBear/scoop-bear
-bat2exe.json    AStupidBear/scoop-bear
+bat2exe_AStupidBear.json    AStupidBear/scoop-bear
 bulk-rename-utility_AStupidBear.json    AStupidBear/scoop-bear
 anaconda3_AStupidBear.json    AStupidBear/scoop-bear
 wiznote_AStupidBear.json    AStupidBear/scoop-bear
@@ -6219,7 +6228,6 @@ offzip.json    excitoon/scoop-user
 libiconv-dev.json    excitoon/scoop-user
 gcc72.json    excitoon/scoop-user
 gpxsee.json    excitoon/scoop-user
-figma_naderi.json    naderi/scoop-bucket
 sonarr.json    naderi/scoop-bucket
 win-bash_naderi.json    naderi/scoop-bucket
 xpdf-reader.json    naderi/scoop-bucket
