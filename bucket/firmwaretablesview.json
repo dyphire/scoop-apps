@@ -1,9 +1,17 @@
 {
-    "homepage": "https://www.nirsoft.net/utils/firmware_tables_view.html",
-    "checkver": "FirmwareTablesView v([\\d.]+)",
     "version": "1.01",
-    "license": "freeware",
-    "description": "FirmwareTablesView is a simple tool for Windows that displays a list of firmware tables (ACPI, SMBIOS) stored on your system. You can view the content of these tables in Hex-dump format and export them to a binary file.",
+    "homepage": "https://www.nirsoft.net/utils/firmware_tables_view.html",
+    "bin": "FirmwareTablesView.exe",
+    "shortcuts": [
+        [
+            "FirmwareTablesView.exe",
+            "NirSoft\\FirmwareTablesView"
+        ]
+    ],
+    "persist": [
+        "firmwaretablesview_lng.ini",
+        "firmwaretablesview.cfg"
+    ],
     "architecture": {
         "64bit": {
             "url": "https://www.nirsoft.net/utils/firmwaretablesview-x64.zip",
@@ -14,6 +22,13 @@
             "hash": "ccbcef06ca073392d1f2ac1be63968fecc2f1e3cb855508ac1d5d9e22493c82e"
         }
     },
+    "description": "Displays a list of firmware tables (ACPI, SMBIOS) stored on your system.",
+    "license": "Freeware",
+    "notes": "If this application is useful to you, please consider donating to nirsoft.",
+    "checkver": {
+        "url": "https://www.nirsoft.net/pad/firmwaretablesview.xml",
+        "xpath": "/XML_DIZ_INFO/Program_Info/Program_Version"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
@@ -23,12 +38,5 @@
                 "url": "https://www.nirsoft.net/utils/firmwaretablesview.zip"
             }
         }
-    },
-    "bin": "FirmwareTablesView.exe",
-    "shortcuts": [
-        [
-            "FirmwareTablesView.exe",
-            "NirSoft\\FirmwareTablesView"
-        ]
-    ]
+    }
 }
