@@ -1,9 +1,9 @@
 {
     "homepage": "https://www.wiz.cn",
     "description": "a cross-platform cloud based note-taking client",
-    "version": "4.13.27",
+    "version": "4.13.32",
     "license": "freemium",
-    "url": "https://get.wiz.cn/wiznote-windows-x86-2021-06-25.exe#/wiznote.exe",
+    "url": "https://url.wiz.cn/u/windows#/wiznote.exe",
     "installer": {
         "script": [
             "Expand-InnoArchive -Path \"$dir\\wiznote.exe\" -Removal",
