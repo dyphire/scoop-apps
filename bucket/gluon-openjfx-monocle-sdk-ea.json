@@ -4,21 +4,21 @@
     "version": "18-7",
     "license": "GPL-2.0-only WITH Classpath-exception-2.0",
     "suggest": {
-        "JFX": "java/gluon-openjfx-sdk-ea"
+        "JDK": "java/openjdk"
     },
     "architecture": {
         "64bit": {
-            "url": "https://download2.gluonhq.com/openjfx/18/openjfx-18-ea%2B7_windows-x64_bin-jmods.zip",
-            "hash": "e073dd4c1d5229e8b3b3a17967b04bc1f58f5e2f1b4c55ece4335d549d63499e"
+            "url": "https://download2.gluonhq.com/openjfx/18/openjfx-18-ea%2B7_monocle-windows-x64_bin-sdk.zip",
+            "hash": "11028a4db565be2adabb42a1e589732a9a274ea49e8674d5720fb44a50c898e2"
         },
         "32bit": {
-            "url": "https://download2.gluonhq.com/openjfx/18/openjfx-18-ea%2B7_windows-x86_bin-jmods.zip",
-            "hash": "d7ee350fb98d41d3f6b3da2c79c3079bf2350a34de53b3620d7b77cec0d6912f"
+            "url": "https://download2.gluonhq.com/openjfx/18/openjfx-18-ea%2B7_monocle-windows-x86_bin-sdk.zip",
+            "hash": "8e0fa3a6f1d7867d780356fe2f5f8df58fe687489df6111abbd8d673bf48b705"
         }
     },
-    "extract_dir": "javafx-jmods-18",
+    "extract_dir": "javafx-sdk-18-7",
     "env_set": {
-        "PATH_TO_FX_MODS": "$dir"
+        "PATH_TO_FX": "$dir\\lib"
     },
     "checkver": {
         "url": "https://gluonhq.com/wp-content/uploads/custom-css-js/119502.js",
@@ -28,13 +28,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download2.gluonhq.com/openjfx/$matchMajor/openjfx-$matchMajor-ea%2B$matchBuild_windows-x64_bin-jmods.zip"
+                "url": "https://download2.gluonhq.com/openjfx/$matchMajor/openjfx-$matchMajor-ea%2B$matchBuild_monocle-windows-x64_bin-sdk.zip"
             },
             "32bit": {
-                "url": "https://download2.gluonhq.com/openjfx/$matchMajor/openjfx-$matchMajor-ea%2B$matchBuild_windows-x86_bin-jmods.zip"
+                "url": "https://download2.gluonhq.com/openjfx/$matchMajor/openjfx-$matchMajor-ea%2B$matchBuild_monocle-windows-x86_bin-sdk.zip"
             }
         },
-        "extract_dir": "javafx-jmods-$matchMajor",
+        "extract_dir": "javafx-sdk-$version",
         "hash": {
             "url": "$url.sha256"
         }
