@@ -33,8 +33,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - Ash258/Shovel-Ash258
 - matthewjberger/scoop-nerd-fonts
 - ScoopInstaller/Java
-- TheRandomLabs/scoop-nonportable
 - Calinou/scoop-games
+- TheRandomLabs/scoop-nonportable
 - borger/scoop-galaxy-integrations
 - TheCjw/scoop-retools
 - ivaquero/scoopet
