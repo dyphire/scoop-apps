@@ -61,9 +61,9 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - zhoujin7/tomato
 - ScoopInstaller/PHP
 - kiennq/scoop-misc
+- scoopcn/scoopcn
 - TheRandomLabs/Scoop-Python
 - borger/scoop-emulators
-- scoopcn/scoopcn
 - Paxxs/Cluttered-bucket
 - wzv5/ScoopBucket
 - Ash258/Scoop-NirSoft
