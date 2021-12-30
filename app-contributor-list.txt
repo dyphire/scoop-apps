@@ -245,6 +245,7 @@ renderdoc.json    ScoopInstaller/Extras
 ditto.json    ScoopInstaller/Extras
 sdl2.json    ScoopInstaller/Extras
 nimbleset.json    ScoopInstaller/Extras
+roslynpad.json    ScoopInstaller/Extras
 kate.json    ScoopInstaller/Extras
 fbflipper.json    ScoopInstaller/Extras
 encryptpad.json    ScoopInstaller/Extras
@@ -747,7 +748,6 @@ sharik.json    ScoopInstaller/Extras
 keepass-plugin-keetraytotp.json    ScoopInstaller/Extras
 sweethome3d.json    ScoopInstaller/Extras
 rclone-browser.json    ScoopInstaller/Extras
-xmind8.json    ScoopInstaller/Extras
 everything-lite.json    ScoopInstaller/Extras
 vidi.json    ScoopInstaller/Extras
 stone-soup-tiles.json    ScoopInstaller/Extras
@@ -853,6 +853,7 @@ aegisubdc.json    ScoopInstaller/Extras
 beekeeper-studio.json    ScoopInstaller/Extras
 thonny.json    ScoopInstaller/Extras
 palemoon.json    ScoopInstaller/Extras
+shadowsocks-v2ray-plugin.json    ScoopInstaller/Extras
 format-factory.json    ScoopInstaller/Extras
 elasticsearch.json    ScoopInstaller/Extras
 cabal-mini.json    ScoopInstaller/Extras
@@ -961,6 +962,7 @@ tachidesk-server.json    ScoopInstaller/Extras
 skype.json    ScoopInstaller/Extras
 cfssl.json    ScoopInstaller/Extras
 librehardwaremonitor.json    ScoopInstaller/Extras
+macrocreator.json    ScoopInstaller/Extras
 qimgv.json    ScoopInstaller/Extras
 hwinfo.json    ScoopInstaller/Extras
 gimp.json    ScoopInstaller/Extras
@@ -1057,6 +1059,7 @@ baretail.json    ScoopInstaller/Extras
 eclipse-android.json    ScoopInstaller/Extras
 mediacreationtool.json    ScoopInstaller/Extras
 hexchat.json    ScoopInstaller/Extras
+folding-at-home.json    ScoopInstaller/Extras
 eclipse-sdk.json    ScoopInstaller/Extras
 pspad.json    ScoopInstaller/Extras
 googlechrome-portable.json    ScoopInstaller/Extras
@@ -1167,6 +1170,7 @@ so.json    ScoopInstaller/Extras
 lantern-client.json    ScoopInstaller/Extras
 qmk-toolbox.json    ScoopInstaller/Extras
 kicad.json    ScoopInstaller/Extras
+qtscrcpy.json    ScoopInstaller/Extras
 vcredist2013-portable.json    ScoopInstaller/Extras
 grepwin.json    ScoopInstaller/Extras
 openvpn.json    ScoopInstaller/Extras
@@ -1415,6 +1419,7 @@ xnconvert.json    ScoopInstaller/Extras
 taskbarx.json    ScoopInstaller/Extras
 pulseview.json    ScoopInstaller/Extras
 signal.json    ScoopInstaller/Extras
+remove-empty-directories.json    ScoopInstaller/Extras
 subtitleedit.json    ScoopInstaller/Extras
 waterfox.json    ScoopInstaller/Extras
 impregnate.json    ScoopInstaller/Extras
@@ -1471,9 +1476,11 @@ x64dbg.json    ScoopInstaller/Extras
 praat.json    ScoopInstaller/Extras
 shadowsocks.json    ScoopInstaller/Extras
 darteditor.json    ScoopInstaller/Extras
+xmind.json    ScoopInstaller/Extras
 wireshark.json    ScoopInstaller/Extras
 texmaker.json    ScoopInstaller/Extras
 cdburnerxp.json    ScoopInstaller/Extras
+ubports-installer.json    ScoopInstaller/Extras
 transmission.json    ScoopInstaller/Extras
 emule.json    ScoopInstaller/Extras
 amazon-workspaces.json    ScoopInstaller/Extras
@@ -1675,7 +1682,7 @@ microsoftedge.json    chawyehsu/dorado
 kodi.json    chawyehsu/dorado
 qq_chawyehsu.json    chawyehsu/dorado
 texlive-full.json    chawyehsu/dorado
-qtscrcpy.json    chawyehsu/dorado
+qtscrcpy_chawyehsu.json    chawyehsu/dorado
 microsoftedge-beta.json    chawyehsu/dorado
 phpstudy-lagecy-scoop.json    chawyehsu/dorado
 wechat.json    chawyehsu/dorado
@@ -3044,6 +3051,7 @@ xournalpp-nightly.json    ScoopInstaller/Versions
 graphicsmagick-q16.json    ScoopInstaller/Versions
 elasticsearch5.json    ScoopInstaller/Versions
 rust-nightly.json    ScoopInstaller/Versions
+xmind8.json    ScoopInstaller/Versions
 sbt013.json    ScoopInstaller/Versions
 megatools-beta.json    ScoopInstaller/Versions
 protobuf312.json    ScoopInstaller/Versions
@@ -3724,7 +3732,7 @@ SourceHanSansHK.json    everyx/scoop-bucket
 SourceHanSerifTW.json    everyx/scoop-bucket
 SourceHanSansKR.json    everyx/scoop-bucket
 v2rayn-rules-dat.json    everyx/scoop-bucket
-xmind.json    everyx/scoop-bucket
+xmind_everyx.json    everyx/scoop-bucket
 SunloginClient_everyx.json    everyx/scoop-bucket
 xyplorer_echoiron.json    echoiron/echo-scoop
 dismpp.json    echoiron/echo-scoop

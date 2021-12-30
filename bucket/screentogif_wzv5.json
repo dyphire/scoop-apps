@@ -1,10 +1,18 @@
 {
     "homepage": "https://www.screentogif.com/",
-    "version": "2.34.1",
+    "version": "2.35.3",
     "description": "Screen, webcam and sketchboard recorder with an integrated editor.",
     "license": "MS-PL",
-    "url": "https://github.com/NickeManarin/ScreenToGif/releases/download/2.34.1/ScreenToGif.2.34.1.Portable.zip",
-    "hash": "67f821bed7f34ebbb7ba8a91cce1fdc1429279aa1489fcaaa5127687c86b8fce",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/NickeManarin/ScreenToGif/releases/download/2.35.3/ScreenToGif.2.35.3.Portable.x64.zip",
+            "hash": "dada66bba884b3957fd9f3eaa6f19be8e1cc105ddde17d34d3cb7c70243607d9"
+        },
+        "32bit": {
+            "url": "https://github.com/NickeManarin/ScreenToGif/releases/download/2.35.3/ScreenToGif.2.35.3.Portable.x86.zip",
+            "hash": "4c7e6355c8085014d3062154662fd820f1f5278cf905d8e0fedf71e81a02192e"
+        }
+    },
     "pre_install": [
         "if (-not (Test-Path \"$persist_dir/Settings.xaml\")) {",
         "    $filecontent = '<ResourceDictionary xmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\" xmlns:s=\"clr-namespace:System;assembly=mscorlib\" xmlns:x=\"http://schemas.microsoft.com/winfx/2006/xaml\" xmlns:stgu=\"clr-namespace:ScreenToGif.Util;assembly=ScreenToGif\">'",
@@ -28,6 +36,13 @@
         "github": "https://github.com/NickeManarin/ScreenToGif"
     },
     "autoupdate": {
-        "url": "https://github.com/NickeManarin/ScreenToGif/releases/download/$version/ScreenToGif.$version.Portable.zip"
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/NickeManarin/ScreenToGif/releases/download/$version/ScreenToGif.$version.Portable.x64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/NickeManarin/ScreenToGif/releases/download/$version/ScreenToGif.$version.Portable.x86.zip"
+            }
+        }
     }
 }
