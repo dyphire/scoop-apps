@@ -49,7 +49,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - everyx/scoop-bucket
 - echoiron/echo-scoop
 - hermanjustnu/scoop-emulators
-- Ash258/Scoop-Sysinternals
 - tetradice/scoop-iyokan-jp
 - TheRandomLabs/Scoop-Bucket
 - cderv/r-bucket
@@ -65,7 +64,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - borger/scoop-emulators
 - wzv5/ScoopBucket
 - Paxxs/Cluttered-bucket
-- Ash258/Scoop-NirSoft
 - AStupidBear/scoop-bear
 - ChungZH/peach
 - nueko/scoop-php
