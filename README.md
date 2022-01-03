@@ -47,8 +47,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - MCOfficer/scoop-nirsoft
 - KNOXDEV/wsl
 - everyx/scoop-bucket
-- echoiron/echo-scoop
 - hermanjustnu/scoop-emulators
+- echoiron/echo-scoop
 - tetradice/scoop-iyokan-jp
 - TheRandomLabs/Scoop-Bucket
 - cderv/r-bucket
@@ -60,9 +60,9 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - ScoopInstaller/PHP
 - scoopcn/scoopcn
 - kiennq/scoop-misc
-- TheRandomLabs/Scoop-Python
 - borger/scoop-emulators
 - wzv5/ScoopBucket
+- TheRandomLabs/Scoop-Python
 - Paxxs/Cluttered-bucket
 - AStupidBear/scoop-bear
 - ChungZH/peach
