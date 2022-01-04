@@ -70,6 +70,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - naderi/scoop-bucket
 - excitoon/scoop-user
 - jfut/scoop-jfut
+- hoilc/scoop-lemon
+- iquiw/scoop-bucket
 - 42wim/scoop-bucket
 - Darkatse/Scoop-Darkatse
 - krproject/qi-windows
