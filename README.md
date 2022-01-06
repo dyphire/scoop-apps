@@ -66,11 +66,11 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - Paxxs/Cluttered-bucket
 - AStupidBear/scoop-bear
 - ChungZH/peach
+- hoilc/scoop-lemon
 - nueko/scoop-php
 - naderi/scoop-bucket
 - excitoon/scoop-user
 - jfut/scoop-jfut
-- hoilc/scoop-lemon
 - iquiw/scoop-bucket
 - 42wim/scoop-bucket
 - Darkatse/Scoop-Darkatse
