@@ -40,8 +40,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - kodybrown/scoop-nirsoft
 - Ash258/Scoop-JetBrains
 - ScoopInstaller/Versions
-- L-Trump/scoop-raresoft
 - littleli/scoop-clojure
+- L-Trump/scoop-raresoft
 - kidonng/sushi
 - rasa/scoops
 - MCOfficer/scoop-nirsoft
@@ -70,8 +70,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - nueko/scoop-php
 - naderi/scoop-bucket
 - excitoon/scoop-user
-- jfut/scoop-jfut
 - iquiw/scoop-bucket
+- jfut/scoop-jfut
 - 42wim/scoop-bucket
 - Darkatse/Scoop-Darkatse
 - krproject/qi-windows
