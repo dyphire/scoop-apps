@@ -40,8 +40,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - kodybrown/scoop-nirsoft
 - Ash258/Scoop-JetBrains
 - ScoopInstaller/Versions
-- littleli/scoop-clojure
 - L-Trump/scoop-raresoft
+- littleli/scoop-clojure
 - kidonng/sushi
 - rasa/scoops
 - MCOfficer/scoop-nirsoft
@@ -64,8 +64,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - wzv5/ScoopBucket
 - TheRandomLabs/Scoop-Python
 - Paxxs/Cluttered-bucket
-- AStupidBear/scoop-bear
 - ChungZH/peach
+- AStupidBear/scoop-bear
 - hoilc/scoop-lemon
 - nueko/scoop-php
 - naderi/scoop-bucket
