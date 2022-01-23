@@ -1,0 +1,41 @@
+{
+    "version": "1.4.21",
+    "description": "Apifox = Postman + Swagger + Mock + JMeter",
+    "homepage": "https://www.apifox.cn/",
+    "license": {
+        "identifier": "Freeware"
+    },
+    "notes": "We don't persist your apifox data, they are still storaged in '$env:APPDATA\\apifox'.",
+    "depends": "sudo",
+    "architecture": {
+        "64bit": {
+            "url": "http://apifox-generic.pkg.coding.net/apifox/apifox-desktop/Apifox-1.4.21.exe#/dl.7z",
+            "hash": "sha512:a7353c5f9e7fce40e61089a7e9004849e7e8b7b0031a4f8879bd96445a3773f6e1efe9045abf973b926c12284faaed9ecb6b06344811bf1f7927ed805f9286d2",
+            "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\" -Removal"
+        }
+    },
+    "post_install": "@('$PLUGINSDIR', '[NSIS].nsi', 'Uninstall Apifox.exe', 'uninstallerIcon.ico') | ForEach-Object { Remove-Item \"$dir\\$_\" -Recurse -Force -ErrorAction SilentlyContinue }",
+    "bin": "Apifox.exe",
+    "shortcuts": [
+        [
+            "Apifox.exe",
+            "Apifox"
+        ]
+    ],
+    "checkver": {
+        "url": "http://cdn.apifox.cn/download/latest.yml",
+        "regex": "^version:[\\s]+([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "http://apifox-generic.pkg.coding.net/apifox/apifox-desktop/Apifox-$version.exe#/dl.7z",
+                "hash": {
+                    "url": "http://cdn.apifox.cn/download/latest.yml",
+                    "mode": "extract",
+                    "regex": "sha512.*?$base64"
+                }
+            }
+        }
+    }
+}

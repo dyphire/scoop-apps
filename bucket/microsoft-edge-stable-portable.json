@@ -1,0 +1,72 @@
+{
+    "homepage": "https://www.microsoft.com/en-us/edge",
+    "description": "The chromium based Microsoft Edge browser(Stable Channel, Portable Edition).",
+    "version": "97.0.1072.69",
+    "license": "Freeware",
+    "notes": [
+        "If you encounter \"URL is not valid. The remote server returned an error: (308) Permanent Redirect.\" error",
+        "Please utilize aria2 to use multi-connection downloads.",
+        "   scoop install aria2",
+        "   scoop config aria2-warning-enabled true"
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://scoop-apps.vercel.app/msedge-stable-win-X64#/dl.7z",
+            "hash": "fd4bcff4c57bf9dcb91290601f6cc1f980d5e5e4e2d53c1fd1a0a5ced4b10069"
+        },
+        "32bit": {
+            "url": "https://scoop-apps.vercel.app/msedge-stable-win-X86#/dl.7z",
+            "hash": "29985ea3151327e6e24710e12539051dc4535d4012b16a5ce81d83f860595388"
+        }
+    },
+    "installer": {
+        "script": "Expand-7zipArchive -Path \"$dir\\MSEDGE.7z\" -ExtractDir \"Chrome-bin\\$version\" -Removal"
+    },
+    "bin": [
+        [
+            "msedge.exe",
+            "msedge",
+            "--user-data-dir=\"$dir\\User Data\" --disk-cache-dir=\"$dir\\Cache\" --no-first-run --enable-ftp --enable-gpu-rasterization --enable-leak-detection --enable-potentially-annoying-security-features --disable-component-update --disable-crash-reporter --disable-breakpad --disable-background-networking --disable-logging --disable-notifications --no-report-upload --print-to-pdf-no-header --save-page-as-mhtml --site-per-process --crash-server-url=\"0.0.0.0\" --force-update-remote-url=\"0.0.0.0\" --google-url=\"0.0.0.0\" --trace-upload-url=\"0.0.0.0\""
+        ],
+        [
+            "msedge.exe",
+            "microsoft-edge-stable",
+            "--user-data-dir=\"$dir\\User Data\" --disk-cache-dir=\"$dir\\Cache\" --no-first-run --enable-ftp --enable-gpu-rasterization --enable-leak-detection --enable-potentially-annoying-security-features --disable-component-update --disable-crash-reporter --disable-breakpad --disable-background-networking --disable-logging --disable-notifications --no-report-upload --print-to-pdf-no-header --save-page-as-mhtml --site-per-process --crash-server-url=\"0.0.0.0\" --force-update-remote-url=\"0.0.0.0\" --google-url=\"0.0.0.0\" --trace-upload-url=\"0.0.0.0\""
+        ]
+    ],
+    "shortcuts": [
+        [
+            "msedge.exe",
+            "Microsoft Edge",
+            "--user-data-dir=\"$dir\\User Data\" --disk-cache-dir=\"$dir\\Cache\" --no-first-run --enable-ftp --enable-gpu-rasterization --enable-leak-detection --enable-potentially-annoying-security-features --disable-component-update --disable-crash-reporter --disable-breakpad --disable-background-networking --disable-logging --disable-notifications --no-report-upload --print-to-pdf-no-header --save-page-as-mhtml --site-per-process --crash-server-url=\"0.0.0.0\" --force-update-remote-url=\"0.0.0.0\" --google-url=\"0.0.0.0\" --trace-upload-url=\"0.0.0.0\""
+        ]
+    ],
+    "persist": [
+        "User Data",
+        "Cache"
+    ],
+    "checkver": {
+        "url": "https://github.com/Ryanjiena/scoop-apps/raw/version/msedge",
+        "jsonpath": "$[?(@.Product == 'stable')].Version"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://scoop-apps.vercel.app/msedge-stable-win-X64#/dl.7z",
+                "hash": {
+                    "url": "https://github.com/Ryanjiena/scoop-apps/raw/version/msedge",
+                    "mode": "json",
+                    "jsonpath": "$[?(@.Product == 'stable')].Release[?(@.Architecture == 'x64')].Hash"
+                }
+            },
+            "32bit": {
+                "url": "https://scoop-apps.vercel.app/msedge-stable-win-X86#/dl.7z",
+                "hash": {
+                    "url": "https://github.com/Ryanjiena/scoop-apps/raw/version/msedge",
+                    "mode": "json",
+                    "jsonpath": "$[?(@.Product == 'stable')].Release[?(@.Architecture == 'x86')].Hash"
+                }
+            }
+        }
+    }
+}
