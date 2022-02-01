@@ -779,6 +779,7 @@ netbeans.json    ScoopInstaller/Extras
 winbox.json    ScoopInstaller/Extras
 aida64extreme.json    ScoopInstaller/Extras
 wabt.json    ScoopInstaller/Extras
+cutter.json    ScoopInstaller/Extras
 horcrux.json    ScoopInstaller/Extras
 capture2text.json    ScoopInstaller/Extras
 ldplayer.json    ScoopInstaller/Extras
@@ -788,7 +789,6 @@ renderdoc.json    ScoopInstaller/Extras
 mongosh.json    ScoopInstaller/Extras
 scene-builder.json    ScoopInstaller/Extras
 mitmproxy.json    ScoopInstaller/Extras
-okular.json    ScoopInstaller/Extras
 veusz.json    ScoopInstaller/Extras
 autohotkey-installer.json    ScoopInstaller/Extras
 streamlink-twitch-gui.json    ScoopInstaller/Extras
@@ -1209,7 +1209,6 @@ olive-editor.json    ScoopInstaller/Extras
 wire.json    ScoopInstaller/Extras
 redis-tui.json    ScoopInstaller/Extras
 tixati.json    ScoopInstaller/Extras
-kdeconnect.json    ScoopInstaller/Extras
 standardnotes.json    ScoopInstaller/Extras
 openhab.json    ScoopInstaller/Extras
 syncbackpro.json    ScoopInstaller/Extras
@@ -1228,7 +1227,6 @@ listenmoeclient.json    ScoopInstaller/Extras
 jellyfin.json    ScoopInstaller/Extras
 mozbackup.json    ScoopInstaller/Extras
 fastcopy.json    ScoopInstaller/Extras
-kate.json    ScoopInstaller/Extras
 insomnia.json    ScoopInstaller/Extras
 inkscape-extension-sozi.json    ScoopInstaller/Extras
 gephi.json    ScoopInstaller/Extras
@@ -1252,6 +1250,7 @@ picgo.json    ScoopInstaller/Extras
 qview.json    ScoopInstaller/Extras
 syncplay.json    ScoopInstaller/Extras
 mousejiggler.json    ScoopInstaller/Extras
+ani-cli.json    ScoopInstaller/Extras
 shotcut.json    ScoopInstaller/Extras
 snoop.json    ScoopInstaller/Extras
 foxit-pdf-reader.json    ScoopInstaller/Extras
@@ -1740,7 +1739,7 @@ winlibs-mingw-snapshot-msvcrt.json    chawyehsu/dorado
 volta.json    chawyehsu/dorado
 imewlconverter.json    chawyehsu/dorado
 stairspeedtest-reborn.json    chawyehsu/dorado
-kdeconnect_chawyehsu.json    chawyehsu/dorado
+kdeconnect.json    chawyehsu/dorado
 iobit-unlocker.json    chawyehsu/dorado
 nbtexplorer.json    chawyehsu/dorado
 koodo-reader.json    chawyehsu/dorado
@@ -2047,6 +2046,7 @@ gluon-openjfx-monocle-sdk.json    ScoopInstaller/Java
 sapmachine-jdk.json    ScoopInstaller/Java
 openjdk-ea.json    ScoopInstaller/Java
 icedtea-web.json    ScoopInstaller/Java
+temurin-lts-jre.json    ScoopInstaller/Java
 liberica13-jdk.json    ScoopInstaller/Java
 liberica13-jre.json    ScoopInstaller/Java
 liberica14-jre.json    ScoopInstaller/Java
@@ -2059,6 +2059,7 @@ openjdk14.json    ScoopInstaller/Java
 sapmachine14-jre.json    ScoopInstaller/Java
 liberica8-full-jre.json    ScoopInstaller/Java
 jmc7.json    ScoopInstaller/Java
+temurin17-jre.json    ScoopInstaller/Java
 zulu16-jre.json    ScoopInstaller/Java
 sapmachine11-jdk.json    ScoopInstaller/Java
 liberica15-lite-jdk.json    ScoopInstaller/Java
@@ -2077,6 +2078,7 @@ temurin17-nightly-jdk.json    ScoopInstaller/Java
 sapmachine11-jre.json    ScoopInstaller/Java
 temurin11-nightly-jdk.json    ScoopInstaller/Java
 openjdk.json    ScoopInstaller/Java
+temurin-jre.json    ScoopInstaller/Java
 zulufx15-jdk.json    ScoopInstaller/Java
 zulufx17-jre.json    ScoopInstaller/Java
 jmc.json    ScoopInstaller/Java
@@ -3125,6 +3127,7 @@ hyper-beta.json    ScoopInstaller/Versions
 traefik1.json    ScoopInstaller/Versions
 lua53.json    ScoopInstaller/Versions
 openssl10.json    ScoopInstaller/Versions
+okular.json    ScoopInstaller/Versions
 rust-msvc-nightly.json    ScoopInstaller/Versions
 nodejs16.json    ScoopInstaller/Versions
 rstudio-preview.json    ScoopInstaller/Versions
@@ -3204,10 +3207,12 @@ tesseract3.json    ScoopInstaller/Versions
 git19.json    ScoopInstaller/Versions
 mongodb-beta.json    ScoopInstaller/Versions
 gogs0.json    ScoopInstaller/Versions
+kdeconnect_ScoopInstaller.json    ScoopInstaller/Versions
 nodejs8.json    ScoopInstaller/Versions
 nodejs9.json    ScoopInstaller/Versions
 okular-nightly.json    ScoopInstaller/Versions
 php74-xdebug.json    ScoopInstaller/Versions
+kate.json    ScoopInstaller/Versions
 php72-xdebug.json    ScoopInstaller/Versions
 dartium-content-shell-dev.json    ScoopInstaller/Versions
 firefox-nightly.json    ScoopInstaller/Versions
@@ -4238,6 +4243,7 @@ MutoMark.json    dodorz/scoop
 HandBrake_dodorz.json    dodorz/scoop
 UltraCopier.json    dodorz/scoop
 ImageFinder.json    dodorz/scoop
+lunar.json    dodorz/scoop
 pdf2htmlEX.json    dodorz/scoop
 PicGo_dodorz.json    dodorz/scoop
 OpenLiveWriter.json    dodorz/scoop
@@ -5900,6 +5906,7 @@ Auto-Dark-Mode-portable.json    Ryanjiena/scoop-apps
 dismplusplus_Ryanjiena.json    Ryanjiena/scoop-apps
 qq-mod.json    Ryanjiena/scoop-apps
 B23Downloader.json    Ryanjiena/scoop-apps
+BilibiliLiveHime.json    Ryanjiena/scoop-apps
 apifox-portable.json    Ryanjiena/scoop-apps
 microsoft-edge-beta-portable.json    Ryanjiena/scoop-apps
 OracleJDK8-np.json    Ryanjiena/scoop-apps
@@ -5910,10 +5917,12 @@ google-chrome-dev-portable.json    Ryanjiena/scoop-apps
 foobox-cn_Ryanjiena.json    Ryanjiena/scoop-apps
 RevokeMsgPatcher.json    Ryanjiena/scoop-apps
 ShadowsocksR_Ryanjiena.json    Ryanjiena/scoop-apps
+PDFPatcher.json    Ryanjiena/scoop-apps
 revo-uninstaller-pro.json    Ryanjiena/scoop-apps
 CrystalDiskMark-Shizuku-tuna.json    Ryanjiena/scoop-apps
 Internet-Download-Manager.json    Ryanjiena/scoop-apps
 gifcam-chs.json    Ryanjiena/scoop-apps
+ShadowsocksR-full.json    Ryanjiena/scoop-apps
 ClashWarden.json    Ryanjiena/scoop-apps
 CrystalDiskMark_Ryanjiena.json    Ryanjiena/scoop-apps
 qimgv_Ryanjiena.json    Ryanjiena/scoop-apps
@@ -5924,6 +5933,7 @@ xnview-minimal.json    Ryanjiena/scoop-apps
 licecap-chs.json    Ryanjiena/scoop-apps
 hbuilderx_Ryanjiena.json    Ryanjiena/scoop-apps
 Coodesker-portable.json    Ryanjiena/scoop-apps
+BestTrace_Ryanjiena.json    Ryanjiena/scoop-apps
 Uninstall-Tool.json    Ryanjiena/scoop-apps
 clash-for-windows_Ryanjiena.json    Ryanjiena/scoop-apps
 BBDown_Ryanjiena.json    Ryanjiena/scoop-apps
@@ -5961,6 +5971,7 @@ cloudmusic_Ryanjiena.json    Ryanjiena/scoop-apps
 clash-for-windows-origin-chinese-patch.json    Ryanjiena/scoop-apps
 gitkraken_Ryanjiena.json    Ryanjiena/scoop-apps
 xshell-portable.json    Ryanjiena/scoop-apps
+biyi_Ryanjiena.json    Ryanjiena/scoop-apps
 Office-Tool-ISO-zh-tw.json    Ryanjiena/scoop-apps
 microsoft-edge-dev-portable.json    Ryanjiena/scoop-apps
 sublime-text_Ryanjiena.json    Ryanjiena/scoop-apps
@@ -5974,6 +5985,7 @@ Fedora-Remix-for-WSL.json    Ryanjiena/scoop-apps
 MouseInc_Ryanjiena.json    Ryanjiena/scoop-apps
 renamer_Ryanjiena.json    Ryanjiena/scoop-apps
 kuwo.json    Ryanjiena/scoop-apps
+biyi-portable.json    Ryanjiena/scoop-apps
 kotatogram.json    Ryanjiena/scoop-apps
 vcredist-aio.json    Ryanjiena/scoop-apps
 OracleJDK11-np.json    Ryanjiena/scoop-apps
@@ -5991,11 +6003,12 @@ CrystalDiskInfo-Shizuku-tuna.json    Ryanjiena/scoop-apps
 Navicat-Premium-15-cht.json    Ryanjiena/scoop-apps
 CrystalDiskInfo-KureiKei.json    Ryanjiena/scoop-apps
 microsoft-edge-stable-portable.json    Ryanjiena/scoop-apps
+biliup-rs_Ryanjiena.json    Ryanjiena/scoop-apps
 everything_Ryanjiena.json    Ryanjiena/scoop-apps
 Uninstall-Tool-portable.json    Ryanjiena/scoop-apps
 CloudflareSpeedTest_Ryanjiena.json    Ryanjiena/scoop-apps
 kotatogram-beta.json    Ryanjiena/scoop-apps
-ShadowsocksR-dotnet-runtime.json    Ryanjiena/scoop-apps
+BilibiliDown.json    Ryanjiena/scoop-apps
 potplayer_Ryanjiena.json    Ryanjiena/scoop-apps
 ja-netfilter.json    Ryanjiena/scoop-apps
 CrystalDiskMark-tuna.json    Ryanjiena/scoop-apps
@@ -6004,7 +6017,6 @@ bandicam-x64.json    Ryanjiena/scoop-apps
 potplayer-dev-noad-portable.json    Ryanjiena/scoop-apps
 vscode-insiders-portable_Ryanjiena.json    Ryanjiena/scoop-apps
 wechat_Ryanjiena.json    Ryanjiena/scoop-apps
-powertoys-np_Ryanjiena.json    Ryanjiena/scoop-apps
 JetBrainsMono.json    Ryanjiena/scoop-apps
 TrafficMonitor_Ryanjiena.json    Ryanjiena/scoop-apps
 TrafficMonitor-Lite.json    Ryanjiena/scoop-apps

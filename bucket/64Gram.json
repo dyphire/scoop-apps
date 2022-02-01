@@ -1,5 +1,5 @@
 {
-    "version": "1.0.8",
+    "version": "1.0.11",
     "description": "Unofficial Telegram Desktop (Windows 64bit/x64)",
     "homepage": "https://64gr.am",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/TDesktop-x64/tdesktop/releases/download/v1.0.8/64Gram_1.0.8_x64.zip",
-            "hash": "13b1b0db1bda5b86d057e245f8068c88da5626530207dcc4281bb7be883fe73f"
+            "url": "https://github.com/TDesktop-x64/tdesktop/releases/download/v1.0.11/64Gram_1.0.11.beta_x64.zip",
+            "hash": "b8a90fb6bb9ea9f22aadf16535f63ada8e8959d94e8bb40a379a9ffd2d903bb7"
         },
         "32bit": {
-            "url": "https://github.com/TDesktop-x64/tdesktop/releases/download/v1.0.8/64Gram_1.0.8_x86.zip",
-            "hash": "b98ca9afa9792da19ada627d1e52daf0f552ab6c2a1274c2d217afb03fcefe1e"
+            "url": "https://github.com/TDesktop-x64/tdesktop/releases/download/v1.0.11/64Gram_1.0.11.beta_x86.zip",
+            "hash": "51b6caabbf3e0bf97ef92fcfa8a33549bd9728a37f6fe250c6c28fc973597a68"
         }
     },
     "persist": "tdata",
@@ -25,15 +25,16 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/TDesktop-x64/tdesktop"
+        "url": "https://github.com/TDesktop-x64/tdesktop/releases",
+        "regex": "64Gram_([\\d.]+)(?<beta>\\.beta)?_x86\\.zip</span>"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/TDesktop-x64/tdesktop/releases/download/v$version/64Gram_$version_x64.zip"
+                "url": "https://github.com/TDesktop-x64/tdesktop/releases/download/v$version/64Gram_$version$matchBeta_x64.zip"
             },
             "32bit": {
-                "url": "https://github.com/TDesktop-x64/tdesktop/releases/download/v$version/64Gram_$version_x86.zip"
+                "url": "https://github.com/TDesktop-x64/tdesktop/releases/download/v$version/64Gram_$version$matchBeta_x86.zip"
             }
         }
     }
