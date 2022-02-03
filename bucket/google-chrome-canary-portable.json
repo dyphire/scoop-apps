@@ -1,72 +1,63 @@
 {
-    "version": "100.0.4864.0",
+    "version": "100.0.4866.0",
     "description": "Fast, secure, and free web browser, built for the modern web(Canary, Portable Edition).",
     "homepage": "https://www.google.com/chrome/",
     "license": {
         "identifier": "Freeware",
         "url": "https://www.google.com/chrome/privacy/eula_text.html"
     },
-    "notes": "Chromium 内核浏览器实验室功能特性运行参数: <https://peter.sh/experiments/chromium-command-line-switches>",
     "architecture": {
         "64bit": {
-            "url": "https://dl.google.com/release2/chrome/gob2umpozjoortzx4y7r2vr3py_100.0.4864.0/100.0.4864.0_chrome_installer.exe#/dl.7z",
-            "hash": "fd47c70f998e748695e8db6e7023fb1df5114bcf64e98e214dca0153504935db"
+            "url": "https://redirector.gvt1.com/edgedl/release2/chrome/ache7fe3wgihi5dzmqonbm5i4fyq_100.0.4866.0/100.0.4866.0_chrome_installer.exe#/dl.7z",
+            "hash": "99d1fd74ae6d329e8607e72c3068d7e950fc91e665298a882b1f4b4f94f31e60"
         },
         "32bit": {
-            "url": "https://dl.google.com/release2/chrome/ac754lozsub5wzimrbocs7qvo2za_100.0.4864.0/100.0.4864.0_chrome_installer.exe#/dl.7z",
-            "hash": "28814963201059579c4d56cbd9d437fb90f18becadc382d6921c78798af1a689"
+            "url": "https://redirector.gvt1.com/edgedl/release2/chrome/ckmnjtvs32qex2tmxhfnqvazki_100.0.4866.0/100.0.4866.0_chrome_installer.exe#/dl.7z",
+            "hash": "b07411437c9bc0f49f7ed962f7f8794f42b14284b5ffc79b806dcbf43686f905"
         }
     },
     "installer": {
         "script": "Expand-7zipArchive \"$dir\\chrome.7z\" -ExtractDir 'Chrome-bin' -Removal"
     },
-    "post_install": [
-        "if (!(Test-Path \"$dir\\User Data\\*\") -and (Test-Path \"$env:LocalAppData\\Google\\Chrome\\User Data\")) {",
-        "    info '[Portable Mode]: Copying user data...'",
-        "    Copy-Item \"$env:LocalAppData\\Google\\Chrome\\User Data\\*\" \"$dir\\User Data\" -Recurse",
-        "}"
-    ],
     "bin": [
         [
             "chrome.exe",
             "chrome-canary",
-            "--user-data-dir=\"$dir\\User Data\" --disk-cache-dir=\"$dir\\Cache\" --no-first-run --enable-ftp --enable-gpu-rasterization --enable-leak-detection --enable-potentially-annoying-security-features --disable-component-update --disable-crash-reporter --disable-breakpad --disable-background-networking --disable-logging --disable-notifications --no-report-upload --print-to-pdf-no-header --save-page-as-mhtml --site-per-process --crash-server-url=\"0.0.0.0\" --force-update-remote-url=\"0.0.0.0\" --google-url=\"0.0.0.0\" --trace-upload-url=\"0.0.0.0\""
-        ],
-        [
-            "chrome.exe",
-            "google-chrome-canary",
-            "--user-data-dir=\"$dir\\User Data\" --disk-cache-dir=\"$dir\\Cache\" --no-first-run --enable-ftp --enable-gpu-rasterization --enable-leak-detection --enable-potentially-annoying-security-features --disable-component-update --disable-crash-reporter --disable-breakpad --disable-background-networking --disable-logging --disable-notifications --no-report-upload --print-to-pdf-no-header --save-page-as-mhtml --site-per-process --crash-server-url=\"0.0.0.0\" --force-update-remote-url=\"0.0.0.0\" --google-url=\"0.0.0.0\" --trace-upload-url=\"0.0.0.0\""
+            "--user-data-dir=\"$dir\\User Data\""
         ]
     ],
     "shortcuts": [
         [
             "chrome.exe",
             "Google Chrome Canary",
-            "--user-data-dir=\"$dir\\User Data\" --disk-cache-dir=\"$dir\\Cache\" --no-first-run --enable-ftp --enable-gpu-rasterization --enable-leak-detection --enable-potentially-annoying-security-features --disable-component-update --disable-crash-reporter --disable-breakpad --disable-background-networking --disable-logging --disable-notifications --no-report-upload --print-to-pdf-no-header --save-page-as-mhtml --site-per-process --crash-server-url=\"0.0.0.0\" --force-update-remote-url=\"0.0.0.0\" --google-url=\"0.0.0.0\" --trace-upload-url=\"0.0.0.0\""
+            "--user-data-dir=\"$dir\\User Data\""
         ]
     ],
-    "persist": [
-        "User Data",
-        "Cache"
+    "post_install": [
+        "if (!(Test-Path \"$dir\\User Data\\*\") -and (Test-Path \"$env:LocalAppData\\Google\\Chrome\\User Data\")) {",
+        "    info '[Portable Mode]: Copying user data...'",
+        "    Copy-Item \"$env:LocalAppData\\Google\\Chrome\\User Data\\*\" \"$dir\\User Data\" -Recurse",
+        "}"
     ],
+    "persist": "User Data",
     "checkver": {
-        "url": "https://scoopinstaller.github.io/UpdateTracker/googlechrome/chrome.min.xml",
-        "regex": "(?sm)<canary32><version>(?<version>[\\d.]+)</version>.+release2/chrome/(?<32>[\\w-]+)_.+<canary64>.+release2/chrome/(?<64>[\\w-]+)_.+</canary64>"
+        "url": "https://github.com/Ryanjiena/scoop-apps/raw/version/chrome",
+        "regex": "(?sm)canary.*?win-x86.*?(?<86>chrome/[\\w-]+_(?<version>[\\d.]+).*?_chrome_installer.exe).*?win-x64.*?(?<64>chrome/[\\w-]+_(?<version>[\\d.]+).*?_chrome_installer.exe)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://dl.google.com/release2/chrome/$match64_$version/$version_chrome_installer.exe#/dl.7z",
+                "url": "https://redirector.gvt1.com/edgedl/release2/$match64#/dl.7z",
                 "hash": {
-                    "url": "https://scoopinstaller.github.io/UpdateTracker/googlechrome/chrome.min.xml",
-                    "xpath": "/chromechecker/canary64[version='$version']/sha256"
+                    "url": "https://github.com/Ryanjiena/scoop-apps/raw/version/chrome",
+                    "jsonpath": "$[?(@.Product == 'canary')].Release[?(@.Architecture == 'win-x64')].Hash"
                 }
             },
             "32bit": {
-                "url": "https://dl.google.com/release2/chrome/$match32_$version/$version_chrome_installer.exe#/dl.7z",
+                "url": "https://redirector.gvt1.com/edgedl/release2/$match86#/dl.7z",
                 "hash": {
-                    "url": "https://scoopinstaller.github.io/UpdateTracker/googlechrome/chrome.min.xml",
-                    "xpath": "/chromechecker/canary32[version='$version']/sha256"
+                    "url": "https://github.com/Ryanjiena/scoop-apps/raw/version/chrome",
+                    "jsonpath": "$[?(@.Product == 'canary')].Release[?(@.Architecture == 'win-x86')].Hash"
                 }
             }
         }
