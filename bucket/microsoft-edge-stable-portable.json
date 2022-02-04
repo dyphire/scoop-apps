@@ -1,7 +1,7 @@
 {
     "homepage": "https://www.microsoft.com/en-us/edge",
     "description": "Microsoft Edge is the fast and secure browser that helps you protect your data and save time and money(Stable Channel, Portable Edition).",
-    "version": "97.0.1072.76",
+    "version": "98.0.1108.43",
     "license": {
         "identifier": "Freeware",
         "url": "edge://terms/"
@@ -15,11 +15,11 @@
     "architecture": {
         "64bit": {
             "url": "https://scoop-apps.vercel.app/msedge-stable-win-X64#/dl.7z",
-            "hash": "749eeb7fc99707065a79764945c50334020387472abbcad5a759f4d18581b738"
+            "hash": "2511bdf187f45c9fbd45a14f0763d28a935f8e8a53993fd226744c59fe329e70"
         },
         "32bit": {
             "url": "https://scoop-apps.vercel.app/msedge-stable-win-X86#/dl.7z",
-            "hash": "599b42d3d1e8a7b56987707abdeb1f8bc210f209da8aca4adcdf8a601ce7e4e0"
+            "hash": "ad4d626f22d582e6aaf505221dca55cc1bb4aafb36b47f15e27cd3d993254feb"
         }
     },
     "installer": {
