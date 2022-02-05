@@ -68,10 +68,10 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - naderi/scoop-bucket
 - iquiw/scoop-bucket
 - 42wim/scoop-bucket
-- jfut/scoop-jfut
 - Ryanjiena/scoop-apps
 - batkiz/backit
 - Darkatse/Scoop-Darkatse
+- jfut/scoop-jfut
 - krproject/qi-windows
 - ChinLong/scoop-customize
 - Apocalypsor/My-Scoop-Bucket
