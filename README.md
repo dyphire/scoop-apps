@@ -71,6 +71,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - Ryanjiena/scoop-apps
 - batkiz/backit
 - Darkatse/Scoop-Darkatse
+- liaoya/scoop-bucket
 - jfut/scoop-jfut
 - krproject/qi-windows
 - ChinLong/scoop-customize
