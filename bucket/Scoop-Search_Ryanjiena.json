@@ -1,0 +1,33 @@
+{
+    "version": "1.0.0",
+    "description": "Alternative to 'scoop search'",
+    "homepage": "https://github.com/chriscp-cat/Scoop-Search",
+    "license": {
+        "identifier": "Freeware"
+    },
+    "notes": "To replace built-in scoop search, add this to $PROFILE: Invoke-Expression (&Scoop-Search --hook)",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/chriscp-cat/Scoop-Search/releases/download/v1.0.0/x64-Release.zip",
+            "hash": "dce8bcbce48f57e7496fb19f25b0cb77371aa830e12387008c87e327f5336108"
+        },
+        "32bit": {
+            "url": "https://github.com/chriscp-cat/Scoop-Search/releases/download/v1.0.0/x86-Release.zip",
+            "hash": "f0aca4daa859da7f90d29c5eaf287de9ff472e4dae69ff603208867f7e3f8c8c"
+        }
+    },
+    "bin": "Scoop-Search.exe",
+    "checkver": {
+        "github": "https://github.com/chriscp-cat/Scoop-Search"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/chriscp-cat/Scoop-Search/releases/download/v$version/x64-Release.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/chriscp-cat/Scoop-Search/releases/download/v$version/x86-Release.zip"
+            }
+        }
+    }
+}

@@ -7,18 +7,19 @@
     "notes": "https://allwaysync.com/news",
     "architecture": {
         "64bit": {
-            "url": "https://allwaysync.com/content/download/allwaysync-x64-21-1-5.msi#/setup.7z",
+            "url": "https://allwaysync.com/content/download/allwaysync-x64-21-1-5.msi#/setup.msi",
             "hash": "ab07ad79238e31d49494e11cb38310bfb4d08f9b9ded14f70110375cfd9298c2"
         },
         "32bit": {
-            "url": "https://allwaysync.com/content/download/allwaysync-21-1-5.msi#/setup.7z",
+            "url": "https://allwaysync.com/content/download/allwaysync-21-1-5.msi#/setup.msi",
             "hash": "da04ad0a478d67162ad077aa031fdf8f106cb4bd04a63675cdf9f7d5c4f6c91a"
         }
     },
-    "bin": "Allway Sync\\syncappw.exe",
+    "extract_dir": "Allway Sync",
+    "bin": "bin\\syncappw.exe",
     "shortcuts": [
         [
-            "Allway Sync\\syncappw.exe",
+            "bin\\syncappw.exe",
             "Allway Sync 'n' Go"
         ]
     ],
@@ -29,10 +30,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://allwaysync.com/content/download/allwaysync-x64-21-1-5.msi#/setup.7z"
+                "url": "https://allwaysync.com/content/download/allwaysync-x64-21-1-5.msi#/setup.msi"
             },
             "32bit": {
-                "url": "https://allwaysync.com/content/download/allwaysync-21-1-5.msi#/setup.7z"
+                "url": "https://allwaysync.com/content/download/allwaysync-21-1-5.msi#/setup.msi"
             }
         }
     }
