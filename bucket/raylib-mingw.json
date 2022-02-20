@@ -1,16 +1,16 @@
 {
     "version": "4.0.0",
-    "description": "A simple and easy-to-use library to enjoy videogames programming (this version is for the Microsoft Visual C++ compiler)",
+    "description": "A simple and easy-to-use library to enjoy videogames programming (this version is for the MinGW compiler)",
     "homepage": "https://www.raylib.com/",
     "license": "Zlib",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/raysan5/raylib/releases/download/4.0.0/raylib-4.0.0_win64_msvc16.zip",
-            "hash": "abd6963c3227fa46a22e2743f9a72e176ce19fb46974a702cc16ec96f4dee0e4"
+            "url": "https://github.com/raysan5/raylib/releases/download/4.0.0/raylib-4.0.0_win64_mingw-w64.zip",
+            "hash": "ea5440a9eb76c2f2642d3ce1b0c8750d3be6b7debf01ff4661fd7b3d08d29baf"
         },
         "32bit": {
-            "url": "https://github.com/raysan5/raylib/releases/download/4.0.0/raylib-4.0.0_win32_msvc16.zip",
-            "hash": "0c92fdeb3d9c9ad19de6212e2dc1080e9d4ad59e4427944a27e77639b50c0cfb"
+            "url": "https://github.com/raysan5/raylib/releases/download/4.0.0/raylib-4.0.0_win32_mingw-w64.zip",
+            "hash": "11655744a331bb1937b9f3ff0840e199962939305f024bc363f927689a42a22f"
         }
     },
     "post_install": [
@@ -86,10 +86,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/raysan5/raylib/releases/download/$version/raylib-$version_win64_msvc16.zip"
+                "url": "https://github.com/raysan5/raylib/releases/download/$version/raylib-$version_win64_mingw-w64.zip"
             },
             "32bit": {
-                "url": "https://github.com/raysan5/raylib/releases/download/$version/raylib-$version_win32_msvc16.zip"
+                "url": "https://github.com/raysan5/raylib/releases/download/$version/raylib-$version_win32_mingw-w64.zip"
             }
         }
     }
