@@ -453,7 +453,6 @@ pandownload.json    ScoopInstaller/Extras
 dartium-content-shell.json    ScoopInstaller/Extras
 bulk-rename-utility.json    ScoopInstaller/Extras
 rawtherapee.json    ScoopInstaller/Extras
-task.json    ScoopInstaller/Extras
 keepass-plugin-keeanywhere.json    ScoopInstaller/Extras
 resizer.json    ScoopInstaller/Extras
 wiztree.json    ScoopInstaller/Extras
@@ -2045,6 +2044,7 @@ zulu16-jdk.json    ScoopInstaller/Java
 zulu15-jre.json    ScoopInstaller/Java
 zulufx16-jre.json    ScoopInstaller/Java
 liberica-lite-jdk.json    ScoopInstaller/Java
+dragonwell17-jdk.json    ScoopInstaller/Java
 zulu12-jre.json    ScoopInstaller/Java
 gluon-openjfx-monocle-sdk.json    ScoopInstaller/Java
 dragonwell8-jdk.json    ScoopInstaller/Java
@@ -4458,7 +4458,6 @@ SciHubEVA.json    dodorz/scoop
 Wing101.json    dodorz/scoop
 PDFMatePDFMerger.json    dodorz/scoop
 Screenink.json    dodorz/scoop
-Typora_dodorz.json    dodorz/scoop
 okPlayer.json    dodorz/scoop
 ArcThemALL.json    dodorz/scoop
 kpcli_dodorz.json    dodorz/scoop
@@ -4922,6 +4921,7 @@ proton-launcher.json    kiennq/scoop-misc
 llvm-x.json    kiennq/scoop-misc
 cemuhook-webgyro.json    kiennq/scoop-misc
 emax64.json    kiennq/scoop-misc
+emusak-ui.json    kiennq/scoop-misc
 cemu-x.json    kiennq/scoop-misc
 neovim-dev_kiennq.json    kiennq/scoop-misc
 emacs-x.json    kiennq/scoop-misc
@@ -4958,6 +4958,8 @@ wechat-beta.json    scoopcn/scoopcn
 dolphin_borger.json    borger/scoop-emulators
 tegra-rcm-gui.json    borger/scoop-emulators
 desmume_borger.json    borger/scoop-emulators
+mgba-dev_borger.json    borger/scoop-emulators
+pcsx2-dev_borger.json    borger/scoop-emulators
 cemuhook_borger.json    borger/scoop-emulators
 project64-dev_borger.json    borger/scoop-emulators
 cemu_borger.json    borger/scoop-emulators
@@ -5697,6 +5699,7 @@ SABnzbd-Portable.json    ACooper81/scoop-apps
 VideoReDoTVSuiteV6-Install.json    ACooper81/scoop-apps
 ComputerManagementDsc-PSModule.json    ACooper81/scoop-apps
 DadroitJsonViewer-Portable.json    ACooper81/scoop-apps
+PeerBlock-Portable.json    ACooper81/scoop-apps
 SordumRunAsTool-Portable.json    ACooper81/scoop-apps
 Capture2Text-Portable.json    ACooper81/scoop-apps
 DHCPServer-Portable.json    ACooper81/scoop-apps
@@ -6078,7 +6081,6 @@ Office-Tool_Ryanjiena.json    Ryanjiena/scoop-apps
 v2rayn_Ryanjiena.json    Ryanjiena/scoop-apps
 renamer_Ryanjiena.json    Ryanjiena/scoop-apps
 Coodesker-portable.json    Ryanjiena/scoop-apps
-dbeaver_Ryanjiena.json    Ryanjiena/scoop-apps
 potplayer-noad-portable.json    Ryanjiena/scoop-apps
 xshell-portable.json    Ryanjiena/scoop-apps
 vscode-insiders-portable_Ryanjiena.json    Ryanjiena/scoop-apps
