@@ -50,8 +50,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - echoiron/echo-scoop
 - TheRandomLabs/Scoop-Bucket
 - cderv/r-bucket
-- dodorz/scoop
 - Qv2ray/mochi
+- dodorz/scoop
 - wangzq/scoop-bucket
 - zhoujin7/tomato
 - ZvonimirSun/scoop-iszy
