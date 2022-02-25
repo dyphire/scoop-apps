@@ -2,10 +2,10 @@
     "homepage": "https://citra-emu.org/",
     "description": "Emulator for Nintendo 3DS, capable of playing many of your favorite games",
     "license": "MIT",
-    "version": "2063-20220225",
-    "url": "https://github.com/citra-emu/citra-canary/releases/download/canary-2063/citra-windows-mingw-20220225-250f706.7z",
-    "hash": "83235116a88e449ea8f0d0f2e14db7e121cb41c0b4ba70431702f401ffac5da0",
-    "extract_dir": "canary-mingw",
+    "version": "1756-20220225",
+    "url": "https://github.com/citra-emu/citra-nightly/releases/download/nightly-1756/citra-windows-mingw-20220225-25ad002.7z",
+    "hash": "9e40cf33862d9f82660dc3a0edcad89a58bfac7623334dc21efad84c736b9996",
+    "extract_dir": "nightly-mingw",
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\\user\")) {",
         "   New-Item -Path \"$persist_dir\" -Name \"user\" -ItemType \"directory\" | Out-Null",
@@ -24,16 +24,16 @@
     "shortcuts": [
         [
             "citra-qt.exe",
-            "Citra (Canary)"
+            "Citra"
         ]
     ],
     "persist": "user",
     "checkver": {
-        "github": "https://github.com/citra-emu/citra-canary",
-        "regex": "download/canary-(?<build>[\\d]+)/citra-windows-mingw-(?<date>[\\d]+)-(?<random>[a-fA-F\\d]+).7z",
+        "github": "https://github.com/citra-emu/citra-nightly",
+        "regex": "download/nightly-(?<build>[\\d]+)/citra-windows-mingw-(?<date>[\\d]+)-(?<random>[a-fA-F\\d]+).7z",
         "replace": "${1}-${2}"
     },
     "autoupdate": {
-        "url": "https://github.com/citra-emu/citra-canary/releases/download/canary-$matchBuild/citra-windows-mingw-$matchDate-$matchRandom.7z"
+        "url": "https://github.com/citra-emu/citra-nightly/releases/download/nightly-$matchBuild/citra-windows-mingw-$matchDate-$matchRandom.7z"
     }
 }
