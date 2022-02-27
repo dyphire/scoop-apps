@@ -1,0 +1,42 @@
+{
+    "version": "96.0.3-60",
+    "description": "A free and open-source web browser developed by The Mozilla Foundation.",
+    "homepage": "https://www.mozilla.org/en-US/firefox/",
+    "license": {
+        "identifier": "MPL-2.0",
+        "url": "https://www.mozilla.org/en-US/about/legal/terms/firefox/"
+    },
+    "persist": [
+        "data",
+        "phyrox-portable.yml"
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/portapps/phyrox-portable/releases/download/96.0.3-60/phyrox-portable-win64-96.0.3-60.7z",
+            "hash": "054fc3c57d9b36c70f7bf98e292fb3350979d9117bc7d02b39511b0bb00de331"
+        }
+    },
+    "bin": "phyrox-portable.exe",
+    "shortcuts": [
+        [
+            "phyrox-portable.exe",
+            "Phyrox"
+        ]
+    ],
+    "pre_install": "if(!(Test-Path \"$persist_dir\\phyrox-portable.yml\")) { New-Item \"$dir\\phyrox-portable.yml\" | Out-Null }",
+    "checkver": {
+        "url": "https://github.com/portapps/phyrox-portable/releases",
+        "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.-]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/portapps/phyrox-portable/releases/download/$version/phyrox-portable-win64-$version.7z"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    },
+    "notes": "Installed from Portapps (https://portapps.io/app/phyrox-portable/)"
+}
