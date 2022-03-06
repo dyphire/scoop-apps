@@ -640,6 +640,7 @@ tortoisemerge.json    ScoopInstaller/Extras
 franz.json    ScoopInstaller/Extras
 mockoon.json    ScoopInstaller/Extras
 jcpicker.json    ScoopInstaller/Extras
+nvui.json    ScoopInstaller/Extras
 nsis.json    ScoopInstaller/Extras
 mucommander.json    ScoopInstaller/Extras
 nimbleset.json    ScoopInstaller/Extras
@@ -2369,6 +2370,7 @@ ericw-tools.json    Calinou/scoop-games
 mcrcon.json    Calinou/scoop-games
 vdrift.json    Calinou/scoop-games
 golly.json    Calinou/scoop-games
+ryujinx.json    Calinou/scoop-games
 cemu.json    Calinou/scoop-games
 runebook.json    Calinou/scoop-games
 supertuxkart.json    Calinou/scoop-games
@@ -2385,7 +2387,6 @@ uhexen2.json    Calinou/scoop-games
 mindustry-server.json    Calinou/scoop-games
 mednafen_Calinou.json    Calinou/scoop-games
 mednaffe.json    Calinou/scoop-games
-ryujinx-dev.json    Calinou/scoop-games
 ppsspp_Calinou.json    Calinou/scoop-games
 legendary.json    Calinou/scoop-games
 cataclysm-dda-tiles.json    Calinou/scoop-games
@@ -2402,10 +2403,10 @@ warsow.json    Calinou/scoop-games
 freeorion.json    Calinou/scoop-games
 openttd.json    Calinou/scoop-games
 xenia-canary.json    Calinou/scoop-games
-vita3k-dev.json    Calinou/scoop-games
 tic-80.json    Calinou/scoop-games
 cdogs-sdl.json    Calinou/scoop-games
 assetstudio.json    Calinou/scoop-games
+redream-dev.json    Calinou/scoop-games
 minutor.json    Calinou/scoop-games
 cxbx-reloaded.json    Calinou/scoop-games
 sil.json    Calinou/scoop-games
@@ -2443,8 +2444,8 @@ mame.json    Calinou/scoop-games
 lambdahack.json    Calinou/scoop-games
 darkplaces.json    Calinou/scoop-games
 toontownrewritten.json    Calinou/scoop-games
-redream-nightly.json    Calinou/scoop-games
 ppsspp-dev.json    Calinou/scoop-games
+rpcs3.json    Calinou/scoop-games
 fteqw.json    Calinou/scoop-games
 odamex.json    Calinou/scoop-games
 iortcw.json    Calinou/scoop-games
@@ -2513,7 +2514,6 @@ bzflag.json    Calinou/scoop-games
 xebra.json    Calinou/scoop-games
 tome4.json    Calinou/scoop-games
 quakespasm.json    Calinou/scoop-games
-rpcs3-dev.json    Calinou/scoop-games
 rbdoom-3-bfg.json    Calinou/scoop-games
 assaultcube.json    Calinou/scoop-games
 undertale-mod-tool.json    Calinou/scoop-games
@@ -2528,6 +2528,7 @@ eduke32.json    Calinou/scoop-games
 scummvm.json    Calinou/scoop-games
 extremetuxracer.json    Calinou/scoop-games
 endless-sky.json    Calinou/scoop-games
+vita3k.json    Calinou/scoop-games
 doom-retro.json    Calinou/scoop-games
 angband.json    Calinou/scoop-games
 opendungeons.json    Calinou/scoop-games
@@ -3907,7 +3908,7 @@ electrem.json    hermanjustnu/scoop-emulators
 mgba_hermanjustnu.json    hermanjustnu/scoop-emulators
 mame_hermanjustnu.json    hermanjustnu/scoop-emulators
 ppsspp-dev_hermanjustnu.json    hermanjustnu/scoop-emulators
-rpcs3.json    hermanjustnu/scoop-emulators
+rpcs3_hermanjustnu.json    hermanjustnu/scoop-emulators
 atariplusplus.json    hermanjustnu/scoop-emulators
 stella_hermanjustnu.json    hermanjustnu/scoop-emulators
 pcsx2_hermanjustnu.json    hermanjustnu/scoop-emulators
@@ -4772,7 +4773,7 @@ q.json    wangzq/scoop-bucket
 die_wangzq.json    wangzq/scoop-bucket
 linkd.json    wangzq/scoop-bucket
 minisqlquery.json    wangzq/scoop-bucket
-nvui.json    wangzq/scoop-bucket
+nvui_wangzq.json    wangzq/scoop-bucket
 vim82.json    wangzq/scoop-bucket
 myprocesshacker.json    wangzq/scoop-bucket
 fusionplusplus.json    wangzq/scoop-bucket
@@ -5426,6 +5427,7 @@ rhit.json    hoilc/scoop-lemon
 crypto-notepad.json    hoilc/scoop-lemon
 cloudflarespeedtest.json    hoilc/scoop-lemon
 librespeed-cli.json    hoilc/scoop-lemon
+koyeb-cli.json    hoilc/scoop-lemon
 juicefs.json    hoilc/scoop-lemon
 kodo-browser.json    hoilc/scoop-lemon
 terminus-player.json    hoilc/scoop-lemon
@@ -5443,19 +5445,13 @@ desmume_borger.json    borger/scoop-emulators
 citra_borger.json    borger/scoop-emulators
 mgba-dev_borger.json    borger/scoop-emulators
 pcsx2-dev_borger.json    borger/scoop-emulators
-cemuhook_borger.json    borger/scoop-emulators
 project64-dev_borger.json    borger/scoop-emulators
-ryujinx.json    borger/scoop-emulators
+ryujinx_borger.json    borger/scoop-emulators
 cemu_borger.json    borger/scoop-emulators
-retroarch_borger.json    borger/scoop-emulators
-mednafen_borger.json    borger/scoop-emulators
-mednaffe_borger.json    borger/scoop-emulators
 ppsspp_borger.json    borger/scoop-emulators
 retroarch-nightly_borger.json    borger/scoop-emulators
-project64_borger.json    borger/scoop-emulators
 xenia-canary_borger.json    borger/scoop-emulators
-redream-dev.json    borger/scoop-emulators
-cxbx-reloaded_borger.json    borger/scoop-emulators
+redream-dev_borger.json    borger/scoop-emulators
 melonds_borger.json    borger/scoop-emulators
 flycast_borger.json    borger/scoop-emulators
 mgba_borger.json    borger/scoop-emulators
@@ -5468,11 +5464,9 @@ mesen-s_borger.json    borger/scoop-emulators
 redream_borger.json    borger/scoop-emulators
 xemu_borger.json    borger/scoop-emulators
 pcsx2_borger.json    borger/scoop-emulators
-betterjoy_borger.json    borger/scoop-emulators
 mednafen-dev_borger.json    borger/scoop-emulators
 duckstation_borger.json    borger/scoop-emulators
 snes9x_borger.json    borger/scoop-emulators
-ps3-system-software_borger.json    borger/scoop-emulators
 xenia_borger.json    borger/scoop-emulators
 mesen_borger.json    borger/scoop-emulators
 yuzu_borger.json    borger/scoop-emulators
@@ -5480,8 +5474,7 @@ citra-canary_borger.json    borger/scoop-emulators
 steam-rom-manager_borger.json    borger/scoop-emulators
 dolphin-dev_borger.json    borger/scoop-emulators
 fceux_borger.json    borger/scoop-emulators
-scummvm_borger.json    borger/scoop-emulators
-vita3k.json    borger/scoop-emulators
+vita3k_borger.json    borger/scoop-emulators
 dolphin-beta_borger.json    borger/scoop-emulators
 snes9x-dev_borger.json    borger/scoop-emulators
 bsnes.json    borger/scoop-emulators
