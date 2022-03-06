@@ -1,7 +1,7 @@
 {
     "homepage": "https://www.retroarch.com/",
     "description": "Frontend for emulators, game engines and media players",
-    "version": "nightly",
+    "version": "1.10.1",
     "license": {
         "identifier": "GPL-3.0",
         "url": "https://github.com/libretro/RetroArch/blob/master/COPYING"
@@ -13,30 +13,37 @@
     ],
     "architecture": {
         "32bit": {
-            "url": "https://buildbot.libretro.com/nightly/windows/x86/RetroArch.7z",
+            "url": "https://buildbot.libretro.com/stable/1.10.1/windows/x86/RetroArch.7z",
+            "hash": "5892ca9f77ca8f976bc760c0c02188ac4b46e4d7718eaa65f39a015637ae28e5",
             "extract_dir": "RetroArch-Win32"
         },
         "64bit": {
-            "url": "https://buildbot.libretro.com/nightly/windows/x86_64/RetroArch.7z",
+            "url": "https://buildbot.libretro.com/stable/1.10.1/windows/x86_64/RetroArch.7z",
+            "hash": "a0f4e74317c5e399c0d5bf1472d082801fd349b85950f5a6b56c6fc0dd0f5675",
             "extract_dir": "RetroArch-Win64"
         }
     },
     "autoupdate": {
         "architecture": {
             "32bit": {
-                "url": "https://buildbot.libretro.com/nightly/windows/x86/RetroArch.7z"
+                "url": "https://buildbot.libretro.com/stable/$matchMain/windows/x86/RetroArch.7z"
             },
             "64bit": {
-                "url": "https://buildbot.libretro.com/nightly/windows/x86_64/RetroArch.7z"
+                "url": "https://buildbot.libretro.com/stable/$matchMain/windows/x86_64/RetroArch.7z"
             }
         }
     },
     "bin": [
         [
             "retroarch.exe",
-            "retroarch-nightly"
+            "retroarch"
         ]
     ],
+    "checkver": {
+        "url": "https://www.retroarch.com/?page=platforms",
+        "regex": "The current stable version is: (?<main>[\\d.]+)(\\s*(\\(|\\[)(\\w+)(\\)|\\]))?",
+        "replace": "${5}${3}"
+    },
     "persist": [
         "assets\\wallpapers",
         "cores",
@@ -54,13 +61,13 @@
     ],
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\\retroarch.cfg\")) {",
-        "    New-Item \"$persist_dir\\retroarch.cfg\" -Type File | Out-Null",
+        "    New-Item \"$dir\\retroarch.cfg\" -Type File | Out-Null",
         "}"
     ],
     "shortcuts": [
         [
             "retroarch.exe",
-            "RetroArch (nightly)"
+            "RetroArch"
         ]
     ]
 }
