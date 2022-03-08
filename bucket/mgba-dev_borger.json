@@ -1,10 +1,22 @@
 {
-    "version": "7293-20220301",
+    "version": "7296-20220308",
     "description": "Nintendo Game Boy Advance emulator",
     "homepage": "https://mgba.io/",
     "license": {
-        "url": "https://github.com/mgba-emu/mgba/blob/master/LICENSE",
-        "identifier": "MPL-2.0"
+        "identifier": "MPL-2.0",
+        "url": "https://github.com/mgba-emu/mgba/blob/master/LICENSE"
+    },
+    "architecture": {
+        "32bit": {
+            "url": "https://s3.amazonaws.com/mgba/build/mGBA-build-2022-03-08-win32-7296-54bccfd2cdd128fc35cc73fcd5aab8f4c0334b38.7z",
+            "hash": "aa695fcfc1d6d1e68e90e588b75ef998f37cf9706f4525ad06845d9919fdffa8",
+            "extract_dir": "mGBA-build-2022-03-08-win32-7296-54bccfd2cdd128fc35cc73fcd5aab8f4c0334b38"
+        },
+        "64bit": {
+            "url": "https://s3.amazonaws.com/mgba/build/mGBA-build-2022-03-08-win64-7296-54bccfd2cdd128fc35cc73fcd5aab8f4c0334b38.7z",
+            "hash": "fc07e1615a65956f0b73e79b5b62265eac2f67e3f4afd2a213a6b32f7e2b740f",
+            "extract_dir": "mGBA-build-2022-03-08-win64-7296-54bccfd2cdd128fc35cc73fcd5aab8f4c0334b38"
+        }
     },
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\\qt.ini\")) {",
@@ -56,18 +68,6 @@
                 "url": "https://s3.amazonaws.com/mgba/build/mGBA-build-$matchYear-$matchMonth-$matchDay-win64-$matchVer-$matchGit.7z",
                 "extract_dir": "mGBA-build-$matchYear-$matchMonth-$matchDay-win64-$matchVer-$matchGit"
             }
-        }
-    },
-    "architecture": {
-        "32bit": {
-            "url": "https://s3.amazonaws.com/mgba/build/mGBA-build-2022-03-01-win32-7293-245a20b442d577c90221fdbfd16ea573d0046523.7z",
-            "hash": "a8b0ac02983690dbaab0e98c38c60f5189b688557d0011047bfaee16c6e2c0a9",
-            "extract_dir": "mGBA-build-2022-03-01-win32-7293-245a20b442d577c90221fdbfd16ea573d0046523"
-        },
-        "64bit": {
-            "url": "https://s3.amazonaws.com/mgba/build/mGBA-build-2022-03-01-win64-7293-245a20b442d577c90221fdbfd16ea573d0046523.7z",
-            "hash": "dab858a96ef342ac498f7a3cb368272879c1eb81c33e4eda3b65d35bef978fd5",
-            "extract_dir": "mGBA-build-2022-03-01-win64-7293-245a20b442d577c90221fdbfd16ea573d0046523"
         }
     }
 }
