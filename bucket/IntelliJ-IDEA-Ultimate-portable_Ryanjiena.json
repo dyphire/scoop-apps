@@ -1,18 +1,18 @@
 {
-    "version": "2021.3.4-213.7172.22",
-    "description": "GoLand. Cross-Platform, Clever IDE to Go by JetBrains.",
-    "homepage": "https://www.jetbrains.com/goland/",
+    "version": "2021.3.2-213.6777.52",
+    "description": "IntelliJ IDEA Ultimate. Cross-Platform Java IDE for professional developers by JetBrains.",
+    "homepage": "https://www.jetbrains.com/idea/",
     "license": {
         "identifier": "Proprietary",
         "url": "https://www.jetbrains.com/store/license.html"
     },
-    "changelog": "https://www.jetbrains.com/goland/whatsnew/",
+    "changelog": "https://www.jetbrains.com/idea/whatsnew/",
     "url": [
-        "https://download.jetbrains.com/go/goland-2021.3.4.exe#/cosi.7z",
+        "https://download.jetbrains.com/idea/ideaIU-2021.3.2.win.zip",
         "https://raw.githubusercontent.com/Ash258/Scoop-JetBrains/main/scripts/portable.ps1"
     ],
     "hash": [
-        "486be43c0662b91fa67464caaa9c35b611577493f6f29e75df70f16c35601719",
+        "42f1287da595480fc8b9e3767984b98cccfcaf9e3f01a26bda8178da0413a4b0",
         "2255673952a7909596b8783f6e913d2301f91f0def0275fcfbc6371b0ca021f8"
     ],
     "extract_to": "IDE",
@@ -25,25 +25,25 @@
     "architecture": {
         "64bit": {
             "bin": [
-                "IDE\\bin\\goland64.exe",
+                "IDE\\bin\\idea64.exe",
                 [
-                    "IDE\\bin\\goland64.exe",
-                    "goland"
+                    "IDE\\bin\\idea64.exe",
+                    "idea"
                 ]
             ],
             "shortcuts": [
                 [
-                    "IDE\\bin\\goland64.exe",
-                    "JetBrains\\GoLand"
+                    "IDE\\bin\\idea64.exe",
+                    "JetBrains\\IntelliJ IDEA Ultimate"
                 ]
             ]
         },
         "32bit": {
-            "bin": "IDE\\bin\\goland.exe",
+            "bin": "IDE\\bin\\idea.exe",
             "shortcuts": [
                 [
-                    "IDE\\bin\\goland.exe",
-                    "JetBrains\\GoLand"
+                    "IDE\\bin\\idea.exe",
+                    "JetBrains\\IntelliJ IDEA Ultimate"
                 ]
             ]
         }
@@ -53,12 +53,12 @@
         "profile"
     ],
     "checkver": {
-        "url": "https://data.services.jetbrains.com/products/releases?code=GO&latest=true&platform=zip&type=release",
+        "url": "https://data.services.jetbrains.com/products/releases?code=IIU&latest=true&platform=zip&type=release",
         "regex": "version\":\"(?<ver>[\\d.]+)\".*\"build\":\"(?<build>[\\d.]+)\"",
         "replace": "${ver}-${build}"
     },
     "autoupdate": {
-        "url": "https://download.jetbrains.com/go/goland-$matchHead.exe#/cosi.7z",
+        "url": "https://download.jetbrains.com/idea/ideaIU-$matchHead.win.zip",
         "hash": {
             "url": "$url.sha256"
         }
