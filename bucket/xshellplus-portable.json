@@ -1,7 +1,7 @@
 {
-    "version": "7.0.0097",
-    "description": "Effortless File Transfers Over A Network(Portable Edition).",
-    "homepage": "https://www.netsarang.com/en/xftp",
+    "version": "7.0.0016",
+    "description": "Xshell + Xftp(Portable Edition).",
+    "homepage": "https://www.netsarang.com/en/xshell",
     "license": {
         "identifier": "Proprietary",
         "url": "https://www.netsarang.com/docs/ver7_eula.pdf"
@@ -17,12 +17,11 @@
         "4. 去 FlexNet 服务组件效验，无 FlexNet 授权服务后台组件",
         "5. 删除许可管理程序、在线升级程序、多语言模块等文件!"
     ],
-    "url": "https://pan.jiemi.workers.dev/?file=/scoop/XShell/Xftp_v7.0.0097.7z",
-    "hash": "04a5d184136f98d5fb588cb86440c4480570e490d6f11cdc8ae5a4f7a52b6261",
-    "extract_dir": "Xftp",
+    "url": "https://pan.jiemi.workers.dev/?file=/scoop/XShell/XshellPlus_v7.0.0016.7z",
+    "hash": "fb802e6d24f5e4c226d9f124d53f3753b2fe6f490c026981be970c9f3bd032d7",
+    "extract_dir": "XshellPlus",
     "installer": {
-        "file": "!)绿化处理.bat",
-        "keep": true
+        "script": "Start-Process \"$dir\\!)绿化处理.bat\" -WorkingDirectory \"$dir\"  -Wait -Verb RunAs"
     },
     "uninstaller": {
         "script": [
@@ -30,8 +29,15 @@
             "Write-Host \"The '$app' has been uninstalled.\" -Foreground Magenta"
         ]
     },
-    "bin": "Xftp.exe",
+    "bin": [
+        "Xshell.exe",
+        "Xftp.exe"
+    ],
     "shortcuts": [
+        [
+            "Xshell.exe",
+            "Xshell"
+        ],
         [
             "Xftp.exe",
             "Xftp"
@@ -39,7 +45,7 @@
     ],
     "checkver": {
         "url": "https://github.com/Ryanjiena/scoop-apps/raw/version/xshell",
-        "regex": "(?<filename>Xftp_v(?<version>[\\d.]+)\\.(?:zip|7z))",
+        "regex": "(?<filename>XshellPlus_v(?<version>[\\d.]+)\\.(?:zip|7z))",
         "reverse": true
     },
     "autoupdate": {
