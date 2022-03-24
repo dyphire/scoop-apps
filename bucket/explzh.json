@@ -1,0 +1,69 @@
+{
+    "homepage": "https://www.ponsoftware.com/en/",
+    "version": "8.60",
+    "license": "https://www.ponsoftware.com/en/archiver/regist.htm",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.ponsoftware.com/en/archiver/explzh/explz860_en_x64.exe#/dl.7z",
+            "hash": "11cdd03255228bf60d345e1b779bea8f5468240120cdfc9e2d476b23b0474457"
+        },
+        "32bit": {
+            "url": "https://www.ponsoftware.com/en/archiver/explzh/explz860_en.exe#/dl.7z",
+            "hash": "2451b359d0b6541c1ee50bf49f54db45b5d98c217c330b2b4978a62fc9d8ed61"
+        }
+    },
+    "installer": {
+        "script": [
+            "",
+            "InfDefaultInstall \"$dir\\x64\\EXPLZH.INF\"",
+            ""
+        ]
+    },
+    "bin": "Explzh.exe",
+    "shortcuts": [
+        [
+            "Explzh.exe",
+            "Explzh"
+        ]
+    ],
+    "post_install": [
+        "",
+        "# Parrent path",
+        "$regpath = 'HKCU:\\Software\\Pon\\'",
+        "if (-not (Test-Path \"$regpath\")) { New-Item -Path \"$regpath\" | Out-Null }",
+        "$regpath = 'HKCU:\\Software\\Pon\\Explzh\\'",
+        "if (-not (Test-Path \"$regpath\")) { New-Item -Path \"$regpath\" | Out-Null }",
+        "# ExplzhDir",
+        "$regpath = 'HKCU:\\Software\\Pon\\Explzh\\Folders\\'",
+        "if (-not (Test-Path \"$regpath\")) { New-Item -Path \"$regpath\" | Out-Null }",
+        "$regname = 'ExplzhDir'",
+        "$regvalue = Get-ItemProperty -Path \"$regpath\" -Name \"$regname\" -ErrorAction SilentlyContinue",
+        "if ($regvalue -eq $null) {",
+        "Set-ItemProperty \"$regpath\" -Name \"$regname\" -Value \"$dir\"",
+        "}",
+        ""
+    ],
+    "uninstaller": {
+        "script": [
+            "",
+            "Copy-Item \"$dir\\associate.exe\" $Env:Temp",
+            "Copy-Item \"$dir\\install.exe\" $Env:Temp",
+            "&\"$Env:Temp\\install.exe\" \"/d\"",
+            ""
+        ]
+    },
+    "checkver": {
+        "url": "https://www.ponsoftware.com/en/",
+        "re": "Explzh for Windows English v\\.([\\d.]+) \\("
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.ponsoftware.com/en/archiver/explzh/explz$cleanVersion_en_x64.exe#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://www.ponsoftware.com/en/archiver/explzh/explz$cleanVersion_en.exe#/dl.7z"
+            }
+        }
+    }
+}

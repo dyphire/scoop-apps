@@ -1,0 +1,52 @@
+{
+    "homepage": "https://www.mozilla.org/ja/firefox/new/",
+    "version": "98.0.1",
+    "architecture": {
+        "64bit": {
+            "url": "https://download.mozilla.org/?product=firefox-98.0.1-SSL&os=win64&lang=ja#/firefox-setup.exe",
+            "hash": "8072569bf655e1ea2e764e07b3cd2c7239d99849e5fb52e355d48fcbad2a06a1"
+        },
+        "32bit": {
+            "url": "https://download.mozilla.org/?product=firefox-98.0.1-SSL&os=win&lang=ja#/firefox-setup.exe",
+            "hash": "d2357bc9d3947d15d5fd868d3f7a26ef43261f597bddddc082898b625192789b"
+        }
+    },
+    "bin": "firefox.exe",
+    "shortcuts": [
+        [
+            "firefox.exe",
+            "Mozilla Firefox"
+        ]
+    ],
+    "pre_install": "echo \"[Install]`nInstallDirectoryPath=$dir`nQuickLaunchShortcut=false`nDesktopShortcut=false`nStartMenuShortcuts=false\" | sc \"$dir\\install.ini\"",
+    "installer": {
+        "file": "firefox-setup.exe",
+        "args": "/INI=$dir\\install.ini"
+    },
+    "uninstaller": {
+        "file": "uninstall\\helper.exe",
+        "args": "/S"
+    },
+    "checkver": {
+        "url": "https://www.mozilla.org/ja/firefox/notes/",
+        "re": "data-latest-firefox=\"([\\d.]+)\""
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download.mozilla.org/?product=firefox-$version-SSL&os=win64&lang=ja#/firefox-setup.exe",
+                "hash": {
+                    "find": "([a-fA-F0-9]{64})\\s+(?:win64/ja/Firefox Setup ([\\d.]+).exe)",
+                    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/$version/SHA256SUMS"
+                }
+            },
+            "32bit": {
+                "url": "https://download.mozilla.org/?product=firefox-$version-SSL&os=win&lang=ja#/firefox-setup.exe",
+                "hash": {
+                    "find": "([a-fA-F0-9]{64})\\s+(?:win32/ja/Firefox Setup ([\\d.]+).exe)",
+                    "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/$version/SHA256SUMS"
+                }
+            }
+        }
+    }
+}
