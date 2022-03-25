@@ -11,9 +11,9 @@
     ],
     "suggest": {
         "JDK": [
-            "tomcat/oraclejdk8",
+            "java/oraclejdk",
             "java/openjdk",
-            "java/temurin11-jdk",
+            "java/adoptopenjdk-hotspot",
             "java/zulu"
         ]
     },
