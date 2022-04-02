@@ -1,9 +1,10 @@
 {
-    "homepage": "http://www.aardio.com/",
-    "version": "33.10",
-    "license": "freeware",
-    "url": "http://ide.update.aardio.com/releases/aardio.7z",
-    "hash": "6258564a4e2999ebaa3e20644bc2c70fdb615f53566c4e149b1ff3d0998a7e9b",
+    "version": "34.46.0",
+    "description": "aardio 编程语言，专注于桌面软件快速开发",
+    "homepage": "https://www.aardio.com/",
+    "license": "Freeware",
+    "url": "https://ide.update.aardio.com/releases/aardio.7z",
+    "hash": "c4098aa0250f61019dfb15d053ee83209a17259cd3015dba818bdb545c390ca5",
     "bin": "aardio.exe",
     "shortcuts": [
         [
@@ -11,8 +12,17 @@
             "aardio"
         ]
     ],
-    "persist": "config\\USR.CFG",
+    "persist": [
+        "config",
+        "download",
+        "project",
+        "codes\\我的代码段"
+    ],
+    "checkver": {
+        "url": "http://ide.update.aardio.com/check/",
+        "jsonpath": "$.version"
+    },
     "autoupdate": {
-        "url": "http://ide.update.aardio.com/releases/aardio.7z"
+        "url": "https://ide.update.aardio.com/releases/aardio.7z"
     }
 }
