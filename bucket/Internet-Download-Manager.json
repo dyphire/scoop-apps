@@ -1,9 +1,10 @@
 {
     "version": "6.40.11",
-    "description": "Internet Download Manager (IDM) is a tool to increase download speeds by up to 5 times, resume and schedule downloads.",
+    "description": "IDM is a tool to increase download speeds by up to 5 times, resume and schedule downloads.",
     "homepage": "http://internetdownloadmanager.com/index.html",
     "license": {
-        "identifier": "Freeware"
+        "identifier": "Proprietary",
+        "url": "http://internetdownloadmanager.com/support/terms-and-conditions.html"
     },
     "depends": "sudo",
     "url": "https://pan.jiemi.workers.dev/?file=/scoop/IDM/internet_download_manager_6.40.11.zip",
