@@ -69,9 +69,9 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - AStupidBear/scoop-bear
 - excitoon/scoop-user
 - naderi/scoop-bucket
+- batkiz/backit
 - iquiw/scoop-bucket
 - 42wim/scoop-bucket
-- batkiz/backit
 - mogeko/scoop-sysinternals
 - Velgus/Scoop-Portapps
 - Darkatse/Scoop-Darkatse
