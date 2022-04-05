@@ -1,5 +1,5 @@
 {
-    "version": "8u321",
+    "version": "8u311",
     "description": "Oracle JDK 8.",
     "homepage": "https://www.oracle.com/java/technologies/downloads/#java8",
     "license": {
@@ -9,15 +9,15 @@
     "notes": "Java SE subscribers will receive JDK 8 updates until at least December of 2030.",
     "architecture": {
         "64bit": {
-            "url": "https://download.macromedia.com/pub/coldfusion/java/java8/8u321/jdk/jdk-8u321-windows-x64.zip",
-            "hash": "94ed3431d30f915cc8efff3e505fa0e09b625bb0ee3b5cc1fe5671e90da10c4d"
+            "url": "https://download.macromedia.com/pub/coldfusion/java/java8/8u311/jdk/jdk-8u311-windows-x64.zip",
+            "hash": "6695ca9cd63dbbb5d450cf83cd29331b8e027398e58b50d0836b9ec0ba0b541e"
         },
         "32bit": {
-            "url": "https://download.macromedia.com/pub/coldfusion/java/java8/8u321/jdk/jdk-8u321-windows-i586.zip",
-            "hash": "364091f2809f793407aaf1b8f47d0ef7834bb6a30f46e3b374982b985c01ecd6"
+            "url": "https://download.macromedia.com/pub/coldfusion/java/java8/8u311/jdk/jdk-8u311-windows-i586.zip",
+            "hash": "3126990c71555158b88dae9ae4549bab0cffefdab0b774b4da60d163ce687791"
         }
     },
-    "extract_dir": "jdk1.8.0_321",
+    "extract_dir": "jdk1.8.0_311",
     "env_add_path": "bin",
     "env_set": {
         "JAVA_HOME": "$dir"
@@ -25,7 +25,8 @@
     "checkver": {
         "url": "https://helpx.adobe.com/coldfusion/kb/coldfusion-downloads.html",
         "useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55",
-        "regex": "/java8/8u(?<build>\\d{3})/(?<path>.*?)/(?<file>jdk-([a-z\\d]+)-windows-x64\\.zip)"
+        "regex": "/java8/8u(?<build>\\d{3})/(?<path>.*?)/(?<file>jdk-([a-z\\d]+)-windows-x64\\.zip)",
+        "reverse": true
     },
     "autoupdate": {
         "architecture": {
@@ -37,7 +38,7 @@
             }
         },
         "hash": {
-            "url": "https://download.macromedia.com/pub/coldfusion/java/java8/8u$matchBuild/$matchPath/Checksum-JDK8u$matchBuild.txt",
+            "url": "https://download.macromedia.com/pub/coldfusion/java/java8/8u$matchBuild/$matchPath/jdk8u$matchBuild-checksum.txt",
             "mode": "extract",
             "regex": "$basename.*?$sha256"
         },
