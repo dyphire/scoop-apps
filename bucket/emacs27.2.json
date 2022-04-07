@@ -1,13 +1,16 @@
 {
-    "version": "28.1",
+    "version": "27.2",
     "description": "An extensible, customizable, free/libre text editor.",
     "homepage": "https://www.gnu.org/software/emacs/",
     "license": "GPL-3.0-or-later",
-    "notes": "For 32-bit version, install 'versions/emacs27.2'",
     "architecture": {
         "64bit": {
-            "url": "https://ftpmirror.gnu.org/gnu/emacs/windows/emacs-28/emacs-28.1.zip",
-            "hash": "b7ab71fef1d176c7ba76b1438afbacad4dadced129835c6dbcc23eb9f98a3fed"
+            "url": "https://ftpmirror.gnu.org/gnu/emacs/windows/emacs-27/emacs-27.2-x86_64.zip",
+            "hash": "5396aa4239c9ac2f65a6b084ccf588d01bdd6ddb701419b7fda5b97b45846093"
+        },
+        "32bit": {
+            "url": "https://ftpmirror.gnu.org/gnu/emacs/windows/emacs-27/emacs-27.2-i686.zip",
+            "hash": "626792ea6c4c5347e1f17960072440af1cb05cb6767389fc8195a744a0b428ca"
         }
     },
     "bin": [
@@ -27,13 +30,5 @@
             "Emacs Client",
             "-c -n -a \"\""
         ]
-    ],
-    "checkver": "Emacs ([\\d.]+)",
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://ftpmirror.gnu.org/gnu/emacs/windows/emacs-$majorVersion/emacs-$version.zip"
-            }
-        }
-    }
+    ]
 }
