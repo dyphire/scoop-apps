@@ -1,5 +1,5 @@
 {
-    "version": "2.1.8",
+    "version": "2.1.7",
     "description": "Apifox = Postman + Swagger + Mock + JMeter",
     "homepage": "https://www.apifox.cn/",
     "license": {
@@ -9,8 +9,8 @@
     "depends": "sudo",
     "architecture": {
         "64bit": {
-            "url": "http://cdn.apifox.cn/download/2.1.8/Apifox-2.1.8.exe#/installer.exe",
-            "hash": "sha512:3de4168a8ebdfb70f2b8aa590784a7382ce1543ffaac74b136ecfc85849d04292c16bc27bf2c77a1db389527fe7c824d48f7db9ab98289d7ddf76a92f68c8e21",
+            "url": "http://cdn.apifox.cn/download/2.1.7/Apifox-2.1.7.exe#/installer.exe",
+            "hash": "sha512:19e6f52f7ba217eadda3c2ababefa9b3ff44a579b01f08111be16b665553f2d712238e2f9a1b8d2a0299e2e977819bbb629373dc5e8af00a2b6016367f632d44",
             "installer": {
                 "script": "Start-Process -filepath \"$dir\\installer.exe\" -WorkingDirectory \"$dir\" -ArgumentList \"/S /D=$dir\" -Wait"
             },

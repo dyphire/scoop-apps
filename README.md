@@ -56,13 +56,13 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - dodorz/scoop
 - wangzq/scoop-bucket
 - zhoujin7/tomato
-- kiennq/scoop-misc
 - ZvonimirSun/scoop-iszy
+- kiennq/scoop-misc
 - scoopcn/scoopcn
 - Paxxs/Cluttered-bucket
 - borger/scoop-emulators
-- wzv5/ScoopBucket
 - Ryanjiena/scoop-apps
+- wzv5/ScoopBucket
 - TheRandomLabs/Scoop-Python
 - ACooper81/scoop-apps
 - ChungZH/peach
