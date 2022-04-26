@@ -58,8 +58,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - zhoujin7/tomato
 - ZvonimirSun/scoop-iszy
 - kiennq/scoop-misc
-- scoopcn/scoopcn
 - Paxxs/Cluttered-bucket
+- scoopcn/scoopcn
 - borger/scoop-emulators
 - Ryanjiena/scoop-apps
 - wzv5/ScoopBucket
@@ -73,10 +73,10 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - iquiw/scoop-bucket
 - 42wim/scoop-bucket
 - liaoya/scoop-bucket
+- jfut/scoop-jfut
 - mogeko/scoop-sysinternals
 - Velgus/Scoop-Portapps
 - Darkatse/Scoop-Darkatse
-- jfut/scoop-jfut
 - krproject/qi-windows
 - ChinLong/scoop-customize
 - Apocalypsor/My-Scoop-Bucket
