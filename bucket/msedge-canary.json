@@ -23,7 +23,10 @@
         }
     },
     "installer": {
-        "script": "Expand-7zipArchive -Path \"$dir\\MSEDGE.7z\" -ExtractDir \"Chrome-bin\\$version\" -Removal"
+        "script": [
+            "Expand-7zipArchive -Path \"$dir\\MSEDGE.7z\" -ExtractDir \"Chrome-bin\" -Removal",
+            "@('msedge.exe', 'msedge_proxy.exe') | ForEach-Object { Move-Item \"$dir\\$version\\$_\" \"$dir\" -Force -ErrorAction SilentlyContinue }"
+        ]
     },
     "post_install": [
         "if (!(Test-Path \"$dir\\User Data\\*\") -and (Test-Path \"$env:LocalAppData\\Microsoft\\Edge\\User Data\")) {",
