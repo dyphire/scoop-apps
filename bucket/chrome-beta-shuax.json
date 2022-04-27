@@ -21,12 +21,12 @@
         ]
     },
     "uninstaller": {
-        "script": "sudo Start-Process \"dir\\清理.bat\" -WorkingDirectory \"$dir\" -Wait"
+        "script": "sudo Start-Process \"$dir\\清理.bat\" -WorkingDirectory \"$dir\" -Wait"
     },
     "bin": [
         [
             "Chrome.exe",
-            "Google Chrome Beta Plus"
+            "chrome-beta-plus"
         ]
     ],
     "shortcuts": [

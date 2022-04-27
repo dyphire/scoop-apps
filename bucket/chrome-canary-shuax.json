@@ -1,5 +1,5 @@
 {
-    "version": "103.0.5026.0",
+    "version": "103.0.5027.0",
     "description": "chrome-canary + chrome-plus.",
     "homepage": "https://www.google.com/chrome/",
     "license": {
@@ -21,12 +21,12 @@
         ]
     },
     "uninstaller": {
-        "script": "sudo Start-Process \"dir\\清理.bat\" -WorkingDirectory \"$dir\" -Wait"
+        "script": "sudo Start-Process \"$dir\\清理.bat\" -WorkingDirectory \"$dir\" -Wait"
     },
     "bin": [
         [
             "Chrome.exe",
-            "Google Chrome Canary Plus"
+            "chrome-canary-plus"
         ]
     ],
     "shortcuts": [

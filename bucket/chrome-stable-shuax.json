@@ -1,5 +1,5 @@
 {
-    "version": "100.0.4896.127",
+    "version": "101.0.4951.41",
     "description": "chrome-stable + chrome-plus.",
     "homepage": "https://www.google.com/chrome/",
     "license": {
@@ -21,12 +21,12 @@
         ]
     },
     "uninstaller": {
-        "script": "sudo Start-Process \"dir\\清理.bat\" -WorkingDirectory \"$dir\" -Wait"
+        "script": "sudo Start-Process \"$dir\\清理.bat\" -WorkingDirectory \"$dir\" -Wait"
     },
     "bin": [
         [
             "Chrome.exe",
-            "Google Chrome Stable Plus"
+            "chrome-stable-plus"
         ]
     ],
     "shortcuts": [
