@@ -9,7 +9,7 @@
     "architecture": {
         "64bit": {
             "url": "https://dl3.xmind.net/XMind-for-Windows-64bit-12.0.2-202204260729.exe#/dl.7z",
-            "hash": "ae915708109f192c5e3ecafcf2a4a96639f5600e65083013ac33f9a7b6d930da",
+            "hash": "55ab592e08a83c716d706c978b73cf2f85e360fa189cb379f379bda9853a72f9",
             "installer": {
                 "script": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
             }
