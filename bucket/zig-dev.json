@@ -1,5 +1,5 @@
 {
-    "version": "0.10.0-dev.2055",
+    "version": "0.10.0-dev.2061",
     "description": "General-purpose programming language designed for robustness, optimality, and maintainability.",
     "homepage": "https://ziglang.org/",
     "license": "MIT",
@@ -8,15 +8,15 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://ziglang.org/builds/zig-windows-x86_64-0.10.0-dev.2055+28ef79ea8.zip",
-            "hash": "16bf32b00f5592169336f05f48178a92e1226a197486281edb5adab053662ac2",
-            "extract_dir": "zig-windows-x86_64-0.10.0-dev.2055+28ef79ea8"
+            "url": "https://ziglang.org/builds/zig-windows-x86_64-0.10.0-dev.2061+080e870a7.zip",
+            "hash": "b758f3f55969cc013b26de24dada0ce270668c11dfd4c6b90920d07169d2c8b3",
+            "extract_dir": "zig-windows-x86_64-0.10.0-dev.2061+080e870a7"
         }
     },
     "bin": "zig.exe",
     "checkver": {
         "url": "https://ziglang.org/download/index.json",
-        "jp": "$.master.version",
+        "jsonpath": "$.master.version",
         "regex": "(?<version>[\\w._-]+)\\+(?<commit>[0-9a-f]+)"
     },
     "autoupdate": {
@@ -28,7 +28,7 @@
         },
         "hash": {
             "url": "https://ziglang.org/download/index.json",
-            "jp": "$.master.x86_64-windows.shasum"
+            "jsonpath": "$.master.x86_64-windows.shasum"
         }
     }
 }
