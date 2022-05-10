@@ -430,6 +430,7 @@ plantuml.json    ScoopInstaller/Extras
 scoop-completion.json    ScoopInstaller/Extras
 foobar2000-encoders.json    ScoopInstaller/Extras
 keepass-plugin-keetraytotp.json    ScoopInstaller/Extras
+fadetop.json    ScoopInstaller/Extras
 materialize.json    ScoopInstaller/Extras
 colorcontrol.json    ScoopInstaller/Extras
 easyserviceoptimizer.json    ScoopInstaller/Extras
@@ -540,6 +541,7 @@ draw.io.json    ScoopInstaller/Extras
 tortoisesvn_ScoopInstaller.json    ScoopInstaller/Extras
 kitty.json    ScoopInstaller/Extras
 monokle.json    ScoopInstaller/Extras
+7ztm.json    ScoopInstaller/Extras
 tageditor.json    ScoopInstaller/Extras
 openrgb.json    ScoopInstaller/Extras
 staxrip.json    ScoopInstaller/Extras
@@ -1359,6 +1361,7 @@ regeditor.json    ScoopInstaller/Extras
 teamcity.json    ScoopInstaller/Extras
 cookiecutter.json    ScoopInstaller/Extras
 qbittorrent-enhanced.json    ScoopInstaller/Extras
+pureref.json    ScoopInstaller/Extras
 clavier-plus.json    ScoopInstaller/Extras
 graphicsgale.json    ScoopInstaller/Extras
 git-aliases.json    ScoopInstaller/Extras
@@ -1672,7 +1675,6 @@ shinjiru.json    ScoopInstaller/Extras
 automake.json    ScoopInstaller/Extras
 p4merge.json    ScoopInstaller/Extras
 kindlegen.json    ScoopInstaller/Extras
-fadetop.json    ScoopInstaller/Extras
 node-compiler.json    ScoopInstaller/Extras
 oh-my-posh.json    ScoopInstaller/Extras
 station.json    ScoopInstaller/Extras
@@ -1683,7 +1685,6 @@ dbgl.json    ScoopInstaller/Extras
 veonim.json    ScoopInstaller/Extras
 libreoffice-fresh.json    ScoopInstaller/Extras
 archi.json    ScoopInstaller/Extras
-pureref.json    ScoopInstaller/Extras
 glogg.json    ScoopInstaller/Extras
 chefdk.json    ScoopInstaller/Extras
 ibmcloud-cli.json    ScoopInstaller/Extras
@@ -2832,6 +2833,7 @@ selenium3.json    ScoopInstaller/Versions
 nodejs6.json    ScoopInstaller/Versions
 xournalpp-nightly.json    ScoopInstaller/Versions
 php73.json    ScoopInstaller/Versions
+cuda11.4.json    ScoopInstaller/Versions
 idea-eap.json    ScoopInstaller/Versions
 love7.json    ScoopInstaller/Versions
 clion-eap.json    ScoopInstaller/Versions
@@ -2840,6 +2842,7 @@ ruby25.json    ScoopInstaller/Versions
 cmake-rc.json    ScoopInstaller/Versions
 spotbugs-beta.json    ScoopInstaller/Versions
 php56-xdebug.json    ScoopInstaller/Versions
+cuda11.2.json    ScoopInstaller/Versions
 php54.json    ScoopInstaller/Versions
 tesseract3.json    ScoopInstaller/Versions
 dataspell-rc.json    ScoopInstaller/Versions
@@ -2969,6 +2972,7 @@ uplay.json    ScoopInstaller/Versions
 springboot15.json    ScoopInstaller/Versions
 googlechrome-dev.json    ScoopInstaller/Versions
 cuda9.0.json    ScoopInstaller/Versions
+cuda11.3.json    ScoopInstaller/Versions
 python38.json    ScoopInstaller/Versions
 php54-xdebug.json    ScoopInstaller/Versions
 greenshot-unstable.json    ScoopInstaller/Versions
@@ -3035,7 +3039,9 @@ sts396.json    ScoopInstaller/Versions
 7zip-beta.json    ScoopInstaller/Versions
 tesseract3-languages.json    ScoopInstaller/Versions
 openscad-dev.json    ScoopInstaller/Versions
+cuda11.1.json    ScoopInstaller/Versions
 gitversion-beta.json    ScoopInstaller/Versions
+cuda11.5.json    ScoopInstaller/Versions
 vim-nightly.json    ScoopInstaller/Versions
 posh-git-beta.json    ScoopInstaller/Versions
 kodi-dev.json    ScoopInstaller/Versions
@@ -5864,6 +5870,7 @@ mgba-dev_borger.json    borger/scoop-emulators
 dolphin-dev_borger.json    borger/scoop-emulators
 mame_borger.json    borger/scoop-emulators
 sameboy_borger.json    borger/scoop-emulators
+ps3-system-software_borger.json    borger/scoop-emulators
 dolphin-beta_borger.json    borger/scoop-emulators
 redream-dev_borger.json    borger/scoop-emulators
 ppsspp_borger.json    borger/scoop-emulators
@@ -6559,6 +6566,7 @@ cwtch.json    naderi/scoop-bucket
 edge-portable-beta.json    naderi/scoop-bucket
 tad_naderi.json    naderi/scoop-bucket
 safeincloud.json    naderi/scoop-bucket
+exifpro.json    naderi/scoop-bucket
 handbrake-portable_naderi.json    naderi/scoop-bucket
 hash-explorer_naderi.json    naderi/scoop-bucket
 yt-spammer-purge.json    naderi/scoop-bucket
@@ -6626,6 +6634,7 @@ wfc_naderi.json    naderi/scoop-bucket
 snipaste_naderi.json    naderi/scoop-bucket
 consolez_naderi.json    naderi/scoop-bucket
 amp-font-viewer.json    naderi/scoop-bucket
+scoop-search-multisource.json    naderi/scoop-bucket
 uniextract.json    naderi/scoop-bucket
 extraterm_naderi.json    naderi/scoop-bucket
 chrome-portable.json    naderi/scoop-bucket
