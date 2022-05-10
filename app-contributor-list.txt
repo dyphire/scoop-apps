@@ -175,7 +175,6 @@ DeskDock.json    kkzzhizhou/scoop-zapps
 Foxmail.json    kkzzhizhou/scoop-zapps
 wimlib.json    kkzzhizhou/scoop-zapps
 unlock-music.json    kkzzhizhou/scoop-zapps
-pdd.json    ScoopInstaller/Extras
 posh-git.json    ScoopInstaller/Extras
 age.json    ScoopInstaller/Extras
 fnr.json    ScoopInstaller/Extras
@@ -207,6 +206,7 @@ xmlnotepad.json    ScoopInstaller/Extras
 mancy.json    ScoopInstaller/Extras
 dhcp-server.json    ScoopInstaller/Extras
 markn.json    ScoopInstaller/Extras
+pdd.json    ScoopInstaller/Extras
 streamlink.json    ScoopInstaller/Extras
 pe-bear.json    ScoopInstaller/Extras
 xyplorer.json    ScoopInstaller/Extras
@@ -740,6 +740,7 @@ qalculate.json    ScoopInstaller/Extras
 youtube-dl-gui.json    ScoopInstaller/Extras
 openhab.json    ScoopInstaller/Extras
 axiom.json    ScoopInstaller/Extras
+cdex.json    ScoopInstaller/Extras
 xampp.json    ScoopInstaller/Extras
 video-thumbnails-maker.json    ScoopInstaller/Extras
 pcmeter.json    ScoopInstaller/Extras
@@ -864,6 +865,7 @@ sigil.json    ScoopInstaller/Extras
 veusz.json    ScoopInstaller/Extras
 impregnate.json    ScoopInstaller/Extras
 opentoonz.json    ScoopInstaller/Extras
+yumi-exfat.json    ScoopInstaller/Extras
 superf4.json    ScoopInstaller/Extras
 xb1cbi.json    ScoopInstaller/Extras
 pass-winmenu-nogpg.json    ScoopInstaller/Extras
@@ -962,6 +964,7 @@ deepgit.json    ScoopInstaller/Extras
 eclipse-parallel.json    ScoopInstaller/Extras
 windowsdesktop-runtime.json    ScoopInstaller/Extras
 photodemon.json    ScoopInstaller/Extras
+jetaudio-basic.json    ScoopInstaller/Extras
 lantern-client.json    ScoopInstaller/Extras
 eclipse-sdk.json    ScoopInstaller/Extras
 qtscrcpy.json    ScoopInstaller/Extras
@@ -1251,6 +1254,7 @@ joplin.json    ScoopInstaller/Extras
 lite.json    ScoopInstaller/Extras
 webstorm.json    ScoopInstaller/Extras
 matterbridge.json    ScoopInstaller/Extras
+yumi-uefi.json    ScoopInstaller/Extras
 chipmunk.json    ScoopInstaller/Extras
 yubikey-personalization-gui.json    ScoopInstaller/Extras
 wslgit.json    ScoopInstaller/Extras
@@ -1482,6 +1486,7 @@ ssd-z.json    ScoopInstaller/Extras
 rancher-desktop.json    ScoopInstaller/Extras
 ao.json    ScoopInstaller/Extras
 neovide.json    ScoopInstaller/Extras
+yumi.json    ScoopInstaller/Extras
 filelight.json    ScoopInstaller/Extras
 redis-tui.json    ScoopInstaller/Extras
 dosbox-staging.json    ScoopInstaller/Extras
@@ -1490,6 +1495,7 @@ patchcleaner.json    ScoopInstaller/Extras
 google-java-format.json    ScoopInstaller/Extras
 launchy.json    ScoopInstaller/Extras
 fbide.json    ScoopInstaller/Extras
+gyroflow.json    ScoopInstaller/Extras
 throttlestop.json    ScoopInstaller/Extras
 keepass-plugin-sequencer.json    ScoopInstaller/Extras
 quodlibet.json    ScoopInstaller/Extras
@@ -2877,6 +2883,7 @@ oneget.json    ScoopInstaller/Versions
 kodi-nightly.json    ScoopInstaller/Versions
 nodejs9.json    ScoopInstaller/Versions
 idea-rc.json    ScoopInstaller/Versions
+cuda10.2.json    ScoopInstaller/Versions
 gcc-llvm.json    ScoopInstaller/Versions
 arduino-ide-rc.json    ScoopInstaller/Versions
 goland-eap.json    ScoopInstaller/Versions
@@ -2965,6 +2972,7 @@ cuda9.0.json    ScoopInstaller/Versions
 python38.json    ScoopInstaller/Versions
 php54-xdebug.json    ScoopInstaller/Versions
 greenshot-unstable.json    ScoopInstaller/Versions
+cuda10.json    ScoopInstaller/Versions
 mysql56.json    ScoopInstaller/Versions
 tomcat7.json    ScoopInstaller/Versions
 php55.json    ScoopInstaller/Versions
@@ -3040,6 +3048,7 @@ php56.json    ScoopInstaller/Versions
 kdenlive-nightly.json    ScoopInstaller/Versions
 pycharm-professional-rc.json    ScoopInstaller/Versions
 postgresql12.json    ScoopInstaller/Versions
+cuda10.1.json    ScoopInstaller/Versions
 python39-beta.json    ScoopInstaller/Versions
 scribus-dev.json    ScoopInstaller/Versions
 lua53.json    ScoopInstaller/Versions
@@ -3107,6 +3116,7 @@ steam.json    ScoopInstaller/Versions
 pycharm-eap.json    ScoopInstaller/Versions
 gitea-beta.json    ScoopInstaller/Versions
 firefox-beta.json    ScoopInstaller/Versions
+cuda10.0.json    ScoopInstaller/Versions
 postgresql10.json    ScoopInstaller/Versions
 encryptedregview.json    kodybrown/scoop-nirsoft
 sysexporter.json    kodybrown/scoop-nirsoft
@@ -5669,7 +5679,7 @@ wpftracespy.json    wangzq/scoop-bucket
 logparserstudio.json    wangzq/scoop-bucket
 winrm-https.json    wangzq/scoop-bucket
 msos-x86.json    wangzq/scoop-bucket
-yumi.json    wangzq/scoop-bucket
+yumi_wangzq.json    wangzq/scoop-bucket
 GreenFishIconEditor.json    wangzq/scoop-bucket
 de4dot.json    wangzq/scoop-bucket
 procmon.json    wangzq/scoop-bucket
@@ -6715,7 +6725,7 @@ eudic_naderi.json    naderi/scoop-bucket
 gimp-portable_naderi.json    naderi/scoop-bucket
 chrome-canary-portable.json    naderi/scoop-bucket
 json-edit.json    naderi/scoop-bucket
-gyroflow.json    naderi/scoop-bucket
+gyroflow_naderi.json    naderi/scoop-bucket
 firefox-nightly-portable.json    naderi/scoop-bucket
 encfs.json    naderi/scoop-bucket
 falkon_naderi.json    naderi/scoop-bucket
