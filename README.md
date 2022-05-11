@@ -33,8 +33,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - matthewjberger/scoop-nerd-fonts
 - ScoopInstaller/Java
 - Calinou/scoop-games
-- borger/scoop-galaxy-integrations
 - TheRandomLabs/scoop-nonportable
+- borger/scoop-galaxy-integrations
 - ivaquero/scoopet
 - TheCjw/scoop-retools
 - ScoopInstaller/Versions
@@ -74,8 +74,10 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - mogeko/scoop-sysinternals
 - liaoya/scoop-bucket
 - jfut/scoop-jfut
-- Velgus/Scoop-Portapps
-- Darkatse/Scoop-Darkatse
 - krproject/qi-windows
+- rivy/scoop-bucket
+- Velgus/Scoop-Portapps
+- Ryanjiena/Meta
+- Darkatse/Scoop-Darkatse
 - ChinLong/scoop-customize
 - Apocalypsor/My-Scoop-Bucket
