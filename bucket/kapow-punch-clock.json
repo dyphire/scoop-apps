@@ -18,8 +18,8 @@
     "persist": "data",
     "checkver": ">Version ([\\d\\.]+)<",
     "autoupdate": {
-        "architecture":{
-            "64bit":{
+        "architecture": {
+            "64bit": {
                 "url": "https://gottcode.org/kapow/download/?os=windowsportable#/kapow-portable.zip",
                 "hash": {
                     "url": "https://gottcode.org/kapow/",
