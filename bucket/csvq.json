@@ -1,0 +1,34 @@
+{
+    "version": "1.17.0",
+    "description": "SQL-like query language for csv",
+    "homepage": "https://mithrandie.github.io/csvq",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/mithrandie/csvq/releases/download/v1.17.0/csvq-v1.17.0-windows-amd64.tar.gz",
+            "hash": "62b3d23bacb34a10f2d0f9eae9cd65b7df3cb5469024dc7577a99bd0d687c45c",
+            "extract_dir": "csvq-v1.17.0-windows-amd64"
+        },
+        "32bit": {
+            "url": "https://github.com/mithrandie/csvq/releases/download/v1.17.0/csvq-v1.17.0-windows-386.tar.gz",
+            "hash": "6c48541cbc30e4413e038ce07229a77f1a9845a0d114800f22808716bc6eb7be",
+            "extract_dir": "csvq-v1.17.0-windows-386"
+        }
+    },
+    "bin": "csvq.exe",
+    "checkver": {
+        "github": "https://github.com/mithrandie/csvq"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/mithrandie/csvq/releases/download/v$version/csvq-v$version-windows-amd64.tar.gz",
+                "extract_dir": "csvq-v$version-windows-amd64"
+            },
+            "32bit": {
+                "url": "https://github.com/mithrandie/csvq/releases/download/v$version/csvq-v$version-windows-386.tar.gz",
+                "extract_dir": "csvq-v$version-windows-386"
+            }
+        }
+    }
+}

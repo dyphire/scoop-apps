@@ -1,0 +1,32 @@
+{
+    "version": "20220323",
+    "description": "An LLVM/Clang/LLD based mingw-w64 toolchain",
+    "homepage": "https://github.com/mstorsjo/llvm-mingw",
+    "license": "ISC",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/mstorsjo/llvm-mingw/releases/download/20220323/llvm-mingw-20220323-msvcrt-x86_64.zip",
+            "hash": "7eea5e022d2ba9d40aa87f740134b146fdb635ec6302d9c40b6a12c39632106e",
+            "extract_dir": "llvm-mingw-20220323-msvcrt-x86_64"
+        },
+        "32bit": {
+            "url": "https://github.com/mstorsjo/llvm-mingw/releases/download/20220323/llvm-mingw-20220323-msvcrt-i686.zip",
+            "hash": "d7c8ce3ced318b4a5f1dfed0bceeb0fd82bec3388fcf2f95bceceebcad2cf929",
+            "extract_dir": "llvm-mingw-20220323-msvcrt-i686"
+        }
+    },
+    "env_add_path": "bin",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/mstorsjo/llvm-mingw/releases/download/$cleanVersion/llvm-mingw-$cleanVersion-msvcrt-x86_64.zip",
+                "extract_dir": "llvm-mingw-$cleanVersion-msvcrt-x86_64"
+            },
+            "32bit": {
+                "url": "https://github.com/mstorsjo/llvm-mingw/releases/download/$cleanVersion/llvm-mingw-$cleanVersion-msvcrt-i686.zip",
+                "extract_dir": "llvm-mingw-$cleanVersion-msvcrt-i686"
+            }
+        }
+    }
+}
