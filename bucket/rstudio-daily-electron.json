@@ -5,35 +5,35 @@
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://s3.amazonaws.com/rstudio-ide-build/desktop/windows/RStudio-2022.06.0-daily-434.zip",
-            "hash": "81782152d2dd3e5f9156ba4acc50026e8d53bde5e3061b6770fe71374e05e134"
+            "url": "https://s3.amazonaws.com/rstudio-ide-build/electron/windows/RStudio-2022.06.0-daily-434.zip",
+            "hash": "d319f93b48c30fa243f368ada77cf8a0be429816537836d4acb5511369cf2a84"
         }
     },
     "bin": [
         [
-            "bin\\rstudio.exe",
-            "rstudio-daily"
+            "rstudio.exe",
+            "rstudio-daily-electrion"
         ]
     ],
     "shortcuts": [
         [
-            "bin\\rstudio.exe",
-            "RStudio Daily"
+            "rstudio.exe",
+            "RStudio Daily Electron"
         ]
     ],
     "checkver": {
         "url": "https://dailies.rstudio.com/rstudio/latest/index.json",
-        "jsonpath": ".products.desktop.platforms['windows-xcopy'].version",
+        "jsonpath": ".products.electron.platforms['windows-xcopy'].version",
         "regex": "(?<date>[\\d.]+)(?<type>-(daily|preview))?\\+(?<build>\\d+)",
         "replace": "${date}${type}+${build}"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://s3.amazonaws.com/rstudio-ide-build/desktop/windows/RStudio-$matchDate$matchType-$matchBuild.zip",
+                "url": "https://s3.amazonaws.com/rstudio-ide-build/electron/windows/RStudio-$matchDate$matchType-$matchBuild.zip",
                 "hash": {
                     "mode": "json",
-                    "jsonpath": ".products.desktop.platforms['windows-xcopy'].sha256",
+                    "jsonpath": ".products.electron.platforms['windows-xcopy'].sha256",
                     "url": "https://dailies.rstudio.com/rstudio/latest/index.json"
                 }
             }
