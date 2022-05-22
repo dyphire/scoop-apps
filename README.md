@@ -56,13 +56,13 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - dodorz/scoop
 - ZvonimirSun/scoop-iszy
 - kiennq/scoop-misc
+- Paxxs/Cluttered-bucket
 - wangzq/scoop-bucket
 - zhoujin7/tomato
-- Paxxs/Cluttered-bucket
 - scoopcn/scoopcn
 - borger/scoop-emulators
-- TheRandomLabs/Scoop-Python
 - wzv5/ScoopBucket
+- TheRandomLabs/Scoop-Python
 - ACooper81/scoop-apps
 - ChungZH/peach
 - AStupidBear/scoop-bear
@@ -70,7 +70,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - naderi/scoop-bucket
 - batkiz/backit
 - 42wim/scoop-bucket
-- Ryanjiena/Meta
 - iquiw/scoop-bucket
 - mogeko/scoop-sysinternals
 - liaoya/scoop-bucket
