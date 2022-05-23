@@ -1,14 +1,14 @@
 {
-    "version": "4.3.22053.2",
-    "description": "Samsung Smart Switch. A sure and secure way to move your data to Galaxy",
-    "homepage": "https://www.samsung.com/au/apps/smart-switch/#downloadforPCorMAC",
-    "license": "Freeware",
-    "changelog": "",
-    "url": "https://www.samsung.com/global/download/smartswitchwin#/setup.exe",
-    "hash": "e808d17dd9697e64941c5993440e068f2b42707e335cda4d74f94063ffabf74a",
+    "version": "6.0.8",
+    "description": "Zotero. Free, easy-to-use tool to help you collect, organize, cite, and share research",
+    "homepage": "https://www.zotero.org/",
+    "license": "Proprietary",
+    "changelog": "https://www.zotero.org/support/changelog",
+    "url": "https://download.zotero.org/client/release/6.0.8/Zotero-6.0.8_setup.exe#/setup.exe",
+    "hash": "29bef2ad9c09f30496a2bcc928e397be8034174123e1dee28e67714bc9fb59bd",
     "pre_download": "Assert-Administrator",
     "pre_install": [
-        "$processname = \"SmartSwitchPC\"",
+        "$processname = \"Zotero\"",
         "$process = Get-Process $processname -ErrorAction SilentlyContinue",
         "if ($process) {",
         "   $process.CloseMainWindow()",
@@ -21,13 +21,12 @@
     ],
     "installer": {
         "script": [
-            "$programname = \"Smart Switch*\"",
+            "$programname = \"programname*\"",
             "$ProgramFiles = [Environment]::GetFolderPath(\"ProgramFilesX86\")",
-            "$filepath = \"$ProgramFiles\\Samsung\\Smart Switch PC\\SmartSwitchPC.exe\"",
+            "$filepath = \"$ProgramFiles\\Zotero\\Zotero.exe\"",
             "if(((Test-Path -Path $filepath -PathType Leaf) -eq $false) -or ((Get-Command $filepath).Version -lt [System.Version]\"$version\"))",
             "{",
-            "   &\"$dir\\setup.exe\" | Out-Null",
-            "   Start-Sleep -Seconds 60",
+            "   &\"$dir\\setup.exe\" /S | Out-Null",
             "   if(((Test-Path -Path $filepath -PathType Leaf) -eq $false) -or ((Get-Command $filepath).Version -lt [System.Version]\"$version\"))",
             "   {",
             "       exit 1",
@@ -37,15 +36,15 @@
         ]
     },
     "post_install": [
-        "$programname = \"Smart Switch\"",
+        "$programname = \"Zotero\"",
         "$CommonDesktopPath = [Environment]::GetFolderPath(\"CommonDesktopDirectory\")",
         "if (Test-Path \"$CommonDesktopPath\\$programname.lnk\") {Remove-Item \"$CommonDesktopPath\\$programname.lnk\" -Force}"
     ],
     "checkver": {
-        "url": "https://www.majorgeeks.com/files/details/samsung_smart_switch.html",
-        "regex": ">Samsung Smart Switch ([\\d.]+)"
+        "url": "https://www.zotero.org/download/",
+        "regex": "\"win32\":\"([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://www.samsung.com/global/download/smartswitchwin#/setup.exe"
+        "url": "https://download.zotero.org/client/release/$version/Zotero-$version_setup.exe#/setup.exe"
     }
 }
