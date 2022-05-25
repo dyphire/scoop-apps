@@ -49,8 +49,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - echoiron/echo-scoop
 - hermanjustnu/scoop-emulators
 - everyx/scoop-bucket
-- TheRandomLabs/Scoop-Bucket
 - cderv/r-bucket
+- TheRandomLabs/Scoop-Bucket
 - hoilc/scoop-lemon
 - Qv2ray/mochi
 - dodorz/scoop
@@ -64,8 +64,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - wzv5/ScoopBucket
 - TheRandomLabs/Scoop-Python
 - ACooper81/scoop-apps
-- ChungZH/peach
 - naderi/scoop-bucket
+- ChungZH/peach
 - AStupidBear/scoop-bear
 - excitoon/scoop-user
 - batkiz/backit
