@@ -62,8 +62,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - scoopcn/scoopcn
 - borger/scoop-emulators
 - wzv5/ScoopBucket
-- TheRandomLabs/Scoop-Python
 - ACooper81/scoop-apps
+- TheRandomLabs/Scoop-Python
 - naderi/scoop-bucket
 - ChungZH/peach
 - AStupidBear/scoop-bear
@@ -75,7 +75,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - liaoya/scoop-bucket
 - jfut/scoop-jfut
 - krproject/qi-windows
-- rivy/scoop-bucket
 - Velgus/Scoop-Portapps
 - Darkatse/Scoop-Darkatse
 - littleli/Scoop-littleli
