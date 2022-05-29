@@ -1,0 +1,31 @@
+{
+    "description": "pianobar is a console client for the personalized web radio Pandora ported to Windows.",
+    "homepage": "https://github.com/thedmd/pianobar-windows",
+    "version": "2022.04.16",
+    "license": {
+        "identifier": "Freeware",
+        "url:": "https://raw.githubusercontent.com/thedmd/pianobar-windows/develop/COPYING"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/thedmd/pianobar-windows/releases/download/2022.04.16/pianobar-2022.04.16-x64.zip",
+            "hash": "4b0c0706ac744cb9085c9dc61e8786e70a4013ab53213b85c51b7f9cf276b105"
+        },
+        "32bit": {
+            "url": "https://github.com/thedmd/pianobar-windows/releases/download/2022.04.16/pianobar-2022.04.16-x86.zip",
+            "hash": "5d0bdf76ce4da41fd9d00b0345cecc9c996f841f991c69b19b32be9bc6a50396"
+        }
+    },
+    "bin": "pianobar.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/thedmd/pianobar-windows/releases/download/$version/pianobar-$version-x64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/thedmd/pianobar-windows/releases/download/$version/pianobar-$version-x86.zip"
+            }
+        }
+    }
+}

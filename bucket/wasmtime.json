@@ -1,0 +1,28 @@
+{
+    "description": "Wasmtime is a standalone wasm-only optimizing runtime for WebAssembly and WASI.",
+    "homepage": "https://wasmtime.dev/",
+    "version": "0.37.0",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/bytecodealliance/wasmtime/releases/download/v0.37.0/wasmtime-v0.37.0-x86_64-windows.zip",
+            "hash": "d75e26addd3bd32ccbbbedd37ace5dffa71d603b57600c3c90c54c7e45b96142",
+            "extract_dir": "wasmtime-v0.37.0-x86_64-windows"
+        }
+    },
+    "bin": [
+        "wasmtime.exe",
+        "wasm2obj.exe"
+    ],
+    "checkver": {
+        "github": "https://github.com/bytecodealliance/wasmtime"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/bytecodealliance/wasmtime/releases/download/v$version/wasmtime-v$version-x86_64-windows.zip",
+                "extract_dir": "wasmtime-v$version-x86_64-windows"
+            }
+        }
+    }
+}
