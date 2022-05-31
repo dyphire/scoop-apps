@@ -1,14 +1,13 @@
 {
-    "version": "22.5.31",
-    "description": "FX Draw Tools. High-productivity drawing environment designed specifically for mathematics teachers",
-    "homepage": "https://www.efofex.com/fxdraw.php",
+    "version": "2.1.1",
+    "description": "CRYENGINE Launcher. The most powerful game development platform for you and your team to create world-class entertainment experiences",
+    "homepage": "https://www.cryengine.com",
     "license": "Proprietary",
-    "changelog": "https://www.efofex.com/downloads.php#versions",
-    "url": "https://www.efofex.com/downloadblob.php?&file=fxdrawtoolsexe&name=FX%20Draw%20Tools%20(Windows)#/setup.exe",
-    "hash": "f39dbe5473de931e71c505ade9715e7ca02d45038db4f5e4b9efc2bd584ea4f5",
-    "pre_download": "Assert-Administrator",
+    "changelog": "https://docs.cryengine.com/display/RN/Launcher+Release+Notes",
+    "url": "https://content.cryengine.com/cryengine-launcher/CRYENGINE_Launcher.exe#/setup.exe",
+    "hash": "d10215f72dc7d7d9713467d4b3707473f8ed2f11abf7a8616e8800395fd32902",
     "pre_install": [
-        "$processname = \"FXDraw\"",
+        "$processname = \"CRYENGINE Launcher\"",
         "$process = Get-Process $processname -ErrorAction SilentlyContinue",
         "if ($process) {",
         "   $process.CloseMainWindow()",
@@ -21,12 +20,12 @@
     ],
     "installer": {
         "script": [
-            "$programname = \"FX Draw Tools*\"",
-            "$ProgramFiles = [Environment]::GetFolderPath(\"ProgramFilesX86\")",
-            "$filepath = \"$ProgramFiles\\Efofex\\bin\\FXDraw.exe\"",
+            "$programname = \"CRYENGINE Launcher*\"",
+            "$AppData = [Environment]::GetFolderPath(\"LocalApplicationData\")",
+            "$filepath = \"$AppData\\Programs\\CRYENGINE Launcher\\CRYENGINE_Launcher.exe\"",
             "if(((Test-Path -Path $filepath -PathType Leaf) -eq $false) -or ((Get-Command $filepath).Version -lt [System.Version]\"$version\"))",
             "{",
-            "   &\"$dir\\setup.exe\" /verysilent /noreboot | Out-Null",
+            "   &\"$dir\\setup.exe\" /S | Out-Null",
             "   if(((Test-Path -Path $filepath -PathType Leaf) -eq $false) -or ((Get-Command $filepath).Version -lt [System.Version]\"$version\"))",
             "   {",
             "       exit 1",
@@ -36,15 +35,15 @@
         ]
     },
     "post_install": [
-        "$programname = \"FX Draw Tools\"",
+        "$programname = \"CRYENGINE Launcher\"",
         "$CommonDesktopPath = [Environment]::GetFolderPath(\"CommonDesktopDirectory\")",
         "if (Test-Path \"$CommonDesktopPath\\$programname.lnk\") {Remove-Item \"$CommonDesktopPath\\$programname.lnk\" -Force}"
     ],
     "checkver": {
-        "url": "https://www.efofex.com/downloads.php#versions",
-        "regex": "V([\\d.]+)"
+        "url": "https://docs.cryengine.com/display/RN/Launcher+Release+Notes",
+        "regex": ">CRYENGINE Launcher ([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://www.efofex.com/downloadblob.php?&file=fxdrawtoolsexe&name=FX%20Draw%20Tools%20(Windows)#/setup.exe"
+        "url": "https://content.cryengine.com/cryengine-launcher/CRYENGINE_Launcher.exe#/setup.exe"
     }
 }
