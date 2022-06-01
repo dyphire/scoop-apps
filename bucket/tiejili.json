@@ -1,25 +1,13 @@
 {
-    "version": "1.235.2",
-    "description": "An open-source Chinese font derived from Fontworks' Klee One. 一款基于 FONTWORKS 出品字体 Klee One 改造的开源中文字体。",
-    "homepage": "https://github.com/lxgw/LxgwWenKai",
+    "version": "1.010",
+    "description": "铁蒺藜体是一款造型尖锐的美术字体，基于 Fontworks 出品的日文字体レゲエ One 扩充、调整字形，并添加 OpenType 特性，以满足简体中文的使用需求",
+    "homepage": "https://github.com/Buernia/Tiejili",
     "license": "OFL-1.1",
-    "url": [
-        "https://github.com/lxgw/LxgwWenKai/releases/download/v1.235.2/LXGWWenKai-Bold.ttf",
-        "https://github.com/lxgw/LxgwWenKai/releases/download/v1.235.2/LXGWWenKai-Light.ttf",
-        "https://github.com/lxgw/LxgwWenKai/releases/download/v1.235.2/LXGWWenKai-Regular.ttf"
-    ],
-    "hash": [
-        "285c55e3ba5d95387c2494eadc06ae5e4d63dc053523849116ee3765e567ebec",
-        "e6dc161040f017ffa5fd4b4ae518235fc382be22f9d8bd2d75587cc45da9db39",
-        "7b4c5c620390f5cf5d2df1617fc03e7bee70af0ad2eaffc8b37a6f90d5c3771a"
-    ],
+    "url": "https://github.com/Buernia/Tiejili/releases/download/v1.010/Tiejili.zip",
+    "hash": "e2bcaacad0244b3b9aabb3ec8993074a2e7fee0a85ea5c3c41cf3965b32b9ff0",
     "checkver": "github",
     "autoupdate": {
-        "url": [
-            "https://github.com/lxgw/LxgwWenKai/releases/download/v$version/LXGWWenKai-Bold.ttf",
-            "https://github.com/lxgw/LxgwWenKai/releases/download/v$version/LXGWWenKai-Light.ttf",
-            "https://github.com/lxgw/LxgwWenKai/releases/download/v$version/LXGWWenKai-Regular.ttf"
-        ]
+        "url": "https://github.com/Buernia/Tiejili/releases/download/v$version/Tiejili.zip"
     },
     "installer": {
         "script": [
@@ -59,7 +47,7 @@
             "    Remove-ItemProperty -Path $registryKey -Name $_.Name.Replace($_.Extension, ' (TrueType)') -Force -ErrorAction SilentlyContinue",
             "    Remove-Item \"$fontInstallDir\\$($_.Name)\" -Force -ErrorAction SilentlyContinue",
             "}",
-            "Write-Host \"Font family 'LXGWWenKai' has been uninstalled and will not be present after restarting your computer.\" -Foreground Magenta"
+            "Write-Host \"Font family 'Tiejili' has been uninstalled and will not be present after restarting your computer.\" -Foreground Magenta"
         ]
     }
 }
