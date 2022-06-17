@@ -75,6 +75,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - mogeko/scoop-sysinternals
 - liaoya/scoop-bucket
 - jfut/scoop-jfut
+- ScoopInstaller/Nonportable
 - Velgus/Scoop-Portapps
 - MCOfficer/scoop-bucket
 - Darkatse/Scoop-Darkatse
