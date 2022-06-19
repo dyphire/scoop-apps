@@ -60,8 +60,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - ZvonimirSun/scoop-iszy
 - wangzq/scoop-bucket
 - zhoujin7/tomato
-- borger/scoop-emulators
 - wzv5/ScoopBucket
+- borger/scoop-emulators
 - ACooper81/scoop-apps
 - TheRandomLabs/Scoop-Python
 - naderi/scoop-bucket
@@ -73,7 +73,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - batkiz/backit
 - iquiw/scoop-bucket
 - mogeko/scoop-sysinternals
-- liaoya/scoop-bucket
 - jfut/scoop-jfut
 - ScoopInstaller/Nonportable
 - Velgus/Scoop-Portapps
