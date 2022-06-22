@@ -1,17 +1,17 @@
 {
     "homepage": "https://www.nirsoft.net/utils/app_read_write_counter.html",
     "checkver": "AppReadWriteCounter v(\\d+\\.\\d\\d)",
-    "version": "1.36",
+    "version": "1.40",
     "license": "freeware",
     "description": "AppReadWriteCounter is a tool for Windows that counts and displays the current file read/write operations of every application running on your system. It displays the number of read/write bytes, the number of read/write operations, current calculated read/write speed, and the details about the application (product name, product version, and so on) that makes the file read/write operations.",
     "architecture": {
         "64bit": {
             "url": "https://www.nirsoft.net/utils/appreadwritecounter-x64.zip",
-            "hash": "de41e48979abe36e9a5517b169b87815f7e2f98a49419c54be20aba599129e9f"
+            "hash": "f5101f2eb0b87b392416cbd63dabbc0184096dc91ce7722c148efaed497f7de8"
         },
         "32bit": {
             "url": "https://www.nirsoft.net/utils/appreadwritecounter.zip",
-            "hash": "4c58854a042b605272d314bea5ca9abc8e76d2322ad1c6c6c1dcb741e04edb28"
+            "hash": "985190f5b53194ad6a82c9d332d7cedc889b27a09509e189c92ffe5cb82457f2"
         }
     },
     "autoupdate": {
@@ -28,7 +28,7 @@
     "shortcuts": [
         [
             "AppReadWriteCounter.exe",
-            "NirSoft\\AppReadWriteCounter"
+            "NirSoft\\AppReadWriteCounter - Displays read_write operations of apps"
         ]
     ]
 }
