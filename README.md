@@ -80,4 +80,3 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - Darkatse/Scoop-Darkatse
 - littleli/Scoop-littleli
 - ChinLong/scoop-customize
-- Apocalypsor/My-Scoop-Bucket
