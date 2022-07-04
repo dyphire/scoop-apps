@@ -72,8 +72,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - krproject/qi-windows
 - batkiz/backit
 - excitoon/scoop-user
-- iquiw/scoop-bucket
 - mogeko/scoop-sysinternals
+- iquiw/scoop-bucket
 - jfut/scoop-jfut
 - Velgus/Scoop-Portapps
 - MCOfficer/scoop-bucket
