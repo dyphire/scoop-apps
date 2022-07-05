@@ -1,39 +1,34 @@
 {
-    "version": "105.0.5160.0",
+    "version": "103.0.5060.114",
     "description": "Fast, secure, and free web browser, built for the modern web.",
-    "homepage": "https://www.google.com/chrome/canary",
+    "homepage": "https://www.google.com/chrome/",
     "license": {
         "identifier": "Freeware",
         "url": "https://www.google.com/chrome/privacy/eula_text.html"
     },
     "architecture": {
         "64bit": {
-            "url": "https://dl.google.com/release2/chrome/lrmnkn4zdpgymlb7gvo5oddv2m_105.0.5160.0/105.0.5160.0_chrome_installer.exe#/dl.7z",
-            "hash": "30f34acf46a1882e52ce5825a667750818a89d2d91f4e8527725e5d054b5a4f5"
+            "url": "https://dl.google.com/release2/chrome/adtma6pi6kul22k4nxj3ds6hikgq_103.0.5060.114/103.0.5060.114_chrome_installer.exe#/dl.7z",
+            "hash": "abcf19f45c6e3a4d0f7fb5a77dcdb23c62ca67dba15002b7bbfaae888a406183"
         },
         "32bit": {
-            "url": "https://dl.google.com/release2/chrome/phve7rttelyftxbxpujp3xo76y_105.0.5160.0/105.0.5160.0_chrome_installer.exe#/dl.7z",
-            "hash": "7c7f9c2cab0a2fad395462c817f1136392f6fff7f91093202739afa2a84e31b9"
+            "url": "https://dl.google.com/release2/chrome/adrjprynyktfpv2zft3lkspb6anq_103.0.5060.114/103.0.5060.114_chrome_installer.exe#/dl.7z",
+            "hash": "5ff01003d8eef71d526cd745472965309a27effc658d85d16ab9e393522fe62b"
         }
     },
     "installer": {
         "script": "Expand-7zipArchive \"$dir\\chrome.7z\" -ExtractDir 'Chrome-bin' -Removal"
     },
-    "bin": [
-        [
-            "chrome.exe",
-            "chrome-canary"
-        ]
-    ],
+    "bin": "chrome.exe",
     "shortcuts": [
         [
             "chrome.exe",
-            "Google Chrome (Canary)"
+            "Google Chrome"
         ]
     ],
     "checkver": {
         "url": "https://42wim.github.io/chromeupdates/chrome.min.xml",
-        "regex": "(?sm)<canary32><version>(?<version>[\\d.]+)</version>.+release2/chrome/(?<32>.+exe).+<canary64>.+release2/chrome/(?<64>.+exe).+</canary64>"
+        "regex": "(?sm)<stable32><version>(?<version>[\\d.]+)</version>.+release2/chrome/(?<32>.+exe).+<stable64>.+release2/chrome/(?<64>.+exe).+</stable64>"
     },
     "autoupdate": {
         "architecture": {
@@ -41,14 +36,14 @@
                 "url": "https://dl.google.com/release2/chrome/$match64#/dl.7z",
                 "hash": {
                     "url": "https://42wim.github.io/chromeupdates/chrome.min.xml",
-                    "xpath": "/chromechecker/canary64[version='$version']/sha256"
+                    "xpath": "/chromechecker/stable64[version='$version']/sha256"
                 }
             },
             "32bit": {
                 "url": "https://dl.google.com/release2/chrome/$match32#/dl.7z",
                 "hash": {
                     "url": "https://42wim.github.io/chromeupdates/chrome.min.xml",
-                    "xpath": "/chromechecker/canary32[version='$version']/sha256"
+                    "xpath": "/chromechecker/stable32[version='$version']/sha256"
                 }
             }
         }
