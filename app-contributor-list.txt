@@ -177,6 +177,7 @@ civo.json    ScoopInstaller/Extras
 zoom.json    ScoopInstaller/Extras
 antidupl.net.json    ScoopInstaller/Extras
 inkscape-extension-sozi.json    ScoopInstaller/Extras
+pixitracker-1bit.json    ScoopInstaller/Extras
 listenmoeclient.json    ScoopInstaller/Extras
 todotxt-net.json    ScoopInstaller/Extras
 audioswitcher.json    ScoopInstaller/Extras
@@ -386,6 +387,7 @@ sourcetree.json    ScoopInstaller/Extras
 cloudfoundry-cli.json    ScoopInstaller/Extras
 waterfox-classic.json    ScoopInstaller/Extras
 taskbarx.json    ScoopInstaller/Extras
+pixitracker.json    ScoopInstaller/Extras
 video-thumbnails-maker.json    ScoopInstaller/Extras
 debugviewpp.json    ScoopInstaller/Extras
 matterbridge.json    ScoopInstaller/Extras
@@ -1798,7 +1800,7 @@ lavfilters.json    chawyehsu/dorado
 apache-mod-fcgid.json    chawyehsu/dorado
 tim_chawyehsu.json    chawyehsu/dorado
 archisteamfarm_chawyehsu.json    chawyehsu/dorado
-pixitracker-1bit.json    chawyehsu/dorado
+pixitracker-1bit_chawyehsu.json    chawyehsu/dorado
 baulk.json    chawyehsu/dorado
 aapt2.json    chawyehsu/dorado
 openethereum.json    chawyehsu/dorado
@@ -1829,7 +1831,7 @@ belautils.json    chawyehsu/dorado
 jiduscan.json    chawyehsu/dorado
 uncia.json    chawyehsu/dorado
 beekeeper.json    chawyehsu/dorado
-pixitracker.json    chawyehsu/dorado
+pixitracker_chawyehsu.json    chawyehsu/dorado
 rustup-np.json    chawyehsu/dorado
 jmc2obj.json    chawyehsu/dorado
 mubu.json    chawyehsu/dorado
@@ -6270,6 +6272,7 @@ PSHash-Portable.json    ACooper81/scoop-apps
 EmbyTheater-Portable.json    ACooper81/scoop-apps
 MicrosoftEdge-Install.json    ACooper81/scoop-apps
 Arduino-Portable.json    ACooper81/scoop-apps
+RmEDirCLI-Portable.json    ACooper81/scoop-apps
 LinkShellExtension-Install.json    ACooper81/scoop-apps
 PuloversMacroCreator-Portable.json    ACooper81/scoop-apps
 FormatFactory-Portable.json    ACooper81/scoop-apps
@@ -6301,6 +6304,7 @@ ImgBurn-Portable.json    ACooper81/scoop-apps
 LogitechOptions-Install.json    ACooper81/scoop-apps
 PowerShell-Portable.json    ACooper81/scoop-apps
 FolderMonitor-Portable.json    ACooper81/scoop-apps
+SleepCLI-Portable.json    ACooper81/scoop-apps
 FreezeToStock-Portable.json    ACooper81/scoop-apps
 EdgeDeflector-Portable.json    ACooper81/scoop-apps
 VNCServer-Install.json    ACooper81/scoop-apps
@@ -6308,6 +6312,7 @@ NoMachine-Install.json    ACooper81/scoop-apps
 SDeleteCLI-Portable.json    ACooper81/scoop-apps
 FilesInspector-Install.json    ACooper81/scoop-apps
 RZGetCLI-Portable.json    ACooper81/scoop-apps
+RemNote-Portable.json    ACooper81/scoop-apps
 UGetDownloadManager-Portable.json    ACooper81/scoop-apps
 SordumQemuSimpleBoot-Portable.json    ACooper81/scoop-apps
 WinObjEx64-Portable.json    ACooper81/scoop-apps
@@ -6496,6 +6501,7 @@ AccentApplicator-UserInstall.json    ACooper81/scoop-apps
 MP4DownloaderPro-Install.json    ACooper81/scoop-apps
 ProcessMonitor-Portable.json    ACooper81/scoop-apps
 Capture2Text-Portable.json    ACooper81/scoop-apps
+SandboxDiff-Portable.json    ACooper81/scoop-apps
 AnyBurn-Portable.json    ACooper81/scoop-apps
 AriaNgGUI-Portable.json    ACooper81/scoop-apps
 FilesInspector-Portable.json    ACooper81/scoop-apps
@@ -6508,8 +6514,10 @@ NirsoftInstalledAppView-Portable.json    ACooper81/scoop-apps
 WindowTop-Portable.json    ACooper81/scoop-apps
 IntelExtremeTuningUtility-Install.json    ACooper81/scoop-apps
 Moo0VideoConverter-Portable.json    ACooper81/scoop-apps
+RundeckCLI-Portable.json    ACooper81/scoop-apps
 StardockCurtains-Install.json    ACooper81/scoop-apps
 AcrylicDNSProxy-Portable.json    ACooper81/scoop-apps
+RustDesk-Portable.json    ACooper81/scoop-apps
 LogitechOptions-ManualInstall.json    ACooper81/scoop-apps
 MBoxViewer-Portable.json    ACooper81/scoop-apps
 AmazonGames-UserInstall.json    ACooper81/scoop-apps
@@ -6531,8 +6539,10 @@ BeekeeperStudio-Portable.json    ACooper81/scoop-apps
 NirsoftFolderChangesView-Portable.json    ACooper81/scoop-apps
 ShutterEncoder-Portable.json    ACooper81/scoop-apps
 CCleaner-Portable.json    ACooper81/scoop-apps
+Rymdport-Portable.json    ACooper81/scoop-apps
 Zoom-Install.json    ACooper81/scoop-apps
 SordumFolderPainter-Portable.json    ACooper81/scoop-apps
+SlimPDFReader-Portable.json    ACooper81/scoop-apps
 MediaInfo.NET-Portable.json    ACooper81/scoop-apps
 Mixxx-Portable.json    ACooper81/scoop-apps
 WinMerge-Portable.json    ACooper81/scoop-apps
@@ -6591,6 +6601,7 @@ PowerBIDesktop-Install.json    ACooper81/scoop-apps
 VidCoder-Portable.json    ACooper81/scoop-apps
 Waterfox-Portable.json    ACooper81/scoop-apps
 VNCViewer-Install.json    ACooper81/scoop-apps
+RSSGuard-Portable.json    ACooper81/scoop-apps
 PSWindowsUpdate-PSModule.json    ACooper81/scoop-apps
 Rare-Portable.json    ACooper81/scoop-apps
 SamsungSmartSwitch-ManualInstall.json    ACooper81/scoop-apps
@@ -6627,6 +6638,7 @@ Vivaldi-Portable.json    ACooper81/scoop-apps
 EpicGamesLauncher-Install.json    ACooper81/scoop-apps
 scoop-backup.json    ACooper81/scoop-apps
 BootRacer-Install.json    ACooper81/scoop-apps
+RunCat-Portable.json    ACooper81/scoop-apps
 UniversalWatermarkDisabler-Portable.json    ACooper81/scoop-apps
 VeyonMaster-Install.json    ACooper81/scoop-apps
 NirsoftRegistryChangesView-Portable.json    ACooper81/scoop-apps
