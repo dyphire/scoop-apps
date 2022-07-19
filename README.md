@@ -56,9 +56,9 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - Qv2ray/mochi
 - dodorz/scoop
 - kiennq/scoop-misc
+- zhoujin7/tomato
 - ZvonimirSun/scoop-iszy
 - wangzq/scoop-bucket
-- zhoujin7/tomato
 - borger/scoop-emulators
 - wzv5/ScoopBucket
 - ACooper81/scoop-apps
@@ -78,3 +78,4 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - MCOfficer/scoop-bucket
 - Darkatse/Scoop-Darkatse
 - littleli/Scoop-littleli
+- ChinLong/scoop-customize
