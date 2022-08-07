@@ -1,16 +1,16 @@
 {
-    "version": "0.1.25",
+    "version": "0.1.39",
     "description": "A REST API gateway with swagger UI provided that wraps divoom HTTP APIs for controlling divoom devices, like pixoo.",
     "homepage": "https://github.com/r12f/divoom",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/r12f/divoom/releases/download/0.1.25/divoom-gateway.0.1.25.windows.x64.zip",
-            "hash": "02bca681a22b5faf5b74b61243f3e7eef6a1723aed5d9a57725a7d07723ec479"
+            "url": "https://github.com/r12f/divoom/releases/download/0.1.39/divoom-gateway.0.1.39.windows.x64.zip",
+            "hash": "1d68947f67990e372a89e0b51a39942a595279a073db8b31f046c227dde80210"
         },
         "32bit": {
-            "url": "https://github.com/r12f/divoom/releases/download/0.1.25/divoom-gateway.0.1.25.windows.x86.zip",
-            "hash": "a67c5e34ffcaaa6e52fa8e9883bf55bafea5fd6795b810ca14b5cb3e8ebf2957"
+            "url": "https://github.com/r12f/divoom/releases/download/0.1.39/divoom-gateway.0.1.39.windows.x86.zip",
+            "hash": "020a20d854bb9f0f0f271626846597f1578eb61c2e6a6f82ca3a3db7c8870ada"
         }
     },
     "bin": "divoom-gateway.exe",
