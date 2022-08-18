@@ -78,3 +78,4 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - MCOfficer/scoop-bucket
 - Darkatse/Scoop-Darkatse
 - littleli/Scoop-littleli
+- ChinLong/scoop-customize
