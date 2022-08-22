@@ -52,8 +52,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - cderv/r-bucket
 - Paxxs/Cluttered-bucket
 - TheRandomLabs/Scoop-Bucket
-- scoopcn/scoopcn
 - Qv2ray/mochi
+- scoopcn/scoopcn
 - dodorz/scoop
 - kiennq/scoop-misc
 - wangzq/scoop-bucket
