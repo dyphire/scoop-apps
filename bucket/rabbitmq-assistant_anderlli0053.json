@@ -1,0 +1,25 @@
+{
+    "autoupdate": {
+        "url": "https://download.redisant.com/package/RMQA-$version.exe"
+    },
+    "checkver": {
+        "regex": "RMQA-([\\d.]+).exe"
+    },
+    "description": "RabbitMQ可视化管理与监控，深入了解您的队列、订阅与消费消息，展示完整的消息流图以及压力测试",
+    "hash": "fa3fb75df71aa8d373561cee23c274717e2ff060685b833983afb8758f664e2c",
+    "homepage": "http://www.redisant.cn/rta",
+    "innosetup": true,
+    "license": "Shareware",
+    "notes": "RabbitMQ Assistant is NOT portable.",
+    "shortcuts": [
+        [
+            "RabbitMQAssistant.exe",
+            "RabbitMQ Assistant"
+        ]
+    ],
+    "suggest": {
+        "dotnet-runtime": "windowsdesktop-runtime"
+    },
+    "url": "https://download.redisant.com/package/RMQA-1.0.6.0.exe",
+    "version": "1.0.6.0"
+}

@@ -76,6 +76,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - jfut/scoop-jfut
 - Velgus/Scoop-Portapps
 - Darkatse/Scoop-Darkatse
+- anderlli0053/DEV-tools
 - MCOfficer/scoop-bucket
 - littleli/Scoop-littleli
 - ChinLong/scoop-customize

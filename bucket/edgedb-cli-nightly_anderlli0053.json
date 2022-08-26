@@ -1,0 +1,28 @@
+{
+    "architecture": {
+        "64bit": {
+            "hash": "d8a1e03128eae7b2bd70f3f13222185d1c7a6c180ecb2b91277687a3d1834230",
+            "url": "https://packages.edgedb.com/archive/x86_64-pc-windows-msvc.nightly/edgedb-cli-2.1.0-dev.840+3c3cfaa.exe#/edgedb.exe"
+        }
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://packages.edgedb.com/archive/x86_64-pc-windows-msvc.nightly/edgedb-cli-$version.exe#/edgedb.exe"
+            }
+        }
+    },
+    "bin": "edgedb.exe",
+    "checkver": {
+        "regex": "(.+)",
+        "script": [
+            "$indexes = Invoke-RestMethod 'https://packages.edgedb.com/archive/.jsonindexes/x86_64-pc-windows-msvc.nightly.json'",
+            "$latest = $indexes.packages | Sort-Object -Property revision | Select-Object -Last 1",
+            "return $latest.version"
+        ]
+    },
+    "description": "(Nightly Version) Command-line tools for EdgeDB.",
+    "homepage": "https://www.edgedb.com/docs/cli/index",
+    "license": "Apache-2.0",
+    "version": "2.1.0-dev.840+3c3cfaa"
+}
