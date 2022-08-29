@@ -5,24 +5,25 @@
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://tdengine.com/assets-download/3.0/TDengine-client-3.0.0.1-Windows-x64.exe",
-            "hash": "8f6540d257927d5d2275340d7c86a1c2c45785145549e00ec65f7d84a4561647"
+            "url": "https://tdengine.com/assets-download/3.0/TDengine-server-3.0.0.1-Windows-x64.exe",
+            "hash": "a03713aba5b2de50b2b658b5a7250f7f38bb9d8d89c492706cfd98cb34b71608"
         }
     },
     "innosetup": true,
     "bin": [
-        "taos.exe",
-        "taosBenchmark.exe"
+        "taosd.exe",
+        "taosadapter.exe",
+        "udfd.exe"
     ],
     "persist": "cfg",
     "checkver": {
         "url": "https://docs.tdengine.com/assets/globalscripts/packages_v3.php?type=3",
-        "regex": "TDengine-client-([\\d.]+)-Windows-x64.exe"
+        "regex": "TDengine-server-([\\d.]+)-Windows-x64.exe"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://tdengine.com/assets-download/$majorVersion.$minorVersion/TDengine-client-$version-Windows-x64.exe"
+                "url": "https://tdengine.com/assets-download/$majorVersion.$minorVersion/TDengine-server-$version-Windows-x64.exe"
             }
         }
     }

@@ -55,8 +55,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - scoopcn/scoopcn
 - Qv2ray/mochi
 - dodorz/scoop
-- kiennq/scoop-misc
 - borger/scoop-emulators
+- kiennq/scoop-misc
 - ZvonimirSun/scoop-iszy
 - wangzq/scoop-bucket
 - zhoujin7/tomato
@@ -76,7 +76,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - jfut/scoop-jfut
 - Velgus/Scoop-Portapps
 - Darkatse/Scoop-Darkatse
-- anderlli0053/DEV-tools
 - MCOfficer/scoop-bucket
 - littleli/Scoop-littleli
 - ChinLong/scoop-customize
