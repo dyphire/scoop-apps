@@ -17,7 +17,7 @@
     },
     "depends": "sudo",
     "description": "Eagle helps you become a happier, better designer. A new way to collect, search and organize your image files in a logical way and all in one place.",
-    "hash": "84958f159cd2ef122d6f967ef1ab7fd291649b7ac83ed85a7631eb77304fa202",
+    "hash": "e6d4be89bda8c13456ae9e8569f221b01b6c050aa6de11ed2ddee3c6945c2e2d",
     "homepage": "https://en.eagle.cool/",
     "installer": {
         "script": "sudo Start-Process -Filepath \"$dir\\installer.exe\" -WorkingDirectory \"$dir\" -ArgumentList \"/S /D=$dir\" -Wait"
@@ -41,6 +41,6 @@
             "--user-data-dir=\"$dir\\User Data\""
         ]
     ],
-    "url": "https://eaglefile.oss-cn-shenzhen.aliyuncs.com/releases/Eagle-3.0-build13.exe#/installer.exe",
-    "version": "3.0.0.13"
+    "url": "https://eaglefile.oss-cn-shenzhen.aliyuncs.com/releases/Eagle-3.0-build14.exe#/installer.exe",
+    "version": "3.0.0.14"
 }
