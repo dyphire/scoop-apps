@@ -178,7 +178,6 @@ automake.json    ScoopInstaller/Extras
 veonim.json    ScoopInstaller/Extras
 libreoffice-fresh.json    ScoopInstaller/Extras
 haskellx.json    ScoopInstaller/Extras
-clash-mini.json    ScoopInstaller/Extras
 station.json    ScoopInstaller/Extras
 chefdk.json    ScoopInstaller/Extras
 ibmcloud-cli.json    ScoopInstaller/Extras
@@ -884,6 +883,7 @@ testdisk.json    ScoopInstaller/Extras
 torrenttools.json    ScoopInstaller/Extras
 logstalgia.json    ScoopInstaller/Extras
 apache-directory-studio.json    ScoopInstaller/Extras
+wxdfast.json    ScoopInstaller/Extras
 streamlink-twitch-gui.json    ScoopInstaller/Extras
 skype.json    ScoopInstaller/Extras
 virtualhere-client.json    ScoopInstaller/Extras
@@ -1285,6 +1285,7 @@ nimbletext.json    ScoopInstaller/Extras
 electrum.json    ScoopInstaller/Extras
 goneovim.json    ScoopInstaller/Extras
 trojita.json    ScoopInstaller/Extras
+clash-mini.json    ScoopInstaller/Extras
 workrave.json    ScoopInstaller/Extras
 rainmeter.json    ScoopInstaller/Extras
 microsip.json    ScoopInstaller/Extras
@@ -6612,6 +6613,7 @@ WindowsErrorLookupTool-Portable.json    ACooper81/scoop-apps
 SordumRunAsTool-Portable.json    ACooper81/scoop-apps
 Ketarin-Portable.json    ACooper81/scoop-apps
 StegifyCLI-Portable.json    ACooper81/scoop-apps
+FixWin11-Portable.json    ACooper81/scoop-apps
 FilesInspector-Install.json    ACooper81/scoop-apps
 SysinternalsProcessExplorer-Portable.json    ACooper81/scoop-apps
 Scratch-Portable.json    ACooper81/scoop-apps
@@ -7363,20 +7365,6 @@ potplayer_AStupidBear.json    AStupidBear/scoop-bear
 borg.json    AStupidBear/scoop-bear
 update-qttabbar.json    AStupidBear/scoop-bear
 autosub.json    AStupidBear/scoop-bear
-oraclejdk8u.json    krproject/qi-windows
-vscode_krproject.json    krproject/qi-windows
-postman_krproject.json    krproject/qi-windows
-openssl.json    krproject/qi-windows
-nodejs-lts.json    krproject/qi-windows
-sts_krproject.json    krproject/qi-windows
-chrome_krproject.json    krproject/qi-windows
-openvpn_krproject.json    krproject/qi-windows
-rustup.json    krproject/qi-windows
-wpsoffice_krproject.json    krproject/qi-windows
-dbvis_krproject.json    krproject/qi-windows
-jmeter_krproject.json    krproject/qi-windows
-maven_krproject.json    krproject/qi-windows
-shadowsocks_krproject.json    krproject/qi-windows
 ghostscript.json    excitoon/scoop-user
 c99-to-c89.json    excitoon/scoop-user
 curl.json    excitoon/scoop-user
@@ -9909,7 +9897,7 @@ nats-cli_anderlli0053.json    anderlli0053/DEV-tools
 OpenJDKJRE.json    anderlli0053/DEV-tools
 VMMapPortable.json    anderlli0053/DEV-tools
 mediainfo-gui_anderlli0053.json    anderlli0053/DEV-tools
-openssl_anderlli0053.json    anderlli0053/DEV-tools
+openssl.json    anderlli0053/DEV-tools
 wsa-pacman_anderlli0053.json    anderlli0053/DEV-tools
 php5.0.0.json    anderlli0053/DEV-tools
 zokumbsp_anderlli0053.json    anderlli0053/DEV-tools
@@ -10428,7 +10416,7 @@ defraggler_anderlli0053.json    anderlli0053/DEV-tools
 adobe-source-han-serif-tw-fonts_anderlli0053.json    anderlli0053/DEV-tools
 Anuphan_anderlli0053.json    anderlli0053/DEV-tools
 php5.6.17-nts.json    anderlli0053/DEV-tools
-nodejs-lts_anderlli0053.json    anderlli0053/DEV-tools
+nodejs-lts.json    anderlli0053/DEV-tools
 runany_anderlli0053.json    anderlli0053/DEV-tools
 xmousebuttoncontrol_anderlli0053.json    anderlli0053/DEV-tools
 cleanafterme_anderlli0053.json    anderlli0053/DEV-tools
@@ -11783,7 +11771,7 @@ dont-sleep_anderlli0053.json    anderlli0053/DEV-tools
 uninstall-tool-portable.json    anderlli0053/DEV-tools
 staxrip_anderlli0053.json    anderlli0053/DEV-tools
 lynx283_anderlli0053.json    anderlli0053/DEV-tools
-rustup_anderlli0053.json    anderlli0053/DEV-tools
+rustup.json    anderlli0053/DEV-tools
 tdengine-client_anderlli0053.json    anderlli0053/DEV-tools
 mps-eap_anderlli0053.json    anderlli0053/DEV-tools
 kubectx.json    anderlli0053/DEV-tools
