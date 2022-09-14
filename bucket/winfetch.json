@@ -1,18 +1,13 @@
 {
-    "version": "1.2.0",
-    "description": "A command-line system information utility for Windows 10",
-    "homepage": "https://github.com/lptstr/winfetch",
-    "license": "MIT",
-    "url": "https://codeload.github.com/lptstr/winfetch/zip/v1.2.0#/dl.7z",
-    "hash": "bd9463913d38c5241c8598e21eda5fdc8d37959a16b86e537622675ab3cb0635",
-    "extract_dir": "winfetch-1.2.0",
-    "bin": "src\\winfetch.ps1",
-    "checkver": "github",
-    "autoupdate": {
-        "url": "https://codeload.github.com/lptstr/winfetch/zip/v$version#/dl.7z",
-        "extract_dir": "winfetch-$version"
-    },
-    "suggest": {
-        "imagemagick": "main/imagemagick"
-    }
+ "autoupdate": {
+  "url": "https://raw.githubusercontent.com/kiedtl/winfetch/v$version/winfetch.ps1"
+ },
+ "bin": "winfetch.ps1",
+ "checkver": "github",
+ "description": "A command-line system information utility for Windows",
+ "hash": "53682d71a1885b966e3dd69130f41e7cec008e558d6933be4bab58471de083fd",
+ "homepage": "https://github.com/kiedtl/winfetch",
+ "license": "MIT",
+ "url": "https://raw.githubusercontent.com/kiedtl/winfetch/v2.4.1/winfetch.ps1",
+ "version": "2.4.1"
 }

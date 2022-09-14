@@ -70,6 +70,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - AStupidBear/scoop-bear
 - krproject/qi-windows
 - excitoon/scoop-user
+- anderlli0053/DEV-tools
 - mogeko/scoop-sysinternals
 - iquiw/scoop-bucket
 - jfut/scoop-jfut
@@ -77,7 +78,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - Velgus/Scoop-Portapps
 - alextwothousand/scoop-bucket
 - Darkatse/Scoop-Darkatse
-- anderlli0053/DEV-tools
 - MCOfficer/scoop-bucket
 - littleli/Scoop-littleli
 - ChinLong/scoop-customize
