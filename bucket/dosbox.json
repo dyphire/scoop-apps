@@ -1,13 +1,19 @@
 {
-    "homepage": "https://www.dosbox.com/",
-    "version": "0.74",
-    "license": "GNU General Public License",
-    "depends": [ "7zip" ],
-    "url": "http://r.windows.random.supplies/DOSBox0.74-win32-installer.exe",
-    "hash": "c149cb85f732beb95bf6564d72bdfdd9306f7050edfd9d2cd475420efe3b84fc",
-    "pre_install": [
-        "cd $dir",
-        "7z x DOSBox0.74-win32-installer.exe"
-    ],
-    "bin": "dosbox.exe"
+ "autoupdate": {
+  "url": "https://downloads.sourceforge.net/project/dosbox/dosbox/$version/DOSBox$version-win32-installer.exe#/dl.7z"
+ },
+ "bin": "DOSBox.exe",
+ "checkver": "Latest version:\\s+<a[^>]+>([\\d.-]+)",
+ "description": "DOSBox emulates an Intel x86 PC, complete with sound, graphics, mouse, joystick, modem, etc.",
+ "hash": "sha1:c8c1f5a5d17336607c886444518e74e3d1a4e041",
+ "homepage": "https://www.dosbox.com/",
+ "license": "GPL-2.0-only",
+ "shortcuts": [
+  [
+   "DOSBox.exe",
+   "DOSBox"
+  ]
+ ],
+ "url": "https://downloads.sourceforge.net/project/dosbox/dosbox/0.74-3/DOSBox0.74-3-win32-installer.exe#/dl.7z",
+ "version": "0.74-3"
 }

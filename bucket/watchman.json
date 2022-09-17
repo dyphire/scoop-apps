@@ -1,14 +1,31 @@
 {
-    "homepage": "https://facebook.github.io/watchman/",
-    "version": "4.9.4",
-    "license": "Apache-2.0",
-    "architecture": {
-        "64bit": {
-            "url": "http://r.windows.random.supplies/watchman-4.9.4.zip",
-            "hash": "8e056950ccdca555289108bb72bdbbe40f6517eb77be4e3f9aaebccdea6792ce",
-            "bin": [
-                "watchman.exe"
-            ]
-        }
-    }
+ "architecture": {
+  "64bit": {
+   "hash": "6942571ec90c12e7b2d5da6aa468811230f4aa4afdd8a05cac17ea714a109262",
+   "url": "https://github.com/facebook/watchman/releases/download/v2022.07.18.00/watchman-v2022.07.18.00-windows.zip"
+  }
+ },
+ "autoupdate": {
+  "architecture": {
+   "64bit": {
+    "url": "https://github.com/facebook/watchman/releases/download/v$version/watchman-v$version-windows.zip"
+   }
+  },
+  "extract_dir": "watchman-v$version-windows\\bin"
+ },
+ "bin": [
+  "watchman-make.exe",
+  "watchman-replicate-subscription.exe",
+  "watchman-wait.exe",
+  "watchman.exe"
+ ],
+ "checkver": {
+  "github": "https://github.com/facebook/watchman"
+ },
+ "description": "A file watching service by Facebook",
+ "extract_dir": "watchman-v2022.07.18.00-windows\\bin",
+ "homepage": "https://facebook.github.io/watchman/",
+ "license": "MIT",
+ "post_install": "Remove-Item -Path $dir\\watchman-v$version-windows -Recurse -ErrorAction Ignore",
+ "version": "2022.07.18.00"
 }
