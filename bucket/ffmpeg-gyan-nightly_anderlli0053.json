@@ -1,9 +1,9 @@
 {
  "architecture": {
   "64bit": {
-   "extract_dir": "ffmpeg-2022-09-15-git-3f0fac9303-full_build",
-   "hash": "9665088d16bfb134245d0fee1f00e26c6ceb0abdf527782d6acab6b7d72c448f",
-   "url": "https://www.gyan.dev/ffmpeg/builds/packages/ffmpeg-2022-09-15-git-3f0fac9303-full_build.7z"
+   "extract_dir": "ffmpeg-2022-09-19-git-4ba68639ca-full_build",
+   "hash": "1f873ab6c95f4d73ed87e413b290e007e4206f351e08e22e7e999455ee50a9fe",
+   "url": "https://www.gyan.dev/ffmpeg/builds/packages/ffmpeg-2022-09-19-git-4ba68639ca-full_build.7z"
   }
  },
  "autoupdate": {
@@ -33,5 +33,5 @@
   "# Workaround for https://github.com/ScoopInstaller/Main/issues/2611",
   "Remove-Item \"$scoopdir\\shims\\ffmpeg.ps1\", \"$scoopdir\\shims\\ffplay.ps1\", \"$scoopdir\\shims\\ffprobe.ps1\" -ErrorAction SilentlyContinue"
  ],
- "version": "2022-09-15"
+ "version": "2022-09-19"
 }

@@ -1,9 +1,9 @@
 {
  "architecture": {
   "64bit": {
-   "extract_dir": "mariadb-10.9.2-winx64",
-   "hash": "ba332c8a5fbf52434580c4cf15ed2fe208defd28f8d306cb2803acbba4036fbb",
-   "url": "https://downloads.mariadb.com/MariaDB/mariadb-10.9.2/winx64-packages/mariadb-10.9.2-winx64.zip"
+   "extract_dir": "mariadb-10.9.3-winx64",
+   "hash": "90f3b3a61257fe67d76984bc001f5b6023c19c6927991931338748c129541987",
+   "url": "https://downloads.mariadb.com/MariaDB/mariadb-10.9.3/winx64-packages/mariadb-10.9.3-winx64.zip"
   }
  },
  "autoupdate": {
@@ -68,5 +68,5 @@
   "    warn 'Database has been initialized (username: root, password: <blank>)'",
   "}"
  ],
- "version": "10.9.2"
+ "version": "10.9.3"
 }
