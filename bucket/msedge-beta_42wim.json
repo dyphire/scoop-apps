@@ -1,0 +1,47 @@
+{
+    "version": "106.0.1370.17",
+    "description": "Fast, secure, and free web browser, built for the modern web based",
+    "homepage": "https://www.microsoft.com/en-us/edge",
+    "license": {
+        "identifier": "Proprietary Software"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "http://msedge.f.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/8da5003f-ae6e-44a5-8765-03fcc92d315c?P1=1663994457&P2=404&P3=2&P4=OiTeEbeo0v1Zrdut%2bJ4sg6j3Nkw8DFSRNQ9m4Ga80WdDUABOjlG7Kg%2f02opZ4Jhgz%2bUne6W8nykpBR%2b7Y%2bbw0g%3d%3d%3d%3d#/dl.7z",
+            "hash": "eb00afb6654ae7f224f0bb1d8cb1aedcf6a96c3044bbeadcf7c6dcc66b082a3e"
+        }
+    },
+    "pre_install": [
+        "Expand-7zipArchive \"$dir\\MSEDGE.7z\" -ExtractDir 'Chrome-bin' -Removal",
+        "Rename-Item \"$dir\\$version\" \"$dir\\current\" "
+    ],
+    "bin": [
+        [
+            "current\\msedge.exe",
+            "msedge-beta",
+            "--user-data-dir=\"$dir\\User Data\""
+        ]
+    ],
+    "shortcuts": [
+        [
+            "current\\msedge.exe",
+            "Edge Beta",
+            "--user-data-dir=\"$dir\\User Data\""
+        ]
+    ],
+    "persist": "User Data",
+    "checkver": {
+        "url": "https://42wim.github.io/edgeupdates/beta.txt",
+        "regex": "(?sm)(?<version>(.*?)):http://(?<64>(.*))"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "http://$match64#/dl.7z",
+                "hash": {
+                    "url": "https://42wim.github.io/edgeupdates/beta.sha256"
+                }
+            }
+        }
+    }
+}

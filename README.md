@@ -66,9 +66,9 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - TheRandomLabs/Scoop-Python
 - naderi/scoop-bucket
 - ChungZH/peach
+- anderlli0053/DEV-tools
 - 42wim/scoop-bucket
 - AStupidBear/scoop-bear
-- anderlli0053/DEV-tools
 - krproject/qi-windows
 - excitoon/scoop-user
 - mogeko/scoop-sysinternals
