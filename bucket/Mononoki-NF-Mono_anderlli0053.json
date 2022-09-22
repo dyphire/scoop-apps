@@ -3,7 +3,7 @@
   "url": "https://github.com/ryanoasis/nerd-fonts/releases/download/v$version/Mononoki.zip"
  },
  "checkver": "github",
- "hash": "bc88f1350e2040cb30404e5d52daab24635f0a5b05924833bbc008eab6dd8a1c",
+ "hash": "d6d21469971ac8cf01d5c1e6a34372466d4f67a0db2e79b6fd0b4d9d6b8c9d05",
  "homepage": "https://github.com/ryanoasis/nerd-fonts",
  "installer": {
   "script": [
@@ -47,6 +47,6 @@
    "Write-Host \"The '$($app.Replace('-NF', ''))' Font family has been uninstalled and will not be present after restarting your computer.\" -Foreground Magenta"
   ]
  },
- "url": "https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Mononoki.zip",
- "version": "2.1.0"
+ "url": "https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/Mononoki.zip",
+ "version": "2.2.2"
 }

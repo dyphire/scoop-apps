@@ -1,12 +1,12 @@
 {
  "architecture": {
   "32bit": {
-   "hash": "f95331bd7771c942c0409830d8031b138c26436ee6f5983bac8d6c93931ff775",
-   "url": "https://github.com/vim/vim-win32-installer/releases/download/v9.0.0189/gvim_9.0.0189_x86.zip"
+   "hash": "7cd549582f0e389b1d44480ee419f8a578b930548a3cc4ce15beb3263bded2b7",
+   "url": "https://github.com/vim/vim-win32-installer/releases/download/v9.0.0525/gvim_9.0.0525_x86.zip"
   },
   "64bit": {
-   "hash": "acb93c536c2a745d6ff0c9a1d3cd07adca06887c83e86fc26848faabad81f493",
-   "url": "https://github.com/vim/vim-win32-installer/releases/download/v9.0.0189/gvim_9.0.0189_x64.zip"
+   "hash": "4457c96437d8b91eb98dd24d97dbb8d275293ad3ae12f073178458ab73c75311",
+   "url": "https://github.com/vim/vim-win32-installer/releases/download/v9.0.0525/gvim_9.0.0525_x64.zip"
   }
  },
  "autoupdate": {
@@ -110,5 +110,5 @@
  "suggest": {
   "vimtutor": "vimtutor"
  },
- "version": "9.0.0189"
+ "version": "9.0.0525"
 }

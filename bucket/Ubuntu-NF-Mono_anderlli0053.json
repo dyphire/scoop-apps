@@ -3,7 +3,7 @@
   "url": "https://github.com/ryanoasis/nerd-fonts/releases/download/v$version/Ubuntu.zip"
  },
  "checkver": "github",
- "hash": "30e241751705401885f265bf3f1e420ede62a35a6f6ed859e4adcc8dd6cbedd3",
+ "hash": "02e4372c5c419251ea7337e0a2347eff29c51125d720fb3f5dcbae13970f8741",
  "homepage": "https://github.com/ryanoasis/nerd-fonts",
  "installer": {
   "script": [
@@ -47,6 +47,6 @@
    "Write-Host \"The '$($app.Replace('-NF', ''))' Font family has been uninstalled and will not be present after restarting your computer.\" -Foreground Magenta"
   ]
  },
- "url": "https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Ubuntu.zip",
- "version": "2.1.0"
+ "url": "https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/Ubuntu.zip",
+ "version": "2.2.2"
 }

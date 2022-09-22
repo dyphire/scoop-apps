@@ -11,7 +11,7 @@
   "github": "https://github.com/abbodi1406/vcredist"
  },
  "description": "All-in-one repack for latest Microsoft Visual C++ Redistributable Runtimes, without the original setup bloat payload.",
- "hash": "f4225c671258492fa83781579b169bad1c6e510bfef23d0942cae2b1017112cb",
+ "hash": "9de9f42a81da33064c75bb08fe1a5038681efc72a76bed7a3a2876b28e7a4efd",
  "homepage": "https://github.com/abbodi1406/vcredist",
  "installer": {
   "args": [
@@ -29,6 +29,6 @@
    "Invoke-ExternalCommand \"$dir\\VisualCppRedist_AIO_x86_x64.exe\" -ArgumentList @('/ai', '/gm2') | Out-Null"
   ]
  },
- "url": "https://github.com/abbodi1406/vcredist/releases/latest/download/VisualCppRedist_AIO_x86_x64_61.zip",
- "version": "0.61.0"
+ "url": "https://github.com/abbodi1406/vcredist/releases/latest/download/VisualCppRedist_AIO_x86_x64_62.zip",
+ "version": "0.62.0"
 }

@@ -3,7 +3,7 @@
   "url": "https://github.com/ryanoasis/nerd-fonts/releases/download/v$version/UbuntuMono.zip"
  },
  "checkver": "github",
- "hash": "1034658826a4561a1ff460aa4261b5f47e8b201601619242e31bbde14ecc4871",
+ "hash": "6a5b0cf6ec7c20c93d3854d0ffa1f0944ad18d11b6574d057b401ece63f64c56",
  "homepage": "https://github.com/ryanoasis/nerd-fonts",
  "installer": {
   "script": [
@@ -47,6 +47,6 @@
    "Write-Host \"The '$($app.Replace('-NF', ''))' Font family has been uninstalled and will not be present after restarting your computer.\" -Foreground Magenta"
   ]
  },
- "url": "https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/UbuntuMono.zip",
- "version": "2.1.0"
+ "url": "https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/UbuntuMono.zip",
+ "version": "2.2.2"
 }

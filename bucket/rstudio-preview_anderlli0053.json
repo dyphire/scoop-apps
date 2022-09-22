@@ -1,7 +1,7 @@
 {
  "architecture": {
   "64bit": {
-   "hash": "5ab6215b1468ecfc52faee276bb93787aa54b7ac32fae1348c9663f4e2c5c74e",
+   "hash": "b38bf925e1cddda04bfae18492991cc980c0b4227b49fa0f3ce39c44c368fdd6",
    "post_install": [
     "Remove-Item \"$dir\\`$*\" -Recurse",
     "if (!(Test-Path \"$env:Appdata\\RStudio\")) {",
@@ -12,7 +12,7 @@
     "    ) | Add-Content -Path \"$env:Appdata\\RStudio\\desktop.ini\" -Encoding UTF8 -Force",
     "}"
    ],
-   "url": "https://s3.amazonaws.com/rstudio-ide-build/desktop/windows/RStudio-2022.07.1-554.exe#/dl.7z"
+   "url": "https://s3.amazonaws.com/rstudio-ide-build/desktop/windows/RStudio-2022.07.2-576.exe#/dl.7z"
   }
  },
  "autoupdate": {
@@ -43,5 +43,5 @@
    "RStudio Preview"
   ]
  ],
- "version": "2022.07.1+554"
+ "version": "2022.07.2+576"
 }

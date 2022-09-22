@@ -2,11 +2,11 @@
  "##": "Download url https://code.visualstudio.com/download#",
  "architecture": {
   "32bit": {
-   "hash": "ff8c5f38fa3f29bb97370a9d397b89ffe0c4b78ccb8720d8cf427a13f44edeca",
+   "hash": "75a7ad8f4c45ed4d817df657a39b265ce01b7616930138601ae349cd77572886",
    "url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-user#/setup.exe"
   },
   "64bit": {
-   "hash": "b38443bf18424d77fc3ed2fa062eec3f219fbef652d89be6b157c6cb1ce0580b",
+   "hash": "f4cd3b2d845bd2a61152707c2b8626c10e8e9bcd1a8163944c34635172f6cdd9",
    "url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user#/setup.exe"
   }
  },
@@ -21,7 +21,7 @@
   },
   "changelog": "https://code.visualstudio.com/updates/v$majorVersion_$minorVersion"
  },
- "changelog": "https://code.visualstudio.com/updates/v1_70",
+ "changelog": "https://code.visualstudio.com/updates/v1_71",
  "checkver": {
   "github": "https://github.com/microsoft/vscode"
  },
@@ -58,5 +58,5 @@
   "   }",
   "}"
  ],
- "version": "1.70.2"
+ "version": "1.71.2"
 }

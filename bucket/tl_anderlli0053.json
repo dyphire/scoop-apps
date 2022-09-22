@@ -1,9 +1,9 @@
 {
  "architecture": {
   "64bit": {
-   "extract_dir": "tl-0.13.2-windows-x86_64",
-   "hash": "71714f76d43eaaa3d64ef5b2628b43e9c99ce07baa5e2c099fc3b4b9f350ec23",
-   "url": "https://github.com/teal-language/tl/releases/download/v0.13.2/tl-0.13.2-windows-x86_64.zip"
+   "extract_dir": "tl-0.14.1-windows-x86_64",
+   "hash": "9758652fcba5b417967c7bb956081a06e98af8c9c95a93edab9ac82b2363f5f7",
+   "url": "https://github.com/teal-language/tl/releases/download/v0.14.1/tl-0.14.1-windows-x86_64.zip"
   }
  },
  "autoupdate": {
@@ -20,5 +20,5 @@
  "homepage": "https://github.com/teal-language/tl",
  "license": "MIT",
  "persist": "tlconfig.lua",
- "version": "0.13.2"
+ "version": "0.14.1"
 }
