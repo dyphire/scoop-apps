@@ -2,13 +2,7 @@
  "autoupdate": {
   "url": "https://github.com/MathewSachin/Captura/releases/download/v$version/Captura-Portable.zip"
  },
- "bin": [
-  "captura-cli.exe",
-  [
-   "captura-cli.exe",
-   "captura"
-  ]
- ],
+ "bin": "captura-cli.exe",
  "checkver": {
   "github": "https://github.com/MathewSachin/Captura"
  },
