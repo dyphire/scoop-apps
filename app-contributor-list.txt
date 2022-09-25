@@ -2135,7 +2135,6 @@ DroidSansMono-NF.json    matthewjberger/scoop-nerd-fonts
 IBMPlexSans-Thai.json    matthewjberger/scoop-nerd-fonts
 BigBlueTerminal-NF-Mono.json    matthewjberger/scoop-nerd-fonts
 ShareTechMono-NF-Mono.json    matthewjberger/scoop-nerd-fonts
-LXGW-Bright-Classic.json    matthewjberger/scoop-nerd-fonts
 HakushuGyosyoOiwai.json    matthewjberger/scoop-nerd-fonts
 Victor-Mono.json    matthewjberger/scoop-nerd-fonts
 Mononoki-NF-Mono.json    matthewjberger/scoop-nerd-fonts
@@ -2210,6 +2209,7 @@ IBMPlexSans-Devanagari.json    matthewjberger/scoop-nerd-fonts
 BitstreamVeraSansMono-NF.json    matthewjberger/scoop-nerd-fonts
 IPAex-Mincho.json    matthewjberger/scoop-nerd-fonts
 3270-NF.json    matthewjberger/scoop-nerd-fonts
+LXGW-Bright-GB.json    matthewjberger/scoop-nerd-fonts
 Source-Han-Mono-TC.json    matthewjberger/scoop-nerd-fonts
 Inconsolata-NF.json    matthewjberger/scoop-nerd-fonts
 MPlus-NF-Mono.json    matthewjberger/scoop-nerd-fonts
@@ -2313,6 +2313,7 @@ FiraCode.json    matthewjberger/scoop-nerd-fonts
 Wenquanyi-Zenhei.json    matthewjberger/scoop-nerd-fonts
 VictorMono-NF.json    matthewjberger/scoop-nerd-fonts
 CodeNewRoman-NF.json    matthewjberger/scoop-nerd-fonts
+LXGW-Bright-TC.json    matthewjberger/scoop-nerd-fonts
 SarasaGothic-CL.json    matthewjberger/scoop-nerd-fonts
 Source-Han-Sans-K.json    matthewjberger/scoop-nerd-fonts
 IBMPlexMono-NF.json    matthewjberger/scoop-nerd-fonts
@@ -5981,23 +5982,6 @@ cemuhook-x.json    kiennq/scoop-misc
 golang.json    kiennq/scoop-misc
 proton-launcher.json    kiennq/scoop-misc
 cascadiacode-pl.json    kiennq/scoop-misc
-clash-for-windows_ZvonimirSun.json    ZvonimirSun/scoop-iszy
-wechat-work.json    ZvonimirSun/scoop-iszy
-qq-dreamcast.json    ZvonimirSun/scoop-iszy
-oraclejdk8-8u151.json    ZvonimirSun/scoop-iszy
-officebox.json    ZvonimirSun/scoop-iszy
-oracle-instant-client.json    ZvonimirSun/scoop-iszy
-oraclejdk8.json    ZvonimirSun/scoop-iszy
-lavfilters_ZvonimirSun.json    ZvonimirSun/scoop-iszy
-mobaxterm_ZvonimirSun.json    ZvonimirSun/scoop-iszy
-oraclejdk8-8u191.json    ZvonimirSun/scoop-iszy
-lx-music_ZvonimirSun.json    ZvonimirSun/scoop-iszy
-winrar-sc_ZvonimirSun.json    ZvonimirSun/scoop-iszy
-wechat_ZvonimirSun.json    ZvonimirSun/scoop-iszy
-office-tool.json    ZvonimirSun/scoop-iszy
-netvpn-lc.json    ZvonimirSun/scoop-iszy
-picgo_ZvonimirSun.json    ZvonimirSun/scoop-iszy
-oracle-instant-client11.json    ZvonimirSun/scoop-iszy
 physdiskwrite.json    wangzq/scoop-bucket
 dnspy-x86.json    wangzq/scoop-bucket
 winscp_wangzq.json    wangzq/scoop-bucket
@@ -6243,13 +6227,30 @@ arthas_zhoujin7.json    zhoujin7/tomato
 jd-gui_zhoujin7.json    zhoujin7/tomato
 HBuilderX-Full-Alpha.json    zhoujin7/tomato
 CCleaner540.json    zhoujin7/tomato
-OracleJDK8_zhoujin7.json    zhoujin7/tomato
+OracleJDK8.json    zhoujin7/tomato
 OracleJDK11_zhoujin7.json    zhoujin7/tomato
 maven.json    zhoujin7/tomato
 maven36.json    zhoujin7/tomato
 MDict_zhoujin7.json    zhoujin7/tomato
 VisualVM_zhoujin7.json    zhoujin7/tomato
 zipkin-dependencies.json    zhoujin7/tomato
+clash-for-windows_ZvonimirSun.json    ZvonimirSun/scoop-iszy
+wechat-work.json    ZvonimirSun/scoop-iszy
+qq-dreamcast.json    ZvonimirSun/scoop-iszy
+oraclejdk8-8u151.json    ZvonimirSun/scoop-iszy
+officebox.json    ZvonimirSun/scoop-iszy
+oracle-instant-client.json    ZvonimirSun/scoop-iszy
+oraclejdk8_ZvonimirSun.json    ZvonimirSun/scoop-iszy
+lavfilters_ZvonimirSun.json    ZvonimirSun/scoop-iszy
+mobaxterm_ZvonimirSun.json    ZvonimirSun/scoop-iszy
+oraclejdk8-8u191.json    ZvonimirSun/scoop-iszy
+lx-music_ZvonimirSun.json    ZvonimirSun/scoop-iszy
+winrar-sc_ZvonimirSun.json    ZvonimirSun/scoop-iszy
+wechat_ZvonimirSun.json    ZvonimirSun/scoop-iszy
+office-tool.json    ZvonimirSun/scoop-iszy
+netvpn-lc.json    ZvonimirSun/scoop-iszy
+picgo_ZvonimirSun.json    ZvonimirSun/scoop-iszy
+oracle-instant-client11.json    ZvonimirSun/scoop-iszy
 portable.json    ACooper81/scoop-apps
 PSModule.json    ACooper81/scoop-apps
 installmsi.json    ACooper81/scoop-apps
@@ -8188,6 +8189,8 @@ LGPO-Portable_anderlli0053.json    anderlli0053/DEV-tools
 LLFTOOL_anderlli0053.json    anderlli0053/DEV-tools
 LMMSPortable.json    anderlli0053/DEV-tools
 LMarblesPortable.json    anderlli0053/DEV-tools
+LXGW-Bright-Classic.json    anderlli0053/DEV-tools
+LXGW-Bright_anderlli0053.json    anderlli0053/DEV-tools
 LaTeXDraw_anderlli0053.json    anderlli0053/DEV-tools
 LameXPPortable.json    anderlli0053/DEV-tools
 LanguageTool-Portable_anderlli0053.json    anderlli0053/DEV-tools
@@ -10154,7 +10157,6 @@ curlie_anderlli0053.json    anderlli0053/DEV-tools
 cvs.json    anderlli0053/DEV-tools
 cwrsync.json    anderlli0053/DEV-tools
 cwtch_anderlli0053.json    anderlli0053/DEV-tools
-cxbx-reloaded_anderlli0053.json    anderlli0053/DEV-tools
 cyberchef.json    anderlli0053/DEV-tools
 cygpath.json    anderlli0053/DEV-tools
 cygwin-aoks.json    anderlli0053/DEV-tools
@@ -10296,6 +10298,7 @@ dogecoincore_anderlli0053.json    anderlli0053/DEV-tools
 dogehouse.json    anderlli0053/DEV-tools
 doggo.json    anderlli0053/DEV-tools
 dokka.json    anderlli0053/DEV-tools
+dolphin-dev_anderlli0053.json    anderlli0053/DEV-tools
 dolt.json    anderlli0053/DEV-tools
 domainlookuptools_anderlli0053.json    anderlli0053/DEV-tools
 dont-sleep-portable_anderlli0053.json    anderlli0053/DEV-tools
@@ -11222,6 +11225,7 @@ jhead.json    anderlli0053/DEV-tools
 jianyingpro_anderlli0053.json    anderlli0053/DEV-tools
 jid.json    anderlli0053/DEV-tools
 jira.json    anderlli0053/DEV-tools
+jitsi-meet_anderlli0053.json    anderlli0053/DEV-tools
 jixia.json    anderlli0053/DEV-tools
 jj_anderlli0053.json    anderlli0053/DEV-tools
 jjdown_anderlli0053.json    anderlli0053/DEV-tools
@@ -11382,6 +11386,7 @@ legit.json    anderlli0053/DEV-tools
 lego.json    anderlli0053/DEV-tools
 leiningen.json    anderlli0053/DEV-tools
 lemon_anderlli0053.json    anderlli0053/DEV-tools
+lenovolegiontoolkit_anderlli0053.json    anderlli0053/DEV-tools
 leomoon-hafez_anderlli0053.json    anderlli0053/DEV-tools
 leomoon-jalalitray_anderlli0053.json    anderlli0053/DEV-tools
 leomoon-parsinegar_anderlli0053.json    anderlli0053/DEV-tools
@@ -11451,6 +11456,7 @@ llvm@10.0.0.json    anderlli0053/DEV-tools
 llvm@12.0.1.json    anderlli0053/DEV-tools
 llvm@13.0.0.json    anderlli0053/DEV-tools
 ln.json    anderlli0053/DEV-tools
+loadeddllsview_anderlli0053.json    anderlli0053/DEV-tools
 loadorder.json    anderlli0053/DEV-tools
 lock-cursor-tools_anderlli0053.json    anderlli0053/DEV-tools
 loft.json    anderlli0053/DEV-tools
@@ -11679,6 +11685,7 @@ mpg123-dynamic_anderlli0053.json    anderlli0053/DEV-tools
 mpg123.json    anderlli0053/DEV-tools
 mprocs.json    anderlli0053/DEV-tools
 mpv-Portable_anderlli0053.json    anderlli0053/DEV-tools
+mpv-git_anderlli0053.json    anderlli0053/DEV-tools
 mpv-handler.json    anderlli0053/DEV-tools
 mpv-lachs0r_anderlli0053.json    anderlli0053/DEV-tools
 mpv-lazy.json    anderlli0053/DEV-tools
@@ -11870,6 +11877,7 @@ nodejs@lts-8.11.2.json    anderlli0053/DEV-tools
 nodejs@lts-8.16.2.json    anderlli0053/DEV-tools
 nodejs@lts-8.9.4.json    anderlli0053/DEV-tools
 nodejs@lts.json    anderlli0053/DEV-tools
+noesis.json    anderlli0053/DEV-tools
 nohttp-cli_anderlli0053.json    anderlli0053/DEV-tools
 nomad.json    anderlli0053/DEV-tools
 nomeiryoui_anderlli0053.json    anderlli0053/DEV-tools
@@ -11886,6 +11894,7 @@ notepad2_zh-hans.json    anderlli0053/DEV-tools
 notepad2_zh-hant.json    anderlli0053/DEV-tools
 notepad2e.json    anderlli0053/DEV-tools
 notepad3-sdu.json    anderlli0053/DEV-tools
+notepadnext_anderlli0053.json    anderlli0053/DEV-tools
 notepadplusplus-aoks.json    anderlli0053/DEV-tools
 noti.json    anderlli0053/DEV-tools
 notmyfault.json    anderlli0053/DEV-tools
@@ -12059,6 +12068,7 @@ oraclejdk8p-np.json    anderlli0053/DEV-tools
 oraclejdk8p.json    anderlli0053/DEV-tools
 orange_anderlli0053.json    anderlli0053/DEV-tools
 origin_anderlli0053.json    anderlli0053/DEV-tools
+oripa_anderlli0053.json    anderlli0053/DEV-tools
 orwell-dev-cpp-no-compiler_anderlli0053.json    anderlli0053/DEV-tools
 orwell-dev-cpp_anderlli0053.json    anderlli0053/DEV-tools
 osm_anderlli0053.json    anderlli0053/DEV-tools
@@ -12127,6 +12137,7 @@ pdf24-creator-portable.json    anderlli0053/DEV-tools
 pdf24-creator.json    anderlli0053/DEV-tools
 pdf2djvu.json    anderlli0053/DEV-tools
 pdf2htmlEX_anderlli0053.json    anderlli0053/DEV-tools
+pdfarranger_anderlli0053.json    anderlli0053/DEV-tools
 pdfbox.json    anderlli0053/DEV-tools
 pdfcpu.json    anderlli0053/DEV-tools
 pdfpatcher_anderlli0053.json    anderlli0053/DEV-tools
@@ -12954,6 +12965,7 @@ powershell-tuna.json    anderlli0053/DEV-tools
 powershell_anderlli0053.json    anderlli0053/DEV-tools
 powertool.json    anderlli0053/DEV-tools
 powertoys-sdu.json    anderlli0053/DEV-tools
+praat_anderlli0053.json    anderlli0053/DEV-tools
 premake.json    anderlli0053/DEV-tools
 premake4@4.5-b5.json    anderlli0053/DEV-tools
 premake5@5.0.0-alpha12.json    anderlli0053/DEV-tools
@@ -13555,6 +13567,7 @@ shotcut-video.json    anderlli0053/DEV-tools
 shoutrrr_anderlli0053.json    anderlli0053/DEV-tools
 shumaxiaozhan.json    anderlli0053/DEV-tools
 shutdown-timer-classic.json    anderlli0053/DEV-tools
+shutter-encoder_anderlli0053.json    anderlli0053/DEV-tools
 sidekick_anderlli0053.json    anderlli0053/DEV-tools
 sift_anderlli0053.json    anderlli0053/DEV-tools
 sigcheck.json    anderlli0053/DEV-tools
@@ -13657,6 +13670,7 @@ spotbugs.json    anderlli0053/DEV-tools
 spotify-qt-nightly.json    anderlli0053/DEV-tools
 spotify-qt.json    anderlli0053/DEV-tools
 spotify-tui.json    anderlli0053/DEV-tools
+spotx-np_anderlli0053.json    anderlli0053/DEV-tools
 sq.json    anderlli0053/DEV-tools
 sqlcl.json    anderlli0053/DEV-tools
 sqlformatter_anderlli0053.json    anderlli0053/DEV-tools
@@ -13708,6 +13722,7 @@ streamlink-portable.json    anderlli0053/DEV-tools
 streamlink_anderlli0053.json    anderlli0053/DEV-tools
 streams.json    anderlli0053/DEV-tools
 strelaysrv-aoks.json    anderlli0053/DEV-tools
+stretchly_anderlli0053.json    anderlli0053/DEV-tools
 strings.json    anderlli0053/DEV-tools
 strings2_anderlli0053.json    anderlli0053/DEV-tools
 stripe-cli_anderlli0053.json    anderlli0053/DEV-tools
@@ -14255,7 +14270,6 @@ virtualbox-aoks.json    anderlli0053/DEV-tools
 virtualbox-extension-pack-aoks.json    anderlli0053/DEV-tools
 virtualbox-extension.json    anderlli0053/DEV-tools
 virtualbox.json    anderlli0053/DEV-tools
-virtualhere-client_anderlli0053.json    anderlli0053/DEV-tools
 virtualjaguar.json    anderlli0053/DEV-tools
 visual-boy-advance-m.json    anderlli0053/DEV-tools
 visualboyadvance-sdl.json    anderlli0053/DEV-tools
