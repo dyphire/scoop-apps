@@ -1,25 +1,13 @@
 {
     "version": "1.240",
-    "description": "An open-source Chinese font derived from Fontworks' Klee One. 一款基于 FONTWORKS 出品字体 Klee One 改造的开源中文字体。",
-    "homepage": "https://github.com/lxgw/LxgwWenKai",
+    "description": "LXGW WenKai for Screen Reading.",
+    "homepage": "https://github.com/lxgw/LxgwWenKai-Screen",
     "license": "OFL-1.1",
-    "url": [
-        "https://github.com/lxgw/LxgwWenKai/releases/download/v1.240/LXGWWenKaiMono-Bold.ttf",
-        "https://github.com/lxgw/LxgwWenKai/releases/download/v1.240/LXGWWenKaiMono-Light.ttf",
-        "https://github.com/lxgw/LxgwWenKai/releases/download/v1.240/LXGWWenKaiMono-Regular.ttf"
-    ],
-    "hash": [
-        "4395ecd790e6978697170317d2dec652feb5f9937e0be4441345dbaf68d4e2ee",
-        "6d22a6200348781f64d89fbed581446db1cd7840951933614bbe8b261ed02106",
-        "f3aa42934beade753cbf1cc04e1706a775bb18fc387c39b844737d3264769281"
-    ],
+    "url": "https://github.com/lxgw/LxgwWenKai-Screen/releases/download/v1.240/LXGWWenKaiScreen.ttf",
+    "hash": "35debf971fc78352831ff3454e96be2ee8314fb52dda32780be8b09802b787ff",
     "checkver": "github",
     "autoupdate": {
-        "url": [
-            "https://github.com/lxgw/LxgwWenKai/releases/download/v$version/LXGWWenKaiMono-Bold.ttf",
-            "https://github.com/lxgw/LxgwWenKai/releases/download/v$version/LXGWWenKaiMono-Light.ttf",
-            "https://github.com/lxgw/LxgwWenKai/releases/download/v$version/LXGWWenKaiMono-Regular.ttf"
-        ]
+        "url": "https://github.com/lxgw/LxgwWenKai-Screen/releases/download/v$version/LXGWWenKaiScreen.ttf"
     },
     "installer": {
         "script": [
@@ -59,7 +47,7 @@
             "    Remove-ItemProperty -Path $registryKey -Name $_.Name.Replace($_.Extension, ' (TrueType)') -Force -ErrorAction SilentlyContinue",
             "    Remove-Item \"$fontInstallDir\\$($_.Name)\" -Force -ErrorAction SilentlyContinue",
             "}",
-            "Write-Host \"Font family 'LXGWWenKaiMono' has been uninstalled and will not be present after restarting your computer.\" -Foreground Magenta"
+            "Write-Host \"Font 'LXGWWenKaiScreen' has been uninstalled and will not be present after restarting your computer.\" -Foreground Magenta"
         ]
     }
 }
