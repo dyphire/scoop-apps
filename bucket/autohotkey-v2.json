@@ -1,24 +1,5 @@
 {
-    "version": "2.0-beta.10",
-    "description": "The ultimate automation scripting language for Windows.",
-    "homepage": "https://www.autohotkey.com/",
-    "license": "GPL-2.0-or-later",
-    "url": "https://www.autohotkey.com/download/2.0/AutoHotkey_2.0-beta.10.zip",
-    "hash": "98d4f37e7d68de87519ad388b4bdada6e2bc3100ca4a02d5513f52776ca0383e",
-    "pre_install": [
-        "if(!(Test-Path \"$dir/Scripts\")) { New-Item \"$dir/Scripts\" -ItemType Directory | Out-Null }",
-        "if(!(Test-Path \"$dir/Scripts/Default.ahk\")) { Add-Content \"$dir/Scripts/Default.ahk\" \"SetWorkingDir A_ScriptDir\" }"
-    ],
     "architecture": {
-        "64bit": {
-            "shortcuts": [
-                [
-                    "AutoHotkey64.exe",
-                    "AutoHotkey 2",
-                    "Scripts\\Default.ahk"
-                ]
-            ]
-        },
         "32bit": {
             "shortcuts": [
                 [
@@ -27,17 +8,36 @@
                     "Scripts\\Default.ahk"
                 ]
             ]
+        },
+        "64bit": {
+            "shortcuts": [
+                [
+                    "AutoHotkey64.exe",
+                    "AutoHotkey 2",
+                    "Scripts\\Default.ahk"
+                ]
+            ]
         }
-    },
-    "persist": "Scripts",
-    "checkver": {
-        "url": "https://www.autohotkey.com/download/2.0/version.txt",
-        "regex": "(.*)"
     },
     "autoupdate": {
-        "url": "https://www.autohotkey.com/download/$matchHead/AutoHotkey_$version.zip",
         "hash": {
             "url": "$baseurl/AutoHotkey_$version.zip.sha256"
-        }
-    }
+        },
+        "url": "https://www.autohotkey.com/download/$matchHead/AutoHotkey_$version.zip"
+    },
+    "checkver": {
+        "regex": "(.*)",
+        "url": "https://www.autohotkey.com/download/2.0/version.txt"
+    },
+    "description": "The ultimate automation scripting language for Windows.",
+    "hash": "98d4f37e7d68de87519ad388b4bdada6e2bc3100ca4a02d5513f52776ca0383e",
+    "homepage": "https://www.autohotkey.com/",
+    "license": "GPL-2.0-or-later",
+    "persist": "Scripts",
+    "pre_install": [
+        "if(!(Test-Path \"$dir/Scripts\")) { New-Item \"$dir/Scripts\" -ItemType Directory | Out-Null }",
+        "if(!(Test-Path \"$dir/Scripts/Default.ahk\")) { Add-Content \"$dir/Scripts/Default.ahk\" \"SetWorkingDir A_ScriptDir\" }"
+    ],
+    "url": "https://www.autohotkey.com/download/2.0/AutoHotkey_2.0-beta.10.zip",
+    "version": "2.0-beta.10"
 }
