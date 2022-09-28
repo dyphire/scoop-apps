@@ -64,8 +64,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - wzv5/ScoopBucket
 - ScoopInstaller/Nonportable
 - TheRandomLabs/Scoop-Python
-- naderi/scoop-bucket
 - anderlli0053/DEV-tools
+- naderi/scoop-bucket
 - ChungZH/peach
 - 42wim/scoop-bucket
 - AStupidBear/scoop-bear

@@ -1,19 +1,30 @@
 {
-    "version": "107.0a1.20220925213821",
-    "description": "Nightly builds of Firefox: the popular open source web browser.",
-    "homepage": "https://www.mozilla.org/de-DE/firefox/nightly/",
-    "license": "MPL-2.0",
     "architecture": {
-        "64bit": {
-            "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central-l10n/firefox-107.0a1.de.win64.zip",
-            "hash": "sha512:4ed4e701bb79da1c24cb7b1a23d1585cb99dc7c37a0a5203b57e884aec05cac98cc8cc26765e765223c9eeddffb987402ce26941a67e272b22fed796cbb47c5a"
-        },
         "32bit": {
-            "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central-l10n/firefox-107.0a1.de.win32.zip",
-            "hash": "sha512:2ad103a8fae471fa531416269cc5aadba342fa99bd03c13f82b6d256d730b9dcfa9b55491c3586e6c5fffe7d223c92e3f94d46cff80aaeb3a47292e87d67cdb6"
+            "hash": "sha512:e0723c611103d33248a2e91e07f597f772a900849feec6cf1f487ef06974489659fab036511bf990363934324ee35014542c7c1404506fd7b4806dace5459a07",
+            "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central-l10n/firefox-107.0a1.de.win32.zip"
+        },
+        "64bit": {
+            "hash": "sha512:0c9f9c9f3401c8218bffad4cd7637778cd83c10cd3fb8f9f972ee2ea1ba2aca27274599f7e12ce956ca0312ed7c932cfa7f95cea6d058deb39cae7e69b550718",
+            "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central-l10n/firefox-107.0a1.de.win64.zip"
         }
     },
-    "extract_dir": "firefox",
+    "autoupdate": {
+        "architecture": {
+            "32bit": {
+                "hash": {
+                    "url": "$baseurl/firefox-$majorVersion.$minorVersion.de.win32.checksums"
+                },
+                "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central-l10n/firefox-$majorVersion.$minorVersion.de.win32.zip"
+            },
+            "64bit": {
+                "hash": {
+                    "url": "$baseurl/firefox-$majorVersion.$minorVersion.de.win64.checksums"
+                },
+                "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central-l10n/firefox-$majorVersion.$minorVersion.de.win64.zip"
+            }
+        }
+    },
     "bin": [
         [
             "firefox.exe",
@@ -21,6 +32,16 @@
             "-profile \"$dir\\profile\""
         ]
     ],
+    "checkver": {
+        "regex": "appVersion=\"([\\w.]+)\".*?buildID=\"((?<yyyy>\\d{4})(?<mm>\\d{2})(?<dd>\\d{2})(?<hr>\\d{2})(?<mi>\\d{2})(?<se>\\d{2}))",
+        "replace": "${1}.${2}",
+        "url": "https://aus5.mozilla.org/update/6/Firefox/60.0/_/WINNT_x86_64-msvc-x64/en-US/nightly/_/_/_/_/update.xml"
+    },
+    "description": "Nightly builds of Firefox: the popular open source web browser.",
+    "extract_dir": "firefox",
+    "homepage": "https://www.mozilla.org/de-DE/firefox/nightly/",
+    "license": "MPL-2.0",
+    "persist": "profile",
     "shortcuts": [
         [
             "firefox.exe",
@@ -28,26 +49,5 @@
             "-profile \"$dir\\profile\""
         ]
     ],
-    "persist": "profile",
-    "checkver": {
-        "url": "https://aus5.mozilla.org/update/6/Firefox/60.0/_/WINNT_x86_64-msvc-x64/en-US/nightly/_/_/_/_/update.xml",
-        "regex": "appVersion=\"([\\w.]+)\".*?buildID=\"((?<yyyy>\\d{4})(?<mm>\\d{2})(?<dd>\\d{2})(?<hr>\\d{2})(?<mi>\\d{2})(?<se>\\d{2}))",
-        "replace": "${1}.${2}"
-    },
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central-l10n/firefox-$majorVersion.$minorVersion.de.win64.zip",
-                "hash": {
-                    "url": "$baseurl/firefox-$majorVersion.$minorVersion.de.win64.checksums"
-                }
-            },
-            "32bit": {
-                "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central-l10n/firefox-$majorVersion.$minorVersion.de.win32.zip",
-                "hash": {
-                    "url": "$baseurl/firefox-$majorVersion.$minorVersion.de.win32.checksums"
-                }
-            }
-        }
-    }
+    "version": "107.0a1.20220927093822"
 }
