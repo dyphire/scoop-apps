@@ -1,22 +1,23 @@
 {
-    "version": "1.0.48",
+    "version": "1.0.46",
     "description": "Unofficial Telegram Desktop with some enhancements.",
     "homepage": "https://64gr.am",
     "license": {
-        "identifier": "GPL-3.0-with-OpenSSL-exception",
+        "identifier": "GPL-3.0-openssl-exception",
         "url": "https://github.com/TDesktop-x64/tdesktop/blob/dev/LICENSE"
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/TDesktop-x64/tdesktop/releases/download/v1.0.48/64Gram_1.0.48_x64.zip",
-            "hash": "4ecdb4a56575594acdc34ee236f6cc742d1099bc5403a24507d1048ad2e286b4"
+            "url": "https://github.com/TDesktop-x64/tdesktop/releases/download/v1.0.46/64Gram_1.0.46_x64.zip",
+            "hash": "6a1fbbb548ed1c83d7eeea44cf46bd2edb448eab311c754474c258cab41a4b5d"
         },
         "32bit": {
-            "url": "https://github.com/TDesktop-x64/tdesktop/releases/download/v1.0.48/64Gram_1.0.48_x86.zip",
-            "hash": "9b29a21effff62a839244a1e4adc6f5ad0ed284e3bb30efd0ceb2710dc496fa1"
+            "url": "https://github.com/TDesktop-x64/tdesktop/releases/download/v1.0.46/64Gram_1.0.46_x86.zip",
+            "hash": "699351b0c65fd2dc2066afeb838025ced6a845dc289b293a9f616375548ce0c2"
         }
     },
-    "persist": "tdata",
+    "pre_install": "if (Test-Path \"$persist_dir\\log.txt\") { Copy-Item \"$persist_dir\\log.txt\" \"$dir\\\" }",
+    "pre_uninstall": "if (Test-Path \"$dir\\log.txt\") { Copy-Item \"$dir\\log.txt\" \"$persist_dir\\\" }",
     "bin": [
         [
             "Telegram.exe",
@@ -29,6 +30,7 @@
             "64Gram"
         ]
     ],
+    "persist": "tdata",
     "checkver": {
         "github": "https://github.com/TDesktop-x64/tdesktop"
     },
