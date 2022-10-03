@@ -2482,6 +2482,7 @@ gluon-openjfx-sdk.json    ScoopInstaller/Java
 zulu11-jre.json    ScoopInstaller/Java
 liberica8-jdk.json    ScoopInstaller/Java
 graalvm20.json    ScoopInstaller/Java
+temurin18-jdk.json    ScoopInstaller/Java
 liberica16-full-jdk.json    ScoopInstaller/Java
 gluon-openjfx-sdk-ea.json    ScoopInstaller/Java
 liberica8-jre.json    ScoopInstaller/Java
@@ -2512,6 +2513,7 @@ liberica12-lite-jdk.json    ScoopInstaller/Java
 openjdk20.json    ScoopInstaller/Java
 liberica16-full-jre.json    ScoopInstaller/Java
 temurin-nightly-jdk.json    ScoopInstaller/Java
+temurin19-jre.json    ScoopInstaller/Java
 openjdk19.json    ScoopInstaller/Java
 jmc8.json    ScoopInstaller/Java
 temurin-jre.json    ScoopInstaller/Java
@@ -2558,6 +2560,7 @@ liberica13-lite-jdk.json    ScoopInstaller/Java
 temurin11-jre.json    ScoopInstaller/Java
 zulufx8-jdk.json    ScoopInstaller/Java
 sapmachine17-jdk.json    ScoopInstaller/Java
+temurin19-jdk.json    ScoopInstaller/Java
 graalvm-jdk11.json    ScoopInstaller/Java
 temurin8-nightly-jre.json    ScoopInstaller/Java
 graalvm20-jdk8.json    ScoopInstaller/Java
@@ -2587,6 +2590,7 @@ graalvm.json    ScoopInstaller/Java
 corretto17-jdk.json    ScoopInstaller/Java
 gluon-openjfx-monocle-sdk.json    ScoopInstaller/Java
 liberica14-full-jdk.json    ScoopInstaller/Java
+temurin18-jre.json    ScoopInstaller/Java
 sapmachine13-jdk.json    ScoopInstaller/Java
 liberica14-jre.json    ScoopInstaller/Java
 microsoft17-jdk.json    ScoopInstaller/Java
@@ -6122,6 +6126,7 @@ DeltaCopy.json    wangzq/scoop-bucket
 rdcman.json    wangzq/scoop-bucket
 q.json    wangzq/scoop-bucket
 TraceSpy.json    wangzq/scoop-bucket
+lp7beta.json    wangzq/scoop-bucket
 fusionplusplus.json    wangzq/scoop-bucket
 keyhh.json    wangzq/scoop-bucket
 winrm-https.json    wangzq/scoop-bucket
@@ -7437,6 +7442,8 @@ Bootice_anderlli0053.json    anderlli0053/DEV-tools
 Boxcryptor_anderlli0053.json    anderlli0053/DEV-tools
 Brave-Portable_anderlli0053.json    anderlli0053/DEV-tools
 Brave-UserInstall_anderlli0053.json    anderlli0053/DEV-tools
+BraveBeta-Portable_anderlli0053.json    anderlli0053/DEV-tools
+BraveNightly-Portable_anderlli0053.json    anderlli0053/DEV-tools
 BrickLinkStudio-Install_anderlli0053.json    anderlli0053/DEV-tools
 BrickLinkStudio-Portable_anderlli0053.json    anderlli0053/DEV-tools
 BrowserTamer-Portable_anderlli0053.json    anderlli0053/DEV-tools
@@ -9158,7 +9165,9 @@ boundary-desktop-aoks.json    anderlli0053/DEV-tools
 boundary.json    anderlli0053/DEV-tools
 boxcutter_anderlli0053.json    anderlli0053/DEV-tools
 boxes.json    anderlli0053/DEV-tools
+brave-beta_anderlli0053.json    anderlli0053/DEV-tools
 brave-browser.json    anderlli0053/DEV-tools
+brave-nightly_anderlli0053.json    anderlli0053/DEV-tools
 brename.json    anderlli0053/DEV-tools
 briss.json    anderlli0053/DEV-tools
 brogue-tiles.json    anderlli0053/DEV-tools
@@ -9475,6 +9484,7 @@ cider-portable.json    anderlli0053/DEV-tools
 cider_anderlli0053.json    anderlli0053/DEV-tools
 cinta-notes.json    anderlli0053/DEV-tools
 circleci-cli.json    anderlli0053/DEV-tools
+citra-canary_anderlli0053.json    anderlli0053/DEV-tools
 citra-nightly_anderlli0053.json    anderlli0053/DEV-tools
 cjoe-static_anderlli0053.json    anderlli0053/DEV-tools
 clang.json    anderlli0053/DEV-tools
@@ -10036,7 +10046,6 @@ dogehouse.json    anderlli0053/DEV-tools
 doggo.json    anderlli0053/DEV-tools
 dokany-np_anderlli0053.json    anderlli0053/DEV-tools
 dokka.json    anderlli0053/DEV-tools
-dolphin-dev_anderlli0053.json    anderlli0053/DEV-tools
 dolt.json    anderlli0053/DEV-tools
 domainlookuptools_anderlli0053.json    anderlli0053/DEV-tools
 dont-sleep-portable.json    anderlli0053/DEV-tools
@@ -11344,7 +11353,6 @@ messenpass_anderlli0053.json    anderlli0053/DEV-tools
 metabase-ee_anderlli0053.json    anderlli0053/DEV-tools
 metabase_anderlli0053.json    anderlli0053/DEV-tools
 metastore.json    anderlli0053/DEV-tools
-mgba-dev_anderlli0053.json    anderlli0053/DEV-tools
 micro-nightly_anderlli0053.json    anderlli0053/DEV-tools
 micro.json    anderlli0053/DEV-tools
 microk8s-aoks.json    anderlli0053/DEV-tools
@@ -11704,8 +11712,6 @@ nvm-windows_anderlli0053.json    anderlli0053/DEV-tools
 nvm.json    anderlli0053/DEV-tools
 nvm@1.1.7.json    anderlli0053/DEV-tools
 nvs.json    anderlli0053/DEV-tools
-nwjs-sdk_anderlli0053.json    anderlli0053/DEV-tools
-nwjs_anderlli0053.json    anderlli0053/DEV-tools
 nxlog-ce-aoks.json    anderlli0053/DEV-tools
 nyagos.json    anderlli0053/DEV-tools
 nyan.json    anderlli0053/DEV-tools
@@ -11790,6 +11796,7 @@ openethereum_anderlli0053.json    anderlli0053/DEV-tools
 openiv.json    anderlli0053/DEV-tools
 openjdk-with-jfx_anderlli0053.json    anderlli0053/DEV-tools
 openjdk@1.8.0.121.json    anderlli0053/DEV-tools
+openlens_anderlli0053.json    anderlli0053/DEV-tools
 openlierox.json    anderlli0053/DEV-tools
 openmpt_anderlli0053.json    anderlli0053/DEV-tools
 openocd.json    anderlli0053/DEV-tools
@@ -11842,7 +11849,6 @@ oraclejdk8-np.json    anderlli0053/DEV-tools
 oraclejdk8p-np.json    anderlli0053/DEV-tools
 oraclejdk8p.json    anderlli0053/DEV-tools
 orange_anderlli0053.json    anderlli0053/DEV-tools
-oras_anderlli0053.json    anderlli0053/DEV-tools
 origin_anderlli0053.json    anderlli0053/DEV-tools
 oripa_anderlli0053.json    anderlli0053/DEV-tools
 orwell-dev-cpp-no-compiler_anderlli0053.json    anderlli0053/DEV-tools
@@ -15053,6 +15059,7 @@ hopp-cli_batkiz.json    batkiz/backit
 ungoogled-chromium-portable_batkiz.json    batkiz/backit
 buildkit_batkiz.json    batkiz/backit
 lychee_batkiz.json    batkiz/backit
+magpie_batkiz.json    batkiz/backit
 wayback_batkiz.json    batkiz/backit
 lite_batkiz.json    batkiz/backit
 dev-toys-cli_batkiz.json    batkiz/backit
@@ -15110,6 +15117,7 @@ ugrep_batkiz.json    batkiz/backit
 xq_batkiz.json    batkiz/backit
 rehex_batkiz.json    batkiz/backit
 dasel_batkiz.json    batkiz/backit
+kreya.json    batkiz/backit
 kotatogram_batkiz.json    batkiz/backit
 gosec_batkiz.json    batkiz/backit
 yu-writer_batkiz.json    batkiz/backit
