@@ -1780,6 +1780,7 @@ biblioteq.json    ScoopInstaller/Extras
 keepass-plugin-keepassnatmsg.json    ScoopInstaller/Extras
 ios-webkit-debug-proxy.json    ScoopInstaller/Extras
 googlechrome_ScoopInstaller.json    ScoopInstaller/Extras
+spotify-qt.json    ScoopInstaller/Extras
 fiji.json    ScoopInstaller/Extras
 quassel.json    ScoopInstaller/Extras
 codetrack.json    ScoopInstaller/Extras
@@ -2911,8 +2912,6 @@ lx-music.json    ivaquero/scoopet
 reader.json    ivaquero/scoopet
 vmware-workstation-pro.json    ivaquero/scoopet
 baidunetdisk_ivaquero.json    ivaquero/scoopet
-qttabbar.json    ivaquero/scoopet
-virtualbox-with-extension-pack.json    ivaquero/scoopet
 you-get.json    ivaquero/scoopet
 cnkiexpress.json    ivaquero/scoopet
 dingtalk_ivaquero.json    ivaquero/scoopet
@@ -4835,6 +4834,7 @@ wpd.json    hoilc/scoop-lemon
 blb2txt.json    hoilc/scoop-lemon
 biliup-rs.json    hoilc/scoop-lemon
 tockler.json    hoilc/scoop-lemon
+spring-boot-migrator.json    hoilc/scoop-lemon
 goss.json    hoilc/scoop-lemon
 benthos.json    hoilc/scoop-lemon
 foobox-cn.json    hoilc/scoop-lemon
@@ -7495,7 +7495,6 @@ Bootice_anderlli0053.json    anderlli0053/DEV-tools
 Boxcryptor_anderlli0053.json    anderlli0053/DEV-tools
 Brave-Portable_anderlli0053.json    anderlli0053/DEV-tools
 Brave-UserInstall_anderlli0053.json    anderlli0053/DEV-tools
-BraveNightly-Portable_anderlli0053.json    anderlli0053/DEV-tools
 BrickLinkStudio-Install_anderlli0053.json    anderlli0053/DEV-tools
 BrickLinkStudio-Portable_anderlli0053.json    anderlli0053/DEV-tools
 BrowserTamer-Portable_anderlli0053.json    anderlli0053/DEV-tools
@@ -9097,7 +9096,6 @@ baidunetdisk7-portable.json    anderlli0053/DEV-tools
 baidunetdisk7-zd423.json    anderlli0053/DEV-tools
 baidupcs-go_anderlli0053.json    anderlli0053/DEV-tools
 baimiao-portable.json    anderlli0053/DEV-tools
-balabolka_anderlli0053.json    anderlli0053/DEV-tools
 balcon_anderlli0053.json    anderlli0053/DEV-tools
 balena-cli.json    anderlli0053/DEV-tools
 balenaEtcher-Portable_anderlli0053.json    anderlli0053/DEV-tools
@@ -9525,7 +9523,6 @@ chromehistoryview_anderlli0053.json    anderlli0053/DEV-tools
 chromepass_anderlli0053.json    anderlli0053/DEV-tools
 chromium-chrupd.json    anderlli0053/DEV-tools
 chromium-dev-nosync_anderlli0053.json    anderlli0053/DEV-tools
-chromium-dev_anderlli0053.json    anderlli0053/DEV-tools
 chromium-portable.json    anderlli0053/DEV-tools
 chronograf.json    anderlli0053/DEV-tools
 cht.json    anderlli0053/DEV-tools
@@ -10416,7 +10413,6 @@ firefox-nightly-de.json    anderlli0053/DEV-tools
 firefox-nightly-fa.json    anderlli0053/DEV-tools
 firefox-nightly-portable.json    anderlli0053/DEV-tools
 firefox-nightly-zh-cn_anderlli0053.json    anderlli0053/DEV-tools
-firefox-nightly_anderlli0053.json    anderlli0053/DEV-tools
 firefox-portable-de.json    anderlli0053/DEV-tools
 firefox-portable-fa.json    anderlli0053/DEV-tools
 firefox-tete009-portable.json    anderlli0053/DEV-tools
@@ -10637,7 +10633,6 @@ gitext4_anderlli0053.json    anderlli0053/DEV-tools
 gitg.json    anderlli0053/DEV-tools
 github-desktop.json    anderlli0053/DEV-tools
 gitignore.json    anderlli0053/DEV-tools
-gitkraken_anderlli0053.json    anderlli0053/DEV-tools
 gitkube.json    anderlli0053/DEV-tools
 gitlab-runner.json    anderlli0053/DEV-tools
 gitnote-aoks.json    anderlli0053/DEV-tools
@@ -11426,7 +11421,6 @@ micronaut.json    anderlli0053/DEV-tools
 microsoft-edge-install.json    anderlli0053/DEV-tools
 microsoft-edge.json    anderlli0053/DEV-tools
 microsoft-error-lookup-tool_anderlli0053.json    anderlli0053/DEV-tools
-microsoft-powerapps-cli_anderlli0053.json    anderlli0053/DEV-tools
 microsoftedge-beta_anderlli0053.json    anderlli0053/DEV-tools
 microsoftedge-canary_anderlli0053.json    anderlli0053/DEV-tools
 microsoftedge-dev_anderlli0053.json    anderlli0053/DEV-tools
@@ -11800,7 +11794,6 @@ octosql.json    anderlli0053/DEV-tools
 odfe-cli_anderlli0053.json    anderlli0053/DEV-tools
 odiff_anderlli0053.json    anderlli0053/DEV-tools
 odin-dev_anderlli0053.json    anderlli0053/DEV-tools
-odin-nightly_anderlli0053.json    anderlli0053/DEV-tools
 odin_anderlli0053.json    anderlli0053/DEV-tools
 odo.json    anderlli0053/DEV-tools
 office-tool-full.json    anderlli0053/DEV-tools
@@ -13152,7 +13145,6 @@ roslynator_anderlli0053.json    anderlli0053/DEV-tools
 roswell.json    anderlli0053/DEV-tools
 royalts_anderlli0053.json    anderlli0053/DEV-tools
 rpcs3-dev.json    anderlli0053/DEV-tools
-rpcs3_anderlli0053.json    anderlli0053/DEV-tools
 rport-aoks.json    anderlli0053/DEV-tools
 rportcli-aoks.json    anderlli0053/DEV-tools
 rsync_anderlli0053.json    anderlli0053/DEV-tools
@@ -13541,7 +13533,7 @@ spline-cn_anderlli0053.json    anderlli0053/DEV-tools
 spline_anderlli0053.json    anderlli0053/DEV-tools
 spotbugs.json    anderlli0053/DEV-tools
 spotify-qt-nightly_anderlli0053.json    anderlli0053/DEV-tools
-spotify-qt.json    anderlli0053/DEV-tools
+spotify-qt_anderlli0053.json    anderlli0053/DEV-tools
 spotify-tui.json    anderlli0053/DEV-tools
 spotx-np_anderlli0053.json    anderlli0053/DEV-tools
 sq.json    anderlli0053/DEV-tools
@@ -13592,7 +13584,6 @@ stickies_anderlli0053.json    anderlli0053/DEV-tools
 stlink.json    anderlli0053/DEV-tools
 stoplight-prism.json    anderlli0053/DEV-tools
 story-writer_anderlli0053.json    anderlli0053/DEV-tools
-streamlabs-chatbot_anderlli0053.json    anderlli0053/DEV-tools
 streamlink-portable.json    anderlli0053/DEV-tools
 streamlink_anderlli0053.json    anderlli0053/DEV-tools
 streams.json    anderlli0053/DEV-tools
@@ -13827,7 +13818,6 @@ tor-browser-zh-cn_anderlli0053.json    anderlli0053/DEV-tools
 tor.json    anderlli0053/DEV-tools
 torpar.json    anderlli0053/DEV-tools
 tortoise-svn.json    anderlli0053/DEV-tools
-tortoisehg_anderlli0053.json    anderlli0053/DEV-tools
 totalcmd-mod.json    anderlli0053/DEV-tools
 totalcmd_anderlli0053.json    anderlli0053/DEV-tools
 totalcommander-chs.json    anderlli0053/DEV-tools
@@ -14156,8 +14146,6 @@ virgo_anderlli0053.json    anderlli0053/DEV-tools
 virtualbox-aoks.json    anderlli0053/DEV-tools
 virtualbox-extension-pack-aoks.json    anderlli0053/DEV-tools
 virtualbox-extension.json    anderlli0053/DEV-tools
-virtualbox-np_anderlli0053.json    anderlli0053/DEV-tools
-virtualbox-with-extension-pack-np_anderlli0053.json    anderlli0053/DEV-tools
 virtualbox.json    anderlli0053/DEV-tools
 virtualjaguar.json    anderlli0053/DEV-tools
 visual-boy-advance-m.json    anderlli0053/DEV-tools
@@ -14406,7 +14394,6 @@ xdm-dev.json    anderlli0053/DEV-tools
 xdown_anderlli0053.json    anderlli0053/DEV-tools
 xdt_anderlli0053.json    anderlli0053/DEV-tools
 xdtgen_anderlli0053.json    anderlli0053/DEV-tools
-xenia_anderlli0053.json    anderlli0053/DEV-tools
 xenos.json    anderlli0053/DEV-tools
 xformer.json    anderlli0053/DEV-tools
 xftp-portable.json    anderlli0053/DEV-tools
@@ -14516,10 +14503,7 @@ yubico-piv-tool.json    anderlli0053/DEV-tools
 yubikey-personalization.json    anderlli0053/DEV-tools
 yuque-portable.json    anderlli0053/DEV-tools
 yuque_anderlli0053.json    anderlli0053/DEV-tools
-yuzu-dev_anderlli0053.json    anderlli0053/DEV-tools
 yuzu-ea_anderlli0053.json    anderlli0053/DEV-tools
-yuzu-pineapple_anderlli0053.json    anderlli0053/DEV-tools
-yuzu_anderlli0053.json    anderlli0053/DEV-tools
 yxcalendar.json    anderlli0053/DEV-tools
 yxfile.json    anderlli0053/DEV-tools
 yy_anderlli0053.json    anderlli0053/DEV-tools
@@ -14888,7 +14872,7 @@ libav_AStupidBear.json    AStupidBear/scoop-bear
 aardio_AStupidBear.json    AStupidBear/scoop-bear
 miniconda3_AStupidBear.json    AStupidBear/scoop-bear
 autosub.json    AStupidBear/scoop-bear
-qttabbar_AStupidBear.json    AStupidBear/scoop-bear
+qttabbar.json    AStupidBear/scoop-bear
 bcompare.json    AStupidBear/scoop-bear
 navicat.json    AStupidBear/scoop-bear
 woodpecker.json    AStupidBear/scoop-bear
