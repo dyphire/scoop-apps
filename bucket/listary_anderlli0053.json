@@ -1,0 +1,22 @@
+{
+    "version": "6.0.10.28",
+    "description": "A revolutionary search utility.",
+    "homepage": "https://www.listary.com",
+    "license": "Shareware",
+    "url": "https://www.listary.com/download/Listary.exe?version=6.0.10.28#/dl.exe",
+    "hash": "b9aeec86cf11187817aca50804d423d2f61dd8049fb2bc2e1b0397f0c246c600",
+    "innosetup": true,
+    "shortcuts": [
+        [
+            "Listary.exe",
+            "Listary"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.listary.com/download",
+        "regex": "<h2>([\\d.]+) \\([\\d/]+\\)</h2>"
+    },
+    "autoupdate": {
+        "url": "https://www.listary.com/download/Listary.exe?version=$version#/dl.exe"
+    }
+}
