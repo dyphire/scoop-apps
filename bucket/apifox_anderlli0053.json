@@ -1,7 +1,7 @@
 {
     "architecture": {
         "64bit": {
-            "hash": "sha512:480a71016bdbe2196868683fcf258103109ec7523ddfef327bb15e8d1f267eee8c9a89d7220f8f9183b5b50cdffb99001c4c67a67e06a534e403e8e9df1ced6a",
+            "hash": "sha512:c2e33c3a4cc560fe20a83d35e64ea29aae76f210f1237d992baf9b030749dd84e03453417312adacfb7cf26f773a6cc4a5b6a63b398a4aef73783053dc8ab757",
             "installer": {
                 "script": "Start-Process -filepath \"$dir\\installer.exe\" -WorkingDirectory \"$dir\" -ArgumentList \"/S /D=$dir\" -Wait"
             },
@@ -21,7 +21,7 @@
                     "}"
                 ]
             },
-            "url": "http://cdn.apifox.cn/download/2.1.37/Apifox-2.1.37.exe#/installer.exe"
+            "url": "http://cdn.apifox.cn/download/2.1.39/Apifox-2.1.39.exe#/installer.exe"
         }
     },
     "autoupdate": {
@@ -53,5 +53,5 @@
             "Apifox"
         ]
     ],
-    "version": "2.1.37"
+    "version": "2.1.39"
 }
