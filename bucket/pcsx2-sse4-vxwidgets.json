@@ -1,5 +1,5 @@
 {
-    "version": "1.7.2484",
+    "version": "1.7.3421",
     "description": "Sony PlayStation 2 emulator",
     "homepage": "https://pcsx2.net/",
     "license": {
@@ -7,35 +7,19 @@
         "identifier": "GPL-3.0"
     },
     "architecture": {
-        "32bit": {
-            "url": "https://github.com/PCSX2/pcsx2/releases/download/v1.7.2484/pcsx2-v1.7.2484-windows-32bit-AVX2.7z",
-            "hash": "7b3f4cdef5ac057955552a9caf6ac5b02aa66f07f17f492061ae307f2dc4819c",
-            "bin": [
-                [
-                    "pcsx2-avx2.exe",
-                    "pcsx2-dev"
-                ]
-            ],
-            "shortcuts": [
-                [
-                    "pcsx2-avx2.exe",
-                    "PCSX2 (dev)"
-                ]
-            ]
-        },
         "64bit": {
-            "url": "https://github.com/PCSX2/pcsx2/releases/download/v1.7.2484/pcsx2-v1.7.2484-windows-64bit-AVX2.7z",
-            "hash": "3cf5c3f0438b302485d06f88084a62248077221b3b741080acc408513d18774d",
+            "url": "https://github.com/PCSX2/pcsx2/releases/download/v1.7.3421/pcsx2-v1.7.3421-windows-64bit-SSE4-wxWidgets.7z",
+            "hash": "eee0c2fadae05fc0739aef184276baaf04db4651383f829df323f74ae427cf26",
             "bin": [
                 [
-                    "pcsx2x64-avx2.exe",
-                    "pcsx2-dev"
+                    "pcsx2x64.exe",
+                    "pcsx2"
                 ]
             ],
             "shortcuts": [
                 [
-                    "pcsx2x64-avx2.exe",
-                    "PCSX2 (dev)"
+                    "pcsx2x64.exe",
+                    "PCSX2 (SSE4 wxWidgets)"
                 ]
             ]
         }
@@ -67,16 +51,17 @@
     ],
     "checkver": {
         "url": "https://github.com/PCSX2/pcsx2/releases.atom",
-        "regex": "v(?<basever>\\d+\\.\\d+)\\.(?<build>\\d+)",
-        "replace": "${basever}.${build}"
+        "script": [
+            "$xml = [xml]$page",
+            "$title = ($xml.feed.entry | Sort-Object -Descending { $_.updated })[0].title",
+            "Write-Output \"$title\""
+        ],
+        "regex": "v([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
-            "32bit": {
-                "url": "https://github.com/PCSX2/pcsx2/releases/download/v$version/pcsx2-v$version-windows-32bit-AVX2.7z"
-            },
             "64bit": {
-                "url": "https://github.com/PCSX2/pcsx2/releases/download/v$version/pcsx2-v$version-windows-64bit-AVX2.7z"
+                "url": "https://github.com/PCSX2/pcsx2/releases/download/v$version/pcsx2-v$version-windows-64bit-SSE4-wxWidgets.7z"
             }
         }
     },
