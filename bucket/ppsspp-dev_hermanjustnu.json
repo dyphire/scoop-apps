@@ -1,5 +1,5 @@
 {
-    "version": "1.13.2-1546-0719f1d4e",
+    "version": "1.13.2-1556-51c359c0c",
     "description": "Sony PlayStation Portable (PSP) emulator",
     "homepage": "https://www.ppsspp.org",
     "license": {
@@ -7,34 +7,34 @@
         "identifier": "GPL 2.0 or later"
     },
     "architecture": {
-        "32bit": {
-            "url": "https://buildbot.orphis.net/ppsspp/index.php?m=dl&rev=v1.13.2-1546-g0719f1d4e&platform=windows-x86#/dl.zip",
-            "hash": "09b6becfc605ad407344efbb48f7c14a19b0f5693bd2c02d22cd9d0192cd4e61",
+        "64bit": {
+            "url": "https://buildbot.orphis.net/ppsspp/index.php?m=dl&rev=v1.13.2-1556-g51c359c0c&platform=windows-amd64#/dl.zip",
+            "hash": "e76bd856ea0820c2086c86916952f22dbc997ecc047c4efd52681078e632a405",
             "bin": [
                 [
-                    "PPSSPPWindows.exe",
+                    "PPSSPPWindows64.exe",
                     "ppsspp-dev"
                 ]
             ],
             "shortcuts": [
                 [
-                    "PPSSPPWindows.exe",
+                    "PPSSPPWindows64.exe",
                     "PPSSPP (dev)"
                 ]
             ]
         },
-        "64bit": {
-            "url": "https://buildbot.orphis.net/ppsspp/index.php?m=dl&rev=v1.13.2-1546-g0719f1d4e&platform=windows-amd64#/dl.zip",
-            "hash": "642a6b821e927b3a64e9ff3e19ab6fe6d7020907bf16119b7f31e223db93868b",
+        "32bit": {
+            "url": "https://buildbot.orphis.net/ppsspp/index.php?m=dl&rev=v1.13.2-1556-g51c359c0c&platform=windows-x86#/dl.zip",
+            "hash": "f5a6072e4902fc7f5ce3b45e74ab598ab08632a618408875c7c29e0a5a5a9d05",
             "bin": [
                 [
-                    "PPSSPPWindows64.exe",
+                    "PPSSPPWindows.exe",
                     "ppsspp-dev"
                 ]
             ],
             "shortcuts": [
                 [
-                    "PPSSPPWindows64.exe",
+                    "PPSSPPWindows.exe",
                     "PPSSPP (dev)"
                 ]
             ]
@@ -59,11 +59,11 @@
     },
     "autoupdate": {
         "architecture": {
-            "32bit": {
-                "url": "https://buildbot.orphis.net/ppsspp/index.php?m=dl&rev=v$matchVersion-$matchBuild-g$matchCommit&platform=windows-x86#/dl.zip"
-            },
             "64bit": {
                 "url": "https://buildbot.orphis.net/ppsspp/index.php?m=dl&rev=v$matchVersion-$matchBuild-g$matchCommit&platform=windows-amd64#/dl.zip"
+            },
+            "32bit": {
+                "url": "https://buildbot.orphis.net/ppsspp/index.php?m=dl&rev=v$matchVersion-$matchBuild-g$matchCommit&platform=windows-x86#/dl.zip"
             }
         }
     }
