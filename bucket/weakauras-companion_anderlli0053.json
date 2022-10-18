@@ -1,0 +1,31 @@
+{
+    "version": "4.0.7",
+    "description": "Updates WeakAuras installed from Wago.",
+    "homepage": "https://weakauras.wtf/",
+    "license": "GPL-2.0-or-later",
+    "url": "https://github.com/WeakAuras/WeakAuras-Companion/releases/download/v4.0.7/WeakAuras-Companion-Setup-4.0.7.exe#/dl.7z",
+    "hash": "sha512:418561c3438558dcd03b8bc51981270f51d7f615bae69baf539ce7b892d91237b99ba6a11b882c7d907c269906cca19804f9c3def00773df7b5593767b0b0b57",
+    "extract_dir": "$PLUGINSDIR",
+    "installer": {
+        "script": [
+            "Remove-Item \"$dir\\*\" -Exclude 'app-64.7z'",
+            "Expand-7zipArchive \"$dir\\app-64.7z\" \"$dir\" -Removal"
+        ]
+    },
+    "shortcuts": [
+        [
+            "WeakAuras Companion.exe",
+            "WeakAuras Companion"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/WeakAuras/WeakAuras-Companion"
+    },
+    "autoupdate": {
+        "url": "https://github.com/WeakAuras/WeakAuras-Companion/releases/download/v$version/WeakAuras-Companion-Setup-$version.exe#/dl.7z",
+        "hash": {
+            "url": "$baseurl/latest.yml",
+            "find": "sha512:\\s+(.*)"
+        }
+    }
+}
