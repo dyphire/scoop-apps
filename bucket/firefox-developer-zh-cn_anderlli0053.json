@@ -1,12 +1,12 @@
 {
     "architecture": {
         "32bit": {
-            "hash": "sha512:25c2be86fbd7e379fad0140b4f9132d2ad11e50c208a39c446b406166981b07a87d9699ee77ffa8238f6ce5db8d0953642422434517437c39ba78b7d3999d053",
-            "url": "https://download-installer.cdn.mozilla.net/pub/devedition/releases/107.0b1/win32/zh-CN/Firefox%20Setup%20107.0b1.exe#/firefox-developer.7z"
+            "hash": "sha512:ce846732cb5416072dddfa2d323d4c331e3e8d73ed647dfb18a2905a34273d99a7de8b5a3ac066cd6dbb3518ed2ced0b808036682fd91d668a17d81d87d2c24f",
+            "url": "https://download-installer.cdn.mozilla.net/pub/devedition/releases/107.0b2/win32/zh-CN/Firefox%20Setup%20107.0b2.exe#/firefox-developer.7z"
         },
         "64bit": {
-            "hash": "sha512:03b3693266091937b8f16ccfd9c523061ba43a4905617f2ba67c33803d1111f379bf9fc84fbebf235e9fe2f63bee29635635a7f82f35a2af9291969381b4e434",
-            "url": "https://download-installer.cdn.mozilla.net/pub/devedition/releases/107.0b1/win64/zh-CN/Firefox%20Setup%20107.0b1.exe#/firefox-developer.7z"
+            "hash": "sha512:6d688e9c2bf17b6fcc2e9b536fab63f04a2de50f56d54c5895cf5049e1f07e6c40ce28724e3b9f8c334218fa550424d0e635aea3d73044cdae9d5233a746a1eb",
+            "url": "https://download-installer.cdn.mozilla.net/pub/devedition/releases/107.0b2/win64/zh-CN/Firefox%20Setup%20107.0b2.exe#/firefox-developer.7z"
         }
     },
     "autoupdate": {
@@ -50,5 +50,5 @@
             "Firefox Developer Edition"
         ]
     ],
-    "version": "107.0b1"
+    "version": "107.0b2"
 }
