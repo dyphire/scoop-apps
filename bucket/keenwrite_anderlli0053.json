@@ -1,0 +1,36 @@
+{
+    "version": "2.9.5",
+    "description": "Java-based desktop text editor with live preview, string interpolation, and formulas",
+    "homepage": "https://github.com/DaveJarvis/keenwrite",
+    "license": {
+        "identifier": "Unknown",
+        "url": "https://github.com/DaveJarvis/keenwrite/blob/master/LICENSE.md"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/DaveJarvis/keenwrite/releases/download/2.9.5/keenwrite.exe#/dl.7z",
+            "hash": "33a8c38cc4292e35af6021668a21e63b67539df342c6fde470d6a79f53b09575"
+        }
+    },
+    "pre_install": "Expand-7zipArchive \"$dir\\dl\" \"$dir\" -Removal",
+    "bin": [
+        [
+            "run.bat",
+            "keenwrite"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "run.bat",
+            "KeenWrite"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/DaveJarvis/keenwrite/releases/download/$version/keenwrite.exe#/dl.7z"
+            }
+        }
+    }
+}
