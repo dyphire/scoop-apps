@@ -1,0 +1,27 @@
+{
+    "version": "1.0.0",
+    "description": "JuiceFS is a distributed POSIX file system built on top of Redis and S3.",
+    "homepage": "https://github.com/juicedata/juicefs",
+    "license": "AGPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/juicedata/juicefs/releases/download/v1.0.0/juicefs-1.0.0-windows-amd64.tar.gz",
+            "hash": "406531e08ca3548f39cabd8e306ea88cac371b3d020a6391e2bdedc37e9bec76"
+        }
+    },
+    "bin": "juicefs.exe",
+    "checkver": {
+        "url": "https://github.com/juicedata/juicefs/releases",
+        "regex": "juicefs-([\\d.]+)-windows-amd64"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/juicedata/juicefs/releases/download/v$version/juicefs-$version-windows-amd64.tar.gz"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
