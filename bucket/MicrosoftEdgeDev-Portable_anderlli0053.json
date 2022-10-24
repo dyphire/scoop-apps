@@ -1,0 +1,50 @@
+{
+    "version": "108.0.1438.1",
+    "description": "Microsoft Edge Dev. The chromium based Microsoft Edge browser (Dev Channel)",
+    "homepage": "https://www.microsoftedgeinsider.com/en-us/welcome?channel=dev",
+    "license": "Freeware",
+    "changelog": "",
+    "architecture": {
+        "64bit": {
+            "url": "https://dorado-api.deno.dev/edge?arch=64&channel=dev&version=108.0.1438.1&dl#/MicrosoftEdge-108.0.1438.1-x64.7z",
+            "hash": "ba2ed39c3c8a0e13de230e61e469225a688bb433a0d38a456298f823f17971f2"
+        },
+        "32bit": {
+            "url": "https://dorado-api.deno.dev/edge?arch=86&channel=dev&version=108.0.1438.1&dl#/MicrosoftEdge-108.0.1438.1-x86.7z",
+            "hash": "57670f560d82cbe3884d77e2e85fb8e9ec6cc3d76c80c914810896228f7197ef"
+        }
+    },
+    "installer": {
+        "script": "Expand-7zipArchive -Path \"$dir\\MSEDGE.7z\" -ExtractDir \"Chrome-bin\\$version\" -Removal"
+    },
+    "shortcuts": [
+        [
+            "msedge.exe",
+            "Microsoft Edge Dev",
+            "--user-data-dir=\"$dir\\User Data\""
+        ]
+    ],
+    "persist": "User Data",
+    "checkver": {
+        "url": "https://dorado-api.deno.dev/edge?arch=64&channel=dev",
+        "jsonpath": "$.Version"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://dorado-api.deno.dev/edge?arch=64&channel=dev&version=$version&dl#/MicrosoftEdge-$version-x64.7z",
+                "hash": {
+                    "url": "https://dorado-api.deno.dev/edge?arch=64&channel=dev&version=$version",
+                    "jsonpath": "$.Hashes.Sha256"
+                }
+            },
+            "32bit": {
+                "url": "https://dorado-api.deno.dev/edge?arch=86&channel=dev&version=$version&dl#/MicrosoftEdge-$version-x86.7z",
+                "hash": {
+                    "url": "https://dorado-api.deno.dev/edge?arch=86&channel=dev&version=$version",
+                    "jsonpath": "$.Hashes.Sha256"
+                }
+            }
+        }
+    }
+}
