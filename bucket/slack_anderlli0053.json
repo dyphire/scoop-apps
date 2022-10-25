@@ -1,0 +1,44 @@
+{
+    "version": "4.28.184",
+    "description": "Collaboration software",
+    "homepage": "https://slack.com",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://slack.com/intl/en-nl/legal"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://downloads.slack-edge.com/releases/windows/4.28.184/prod/x64/slack-4.28.184-full.nupkg",
+            "hash": "sha1:f5f6af57bf0b07f55ab1b3741c66feb864dc2170"
+        },
+        "32bit": {
+            "url": "https://downloads.slack-edge.com/releases/windows/4.28.184/prod/ia32/slack-4.28.184-full.nupkg",
+            "hash": "sha1:28e453469d862ff2bb70a22b85f962b3ce0c655f"
+        }
+    },
+    "extract_dir": "lib\\net45",
+    "bin": "slack.exe",
+    "shortcuts": [
+        [
+            "slack.exe",
+            "Slack"
+        ]
+    ],
+    "checkver": {
+        "url": "https://slack.com/intl/en-cn/release-notes/windows",
+        "regex": "<h2>Slack ([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://downloads.slack-edge.com/releases/windows/$version/prod/x64/slack-$version-full.nupkg"
+            },
+            "32bit": {
+                "url": "https://downloads.slack-edge.com/releases/windows/$version/prod/ia32/slack-$version-full.nupkg"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/RELEASES"
+        }
+    }
+}
