@@ -1,0 +1,28 @@
+{
+    "version": "35.28.6",
+    "description": "aardio 编程语言，专注于桌面软件快速开发",
+    "homepage": "https://www.aardio.com/",
+    "license": "Freeware",
+    "url": "https://ide.update.aardio.com/releases/aardio.7z",
+    "hash": "bcc49cc796c102044d480ca4db6a821d826a4efa13fad8af2cbf2884594d9fd8",
+    "bin": "aardio.exe",
+    "shortcuts": [
+        [
+            "aardio.exe",
+            "aardio"
+        ]
+    ],
+    "persist": [
+        "config",
+        "download",
+        "project",
+        "codes\\我的代码段"
+    ],
+    "checkver": {
+        "url": "http://ide.update.aardio.com/check/",
+        "jsonpath": "$.version"
+    },
+    "autoupdate": {
+        "url": "https://ide.update.aardio.com/releases/aardio.7z"
+    }
+}
