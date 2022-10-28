@@ -1,10 +1,8 @@
 {
     "version": "0.4.3.61",
-    "description": "This tool can convert simplified Chinese to traditional Chinese in subtitle files, and can specify directories for batch conversion.",
+    "description": "A traditional-simplified subtitles conversion tool",
     "homepage": "https://github.com/xiaoxinpro/ChineseSubtitleConversionTool",
-    "license": {
-        "identifier": "GPL-3.0-or-later"
-    },
+    "license": "GPL-3.0-only",
     "url": "https://github.com/xiaoxinpro/ChineseSubtitleConversionTool/releases/download/V0.4.3.61/ChineseSubtitleConversionTool.zip",
     "hash": "d01ced100545b8c6743fc627a795842b4809655b58f5ab4c553cdd6f9929b187",
     "shortcuts": [
@@ -13,11 +11,7 @@
             "ChineseSubtitleConversionTool"
         ]
     ],
-    "checkver": {
-        "url": "https://api.github.com/repos/xiaoxinpro/ChineseSubtitleConversionTool/releases?per_page=1",
-        "jsonpath": "$[0].tag_name",
-        "regex": "V([\\d.]+)"
-    },
+    "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/xiaoxinpro/ChineseSubtitleConversionTool/releases/download/V$version/ChineseSubtitleConversionTool.zip"
     }
