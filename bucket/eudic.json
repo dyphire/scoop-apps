@@ -1,10 +1,18 @@
 {
-    "version": "13.1.0",
     "description": "权威的英语词典软件 英语学习者必备的工具",
     "homepage": "https://www.eudic.net/",
-    "license": "BSD-3-Clause",
-    "url": "https://static.frdic.com/pkg/eudic_win.zip",
-    "hash": "3ed7280bfcc98ba6628e72698f148e7680365f55ee2e7eb9eb1dccb0dfa4c3f2",
+    "version": "2022-10-25",
+    "license": "freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://static.frdic.com/pkg/eudic_win.zip",
+            "hash": "c60dbc235876991d0a3128bc66d1544bcd3e6dd02221b502000964b8d8d766b4"
+        },
+        "32bit": {
+            "url": "https://static.frdic.com/pkg/eudic_win32.zip",
+            "hash": "9168b5776c66e8e84664c5c61cd922bb22f2a30051b32a25c999b19289b80113"
+        }
+    },
     "installer": {
         "script": [
             "Expand-7ZipArchive \"$dir\\eudic_win.exe\" \"$dir\\\" -Removal",
@@ -19,5 +27,18 @@
             "Eudic"
         ]
     ],
-    "persist": "dic"
+    "checkver": {
+        "url": "https://www.eudic.net/v4/en/app/download",
+        "regex": "<a href=\"https://www.eudic.net/download/eudic_win.zip\\?v=([\\d-]+)\""
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://static.frdic.com/pkg/eudic_win.zip"
+            },
+            "32bit": {
+                "url": "https://static.frdic.com/pkg/eudic_win32.zip"
+            }
+        }
+    }
 }
