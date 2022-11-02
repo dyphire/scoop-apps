@@ -1,26 +1,38 @@
 {
     "version": "134",
-    "description": "Fan Control. A focused and highly customizable fan controlling software for Windows",
-    "homepage": "https://github.com/Rem0o/FanControl.Releases",
-    "license": "Unknown",
-    "changelog": "https://github.com/Rem0o/FanControl.Releases/releases",
-    "url": "https://github.com/Rem0o/FanControl.Releases/raw/V134/FanControl.zip",
-    "hash": "a858cfc1ba8d8f474838fbb5186c5a4e82bfd508ac84725c57c92d3347ffeb03",
-    "pre_install": "Test-Persistence ('userConfig.json') -Content '{}'",
+    "homepage": "https://getfancontrol.com/",
+    "description": "A highly customizable fan controlling software for the Windows OS.",
+    "license": "Freeware",
+    "suggest": {
+        ".NET Runtime": "extras/windowsdesktop-runtime-lts"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Rem0o/FanControl.Releases/releases/download/V134/FanControl_net6.zip",
+            "hash": "7CABB3DC1FC05C0985309D35780D83BB7134A05605018A22261F688250253A71"
+        }
+    },
+    "pre_install": "if (!(Test-Path \"$persist_dir\" -Include 'userConfig.json', 'CACHE')) {New-Item \"$dir\\userConfig.json\", \"$dir\\CACHE\" | Out-Null}",
+    "bin": "FanControl.exe",
     "shortcuts": [
         [
             "FanControl.exe",
-            "Fan Control"
+            "FanControl"
         ]
     ],
     "persist": [
-        "Plugins",
-        "userConfig.json"
+        "userConfig.json",
+        "CACHE",
+        "Plugins"
     ],
     "checkver": {
         "github": "https://github.com/Rem0o/FanControl.Releases"
     },
     "autoupdate": {
-        "url": "https://github.com/Rem0o/FanControl.Releases/raw/V$version/FanControl.zip"
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Rem0o/FanControl.Releases/releases/download/V$version/FanControl_net6.zip"
+            }
+        }
     }
 }
