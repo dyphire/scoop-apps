@@ -1,33 +1,32 @@
 {
-    "homepage": "https://brave.com/download-nightly/",
-    "version": "1.47.38",
-    "description": "Brave Nightly. Secure, Fast & Private Web Browser with Adblocker (nightly release)",
+    "homepage": "https://brave.com",
+    "version": "1.46.89",
+    "description": "Secure, Fast & Private Web Browser with Adblocker (beta release)",
     "license": {
         "identifier": "Freeware,BSD-3-Clause,GPL-3.0-only,...",
         "url": "https://github.com/brave/brave-browser/blob/master/LICENSE"
     },
-    "changelog": "",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/brave/brave-browser/releases/download/v1.47.38/brave-v1.47.38-win32-x64.zip",
-            "hash": "fb5052edfebed61ad03ec7cb9cdc0a73bfdf29b5cb933a737108186821974cac"
+            "url": "https://github.com/brave/brave-browser/releases/download/v1.46.89/brave-v1.46.89-win32-x64.zip",
+            "hash": "17ebb50115847b03f355f80f5279b892455040f9b2e4206a637fc1dde4228d97"
         }
     },
     "bin": [
         [
             "brave.exe",
-            "brave-nightly"
+            "brave-beta"
         ]
     ],
     "shortcuts": [
         [
             "brave.exe",
-            "Brave Nightly"
+            "Brave Beta"
         ]
     ],
     "checkver": {
         "url": "https://github.com/brave/brave-browser/releases",
-        "regex": "Nightly v([\\d.]+)"
+        "regex": "Beta v([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
