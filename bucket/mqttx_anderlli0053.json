@@ -1,0 +1,51 @@
+{
+    "version": "1.8.3",
+    "description": "MQTT 5.0 Desktop Client",
+    "homepage": "https://mqttx.app",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/emqx/MQTTX/releases/download/v1.8.3/MQTTX-Setup-1.8.3-x64.exe#/dl.7z",
+            "hash": "sha512:bc53d5a8185a7a65cc28f6b354a99abd85b5db2b5379cd3b24ed5cf35c549a2f646787e8c8466047d75d127d3bf92d7c6154623f3819107ca2fa0041ea86f6d3",
+            "pre_install": [
+                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+                "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Recurse"
+            ]
+        },
+        "32bit": {
+            "url": "https://github.com/emqx/MQTTX/releases/download/v1.8.3/MQTTX-Setup-1.8.3-ia32.exe#/dl.7z",
+            "hash": "sha512:3cbc4c70d1def6798f561377d3c3298f75f9db0626ec4eb28d6915119951db9052203ec7653c2abe6ef274725cfcc3f81adeebac34b513cbf44fcc99905d4209",
+            "pre_install": [
+                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\"",
+                "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Recurse"
+            ]
+        }
+    },
+    "shortcuts": [
+        [
+            "MQTTX.exe",
+            "MQTT X"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/emqx/MQTTX"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/emqx/MQTTX/releases/download/v$version/MQTTX-Setup-$version-x64.exe#/dl.7z",
+                "hash": {
+                    "url": "$baseurl/latest.yml",
+                    "regex": "(?sm)x64.*?sha512:\\s+$base64"
+                }
+            },
+            "32bit": {
+                "url": "https://github.com/emqx/MQTTX/releases/download/v$version/MQTTX-Setup-$version-ia32.exe#/dl.7z",
+                "hash": {
+                    "url": "$baseurl/latest.yml",
+                    "regex": "(?sm)ia32.*?sha512:\\s+$base64"
+                }
+            }
+        }
+    }
+}
