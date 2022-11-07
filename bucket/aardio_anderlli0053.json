@@ -1,0 +1,23 @@
+{
+    "homepage": "https://www.aardio.com/",
+    "description": "A Windows desktop rapid programming platform",
+    "version": "35.33.0",
+    "license": "freeware",
+    "url": "https://ide.update.aardio.com/releases/aardio.7z",
+    "hash": "1f57e94ea4c53852b8388bb0c44d8c615f37f1cbd9339c0fc21f24b2736ac704",
+    "bin": "aardio.exe",
+    "shortcuts": [
+        [
+            "aardio.exe",
+            "aardio"
+        ]
+    ],
+    "persist": "config\\USR.CFG",
+    "checkver": {
+        "url": "http://ide.update.aardio.com/check/",
+        "regex": "\"version\":\"([\\d.]+)\""
+    },
+    "autoupdate": {
+        "url": "https://ide.update.aardio.com/releases/aardio.7z"
+    }
+}
