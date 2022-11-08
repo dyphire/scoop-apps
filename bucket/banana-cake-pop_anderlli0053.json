@@ -1,0 +1,33 @@
+{
+    "version": "2.0.0",
+    "description": "GraphQL IDE",
+    "homepage": "https://chillicream.com/docs/bananacakepop",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://download.chillicream.com/bananacakepop/BananaCakePop-2.0.0-win-x64.exe#/dl.7z",
+            "hash": "51d7923a1ba021f88d0310a8563d4cead2558c3a08b759cc388fdb21b0bc6edf",
+            "pre_install": [
+                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" -DestinationPath \"$dir\"",
+                "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninst*\" -Recurse"
+            ]
+        }
+    },
+    "shortcuts": [
+        [
+            "Banana Cake Pop.exe",
+            "Banana Cake Pop"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/ChilliCream/hotchocolate/blob/main/website/src/docs/bananacakepop/install.md",
+        "regex": "BananaCakePop-([\\w.-]+)-win-x64\\.exe"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download.chillicream.com/bananacakepop/BananaCakePop-$version-win-x64.exe#/dl.7z"
+            }
+        }
+    }
+}
