@@ -1,44 +1,31 @@
 {
- "architecture": {
-  "32bit": {
-   "hash": "sha512:1a0feecf04dbed7d14592f9551e56a32340107b7cac37f50a905ceb9b6f5ca525cda941063859cca7849449789f2ddebcd09d8e93a34c0dcd8378509046db911",
-   "url": "https://github.com/bitwarden/desktop/releases/download/v1.22.2/bitwarden-1.22.2-ia32.nsis.7z"
-  },
-  "64bit": {
-   "hash": "sha512:0dcd0394fd7a53b10f9685d1c15cbd2a7a079ecabfbeb9154038468bdbb6b00d6aa44e4c6560f9d73a711f008534685da87a621abacd5032ae0d8654fe511f83",
-   "url": "https://github.com/bitwarden/desktop/releases/download/v1.22.2/bitwarden-1.22.2-x64.nsis.7z"
-  }
- },
  "autoupdate": {
-  "architecture": {
-   "32bit": {
-    "hash": {
-     "regex": "(?sm)ia32.*?$base64",
-     "url": "$baseurl/latest.yml"
-    },
-    "url": "https://github.com/bitwarden/desktop/releases/download/v$version/bitwarden-$version-ia32.nsis.7z"
-   },
-   "64bit": {
-    "hash": {
-     "regex": "(?sm)x64.*?$base64",
-     "url": "$baseurl/latest.yml"
-    },
-    "url": "https://github.com/bitwarden/desktop/releases/download/v$version/bitwarden-$version-x64.nsis.7z"
-   }
-  }
+  "url": "https://github.com/bitwarden/clients/releases/download/desktop-v$version/Bitwarden-Portable-$version.exe"
  },
  "bin": "Bitwarden.exe",
  "checkver": {
-  "github": "https://github.com/bitwarden/desktop"
+  "regex": "tag/desktop-v([\\d.]+)",
+  "url": "https://api.github.com/repos/bitwarden/clients/releases"
  },
  "description": "Password management solutions for individuals, teams, and business organizations",
+ "hash": "4c08bdeaf63e53fb566da628cceffddaa5afb4eca681f3bb4ab3d06a02f3a5a0",
  "homepage": "https://bitwarden.com",
  "license": "GPL-3.0-or-later",
+ "persist": "bitwarden-appdata",
+ "pre_install": [
+  "Rename-Item \"$dir\\Bitwarden-Portable-$version.exe\" 'Bitwarden.exe'",
+  "# copy config from non-portable version",
+  "if (!(Test-Path \"$dir\\bitwarden-appdata\\*\") -and (Test-Path \"$env:Appdata\\Bitwarden\")) {",
+  "    if (!(Test-Path \"$dir\\bitwarden-appdata\")) { New-Item \"$dir\\bitwarden-appdata\" -ItemType Directory | Out-Null }",
+  "    Copy-Item \"$env:Appdata\\Bitwarden\\*\" \"$dir\\bitwarden-appdata\\\" -Recurse -Force",
+  "}"
+ ],
  "shortcuts": [
   [
    "Bitwarden.exe",
    "Bitwarden"
   ]
  ],
- "version": "1.22.2"
+ "url": "https://github.com/bitwarden/clients/releases/download/desktop-v2022.10.1/Bitwarden-Portable-2022.10.1.exe",
+ "version": "2022.10.1"
 }

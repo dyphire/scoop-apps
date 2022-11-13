@@ -1,23 +1,23 @@
 {
-    "homepage": "https://www.aardio.com/",
-    "description": "A Windows desktop rapid programming platform",
-    "version": "35.36.1",
-    "license": "freeware",
-    "url": "https://ide.update.aardio.com/releases/aardio.7z",
-    "hash": "d94869123ba070c40a4f825871ef626faf9988f122f034634274dd1ca6c10bde",
+    "autoupdate": {
+        "url": "https://ide.update.aardio.com/releases/aardio.7z"
+    },
     "bin": "aardio.exe",
+    "checkver": {
+        "regex": "\"version\":\"([\\d.]+)\"",
+        "url": "http://ide.update.aardio.com/check/"
+    },
+    "description": "A Windows desktop rapid programming platform",
+    "hash": "9f5cc020b14935a1ee68d841c393a0d260cba5d03f9d0971528f7f9390b5fe50",
+    "homepage": "https://www.aardio.com/",
+    "license": "freeware",
+    "persist": "config\\USR.CFG",
     "shortcuts": [
         [
             "aardio.exe",
             "aardio"
         ]
     ],
-    "persist": "config\\USR.CFG",
-    "checkver": {
-        "url": "http://ide.update.aardio.com/check/",
-        "regex": "\"version\":\"([\\d.]+)\""
-    },
-    "autoupdate": {
-        "url": "https://ide.update.aardio.com/releases/aardio.7z"
-    }
+    "url": "https://ide.update.aardio.com/releases/aardio.7z",
+    "version": "35.36.3"
 }

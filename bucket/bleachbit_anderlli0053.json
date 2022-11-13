@@ -1,11 +1,9 @@
 {
  "autoupdate": {
-  "hash": {
-   "url": "$baseurl/bleachbit-$version-sha256sum.txt"
-  },
   "url": "https://download.bleachbit.org/BleachBit-$version-portable.zip"
  },
  "bin": [
+  "bleachbit_console.exe",
   [
    "bleachbit_console.exe",
    "bleachbit"
@@ -13,11 +11,12 @@
  ],
  "checkver": {
   "regex": "BleachBit ([\\d.]+)",
-  "url": "https://www.bleachbit.org/download/windows"
+  "url": "https://www.bleachbit.org/download/windows",
+  "useragent": "Scoop"
  },
  "description": "Disk space cleaner, privacy manager, and computer system optimizer.",
  "extract_dir": "BleachBit-portable",
- "hash": "1d27d3828e258981ddabeb3a2427983d3deb2efb8d9c4c7369d2610d6d55b305",
+ "hash": "3cc1fb7edf92e90330e833b1abe6148762aea61b6d712aa1c764018dd8c70e32",
  "homepage": "https://www.bleachbit.org/",
  "license": "GPL-3.0-or-later",
  "persist": [
@@ -30,6 +29,6 @@
    "BleachBit"
   ]
  ],
- "url": "https://download.bleachbit.org/BleachBit-4.0.0-portable.zip",
- "version": "4.0.0"
+ "url": "https://download.bleachbit.org/BleachBit-4.4.2-portable.zip",
+ "version": "4.4.2"
 }
