@@ -1,36 +1,26 @@
 {
- "architecture": {
-  "32bit": {
-   "pre_install": [
-    "Rename-Item \"$dir\\sed-$version-xp.exe\" sed.exe",
-    "Remove-Item \"$dir\\sed-$version-x64.exe\""
-   ]
-  },
-  "64bit": {
-   "pre_install": [
-    "Rename-Item \"$dir\\sed-$version-x64.exe\" sed.exe",
-    "Remove-Item \"$dir\\sed-$version-xp.exe\""
-   ]
-  }
- },
- "autoupdate": {
-  "hash": {
-   "regex": "$sha256.*?$basename",
-   "url": "https://community.chocolatey.org/packages/sed"
-  },
-  "url": "https://packages.chocolatey.org/sed.$version.nupkg"
- },
- "bin": "sed.exe",
- "checkver": {
-  "regex": "GNU sed ([\\d.]+)</title>",
-  "url": "https://community.chocolatey.org/packages/sed"
- },
- "description": "sed (stream editor) is a non-interactive command-line text editor",
- "extract_dir": "tools\\install\\sed-windows-master",
- "hash": "ee430b5edc827e1368cf424fb888e997fc05d24e7e90373b8e9c6811a26eec80",
- "homepage": "https://www.gnu.org/software/sed",
- "license": "GPL-3.0-or-later",
- "post_install": "Remove-Item \"$dir\\tools\" -Recurse",
- "url": "https://packages.chocolatey.org/sed.4.8.nupkg",
- "version": "4.8"
+    "homepage": "https://www.gnu.org/software/sed/",
+    "version": "4.4",
+    "license": "GNU General Public License",
+    "architecture": {
+        "64bit": {
+            "url": [
+                "http://repo.msys2.org/msys/x86_64/gcc-libs-6.4.0-3-x86_64.pkg.tar.xz",
+                "http://repo.msys2.org/msys/x86_64/libiconv-1.14-2-x86_64.pkg.tar.xz",
+                "http://repo.msys2.org/msys/x86_64/libintl-0.19.8.1-1-x86_64.pkg.tar.xz",
+                "http://repo.msys2.org/msys/x86_64/msys2-runtime-2.9.0-2-x86_64.pkg.tar.xz",
+                "http://repo.msys2.org/msys/x86_64/sed-4.4-2-x86_64.pkg.tar.xz"
+            ],
+            "hash": [
+                "14f6f42e85fe15a9ddc4535cc536e5122bc6b49630066c357a7c941f150a2cc2",
+                "de1a5b4974b10ddcf35389c9ede615ed4ab93f86854e7355e66d1f39723ca3c8",
+                "5eadc3cc42da78948d65d994f1f8326706afe011f28e2e5bd0872a37612072d2",
+                "a3b8c0f46d9ba40830a868a8aa3b3951eae4ef9fdb9a679d857432ab18819d19",
+                "46dbccaee1d40523d6a38db7b61d482b57b819ade359b2864120d2eb00ed18b5"
+            ]
+        }
+    },
+    "depends": "bash",
+    "bin": "usr/bin/sed.exe",
+    "pre_install": [ "mkdir $dir/tmp", "mkdir $dir/home", "cmd /c mklink /j $dir\\home\\%USERNAME% %USERPROFILE%" ]
 }

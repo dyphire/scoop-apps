@@ -1,35 +1,22 @@
 {
- "architecture": {
-  "64bit": {
-   "hash": "50b7bddbceda793098f2fed3a249fb02911f4a46c5d9a2e6c77079fa7e40b2ad",
-   "url": "https://nuwen.net/files/mingw/components-18.0.7z"
-  }
- },
- "autoupdate": {
-  "architecture": {
-   "64bit": {
-    "url": "https://nuwen.net/files/mingw/components-$matchComponents.7z"
-   }
-  },
-  "extract_dir": "components-$matchComponents"
- },
- "checkver": {
-  "regex": "(?sm)>GCC ([\\d.]+)</a>.*?components-(?<components>[\\d.]+).7z",
-  "url": "https://nuwen.net/mingw.html"
- },
- "description": "GNU Compiler Collection and binutils",
- "env_add_path": "bin",
- "env_set": {
-  "CPLUS_INCLUDE_PATH": "$dir\\include",
-  "C_INCLUDE_PATH": "$dir\\include"
- },
- "extract_dir": "components-18.0",
- "homepage": "https://www.gnu.org/software/gcc/",
- "license": "GPL-3.0-or-later",
- "pre_install": [
-  "Expand-7ZipArchive \"$dir\\binutils-*.7z\" \"$dir\"",
-  "Expand-7ZipArchive \"$dir\\mingw-w64+gcc.7z\" \"$dir\"",
-  "Get-ChildItem \"$dir\\*.7z\" | Remove-Item -Recurse -Force"
- ],
- "version": "11.2.0"
+    "homepage": "https://mingw-w64.org",
+    "version": "8.1.0",
+    "license": "GPL-3.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://downloads.sourceforge.net/project/mingw-w64/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/8.1.0/threads-posix/seh/x86_64-8.1.0-release-posix-seh-rt_v6-rev0.7z",
+            "hash": "853970527B5DE4A55EC8CA4D3FD732C00AE1C69974CC930C82604396D43E79F8",
+            "extract_dir": "mingw64"
+        },
+        "32bit": {
+            "url": "https://downloads.sourceforge.net/project/mingw-w64/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/8.1.0/threads-posix/dwarf/i686-8.1.0-release-posix-dwarf-rt_v6-rev0.7z",
+            "hash": "ADB84B70094C0225DD30187FF995E311D19424B1EB8F60934C60E4903297F946",
+            "extract_dir": "mingw32"
+        }
+    },
+    "env_add_path": "bin",
+    "notes": [
+        "The 64-bit version is built with Structured Exception Handling (SEH), whereas the 32-bit version is built with DWARF.",
+        "Both 64-bit and 32-bit versions use the POSIX threading model."
+    ]
 }

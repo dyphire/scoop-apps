@@ -1,39 +1,32 @@
 {
- "architecture": {
-  "32bit": {
-   "bin": "strings.exe"
-  },
-  "64bit": {
-   "bin": [
-    [
-     "strings64.exe",
-     "strings"
-    ]
-   ]
-  },
-  "arm64": {
-   "bin": [
-    [
-     "strings64a.exe",
-     "strings"
-    ]
-   ]
-  }
- },
- "autoupdate": {
-  "url": "https://download.sysinternals.com/files/Strings.zip"
- },
- "checkver": {
-  "regex": "#.*?v([\\d.]+)",
-  "url": "https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/strings.md"
- },
- "description": "Search for ANSI and UNICODE strings in binary images.",
- "hash": "b1a0a3dc5f639af1c98ae5832676727646eb3d543640e65e310dff747e733a25",
- "homepage": "https://learn.microsoft.com/sysinternals/downloads/strings",
- "license": {
-  "identifier": "Freeware",
-  "url": "https://learn.microsoft.com/sysinternals/license-terms"
- },
- "url": "https://download.sysinternals.com/files/Strings.zip",
- "version": "2.54"
+    "homepage": "https://docs.microsoft.com/en-us/sysinternals/",
+    "description": "Search for ANSI and UNICODE strings in binary images.",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://docs.microsoft.com/en-us/sysinternals/license-terms"
+    },
+    "version": "2.53",
+    "url": "https://download.sysinternals.com/files/Strings.zip",
+    "hash": "515054da37cbac23e7b90c43aadf874eacb20ba225e57c701dc9b291207249b4",
+    "checkver": {
+        "url": "https://docs.microsoft.com/en-us/sysinternals/downloads/strings",
+        "re": "Strings\\s(?:v|V)?([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://download.sysinternals.com/files/Strings.zip"
+    },
+    "architecture": {
+        "32bit": {
+            "bin": "strings.exe"
+        },
+        "64bit": {
+            "bin": [
+                [
+                    "strings64.exe",
+                    "strings"
+                ],
+                "strings64.exe"
+            ]
+        }
+    }
 }

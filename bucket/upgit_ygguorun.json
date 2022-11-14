@@ -1,0 +1,33 @@
+{
+    "version": "0.2.17",
+    "description": "Another Typora image uploader.",
+    "homepage": "https://github.com/pluveto/upgit",
+    "license": "MIT License",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/pluveto/upgit/releases/download/v0.2.17/upgit_win_amd64.exe#/upgit.exe",
+            "hash": "e5e4d9cc71ea390ce4622b969831fe10ec2ae1bfd9f8c6a6d74d9282a0e988b4"
+        },
+        "32bit": {
+            "url": "https://github.com/pluveto/upgit/releases/download/v0.2.17/upgit_win_386.exe#/upgit.exe",
+            "hash": "5e806414d7973eb235cca2ed7410d27cd55795fde4021983472963243ea1976c"
+        }
+    },
+    "pre_install": [
+        "#Create placeholder files",
+        "Invoke-WebRequest -Uri \"https://raw.githubusercontent.com/pluveto/upgit/main/config.sample.toml\" -OutFile $original_dir\\config.toml"
+    ],
+    "bin": "upgit.exe",
+    "persist": "config.toml",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/pluveto/upgit/releases/download/v$version/upgit_win_amd64.exe#/upgit.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/pluveto/upgit/releases/download/v$version/upgit_win_386.exe#/upgit.exe"
+            }
+        }
+    }
+}

@@ -1,38 +1,26 @@
 {
- "architecture": {
-  "64bit": {
-   "hash": "c6b4ff66542a534e2b6840835a374d09b3e9f29a3c35de95dbe04fc97b955565",
-   "url": "https://github.com/Rem0o/FanControl.Releases/releases/download/V136/FanControl_net6.zip"
-  }
- },
- "autoupdate": {
-  "architecture": {
-   "64bit": {
-    "url": "https://github.com/Rem0o/FanControl.Releases/releases/download/V$version/FanControl_net6.zip"
-   }
-  }
- },
- "bin": "FanControl.exe",
- "checkver": {
-  "github": "https://github.com/Rem0o/FanControl.Releases"
- },
- "description": "A highly customizable fan controlling software for the Windows OS.",
- "homepage": "https://getfancontrol.com/",
- "license": "Freeware",
- "persist": [
-  "userConfig.json",
-  "CACHE",
-  "Plugins"
- ],
- "pre_install": "if (!(Test-Path \"$persist_dir\" -Include 'userConfig.json', 'CACHE')) {New-Item \"$dir\\userConfig.json\", \"$dir\\CACHE\" | Out-Null}",
- "shortcuts": [
-  [
-   "FanControl.exe",
-   "FanControl"
-  ]
- ],
- "suggest": {
-  ".NET Runtime": "extras/windowsdesktop-runtime-lts"
- },
- "version": "136"
+    "version": "136",
+    "description": "Fan Control. A focused and highly customizable fan controlling software for Windows",
+    "homepage": "https://github.com/Rem0o/FanControl.Releases",
+    "license": "Unknown",
+    "changelog": "https://github.com/Rem0o/FanControl.Releases/releases",
+    "url": "https://github.com/Rem0o/FanControl.Releases/raw/V136/FanControl.zip",
+    "hash": "aa35887f518d9c1547d447e80581db324c21d71afaafb193db95e12ca4105647",
+    "pre_install": "Test-Persistence ('userConfig.json') -Content '{}'",
+    "shortcuts": [
+        [
+            "FanControl.exe",
+            "Fan Control"
+        ]
+    ],
+    "persist": [
+        "Plugins",
+        "userConfig.json"
+    ],
+    "checkver": {
+        "github": "https://github.com/Rem0o/FanControl.Releases"
+    },
+    "autoupdate": {
+        "url": "https://github.com/Rem0o/FanControl.Releases/raw/V$version/FanControl.zip"
+    }
 }

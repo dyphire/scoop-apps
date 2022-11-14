@@ -1,31 +1,14 @@
 {
- "architecture": {
-  "64bit": {
-   "hash": "ecbca7745c12fd178035a306f8e92a21795758f39ba91934e4688156eba05187",
-   "url": "https://github.com/facebook/watchman/releases/download/v2022.11.07.00/watchman-v2022.11.07.00-windows.zip"
-  }
- },
- "autoupdate": {
-  "architecture": {
-   "64bit": {
-    "url": "https://github.com/facebook/watchman/releases/download/v$version/watchman-v$version-windows.zip"
-   }
-  },
-  "extract_dir": "watchman-v$version-windows\\bin"
- },
- "bin": [
-  "watchman-make.exe",
-  "watchman-replicate-subscription.exe",
-  "watchman-wait.exe",
-  "watchman.exe"
- ],
- "checkver": {
-  "github": "https://github.com/facebook/watchman"
- },
- "description": "A file watching service by Facebook",
- "extract_dir": "watchman-v2022.11.07.00-windows\\bin",
- "homepage": "https://facebook.github.io/watchman/",
- "license": "MIT",
- "post_install": "Remove-Item -Path $dir\\watchman-v$version-windows -Recurse -ErrorAction Ignore",
- "version": "2022.11.07.00"
+    "homepage": "https://facebook.github.io/watchman/",
+    "version": "4.9.4",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "http://r.windows.random.supplies/watchman-4.9.4.zip",
+            "hash": "8e056950ccdca555289108bb72bdbbe40f6517eb77be4e3f9aaebccdea6792ce",
+            "bin": [
+                "watchman.exe"
+            ]
+        }
+    }
 }
