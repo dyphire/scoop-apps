@@ -1,0 +1,45 @@
+{
+    "version": "6.5",
+    "description": "一款AI智能创新摸鱼神器",
+    "homepage": "https://thief.im/",
+    "architecture": {
+        "64bit": {
+            "url": "https://assets.5a8.org/thief/download/thief-pro-6.5-win64.zip",
+            "hash": "2da4d008edd68d570d26f2bbc8a0b2c46e03b5c4a21a25f0b47acf239e3c78cc"
+        },
+        "32bit": {
+            "url": "https://assets.5a8.org/thief/download/thief-pro-6.5-win32.zip",
+            "hash": "15a3d1dc4c237a5e2eef226d70e8fd0462d216f14e0459e381b4fca3e90028ab"
+        }
+    },
+    "extract_dir": "thief",
+    "bin": [
+        [
+            "thief.exe",
+            "thief"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "thief.exe",
+            "Thief Pro"
+        ]
+    ],
+    "checkver": {
+        "url": "https://thief.im/",
+        "regex": "版本号：v(\\d\\.\\d)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://assets.5a8.org/thief/download/thief-pro-$version-win64.zip"
+            },
+            "32bit": {
+                "url": "https://assets.5a8.org/thief/download/thief-pro-$version-win32.zip"
+            },
+            "hash": {
+                "mode": "download"
+            }
+        }
+    }
+}

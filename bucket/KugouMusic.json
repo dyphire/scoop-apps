@@ -1,0 +1,55 @@
+{
+    "version": "10.1.12",
+    "description": "Hello, KuGou!",
+    "homepage": "https://www.kugou.com/",
+    "license": "Unknown",
+    "url": "http://download.kugou.com/download/kugou_pc#/dl.7z",
+    "hash": "3bef1084f9c49b713e7b9163e3e2106eae55bf42787d998c8297e33864d24b3a",
+    "installer": {
+        "script": [
+            "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\KuGou.7z\" \"$dir\"",
+            "Remove-Item -Recurse -Force \"$dir\\`$PLUGINSDIR\"",
+            "New-Item -ItemType Junction -Path \"$dir\\$([System.Diagnostics.FileVersionInfo]::GetVersionInfo(\"$dir\\KuGou.exe\").FileVersion)\" -Target \"$dir\"",
+            "$runtimeCache = \"$env:APPDATA\\KuGou8\"",
+            "$runtimeCachePersist = \"$persist_dir\\data\"",
+            "if (Test-Path $runtimeCachePersist) {",
+            "    Remove-Item $runtimeCache -Force -Recurse -ErrorAction SilentlyContinue",
+            "    New-Item -Type Junction -Path $runtimeCache -Target $runtimeCachePersist | Out-Null",
+            "} else {",
+            "    if (Test-Path $runtimeCache) {",
+            "        Move-Item $runtimeCache $runtimeCachePersist -Force",
+            "        New-Item -Type Junction -Path $runtimeCache -Target $runtimeCachePersist | Out-Null",
+            "    }",
+            "}"
+        ]
+    },
+    "uninstaller": {
+        "script": [
+            "$runtimeCache = \"$env:APPDATA\\KuGou8\"",
+            "$runtimeCachePersist = \"$persist_dir\\data\"",
+            "if (!(Test-Path $runtimeCachePersist)) {",
+            "    Move-Item $runtimeCache $runtimeCachePersist -Force",
+            "} else {",
+            "    Remove-Item $runtimeCache -Force -Recurse -ErrorAction SilentlyContinue",
+            "}"
+        ]
+    },
+    "shortcuts": [
+        [
+            "KuGou.exe",
+            "酷狗音乐"
+        ]
+    ],
+    "bin": "KuGou.exe",
+    "persist": "data",
+    "checkver": {
+        "url": "https://download.kugou.com/",
+        "regex": "V (\\d+(\\.\\d+)+)"
+    },
+    "autoupdate": {
+        "url": "http://download.kugou.com/download/kugou_pc#/dl.7z",
+        "hash": {
+            "mode": "download"
+        }
+    }
+}
