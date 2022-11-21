@@ -1,0 +1,31 @@
+{
+    "version": "2.5.0",
+    "description": "CLI for InfluxDB 2.1+",
+    "homepage": "https://www.influxdata.com/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://dl.influxdata.com/influxdb/releases/influxdb2-client-2.5.0-windows-amd64.zip",
+            "hash": "9bf33234cb28b7ff147734e5450b4af286209a3db789fd625a9ccb8da6852987",
+            "extract_dir": "influxdb2-client-2.5.0-windows-amd64"
+        }
+    },
+    "bin": "influx.exe",
+    "checkver": {
+        "url": "https://portal.influxdata.com/versions.json",
+        "jsonpath": "$.influxdb2_cloud_cli.version",
+        "regex": "([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://dl.influxdata.com/influxdb/releases/influxdb2-client-$version-windows-amd64.zip",
+                "hash": {
+                    "url": "https://portal.influxdata.com/versions.json",
+                    "jsonpath": "$.influxdb2_cloud_cli.downloads[?(@.platform =~ /^Windows/)].sha256"
+                },
+                "extract_dir": "influxdb2-client-$version-windows-amd64"
+            }
+        }
+    }
+}

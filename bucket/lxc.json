@@ -1,0 +1,29 @@
+{
+    "version": "5.8",
+    "description": "LXD client",
+    "homepage": "https://linuxcontainers.org/lxd",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://packages.chocolatey.org/lxc.5.8.nupkg",
+            "hash": "a1ce3b6033028f40b063e58bd2aaa8e0c20e94342a4feddbec50ef42396c4100"
+        }
+    },
+    "extract_dir": "tools",
+    "bin": "lxc.exe",
+    "checkver": {
+        "url": "https://community.chocolatey.org/packages/lxc",
+        "regex": "LXD client ([\\d.]+)</title>"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://packages.chocolatey.org/lxc.$version.nupkg",
+                "hash": {
+                    "url": "https://community.chocolatey.org/packages/lxc",
+                    "regex": "$sha256.*?$basename"
+                }
+            }
+        }
+    }
+}
