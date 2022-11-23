@@ -1,11 +1,11 @@
 {
-    "version": "0.3.61",
+    "version": "0.3.75",
     "description": "A better git add -p",
     "homepage": "https://github.com/terrajobst/git-istage",
     "license": "MIT",
     "depends": "dotnet-sdk",
-    "url": "https://www.nuget.org/api/v2/package/git-istage/0.3.61",
-    "hash": "13cf322ac02db6571c836f39afaf28ecfdb61fb0efbf93f9ae125c6bf5388321",
+    "url": "https://www.nuget.org/api/v2/package/git-istage/0.3.75",
+    "hash": "a6cd22bab3560db29c5599e35b4906942a12befd625fa0f719118e464b317234",
     "installer": {
         "script": [
             "Move-Item \"$dir\\$version\" \"$dir\\git-istage.$version.nupkg\"",
