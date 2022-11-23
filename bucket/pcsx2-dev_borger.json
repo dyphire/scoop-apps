@@ -1,5 +1,5 @@
 {
-    "version": "1.7.3609",
+    "version": "1.7.3613",
     "description": "Sony PlayStation 2 emulator",
     "homepage": "https://pcsx2.net/",
     "license": {
@@ -14,8 +14,8 @@
     "suggest": {
         "Microsoft Visual C++ Runtime 2022": "extras/vcredist2022"
     },
-    "url": "https://github.com/PCSX2/pcsx2/releases/download/v1.7.3609/pcsx2-v1.7.3609-windows-64bit-AVX2-Qt.7z",
-    "hash": "eb9048479fab871117e30cbd8fcc5fc03d465322c98a52f57f39321da74769f0",
+    "url": "https://github.com/PCSX2/pcsx2/releases/download/v1.7.3613/pcsx2-v1.7.3613-windows-64bit-AVX2-Qt.7z",
+    "hash": "c416b65d4c9079def4d7e005cef939620019ccdab40104081d96f5a493d58321",
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\")) {",
         "   New-item \"$persist_dir\" -ItemType Directory | Out-Null",
@@ -44,11 +44,13 @@
     ],
     "persist": [
         "bios",
+        "cache",
         "cheats_ws",
         "cheats",
         "covers",
         "gamesettings",
         "inis",
+        "inputprofiles",
         "logs",
         "memcards",
         "portable.ini",
