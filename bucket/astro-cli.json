@@ -1,5 +1,5 @@
 {
-    "version": "1.7.0",
+    "version": "1.8.1",
     "description": "Astronomer's open source CLI is the easy way to run Apache Airflow on your machine.",
     "homepage": "https://docs.astronomer.io/software/cli-quickstart",
     "license": {
@@ -8,16 +8,16 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/astronomer/astro-cli/releases/download/v1.7.0/astro_1.7.0_windows_amd64.exe#/astro.exe",
-            "hash": "4074033df3b279182c99602cdeb094d4f835ad63fe5fe6d0e94edb2df9b38b0b"
+            "url": "https://github.com/astronomer/astro-cli/releases/download/v1.8.1/astro_1.8.1_windows_amd64.exe#/astro.exe",
+            "hash": "048abcb9e4daad7ef775f1adc5e059d0d461671bd1cdd868909981dd3799b363"
         },
         "32bit": {
-            "url": "https://github.com/astronomer/astro-cli/releases/download/v1.7.0/astro_1.7.0_windows_386.exe#/astro.exe",
-            "hash": "e04ee9d0c6af6384712855a9b2f11eec4265ef5597217d46d5ba48dbea6944b0"
+            "url": "https://github.com/astronomer/astro-cli/releases/download/v1.8.1/astro_1.8.1_windows_386.exe#/astro.exe",
+            "hash": "51568d96113f36602b2e1c6a39a83aab36510def98fd29bd09f95d0e8cf3a60d"
         },
         "arm64": {
-            "url": "https://github.com/astronomer/astro-cli/releases/download/v1.7.0/astro_1.7.0_windows_arm64.exe#/astro.exe",
-            "hash": "f3724bdf6aa2c40783c0449eca64f798ffc7e650d31bad32daef1490005ecf8c"
+            "url": "https://github.com/astronomer/astro-cli/releases/download/v1.8.1/astro_1.8.1_windows_arm64.exe#/astro.exe",
+            "hash": "279531a4c4dd414ef0d78bb3e18432b7e1a9b0efcbb9ddee58c831d78cdac540"
         }
     },
     "bin": "astro.exe",
