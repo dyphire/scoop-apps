@@ -77,6 +77,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - ygguorun/scoop-bucket
 - littleli/Scoop-littleli
 - jfut/scoop-jfut
+- ChinLong/scoop-customize
 - Velgus/Scoop-Portapps
 - alextwothousand/scoop-bucket
 - akirco/aki-apps
@@ -84,4 +85,3 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - duzyn/scoop-cn
 - Weidows-projects/scoop-3rd
 - seumsc/scoop-seu
-- ChinLong/scoop-customize
