@@ -1,5 +1,5 @@
 {
-    "version": "110.0.1529.0",
+    "version": "108.0.1462.35",
     "description": "Close the loop on your developer cycle by automating testing of your website in Microsoft Edge (Chromium).",
     "homepage": "https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver",
     "license": {
@@ -9,17 +9,21 @@
     "notes": "For legacy (EdgeHTML) version, see 'versions/edgedriver-legacy'.",
     "architecture": {
         "64bit": {
-            "url": "https://msedgedriver.azureedge.net/110.0.1529.0/edgedriver_win64.zip",
-            "hash": "20f9da15b3e6db22d73ebf30e86a571b60528e417d2559b72c90672a12625c0f"
+            "url": "https://msedgedriver.azureedge.net/108.0.1462.35/edgedriver_win64.zip",
+            "hash": "5d013acab9e0c89c8b29d1b46b54419175911091b7ffe62f4de0c175295ecde6"
         },
         "32bit": {
-            "url": "https://msedgedriver.azureedge.net/110.0.1529.0/edgedriver_win32.zip",
-            "hash": "5ebf4bcf5370ce1e5267bb17ab65a7cb03198184ec2a2a954a9b31d4383b346c"
+            "url": "https://msedgedriver.azureedge.net/108.0.1462.35/edgedriver_win32.zip",
+            "hash": "b7193de7e6eaec686aca3238acaee9a43eeae72291f10aa6ee8cddca6159871f"
+        },
+        "arm64": {
+            "url": "https://msedgedriver.azureedge.net/108.0.1462.35/edgedriver_arm64.zip",
+            "hash": "aef33282d50801fb25b91bcebfa9842a5c22476de0dd5d1ad973579ed4b94a3d"
         }
     },
     "bin": "msedgedriver.exe",
     "checkver": {
-        "script": "Write-Output $([System.Text.Encoding]::Unicode.GetString((Invoke-WebRequest -URI https://msedgedriver.azureedge.net/LATEST_CANARY).Content))",
+        "script": "Write-Output $([System.Text.Encoding]::Unicode.GetString((Invoke-WebRequest -URI https://msedgedriver.azureedge.net/LATEST_BETA).Content))",
         "regex": "([\\d.]+)"
     },
     "autoupdate": {
@@ -29,6 +33,9 @@
             },
             "32bit": {
                 "url": "https://msedgedriver.azureedge.net/$version/edgedriver_win32.zip"
+            },
+            "arm64": {
+                "url": "https://msedgedriver.azureedge.net/$version/edgedriver_arm64.zip"
             }
         }
     }

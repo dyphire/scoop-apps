@@ -1,0 +1,49 @@
+{
+    "version": "19.1.0",
+    "description": "An asynchronous event driven JavaScript runtime designed to build scalable network applications.",
+    "homepage": "https://nodejs.org",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://npm.taobao.org/mirrors/node/v19.1.0/node-v19.1.0-win-x64.7z",
+            "hash": "b8554d888e42ddba78528806fea9190fa0bf7524bf548d11f1fa8e214307a003",
+            "extract_dir": "node-v19.1.0-win-x64"
+        },
+        "32bit": {
+            "url": "https://npm.taobao.org/mirrors/node/v19.1.0/node-v19.1.0-win-x86.7z",
+            "hash": "bc8a0a9150147d0c53a94c857a0a0cb7ee9125ca595cc72986cbe290eae2dfb7",
+            "extract_dir": "node-v19.1.0-win-x86"
+        }
+    },
+    "persist": [
+        "bin",
+        "cache"
+    ],
+    "env_add_path": [
+        "bin",
+        "."
+    ],
+    "post_install": [
+        "# Set npm prefix to install modules inside bin and npm cache so they persist",
+        "Set-Content -Value \"prefix=$persist_dir\\bin`ncache=$persist_dir\\cache\" -Path \"$dir\\node_modules\\npm\\npmrc\""
+    ],
+    "checkver": {
+        "url": "https://npm.taobao.org/mirrors/node/latest/",
+        "regex": "node-v([\\d.]+)-win-x64\\.7z"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://npm.taobao.org/mirrors/node/v$version/node-v$version-win-x64.7z",
+                "extract_dir": "node-v$version-win-x64"
+            },
+            "32bit": {
+                "url": "https://npm.taobao.org/mirrors/node/v$version/node-v$version-win-x86.7z",
+                "extract_dir": "node-v$version-win-x86"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/SHASUMS256.txt.asc"
+        }
+    }
+}

@@ -3,10 +3,14 @@
     "description": "Software composition analysis utility that identifies project dependencies and checks if there are any known, publicly disclosed, vulnerabilities.",
     "homepage": "https://owasp.org/www-project-dependency-check/",
     "license": "Apache-2.0",
+    "notes": "For more information, please see the documentation at https://jeremylong.github.io/DependencyCheck",
     "suggest": {
-        "JDK": "java/openjdk"
+        "JDK": [
+            "java/oraclejdk",
+            "java/openjdk"
+        ]
     },
-    "url": "https://ghproxy.com/github.com/jeremylong/DependencyCheck/releases/download/v7.3.2/dependency-check-7.3.2-release.zip",
+    "url": "https://github.com/jeremylong/DependencyCheck/releases/download/v7.3.2/dependency-check-7.3.2-release.zip",
     "hash": "d0c3890a26f1c3b765b0e985d02741d3f6b566504806d440f5f01fd74df897d6",
     "extract_dir": "dependency-check",
     "bin": "bin\\dependency-check.bat",
@@ -15,6 +19,6 @@
         "regex": "(.+)"
     },
     "autoupdate": {
-        "url": "https://ghproxy.com/github.com/jeremylong/DependencyCheck/releases/download/v$version/dependency-check-$version-release.zip"
+        "url": "https://github.com/jeremylong/DependencyCheck/releases/download/v$version/dependency-check-$version-release.zip"
     }
 }
