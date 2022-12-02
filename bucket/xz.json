@@ -26,7 +26,10 @@
             ]
         }
     },
-    "checkver": "<h3>Stable<\\/h3>\\s+<p>\\s+([\\d.]+) was released",
+    "checkver": {
+        "url": "https://git.tukaani.org/?p=xz.git;a=blob_plain;f=NEWS",
+        "regex": "\\n([\\d.]+) \\("
+    },
     "autoupdate": {
         "url": "https://tukaani.org/xz/xz-$version-windows.zip"
     }
