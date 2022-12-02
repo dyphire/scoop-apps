@@ -48,11 +48,11 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - KNOXDEV/wsl
 - hoilc/scoop-lemon
 - hermanjustnu/scoop-emulators
+- scoopcn/scoopcn
 - everyx/scoop-bucket
 - cderv/r-bucket
-- scoopcn/scoopcn
-- borger/scoop-emulators
 - Paxxs/Cluttered-bucket
+- borger/scoop-emulators
 - TheRandomLabs/Scoop-Bucket
 - Qv2ray/mochi
 - ScoopInstaller/Nonportable
@@ -78,7 +78,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - ygguorun/scoop-bucket
 - littleli/Scoop-littleli
 - jfut/scoop-jfut
-- ChinLong/scoop-customize
 - Velgus/Scoop-Portapps
 - alextwothousand/scoop-bucket
 - hu3rror/scoop-muggle
