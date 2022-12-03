@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/team-ide/teamide/releases/download/v1.8.2/TeamIDE-windows-x64-1.8.2.exe#/dl.7z",
-            "hash": "61b3f5de3ba4def89073db6db6c794bf9a8228ff3b06c1966e501e2566fb8e94",
+            "hash": "80311fed19cb6b219a3a6a2f6a26efe757f2cc1a19c6c0360e556489c382b1c4",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R0\", \"$dir\\Uninstall*\", \"$dir\\resources\\app-update.yml\"  -Force -Recurse"
