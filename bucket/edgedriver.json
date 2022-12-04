@@ -1,31 +1,33 @@
 {
-    "version": "108.0.1462.38",
+    "version": "107.0.1418.62",
     "description": "Close the loop on your developer cycle by automating testing of your website in Microsoft Edge (Chromium).",
     "homepage": "https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver",
     "license": {
         "identifier": "Freeware",
         "url": "https://az813057.vo.msecnd.net/webdriver/license.html"
     },
-    "notes": "For legacy (EdgeHTML) version, see 'versions/edgedriver-legacy'.",
     "architecture": {
         "64bit": {
-            "url": "https://msedgedriver.azureedge.net/108.0.1462.38/edgedriver_win64.zip",
-            "hash": "757f02737637230f0f317d60bb928d399878746346c9dd32756ac0c95bd59e87"
+            "url": "https://msedgedriver.azureedge.net/107.0.1418.62/edgedriver_win64.zip",
+            "hash": "fcb658289344aa1f4b55cd5751f4ba468f85727efdf5878170d9d84efac51a67"
         },
         "32bit": {
-            "url": "https://msedgedriver.azureedge.net/108.0.1462.38/edgedriver_win32.zip",
-            "hash": "8c1ec576e76b6c889bb0dfdca1535b1f1f57695c35231260a17c6afea0096cd5"
+            "url": "https://msedgedriver.azureedge.net/107.0.1418.62/edgedriver_win32.zip",
+            "hash": "286eb1e3defa458bd4811749a6a115a8b6f944328e9df166d15f249025f79c86"
         },
         "arm64": {
-            "url": "https://msedgedriver.azureedge.net/108.0.1462.38/edgedriver_arm64.zip",
-            "hash": "38de28e155ac25f1d0bf2ec07d1fe054c0323b39354256df37b49f012a7003a5"
+            "url": "https://msedgedriver.azureedge.net/107.0.1418.62/edgedriver_arm64.zip",
+            "hash": "9db193f064fef65086c1f0db27ad5d89acf01285238dd6c06bd3958db63ada01"
         }
     },
-    "bin": "msedgedriver.exe",
-    "checkver": {
-        "script": "Write-Output $([System.Text.Encoding]::Unicode.GetString((Invoke-WebRequest -URI https://msedgedriver.azureedge.net/LATEST_BETA).Content))",
-        "regex": "([\\d.]+)"
-    },
+    "bin": [
+        "msedgedriver.exe",
+        [
+            "msedgedriver.exe",
+            "MicrosoftWebDriver"
+        ]
+    ],
+    "checkver": "stable channel, version ([\\d.]+)",
     "autoupdate": {
         "architecture": {
             "64bit": {
