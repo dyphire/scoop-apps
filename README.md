@@ -71,9 +71,9 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - iquiw/scoop-bucket
 - batkiz/backit
 - mogeko/scoop-sysinternals
+- Darkatse/Scoop-Darkatse
 - krproject/qi-windows
 - excitoon/scoop-user
-- Darkatse/Scoop-Darkatse
 - akirco/aki-apps
 - ygguorun/scoop-bucket
 - littleli/Scoop-littleli
@@ -86,6 +86,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - hu3rror/scoop-muggle
 - brave-simpletons/scoop-the-business
 - MCOfficer/scoop-bucket
+- amorphobia/siku
 - duzyn/scoop-cn
 - TheLastZombie/scoop-bucket
 - Weidows-projects/scoop-3rd
