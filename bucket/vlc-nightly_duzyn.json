@@ -1,16 +1,16 @@
 {
-    "version": "20221205",
+    "version": "20221207",
     "description": "A free and open source multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols.",
     "homepage": "https://www.videolan.org/",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://artifacts.videolan.org/vlc/nightly-win64/20221205-0435/vlc-4.0.0-dev-win64-30815c4f.7z",
-            "hash": "sha512:3015e10007eeebbfdce7f354a15b6dcf30af8a2c79ac97449f090642ac11d555a5afc4db20bd2612bf3c485651f007e905c112d44e3591c572123e20de2938c2"
+            "url": "https://artifacts.videolan.org/vlc/nightly-win64/20221207-0432/vlc-4.0.0-dev-win64-3b5e30f7.7z",
+            "hash": "sha512:70568b922d1e67011a8d0dc509384efb8f78ddd68d227ad4f91d7c2f9fb8f6515ea701f23575445287307dd77482d780575d5ff3bf6a8dbc82bea3a42bb12be3"
         },
         "32bit": {
-            "url": "https://artifacts.videolan.org/vlc/nightly-win32/20221205-0430/vlc-4.0.0-dev-win32-30815c4f.7z",
-            "hash": "sha512:101a389dd0274a27bf2e8ba67e91beccbf8caaac310c4e80d55a76386fbb02e80a757508930a5547cd011fa93fc6f0bd63ef043edf207351e1381ec9515343e8"
+            "url": "https://artifacts.videolan.org/vlc/nightly-win32/20221207-0432/vlc-4.0.0-dev-win32-3b5e30f7.7z",
+            "hash": "sha512:df9deac63f249276a91946a9c0e5bd75b2f68cd51d025a0401ac56d66d79e414439db80c0860f707517cabbc08b3969912173c0a78097531c4dfbb7dec5d2794"
         }
     },
     "extract_dir": "vlc-4.0.0-dev",
