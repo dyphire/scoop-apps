@@ -16,6 +16,10 @@
         "32bit": {
             "url": "https://dl.google.com/go/go1.19.4.windows-386.zip",
             "hash": "51d8d895deb9883aa2daa291572f483fead69f577bf4e7cf8381c8001e37778e"
+        },
+        "arm64": {
+            "url": "https://dl.google.com/go/go1.19.4.windows-arm64.zip",
+            "hash": "66cfa12f408806c0fabfc10726a57b090c0c3ef3efddd944400af678ff10b851"
         }
     },
     "extract_dir": "go",
@@ -34,7 +38,7 @@
     },
     "checkver": {
         "url": "https://golang.org/dl/",
-        "regex": "go([\\d.]+)\\."
+        "regex": "go([\\d.]+)\\.windows-"
     },
     "autoupdate": {
         "architecture": {
@@ -43,6 +47,9 @@
             },
             "32bit": {
                 "url": "https://dl.google.com/go/go$version.windows-386.zip"
+            },
+            "arm64": {
+                "url": "https://dl.google.com/go/go$version.windows-arm64.zip"
             }
         },
         "hash": {

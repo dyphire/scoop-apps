@@ -5,13 +5,12 @@
     "license": "MIT",
     "notes": [
         "At least Windows 10 build 17763 is required to use winget.",
-        "The settings file will be saved here : %LOCALAPPDATA%\\Microsoft\\WinGet\\Settings\\settings.json",
         "For documentation on settings, see: https://aka.ms/winget-settings."
     ],
     "suggest": {
-        "vcredist": "vcredist"
+        "vcredist": "extras/vcredist"
     },
-    "url": "https://github.com/microsoft/winget-cli/releases/download/v1.3.2691/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle#/dl.7z",
+    "url": "https://ghproxy.com/github.com/microsoft/winget-cli/releases/download/v1.3.2691/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle#/dl.7z",
     "hash": "02d5f4b5b74189be631827fe201908f86abccad788225d862f8e3388d9568645",
     "architecture": {
         "64bit": {
@@ -30,9 +29,9 @@
     "bin": "winget.exe",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/microsoft/winget-cli/releases/download/v$version/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle#/dl.7z",
+        "url": "https://ghproxy.com/github.com/microsoft/winget-cli/releases/download/v$version/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle#/dl.7z",
         "hash": {
-            "url": "https://github.com/microsoft/winget-cli/releases/download/v$version/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.txt"
+            "url": "https://ghproxy.com/github.com/microsoft/winget-cli/releases/download/v$version/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.txt"
         }
     }
 }

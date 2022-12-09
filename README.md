@@ -78,6 +78,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - ygguorun/scoop-bucket
 - amorphobia/siku
 - littleli/Scoop-littleli
+- duzyn/scoop-cn
 - ViCrack/scoop-bucket
 - jfut/scoop-jfut
 - ChinLong/scoop-customize
@@ -87,7 +88,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - hu3rror/scoop-muggle
 - brave-simpletons/scoop-the-business
 - MCOfficer/scoop-bucket
-- duzyn/scoop-cn
 - TheLastZombie/scoop-bucket
 - Weidows-projects/scoop-3rd
 - starise/Scoop-Confetti
