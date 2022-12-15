@@ -5,11 +5,11 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mikefarah/yq/releases/download/v4.30.5/yq_windows_amd64.exe#/yq.exe",
+            "url": "https://ghproxy.com/github.com/mikefarah/yq/releases/download/v4.30.5/yq_windows_amd64.exe#/yq.exe",
             "hash": "dd7e109efbbea2ffdef56465100d63aca60a82f42a37fee7a3fccf435b73d86a"
         },
         "32bit": {
-            "url": "https://github.com/mikefarah/yq/releases/download/v4.30.5/yq_windows_386.exe#/yq.exe",
+            "url": "https://ghproxy.com/github.com/mikefarah/yq/releases/download/v4.30.5/yq_windows_386.exe#/yq.exe",
             "hash": "9d99e7b4aa64787115ef74c529e272816282ee9845a2d110de57b03d8e78666a"
         }
     },
@@ -20,10 +20,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/mikefarah/yq/releases/download/v$version/yq_windows_amd64.exe#/yq.exe"
+                "url": "https://ghproxy.com/github.com/mikefarah/yq/releases/download/v$version/yq_windows_amd64.exe#/yq.exe"
             },
             "32bit": {
-                "url": "https://github.com/mikefarah/yq/releases/download/v$version/yq_windows_386.exe#/yq.exe"
+                "url": "https://ghproxy.com/github.com/mikefarah/yq/releases/download/v$version/yq_windows_386.exe#/yq.exe"
             }
         }
     }

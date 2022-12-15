@@ -5,7 +5,7 @@
     "license": "BSD-2-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/hrkfdn/ncspot/releases/download/v0.11.2/ncspot-v0.11.2-windows-x86_64.zip",
+            "url": "https://ghproxy.com/github.com/hrkfdn/ncspot/releases/download/v0.11.2/ncspot-v0.11.2-windows-x86_64.zip",
             "hash": "9312372f28be02d193b42cd1538bc3d65c443d6491e2e605767a8e376b87bcf1"
         }
     },
@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/hrkfdn/ncspot/releases/download/v$version/ncspot-v$version-windows-x86_64.zip"
+                "url": "https://ghproxy.com/github.com/hrkfdn/ncspot/releases/download/v$version/ncspot-v$version-windows-x86_64.zip"
             }
         },
         "hash": {
