@@ -1,13 +1,13 @@
 {
-    "version": "2022.07.2-576",
+    "version": "2022.07.2+576",
     "description": "An IDE for R with console, syntax-highlighting, editor that supports direct code execution, as well as tools for plotting, history, debugging and workspace management.",
-    "homepage": "https://www.rstudio.com/products/rstudio/",
+    "homepage": "https://www.rstudio.com",
     "license": "AGPL-3.0-only",
     "notes": "For 32bit, please install 'versions/rstudio11",
     "depends": "r",
     "architecture": {
         "64bit": {
-            "url": "https://download1.rstudio.org/desktop/windows/RStudio-2022.07.2-576.exe#/dl.7z",
+            "url": "https://s3.amazonaws.com/rstudio-ide-build/desktop/windows/RStudio-2022.07.2-576.exe#/dl.7z",
             "hash": "b38bf925e1cddda04bfae18492991cc980c0b4227b49fa0f3ce39c44c368fdd6",
             "post_install": [
                 "Remove-Item \"$dir\\`$*\" -Recurse",
@@ -25,20 +25,21 @@
     "shortcuts": [
         [
             "bin\\rstudio.exe",
-            "RStudio"
+            "RStudio Preview"
         ]
     ],
     "checkver": {
-        "url": "https://www.rstudio.com/products/rstudio/download/",
-        "regex": "/windows/RStudio-([\\d.-]+)\\."
+        "url": "https://www.rstudio.com/products/rstudio/download/preview/",
+        "regex": "windows/RStudio-([\\d.]+)-(\\d+)\\.exe",
+        "replace": "${1}+${2}"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download1.rstudio.org/desktop/windows/RStudio-$version.exe#/dl.7z",
+                "url": "https://s3.amazonaws.com/rstudio-ide-build/desktop/windows/RStudio-$match1-$match2.exe#/dl.7z",
                 "hash": {
-                    "url": "https://www.rstudio.com/products/rstudio/download/",
-                    "regex": "(?s)$basename.*?$sha256"
+                    "url": "https://www.rstudio.com/products/rstudio/download/preview/",
+                    "regex": "(?s)/windows/.*?exe.*?$sha256"
                 }
             }
         }
