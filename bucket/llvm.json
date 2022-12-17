@@ -1,18 +1,32 @@
 {
-    "homepage": "http://www.llvm.org",
-    "version": "3.7.1",
-    "license": "University of Illinois/NCSA Open Source License",
+    "version": "15.0.6",
+    "description": "Collection of modular and reusable compiler and toolchain technologies.",
+    "homepage": "https://www.llvm.org",
+    "license": "NCSA",
     "architecture": {
-        "32bit": {
-            "url": "http://llvm.org/releases/3.7.1/LLVM-3.7.1-win32.exe",
-            "hash": "cbcc4adebc13cd6e0af7fdae34226d4cb6d9f8d7e304f154745c964e685e27cf"
-        },
         "64bit": {
-            "url": "http://llvm.org/releases/3.7.1/LLVM-3.7.1-win64.exe",
-            "hash": "94b60c29993fa3c02aa08894c0f281e350631a87708c48e1eef4f913c11e9f17"
+            "url": "https://ghproxy.com/github.com/llvm/llvm-project/releases/download/llvmorg-15.0.6/LLVM-15.0.6-win64.exe#/dl.7z",
+            "hash": "22e2f2c38be4c44db7a1e9da5e67de2a453c5b4be9cf91e139592a63877ac0a2"
+        },
+        "32bit": {
+            "url": "https://ghproxy.com/github.com/llvm/llvm-project/releases/download/llvmorg-15.0.6/LLVM-15.0.6-win32.exe#/dl.7z",
+            "hash": "c65efa5d79256162bca1d8f444b8d0816ef57c549e0d5fa5f4a6778b234a19de"
         }
     },
-    "installer": {"args": "/S /D=$dir"},
-    "uninstaller": {"file": "Uninstall.exe", "args": "/S"},
-    "env_add_path": "bin"
+    "pre_install": "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall.exe\" -Recurse",
+    "env_add_path": "bin",
+    "checkver": {
+        "github": "https://github.com/llvm/llvm-project",
+        "regex": "tag/llvmorg-([\\d._]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://ghproxy.com/github.com/llvm/llvm-project/releases/download/llvmorg-$version/LLVM-$version-win64.exe#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://ghproxy.com/github.com/llvm/llvm-project/releases/download/llvmorg-$version/LLVM-$version-win32.exe#/dl.7z"
+            }
+        }
+    }
 }
