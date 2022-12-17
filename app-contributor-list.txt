@@ -797,6 +797,7 @@ pine64-updater.json    ScoopInstaller/Extras
 thorium-reader.json    ScoopInstaller/Extras
 mobalivecd.json    ScoopInstaller/Extras
 logstalgia.json    ScoopInstaller/Extras
+baregrep.json    ScoopInstaller/Extras
 awake.json    ScoopInstaller/Extras
 recuva.json    ScoopInstaller/Extras
 thonny.json    ScoopInstaller/Extras
@@ -998,6 +999,7 @@ keeweb.json    ScoopInstaller/Extras
 notepad2.json    ScoopInstaller/Extras
 qrscan.json    ScoopInstaller/Extras
 p4v.json    ScoopInstaller/Extras
+nunustudio.json    ScoopInstaller/Extras
 sdl2-ttf.json    ScoopInstaller/Extras
 tremulous.json    ScoopInstaller/Extras
 alldup.json    ScoopInstaller/Extras
@@ -1309,6 +1311,7 @@ gitahead.json    ScoopInstaller/Extras
 tsip.json    ScoopInstaller/Extras
 megui.json    ScoopInstaller/Extras
 visualc.json    ScoopInstaller/Extras
+fan-control.json    ScoopInstaller/Extras
 asar7z.json    ScoopInstaller/Extras
 biblioteq.json    ScoopInstaller/Extras
 puttie.json    ScoopInstaller/Extras
@@ -1778,6 +1781,7 @@ sbom-tool.json    ScoopInstaller/Extras
 extraterm.json    ScoopInstaller/Extras
 universal-gcode-sender.json    ScoopInstaller/Extras
 fileoptimizer.json    ScoopInstaller/Extras
+jenv.json    ScoopInstaller/Extras
 waterfox-classic.json    ScoopInstaller/Extras
 pure-data.json    ScoopInstaller/Extras
 ripcord.json    ScoopInstaller/Extras
@@ -1836,6 +1840,7 @@ opera.json    ScoopInstaller/Extras
 ilmerge.json    ScoopInstaller/Extras
 mps.json    ScoopInstaller/Extras
 vcredist-aio.json    ScoopInstaller/Extras
+threema.json    ScoopInstaller/Extras
 graphql-playground.json    ScoopInstaller/Extras
 notion.json    ScoopInstaller/Extras
 stellarium.json    ScoopInstaller/Extras
@@ -1878,6 +1883,7 @@ litebrowser.json    ScoopInstaller/Extras
 gpodder.json    ScoopInstaller/Extras
 apache-directory-studio.json    ScoopInstaller/Extras
 pietty.json    ScoopInstaller/Extras
+cascadeur.json    ScoopInstaller/Extras
 civo.json    ScoopInstaller/Extras
 tabby.json    ScoopInstaller/Extras
 kavita.json    ScoopInstaller/Extras
@@ -1895,6 +1901,7 @@ mpv.json    ScoopInstaller/Extras
 workrave.json    ScoopInstaller/Extras
 musescore.json    ScoopInstaller/Extras
 upscayl.json    ScoopInstaller/Extras
+oculante.json    ScoopInstaller/Extras
 tutanota.json    ScoopInstaller/Extras
 mkcert.json    ScoopInstaller/Extras
 potplayer.json    ScoopInstaller/Extras
@@ -5804,7 +5811,7 @@ Capture2Text_dodorz.json    dodorz/scoop
 FileTime.json    dodorz/scoop
 vs-ghostwriter.json    dodorz/scoop
 HandBrake_dodorz.json    dodorz/scoop
-BareGrep.json    dodorz/scoop
+BareGrep_dodorz.json    dodorz/scoop
 MadEdit-mod.json    dodorz/scoop
 Calc98.json    dodorz/scoop
 MParallel.json    dodorz/scoop
@@ -7491,7 +7498,7 @@ font-vazir.json    naderi/scoop-bucket
 chrome-portable.json    naderi/scoop-bucket
 csvsort_naderi.json    naderi/scoop-bucket
 firefox-developer-fa.json    naderi/scoop-bucket
-fan-control.json    naderi/scoop-bucket
+fan-control_naderi.json    naderi/scoop-bucket
 texts_naderi.json    naderi/scoop-bucket
 font-behdad.json    naderi/scoop-bucket
 texstudio-portable.json    naderi/scoop-bucket
@@ -7656,6 +7663,7 @@ istio_duzyn.json    duzyn/scoop-cn
 moonlight_duzyn.json    duzyn/scoop-cn
 php5.6.16.json    duzyn/scoop-cn
 memreduct_duzyn.json    duzyn/scoop-cn
+lantern-client_duzyn.json    duzyn/scoop-cn
 puppet-bolt.json    duzyn/scoop-cn
 php5.4.24.json    duzyn/scoop-cn
 gdb.json    duzyn/scoop-cn
@@ -8002,7 +8010,6 @@ CascadiaCode-NF-Mono_duzyn.json    duzyn/scoop-cn
 ubports-installer_duzyn.json    duzyn/scoop-cn
 aria-ng-gui_duzyn.json    duzyn/scoop-cn
 php7.1-nts.json    duzyn/scoop-cn
-firefox-nightly_duzyn.json    duzyn/scoop-cn
 corretto19-jdk_duzyn.json    duzyn/scoop-cn
 InconsolataLGC-NF_duzyn.json    duzyn/scoop-cn
 php5.3.23.json    duzyn/scoop-cn
@@ -8181,7 +8188,6 @@ ytt_duzyn.json    duzyn/scoop-cn
 php5.4.16.json    duzyn/scoop-cn
 containerd.json    duzyn/scoop-cn
 stoplight-prism.json    duzyn/scoop-cn
-k-lite-codec-pack-mega-np_duzyn.json    duzyn/scoop-cn
 yesplaymusic_duzyn.json    duzyn/scoop-cn
 gitlab-runner.json    duzyn/scoop-cn
 wp-cli.json    duzyn/scoop-cn
@@ -8344,6 +8350,7 @@ mpc-hc-fork_duzyn.json    duzyn/scoop-cn
 ao_duzyn.json    duzyn/scoop-cn
 uiforetw_duzyn.json    duzyn/scoop-cn
 sourcetrail_duzyn.json    duzyn/scoop-cn
+vim-tux_duzyn.json    duzyn/scoop-cn
 awsSts.json    duzyn/scoop-cn
 php5.4.41-nts.json    duzyn/scoop-cn
 switcheroo_duzyn.json    duzyn/scoop-cn
@@ -8454,6 +8461,7 @@ terraform-docs.json    duzyn/scoop-cn
 sqldef.json    duzyn/scoop-cn
 assume-role_duzyn.json    duzyn/scoop-cn
 ndm_duzyn.json    duzyn/scoop-cn
+nheko-nightly_duzyn.json    duzyn/scoop-cn
 Monofur-NF-Mono_duzyn.json    duzyn/scoop-cn
 ect.json    duzyn/scoop-cn
 micro.json    duzyn/scoop-cn
@@ -8750,6 +8758,7 @@ rambox_duzyn.json    duzyn/scoop-cn
 mindustry-server_duzyn.json    duzyn/scoop-cn
 php5.2.12.json    duzyn/scoop-cn
 ferdium-nightly_duzyn.json    duzyn/scoop-cn
+rstudio_duzyn.json    duzyn/scoop-cn
 php5.5.24-nts.json    duzyn/scoop-cn
 gdevelop_duzyn.json    duzyn/scoop-cn
 b3sum.json    duzyn/scoop-cn
@@ -8969,7 +8978,6 @@ php5.3.9-nts.json    duzyn/scoop-cn
 Meslo-NF-Mono_duzyn.json    duzyn/scoop-cn
 umoria_duzyn.json    duzyn/scoop-cn
 rssguard_duzyn.json    duzyn/scoop-cn
-k-lite-codec-pack-standard-np_duzyn.json    duzyn/scoop-cn
 php5.6.16-nts.json    duzyn/scoop-cn
 discord-rpc-extension_duzyn.json    duzyn/scoop-cn
 panwriter_duzyn.json    duzyn/scoop-cn
@@ -8994,7 +9002,6 @@ php5.6.27.json    duzyn/scoop-cn
 electron-cash_duzyn.json    duzyn/scoop-cn
 danser-go.json    duzyn/scoop-cn
 shadowsocks_duzyn.json    duzyn/scoop-cn
-openjdk20_duzyn.json    duzyn/scoop-cn
 btyacc.json    duzyn/scoop-cn
 php5.5.10-nts.json    duzyn/scoop-cn
 alass.json    duzyn/scoop-cn
@@ -9056,6 +9063,7 @@ gcc.json    duzyn/scoop-cn
 liberica-full-lts-jre_duzyn.json    duzyn/scoop-cn
 mob.json    duzyn/scoop-cn
 haxe.json    duzyn/scoop-cn
+mp3tag_duzyn.json    duzyn/scoop-cn
 nvm.json    duzyn/scoop-cn
 msedgeredirect_duzyn.json    duzyn/scoop-cn
 concourse-fly.json    duzyn/scoop-cn
@@ -9129,7 +9137,6 @@ texlab.json    duzyn/scoop-cn
 msbuild-structured-log-viewer_duzyn.json    duzyn/scoop-cn
 xjoy_duzyn.json    duzyn/scoop-cn
 swig.json    duzyn/scoop-cn
-proxifier_duzyn.json    duzyn/scoop-cn
 ghidra_duzyn.json    duzyn/scoop-cn
 grex.json    duzyn/scoop-cn
 gitsign.json    duzyn/scoop-cn
@@ -9281,7 +9288,6 @@ colorcontrol_duzyn.json    duzyn/scoop-cn
 php5.4.23.json    duzyn/scoop-cn
 goodbyedpi.json    duzyn/scoop-cn
 temurin11-nightly-jre_duzyn.json    duzyn/scoop-cn
-vscode-insiders_duzyn.json    duzyn/scoop-cn
 winyl_duzyn.json    duzyn/scoop-cn
 tumblthree_duzyn.json    duzyn/scoop-cn
 oha.json    duzyn/scoop-cn
@@ -9424,6 +9430,8 @@ ds4windows-circumspector-pre_duzyn.json    duzyn/scoop-cn
 tinytask_duzyn.json    duzyn/scoop-cn
 scholdoc.json    duzyn/scoop-cn
 freedoom_duzyn.json    duzyn/scoop-cn
+mgba-dev_duzyn.json    duzyn/scoop-cn
+php-nts-xdebug_duzyn.json    duzyn/scoop-cn
 joplin_duzyn.json    duzyn/scoop-cn
 tailwindcss.json    duzyn/scoop-cn
 rust.json    duzyn/scoop-cn
@@ -9473,7 +9481,6 @@ barrier-np_duzyn.json    duzyn/scoop-cn
 stella_duzyn.json    duzyn/scoop-cn
 php7.2.json    duzyn/scoop-cn
 lenovolegiontoolkit_duzyn.json    duzyn/scoop-cn
-firefox-developer_duzyn.json    duzyn/scoop-cn
 JetBrains-Mono_duzyn.json    duzyn/scoop-cn
 IBMPlexSans-Thai-Looped_duzyn.json    duzyn/scoop-cn
 abricotine_duzyn.json    duzyn/scoop-cn
@@ -9486,6 +9493,7 @@ chezmoi.json    duzyn/scoop-cn
 jira-cli_duzyn.json    duzyn/scoop-cn
 php5.5.json    duzyn/scoop-cn
 r128gain.json    duzyn/scoop-cn
+vivaldi-snapshot_duzyn.json    duzyn/scoop-cn
 psake.json    duzyn/scoop-cn
 ninja.json    duzyn/scoop-cn
 ani-cli_duzyn.json    duzyn/scoop-cn
@@ -9502,6 +9510,7 @@ material-maker_duzyn.json    duzyn/scoop-cn
 search-deflector_duzyn.json    duzyn/scoop-cn
 rimpy_duzyn.json    duzyn/scoop-cn
 clink.json    duzyn/scoop-cn
+php-xdebug_duzyn.json    duzyn/scoop-cn
 trayweather_duzyn.json    duzyn/scoop-cn
 engauge-digitizer_duzyn.json    duzyn/scoop-cn
 snoop_duzyn.json    duzyn/scoop-cn
@@ -9522,9 +9531,7 @@ jdtls.json    duzyn/scoop-cn
 php5.4.37.json    duzyn/scoop-cn
 liberica-lts-jdk_duzyn.json    duzyn/scoop-cn
 mozregression-gui_duzyn.json    duzyn/scoop-cn
-rclone-beta_duzyn.json    duzyn/scoop-cn
 simple-assembly-explorer_duzyn.json    duzyn/scoop-cn
-dataspell-rc_duzyn.json    duzyn/scoop-cn
 php5.5.30.json    duzyn/scoop-cn
 kitematic_duzyn.json    duzyn/scoop-cn
 uniextract2_duzyn.json    duzyn/scoop-cn
@@ -9682,7 +9689,6 @@ git-bug.json    duzyn/scoop-cn
 npiperelay_duzyn.json    duzyn/scoop-cn
 emitter.json    duzyn/scoop-cn
 Source-Han-Noto-CJK-Ultra-OTC_duzyn.json    duzyn/scoop-cn
-calibre-normal_duzyn.json    duzyn/scoop-cn
 handbrake-cli.json    duzyn/scoop-cn
 mingw.json    duzyn/scoop-cn
 btop.json    duzyn/scoop-cn
@@ -9736,7 +9742,6 @@ viddy_duzyn.json    duzyn/scoop-cn
 lite-xl_duzyn.json    duzyn/scoop-cn
 php5.4.5.json    duzyn/scoop-cn
 portfolio-performance_duzyn.json    duzyn/scoop-cn
-mongodb-compass_duzyn.json    duzyn/scoop-cn
 openra_duzyn.json    duzyn/scoop-cn
 php7.0.8-nts.json    duzyn/scoop-cn
 terragrunt.json    duzyn/scoop-cn
@@ -9852,7 +9857,6 @@ liberica14-lite-jdk_duzyn.json    duzyn/scoop-cn
 quassel_duzyn.json    duzyn/scoop-cn
 mumble_duzyn.json    duzyn/scoop-cn
 php7.0.3-nts.json    duzyn/scoop-cn
-kicad-lite-nightly_duzyn.json    duzyn/scoop-cn
 passbolt-cli.json    duzyn/scoop-cn
 imagemagick-lean.json    duzyn/scoop-cn
 omnidb-np_duzyn.json    duzyn/scoop-cn
@@ -9883,7 +9887,6 @@ mo2_duzyn.json    duzyn/scoop-cn
 ProFont-NF-Mono_duzyn.json    duzyn/scoop-cn
 qrencode.json    duzyn/scoop-cn
 algernon.json    duzyn/scoop-cn
-vlc-nightly_duzyn.json    duzyn/scoop-cn
 direnv.json    duzyn/scoop-cn
 ipfilter-nightly_duzyn.json    duzyn/scoop-cn
 colon_duzyn.json    duzyn/scoop-cn
@@ -9964,7 +9967,6 @@ servicebusexplorer_duzyn.json    duzyn/scoop-cn
 sabnzbd_duzyn.json    duzyn/scoop-cn
 rnr.json    duzyn/scoop-cn
 graalvm-nightly-jdk11_duzyn.json    duzyn/scoop-cn
-lens_duzyn.json    duzyn/scoop-cn
 liberica15-jre_duzyn.json    duzyn/scoop-cn
 figurine.json    duzyn/scoop-cn
 beaker_duzyn.json    duzyn/scoop-cn
@@ -10052,7 +10054,6 @@ poetry.json    duzyn/scoop-cn
 ruby24_duzyn.json    duzyn/scoop-cn
 php5.5.16.json    duzyn/scoop-cn
 sox_duzyn.json    duzyn/scoop-cn
-firefox-beta_duzyn.json    duzyn/scoop-cn
 Tinos-NF_duzyn.json    duzyn/scoop-cn
 php5.3.7.json    duzyn/scoop-cn
 SarasaGothic-CL_duzyn.json    duzyn/scoop-cn
@@ -10072,7 +10073,6 @@ php5.2.11-nts.json    duzyn/scoop-cn
 scons.json    duzyn/scoop-cn
 azure-ps.json    duzyn/scoop-cn
 opentabletdriver_duzyn.json    duzyn/scoop-cn
-kodi-nightly_duzyn.json    duzyn/scoop-cn
 IBMPlexSans-Condensed_duzyn.json    duzyn/scoop-cn
 php5.2.15.json    duzyn/scoop-cn
 editorconfig.json    duzyn/scoop-cn
@@ -10092,6 +10092,7 @@ hugo.json    duzyn/scoop-cn
 ffsend.json    duzyn/scoop-cn
 Source-Han-Mono-TC_duzyn.json    duzyn/scoop-cn
 megabasterd_duzyn.json    duzyn/scoop-cn
+kodi-dev_duzyn.json    duzyn/scoop-cn
 winmerge2011_duzyn.json    duzyn/scoop-cn
 kubeseal_duzyn.json    duzyn/scoop-cn
 exaile_duzyn.json    duzyn/scoop-cn
@@ -10177,10 +10178,10 @@ amidst_duzyn.json    duzyn/scoop-cn
 structurizr-cli_duzyn.json    duzyn/scoop-cn
 php7.0.1-nts.json    duzyn/scoop-cn
 conan.json    duzyn/scoop-cn
+inkscape-dev_duzyn.json    duzyn/scoop-cn
 grpcurl_duzyn.json    duzyn/scoop-cn
 mono.json    duzyn/scoop-cn
 ojdkbuild14-jre_duzyn.json    duzyn/scoop-cn
-firefox_duzyn.json    duzyn/scoop-cn
 php5.3.24-nts.json    duzyn/scoop-cn
 dirhash.json    duzyn/scoop-cn
 thisiswin11_duzyn.json    duzyn/scoop-cn
@@ -10194,7 +10195,6 @@ k0s.json    duzyn/scoop-cn
 vulkan.json    duzyn/scoop-cn
 altsnap_duzyn.json    duzyn/scoop-cn
 px.json    duzyn/scoop-cn
-kicad-nightly_duzyn.json    duzyn/scoop-cn
 vott_duzyn.json    duzyn/scoop-cn
 netch_duzyn.json    duzyn/scoop-cn
 latex.json    duzyn/scoop-cn
@@ -10209,7 +10209,6 @@ nomacs_duzyn.json    duzyn/scoop-cn
 youtube-dlc_duzyn.json    duzyn/scoop-cn
 file.json    duzyn/scoop-cn
 cue_duzyn.json    duzyn/scoop-cn
-freecommander_duzyn.json    duzyn/scoop-cn
 de4dot-net35_duzyn.json    duzyn/scoop-cn
 Hermit-NF-Mono_duzyn.json    duzyn/scoop-cn
 obs-studio_duzyn.json    duzyn/scoop-cn
@@ -10359,7 +10358,6 @@ discord_duzyn.json    duzyn/scoop-cn
 govc.json    duzyn/scoop-cn
 mesen_duzyn.json    duzyn/scoop-cn
 trzsz_duzyn.json    duzyn/scoop-cn
-tableplus_duzyn.json    duzyn/scoop-cn
 mysql.json    duzyn/scoop-cn
 Mononoki-NF_duzyn.json    duzyn/scoop-cn
 php5.4.39-nts.json    duzyn/scoop-cn
@@ -10375,7 +10373,6 @@ php5.4.2-nts.json    duzyn/scoop-cn
 webtorrent_duzyn.json    duzyn/scoop-cn
 prismlauncher-qt5_duzyn.json    duzyn/scoop-cn
 winbtrfs-np_duzyn.json    duzyn/scoop-cn
-rstudio-preview_duzyn.json    duzyn/scoop-cn
 wincompose_duzyn.json    duzyn/scoop-cn
 w64devkit_duzyn.json    duzyn/scoop-cn
 cataclysm-dda-tiles-experimental_duzyn.json    duzyn/scoop-cn
@@ -10564,7 +10561,6 @@ systeminformer-nightly_duzyn.json    duzyn/scoop-cn
 xysubfilter-libass-np_duzyn.json    duzyn/scoop-cn
 php5.4.36-nts.json    duzyn/scoop-cn
 keyboard-chatter-blocker_duzyn.json    duzyn/scoop-cn
-openjdk-ea_duzyn.json    duzyn/scoop-cn
 openmsx_duzyn.json    duzyn/scoop-cn
 vcredist-aio_duzyn.json    duzyn/scoop-cn
 php7.1.4.json    duzyn/scoop-cn
@@ -10613,7 +10609,6 @@ wireproxy.json    duzyn/scoop-cn
 glab.json    duzyn/scoop-cn
 keystore-explorer_duzyn.json    duzyn/scoop-cn
 gb-studio_duzyn.json    duzyn/scoop-cn
-freeciv_duzyn.json    duzyn/scoop-cn
 potrace.json    duzyn/scoop-cn
 gitnuro_duzyn.json    duzyn/scoop-cn
 filezilla_duzyn.json    duzyn/scoop-cn
@@ -10660,8 +10655,8 @@ musescore_duzyn.json    duzyn/scoop-cn
 upscayl_duzyn.json    duzyn/scoop-cn
 mkcert_duzyn.json    duzyn/scoop-cn
 cormanlisp.json    duzyn/scoop-cn
-potplayer_duzyn.json    duzyn/scoop-cn
 DaddyTimeMono-NF_duzyn.json    duzyn/scoop-cn
+gtk-sharp_duzyn.json    duzyn/scoop-cn
 rcc.json    duzyn/scoop-cn
 windows-terminal-preview_duzyn.json    duzyn/scoop-cn
 xmrig_duzyn.json    duzyn/scoop-cn
@@ -10675,12 +10670,12 @@ Source-Han-Serif-K_duzyn.json    duzyn/scoop-cn
 free-shooter_duzyn.json    duzyn/scoop-cn
 weakauras-companion_duzyn.json    duzyn/scoop-cn
 snes9x_duzyn.json    duzyn/scoop-cn
+ouch.json    duzyn/scoop-cn
 micmute_duzyn.json    duzyn/scoop-cn
 php7.0.json    duzyn/scoop-cn
 l4d2modmanager_duzyn.json    duzyn/scoop-cn
 trenchbroom_duzyn.json    duzyn/scoop-cn
 fselect.json    duzyn/scoop-cn
-calibre_duzyn.json    duzyn/scoop-cn
 Overpass-NF-Mono_duzyn.json    duzyn/scoop-cn
 amulet.json    duzyn/scoop-cn
 prusaslicer-pre_duzyn.json    duzyn/scoop-cn
@@ -10702,7 +10697,6 @@ goneovim_duzyn.json    duzyn/scoop-cn
 LXGWWenKaiScreen_duzyn.json    duzyn/scoop-cn
 gnucash_duzyn.json    duzyn/scoop-cn
 filezilla-server0.9_duzyn.json    duzyn/scoop-cn
-r-patched_duzyn.json    duzyn/scoop-cn
 Monofur-NF_duzyn.json    duzyn/scoop-cn
 wapm-cli.json    duzyn/scoop-cn
 chatty_duzyn.json    duzyn/scoop-cn
@@ -12141,6 +12135,7 @@ monolith_akirco.json    akirco/aki-apps
 upx_akirco.json    akirco/aki-apps
 ClashDotNET.json    akirco/aki-apps
 fleet.json    akirco/aki-apps
+qpdf_akirco.json    akirco/aki-apps
 xh_akirco.json    akirco/aki-apps
 mysql_akirco.json    akirco/aki-apps
 dvm_akirco.json    akirco/aki-apps

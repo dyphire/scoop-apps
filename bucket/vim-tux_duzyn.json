@@ -1,0 +1,109 @@
+{
+    "version": "9.0.1059",
+    "description": "A highly configurable text editor for efficiently creating and changing any kind of text. (tux build)",
+    "homepage": "https://tuxproject.de/projects/vim",
+    "license": "Vim",
+    "notes": "Add gVim as a context menu option by running: \"$dir\\install-context.reg\"",
+    "suggest": {
+        "vimtutor": "vimtutor"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://tuxproject.de/projects/vim/complete-x64.7z",
+            "hash": "92ff18ef5a1a8646765bf99047112b1196cf8941d939ee238f66ea1faf88d412"
+        },
+        "32bit": {
+            "url": "https://tuxproject.de/projects/vim/complete-x86.7z",
+            "hash": "1d46460c7339311c0190fffc43d349a3b48297d7f536ca340893f8524c1eba48"
+        }
+    },
+    "post_install": [
+        "'install-context.reg', 'uninstall-context.reg' | ForEach-Object {",
+        "    $vimpath = \"$dir\\gVim.exe\".Replace('\\', '\\\\')",
+        "    $content = (Get-Content \"$bucketsdir\\versions\\scripts\\vim\\$_\").Replace('$vim', $vimpath)",
+        "    if ($global) { $content = $content.Replace('HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE') }",
+        "    Set-Content \"$dir\\$_\" $content",
+        "}"
+    ],
+    "bin": [
+        "vim.exe",
+        [
+            "vim.exe",
+            "vi"
+        ],
+        [
+            "vim.exe",
+            "ex",
+            "-e"
+        ],
+        [
+            "vim.exe",
+            "view",
+            "-R"
+        ],
+        [
+            "vim.exe",
+            "rvim",
+            "-Z"
+        ],
+        [
+            "vim.exe",
+            "rview",
+            "-RZ"
+        ],
+        [
+            "vim.exe",
+            "vimdiff",
+            "-d"
+        ],
+        "gvim.exe",
+        [
+            "gvim.exe",
+            "gview",
+            "-R"
+        ],
+        [
+            "gvim.exe",
+            "evim",
+            "-y"
+        ],
+        [
+            "gvim.exe",
+            "eview",
+            "-Ry"
+        ],
+        [
+            "gvim.exe",
+            "rgvim",
+            "-Z"
+        ],
+        [
+            "gvim.exe",
+            "rgview",
+            "-RZ"
+        ],
+        [
+            "gvim.exe",
+            "gvimdiff",
+            "-d"
+        ],
+        "xxd.exe"
+    ],
+    "shortcuts": [
+        [
+            "gvim.exe",
+            "gVim"
+        ]
+    ],
+    "checkver": "Vim ([\\d.]+)",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://tuxproject.de/projects/vim/complete-x64.7z"
+            },
+            "32bit": {
+                "url": "https://tuxproject.de/projects/vim/complete-x86.7z"
+            }
+        }
+    }
+}
