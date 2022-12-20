@@ -5,15 +5,15 @@
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://ghproxy.com/github.com/ddosify/ddosify/releases/download/v0.10.0/ddosify_0.10.0_windows_amd64.zip",
+            "url": "https://github.com/ddosify/ddosify/releases/download/v0.10.0/ddosify_0.10.0_windows_amd64.zip",
             "hash": "afa917a5e5f942aaa754f800a6343f158172f085ee93a1c4e3fe938d58be6b38"
         },
         "32bit": {
-            "url": "https://ghproxy.com/github.com/ddosify/ddosify/releases/download/v0.10.0/ddosify_0.10.0_windows_386.zip",
+            "url": "https://github.com/ddosify/ddosify/releases/download/v0.10.0/ddosify_0.10.0_windows_386.zip",
             "hash": "05e87f3d4c4f9e266b5b3e83d8f3416c4ed17aa1bf101ea6a7221037d9900174"
         },
         "arm64": {
-            "url": "https://ghproxy.com/github.com/ddosify/ddosify/releases/download/v0.10.0/ddosify_0.10.0_windows_arm64.zip",
+            "url": "https://github.com/ddosify/ddosify/releases/download/v0.10.0/ddosify_0.10.0_windows_arm64.zip",
             "hash": "aee12383614a33b2d960ed8b15c8cb73e8862fc631a9ae6c77d0614ed7ed4229"
         }
     },
@@ -24,13 +24,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://ghproxy.com/github.com/ddosify/ddosify/releases/download/v$version/ddosify_$version_windows_amd64.zip"
+                "url": "https://github.com/ddosify/ddosify/releases/download/v$version/ddosify_$version_windows_amd64.zip"
             },
             "32bit": {
-                "url": "https://ghproxy.com/github.com/ddosify/ddosify/releases/download/v$version/ddosify_$version_windows_386.zip"
+                "url": "https://github.com/ddosify/ddosify/releases/download/v$version/ddosify_$version_windows_386.zip"
             },
             "arm64": {
-                "url": "https://ghproxy.com/github.com/ddosify/ddosify/releases/download/v$version/ddosify_$version_windows_arm64.zip"
+                "url": "https://github.com/ddosify/ddosify/releases/download/v$version/ddosify_$version_windows_arm64.zip"
             }
         },
         "hash": {

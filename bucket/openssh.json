@@ -5,12 +5,12 @@
     "license": "SSH-OpenSSH",
     "architecture": {
         "64bit": {
-            "url": "https://ghproxy.com/github.com/PowerShell/Win32-OpenSSH/releases/download/v9.1.0.0p1-Beta/OpenSSH-Win64.zip",
+            "url": "https://github.com/PowerShell/Win32-OpenSSH/releases/download/v9.1.0.0p1-Beta/OpenSSH-Win64.zip",
             "hash": "a17c2ba5dacb21936e2f927faad4e849f798f44ed1f656fc1e00bbd8e0966140",
             "extract_dir": "OpenSSH-Win64"
         },
         "32bit": {
-            "url": "https://ghproxy.com/github.com/PowerShell/Win32-OpenSSH/releases/download/v9.1.0.0p1-Beta/OpenSSH-Win32.zip",
+            "url": "https://github.com/PowerShell/Win32-OpenSSH/releases/download/v9.1.0.0p1-Beta/OpenSSH-Win32.zip",
             "hash": "543f1ce0d97a762bd52c85b3397cf07ff411f4ae58113b11d1e56a60629c6a09",
             "extract_dir": "OpenSSH-Win32"
         }
@@ -34,10 +34,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://ghproxy.com/github.com/PowerShell/Win32-OpenSSH/releases/download/v$version-Beta/OpenSSH-Win64.zip"
+                "url": "https://github.com/PowerShell/Win32-OpenSSH/releases/download/v$version-Beta/OpenSSH-Win64.zip"
             },
             "32bit": {
-                "url": "https://ghproxy.com/github.com/PowerShell/Win32-OpenSSH/releases/download/v$version-Beta/OpenSSH-Win32.zip"
+                "url": "https://github.com/PowerShell/Win32-OpenSSH/releases/download/v$version-Beta/OpenSSH-Win32.zip"
             }
         }
     },

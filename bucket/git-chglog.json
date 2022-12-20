@@ -5,7 +5,7 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://ghproxy.com/github.com/git-chglog/git-chglog/releases/download/v0.15.1/git-chglog_0.15.1_windows_amd64.zip",
+            "url": "https://github.com/git-chglog/git-chglog/releases/download/v0.15.1/git-chglog_0.15.1_windows_amd64.zip",
             "hash": "4ea2684d4eaf8b59cf04ffe1af17075f7988d2b6053da8ab51b2baea5108afbc"
         }
     },
@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://ghproxy.com/github.com/git-chglog/git-chglog/releases/download/v$version/git-chglog_$version_windows_amd64.zip"
+                "url": "https://github.com/git-chglog/git-chglog/releases/download/v$version/git-chglog_$version_windows_amd64.zip"
             }
         },
         "hash": {

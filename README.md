@@ -48,6 +48,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - KNOXDEV/wsl
 - hoilc/scoop-lemon
 - hermanjustnu/scoop-emulators
+- anderlli0053/DEV-tools
 - scoopcn/scoopcn
 - everyx/scoop-bucket
 - cderv/r-bucket

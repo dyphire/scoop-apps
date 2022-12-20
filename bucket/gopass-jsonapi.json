@@ -6,7 +6,7 @@
     "depends": "gopass",
     "architecture": {
         "64bit": {
-            "url": "https://ghproxy.com/github.com/gopasspw/gopass-jsonapi/releases/download/v1.15.2/gopass-jsonapi-1.15.2-windows-amd64.zip",
+            "url": "https://github.com/gopasspw/gopass-jsonapi/releases/download/v1.15.2/gopass-jsonapi-1.15.2-windows-amd64.zip",
             "hash": "cb0c4901f33cbb031cb79fccd83a0b3e3cc12bb15da54a5af866d0a376ea85f9"
         }
     },
@@ -17,7 +17,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://ghproxy.com/github.com/gopasspw/gopass-jsonapi/releases/download/v$version/gopass-jsonapi-$version-windows-amd64.zip"
+                "url": "https://github.com/gopasspw/gopass-jsonapi/releases/download/v$version/gopass-jsonapi-$version-windows-amd64.zip"
             }
         },
         "hash": {

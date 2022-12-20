@@ -5,7 +5,7 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://ghproxy.com/github.com/orf/gping/releases/download/gping-v1.6.1/gping-Windows-x86_64.zip",
+            "url": "https://github.com/orf/gping/releases/download/gping-v1.6.1/gping-Windows-x86_64.zip",
             "hash": "4efd88113ee3a1e3f8346b976573127f3263163f1fdd4dfe298608dc97c0405d"
         }
     },
@@ -17,7 +17,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://ghproxy.com/github.com/orf/gping/releases/download/gping-v$version/gping-Windows-x86_64.zip"
+                "url": "https://github.com/orf/gping/releases/download/gping-v$version/gping-Windows-x86_64.zip"
             }
         }
     }

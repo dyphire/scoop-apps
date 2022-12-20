@@ -1,0 +1,14 @@
+{
+    "version": "1.7.4",
+    "description": "哔哩哔哩客户端",
+    "homepage": "https://app.bilibili.com/",
+    "license": "Proprietary",
+    "url": "https://dl.hdslb.com/mobile/fixed/bili_win/bili_win-install.exe#/dl.7z",
+    "hash": "b5f831d9b0b02b53a2ea9795d30fd8d2f125affe33fde1c02fb2dc53e846460b",
+    "pre_install": [
+        "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+        "Move-Item -Path \"$dir\\`$PLUGINSDIR\\Uninstall 哔哩哔哩.exe\" -Destination \"$dir\"",
+        "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+    ],
+    "shortcuts": [["哔哩哔哩.exe", "bilibili"]]
+}

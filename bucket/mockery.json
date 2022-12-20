@@ -5,7 +5,7 @@
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://ghproxy.com/github.com/vektra/mockery/releases/download/v2.15.0/mockery_2.15.0_Windows_x86_64.tar.gz",
+            "url": "https://github.com/vektra/mockery/releases/download/v2.15.0/mockery_2.15.0_Windows_x86_64.tar.gz",
             "hash": "f3da4a6bde2e14a5290cfa68d647e59660ce37ced7b63d82328d28988de4ae20"
         }
     },
@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://ghproxy.com/github.com/vektra/mockery/releases/download/v$version/mockery_$version_Windows_x86_64.tar.gz",
+                "url": "https://github.com/vektra/mockery/releases/download/v$version/mockery_$version_Windows_x86_64.tar.gz",
                 "hash": {
                     "url": "$baseurl/checksum.txt"
                 }

@@ -6,11 +6,11 @@
     "notes": "If the shim for brotli.exe was overwritten by this app's version and you'd like to point it back to brotli's version, run `scoop reset brotli`.",
     "architecture": {
         "64bit": {
-            "url": "https://ghproxy.com/github.com/libjxl/libjxl/releases/download/v0.7.0/jxl-x64-windows-static.zip",
+            "url": "https://github.com/libjxl/libjxl/releases/download/v0.7.0/jxl-x64-windows-static.zip",
             "hash": "19d4cf75fe0ffbad1b94ebbfd261978223dad0a0dfbb146878f3c4feb8a8e54e"
         },
         "32bit": {
-            "url": "https://ghproxy.com/github.com/libjxl/libjxl/releases/download/v0.7.0/jxl-x86-windows-static.zip",
+            "url": "https://github.com/libjxl/libjxl/releases/download/v0.7.0/jxl-x86-windows-static.zip",
             "hash": "7c6796e411368869d433d40cce66bc8bbc73ee88170646a8da620792d829a885"
         }
     },
@@ -28,10 +28,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://ghproxy.com/github.com/libjxl/libjxl/releases/download/v$version/jxl-x64-windows-static.zip"
+                "url": "https://github.com/libjxl/libjxl/releases/download/v$version/jxl-x64-windows-static.zip"
             },
             "32bit": {
-                "url": "https://ghproxy.com/github.com/libjxl/libjxl/releases/download/v$version/jxl-x86-windows-static.zip"
+                "url": "https://github.com/libjxl/libjxl/releases/download/v$version/jxl-x86-windows-static.zip"
             }
         }
     }

@@ -5,11 +5,11 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://ghproxy.com/github.com/xmake-io/xmake/releases/download/v2.7.3/xmake-v2.7.3.win64.zip",
+            "url": "https://github.com/xmake-io/xmake/releases/download/v2.7.3/xmake-v2.7.3.win64.zip",
             "hash": "bb3220f1cf7fe7235b88055c122c3c4b01a3e43b08486d56a2e77202b533626a"
         },
         "32bit": {
-            "url": "https://ghproxy.com/github.com/xmake-io/xmake/releases/download/v2.7.3/xmake-v2.7.3.win32.zip",
+            "url": "https://github.com/xmake-io/xmake/releases/download/v2.7.3/xmake-v2.7.3.win32.zip",
             "hash": "470213293b55b6ada68de54bacbd51419b94066b8cf6e386587b670ff1a178cd"
         }
     },
@@ -24,14 +24,14 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://ghproxy.com/github.com/xmake-io/xmake/releases/download/v$version/xmake-v$version.win64.zip",
+                "url": "https://github.com/xmake-io/xmake/releases/download/v$version/xmake-v$version.win64.zip",
                 "hash": {
                     "url": "$baseurl/xmake-v$version.win64.sha256",
                     "regex": "$sha256.*?zip"
                 }
             },
             "32bit": {
-                "url": "https://ghproxy.com/github.com/xmake-io/xmake/releases/download/v$version/xmake-v$version.win32.zip",
+                "url": "https://github.com/xmake-io/xmake/releases/download/v$version/xmake-v$version.win32.zip",
                 "hash": {
                     "url": "$baseurl/xmake-v$version.win32.sha256",
                     "regex": "$sha256.*?zip"

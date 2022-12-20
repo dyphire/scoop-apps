@@ -8,7 +8,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://ghproxy.com/github.com/git-town/git-town/releases/download/v7.8.0/git-town_7.8.0_windows_intel_64.zip",
+            "url": "https://github.com/git-town/git-town/releases/download/v7.8.0/git-town_7.8.0_windows_intel_64.zip",
             "hash": "45bd266909d65e1bec79d004e2c9cdcbb3cfd574df8c1ad491655817f80300b4"
         }
     },
@@ -19,7 +19,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://ghproxy.com/github.com/git-town/git-town/releases/download/v$version/git-town_$version_windows_intel_64.zip"
+                "url": "https://github.com/git-town/git-town/releases/download/v$version/git-town_$version_windows_intel_64.zip"
             }
         }
     }

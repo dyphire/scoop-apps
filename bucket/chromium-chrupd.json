@@ -1,0 +1,19 @@
+{
+    "autoupdate": {
+        "extract_dir": "chrupd-$matchSha",
+        "url": "https://github.com/mkorthof/chrupd/archive/$matchSha.zip"
+    },
+    "bin": "chrupd.cmd",
+    "checkver": {
+        "regex": "(?s)>(\\d+)-(\\d+)-(\\d+)T.*?/(?<sha>[0-9a-f]{40})",
+        "replace": "0.${1}.${2}.${3}",
+        "url": "https://github.com/mkorthof/chrupd/commits/master.atom"
+    },
+    "description": "Simple Chromium command-line Updater",
+    "extract_dir": "chrupd-6c449adb505677d5dd61720d2e2066758afb6e62",
+    "hash": "07b572f81beeea0fc13d36b2c4c2001454967ec78615bb8f46973f038e6f394c",
+    "homepage": "https://github.com/mkorthof/chrupd",
+    "license": "GPL-2.0-only",
+    "url": "https://github.com/mkorthof/chrupd/archive/6c449adb505677d5dd61720d2e2066758afb6e62.zip",
+    "version": "0.2022.12.03"
+}

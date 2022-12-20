@@ -5,11 +5,11 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://ghproxy.com/github.com/gopasspw/gopass/releases/download/v1.15.2/gopass-1.15.2-windows-amd64.zip",
+            "url": "https://github.com/gopasspw/gopass/releases/download/v1.15.2/gopass-1.15.2-windows-amd64.zip",
             "hash": "0046e492f5a8fa1ee02730caecb2656b70c1dd59749833d30f2864538aef13c7"
         },
         "arm64": {
-            "url": "https://ghproxy.com/github.com/gopasspw/gopass/releases/download/v1.15.2/gopass-1.15.2-windows-arm64.zip",
+            "url": "https://github.com/gopasspw/gopass/releases/download/v1.15.2/gopass-1.15.2-windows-arm64.zip",
             "hash": "642bdf7c609ef46986ec9aa8d20fd373119dc086dcf0ff3e5cfc1c9e9783e684"
         }
     },
@@ -20,10 +20,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://ghproxy.com/github.com/gopasspw/gopass/releases/download/v$version/gopass-$version-windows-amd64.zip"
+                "url": "https://github.com/gopasspw/gopass/releases/download/v$version/gopass-$version-windows-amd64.zip"
             },
             "arm64": {
-                "url": "https://ghproxy.com/github.com/gopasspw/gopass/releases/download/v$version/gopass-$version-windows-arm64.zip"
+                "url": "https://github.com/gopasspw/gopass/releases/download/v$version/gopass-$version-windows-arm64.zip"
             }
         },
         "hash": {

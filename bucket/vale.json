@@ -5,7 +5,7 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://ghproxy.com/github.com/errata-ai/vale/releases/download/v2.21.3/vale_2.21.3_Windows_64-bit.zip",
+            "url": "https://github.com/errata-ai/vale/releases/download/v2.21.3/vale_2.21.3_Windows_64-bit.zip",
             "hash": "2617f6c242881b1572b8a03830217204ed951fe2b668a322eb91de850bbb5c43"
         }
     },
@@ -16,7 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://ghproxy.com/github.com/errata-ai/vale/releases/download/v$version/vale_$version_Windows_64-bit.zip"
+                "url": "https://github.com/errata-ai/vale/releases/download/v$version/vale_$version_Windows_64-bit.zip"
             }
         },
         "hash": {

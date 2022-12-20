@@ -6,7 +6,7 @@
     "suggest": {
         "JDK": "java/openjdk"
     },
-    "url": "https://ghproxy.com/github.com/quarkusio/quarkus/releases/download/2.15.0.Final/quarkus-cli-2.15.0.Final.zip",
+    "url": "https://github.com/quarkusio/quarkus/releases/download/2.15.0.Final/quarkus-cli-2.15.0.Final.zip",
     "extract_dir": "quarkus-cli-2.15.0.Final",
     "hash": "34fdd595a1d5abce727f491e4bfd64814b1c403a57a98a0f1ad3b536d87bf6c1",
     "bin": "bin\\quarkus.bat",
@@ -16,7 +16,7 @@
         "regex": "([\\d+\\.]+)\\.Final"
     },
     "autoupdate": {
-        "url": "https://ghproxy.com/github.com/quarkusio/quarkus/releases/download/$version.Final/quarkus-cli-$version.Final.zip",
+        "url": "https://github.com/quarkusio/quarkus/releases/download/$version.Final/quarkus-cli-$version.Final.zip",
         "extract_dir": "quarkus-cli-$version.Final",
         "hash": {
             "url": "$baseurl/checksums_sha256.txt"

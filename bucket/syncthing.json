@@ -6,12 +6,12 @@
     "notes": "To start syncthing automatically, use a method described at https://github.com/syncthing/docs/blob/main/users/autostart.rst#windows",
     "architecture": {
         "64bit": {
-            "url": "https://ghproxy.com/github.com/syncthing/syncthing/releases/download/v1.22.2/syncthing-windows-amd64-v1.22.2.zip",
+            "url": "https://github.com/syncthing/syncthing/releases/download/v1.22.2/syncthing-windows-amd64-v1.22.2.zip",
             "hash": "d7fab2da5687609d8b5feb5c3278790eaa4a3c148e46567b08c4c8329cc82c3a",
             "extract_dir": "syncthing-windows-amd64-v1.22.2"
         },
         "32bit": {
-            "url": "https://ghproxy.com/github.com/syncthing/syncthing/releases/download/v1.22.2/syncthing-windows-386-v1.22.2.zip",
+            "url": "https://github.com/syncthing/syncthing/releases/download/v1.22.2/syncthing-windows-386-v1.22.2.zip",
             "hash": "3453b888efc354c92762ff8ac98cab2908b822a14114441cb6e002a223148560",
             "extract_dir": "syncthing-windows-386-v1.22.2"
         }
@@ -37,11 +37,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://ghproxy.com/github.com/syncthing/syncthing/releases/download/v$version/syncthing-windows-amd64-v$version.zip",
+                "url": "https://github.com/syncthing/syncthing/releases/download/v$version/syncthing-windows-amd64-v$version.zip",
                 "extract_dir": "syncthing-windows-amd64-v$version"
             },
             "32bit": {
-                "url": "https://ghproxy.com/github.com/syncthing/syncthing/releases/download/v$version/syncthing-windows-386-v$version.zip",
+                "url": "https://github.com/syncthing/syncthing/releases/download/v$version/syncthing-windows-386-v$version.zip",
                 "extract_dir": "syncthing-windows-386-v$version"
             }
         },

@@ -5,7 +5,7 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://ghproxy.com/github.com/aws/copilot-cli/releases/download/v1.24.0/copilot-windows.exe#/copilot.exe",
+            "url": "https://github.com/aws/copilot-cli/releases/download/v1.24.0/copilot-windows.exe#/copilot.exe",
             "hash": "5628045dc4715a47b04f97b7a8050c08b0126b1817a675c77ada51433fe3d393"
         }
     },
@@ -16,7 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://ghproxy.com/github.com/aws/copilot-cli/releases/download/v$version/copilot-windows.exe#/copilot.exe"
+                "url": "https://github.com/aws/copilot-cli/releases/download/v$version/copilot-windows.exe#/copilot.exe"
             }
         }
     }

@@ -5,7 +5,7 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://ghproxy.com/github.com/coredns/coredns/releases/download/v1.10.0/coredns_1.10.0_windows_amd64.tgz",
+            "url": "https://github.com/coredns/coredns/releases/download/v1.10.0/coredns_1.10.0_windows_amd64.tgz",
             "hash": "bf9a586ccc01261d72692c9418a4cedc2bdb4c2783f41f60924da2e386727356"
         }
     },
@@ -16,7 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://ghproxy.com/github.com/coredns/coredns/releases/download/v$version/coredns_$version_windows_amd64.tgz"
+                "url": "https://github.com/coredns/coredns/releases/download/v$version/coredns_$version_windows_amd64.tgz"
             }
         },
         "hash": {

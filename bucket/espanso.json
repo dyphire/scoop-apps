@@ -8,7 +8,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://ghproxy.com/github.com/federico-terzi/espanso/releases/download/v0.7.3/espanso-win-installer.exe",
+            "url": "https://github.com/federico-terzi/espanso/releases/download/v0.7.3/espanso-win-installer.exe",
             "hash": "5b19d107601f736a072610f926044f5bae537590f47d67bfd358b8652d261c98"
         }
     },
@@ -29,7 +29,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://ghproxy.com/github.com/federico-terzi/espanso/releases/download/v$version/espanso-win-installer.exe",
+                "url": "https://github.com/federico-terzi/espanso/releases/download/v$version/espanso-win-installer.exe",
                 "hash": {
                     "url": "$baseurl/espanso-win-installer-sha256.txt"
                 }

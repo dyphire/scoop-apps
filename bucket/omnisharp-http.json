@@ -6,11 +6,11 @@
     "notes": "For omnisharp-http-net6, please install 'versions/omnisharp-http-net6",
     "architecture": {
         "64bit": {
-            "url": "https://ghproxy.com/github.com/OmniSharp/omnisharp-roslyn/releases/download/v1.39.2/omnisharp.http-win-x64.zip",
+            "url": "https://github.com/OmniSharp/omnisharp-roslyn/releases/download/v1.39.2/omnisharp.http-win-x64.zip",
             "hash": "eb29befa1d0e8cccea7ef2cb14b345566b470103fbbea7a41a12df729819cfba"
         },
         "32bit": {
-            "url": "https://ghproxy.com/github.com/OmniSharp/omnisharp-roslyn/releases/download/v1.39.2/omnisharp.http-win-x86.zip",
+            "url": "https://github.com/OmniSharp/omnisharp-roslyn/releases/download/v1.39.2/omnisharp.http-win-x86.zip",
             "hash": "2953ac82daf3832a1baaa263700a83e41d8f3954e99ffb68fef23226f2a70b70"
         }
     },
@@ -27,10 +27,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://ghproxy.com/github.com/OmniSharp/omnisharp-roslyn/releases/download/v$version/omnisharp.http-win-x64.zip"
+                "url": "https://github.com/OmniSharp/omnisharp-roslyn/releases/download/v$version/omnisharp.http-win-x64.zip"
             },
             "32bit": {
-                "url": "https://ghproxy.com/github.com/OmniSharp/omnisharp-roslyn/releases/download/v$version/omnisharp.http-win-x86.zip"
+                "url": "https://github.com/OmniSharp/omnisharp-roslyn/releases/download/v$version/omnisharp.http-win-x86.zip"
             }
         }
     }

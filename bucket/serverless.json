@@ -5,7 +5,7 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://ghproxy.com/github.com/serverless/serverless/releases/download/v3.25.1/serverless-win-x64.exe#/serverless.exe",
+            "url": "https://github.com/serverless/serverless/releases/download/v3.25.1/serverless-win-x64.exe#/serverless.exe",
             "hash": "074db35ad9adab2f042011b50763b2a284a8c9821b4646ec58608d6f479ab6e9"
         }
     },
@@ -16,7 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://ghproxy.com/github.com/serverless/serverless/releases/download/v$version/serverless-win-x64.exe#/serverless.exe"
+                "url": "https://github.com/serverless/serverless/releases/download/v$version/serverless-win-x64.exe#/serverless.exe"
             }
         }
     }

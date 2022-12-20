@@ -5,7 +5,7 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://ghproxy.com/github.com/PaddiM8/kalker/releases/download/v2.0.1/kalker-windows.msi",
+            "url": "https://github.com/PaddiM8/kalker/releases/download/v2.0.1/kalker-windows.msi",
             "hash": "aad77103874f8f0fc5fcead245de65da5d03c633d5825426be4acd7bf600a911"
         }
     },
@@ -17,7 +17,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://ghproxy.com/github.com/PaddiM8/kalker/releases/download/v$version/kalker-windows.msi"
+                "url": "https://github.com/PaddiM8/kalker/releases/download/v$version/kalker-windows.msi"
             }
         }
     }

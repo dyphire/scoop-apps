@@ -5,11 +5,11 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://ghproxy.com/github.com/zu1k/nali/releases/download/v0.7.0/nali-windows-amd64-v0.7.0.zip",
+            "url": "https://github.com/zu1k/nali/releases/download/v0.7.0/nali-windows-amd64-v0.7.0.zip",
             "hash": "773e55894f0dfea65d9e01dba5842b6bb6fdf501f75c63ed87fdb7ea72e99ceb"
         },
         "32bit": {
-            "url": "https://ghproxy.com/github.com/zu1k/nali/releases/download/v0.7.0/nali-windows-386-v0.7.0.zip",
+            "url": "https://github.com/zu1k/nali/releases/download/v0.7.0/nali-windows-386-v0.7.0.zip",
             "hash": "128ac436ae81941be42568b4bb6b0a1a8e8aa726f0b5d110f183963a852d4ea2"
         }
     },
@@ -19,10 +19,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://ghproxy.com/github.com/zu1k/nali/releases/download/v$version/nali-windows-amd64-v$version.zip"
+                "url": "https://github.com/zu1k/nali/releases/download/v$version/nali-windows-amd64-v$version.zip"
             },
             "32bit": {
-                "url": "https://ghproxy.com/github.com/zu1k/nali/releases/download/v$version/nali-windows-386-v$version.zip"
+                "url": "https://github.com/zu1k/nali/releases/download/v$version/nali-windows-386-v$version.zip"
             }
         }
     }

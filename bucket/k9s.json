@@ -5,7 +5,7 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://ghproxy.com/github.com/derailed/k9s/releases/download/v0.26.7/k9s_Windows_x86_64.tar.gz",
+            "url": "https://github.com/derailed/k9s/releases/download/v0.26.7/k9s_Windows_x86_64.tar.gz",
             "hash": "258fed7fbfb3a70b249bd36d7a01bc568fcb4761274b39630456b0c8b8e4c10e"
         }
     },
@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://ghproxy.com/github.com/derailed/k9s/releases/download/v$version/k9s_Windows_x86_64.tar.gz"
+                "url": "https://github.com/derailed/k9s/releases/download/v$version/k9s_Windows_x86_64.tar.gz"
             }
         },
         "hash": {

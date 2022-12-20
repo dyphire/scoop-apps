@@ -1,0 +1,62 @@
+{
+    "architecture": {
+        "32bit": {
+            "hash": [
+                "1d82f4247849c149ba1926f4cfb8c6492af783cc684a59abeef08d0526c869a1",
+                "cdbc4c6fff369d3cd10220075ef5be61e2631e3ada35b47d555c6b41b2e656f0"
+            ],
+            "url": [
+                "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.20.11/Clash.for.Windows-0.20.11-ia32-win.7z",
+                "https://github.com/BoyceLig/Clash_Chinese_Patch/releases/download/0.20.11/app.7z"
+            ]
+        },
+        "64bit": {
+            "hash": [
+                "68032d6654963e51756877e3f8667f139df7355c3b227865b00435d766d9091c",
+                "cdbc4c6fff369d3cd10220075ef5be61e2631e3ada35b47d555c6b41b2e656f0"
+            ],
+            "url": [
+                "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.20.11/Clash.for.Windows-0.20.11-win.7z",
+                "https://github.com/BoyceLig/Clash_Chinese_Patch/releases/download/0.20.11/app.7z"
+            ]
+        }
+    },
+    "autoupdate": {
+        "architecture": {
+            "32bit": {
+                "url": [
+                    "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/$version/Clash.for.Windows-$version-ia32-win.7z",
+                    "https://github.com/BoyceLig/Clash_Chinese_Patch/releases/download/$version/app.7z"
+                ]
+            },
+            "64bit": {
+                "url": [
+                    "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/$version/Clash.for.Windows-$version-win.7z",
+                    "https://github.com/BoyceLig/Clash_Chinese_Patch/releases/download/$version/app.7z"
+                ]
+            }
+        }
+    },
+    "bin": "Clash for Windows.exe",
+    "checkver": {
+        "github": "https://github.com/BoyceLig/Clash_Chinese_Patch"
+    },
+    "description": "Clash For Windows CN Portable",
+    "homepage": "https://github.com/Fndroid/clash_for_windows_pkg",
+    "license": {
+        "identifier": "Freeware"
+    },
+    "notes": [
+        "Wiki: <https://github.com/Fndroid/clash_for_windows_pkg/wiki>",
+        "Docs: <https://docs.cfw.lbyczf.com/contents/quickstart.html>"
+    ],
+    "persist": "data",
+    "post_install": "Move-Item \"$dir\\app.asar\" \"$dir\\resources\" -Force",
+    "shortcuts": [
+        [
+            "Clash for Windows.exe",
+            "Clash for Windows"
+        ]
+    ],
+    "version": "0.20.11"
+}

@@ -13,11 +13,11 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://ghproxy.com/github.com/git-for-windows/git/releases/download/v2.39.0.windows.1/MinGit-2.39.0-busybox-64-bit.zip",
+            "url": "https://github.com/git-for-windows/git/releases/download/v2.39.0.windows.1/MinGit-2.39.0-busybox-64-bit.zip",
             "hash": "a5d177bceeddfecc97c2340f0c8bc97d55ba113c4cd5b6b7d58e513dccb3d74f"
         },
         "32bit": {
-            "url": "https://ghproxy.com/github.com/git-for-windows/git/releases/download/v2.39.0.windows.1/MinGit-2.39.0-busybox-32-bit.zip",
+            "url": "https://github.com/git-for-windows/git/releases/download/v2.39.0.windows.1/MinGit-2.39.0-busybox-32-bit.zip",
             "hash": "cb8371cbba56562f7af1d54281afb24bfa23395a57a0868398f644a79c2fea2a"
         }
     },
@@ -35,10 +35,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://ghproxy.com/github.com/git-for-windows/git/releases/download/v$version/MinGit-$matchFull-busybox-64-bit.zip"
+                "url": "https://github.com/git-for-windows/git/releases/download/v$version/MinGit-$matchFull-busybox-64-bit.zip"
             },
             "32bit": {
-                "url": "https://ghproxy.com/github.com/git-for-windows/git/releases/download/v$version/MinGit-$matchFull-busybox-32-bit.zip"
+                "url": "https://github.com/git-for-windows/git/releases/download/v$version/MinGit-$matchFull-busybox-32-bit.zip"
             }
         },
         "hash": {

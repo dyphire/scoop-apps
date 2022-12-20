@@ -5,11 +5,11 @@
     "license": "MIT",
     "architecture": {
         "32bit": {
-            "url": "https://ghproxy.com/github.com/sass/dart-sass-embedded/releases/download/1.56.1/sass_embedded-1.56.1-windows-ia32.zip",
+            "url": "https://github.com/sass/dart-sass-embedded/releases/download/1.56.1/sass_embedded-1.56.1-windows-ia32.zip",
             "hash": ""
         },
         "64bit": {
-            "url": "https://ghproxy.com/github.com/sass/dart-sass-embedded/releases/download/1.56.2/sass_embedded-1.56.2-windows-ia32.zip",
+            "url": "https://github.com/sass/dart-sass-embedded/releases/download/1.56.2/sass_embedded-1.56.2-windows-ia32.zip",
             "hash": "0e369b733084daefd6fbc3838a0e013245337b57c3343705c6e41c554585678a"
         }
     },
@@ -20,10 +20,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://ghproxy.com/github.com/sass/dart-sass-embedded/releases/download/$version/sass_embedded-$version-windows-ia32.zip"
+                "url": "https://github.com/sass/dart-sass-embedded/releases/download/$version/sass_embedded-$version-windows-ia32.zip"
             },
             "arm64": {
-                "url": "https://ghproxy.com/github.com/sass/dart-sass-embedded/releases/download/$version/sass_embedded-$version-windows-x64.zip"
+                "url": "https://github.com/sass/dart-sass-embedded/releases/download/$version/sass_embedded-$version-windows-x64.zip"
             }
         }
     }

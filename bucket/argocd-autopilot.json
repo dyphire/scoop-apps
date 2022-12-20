@@ -5,7 +5,7 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://ghproxy.com/github.com/argoproj-labs/argocd-autopilot/releases/download/v0.4.8/argocd-autopilot-windows-amd64.tar.gz",
+            "url": "https://github.com/argoproj-labs/argocd-autopilot/releases/download/v0.4.8/argocd-autopilot-windows-amd64.tar.gz",
             "hash": "8de5a0b5eb67bac9ea2c7f97263fc9f2b4de4d7cc19c81b889842f66f67bcfc2"
         }
     },
@@ -15,9 +15,9 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://ghproxy.com/github.com/argoproj-labs/argocd-autopilot/releases/download/v$version/argocd-autopilot-windows-amd64.tar.gz",
+                "url": "https://github.com/argoproj-labs/argocd-autopilot/releases/download/v$version/argocd-autopilot-windows-amd64.tar.gz",
                 "hash": {
-                    "url": "https://ghproxy.com/github.com/argoproj-labs/argocd-autopilot/releases/download/v$version/argocd-autopilot-windows-amd64.sha256"
+                    "url": "https://github.com/argoproj-labs/argocd-autopilot/releases/download/v$version/argocd-autopilot-windows-amd64.sha256"
                 }
             }
         }

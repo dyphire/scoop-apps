@@ -1,0 +1,31 @@
+{
+    "homepage": "http://pdm.fming.dev",
+    "version": "2.3.3",
+    "license": "MIT",
+    "url": "https://files.pythonhosted.org/packages/1a/06/26b16e8d0bf85609d50dccbafcf4e96cf797940f4bc13167f67942c71e31/pdm-2.3.3-py3-none-any.whl",
+    "depends": "python",
+    "hash": "6128cadb1d859f340b0ec34a958eeddfc8a6ffb5467332667b8085b6f79e25d2",
+    "bin": "venv\\Scripts\\pdm.exe",
+    "installer": {
+        "script": [
+            "python -m venv \"$dir\\venv\"",
+            "& \"$dir\\venv\\Scripts\\python.exe\" -m pip install \"$dir\\$fname\""
+        ]
+    },
+    "post_install": "& \"$dir\\venv\\Scripts\\pdm.exe\" --pep582",
+    "uninstaller": {
+        "script": [
+            "$oldPath = [Environment]::GetEnvironmentVariable(\"PYTHONPATH\", [System.EnvironmentVariableTarget]::User)",
+            "$newPath = ($oldPath.Split(';') | Where { $_ -notlike \"$dir\\venv\\*\" }) -join ';'",
+            "[Environment]::SetEnvironmentVariable(\"PYTHONPATH\", $newPath, [System.EnvironmentVariableTarget]::User)"
+        ]
+    },
+    "checkver": {
+        "url": "https://pypi.org/project/pdm/#files",
+        "re": "https://files.pythonhosted.org/(packages/.*/pdm-(?<version>[\\d.]+)-.*\\.whl)",
+        "replace": "${version}"
+    },
+    "autoupdate": {
+        "url": "https://files.pythonhosted.org/$match1"
+    }
+}

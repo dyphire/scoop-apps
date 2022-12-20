@@ -5,11 +5,11 @@
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://ghproxy.com/github.com/get-iplayer/get_iplayer_win32/releases/download/3.30.0/get_iplayer-3.30.0-windows-x64-setup.exe",
+            "url": "https://github.com/get-iplayer/get_iplayer_win32/releases/download/3.30.0/get_iplayer-3.30.0-windows-x64-setup.exe",
             "hash": "430fd54e4c438a4b4d76876e87b82e9f72d3e2c4538296cb443f6aa296d1cd31"
         },
         "32bit": {
-            "url": "https://ghproxy.com/github.com/get-iplayer/get_iplayer_win32/releases/download/3.30.0/get_iplayer-3.30.0-windows-x86-setup.exe",
+            "url": "https://github.com/get-iplayer/get_iplayer_win32/releases/download/3.30.0/get_iplayer-3.30.0-windows-x86-setup.exe",
             "hash": "2d916bf66287a69dc6fcea42f8a25399eb020995078021394c74cb43345f4952"
         }
     },
@@ -70,10 +70,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://ghproxy.com/github.com/get-iplayer/get_iplayer_win32/releases/download/$version/get_iplayer-$version-windows-x64-setup.exe"
+                "url": "https://github.com/get-iplayer/get_iplayer_win32/releases/download/$version/get_iplayer-$version-windows-x64-setup.exe"
             },
             "32bit": {
-                "url": "https://ghproxy.com/github.com/get-iplayer/get_iplayer_win32/releases/download/$version/get_iplayer-$version-windows-x86-setup.exe"
+                "url": "https://github.com/get-iplayer/get_iplayer_win32/releases/download/$version/get_iplayer-$version-windows-x86-setup.exe"
             }
         },
         "hash": {

@@ -5,7 +5,7 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://ghproxy.com/github.com/marp-team/marp-cli/releases/download/v2.2.2/marp-cli-v2.2.2-win.zip",
+            "url": "https://github.com/marp-team/marp-cli/releases/download/v2.2.2/marp-cli-v2.2.2-win.zip",
             "hash": "6f01b305618f5ccabf23767c2f7e0501dc95302b9ef4f4deeb2ca473e51c3983"
         }
     },
@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://ghproxy.com/github.com/marp-team/marp-cli/releases/download/v$version/marp-cli-v$version-win.zip"
+                "url": "https://github.com/marp-team/marp-cli/releases/download/v$version/marp-cli-v$version-win.zip"
             }
         }
     }

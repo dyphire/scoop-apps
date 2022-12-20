@@ -1,10 +1,47 @@
 {
-    "version": "1671427394556",
-    "homepage": "https://code.visualstudio.com/",
-    "description": "Visual Studio Code is a lightweight but powerful source code editor (Portable Edition).",
-    "license": {
-        "identifier": "Freeware",
-        "url": "https://code.visualstudio.com/License/"
+    "architecture": {
+        "32bit": {
+            "hash": [
+                "ea1e5bdaf8caceab4df0cdc5ad09dde05bd658acd752bfb07b2585f2334f34be",
+                "b65d66860d9ccc18bfb05237b03e06db0d6c574be3d4b946c2a5e6865c08cb28",
+                "df2a5162e72e2518e2b75b4337c8e7b46c136554872af90fa0de1cf6ebef376f"
+            ],
+            "url": [
+                "https://code.visualstudio.com/sha/download?build=insider&os=win32-archive#/dl.7z",
+                "https://raw.githubusercontent.com/naderi/scoop-bucket/master/scripts/visual-studio-code/vscode-install-context.reg",
+                "https://raw.githubusercontent.com/naderi/scoop-bucket/master/scripts/visual-studio-code/vscode-uninstall-context.reg"
+            ]
+        },
+        "64bit": {
+            "hash": [
+                "c552792344c5e85af8816d017ded87303bb6f7200c6519024571b17cdb87341f",
+                "b65d66860d9ccc18bfb05237b03e06db0d6c574be3d4b946c2a5e6865c08cb28",
+                "df2a5162e72e2518e2b75b4337c8e7b46c136554872af90fa0de1cf6ebef376f"
+            ],
+            "url": [
+                "https://code.visualstudio.com/sha/download?build=insider&os=win32-x64-archive#/dl.7z",
+                "https://raw.githubusercontent.com/naderi/scoop-bucket/master/scripts/visual-studio-code/vscode-install-context.reg",
+                "https://raw.githubusercontent.com/naderi/scoop-bucket/master/scripts/visual-studio-code/vscode-uninstall-context.reg"
+            ]
+        }
+    },
+    "autoupdate": {
+        "architecture": {
+            "32bit": {
+                "hash": {
+                    "jsonpath": "$.products[?(@.platform.os == 'win32-archive')].sha256hash",
+                    "url": "https://code.visualstudio.com/sha?build=insider"
+                },
+                "url": "https://code.visualstudio.com/sha/download?build=insider&os=win32-archive#/dl.7z"
+            },
+            "64bit": {
+                "hash": {
+                    "jsonpath": "$.products[?(@.platform.os == 'win32-x64-archive')].sha256hash",
+                    "url": "https://code.visualstudio.com/sha?build=insider"
+                },
+                "url": "https://code.visualstudio.com/sha/download?build=insider&os=win32-x64-archive#/dl.7z"
+            }
+        }
     },
     "bin": [
         [
@@ -12,11 +49,21 @@
             "code-insiders"
         ]
     ],
-    "shortcuts": [
-        [
-            "Code - Insiders.exe",
-            "Visual Studio Code - Insiders"
-        ]
+    "checkver": {
+        "jsonpath": "$.products[?(@.platform.os == 'win32-x64-archive')].timestamp",
+        "url": "https://code.visualstudio.com/sha?build=insider"
+    },
+    "description": "Visual Studio Code is a lightweight but powerful source code editor (Portable Edition).",
+    "homepage": "https://code.visualstudio.com/",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://code.visualstudio.com/License/"
+    },
+    "notes": [
+        "Visual Studio Code now supports Portable Mode! Please move the following directories:",
+        "From \"$env:USERPROFILE\\.vscode-insiders\\extensions\" to \"$env:SCOOP\\persist\\vscode-insider\\data\\extensions\"",
+        "From \"$env:APPDATA\\Code - Insiders\" to \"$env:SCOOP\\persist\\vscode-insider\\data\\user-data\"",
+        "Add Visual Studio Code as a context menu option by running: \"$dir\\vscode-install-context.reg\""
     ],
     "persist": "data",
     "post_install": [
@@ -39,58 +86,11 @@
         "  $content | Set-Content -Path \"$dir\\vscode-uninstall-context.reg\"",
         "}"
     ],
-    "architecture": {
-        "64bit": {
-            "url": [
-                "https://code.visualstudio.com/sha/download?build=insider&os=win32-x64-archive#/dl.7z",
-                "https://raw.githubusercontent.com/naderi/scoop-bucket/master/scripts/visual-studio-code/vscode-install-context.reg",
-                "https://raw.githubusercontent.com/naderi/scoop-bucket/master/scripts/visual-studio-code/vscode-uninstall-context.reg"
-            ],
-            "hash": [
-                "a92e26282f7b0e1dfda29908ed849e22814b9757e5b2576b71cbd545dfa70125",
-                "b65d66860d9ccc18bfb05237b03e06db0d6c574be3d4b946c2a5e6865c08cb28",
-                "df2a5162e72e2518e2b75b4337c8e7b46c136554872af90fa0de1cf6ebef376f"
-            ]
-        },
-        "32bit": {
-            "url": [
-                "https://code.visualstudio.com/sha/download?build=insider&os=win32-archive#/dl.7z",
-                "https://raw.githubusercontent.com/naderi/scoop-bucket/master/scripts/visual-studio-code/vscode-install-context.reg",
-                "https://raw.githubusercontent.com/naderi/scoop-bucket/master/scripts/visual-studio-code/vscode-uninstall-context.reg"
-            ],
-            "hash": [
-                "3b41dfbf61f5681d7390abb1524219c9518af616cadfc841942327c3d815038d",
-                "b65d66860d9ccc18bfb05237b03e06db0d6c574be3d4b946c2a5e6865c08cb28",
-                "df2a5162e72e2518e2b75b4337c8e7b46c136554872af90fa0de1cf6ebef376f"
-            ]
-        }
-    },
-    "checkver": {
-        "url": "https://code.visualstudio.com/sha?build=insider",
-        "jsonpath": "$.products[?(@.platform.os == 'win32-x64-archive')].timestamp"
-    },
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://code.visualstudio.com/sha/download?build=insider&os=win32-x64-archive#/dl.7z",
-                "hash": {
-                    "url": "https://code.visualstudio.com/sha?build=insider",
-                    "jsonpath": "$.products[?(@.platform.os == 'win32-x64-archive')].sha256hash"
-                }
-            },
-            "32bit": {
-                "url": "https://code.visualstudio.com/sha/download?build=insider&os=win32-archive#/dl.7z",
-                "hash": {
-                    "url": "https://code.visualstudio.com/sha?build=insider",
-                    "jsonpath": "$.products[?(@.platform.os == 'win32-archive')].sha256hash"
-                }
-            }
-        }
-    },
-    "notes": [
-        "Visual Studio Code now supports Portable Mode! Please move the following directories:",
-        "From \"$env:USERPROFILE\\.vscode-insiders\\extensions\" to \"$env:SCOOP\\persist\\vscode-insider\\data\\extensions\"",
-        "From \"$env:APPDATA\\Code - Insiders\" to \"$env:SCOOP\\persist\\vscode-insider\\data\\user-data\"",
-        "Add Visual Studio Code as a context menu option by running: \"$dir\\vscode-install-context.reg\""
-    ]
+    "shortcuts": [
+        [
+            "Code - Insiders.exe",
+            "Visual Studio Code - Insiders"
+        ]
+    ],
+    "version": "1671168072164"
 }

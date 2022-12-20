@@ -1,0 +1,30 @@
+{
+    "version": "1.56.2",
+    "description": "A wrapper for Dart Sass that implements the compiler side of the Embedded Sass protocol",
+    "homepage": "https://github.com/sass/dart-sass-embedded",
+    "license": "MIT",
+    "architecture": {
+        "32bit": {
+            "url": "https://ghproxy.com/github.com/sass/dart-sass-embedded/releases/download/1.56.1/sass_embedded-1.56.1-windows-ia32.zip",
+            "hash": ""
+        },
+        "64bit": {
+            "url": "https://ghproxy.com/github.com/sass/dart-sass-embedded/releases/download/1.56.2/sass_embedded-1.56.2-windows-ia32.zip",
+            "hash": "0e369b733084daefd6fbc3838a0e013245337b57c3343705c6e41c554585678a"
+        }
+    },
+    "bin": "sass_embedded\\dart-sass-embedded.bat",
+    "checkver": {
+        "github": "https://github.com/sass/dart-sass-embedded"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://ghproxy.com/github.com/sass/dart-sass-embedded/releases/download/$version/sass_embedded-$version-windows-ia32.zip"
+            },
+            "arm64": {
+                "url": "https://ghproxy.com/github.com/sass/dart-sass-embedded/releases/download/$version/sass_embedded-$version-windows-x64.zip"
+            }
+        }
+    }
+}

@@ -5,7 +5,7 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://ghproxy.com/github.com/xo/usql/releases/download/v0.13.1/usql-0.13.1-windows-amd64.zip",
+            "url": "https://github.com/xo/usql/releases/download/v0.13.1/usql-0.13.1-windows-amd64.zip",
             "hash": "3cd90f842d077439aac8f0e369f8db7918c7dce6915fd480ebac6a705c369fe8"
         }
     },
@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://ghproxy.com/github.com/xo/usql/releases/download/v$version/usql-$version-windows-amd64.zip"
+                "url": "https://github.com/xo/usql/releases/download/v$version/usql-$version-windows-amd64.zip"
             }
         }
     }

@@ -8,7 +8,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://ghproxy.com/github.com/github/codeql-cli-binaries/releases/download/v2.11.6/codeql-win64.zip",
+            "url": "https://github.com/github/codeql-cli-binaries/releases/download/v2.11.6/codeql-win64.zip",
             "hash": "1f762d13a5b3e088b1b65dce4d9633021084377bb07d4c8c31dab4b30a8a835f",
             "extract_dir": "codeql"
         }
@@ -18,7 +18,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://ghproxy.com/github.com/github/codeql-cli-binaries/releases/download/v$version/codeql-win64.zip"
+                "url": "https://github.com/github/codeql-cli-binaries/releases/download/v$version/codeql-win64.zip"
             }
         }
     }

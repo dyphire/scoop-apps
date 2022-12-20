@@ -1,0 +1,25 @@
+{
+    "autoupdate": {
+        "url": "https://$matchUrl/TencentVideo$version.exe#/dl.7z"
+    },
+    "checkver": {
+        "regex": "//(?<url>[^\"]+)/TencentVideo([\\d\\.]+)\\.exe",
+        "url": "https://v.qq.com/download.html"
+    },
+    "description": "腾讯视频是腾讯推出的在线视频媒体平台。",
+    "hash": "80d3bf30784ba60e0ccf1bd1138024917db5a16308430a7c7377b38de011544f",
+    "homepage": "https://v.qq.com/",
+    "license": "BSD-3-Clause",
+    "post_install": [
+        "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$TEMP\" -Force -Recurse",
+        "Copy-Item \"$dir\\QQLive.tpc\" \"$dir\\instok\""
+    ],
+    "shortcuts": [
+        [
+            "QQLive.exe",
+            "QQLive"
+        ]
+    ],
+    "url": "https://dldir1.qq.com/qqtv/TencentVideo11.60.7102.0.exe#/dl.7z",
+    "version": "11.60.7102.0"
+}

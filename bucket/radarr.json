@@ -1,18 +1,43 @@
 {
-    "homepage": "https://github.com/Radarr/Radarr",
     "version": "4.2.4.6635",
-    "license": "MIT",
-    "url": "https://github.com/Radarr/Radarr/releases/download/v4.2.4.6635/Radarr.master.4.2.4.6635.windows-core-x64.zip",
-    "hash": "99374f37f0ef7051a1e696591f1de165316649666d15a293ebe8e76986e3a48d",
+    "homepage": "https://radarr.video/",
+    "description": "A movie collection manager with several features for Usenet and BitTorrent users.",
+    "license": "GPL-3.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Radarr/Radarr/releases/download/v4.2.4.6635/Radarr.master.4.2.4.6635.windows-core-x64.zip",
+            "hash": "99374F37F0EF7051A1E696591F1DE165316649666D15A293EBE8E76986E3A48D"
+        },
+        "32bit": {
+            "url": "https://github.com/Radarr/Radarr/releases/download/v4.2.4.6635/Radarr.master.4.2.4.6635.windows-core-x86.zip",
+            "hash": "A6D56858DE674ED88451697CE07D4CFDB488CBE1590BEEDB41F17E71CF2AF11E"
+        }
+    },
     "extract_dir": "Radarr",
+    "bin": [
+        "Radarr.Console.exe",
+        [
+            "Radarr.Console.exe",
+            "Radarr"
+        ]
+    ],
     "shortcuts": [
         [
             "Radarr.exe",
             "Radarr"
         ]
     ],
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/Radarr/Radarr"
+    },
     "autoupdate": {
-        "url": "https://github.com/Radarr/Radarr/releases/download/v$version/Radarr.master.$version.windows-core-x64.zip"
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Radarr/Radarr/releases/download/v$version/Radarr.master.$version.windows-core-x64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/Radarr/Radarr/releases/download/v$version/Radarr.master.$version.windows-core-x86.zip"
+            }
+        }
     }
 }

@@ -6,11 +6,11 @@
     "license": "LGPL-2.1-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://ghproxy.com/github.com/vapoursynth/vapoursynth/releases/download/R61/VapourSynth64-Portable-R61.7z",
+            "url": "https://github.com/vapoursynth/vapoursynth/releases/download/R61/VapourSynth64-Portable-R61.7z",
             "hash": "910e2f5fde95f07c64168537c14bbfd4ceb0fb6cbf4ed86d77feb62cbf664d85"
         },
         "32bit": {
-            "url": "https://ghproxy.com/github.com/vapoursynth/vapoursynth/releases/download/R61/VapourSynth64-Portable-R61.7z",
+            "url": "https://github.com/vapoursynth/vapoursynth/releases/download/R61/VapourSynth64-Portable-R61.7z",
             "hash": "910e2f5fde95f07c64168537c14bbfd4ceb0fb6cbf4ed86d77feb62cbf664d85"
         }
     },
@@ -38,10 +38,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://ghproxy.com/github.com/vapoursynth/vapoursynth/releases/download/R$version/VapourSynth64-Portable-R$version.7z"
+                "url": "https://github.com/vapoursynth/vapoursynth/releases/download/R$version/VapourSynth64-Portable-R$version.7z"
             },
             "32bit": {
-                "url": "https://ghproxy.com/github.com/vapoursynth/vapoursynth/releases/download/R$version/VapourSynth64-Portable-R$version.7z"
+                "url": "https://github.com/vapoursynth/vapoursynth/releases/download/R$version/VapourSynth64-Portable-R$version.7z"
             }
         }
     }

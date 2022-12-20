@@ -5,7 +5,7 @@
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://ghproxy.com/github.com/fossas/fossa-cli/releases/download/v3.6.8/fossa_3.6.8_windows_amd64.zip",
+            "url": "https://github.com/fossas/fossa-cli/releases/download/v3.6.8/fossa_3.6.8_windows_amd64.zip",
             "hash": "94752f9b5e17644d56066f6f840f23aae72c7313595f680f835cf1ab54da9a10"
         }
     },
@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://ghproxy.com/github.com/fossas/fossa-cli/releases/download/v$version/fossa_$version_windows_amd64.zip",
+                "url": "https://github.com/fossas/fossa-cli/releases/download/v$version/fossa_$version_windows_amd64.zip",
                 "hash": {
                     "url": "$url.sha256"
                 }

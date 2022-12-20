@@ -5,11 +5,11 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://ghproxy.com/github.com/dominikh/go-tools/releases/download/v0.3.3/staticcheck_windows_amd64.tar.gz",
+            "url": "https://github.com/dominikh/go-tools/releases/download/v0.3.3/staticcheck_windows_amd64.tar.gz",
             "hash": "73e808d2636d33279f922991b95edda739289135fa920a5c001686f5c20374d6"
         },
         "32bit": {
-            "url": "https://ghproxy.com/github.com/dominikh/go-tools/releases/download/v0.3.3/staticcheck_windows_386.tar.gz",
+            "url": "https://github.com/dominikh/go-tools/releases/download/v0.3.3/staticcheck_windows_386.tar.gz",
             "hash": "f8b24841ee616196f3c79e837673e4dd574d5f6e0d98eee6a1aa99d28a3849d7"
         }
     },
@@ -22,10 +22,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://ghproxy.com/github.com/dominikh/go-tools/releases/download/v$match2/staticcheck_windows_amd64.tar.gz"
+                "url": "https://github.com/dominikh/go-tools/releases/download/v$match2/staticcheck_windows_amd64.tar.gz"
             },
             "32bit": {
-                "url": "https://ghproxy.com/github.com/dominikh/go-tools/releases/download/v$match2/staticcheck_windows_386.tar.gz"
+                "url": "https://github.com/dominikh/go-tools/releases/download/v$match2/staticcheck_windows_386.tar.gz"
             }
         },
         "hash": {

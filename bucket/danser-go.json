@@ -5,7 +5,7 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://ghproxy.com/github.com/Wieku/danser-go/releases/download/0.8.2/danser-0.8.2-win.zip",
+            "url": "https://github.com/Wieku/danser-go/releases/download/0.8.2/danser-0.8.2-win.zip",
             "hash": "4ebb3879e5ad7bafdfdb63d0137d943f74c8fe4fd3141f505eb41343c2d8d00e"
         }
     },
@@ -24,7 +24,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://ghproxy.com/github.com/Wieku/danser-go/releases/download/$version/danser-$version-win.zip"
+                "url": "https://github.com/Wieku/danser-go/releases/download/$version/danser-$version-win.zip"
             }
         }
     }

@@ -1,18 +1,20 @@
 {
-    "version": "2.8.5",
-    "description": "Music tagger",
-    "homepage": "https://picard.musicbrainz.org",
-    "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "http://ftp.musicbrainz.org/pub/musicbrainz/picard/picard-setup-2.8.5.exe#/dl.7z",
-            "hash": "md5:13c3e93bfa6dfcd91827450638373969"
+            "hash": "md5:13c3e93bfa6dfcd91827450638373969",
+            "url": "http://ftp.musicbrainz.org/pub/musicbrainz/picard/picard-setup-2.8.5.exe#/dl.7z"
         }
     },
-    "pre_install": [
-        "Remove-Item \"$dir\\`$*\" -Recurse",
-        "if(!(Test-Path \"$dir/picard.ini\")) { Add-Content \"$dir/picard.ini\" $null }"
-    ],
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "http://ftp.musicbrainz.org/pub/musicbrainz/picard/picard-setup-$version.exe#/dl.7z"
+            }
+        },
+        "hash": {
+            "url": "$url.md5"
+        }
+    },
     "bin": [
         [
             "picard.exe",
@@ -24,6 +26,18 @@
             "fpcalc"
         ]
     ],
+    "checkver": {
+        "regex": "picard-setup-([\\d.]+)\\.exe",
+        "url": "https://picard.musicbrainz.org/downloads/"
+    },
+    "description": "Music tagger",
+    "homepage": "https://picard.musicbrainz.org",
+    "license": "GPL-2.0-only",
+    "persist": "picard.ini",
+    "pre_install": [
+        "Remove-Item \"$dir\\`$*\" -Recurse",
+        "if(!(Test-Path \"$dir/picard.ini\")) { Add-Content \"$dir/picard.ini\" $null }"
+    ],
     "shortcuts": [
         [
             "picard.exe",
@@ -31,19 +45,5 @@
             "-c \"$dir\\picard.ini\""
         ]
     ],
-    "persist": "picard.ini",
-    "checkver": {
-        "url": "https://picard.musicbrainz.org/downloads/",
-        "regex": "picard-setup-([\\d.]+)\\.exe"
-    },
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "http://ftp.musicbrainz.org/pub/musicbrainz/picard/picard-setup-$version.exe#/dl.7z"
-            }
-        },
-        "hash": {
-            "url": "$url.md5"
-        }
-    }
+    "version": "2.8.5"
 }

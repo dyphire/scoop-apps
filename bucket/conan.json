@@ -5,11 +5,11 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://ghproxy.com/github.com/conan-io/conan/releases/download/1.55.0/conan-win-64.exe",
+            "url": "https://github.com/conan-io/conan/releases/download/1.55.0/conan-win-64.exe",
             "hash": "bc27e57ac32b475ca5b16649318da34513cbd79b02fa4a02a286a7cea7d55d06"
         },
         "32bit": {
-            "url": "https://ghproxy.com/github.com/conan-io/conan/releases/download/1.55.0/conan-win-32.exe",
+            "url": "https://github.com/conan-io/conan/releases/download/1.55.0/conan-win-32.exe",
             "hash": "77f6332e3afe31a59fcd52e4765165ad2608f9a92a60e409abb9a628fa489b38"
         }
     },
@@ -25,10 +25,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://ghproxy.com/github.com/conan-io/conan/releases/download/$version/conan-win-64.exe"
+                "url": "https://github.com/conan-io/conan/releases/download/$version/conan-win-64.exe"
             },
             "32bit": {
-                "url": "https://ghproxy.com/github.com/conan-io/conan/releases/download/$version/conan-win-32.exe"
+                "url": "https://github.com/conan-io/conan/releases/download/$version/conan-win-32.exe"
             }
         }
     }

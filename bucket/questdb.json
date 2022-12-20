@@ -8,7 +8,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://ghproxy.com/github.com/questdb/questdb/releases/download/6.6.1/questdb-6.6.1-no-jre-bin.tar.gz",
+            "url": "https://github.com/questdb/questdb/releases/download/6.6.1/questdb-6.6.1-no-jre-bin.tar.gz",
             "hash": "1dbe6af2dbf7465044542380cab2ce9273c5dfc4b62b50342b237b5cd891a68d",
             "extract_dir": "questdb-6.6.1-no-jre-bin"
         }
@@ -25,7 +25,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://ghproxy.com/github.com/questdb/questdb/releases/download/$version/questdb-$version-no-jre-bin.tar.gz",
+                "url": "https://github.com/questdb/questdb/releases/download/$version/questdb-$version-no-jre-bin.tar.gz",
                 "extract_dir": "questdb-$version-no-jre-bin"
             }
         }

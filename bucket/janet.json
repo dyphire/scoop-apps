@@ -5,7 +5,7 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://ghproxy.com/github.com/janet-lang/janet/releases/download/v1.25.1/janet-1.25.1-windows-x64-installer.msi",
+            "url": "https://github.com/janet-lang/janet/releases/download/v1.25.1/janet-1.25.1-windows-x64-installer.msi",
             "hash": "cc12ae7f08fc91b91878902dbbc3588a93fad5ad2632529ec6ad54ddbf1b13e1"
         }
     },
@@ -21,7 +21,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://ghproxy.com/github.com/janet-lang/janet/releases/download/v$version/janet-$version-windows-x64-installer.msi"
+                "url": "https://github.com/janet-lang/janet/releases/download/v$version/janet-$version-windows-x64-installer.msi"
             }
         }
     }

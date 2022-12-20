@@ -1,0 +1,26 @@
+{
+    "version": "3.1.1.253",
+    "description": "No need to install it. You can use this small and clean tool to remove software from your PC.",
+    "homepage": "https://www.wisecleaner.com/wise-program-uninstaller.html",
+    "license": "Freeware",
+    "url": "http://downloads.wisecleaner.com/soft/WPU_3.1.1.253.zip",
+    "hash": "091498b2831d06f39956aafc6f17c0b3e28b47f82c55ce391aff82bd2d82a213",
+    "extract_dir": "Wise Program Uninstaller",
+    "shortcuts": [
+        [
+            "WiseProgramUninstaller.exe",
+            "Wise Program Uninstaller"
+        ]
+    ],
+    "persist": [
+        "config.ini",
+        "ExConfig.ini"
+    ],
+    "checkver": {
+        "url": "https://www.wisecleaner.com/download.html",
+        "regex": "WPU.+?([\\d.]+)?\\.zip"
+    },
+    "autoupdate": {
+        "url": "http://downloads.wisecleaner.com/soft/WPU_$version.zip"
+    }
+}

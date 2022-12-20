@@ -9,7 +9,7 @@
             "java/openjdk"
         ]
     },
-    "url": "https://ghproxy.com/github.com/detekt/detekt/releases/download/v1.21.0/detekt-cli-1.21.0.zip",
+    "url": "https://github.com/detekt/detekt/releases/download/v1.21.0/detekt-cli-1.21.0.zip",
     "hash": "619f72d09bc38072bdb40989cf9e6e3dc012f9b5f17cd940ff04fb9fa81206fb",
     "extract_dir": "detekt-cli-1.21.0",
     "bin": [
@@ -23,7 +23,7 @@
         "regex": "detekt-cli-(?<version>[\\d.]+)\\.zip"
     },
     "autoupdate": {
-        "url": "https://ghproxy.com/github.com/detekt/detekt/releases/download/v$version/detekt-cli-$version.zip",
+        "url": "https://github.com/detekt/detekt/releases/download/v$version/detekt-cli-$version.zip",
         "extract_dir": "detekt-cli-$version"
     }
 }

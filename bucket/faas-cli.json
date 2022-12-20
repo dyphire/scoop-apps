@@ -5,7 +5,7 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://ghproxy.com/github.com/openfaas/faas-cli/releases/download/0.15.4/faas-cli.exe",
+            "url": "https://github.com/openfaas/faas-cli/releases/download/0.15.4/faas-cli.exe",
             "hash": "a1b7a4bdb4034c5ecba3f05a0d851b0bf36b411513ec747d479afd53de56e64a"
         }
     },
@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://ghproxy.com/github.com/openfaas/faas-cli/releases/download/$version/faas-cli.exe"
+                "url": "https://github.com/openfaas/faas-cli/releases/download/$version/faas-cli.exe"
             }
         },
         "hash": {

@@ -17,7 +17,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://ghproxy.com/github.com/camunda/camunda-platform/releases/download/8.1.5/camunda-operate-8.1.5.zip",
+            "url": "https://github.com/camunda/camunda-platform/releases/download/8.1.5/camunda-operate-8.1.5.zip",
             "hash": "sha1:848c70d696dabd1999409655bbc13052e1339fcf"
         }
     },
@@ -35,7 +35,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://ghproxy.com/github.com/camunda/camunda-platform/releases/download/$version/camunda-operate-$version.zip"
+                "url": "https://github.com/camunda/camunda-platform/releases/download/$version/camunda-operate-$version.zip"
             }
         },
         "hash": {

@@ -1,0 +1,26 @@
+{
+    "autoupdate": {
+        "url": "https://github.com/jitwxs/163MusicLyrics/releases/download/v$version/v$version-green.zip"
+    },
+    "bin": "MusicLyricApp.exe",
+    "checkver": "github",
+    "description": "Windows 网易云音乐歌词获取",
+    "hash": "f36ca152f3d7f159da06dc63390f6ce8af093136c117ee1d6a27c2224ba75bcc",
+    "homepage": "https://github.com/jitwxs/163MusicLyrics/",
+    "license": {
+        "identifier": "Apache-2.0",
+        "url": "https://github.com/jitwxs/163MusicLyrics/blob/master/LICENSE"
+    },
+    "notes": [
+        "  - Guide: <https://github.com/jitwxs/163MusicLyrics/wiki/3.x-Guide>",
+        "  - ChangeLog: <https://github.com/jitwxs/163MusicLyrics/wiki/ChangeLog>"
+    ],
+    "shortcuts": [
+        [
+            "MusicLyricApp.exe",
+            "网易云音乐歌词提取"
+        ]
+    ],
+    "url": "https://github.com/jitwxs/163MusicLyrics/releases/download/v5.5/v5.5-green.zip",
+    "version": "5.5"
+}

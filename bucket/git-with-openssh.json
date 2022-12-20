@@ -5,11 +5,11 @@
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://ghproxy.com/github.com/git-for-windows/git/releases/download/v2.39.0.windows.1/PortableGit-2.39.0-64-bit.7z.exe#/dl.7z",
+            "url": "https://github.com/git-for-windows/git/releases/download/v2.39.0.windows.1/PortableGit-2.39.0-64-bit.7z.exe#/dl.7z",
             "hash": "8ca31e8474048b48b813ebdf95f288d58f253717d071d11785cc23f37dc6a396"
         },
         "32bit": {
-            "url": "https://ghproxy.com/github.com/git-for-windows/git/releases/download/v2.39.0.windows.1/PortableGit-2.39.0-32-bit.7z.exe#/dl.7z",
+            "url": "https://github.com/git-for-windows/git/releases/download/v2.39.0.windows.1/PortableGit-2.39.0-32-bit.7z.exe#/dl.7z",
             "hash": "b8332fc12bcb1343d57c785d7ec140e2fd89f9d7f70309a00e79f9822c2cc855"
         }
     },
@@ -56,10 +56,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://ghproxy.com/github.com/git-for-windows/git/releases/download/v$version/PortableGit-$matchFull-64-bit.7z.exe#/dl.7z"
+                "url": "https://github.com/git-for-windows/git/releases/download/v$version/PortableGit-$matchFull-64-bit.7z.exe#/dl.7z"
             },
             "32bit": {
-                "url": "https://ghproxy.com/github.com/git-for-windows/git/releases/download/v$version/PortableGit-$matchFull-32-bit.7z.exe#/dl.7z"
+                "url": "https://github.com/git-for-windows/git/releases/download/v$version/PortableGit-$matchFull-32-bit.7z.exe#/dl.7z"
             }
         },
         "hash": {

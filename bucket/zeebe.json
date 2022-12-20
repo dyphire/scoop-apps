@@ -15,7 +15,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://ghproxy.com/github.com/camunda/camunda-platform/releases/download/8.1.5/camunda-zeebe-8.1.5.zip",
+            "url": "https://github.com/camunda/camunda-platform/releases/download/8.1.5/camunda-zeebe-8.1.5.zip",
             "hash": "sha1:7bfcfec213773945fde08e7cfa4d4325f6733c8e"
         }
     },
@@ -37,7 +37,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://ghproxy.com/github.com/camunda/camunda-platform/releases/download/$version/camunda-zeebe-$version.zip"
+                "url": "https://github.com/camunda/camunda-platform/releases/download/$version/camunda-zeebe-$version.zip"
             }
         },
         "hash": {

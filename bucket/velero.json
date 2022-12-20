@@ -5,7 +5,7 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://ghproxy.com/github.com/vmware-tanzu/velero/releases/download/v1.10.0/velero-v1.10.0-windows-amd64.tar.gz",
+            "url": "https://github.com/vmware-tanzu/velero/releases/download/v1.10.0/velero-v1.10.0-windows-amd64.tar.gz",
             "hash": "99a6c8662e1b0045cc1f2f9ab830249522875b036a335632a283e73d925a12c6",
             "extract_dir": "velero-v1.10.0-windows-amd64"
         }
@@ -17,7 +17,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://ghproxy.com/github.com/vmware-tanzu/velero/releases/download/v$version/velero-v$version-windows-amd64.tar.gz",
+                "url": "https://github.com/vmware-tanzu/velero/releases/download/v$version/velero-v$version-windows-amd64.tar.gz",
                 "extract_dir": "velero-v$version-windows-amd64"
             }
         },

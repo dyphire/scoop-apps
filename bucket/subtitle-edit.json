@@ -1,19 +1,19 @@
 {
-    "homepage": "https://www.nikse.dk/SubtitleEdit/",
-    "license": "GNU",
-    "version": "3.6.10",
-    "url": "https://github.com/SubtitleEdit/subtitleedit/releases/download/3.6.10/SE3610.zip",
-    "hash": "57c6577a7987383be197416c6bd986982eb5b6155840b48e0f813b27fae7130f",
-    "shortcuts": [
-        [
-            "SubtitleEdit.exe",
-            "Subtitle Edit"
-        ]
-    ],
-    "checkver": {
-        "github": "https://github.com/SubtitleEdit/subtitleedit"
-    },
-    "autoupdate": {
-        "url": "https://github.com/SubtitleEdit/subtitleedit/releases/download/$version/SE$cleanVersion.zip"
-    }
+ "autoupdate": {
+  "url": "https://github.com/SubtitleEdit/subtitleedit/releases/download/$version/SE$cleanVersion.zip"
+ },
+ "checkver": {
+  "github": "https://github.com/SubtitleEdit/subtitleedit"
+ },
+ "hash": "57c6577a7987383be197416c6bd986982eb5b6155840b48e0f813b27fae7130f",
+ "homepage": "https://www.nikse.dk/SubtitleEdit/",
+ "license": "GNU",
+ "shortcuts": [
+  [
+   "SubtitleEdit.exe",
+   "Subtitle Edit"
+  ]
+ ],
+ "url": "https://github.com/SubtitleEdit/subtitleedit/releases/download/3.6.10/SE3610.zip",
+ "version": "3.6.10"
 }

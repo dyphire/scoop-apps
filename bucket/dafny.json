@@ -5,7 +5,7 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://ghproxy.com/github.com/dafny-lang/dafny/releases/download/v3.10.0/dafny-3.10.0-x64-win.zip",
+            "url": "https://github.com/dafny-lang/dafny/releases/download/v3.10.0/dafny-3.10.0-x64-win.zip",
             "hash": "990d4e15723f0c7512319f8ce231e71f371a0c3058d856d1478653b4dd6df1ae",
             "extract_dir": "dafny"
         }
@@ -21,7 +21,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://ghproxy.com/github.com/dafny-lang/dafny/releases/download/v$version/dafny-$version-x64-win.zip"
+                "url": "https://github.com/dafny-lang/dafny/releases/download/v$version/dafny-$version-x64-win.zip"
             }
         }
     }

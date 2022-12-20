@@ -5,12 +5,12 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://npm.taobao.org/mirrors/node/v19.3.0/node-v19.3.0-win-x64.7z",
+            "url": "https://nodejs.org/dist/v19.3.0/node-v19.3.0-win-x64.7z",
             "hash": "fdc3f9c0991a9e54640b792ceb758831f91f6384b0429149b8f3514fa2734e8c",
             "extract_dir": "node-v19.3.0-win-x64"
         },
         "32bit": {
-            "url": "https://npm.taobao.org/mirrors/node/v19.3.0/node-v19.3.0-win-x86.7z",
+            "url": "https://nodejs.org/dist/v19.3.0/node-v19.3.0-win-x86.7z",
             "hash": "2149012398fb720e1c6e79422344b8281bb4c90024461de3d72dcae06ad3d666",
             "extract_dir": "node-v19.3.0-win-x86"
         }
@@ -28,17 +28,17 @@
         "Set-Content -Value \"prefix=$persist_dir\\bin`ncache=$persist_dir\\cache\" -Path \"$dir\\node_modules\\npm\\npmrc\""
     ],
     "checkver": {
-        "url": "https://npm.taobao.org/mirrors/node/latest/",
+        "url": "https://nodejs.org/dist/latest/",
         "regex": "node-v([\\d.]+)-win-x64\\.7z"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://npm.taobao.org/mirrors/node/v$version/node-v$version-win-x64.7z",
+                "url": "https://nodejs.org/dist/v$version/node-v$version-win-x64.7z",
                 "extract_dir": "node-v$version-win-x64"
             },
             "32bit": {
-                "url": "https://npm.taobao.org/mirrors/node/v$version/node-v$version-win-x86.7z",
+                "url": "https://nodejs.org/dist/v$version/node-v$version-win-x86.7z",
                 "extract_dir": "node-v$version-win-x86"
             }
         },
