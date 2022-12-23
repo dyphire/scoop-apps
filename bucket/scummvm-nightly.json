@@ -1,37 +1,53 @@
 {
-    "version": "nightly",
+    "architecture": {
+        "32bit": {
+            "extract_dir": "windows-x86-master-93002852",
+            "hash": "500d15b410c2f22ca6b66a067095aef449593de38594ed4f67209a9f789242f7",
+            "url": "https://buildbot.scummvm.org/dailybuilds/master/windows-x86-master-93002852.zip"
+        },
+        "64bit": {
+            "extract_dir": "windows-x86-64-master-93002852",
+            "hash": "e146d18797ff876472ac4f4fa9d39b89a1345c37db3263970a553daa1ecabb8c",
+            "url": "https://buildbot.scummvm.org/dailybuilds/master/windows-x86-64-master-93002852.zip"
+        }
+    },
+    "autoupdate": {
+        "architecture": {
+            "32bit": {
+                "extract_dir": "windows-x86-master-$version",
+                "url": "https://buildbot.scummvm.org/dailybuilds/master/windows-x86-master-$version.zip"
+            },
+            "64bit": {
+                "extract_dir": "windows-x86-64-master-$version",
+                "url": "https://buildbot.scummvm.org/dailybuilds/master/windows-x86-64-master-$version.zip"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    },
+    "bin": "win32dist-mingw/scummvm.exe",
+    "checkver": {
+        "regex": "windows-x86-64-master-([a-f0-9]{8}).zip",
+        "url": "https://buildbot.scummvm.org/dailybuilds/master/?C=M;O=D"
+    },
     "description": "ScummVM is a program which allows you to run certain classic graphical adventure and role-playing games",
     "homepage": "https://www.scummvm.org/",
     "license": {
-        "url": "https://github.com/scummvm/scummvm/blob/master/COPYING",
-        "identifier": "GPL-3.0"
+        "identifier": "GPL-3.0",
+        "url": "https://github.com/scummvm/scummvm/blob/master/COPYING"
     },
-    "architecture": {
-        "64bit": {
-            "url": "https://buildbot.scummvm.org/dailybuilds/master/windows-x86-64-master-latest.zip"
-        },
-        "32bit": {
-            "url": "https://buildbot.scummvm.org/dailybuilds/master/windows-x86-master-latest.zip"
-        }
-    },
-    "extract_to": "tmp",
-    "installer": {
-        "script": [
-            "(Get-ChildItem -Directory \"$dir\\tmp\\*\\win32dist-mingw\").FullName | ForEach-Object { Move-Item \"$_\\*\" \"$dir\" }",
-            "Remove-Item -Recurse \"$dir\\tmp\""
-        ]
-    },
-    "bin": "scummvm.exe",
+    "persist": [
+        "scummvm.ini",
+        "saves",
+        "themes",
+        "extras"
+    ],
     "shortcuts": [
         [
             "scummvm.exe",
             "ScummVM (nightly)"
         ]
     ],
-    "persist": [
-        "scummvm.ini",
-        "saves",
-        "themes",
-        "extras"
-    ]
+    "version": "93002852"
 }
