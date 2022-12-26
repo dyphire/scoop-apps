@@ -1,8 +1,9 @@
 {
-    "version": "110.0a1.20221224090645",
-    "description": "Nightly builds of Firefox: the popular open source web browser.",
+    "version": "110.0a1.20221226035608",
+    "description": "Firefox Nightly. Nightly builds of Firefox: the popular open source web browser.",
     "homepage": "https://www.mozilla.org/en-US/firefox/nightly/",
     "license": "MPL-2.0",
+    "changelog": "https://www.mozilla.org/en-US/firefox/nightly/notes/",
     "notes": [
         "To set profile 'Scoop-Nightly' as *DEFAULT*, or profiles/settings was lost after update:",
         "  - Run 'Firefox Nightly Profile Manager', choose 'Scoop-Nightly' then click 'Start Nightly'.",
@@ -11,12 +12,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://archive.mozilla.org/pub/firefox/nightly/2022/12/2022-12-24-09-06-45-mozilla-central/firefox-110.0a1.en-US.win64.installer.exe#/dl.7z",
-            "hash": "sha512:d8f29dfb515076ddcf0c88f380ee3ffbf2d5871966395ebf0095c74d5c72c9a6aa1e271cfcb4ce1ed5984ac63c3ffab6ca5ceac86577dd472829471c2a2fa551"
+            "url": "https://archive.mozilla.org/pub/firefox/nightly/2022/12/2022-12-26-03-56-08-mozilla-central/firefox-110.0a1.en-US.win64.installer.exe#/dl.7z",
+            "hash": "sha512:e6606b75bf8c30620cc30efd9a1338b1d1479eed5b85cdafb690cb33fcbf343a7368b9f0edc38f3c1df73dc51421ed7ecc5db2f1be4ed6bbbfb6f0810cf95ad2"
         },
         "32bit": {
-            "url": "https://archive.mozilla.org/pub/firefox/nightly/2022/12/2022-12-24-09-06-45-mozilla-central/firefox-110.0a1.en-US.win32.installer.exe#/dl.7z",
-            "hash": "sha512:637e8e0520df3403b1f8944a0241455b188f69417f6126395252a5889da1f711369c831eb08c45e0cc2f5323231d971df480e5bc28e9cc168747b23f2147cd7d"
+            "url": "https://archive.mozilla.org/pub/firefox/nightly/2022/12/2022-12-26-03-56-08-mozilla-central/firefox-110.0a1.en-US.win32.installer.exe#/dl.7z",
+            "hash": "sha512:45f6a41475765a319af01eb04708922d9c379b5c44dd82185edc358681532499ff02f9811836100bfcfdb5ecba9806d87ade9937479a4d068b77ac8dbef2e8f1"
         }
     },
     "extract_dir": "core",
