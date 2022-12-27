@@ -67,10 +67,10 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - TheRandomLabs/Scoop-Python
 - naderi/scoop-bucket
 - ChungZH/peach
+- duzyn/scoop-cn
 - 42wim/scoop-bucket
 - AStupidBear/scoop-bear
 - iquiw/scoop-bucket
-- duzyn/scoop-cn
 - batkiz/backit
 - mogeko/scoop-sysinternals
 - jfut/scoop-jfut
