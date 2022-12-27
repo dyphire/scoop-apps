@@ -1,0 +1,31 @@
+{
+    "version": "0.7.0",
+    "description": "ChatGPT Desktop Application (Mac, Windows and Linux)",
+    "homepage": "https://github.com/lencx/ChatGPT",
+    "license": {
+        "identifier": "Apache-2.0"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/lencx/ChatGPT/releases/download/v0.7.0/ChatGPT_0.7.0_x64_en-US.msi",
+            "hash": "640d1b8884b449b2fb9fa0b6f2921fe911f2be7c3138a4469cc232e761eccf0b"
+        }
+    },
+    "shortcuts": [
+        [
+            "PFiles/ChatGPT/ChatGPT.exe",
+            "ChatGPT Desktop"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/lencx/ChatGPT",
+        "regex": "tag/v([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/lencx/ChatGPT/releases/download/v$version/ChatGPT_$version_x64_en-US.msi"
+            }
+        }
+    }
+}
