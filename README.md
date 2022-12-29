@@ -81,6 +81,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - ygguorun/scoop-bucket
 - littleli/Scoop-littleli
 - ViCrack/scoop-bucket
+- ChinLong/scoop-customize
 - rivy/scoop-bucket
 - Velgus/Scoop-Portapps
 - alextwothousand/scoop-bucket
