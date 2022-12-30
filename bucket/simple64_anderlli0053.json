@@ -1,0 +1,40 @@
+{
+    "version": "2022.12.5",
+    "description": "Nintendo 64 emulator",
+    "homepage": "https://simple64.github.io/",
+    "license": {
+        "identifier": "GPL-3.0",
+        "url": "https://github.com/simple64/simple64/blob/main/LICENSE"
+    },
+    "url": "https://github.com/simple64/simple64/releases/download/v2022.12.5/simple64-win64-a395533.zip",
+    "hash": "df0a3f6ad7c4f82bd0d6d19827ae5c00d065cb7a0d23e1c0db02f348324b60e6",
+    "extract_dir": "simple64",
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\simple64-gui.ini\")) {",
+        "   New-Item    \"$dir\\simple64-gui.ini\" -Type File | Out-Null",
+        "   Set-Content \"$dir\\simple64-gui.ini\" '[General]'",
+        "   Add-Content \"$dir\\simple64-gui.ini\" 'version=2'",
+        "   Add-Content \"$dir\\simple64-gui.ini\" 'configDirPath=$APP_PATH$/config'",
+        "}"
+    ],
+    "bin": [
+        [
+            "simple64-gui.exe",
+            "simple64"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "simple64-gui.exe",
+            "simple64"
+        ]
+    ],
+    "persist": "config",
+    "checkver": {
+        "github": "https://github.com/simple64/simple64",
+        "regex": "v([\\d\\.]+)\\/simple64-win64-(?<commit>[\\da-f]{7})\\."
+    },
+    "autoupdate": {
+        "url": "https://github.com/simple64/simple64/releases/download/v$version/simple64-win64-$matchCommit.zip"
+    }
+}
