@@ -1,0 +1,21 @@
+{
+    "version": "0.6.35",
+    "description": "A minimalistic crossplatform image viewer written in Rust",
+    "homepage": "https://github.com/woelper/oculante",
+    "license": "MIT",
+    "url": "https://github.com/woelper/oculante/releases/download/0.6.35/oculante.exe",
+    "hash": "3b03d9d5124b168c6372d5596e107283433163d6f9bc95ba42e5f7274fea3316",
+    "bin": "oculante.exe",
+    "shortcuts": [
+        [
+            "oculante.exe",
+            "oculante"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/woelper/oculante"
+    },
+    "autoupdate": {
+        "url": "https://github.com/woelper/oculante/releases/download/$version/oculante.exe"
+    }
+}
