@@ -1,7 +1,7 @@
 {
-    "version": "9.0.1085",
-    "description": "A highly configurable text editor for efficiently creating and changing any kind of text. (tux build)",
-    "homepage": "https://tuxproject.de/projects/vim",
+    "version": "9.0.1128",
+    "description": "A highly configurable text editor for efficiently creating and changing any kind of text.",
+    "homepage": "https://www.vim.org",
     "license": "Vim",
     "notes": "Add gVim as a context menu option by running: \"$dir\\install-context.reg\"",
     "suggest": {
@@ -9,15 +9,17 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://tuxproject.de/projects/vim/complete-x64.7z",
-            "hash": "ed68b207f931b9251da719d7ce00464669d816fb7f07f4b94d5eb3b58ec72074"
+            "url": "https://github.com/vim/vim-win32-installer/releases/download/v9.0.1128/gvim_9.0.1128_x64.zip",
+            "hash": "6b171798e712712c26ffc65aab9c4167c55ebc6c0882828759159f645326e9aa"
         },
         "32bit": {
-            "url": "https://tuxproject.de/projects/vim/complete-x86.7z",
-            "hash": "6a72db6de18c2bfcc979bb0edfb674b6a812de63e8e3d064954a6e08ca0e62b6"
+            "url": "https://github.com/vim/vim-win32-installer/releases/download/v9.0.1128/gvim_9.0.1128_x86.zip",
+            "hash": "7df335b9650d6fc1c98d01c8558b13bf4336dff80f87e905708d300ad5ecff19"
         }
     },
+    "extract_dir": "vim\\vim90",
     "post_install": [
+        "Remove-Item \"$dir\\`$*\", \"$dir\\uninstal.*\", \"$dir\\install.exe\" -Recurse",
         "'install-context.reg', 'uninstall-context.reg' | ForEach-Object {",
         "    $vimpath = \"$dir\\gVim.exe\".Replace('\\', '\\\\')",
         "    $content = (Get-Content \"$bucketsdir\\versions\\scripts\\vim\\$_\").Replace('$vim', $vimpath)",
@@ -95,15 +97,18 @@
             "gVim"
         ]
     ],
-    "checkver": "Vim ([\\d.]+)",
+    "checkver": {
+        "github": "https://github.com/vim/vim-win32-installer"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://tuxproject.de/projects/vim/complete-x64.7z"
+                "url": "https://github.com/vim/vim-win32-installer/releases/download/v$version/gvim_$version_x64.zip"
             },
             "32bit": {
-                "url": "https://tuxproject.de/projects/vim/complete-x86.7z"
+                "url": "https://github.com/vim/vim-win32-installer/releases/download/v$version/gvim_$version_x86.zip"
             }
-        }
+        },
+        "extract_dir": "vim\\vim$majorVersion$minorVersion"
     }
 }
