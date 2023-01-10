@@ -88,6 +88,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - niheaven/scoop-sysinternals
 - ddavness/scoop-roblox
 - akirco/aki-apps
+- cc713/ownscoop
 - MCOfficer/scoop-bucket
 - Weidows-projects/scoop-3rd
 - seumsc/scoop-seu
