@@ -50,8 +50,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - hoilc/scoop-lemon
 - hermanjustnu/scoop-emulators
 - scoopcn/scoopcn
-- everyx/scoop-bucket
 - cderv/r-bucket
+- everyx/scoop-bucket
 - Paxxs/Cluttered-bucket
 - borger/scoop-emulators
 - ScoopInstaller/Nonportable
@@ -59,8 +59,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - TheRandomLabs/Scoop-Bucket
 - dodorz/scoop
 - Qv2ray/mochi
-- kiennq/scoop-misc
 - ZvonimirSun/scoop-iszy
+- kiennq/scoop-misc
 - wangzq/scoop-bucket
 - zhoujin7/tomato
 - wzv5/ScoopBucket
@@ -68,15 +68,16 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - naderi/scoop-bucket
 - duzyn/scoop-cn
 - ChungZH/peach
+- iquiw/scoop-bucket
 - 42wim/scoop-bucket
 - AStupidBear/scoop-bear
-- iquiw/scoop-bucket
 - batkiz/backit
 - mogeko/scoop-sysinternals
 - jfut/scoop-jfut
 - krproject/qi-windows
 - excitoon/scoop-user
 - Darkatse/Scoop-Darkatse
+- cc713/ownscoop
 - ygguorun/scoop-bucket
 - amorphobia/siku
 - littleli/Scoop-littleli
@@ -88,7 +89,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - niheaven/scoop-sysinternals
 - ddavness/scoop-roblox
 - akirco/aki-apps
-- cc713/ownscoop
 - MCOfficer/scoop-bucket
 - Weidows-projects/scoop-3rd
 - seumsc/scoop-seu
