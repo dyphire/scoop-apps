@@ -1,10 +1,15 @@
 {
-    "version": "1.3.1033",
+    "autoupdate": {
+        "url": "https://sourceforge.net/projects/anytxt/files/AnyTXT.Searcher.$version.$matchA.exe"
+    },
+    "bin": "ATGUI.exe",
+    "checkver": {
+        "regex": "AnyTXT.Searcher.([\\d.]+)\\.(?<a>(.+?))\\.exe",
+        "url": "https://anytxt.net/download"
+    },
     "description": "A local document search application",
+    "hash": "sha1:b870d30d16ba3f7be2a9b6b92e1c51679acd725d",
     "homepage": "https://anytxt.net",
-    "license": "freeware",
-    "url": "https://sourceforge.net/projects/anytxt/files/AnyTXT.Searcher.1.3.1033.Win32_Win64.exe",
-    "hash": "sha1:1694822f77aa09c9dea40913d73ed9fb5110d6ed",
     "installer": {
         "args": [
             "/verysilent",
@@ -12,24 +17,19 @@
         ],
         "script": "sudo taskkill /F /IM ATService.exe | Out-Null"
     },
-    "bin": "ATGUI.exe",
+    "license": "freeware",
+    "persist": "config.db",
+    "post_install": "Remove-Item \"$Env:Public\\Desktop\\AnyTXT*.lnk\"",
     "shortcuts": [
         [
             "ATGUI.exe",
             "AnyTXT"
         ]
     ],
-    "persist": "config.db",
-    "post_install": "Remove-Item \"$Env:Public\\Desktop\\AnyTXT*.lnk\"",
     "uninstaller": {
-        "file": "unins000.exe",
-        "args": "/verysilent"
+        "args": "/verysilent",
+        "file": "unins000.exe"
     },
-    "checkver": {
-        "url": "https://anytxt.net/download",
-        "regex": "AnyTXT.Searcher.([\\d.]+)\\.(?<a>(.+?))\\.exe"
-    },
-    "autoupdate": {
-        "url": "https://sourceforge.net/projects/anytxt/files/AnyTXT.Searcher.$version.$matchA.exe"
-    }
+    "url": "https://sourceforge.net/projects/anytxt/files/AnyTXT.Searcher.1.3.1039.Win32_Win64.exe",
+    "version": "1.3.1039"
 }

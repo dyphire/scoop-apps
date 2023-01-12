@@ -1,22 +1,8 @@
 {
-    "version": "3.4.6",
-    "description": "SpotX. Modified spotify client with premium account. Blocks ads and updates, and more.",
-    "homepage": "https://github.com/amd64fox/SpotX/",
-    "license": "MIT",
+    "autoupdate": {
+        "url": "https://raw.githubusercontent.com/amd64fox/SpotX/main/Install.ps1"
+    },
     "changelog": "https://github.com/amd64fox/SpotX/",
-    "url": "https://raw.githubusercontent.com/amd64fox/SpotX/main/Install.ps1",
-    "hash": "6af59cb7b7117f1c9d40db1f589af5dd003d4c633d8bcc6af55b6f0623ac5810",
-    "installer": {
-        "script": [
-            "# older versions of Powershell 5 requires BOM to recognize UTF8 scripts",
-            "$cont = Get-Content \"$dir\\Install.ps1\" -Encoding utf8",
-            "Set-Content \"$dir\\Install.ps1\" $cont -Encoding utf8",
-            "& \"$dir\\Install.ps1\" -confirm_uninstall_ms_spoti -confirm_spoti_recomended_over -podcasts_off -cache_off -block_update_on -no_shortcut -premium"
-        ]
-    },
-    "uninstaller": {
-        "script": "Invoke-ExternalCommand \"$Env:Appdata\\Spotify\\Spotify.exe\" -ArgumentList @('/uninstall', '/silent') | Out-Null"
-    },
     "checkver": {
         "regex": "([\\w.-]+)",
         "script": [
@@ -36,7 +22,21 @@
             "Write-Output \"$app_ver-$update_date-$commit_sha\""
         ]
     },
-    "autoupdate": {
-        "url": "https://raw.githubusercontent.com/amd64fox/SpotX/main/Install.ps1"
-    }
+    "description": "SpotX. Modified spotify client with premium account. Blocks ads and updates, and more.",
+    "hash": "6af59cb7b7117f1c9d40db1f589af5dd003d4c633d8bcc6af55b6f0623ac5810",
+    "homepage": "https://github.com/amd64fox/SpotX/",
+    "installer": {
+        "script": [
+            "# older versions of Powershell 5 requires BOM to recognize UTF8 scripts",
+            "$cont = Get-Content \"$dir\\Install.ps1\" -Encoding utf8",
+            "Set-Content \"$dir\\Install.ps1\" $cont -Encoding utf8",
+            "& \"$dir\\Install.ps1\" -confirm_uninstall_ms_spoti -confirm_spoti_recomended_over -podcasts_off -cache_off -block_update_on -no_shortcut -premium"
+        ]
+    },
+    "license": "MIT",
+    "uninstaller": {
+        "script": "Invoke-ExternalCommand \"$Env:Appdata\\Spotify\\Spotify.exe\" -ArgumentList @('/uninstall', '/silent') | Out-Null"
+    },
+    "url": "https://raw.githubusercontent.com/amd64fox/SpotX/main/Install.ps1",
+    "version": "129"
 }

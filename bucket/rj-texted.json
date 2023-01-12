@@ -1,21 +1,5 @@
 {
-    "version": "15.74",
-    "description": "RJ TextEd is a full featured text and source editor with Unicode support.",
-    "homepage": "https://www.rj-texted.se/",
-    "license": "Freeware",
-    "url": "https://www.fosshub.com/RJ-TextEd.html/rj-portable-15.74.exe",
-    "hash": "9db3829a55b2055ee62af910fd6835fab6478e791c729834f865c9c0745fa540",
-    "innosetup": true,
     "architecture": {
-        "64bit": {
-            "pre_install": "Remove-Item \"$dir\\Win32\" -Force -Recurse",
-            "shortcuts": [
-                [
-                    "Win64\\TextEd.exe",
-                    "RJ TextEd"
-                ]
-            ]
-        },
         "32bit": {
             "pre_install": "Remove-Item \"$dir\\Win64\" -Force -Recurse",
             "shortcuts": [
@@ -24,17 +8,33 @@
                     "RJ TextEd"
                 ]
             ]
+        },
+        "64bit": {
+            "pre_install": "Remove-Item \"$dir\\Win32\" -Force -Recurse",
+            "shortcuts": [
+                [
+                    "Win64\\TextEd.exe",
+                    "RJ TextEd"
+                ]
+            ]
         }
     },
+    "autoupdate": {
+        "url": "https://www.fosshub.com/RJ-TextEd.html/rj-portable-$version.exe"
+    },
+    "checkver": {
+        "regex": "rj-portable-([\\d.]+).exe",
+        "url": "https://www.fosshub.com/RJ-TextEd.html"
+    },
+    "description": "RJ TextEd is a full featured text and source editor with Unicode support.",
+    "hash": "36d2d2cdbba632953b13710c9cbfc77ecfe0fca21e13ac5d56f3ded9a0a938e2",
+    "homepage": "https://www.rj-texted.se/",
+    "innosetup": true,
+    "license": "Freeware",
     "persist": [
         "Data",
         "TextEd.ini"
     ],
-    "checkver": {
-        "url": "https://www.fosshub.com/RJ-TextEd.html",
-        "regex": "rj-portable-([\\d.]+).exe"
-    },
-    "autoupdate": {
-        "url": "https://www.fosshub.com/RJ-TextEd.html/rj-portable-$version.exe"
-    }
+    "url": "https://www.fosshub.com/RJ-TextEd.html/rj-portable-15.75.exe",
+    "version": "15.75"
 }

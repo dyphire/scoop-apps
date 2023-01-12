@@ -1,31 +1,15 @@
 {
-    "version": "0.4.0",
-    "description": "A convenient translation and dictionary app written in dart / Flutter.",
     "homepage": "https://biyidev.com/",
-    "license": "MIT",
-    "architecture": {
-        "64bit": {
-            "url": "https://github.com/biyidev/biyi_app/releases/download/v0.4.0/biyi-0.4.0+11-windows-setup.exe",
-            "hash": "484dbd46b0bbb0f6a65fbc7f17c7175203e3aab8aebca4c0b3ac0fc5ca5fc55b"
-        }
-    },
-    "innosetup": true,
-    "bin": "biyi.exe",
-    "shortcuts": [
-        [
-            "biyi.exe",
-            "Biyi"
-        ]
-    ],
+    "description": "A translation and dictionary app written in Flutter.",
+    "license": "AGPL-3.0-or-later",
+    "version": "0.3.6",
+    "url": "https://gitee.com/biyidev/biyi/attach_files/945918/download/biyi-0.3.6%209-windows-setup.exe/#dl.7z",
+    "hash": "0277a13d397915c5c5451f126a1f995588eed830d89cf2cf38c56d79c6c1e30a",
+    "bin": "",
     "checkver": {
-        "url": "https://api.github.com/repos/biyidev/biyi/releases/latest",
-        "regex": "biyi-([\\d.]+)\\+(?<build>\\d+)-windows"
+        "github": "https://github.com/biyidev/biyi"
     },
     "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/biyidev/biyi_app/releases/download/v$version/biyi-$version+$matchBuild-windows-setup.exe"
-            }
-        }
+        "url": "https://gitee.com/biyidev/biyi/attach_files/945918/download/biyi-$version%209-windows-setup.exe/#dl.7z"
     }
 }
