@@ -1,44 +1,43 @@
 {
-    "version": "2.06",
-    "description": "A file search utility that search for files on your hard drive by name.",
-    "homepage": "https://antibody-software.com/web/software/software/wizfile-finds-your-files-fast/",
-    "license": "Unknown",
-    "url": "https://antibody-software.com/files/wizfile_2_06_portable.zip",
-    "hash": "5c340e11fef0b23b213d0aaa41a18695b5b96235c24bde0fd4d32582d2c9a8d4",
-    "pre_install": "if (-not (Test-Path \"$persist_dir\\WizFile.ini\")) { New-Item \"$dir\\WizFile.ini\" -ItemType File | Out-Null }",
-    "architecture": {
-        "64bit": {
-            "bin": [
-                "WizFile64.exe",
-                [
-                    "WizFile.exe",
-                    "WizFile32"
-                ],
-                [
-                    "WizFile64.exe",
-                    "WizFile"
-                ]
-            ],
-            "shortcuts": [
-                [
-                    "WizFile64.exe",
-                    "WizFile"
-                ]
-            ]
-        },
-        "32bit": {
-            "bin": "WizFile.exe",
-            "shortcuts": [
-                [
-                    "WizFile.exe",
-                    "WizFile"
-                ]
-            ]
-        }
-    },
-    "persist": "WizFile.ini",
-    "checkver": ">ver ([\\d.]+)",
-    "autoupdate": {
-        "url": "https://antibody-software.com/files/wizfile_$underscoreVersion_portable.zip"
-    }
+ "architecture": {
+  "32bit": {
+   "bin": "WizFile.exe",
+   "shortcuts": [
+    [
+     "WizFile.exe",
+     "WizFile"
+    ]
+   ]
+  },
+  "64bit": {
+   "bin": [
+    "WizFile64.exe",
+    [
+     "WizFile64.exe",
+     "WizFile"
+    ]
+   ],
+   "shortcuts": [
+    [
+     "WizFile64.exe",
+     "WizFile"
+    ]
+   ]
+  }
+ },
+ "autoupdate": {
+  "url": "https://antibody-software.com/files/wizfile_$underscoreVersion_portable.zip"
+ },
+ "checkver": {
+  "regex": ">WizFile\\s+([\\d.]+)",
+  "url": "https://antibody-software.com/wizfile/download"
+ },
+ "description": "An extremely fast file finder",
+ "hash": "61404eadeec1f4d2f17f2a114d7d580f82be8dfdcac6311fbb76d17451d70f33",
+ "homepage": "https://antibody-software.com/wizfile/",
+ "license": "Unknown",
+ "persist": "WizFile.ini",
+ "pre_install": "if (!(Test-Path \"$persist_dir\\WizFile.ini\")) { Set-Content \"$dir\\WizFile.ini\" '[frmWizFileMain]', 'actCheckForUpdates_Checked=FALSE' -Encoding Ascii }",
+ "url": "https://antibody-software.com/files/wizfile_3_08_portable.zip",
+ "version": "3.08"
 }

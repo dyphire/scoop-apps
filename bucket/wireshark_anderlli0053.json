@@ -1,50 +1,64 @@
 {
-    "version": "3.2.7",
-    "description": "A network protocol analyzer that lets you see what’s happening on your network at a microscopic level.",
-    "homepage": "https://www.wireshark.org/",
-    "license": "GPL-2.0-or-later",
-    "notes": [
-        "WinPcap was replaced by Npcap.",
-        "Run 'scoop install nmap' (from a elevated shell) to install 'Npcap' automatically,",
-        "or run 'scoop install nmap-portable' and then install the 'npcap-oem.exe' from the 'nmap-portable' directory manually."
-    ],
-    "url": "https://1.eu.dl.wireshark.org/win32/all-versions/WiresharkPortable_3.2.7.paf.exe#/dl.7z",
-    "hash": "2eb3ded78c1c800e088359828e221fc65d004559dd0ec00fdaecefbf7600a523",
-    "bin": [
-        "App\\Wireshark\\capinfos.exe",
-        "App\\Wireshark\\captype.exe",
-        "App\\Wireshark\\dumpcap.exe",
-        "App\\Wireshark\\editcap.exe",
-        "App\\Wireshark\\mergecap.exe",
-        "App\\Wireshark\\randpkt.exe",
-        "App\\Wireshark\\rawshark.exe",
-        "App\\Wireshark\\reordercap.exe",
-        "App\\Wireshark\\text2pcap.exe",
-        "App\\Wireshark\\tshark.exe",
-        [
-            "WiresharkPortable.exe",
-            "Wireshark"
-        ]
-    ],
-    "shortcuts": [
-        [
-            "WiresharkPortable.exe",
-            "Wireshark"
-        ]
-    ],
-    "persist": "Data",
-    "suggest": {
-        "Nmap (includes Npcap)": "nmap"
+ "architecture": {
+  "64bit": {
+   "hash": "bafc2b00ce557cc531dfbb0e87cda6277c052a32411e10da8005c4001438d8fc",
+   "url": "https://www.wireshark.org/download/win64/Wireshark-win64-4.0.2.exe#/dl.7z"
+  }
+ },
+ "autoupdate": {
+  "architecture": {
+   "64bit": {
+    "hash": {
+     "regex": "SHA256\\($basename\\)=$sha256",
+     "url": "https://www.wireshark.org/download/SIGNATURES-$version.txt"
     },
-    "checkver": {
-        "url": "https://www.wireshark.org/update/0/Wireshark/0.0.0/Windows/x86/en-US/stable.xml",
-        "regex": "Version ([\\d.]+)"
-    },
-    "autoupdate": {
-        "url": "https://1.eu.dl.wireshark.org/win32/all-versions/WiresharkPortable_$version.paf.exe#/dl.7z",
-        "hash": {
-            "url": "https://www.wireshark.org/download/SIGNATURES-$version.txt",
-            "regex": "SHA256\\($basename\\)=$sha256"
-        }
-    }
+    "url": "https://www.wireshark.org/download/win64/Wireshark-win64-$version.exe#/dl.7z"
+   }
+  }
+ },
+ "bin": [
+  "capinfos.exe",
+  "dumpcap.exe",
+  "editcap.exe",
+  "mergecap.exe",
+  "randpkt.exe",
+  "rawshark.exe",
+  "reordercap.exe",
+  "text2pcap.exe",
+  "tshark.exe",
+  "Wireshark.exe"
+ ],
+ "checkver": {
+  "regex": "Version ([\\d.]+)",
+  "url": "https://www.wireshark.org/update/0/Wireshark/0.0.0/Windows/x86-64/en-US/stable.xml"
+ },
+ "description": "A network protocol analyzer that lets you see what\u2019s happening on your network at a microscopic level.",
+ "env_set": {
+  "WIRESHARK_CONFIG_DIR": "$dir\\Data",
+  "WIRESHARK_DATA_DIR": "$dir\\Data"
+ },
+ "homepage": "https://www.wireshark.org/",
+ "installer": {
+  "script": [
+   "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\vc_redist*\", \"$dir\\uninstall-wireshark.exe\" -Recurse",
+   "Get-ChildItem \"$dir\\npcap-*.exe\" | Rename-Item -NewName 'npcap-installer.exe'",
+   "Get-ChildItem \"$dir\\USBPcapSetup-*.exe\" | Rename-Item -NewName 'USBPcapSetup-installer.exe'"
+  ]
+ },
+ "license": "GPL-2.0-or-later",
+ "notes": [
+  "Wireshark requires the installation of Npcap. Do it manually from the 'wireshark' directory.",
+  "$dir\\npcap-installer.exe",
+  "",
+  "You can also install USBPcap from the 'wireshark' directory if you need the USB packets capture funcionality.",
+  "$dir\\USBPcapSetup-installer.exe"
+ ],
+ "persist": "Data",
+ "shortcuts": [
+  [
+   "Wireshark.exe",
+   "Wireshark"
+  ]
+ ],
+ "version": "4.0.2"
 }

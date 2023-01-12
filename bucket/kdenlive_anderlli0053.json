@@ -1,35 +1,35 @@
 {
-    "version": "20.08.1",
-    "description": "Video editing software based on the MLT Framework, KDE and Qt",
-    "homepage": "https://kdenlive.org",
-    "license": "GPL-2.0-only",
-    "architecture": {
-        "64bit": {
-            "url": "https://files.kde.org/kdenlive/release/kdenlive-20.08.1_standalone.exe#/dl.7z",
-            "hash": "89425b304e24576901116d425bab6c2c74e21689f1a24646da3209e06eee3cca"
-        }
-    },
-    "extract_dir": "kdenlive-20.08.1_standalone",
-    "bin": "bin\\kdenlive.exe",
-    "shortcuts": [
-        [
-            "bin\\kdenlive.exe",
-            "Kdenlive"
-        ]
-    ],
-    "checkver": {
-        "url": "http://mirror.cc.columbia.edu/pub/software/kde-applicationdata/kdenlive/release/?C=M;O=D",
-        "regex": "kdenlive-([\\d.-]+)_standalone"
-    },
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://files.kde.org/kdenlive/release/kdenlive-$version_standalone.exe#/dl.7z"
-            }
-        },
-        "hash": {
-            "url": "$url.sha256"
-        },
-        "extract_dir": "kdenlive-$version_standalone"
-    }
+ "architecture": {
+  "64bit": {
+   "hash": "26c6211be53dae937689be61f2065e1aae12135721b9d98ce41879fe41250128",
+   "url": "https://download.kde.org/stable/kdenlive/22.12/windows/kdenlive-22.12.1_standalone.exe#/dl.7z"
+  }
+ },
+ "autoupdate": {
+  "architecture": {
+   "64bit": {
+    "url": "https://download.kde.org/stable/kdenlive/$majorVersion.$minorVersion/windows/kdenlive-$version_standalone.exe#/dl.7z"
+   }
+  },
+  "extract_dir": "kdenlive-$version_standalone",
+  "hash": {
+   "url": "$url.sha256"
+  }
+ },
+ "bin": "bin\\kdenlive.exe",
+ "checkver": {
+  "regex": "kdenlive-([\\d.\\-]+)_standalone\\.exe",
+  "url": "https://kdenlive.org/en/download/"
+ },
+ "description": "Video editing software based on the MLT Framework, KDE and Qt",
+ "extract_dir": "kdenlive-22.12.1_standalone",
+ "homepage": "https://kdenlive.org",
+ "license": "GPL-2.0-only",
+ "shortcuts": [
+  [
+   "bin\\kdenlive.exe",
+   "Kdenlive"
+  ]
+ ],
+ "version": "22.12.1"
 }

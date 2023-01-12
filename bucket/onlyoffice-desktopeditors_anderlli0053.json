@@ -1,42 +1,42 @@
 {
-    "version": "5.6.4",
-    "description": "Office suite that combines text, spreadsheet and presentation editors allowing to create, view and edit documents.",
-    "homepage": "https://www.onlyoffice.com/apps.aspx",
-    "license": "AGPL-3.0-only",
-    "suggest": {
-        "Microsoft Visual C++ Redistibutable 2015": "extras/vcredist2015"
-    },
-    "architecture": {
-        "64bit": {
-            "url": "https://github.com/ONLYOFFICE/DesktopEditors/releases/download/ONLYOFFICE-DesktopEditors-5.6.4/DesktopEditors_x64.exe",
-            "hash": "5f7ab1b4cbf0e8ca084769f1404d16fc55e26bec9b0fed938fde7d7ff80692d2"
-        },
-        "32bit": {
-            "url": "https://github.com/ONLYOFFICE/DesktopEditors/releases/download/ONLYOFFICE-DesktopEditors-5.6.4/DesktopEditors_x86.exe",
-            "hash": "8ef01717851853fb5989e3bb7e6fc593c74c95dc6f853df647d2565a33c7c05a"
-        }
-    },
-    "innosetup": true,
-    "post_install": "Remove-Item \"$dir\\vcredist_*exe\"",
-    "bin": "DesktopEditors.exe",
-    "shortcuts": [
-        [
-            "DesktopEditors.exe",
-            "ONLYOFFICE Desktop Editors"
-        ]
-    ],
-    "checkver": {
-        "github": "https://github.com/ONLYOFFICE/DesktopEditors",
-        "regex": "tree/ONLYOFFICE-DesktopEditors-([\\d.-]+)"
-    },
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/ONLYOFFICE/DesktopEditors/releases/download/ONLYOFFICE-DesktopEditors-$version/DesktopEditors_x64.exe"
-            },
-            "32bit": {
-                "url": "https://github.com/ONLYOFFICE/DesktopEditors/releases/download/ONLYOFFICE-DesktopEditors-$version/DesktopEditors_x86.exe"
-            }
-        }
-    }
+ "architecture": {
+  "32bit": {
+   "hash": "b0fb6555a9d943dc07956fc329001e41528999832c89bb92e3ee43877233cda8",
+   "url": "https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v7.2.1/DesktopEditors_x86.exe"
+  },
+  "64bit": {
+   "hash": "d9e6232c721de3a43718e5f00005fa388bc9275c4cf2a9ba146500d10461c9a6",
+   "url": "https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v7.2.1/DesktopEditors_x64.exe"
+  }
+ },
+ "autoupdate": {
+  "architecture": {
+   "32bit": {
+    "url": "https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v$version/DesktopEditors_x86.exe"
+   },
+   "64bit": {
+    "url": "https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v$version/DesktopEditors_x64.exe"
+   }
+  }
+ },
+ "bin": "DesktopEditors.exe",
+ "checkver": {
+  "regex": "v([\\d.]+)/DesktopEditors_x64\\.exe",
+  "url": "https://api.github.com/repos/ONLYOFFICE/DesktopEditors/releases"
+ },
+ "description": "Office suite that combines text, spreadsheet and presentation editors allowing to create, view and edit documents.",
+ "homepage": "https://www.onlyoffice.com/apps.aspx",
+ "innosetup": true,
+ "license": "AGPL-3.0-only",
+ "pre_install": "Remove-Item \"$dir\\vcredist_*exe\"",
+ "shortcuts": [
+  [
+   "DesktopEditors.exe",
+   "ONLYOFFICE Desktop Editors"
+  ]
+ ],
+ "suggest": {
+  "Microsoft Visual C++ Redistibutable 2015": "extras/vcredist2022"
+ },
+ "version": "7.2.1"
 }
