@@ -54,8 +54,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - Paxxs/Cluttered-bucket
 - everyx/scoop-bucket
 - borger/scoop-emulators
-- ScoopInstaller/Nonportable
 - ACooper81/scoop-apps
+- ScoopInstaller/Nonportable
 - TheRandomLabs/Scoop-Bucket
 - dodorz/scoop
 - Qv2ray/mochi

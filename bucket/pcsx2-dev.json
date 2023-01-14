@@ -1,5 +1,5 @@
 {
-    "version": "1.7.3892",
+    "version": "1.7.3899",
     "description": "A feature rich FOSS PlayStation 2 emulator (development version)",
     "homepage": "https://pcsx2.net/",
     "license": {
@@ -14,8 +14,8 @@
     "suggest": {
         "Microsoft Visual C++ Runtime 2022": "extras/vcredist2022"
     },
-    "url": "https://github.com/PCSX2/pcsx2/releases/download/v1.7.3892/pcsx2-v1.7.3892-windows-64bit-AVX2-Qt.7z",
-    "hash": "50c59e2590dde5900cf26ff0547c95c75fc430486421e64183dda4c607bbd40f",
+    "url": "https://github.com/PCSX2/pcsx2/releases/download/v1.7.3899/pcsx2-v1.7.3899-windows-64bit-AVX2-Qt.7z",
+    "hash": "cd012463352ec46c403728fb9b8023baddb604d220ae861db4f3a25dd8327ac1",
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\")) {",
         "   New-Item \"$persist_dir\" -ItemType Directory | Out-Null",
@@ -52,7 +52,6 @@
         "logs",
         "memcards",
         "portable.ini",
-        "shaders\\GS_FX_Settings.ini",
         "snaps",
         "sstates",
         "textures"
