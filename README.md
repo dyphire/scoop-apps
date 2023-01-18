@@ -90,5 +90,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - akirco/aki-apps
 - MCOfficer/scoop-bucket
 - Weidows-projects/scoop-3rd
+- jonz94/scoop-sarasa-nerd-fonts
 - seumsc/scoop-seu
 - Darkatse/Scoop-KanColle
