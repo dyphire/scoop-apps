@@ -73,12 +73,12 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - AStupidBear/scoop-bear
 - batkiz/backit
 - mogeko/scoop-sysinternals
+- ygguorun/scoop-bucket
 - jfut/scoop-jfut
 - krproject/qi-windows
 - excitoon/scoop-user
 - Darkatse/Scoop-Darkatse
 - cc713/ownscoop
-- ygguorun/scoop-bucket
 - amorphobia/siku
 - littleli/Scoop-littleli
 - ViCrack/scoop-bucket
