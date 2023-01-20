@@ -1,26 +1,29 @@
 {
- "architecture": {
-  "64bit": {
-   "hash": "a739621895d749a440fa779dec03c6cb52d521c119ffd322d049f46400e7c285",
-   "url": "https://github.com/rimpy-custom/RimPy/releases/download/1.2.6.28/RimPy_Windows.zip"
-  }
- },
- "autoupdate": {
-  "architecture": {
-   "64bit": {
-    "url": "https://github.com/rimpy-custom/RimPy/releases/download/$version/RimPy_Windows.zip"
-   }
-  }
- },
- "checkver": "github",
- "description": "Mod manager for Rimworld",
- "homepage": "https://github.com/rimpy-custom/RimPy",
- "license": "Freeware",
- "shortcuts": [
-  [
-   "RimPy.exe",
-   "RimPy"
-  ]
- ],
- "version": "1.2.6.28"
+    "version": "1.2.5.21",
+    "homepage": "https://steamcommunity.com/sharedfiles/filedetails/?id=1847679158",
+    "description": "A mod manager for the RimWorld game.",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/rimpy-custom/RimPy/releases/download/1.2.5.21/RimPy_Windows.zip",
+            "hash": "F2897A00F061168733193437E96BAE7A10D72C7D86BE9F9B3EDCF4E18E9C17A0"
+        }
+    },
+    "bin": "RimPy.exe",
+    "shortcuts": [
+        [
+            "RimPy.exe",
+            "RimPy"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/rimpy-custom/RimPy"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/rimpy-custom/RimPy/releases/download/$version/RimPy_Windows.zip"
+            }
+        }
+    }
 }
