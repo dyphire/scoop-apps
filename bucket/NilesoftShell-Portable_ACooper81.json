@@ -1,0 +1,55 @@
+{
+    "version": "1.8",
+    "description": "Nilesoft Shell. A context menu extender that lets you handpick the items to integrate into Windows File Explorer context menu.",
+    "homepage": "https://nilesoft.org/",
+    "license": "MIT",
+    "changelog": "https://nilesoft.org/download/changes",
+    "architecture": {
+        "64bit": {
+            "url": "https://nilesoft.org/download/1.8/shell-x64.zip",
+            "hash": "064f129b6182ae1b41bd271e3dbd5cdabc789db0fe89741445d6d124a8378550"
+        },
+        "32bit": {
+            "url": "https://nilesoft.org/download/1.8/shell-x86.zip",
+            "hash": "feb4a7cedee7444868f3c3b76f8acdbd5db7b09150014f532c9cbb4de6949960"
+        }
+    },
+    "pre_install": "if(!(Test-Path \"$persist_dir\\shell.log\")) { New-Item \"$dir\\shell.log\" | Out-Null }",
+    "uninstaller": {
+        "script": [
+            "if ($cmd -eq 'uninstall') {",
+            "    $regkey = Get-ItemProperty -Path 'HKLM:\\SOFTWARE\\Classes\\Directory\\background\\shellex\\ContextMenuHandlers\\nilesoft.shell' -ErrorAction SilentlyContinue",
+            "    if ($regkey) {",
+            "        if (!(is_admin)) { error 'Admin right is required to unregister nilesoft shell'; break }",
+            "        Invoke-ExternalCommand \"$dir\\shell.exe\" -ArgumentList @('-unregister', '-restart', '-silent') -RunAs | Out-Null",
+            "        if (Get-Process -Name 'shell' -ErrorAction SilentlyContinue) { Start-Sleep -Seconds 2 }",
+            "    }",
+            "}"
+        ]
+    },
+    "bin": "shell.exe",
+    "shortcuts": [
+        [
+            "shell.exe",
+            "Nilesoft Shell"
+        ]
+    ],
+    "persist": [
+        "shell.log",
+        "shell.shl"
+    ],
+    "checkver": {
+        "url": "https://nilesoft.org/download",
+        "regex": "Shell version ([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://nilesoft.org/download/$version/shell-x64.zip"
+            },
+            "32bit": {
+                "url": "https://nilesoft.org/download/$version/shell-x86.zip"
+            }
+        }
+    }
+}

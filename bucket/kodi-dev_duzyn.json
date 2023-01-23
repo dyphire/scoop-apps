@@ -1,5 +1,5 @@
 {
-    "version": "20230116",
+    "version": "20230121",
     "description": "Open source home theater/media center software and entertainment hub for digital media",
     "homepage": "https://kodi.tv/",
     "license": "GPL-2.0-or-later",
@@ -8,37 +8,34 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://mirrors.kodi.tv/nightlies/windows/win64/Nexus/KodiSetup-20230116-ec5b7168-Nexus-x64.exe#/dl.7z",
-            "hash": "9ed73d223acbd02b422a423c65c6961d069b55318d8aa3e1a4bcb43c5f55bdfd"
+            "url": "https://mirrors.kodi.tv/nightlies/windows/win64/master/KodiSetup-20230121-2e406d99-master-x64.exe#/dl.7z",
+            "hash": "2ace5f99e4fc90a744d98ebcf35ea114e8e989eeed0f9f4508cca6d525a2a010"
         },
         "32bit": {
-            "url": "https://mirrors.kodi.tv/nightlies/windows/win32/Nexus/KodiSetup-20230116-ec5b7168-Nexus-x86.exe#/dl.7z",
-            "hash": "dcbea014de89f0c5ae55d860681fbf23c099b70a4c821898fb20c5c1d5b4820b"
+            "url": "https://mirrors.kodi.tv/nightlies/windows/win32/master/KodiSetup-20230121-2e406d99-master-x86.exe#/dl.7z",
+            "hash": "0f8e38a456f3dafb70de8191a11e0707deab01eda6bd41dda5b5997cb8c8dc2a"
         }
     },
     "post_install": "'$PLUGINSDIR', '$TEMP', 'AppxManifest.xml', 'Uninstall.exe' | ForEach-Object { Remove-Item \"$dir\\$_\" -Recurse -Force }",
     "shortcuts": [
         [
             "kodi.exe",
-            "Kodi Nightly",
+            "Kodi Dev",
             "-p"
         ]
     ],
     "persist": "portable_data",
     "checkver": {
         "script": [
-            "$page = Invoke-WebRequest 'https://kodi.tv/download/windows' -UseBasicParsing",
-            "$name = ($page.Content | Select-String -Pattern 'Kodi v[\\d.]+ \\((\\w+)\\)').Matches.Groups[1].Value",
             "$builds = 'win32', 'win64'",
             "$script_ver = ''",
             "$urls =  @()",
             "foreach ($build in $builds) {",
-            "   $base_url = 'https://mirrors.kodi.tv/nightlies/windows/'+ $build + '/' + $name + '/'",
+            "   $base_url = 'https://mirrors.kodi.tv/nightlies/windows/'+ $build + '/master/'",
             "   $dl_page = Invoke-WebRequest $base_url -UseBasicParsing",
             "   $full_version = $dl_page.links | Where-Object href -match '\\.exe$' | Select-Object -first 1 -expand href",
             "   $script_ver = $full_version -split '-' | Select-Object -Skip 1 | Select-Object -First 1",
-            "   $dl = $name + '/' + $full_version",
-            "   $urls += $dl",
+            "   $urls += $full_version",
             "}",
             "Write-Output ('version:\"' + $script_ver + '\"') ('urls:\"' + $urls + '\"')"
         ],
@@ -47,10 +44,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://mirrors.kodi.tv/nightlies/windows/win64/$matchWin64bit#/dl.7z"
+                "url": "https://mirrors.kodi.tv/nightlies/windows/win64/master/$matchWin64bit#/dl.7z"
             },
             "32bit": {
-                "url": "https://mirrors.kodi.tv/nightlies/windows/win32/$matchWin32bit#/dl.7z"
+                "url": "https://mirrors.kodi.tv/nightlies/windows/win32/master/$matchWin32bit#/dl.7z"
             }
         },
         "hash": {
