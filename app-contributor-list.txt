@@ -1347,6 +1347,7 @@ openvpn.json    ScoopInstaller/Extras
 compactor.json    ScoopInstaller/Extras
 mumble.json    ScoopInstaller/Extras
 clash-mini.json    ScoopInstaller/Extras
+wsl2-distro-manager.json    ScoopInstaller/Extras
 babelmap.json    ScoopInstaller/Extras
 fvm.json    ScoopInstaller/Extras
 zeppelin.json    ScoopInstaller/Extras
@@ -5257,9 +5258,6 @@ Github-CLI.json    anderlli0053/DEV-tools
 GliderCLI-Portable.json    anderlli0053/DEV-tools
 GnuCashPortable.json    anderlli0053/DEV-tools
 GnumericPortable.json    anderlli0053/DEV-tools
-Go-Mono-NF-Mono_anderlli0053.json    anderlli0053/DEV-tools
-Gohu-NF-Mono_anderlli0053.json    anderlli0053/DEV-tools
-Gohu-NF_anderlli0053.json    anderlli0053/DEV-tools
 GoldenDictPortable.json    anderlli0053/DEV-tools
 GollyPortable.json    anderlli0053/DEV-tools
 GoogleChrome-Install.json    anderlli0053/DEV-tools
@@ -5611,8 +5609,6 @@ Notepad3-mod_anderlli0053.json    anderlli0053/DEV-tools
 Notion-Enhancer.json    anderlli0053/DEV-tools
 Noto-Font.json    anderlli0053/DEV-tools
 Noto-Mono-Font_anderlli0053.json    anderlli0053/DEV-tools
-Noto-NF-Mono_anderlli0053.json    anderlli0053/DEV-tools
-Noto-NF_anderlli0053.json    anderlli0053/DEV-tools
 Noto-Sans-Font_anderlli0053.json    anderlli0053/DEV-tools
 Noto-Serif-Font_anderlli0053.json    anderlli0053/DEV-tools
 NoxPlayer_anderlli0053.json    anderlli0053/DEV-tools
@@ -5639,8 +5635,6 @@ Oggenc.json    anderlli0053/DEV-tools
 On-ScreenKeyboardPortable.json    anderlli0053/DEV-tools
 Open-PSHistory.json    anderlli0053/DEV-tools
 OpenBoard-Portable.json    anderlli0053/DEV-tools
-OpenDyslexic-NF-Mono_anderlli0053.json    anderlli0053/DEV-tools
-OpenDyslexic-NF_anderlli0053.json    anderlli0053/DEV-tools
 OpenHAB-Portable.json    anderlli0053/DEV-tools
 OpenHardwareMonitor-Portable.json    anderlli0053/DEV-tools
 OpenHashTab_anderlli0053.json    anderlli0053/DEV-tools
@@ -5669,8 +5663,6 @@ OracleJDK8.json    anderlli0053/DEV-tools
 OracleJRE8-Install.json    anderlli0053/DEV-tools
 OracleJRE8-Portable.json    anderlli0053/DEV-tools
 Otter.json    anderlli0053/DEV-tools
-Overpass-NF-Mono_anderlli0053.json    anderlli0053/DEV-tools
-Overpass-NF_anderlli0053.json    anderlli0053/DEV-tools
 OwinHost.json    anderlli0053/DEV-tools
 PCI-ZPortable.json    anderlli0053/DEV-tools
 PChatPortable.json    anderlli0053/DEV-tools
@@ -6087,8 +6079,6 @@ TelegramDesktopPortable.json    anderlli0053/DEV-tools
 TeraCopy-Install.json    anderlli0053/DEV-tools
 TeraCopy-Portable.json    anderlli0053/DEV-tools
 TeraCopy.json    anderlli0053/DEV-tools
-Terminus-NF-Mono_anderlli0053.json    anderlli0053/DEV-tools
-Terminus-NF_anderlli0053.json    anderlli0053/DEV-tools
 TerminusPlayer-Portable.json    anderlli0053/DEV-tools
 TesseractData-cn.json    anderlli0053/DEV-tools
 TextFilter.json    anderlli0053/DEV-tools
@@ -6120,8 +6110,6 @@ TiddlyDesktop.json    anderlli0053/DEV-tools
 TightVNC-Portable.json    anderlli0053/DEV-tools
 TileWorldPortable.json    anderlli0053/DEV-tools
 TimeVertor-Portable.json    anderlli0053/DEV-tools
-Tinos-NF-Mono_anderlli0053.json    anderlli0053/DEV-tools
-Tinos-NF_anderlli0053.json    anderlli0053/DEV-tools
 TinyGUI-Portable.json    anderlli0053/DEV-tools
 TinyImageProcessor-Portable.json    anderlli0053/DEV-tools
 TinyNvidiaUpdateChecker-Portable.json    anderlli0053/DEV-tools
@@ -6175,10 +6163,6 @@ USBSafelyRemove_anderlli0053.json    anderlli0053/DEV-tools
 USBSudokuPortable.json    anderlli0053/DEV-tools
 UUID-GUIDGeneratorPortable.json    anderlli0053/DEV-tools
 UVOutliner.json    anderlli0053/DEV-tools
-Ubuntu-NF-Mono_anderlli0053.json    anderlli0053/DEV-tools
-Ubuntu-NF_anderlli0053.json    anderlli0053/DEV-tools
-UbuntuMono-NF-Mono_anderlli0053.json    anderlli0053/DEV-tools
-UbuntuMono-NF_anderlli0053.json    anderlli0053/DEV-tools
 UltimateWindowsTweakerWin10-Portable.json    anderlli0053/DEV-tools
 UltraCopier.json    anderlli0053/DEV-tools
 UltraDefragPortable.json    anderlli0053/DEV-tools
@@ -6224,8 +6208,6 @@ VeyonClient-Install.json    anderlli0053/DEV-tools
 VeyonMaster-Install.json    anderlli0053/DEV-tools
 ViDown.json    anderlli0053/DEV-tools
 ViVeToolGUI-Portable.json    anderlli0053/DEV-tools
-VictorMono-NF-Mono_anderlli0053.json    anderlli0053/DEV-tools
-VictorMono-NF_anderlli0053.json    anderlli0053/DEV-tools
 VidCoder-Portable.json    anderlli0053/DEV-tools
 VideoReDoTVSuiteV6-Install.json    anderlli0053/DEV-tools
 Vim2ConEmu.json    anderlli0053/DEV-tools
@@ -6667,7 +6649,6 @@ azd.json    anderlli0053/DEV-tools
 aztfy.json    anderlli0053/DEV-tools
 azure-cli.json    anderlli0053/DEV-tools
 azure-functions-core-tools.json    anderlli0053/DEV-tools
-azure-iot-explorer_anderlli0053.json    anderlli0053/DEV-tools
 azure-kubelogin.json    anderlli0053/DEV-tools
 azure-ps.json    anderlli0053/DEV-tools
 b-em.json    anderlli0053/DEV-tools
@@ -6816,6 +6797,7 @@ bore.json    anderlli0053/DEV-tools
 boringproxy.json    anderlli0053/DEV-tools
 boscaceoil.json    anderlli0053/DEV-tools
 bosh-cli.json    anderlli0053/DEV-tools
+bottom-nightly_anderlli0053.json    anderlli0053/DEV-tools
 bottom.json    anderlli0053/DEV-tools
 botw-save-manager.json    anderlli0053/DEV-tools
 boundary-desktop-aoks.json    anderlli0053/DEV-tools
@@ -6824,7 +6806,6 @@ boxcutter.json    anderlli0053/DEV-tools
 boxes.json    anderlli0053/DEV-tools
 boycottadv.json    anderlli0053/DEV-tools
 brave-browser.json    anderlli0053/DEV-tools
-brave-nightly_anderlli0053.json    anderlli0053/DEV-tools
 brawlbuilder.json    anderlli0053/DEV-tools
 brawlcrate.json    anderlli0053/DEV-tools
 brename.json    anderlli0053/DEV-tools
@@ -7651,6 +7632,7 @@ dapr.json    anderlli0053/DEV-tools
 dark.json    anderlli0053/DEV-tools
 darker.json    anderlli0053/DEV-tools
 darktable-np_anderlli0053.json    anderlli0053/DEV-tools
+dart-dev_anderlli0053.json    anderlli0053/DEV-tools
 dart-sass-embedded.json    anderlli0053/DEV-tools
 dart.json    anderlli0053/DEV-tools
 data-assistant.json    anderlli0053/DEV-tools
@@ -7815,6 +7797,7 @@ dogehouse.json    anderlli0053/DEV-tools
 doggo.json    anderlli0053/DEV-tools
 dokany-np_anderlli0053.json    anderlli0053/DEV-tools
 dokka.json    anderlli0053/DEV-tools
+dolphin-dev_anderlli0053.json    anderlli0053/DEV-tools
 dolt.json    anderlli0053/DEV-tools
 dolwin.json    anderlli0053/DEV-tools
 domainlookuptools_anderlli0053.json    anderlli0053/DEV-tools
@@ -8143,7 +8126,6 @@ feem.json    anderlli0053/DEV-tools
 fenrirfs.json    anderlli0053/DEV-tools
 ferdi_anderlli0053.json    anderlli0053/DEV-tools
 feroxbuster.json    anderlli0053/DEV-tools
-ffmpeg-gyan-nightly_anderlli0053.json    anderlli0053/DEV-tools
 ffmpeg-nightly_anderlli0053.json    anderlli0053/DEV-tools
 ffmpeg-shared-nightly_anderlli0053.json    anderlli0053/DEV-tools
 ffmpeg-shared.json    anderlli0053/DEV-tools
@@ -8203,6 +8185,7 @@ firefox-history-merger.json    anderlli0053/DEV-tools
 firefox-nightly-de.json    anderlli0053/DEV-tools
 firefox-nightly-fa.json    anderlli0053/DEV-tools
 firefox-nightly-portable.json    anderlli0053/DEV-tools
+firefox-nightly-zh-cn_anderlli0053.json    anderlli0053/DEV-tools
 firefox-nightly_anderlli0053.json    anderlli0053/DEV-tools
 firefox-portable-de.json    anderlli0053/DEV-tools
 firefox-portable-fa.json    anderlli0053/DEV-tools
@@ -8491,7 +8474,6 @@ git@2.29.2.2.json    anderlli0053/DEV-tools
 git@2.39.0.2.json    anderlli0053/DEV-tools
 gitalias.json    anderlli0053/DEV-tools
 gitdelta.json    anderlli0053/DEV-tools
-gitea-beta_anderlli0053.json    anderlli0053/DEV-tools
 gitea.json    anderlli0053/DEV-tools
 gitext4.json    anderlli0053/DEV-tools
 gitg.json    anderlli0053/DEV-tools
@@ -8671,7 +8653,6 @@ hadolint.json    anderlli0053/DEV-tools
 halo.json    anderlli0053/DEV-tools
 hamsterbase.json    anderlli0053/DEV-tools
 handbrake-cli.json    anderlli0053/DEV-tools
-handbrake_anderlli0053.json    anderlli0053/DEV-tools
 handle.json    anderlli0053/DEV-tools
 handlecountersview_anderlli0053.json    anderlli0053/DEV-tools
 handy.json    anderlli0053/DEV-tools
@@ -8887,10 +8868,6 @@ intellij-jbr-jcef.json    anderlli0053/DEV-tools
 intellij-jbr-sdk-jcef.json    anderlli0053/DEV-tools
 intellij-jbr-sdk.json    anderlli0053/DEV-tools
 intellij-jbr.json    anderlli0053/DEV-tools
-intellij-jbr17-jcef_anderlli0053.json    anderlli0053/DEV-tools
-intellij-jbr17-sdk-jcef_anderlli0053.json    anderlli0053/DEV-tools
-intellij-jbr17-sdk_anderlli0053.json    anderlli0053/DEV-tools
-intellij-jbr17_anderlli0053.json    anderlli0053/DEV-tools
 intellitrace.json    anderlli0053/DEV-tools
 intermodal.json    anderlli0053/DEV-tools
 internet-download-manager-portable.json    anderlli0053/DEV-tools
@@ -9058,6 +9035,7 @@ kcemu.json    anderlli0053/DEV-tools
 kcptun.json    anderlli0053/DEV-tools
 kde-dolphin-nightly_anderlli0053.json    anderlli0053/DEV-tools
 kde-dolphin.json    anderlli0053/DEV-tools
+kdeconnect-nightly_anderlli0053.json    anderlli0053/DEV-tools
 kdevelop-nightly.json    anderlli0053/DEV-tools
 kdevelop.json    anderlli0053/DEV-tools
 kdiff3-aoks.json    anderlli0053/DEV-tools
@@ -9073,6 +9051,8 @@ keycastow.json    anderlli0053/DEV-tools
 keyfinder.json    anderlli0053/DEV-tools
 keyhh.json    anderlli0053/DEV-tools
 keystore-explorer_anderlli0053.json    anderlli0053/DEV-tools
+kicad-lite-nightly_anderlli0053.json    anderlli0053/DEV-tools
+kicad-nightly_anderlli0053.json    anderlli0053/DEV-tools
 kigb.json    anderlli0053/DEV-tools
 kim.json    anderlli0053/DEV-tools
 kind.json    anderlli0053/DEV-tools
@@ -9133,6 +9113,7 @@ kustomize.json    anderlli0053/DEV-tools
 kuwo-zd423.json    anderlli0053/DEV-tools
 kyverno-cli.json    anderlli0053/DEV-tools
 lab.json    anderlli0053/DEV-tools
+labplot-nightly_anderlli0053.json    anderlli0053/DEV-tools
 labplot.json    anderlli0053/DEV-tools
 laigter.json    anderlli0053/DEV-tools
 lal.json    anderlli0053/DEV-tools
@@ -9411,6 +9392,7 @@ metabase.json    anderlli0053/DEV-tools
 metasploit-framework.json    anderlli0053/DEV-tools
 metastore.json    anderlli0053/DEV-tools
 mfme.json    anderlli0053/DEV-tools
+micro-nightly_anderlli0053.json    anderlli0053/DEV-tools
 micro.json    anderlli0053/DEV-tools
 micro64.json    anderlli0053/DEV-tools
 microk8s-aoks.json    anderlli0053/DEV-tools
@@ -9575,6 +9557,8 @@ multipar.json    anderlli0053/DEV-tools
 multipass.json    anderlli0053/DEV-tools
 mupen64plus.json    anderlli0053/DEV-tools
 mupen64plusplus.json    anderlli0053/DEV-tools
+musescore-nightly_anderlli0053.json    anderlli0053/DEV-tools
+musescore3-nightly_anderlli0053.json    anderlli0053/DEV-tools
 musicdownloader-py.json    anderlli0053/DEV-tools
 musicdownloader.json    anderlli0053/DEV-tools
 musictag.json    anderlli0053/DEV-tools
@@ -9659,6 +9643,7 @@ neofetch.json    anderlli0053/DEV-tools
 neonds.json    anderlli0053/DEV-tools
 neopocott.json    anderlli0053/DEV-tools
 neopop.json    anderlli0053/DEV-tools
+neovim-nightly_anderlli0053.json    anderlli0053/DEV-tools
 neovim.json    anderlli0053/DEV-tools
 nerdctl.json    anderlli0053/DEV-tools
 nero-aac.json    anderlli0053/DEV-tools
@@ -9984,11 +9969,9 @@ osm.json    anderlli0053/DEV-tools
 osmose.json    anderlli0053/DEV-tools
 osquery-aoks.json    anderlli0053/DEV-tools
 osquery.json    anderlli0053/DEV-tools
-oss-cad-suite-nightly_anderlli0053.json    anderlli0053/DEV-tools
 ossgadget.json    anderlli0053/DEV-tools
 osslsigncode.json    anderlli0053/DEV-tools
 ossutil.json    anderlli0053/DEV-tools
-osulazer_anderlli0053.json    anderlli0053/DEV-tools
 osv-scanner.json    anderlli0053/DEV-tools
 oswan.json    anderlli0053/DEV-tools
 oswanu.json    anderlli0053/DEV-tools
@@ -10015,6 +9998,7 @@ pacparser.json    anderlli0053/DEV-tools
 pagedefrag.json    anderlli0053/DEV-tools
 paket.json    anderlli0053/DEV-tools
 pale.json    anderlli0053/DEV-tools
+palemoon_anderlli0053.json    anderlli0053/DEV-tools
 pan-light.json    anderlli0053/DEV-tools
 pandaocr-pro.json    anderlli0053/DEV-tools
 pandaocr_anderlli0053.json    anderlli0053/DEV-tools
@@ -10065,6 +10049,7 @@ pcre2grep.json    anderlli0053/DEV-tools
 pcregrep.json    anderlli0053/DEV-tools
 pcsp.json    anderlli0053/DEV-tools
 pcsx.json    anderlli0053/DEV-tools
+pcsx2-dev_anderlli0053.json    anderlli0053/DEV-tools
 pcsxr.json    anderlli0053/DEV-tools
 pcsxrr.json    anderlli0053/DEV-tools
 pdb2pdb.json    anderlli0053/DEV-tools
@@ -10079,7 +10064,6 @@ pdf2htmlEX.json    anderlli0053/DEV-tools
 pdfbox.json    anderlli0053/DEV-tools
 pdfcpu.json    anderlli0053/DEV-tools
 pdfpatcher.json    anderlli0053/DEV-tools
-pdfsam-visual_anderlli0053.json    anderlli0053/DEV-tools
 pdftk.json    anderlli0053/DEV-tools
 pdm.json    anderlli0053/DEV-tools
 pe-anatomist.json    anderlli0053/DEV-tools
@@ -10591,6 +10575,7 @@ php8.0.json    anderlli0053/DEV-tools
 php8.1-nts.json    anderlli0053/DEV-tools
 php8.1.json    anderlli0053/DEV-tools
 phpstorm-eap-portable_anderlli0053.json    anderlli0053/DEV-tools
+phpstorm-eap_anderlli0053.json    anderlli0053/DEV-tools
 phpstorm-portable_anderlli0053.json    anderlli0053/DEV-tools
 phpstorm-rc-portable_anderlli0053.json    anderlli0053/DEV-tools
 phrase-cli.json    anderlli0053/DEV-tools
@@ -11156,6 +11141,7 @@ r-4.2.0.json    anderlli0053/DEV-tools
 r-4.2.1.json    anderlli0053/DEV-tools
 r-devel.json    anderlli0053/DEV-tools
 r-openblas.json    anderlli0053/DEV-tools
+r-patched_anderlli0053.json    anderlli0053/DEV-tools
 r.json    anderlli0053/DEV-tools
 r128gain.json    anderlli0053/DEV-tools
 rabbit-tcp.json    anderlli0053/DEV-tools
@@ -11194,6 +11180,7 @@ rayman-control-panel_anderlli0053.json    anderlli0053/DEV-tools
 rbxlx-to-rojo.json    anderlli0053/DEV-tools
 rcc.json    anderlli0053/DEV-tools
 rcedit.json    anderlli0053/DEV-tools
+rclone-beta_anderlli0053.json    anderlli0053/DEV-tools
 rclone.json    anderlli0053/DEV-tools
 rcvPortable.json    anderlli0053/DEV-tools
 rdcman.json    anderlli0053/DEV-tools
@@ -11615,6 +11602,7 @@ shadowsocksr-hmbsbige-full.json    anderlli0053/DEV-tools
 shadowsocksr-windows.json    anderlli0053/DEV-tools
 shareenum.json    anderlli0053/DEV-tools
 sharex-dev_anderlli0053.json    anderlli0053/DEV-tools
+sharex_anderlli0053.json    anderlli0053/DEV-tools
 sharp80.json    anderlli0053/DEV-tools
 sharpchip8.json    anderlli0053/DEV-tools
 sharpii-net-core.json    anderlli0053/DEV-tools
@@ -11970,6 +11958,7 @@ teams.json    anderlli0053/DEV-tools
 teamspeak3-server.json    anderlli0053/DEV-tools
 teamviewer-np_anderlli0053.json    anderlli0053/DEV-tools
 teamviewer-np_fixed_anderlli0053.json    anderlli0053/DEV-tools
+teamviewer_anderlli0053.json    anderlli0053/DEV-tools
 teconmoons-wiivc-injector.json    anderlli0053/DEV-tools
 tectonic.json    anderlli0053/DEV-tools
 tegra-rcm-gui.json    anderlli0053/DEV-tools
@@ -12013,7 +12002,6 @@ texniccenter.json    anderlli0053/DEV-tools
 texpen.json    anderlli0053/DEV-tools
 texstudio-portable.json    anderlli0053/DEV-tools
 texstudio-tuna.json    anderlli0053/DEV-tools
-text-grab_anderlli0053.json    anderlli0053/DEV-tools
 textify.json    anderlli0053/DEV-tools
 textnote.json    anderlli0053/DEV-tools
 texturelab.json    anderlli0053/DEV-tools
@@ -12050,7 +12038,6 @@ tinygo.json    anderlli0053/DEV-tools
 tinygui.json    anderlli0053/DEV-tools
 tinyimageprocessor.json    anderlli0053/DEV-tools
 tinymediamanagerv3.json    anderlli0053/DEV-tools
-tinynvidiaupdatechecker_anderlli0053.json    anderlli0053/DEV-tools
 tinypng.json    anderlli0053/DEV-tools
 tinytex-extra.json    anderlli0053/DEV-tools
 tinytex-min.json    anderlli0053/DEV-tools
@@ -12110,7 +12097,6 @@ ttfautohint.json    anderlli0053/DEV-tools
 tubabox.json    anderlli0053/DEV-tools
 tuic.json    anderlli0053/DEV-tools
 tukui-client.json    anderlli0053/DEV-tools
-tumblthree_anderlli0053.json    anderlli0053/DEV-tools
 tun2brook.json    anderlli0053/DEV-tools
 tuneswift.json    anderlli0053/DEV-tools
 tunix2001.json    anderlli0053/DEV-tools
@@ -12420,7 +12406,6 @@ vide.json    anderlli0053/DEV-tools
 video2x.json    anderlli0053/DEV-tools
 videomanager.json    anderlli0053/DEV-tools
 videomass.json    anderlli0053/DEV-tools
-vieb_anderlli0053.json    anderlli0053/DEV-tools
 vim-nightly_anderlli0053.json    anderlli0053/DEV-tools
 vim.json    anderlli0053/DEV-tools
 vim8.json    anderlli0053/DEV-tools
@@ -12723,7 +12708,7 @@ wrangler.json    anderlli0053/DEV-tools
 wren-cli.json    anderlli0053/DEV-tools
 writer.json    anderlli0053/DEV-tools
 wscamp.json    anderlli0053/DEV-tools
-wsl2-distro-manager.json    anderlli0053/DEV-tools
+wsl2-distro-manager_anderlli0053.json    anderlli0053/DEV-tools
 wsltty-alt.json    anderlli0053/DEV-tools
 wssocks.json    anderlli0053/DEV-tools
 wstunnel.json    anderlli0053/DEV-tools
@@ -13151,10 +13136,8 @@ keepass-plugin-kpenhentryview_hoilc.json    hoilc/scoop-lemon
 hysteria_hoilc.json    hoilc/scoop-lemon
 stickies_hoilc.json    hoilc/scoop-lemon
 librespeed-cli_hoilc.json    hoilc/scoop-lemon
-tsmuxer_hoilc.json    hoilc/scoop-lemon
 syft_hoilc.json    hoilc/scoop-lemon
 ytt_hoilc.json    hoilc/scoop-lemon
-nvenc_hoilc.json    hoilc/scoop-lemon
 werf_hoilc.json    hoilc/scoop-lemon
 pngquant_hoilc.json    hoilc/scoop-lemon
 jp_hoilc.json    hoilc/scoop-lemon
@@ -13180,6 +13163,7 @@ staxrip_hoilc.json    hoilc/scoop-lemon
 wincrypt-sshagent_hoilc.json    hoilc/scoop-lemon
 miniserve_hoilc.json    hoilc/scoop-lemon
 wgcf_hoilc.json    hoilc/scoop-lemon
+phrase-cli_hoilc.json    hoilc/scoop-lemon
 openra_hoilc.json    hoilc/scoop-lemon
 balabolka_hoilc.json    hoilc/scoop-lemon
 terraformer_hoilc.json    hoilc/scoop-lemon
@@ -14168,21 +14152,23 @@ elevate_dodorz.json    dodorz/scoop
 NexusImage_dodorz.json    dodorz/scoop
 SophiApp-Portable_ACooper81.json    ACooper81/scoop-apps
 Rare-Portable_ACooper81.json    ACooper81/scoop-apps
+Jacket-Portable_ACooper81.json    ACooper81/scoop-apps
 scoop-search_ACooper81.json    ACooper81/scoop-apps
 NVCleanstall-Portable_ACooper81.json    ACooper81/scoop-apps
 ContextMenuManager-Portable.json    ACooper81/scoop-apps
+ShareX-Portable_ACooper81.json    ACooper81/scoop-apps
 RegCool-Portable_ACooper81.json    ACooper81/scoop-apps
 IrfaniewWithPlugins-Portable_ACooper81.json    ACooper81/scoop-apps
 WingetCLI-Install_ACooper81.json    ACooper81/scoop-apps
+Teamviewer-Portable_ACooper81.json    ACooper81/scoop-apps
 Windows10UpdateAssistant-Portable_ACooper81.json    ACooper81/scoop-apps
 DropPoint-Portable.json    ACooper81/scoop-apps
 mpv-Portable_ACooper81.json    ACooper81/scoop-apps
 AppFlowy-Portable.json    ACooper81/scoop-apps
 NilesoftShell-Portable_ACooper81.json    ACooper81/scoop-apps
-TextGrab-Portable_ACooper81.json    ACooper81/scoop-apps
 MuseScore-Portable_ACooper81.json    ACooper81/scoop-apps
+FlowLauncher-Portable_ACooper81.json    ACooper81/scoop-apps
 RSSGuard-Portable_ACooper81.json    ACooper81/scoop-apps
-TinyNvidiaUpdateChecker-Portable_ACooper81.json    ACooper81/scoop-apps
 DLSSSwapper-Portable.json    ACooper81/scoop-apps
 wpsoffice_ACooper81.json    ACooper81/scoop-apps
 ModernFlyouts-UserInstall.json    ACooper81/scoop-apps
@@ -14681,7 +14667,6 @@ keepass-plugin-sequencer_duzyn.json    duzyn/scoop-cn
 sapling_duzyn.json    duzyn/scoop-cn
 yakyak_duzyn.json    duzyn/scoop-cn
 famistudio_duzyn.json    duzyn/scoop-cn
-geogebra_duzyn.json    duzyn/scoop-cn
 rpcs3_duzyn.json    duzyn/scoop-cn
 Cascadia-Code_duzyn.json    duzyn/scoop-cn
 keeweb_duzyn.json    duzyn/scoop-cn
@@ -14746,7 +14731,6 @@ kcptun_duzyn.json    duzyn/scoop-cn
 temurin19-nightly-jdk_duzyn.json    duzyn/scoop-cn
 ktunnel_duzyn.json    duzyn/scoop-cn
 nodejs-np_duzyn.json    duzyn/scoop-cn
-xnview_duzyn.json    duzyn/scoop-cn
 tileiconifier_duzyn.json    duzyn/scoop-cn
 syncthingtray_duzyn.json    duzyn/scoop-cn
 helm-docs_duzyn.json    duzyn/scoop-cn
@@ -14757,6 +14741,7 @@ now-cli_duzyn.json    duzyn/scoop-cn
 mockoon_duzyn.json    duzyn/scoop-cn
 IBMPlexSans-Hebrew_duzyn.json    duzyn/scoop-cn
 winauth_duzyn.json    duzyn/scoop-cn
+edgedriver_duzyn.json    duzyn/scoop-cn
 musicplayer2_duzyn.json    duzyn/scoop-cn
 ffsend_duzyn.json    duzyn/scoop-cn
 liberica-jdk_duzyn.json    duzyn/scoop-cn
@@ -14869,6 +14854,7 @@ ffmpeg-nightly_duzyn.json    duzyn/scoop-cn
 marp_duzyn.json    duzyn/scoop-cn
 reviewdog_duzyn.json    duzyn/scoop-cn
 texlab_duzyn.json    duzyn/scoop-cn
+ffmpeg-gyan-nightly_duzyn.json    duzyn/scoop-cn
 winsw_duzyn.json    duzyn/scoop-cn
 SpaceMono-NF-Mono_duzyn.json    duzyn/scoop-cn
 lite-xl-addons_duzyn.json    duzyn/scoop-cn
@@ -14936,7 +14922,6 @@ Agave-NF-Mono_duzyn.json    duzyn/scoop-cn
 rust_duzyn.json    duzyn/scoop-cn
 vboxvmservice_duzyn.json    duzyn/scoop-cn
 scallion_duzyn.json    duzyn/scoop-cn
-k-lite-codec-pack-full-np_duzyn.json    duzyn/scoop-cn
 neofetch_duzyn.json    duzyn/scoop-cn
 engauge-digitizer_duzyn.json    duzyn/scoop-cn
 delta_duzyn.json    duzyn/scoop-cn
@@ -15022,6 +15007,7 @@ Delugia-Nerd-Font-Complete_duzyn.json    duzyn/scoop-cn
 picocrypt_duzyn.json    duzyn/scoop-cn
 CodeNewRoman-NF_duzyn.json    duzyn/scoop-cn
 wakatime-cli_duzyn.json    duzyn/scoop-cn
+intellij-jbr17-sdk-jcef_duzyn.json    duzyn/scoop-cn
 golangci-lint_duzyn.json    duzyn/scoop-cn
 notable_duzyn.json    duzyn/scoop-cn
 pandoc-crossref_duzyn.json    duzyn/scoop-cn
@@ -15036,7 +15022,6 @@ ezunlock_duzyn.json    duzyn/scoop-cn
 dum_duzyn.json    duzyn/scoop-cn
 SourceCodePro-NF_duzyn.json    duzyn/scoop-cn
 nova_duzyn.json    duzyn/scoop-cn
-kdeconnect-nightly_duzyn.json    duzyn/scoop-cn
 beekeeper-studio_duzyn.json    duzyn/scoop-cn
 twinkle-tray_duzyn.json    duzyn/scoop-cn
 quassel_duzyn.json    duzyn/scoop-cn
@@ -15107,7 +15092,6 @@ nodejs012_duzyn.json    duzyn/scoop-cn
 mutagen_duzyn.json    duzyn/scoop-cn
 cloud-nuke_duzyn.json    duzyn/scoop-cn
 keypirinha_duzyn.json    duzyn/scoop-cn
-trid_duzyn.json    duzyn/scoop-cn
 v-weekly_duzyn.json    duzyn/scoop-cn
 keepassxc2.6.6_duzyn.json    duzyn/scoop-cn
 procs_duzyn.json    duzyn/scoop-cn
@@ -15119,6 +15103,7 @@ citra-canary_duzyn.json    duzyn/scoop-cn
 stdiscosrv_duzyn.json    duzyn/scoop-cn
 vnote_duzyn.json    duzyn/scoop-cn
 trenchbroom_duzyn.json    duzyn/scoop-cn
+ddu_duzyn.json    duzyn/scoop-cn
 mesen-s_duzyn.json    duzyn/scoop-cn
 temurin-jre_duzyn.json    duzyn/scoop-cn
 liberica13-lite-jdk_duzyn.json    duzyn/scoop-cn
@@ -15242,6 +15227,7 @@ cubiomes-viewer_duzyn.json    duzyn/scoop-cn
 graalvm20-jdk8_duzyn.json    duzyn/scoop-cn
 gopher360_duzyn.json    duzyn/scoop-cn
 dnslookup_duzyn.json    duzyn/scoop-cn
+intellij-jbr17-sdk_duzyn.json    duzyn/scoop-cn
 ojdkbuild12_duzyn.json    duzyn/scoop-cn
 notepadnext_duzyn.json    duzyn/scoop-cn
 biodiff_duzyn.json    duzyn/scoop-cn
@@ -15267,7 +15253,6 @@ apkeep_duzyn.json    duzyn/scoop-cn
 spytify_duzyn.json    duzyn/scoop-cn
 AnonymousPro-NF-Mono_duzyn.json    duzyn/scoop-cn
 IBMPlexSans-JP_duzyn.json    duzyn/scoop-cn
-k-lite-codec-pack-basic-np_duzyn.json    duzyn/scoop-cn
 unlocker_duzyn.json    duzyn/scoop-cn
 hostsman_duzyn.json    duzyn/scoop-cn
 zaproxy_duzyn.json    duzyn/scoop-cn
@@ -15311,7 +15296,6 @@ corretto11-jdk_duzyn.json    duzyn/scoop-cn
 blender-launcher_duzyn.json    duzyn/scoop-cn
 xenia-canary_duzyn.json    duzyn/scoop-cn
 qimgv-video_duzyn.json    duzyn/scoop-cn
-unrar_duzyn.json    duzyn/scoop-cn
 awsqueue_duzyn.json    duzyn/scoop-cn
 png2html_duzyn.json    duzyn/scoop-cn
 ytt_duzyn.json    duzyn/scoop-cn
@@ -15383,7 +15367,6 @@ supertuxkart_duzyn.json    duzyn/scoop-cn
 Source-Han-Mono-HC_duzyn.json    duzyn/scoop-cn
 protolint_duzyn.json    duzyn/scoop-cn
 mangal_duzyn.json    duzyn/scoop-cn
-musescore-nightly_duzyn.json    duzyn/scoop-cn
 openhv_duzyn.json    duzyn/scoop-cn
 boot-clj_duzyn.json    duzyn/scoop-cn
 uniextract2_duzyn.json    duzyn/scoop-cn
@@ -15485,7 +15468,6 @@ jstock_duzyn.json    duzyn/scoop-cn
 opentabletdriver_duzyn.json    duzyn/scoop-cn
 fat32format_duzyn.json    duzyn/scoop-cn
 visualvm_duzyn.json    duzyn/scoop-cn
-firefox-developer_duzyn.json    duzyn/scoop-cn
 mtuner_duzyn.json    duzyn/scoop-cn
 ntop_duzyn.json    duzyn/scoop-cn
 DejaVuSansMono-NF_duzyn.json    duzyn/scoop-cn
@@ -15509,11 +15491,9 @@ duf_duzyn.json    duzyn/scoop-cn
 git-with-openssh_duzyn.json    duzyn/scoop-cn
 openark_duzyn.json    duzyn/scoop-cn
 liberica15-jre_duzyn.json    duzyn/scoop-cn
-k-lite-codec-pack-mega-np_duzyn.json    duzyn/scoop-cn
 unison_duzyn.json    duzyn/scoop-cn
 SarasaGothic-K_duzyn.json    duzyn/scoop-cn
 protonmail-bridge_duzyn.json    duzyn/scoop-cn
-rclone-beta_duzyn.json    duzyn/scoop-cn
 freemove_duzyn.json    duzyn/scoop-cn
 moderndeck_duzyn.json    duzyn/scoop-cn
 git-branchless_duzyn.json    duzyn/scoop-cn
@@ -15580,7 +15560,6 @@ restish_duzyn.json    duzyn/scoop-cn
 ntfs2btrfs_duzyn.json    duzyn/scoop-cn
 openmsx-dev_duzyn.json    duzyn/scoop-cn
 k3d_duzyn.json    duzyn/scoop-cn
-r-patched_duzyn.json    duzyn/scoop-cn
 keenwrite_duzyn.json    duzyn/scoop-cn
 chatgpt_duzyn.json    duzyn/scoop-cn
 office-tool-plus_duzyn.json    duzyn/scoop-cn
@@ -15610,7 +15589,6 @@ ahoy_duzyn.json    duzyn/scoop-cn
 kubelogin_duzyn.json    duzyn/scoop-cn
 spotdl-beta_duzyn.json    duzyn/scoop-cn
 Overpass-NF-Mono_duzyn.json    duzyn/scoop-cn
-vlc-nightly_duzyn.json    duzyn/scoop-cn
 ojdkbuild8_duzyn.json    duzyn/scoop-cn
 ruby30_duzyn.json    duzyn/scoop-cn
 windows-terminal_duzyn.json    duzyn/scoop-cn
@@ -15696,7 +15674,6 @@ rtcwcoop_duzyn.json    duzyn/scoop-cn
 thisiswin11_duzyn.json    duzyn/scoop-cn
 rife-ncnn-vulkan_duzyn.json    duzyn/scoop-cn
 shadered_duzyn.json    duzyn/scoop-cn
-firefox-nightly_duzyn.json    duzyn/scoop-cn
 natron_duzyn.json    duzyn/scoop-cn
 win-dynamic-desktop_duzyn.json    duzyn/scoop-cn
 temurin-lts-jre_duzyn.json    duzyn/scoop-cn
@@ -15780,7 +15757,6 @@ hydrogen_duzyn.json    duzyn/scoop-cn
 widelands_duzyn.json    duzyn/scoop-cn
 nvs_duzyn.json    duzyn/scoop-cn
 sapmachine17-jre_duzyn.json    duzyn/scoop-cn
-cockroachdb_duzyn.json    duzyn/scoop-cn
 biglybt-np_duzyn.json    duzyn/scoop-cn
 skaffold_duzyn.json    duzyn/scoop-cn
 sd_duzyn.json    duzyn/scoop-cn
@@ -15840,7 +15816,6 @@ Mononoki-NF_duzyn.json    duzyn/scoop-cn
 switcheroo_duzyn.json    duzyn/scoop-cn
 r128gain_duzyn.json    duzyn/scoop-cn
 mame_duzyn.json    duzyn/scoop-cn
-project64-dev_duzyn.json    duzyn/scoop-cn
 yasm_duzyn.json    duzyn/scoop-cn
 eagleget_duzyn.json    duzyn/scoop-cn
 k3sup_duzyn.json    duzyn/scoop-cn
@@ -15889,7 +15864,6 @@ winget_duzyn.json    duzyn/scoop-cn
 ryujinx-ava_duzyn.json    duzyn/scoop-cn
 flameshot_duzyn.json    duzyn/scoop-cn
 pasteboard_duzyn.json    duzyn/scoop-cn
-kodi-dev_duzyn.json    duzyn/scoop-cn
 discord_duzyn.json    duzyn/scoop-cn
 railway_duzyn.json    duzyn/scoop-cn
 yapa_duzyn.json    duzyn/scoop-cn
@@ -15957,6 +15931,7 @@ apktool_duzyn.json    duzyn/scoop-cn
 kavita_duzyn.json    duzyn/scoop-cn
 temurin19-jdk_duzyn.json    duzyn/scoop-cn
 chromium_duzyn.json    duzyn/scoop-cn
+eduke32_duzyn.json    duzyn/scoop-cn
 SarasaGothic-SC_duzyn.json    duzyn/scoop-cn
 64gram_duzyn.json    duzyn/scoop-cn
 wincompose_duzyn.json    duzyn/scoop-cn
@@ -15995,15 +15970,14 @@ tikzit_duzyn.json    duzyn/scoop-cn
 ryujinx_duzyn.json    duzyn/scoop-cn
 glogg_duzyn.json    duzyn/scoop-cn
 flow031_duzyn.json    duzyn/scoop-cn
-winrar_duzyn.json    duzyn/scoop-cn
 SarasaGothic-ttc-unhinted_duzyn.json    duzyn/scoop-cn
 xca_duzyn.json    duzyn/scoop-cn
+kodi-nightly_duzyn.json    duzyn/scoop-cn
 nodejs8_duzyn.json    duzyn/scoop-cn
 jenv_duzyn.json    duzyn/scoop-cn
 seqcli_duzyn.json    duzyn/scoop-cn
 stevedore-np_duzyn.json    duzyn/scoop-cn
 raindrop.io_duzyn.json    duzyn/scoop-cn
-vosviewer_duzyn.json    duzyn/scoop-cn
 http-downloader_duzyn.json    duzyn/scoop-cn
 harmony_duzyn.json    duzyn/scoop-cn
 graalvm22-jdk17_duzyn.json    duzyn/scoop-cn
@@ -16144,7 +16118,6 @@ BigBlueTerminal-NF_duzyn.json    duzyn/scoop-cn
 wsa-pacman_duzyn.json    duzyn/scoop-cn
 synctrayzor_duzyn.json    duzyn/scoop-cn
 safebrowser_duzyn.json    duzyn/scoop-cn
-nconvert_duzyn.json    duzyn/scoop-cn
 ProFont-NF_duzyn.json    duzyn/scoop-cn
 nats-server_duzyn.json    duzyn/scoop-cn
 ytcast_duzyn.json    duzyn/scoop-cn
@@ -16180,7 +16153,6 @@ simple-assembly-explorer_duzyn.json    duzyn/scoop-cn
 tagspaces_duzyn.json    duzyn/scoop-cn
 conftest_duzyn.json    duzyn/scoop-cn
 cuetools_duzyn.json    duzyn/scoop-cn
-okular-nightly_duzyn.json    duzyn/scoop-cn
 vuplayer_duzyn.json    duzyn/scoop-cn
 Cousine-NF_duzyn.json    duzyn/scoop-cn
 temurin17-nightly-jre_duzyn.json    duzyn/scoop-cn
@@ -16288,7 +16260,6 @@ CascadiaCode-NF_duzyn.json    duzyn/scoop-cn
 temurin-jdk_duzyn.json    duzyn/scoop-cn
 mob_duzyn.json    duzyn/scoop-cn
 celestia_duzyn.json    duzyn/scoop-cn
-zig-dev_duzyn.json    duzyn/scoop-cn
 firedm_duzyn.json    duzyn/scoop-cn
 visualboyadvance-m_duzyn.json    duzyn/scoop-cn
 antimicro_duzyn.json    duzyn/scoop-cn
@@ -16309,7 +16280,6 @@ hokus_duzyn.json    duzyn/scoop-cn
 corporateclash_duzyn.json    duzyn/scoop-cn
 warp_duzyn.json    duzyn/scoop-cn
 laragon_duzyn.json    duzyn/scoop-cn
-kafka_duzyn.json    duzyn/scoop-cn
 vysor_duzyn.json    duzyn/scoop-cn
 Arimo-NF-Mono_duzyn.json    duzyn/scoop-cn
 autoactions_duzyn.json    duzyn/scoop-cn
@@ -16325,7 +16295,6 @@ sapmachine14-jre_duzyn.json    duzyn/scoop-cn
 etl2pcapng_duzyn.json    duzyn/scoop-cn
 handbrake-cli_duzyn.json    duzyn/scoop-cn
 nodejs11_duzyn.json    duzyn/scoop-cn
-kubo_duzyn.json    duzyn/scoop-cn
 encryptpad_duzyn.json    duzyn/scoop-cn
 DejaVuSansMono-NF-Mono_duzyn.json    duzyn/scoop-cn
 amass_duzyn.json    duzyn/scoop-cn
@@ -16336,13 +16305,11 @@ stretchly_duzyn.json    duzyn/scoop-cn
 ocat_duzyn.json    duzyn/scoop-cn
 spotify-qt-nightly_duzyn.json    duzyn/scoop-cn
 intermodal_duzyn.json    duzyn/scoop-cn
-azcopy_duzyn.json    duzyn/scoop-cn
 git-sizer_duzyn.json    duzyn/scoop-cn
 windows95_duzyn.json    duzyn/scoop-cn
 mactype-np_duzyn.json    duzyn/scoop-cn
 b3sum_duzyn.json    duzyn/scoop-cn
 komga_duzyn.json    duzyn/scoop-cn
-winrar-helper_duzyn.json    duzyn/scoop-cn
 ascii-image-converter_duzyn.json    duzyn/scoop-cn
 torrenttools_duzyn.json    duzyn/scoop-cn
 zenhan_duzyn.json    duzyn/scoop-cn
@@ -16410,7 +16377,7 @@ mediainfo.net_duzyn.json    duzyn/scoop-cn
 liberica11-jdk_duzyn.json    duzyn/scoop-cn
 sfsu_duzyn.json    duzyn/scoop-cn
 ferium_duzyn.json    duzyn/scoop-cn
-firefox-beta_duzyn.json    duzyn/scoop-cn
+open-shell-np_duzyn.json    duzyn/scoop-cn
 mo2_duzyn.json    duzyn/scoop-cn
 clink-flex-prompt_duzyn.json    duzyn/scoop-cn
 temurin18-jdk_duzyn.json    duzyn/scoop-cn
@@ -16428,7 +16395,6 @@ extraterm_duzyn.json    duzyn/scoop-cn
 msmpi_duzyn.json    duzyn/scoop-cn
 sqldef_duzyn.json    duzyn/scoop-cn
 freetube_duzyn.json    duzyn/scoop-cn
-k-lite-codec-pack-standard-np_duzyn.json    duzyn/scoop-cn
 gitextensions_duzyn.json    duzyn/scoop-cn
 bombardier_duzyn.json    duzyn/scoop-cn
 devhub_duzyn.json    duzyn/scoop-cn
@@ -16450,7 +16416,6 @@ perfview_duzyn.json    duzyn/scoop-cn
 vultr_duzyn.json    duzyn/scoop-cn
 keepass-plugin-keepassrpc_duzyn.json    duzyn/scoop-cn
 InconsolataLGC-NF-Mono_duzyn.json    duzyn/scoop-cn
-nheko-nightly_duzyn.json    duzyn/scoop-cn
 xh_duzyn.json    duzyn/scoop-cn
 jf-open-huninn_duzyn.json    duzyn/scoop-cn
 dufs_duzyn.json    duzyn/scoop-cn
@@ -16469,7 +16434,6 @@ lazpaint_duzyn.json    duzyn/scoop-cn
 act_duzyn.json    duzyn/scoop-cn
 doomrunner_duzyn.json    duzyn/scoop-cn
 openmsx_duzyn.json    duzyn/scoop-cn
-opera-gx_duzyn.json    duzyn/scoop-cn
 temurin8-nightly-jre_duzyn.json    duzyn/scoop-cn
 portainer_duzyn.json    duzyn/scoop-cn
 scala_duzyn.json    duzyn/scoop-cn
@@ -16491,7 +16455,7 @@ triplea_duzyn.json    duzyn/scoop-cn
 loft_duzyn.json    duzyn/scoop-cn
 twitchdownloader-cli_duzyn.json    duzyn/scoop-cn
 ipfilter-updater_duzyn.json    duzyn/scoop-cn
-kicad-lite-nightly_duzyn.json    duzyn/scoop-cn
+intellij-jbr17_duzyn.json    duzyn/scoop-cn
 gotify-cli_duzyn.json    duzyn/scoop-cn
 weakauras-companion_duzyn.json    duzyn/scoop-cn
 latex_duzyn.json    duzyn/scoop-cn
@@ -16529,12 +16493,10 @@ corretto15-jdk_duzyn.json    duzyn/scoop-cn
 nodejs7_duzyn.json    duzyn/scoop-cn
 liberica11-full-jdk_duzyn.json    duzyn/scoop-cn
 pdf2djvu_duzyn.json    duzyn/scoop-cn
-ppsspp-dev_duzyn.json    duzyn/scoop-cn
 simple-dnscrypt_duzyn.json    duzyn/scoop-cn
 tidy_duzyn.json    duzyn/scoop-cn
 space-radar_duzyn.json    duzyn/scoop-cn
 janet_duzyn.json    duzyn/scoop-cn
-webstorm-eap_duzyn.json    duzyn/scoop-cn
 yara_duzyn.json    duzyn/scoop-cn
 jellyfin-mpv-shim_duzyn.json    duzyn/scoop-cn
 clash.meta_duzyn.json    duzyn/scoop-cn
@@ -16555,7 +16517,6 @@ scc_duzyn.json    duzyn/scoop-cn
 protoc-gen-grpc-web_duzyn.json    duzyn/scoop-cn
 caddy_duzyn.json    duzyn/scoop-cn
 msys2-20200517_duzyn.json    duzyn/scoop-cn
-winrar-np_duzyn.json    duzyn/scoop-cn
 gunk_duzyn.json    duzyn/scoop-cn
 standardnotes_duzyn.json    duzyn/scoop-cn
 silentcmd_duzyn.json    duzyn/scoop-cn
@@ -16633,11 +16594,11 @@ Hack-NF-Mono_duzyn.json    duzyn/scoop-cn
 liberica8-full-jdk_duzyn.json    duzyn/scoop-cn
 AnonymousPro-NF_duzyn.json    duzyn/scoop-cn
 openspades_duzyn.json    duzyn/scoop-cn
-kicad-nightly_duzyn.json    duzyn/scoop-cn
 ytmdesktop_duzyn.json    duzyn/scoop-cn
 AurulentSansMono-NF-Mono_duzyn.json    duzyn/scoop-cn
 simplewall_duzyn.json    duzyn/scoop-cn
 leiningen_duzyn.json    duzyn/scoop-cn
+lazy-posh-git_duzyn.json    duzyn/scoop-cn
 dasel_duzyn.json    duzyn/scoop-cn
 thorium-reader_duzyn.json    duzyn/scoop-cn
 sapmachine-jdk_duzyn.json    duzyn/scoop-cn
@@ -16759,7 +16720,6 @@ sapmachine12-jdk_duzyn.json    duzyn/scoop-cn
 liberica15-full-jre_duzyn.json    duzyn/scoop-cn
 liberica17-jdk_duzyn.json    duzyn/scoop-cn
 franz_duzyn.json    duzyn/scoop-cn
-prismlauncher-qt5-git_duzyn.json    duzyn/scoop-cn
 corretto8-jdk_duzyn.json    duzyn/scoop-cn
 shfmt_duzyn.json    duzyn/scoop-cn
 micaforeveryone-dev_duzyn.json    duzyn/scoop-cn
@@ -16786,7 +16746,6 @@ temurin11-jre_duzyn.json    duzyn/scoop-cn
 nomacs_duzyn.json    duzyn/scoop-cn
 opentrack_duzyn.json    duzyn/scoop-cn
 UbuntuMono-NF-Mono_duzyn.json    duzyn/scoop-cn
-heroku-cli_duzyn.json    duzyn/scoop-cn
 lapce_duzyn.json    duzyn/scoop-cn
 hledger_duzyn.json    duzyn/scoop-cn
 sharpkeys_duzyn.json    duzyn/scoop-cn
@@ -16843,7 +16802,6 @@ mu-editor_duzyn.json    duzyn/scoop-cn
 toggl_duzyn.json    duzyn/scoop-cn
 helix_duzyn.json    duzyn/scoop-cn
 Source-Han-Serif-SC_duzyn.json    duzyn/scoop-cn
-winscp_duzyn.json    duzyn/scoop-cn
 octosql_duzyn.json    duzyn/scoop-cn
 auto-dark-mode-np_duzyn.json    duzyn/scoop-cn
 win11dragdroptaskbarfix_duzyn.json    duzyn/scoop-cn
@@ -16854,7 +16812,6 @@ buttercup_duzyn.json    duzyn/scoop-cn
 minisign_duzyn.json    duzyn/scoop-cn
 prometheus-pushgateway_duzyn.json    duzyn/scoop-cn
 ueli_duzyn.json    duzyn/scoop-cn
-labplot-nightly_duzyn.json    duzyn/scoop-cn
 hexo-client_duzyn.json    duzyn/scoop-cn
 clingo_duzyn.json    duzyn/scoop-cn
 lynx283_duzyn.json    duzyn/scoop-cn
@@ -16955,6 +16912,7 @@ haxe_duzyn.json    duzyn/scoop-cn
 twitchdownloader_duzyn.json    duzyn/scoop-cn
 git-tfs_duzyn.json    duzyn/scoop-cn
 transmission_duzyn.json    duzyn/scoop-cn
+intellij-jbr17-jcef_duzyn.json    duzyn/scoop-cn
 puttie_duzyn.json    duzyn/scoop-cn
 cpufetch_duzyn.json    duzyn/scoop-cn
 rke_duzyn.json    duzyn/scoop-cn
@@ -16993,7 +16951,6 @@ FiraCode-NF_duzyn.json    duzyn/scoop-cn
 ojdkbuild12-full_duzyn.json    duzyn/scoop-cn
 terraform-provider-ibm_duzyn.json    duzyn/scoop-cn
 sbom-tool_duzyn.json    duzyn/scoop-cn
-musescore3-nightly_duzyn.json    duzyn/scoop-cn
 spotify-tui_duzyn.json    duzyn/scoop-cn
 openjdk8-redhat-jre_duzyn.json    duzyn/scoop-cn
 love9_duzyn.json    duzyn/scoop-cn
@@ -17012,7 +16969,6 @@ love6_duzyn.json    duzyn/scoop-cn
 super-productivity_duzyn.json    duzyn/scoop-cn
 arc_duzyn.json    duzyn/scoop-cn
 Go-Mono-NF_duzyn.json    duzyn/scoop-cn
-mgba-dev_duzyn.json    duzyn/scoop-cn
 listmonk_duzyn.json    duzyn/scoop-cn
 tproxy_duzyn.json    duzyn/scoop-cn
 vlc_duzyn.json    duzyn/scoop-cn
@@ -17025,7 +16981,6 @@ msys2_duzyn.json    duzyn/scoop-cn
 processhacker-nightly_duzyn.json    duzyn/scoop-cn
 clash_duzyn.json    duzyn/scoop-cn
 spotube_duzyn.json    duzyn/scoop-cn
-prismlauncher-git_duzyn.json    duzyn/scoop-cn
 gephi_duzyn.json    duzyn/scoop-cn
 ie11webdriver_duzyn.json    duzyn/scoop-cn
 zoxide_duzyn.json    duzyn/scoop-cn
@@ -17066,7 +17021,6 @@ aws-vault_duzyn.json    duzyn/scoop-cn
 scaleway-cli_duzyn.json    duzyn/scoop-cn
 liberica15-lite-jdk_duzyn.json    duzyn/scoop-cn
 beeftext_duzyn.json    duzyn/scoop-cn
-gitea_duzyn.json    duzyn/scoop-cn
 dnscrypt-proxy_duzyn.json    duzyn/scoop-cn
 connect_duzyn.json    duzyn/scoop-cn
 temurin11-jdk_duzyn.json    duzyn/scoop-cn
@@ -17149,7 +17103,6 @@ logviewer_naderi.json    naderi/scoop-bucket
 windedit_naderi.json    naderi/scoop-bucket
 font-shabnam_naderi.json    naderi/scoop-bucket
 leomoon-subfix_naderi.json    naderi/scoop-bucket
-xnview-classic-min_naderi.json    naderi/scoop-bucket
 xion-audio-player_naderi.json    naderi/scoop-bucket
 stdu-xml-editor_naderi.json    naderi/scoop-bucket
 mitec-xml-viewer_naderi.json    naderi/scoop-bucket
@@ -17236,7 +17189,6 @@ subtitle-edit_naderi.json    naderi/scoop-bucket
 winusb_naderi.json    naderi/scoop-bucket
 uget-portable_naderi.json    naderi/scoop-bucket
 boom_naderi.json    naderi/scoop-bucket
-xnview-classic-full_naderi.json    naderi/scoop-bucket
 uniextract_naderi.json    naderi/scoop-bucket
 autohotkey-portable_naderi.json    naderi/scoop-bucket
 cpuz_naderi.json    naderi/scoop-bucket
@@ -17355,7 +17307,6 @@ wox-portable_naderi.json    naderi/scoop-bucket
 eventlogviewer_naderi.json    naderi/scoop-bucket
 pushbullet_naderi.json    naderi/scoop-bucket
 lf_naderi.json    naderi/scoop-bucket
-xnview-classic_naderi.json    naderi/scoop-bucket
 auryo_naderi.json    naderi/scoop-bucket
 mitec-photoview_naderi.json    naderi/scoop-bucket
 telegram_naderi.json    naderi/scoop-bucket
@@ -18022,7 +17973,6 @@ officetoolplus_cc713.json    cc713/ownscoop
 dnSpyEx_cc713.json    cc713/ownscoop
 foobox-cn_cc713.json    cc713/ownscoop
 ghostscript_cc713.json    cc713/ownscoop
-rpcs3-dev_cc713.json    cc713/ownscoop
 winmerge_cc713.json    cc713/ownscoop
 downkyi_cc713.json    cc713/ownscoop
 LyX_cc713.json    cc713/ownscoop
@@ -18669,7 +18619,6 @@ cosbrowser_akirco.json    akirco/aki-apps
 mi-assistant.json    akirco/aki-apps
 deno_akirco.json    akirco/aki-apps
 registry-finder_akirco.json    akirco/aki-apps
-glow_akirco.json    akirco/aki-apps
 lepton_akirco.json    akirco/aki-apps
 QQ_akirco.json    akirco/aki-apps
 mysql57_akirco.json    akirco/aki-apps
