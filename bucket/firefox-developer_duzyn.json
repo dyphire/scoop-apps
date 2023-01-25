@@ -1,0 +1,79 @@
+{
+    "version": "110.0b4",
+    "description": "Developer builds of Firefox: the popular open source web browser",
+    "homepage": "https://www.mozilla.org/en-US/firefox/developer/",
+    "license": "MPL-2.0",
+    "notes": [
+        "To set profile 'Scoop-Dev' as *DEFAULT*, or profiles/settings was lost after update:",
+        "  - Run 'Firefox Dev Profile Manager', choose 'Scoop-Dev' then click 'Start Firefox Developer Edition'.",
+        "  - Visit 'about:profiles' page in Firefox Dev to check *DEFAULT* profile.",
+        "For details: https://support.mozilla.org/en-US/kb/profile-manager-create-remove-switch-firefox-profiles"
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://archive.mozilla.org/pub/devedition/releases/110.0b4/win64/en-US/Firefox%20Setup%20110.0b4.exe#/dl.7z",
+            "hash": "sha512:c9412e1892947ffb3e86af0bc44306ffa47015877e6577ba1eaa5da7b29e4535e758803137036e9257b8442fe200bf45647fc0c1892a34fad85c96d1c971c0b1"
+        },
+        "32bit": {
+            "url": "https://archive.mozilla.org/pub/devedition/releases/110.0b4/win32/en-US/Firefox%20Setup%20110.0b4.exe#/dl.7z",
+            "hash": "sha512:852a66133935f8c38308741b75204c2446235a61db4c2046c737dfe4d5d15f89a4f25992b56e51d6510f70499f985c100c51dda13807473e523a92f1e1595c94"
+        }
+    },
+    "extract_dir": "core",
+    "post_install": [
+        "firefox-dev -CreateProfile \"Scoop-Dev $persist_dir\\profile\"",
+        "$Addition = \"$persist_dir\\addition\"",
+        "if (Test-Path $Addition) {",
+        "  info 'Copying additional items...'",
+        "  Copy-Item -Path $Addition\\* -Destination $dir -Force -Recurse -ErrorAction SilentlyContinue",
+        "}"
+    ],
+    "bin": [
+        [
+            "firefox.exe",
+            "firefox-dev"
+        ],
+        [
+            "firefox.exe",
+            "firefox-developer"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "firefox.exe",
+            "Firefox Dev"
+        ],
+        [
+            "firefox.exe",
+            "Firefox Dev Profile Manager",
+            "-P"
+        ]
+    ],
+    "persist": [
+        "distribution",
+        "profile"
+    ],
+    "checkver": {
+        "url": "https://aus5.mozilla.org/update/6/Firefox/93.0/_/WINNT_x86_64-msvc-x64/en-US/aurora/_/_/_/_/update.xml",
+        "xpath": "/updates/update/patch/@URL",
+        "regex": "devedition-([\\db.]+)-"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://archive.mozilla.org/pub/devedition/releases/$version/win64/en-US/Firefox%20Setup%20$version.exe#/dl.7z",
+                "hash": {
+                    "url": "https://archive.mozilla.org/pub/devedition/releases/$version/SHA512SUMS",
+                    "regex": "$sha512\\s+win64/en-US/$basename"
+                }
+            },
+            "32bit": {
+                "url": "https://archive.mozilla.org/pub/devedition/releases/$version/win32/en-US/Firefox%20Setup%20$version.exe#/dl.7z",
+                "hash": {
+                    "url": "https://archive.mozilla.org/pub/devedition/releases/$version/SHA512SUMS",
+                    "regex": "$sha512\\s+win32/en-US/$basename"
+                }
+            }
+        }
+    }
+}
