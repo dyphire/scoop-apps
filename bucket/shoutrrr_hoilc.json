@@ -1,0 +1,36 @@
+{
+    "version": "0.7.0",
+    "description": "Notification library for gophers and their furry friends.",
+    "homepage": "https://github.com/containrrr/shoutrrr",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/containrrr/shoutrrr/releases/download/v0.7.0/shoutrrr_windows_amd64.zip",
+            "hash": "4846c0931ae5f7f60a847fde393117c8f1315eda5c4490470f3072043b1f8937"
+        },
+        "32bit": {
+            "url": "https://github.com/containrrr/shoutrrr/releases/download/v0.7.0/shoutrrr_windows_386.zip",
+            "hash": "e4ccc04d3e70fe57681af0363685b00ad0d908d9ad283226d3bc8b73f8b4110a"
+        }
+    },
+    "bin": "shoutrrr.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/containrrr/shoutrrr/releases/download/v$version/shoutrrr_windows_amd64.zip",
+                "hash": {
+                    "url": "https://github.com/containrrr/shoutrrr/releases/download/v$version/shoutrrr_$version_checksums.txt",
+                    "find": "([a-fA-F0-9]{32,64,128})[\\x20\\t]+.*$basename(?:[\\x20\\t]+\\d+)?"
+                }
+            },
+            "32bit": {
+                "url": "https://github.com/containrrr/shoutrrr/releases/download/v$version/shoutrrr_windows_386.zip",
+                "hash": {
+                    "url": "https://github.com/containrrr/shoutrrr/releases/download/v$version/shoutrrr_$version_checksums.txt",
+                    "find": "([a-fA-F0-9]{32,64,128})[\\x20\\t]+.*$basename(?:[\\x20\\t]+\\d+)?"
+                }
+            }
+        }
+    }
+}

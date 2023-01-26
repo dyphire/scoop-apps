@@ -57,14 +57,14 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - ACooper81/scoop-apps
 - borger/scoop-emulators
 - ScoopInstaller/Nonportable
-- TheRandomLabs/Scoop-Bucket
 - Qv2ray/mochi
+- TheRandomLabs/Scoop-Bucket
 - ZvonimirSun/scoop-iszy
 - zhoujin7/tomato
 - kiennq/scoop-misc
 - wangzq/scoop-bucket
-- wzv5/ScoopBucket
 - duzyn/scoop-cn
+- wzv5/ScoopBucket
 - TheRandomLabs/Scoop-Python
 - naderi/scoop-bucket
 - ChungZH/peach
