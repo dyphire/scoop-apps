@@ -53,9 +53,9 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - cderv/r-bucket
 - Paxxs/Cluttered-bucket
 - everyx/scoop-bucket
+- borger/scoop-emulators
 - dodorz/scoop
 - ACooper81/scoop-apps
-- borger/scoop-emulators
 - ScoopInstaller/Nonportable
 - Qv2ray/mochi
 - TheRandomLabs/Scoop-Bucket
@@ -67,8 +67,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - wzv5/ScoopBucket
 - TheRandomLabs/Scoop-Python
 - naderi/scoop-bucket
-- ChungZH/peach
 - iquiw/scoop-bucket
+- ChungZH/peach
 - 42wim/scoop-bucket
 - AStupidBear/scoop-bear
 - batkiz/backit
@@ -89,6 +89,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - niheaven/scoop-sysinternals
 - akirco/aki-apps
 - MCOfficer/scoop-bucket
+- Deide/deide-bucket
 - Weidows-projects/scoop-3rd
 - TheLastZombie/scoop-bucket
 - starise/Scoop-Confetti
