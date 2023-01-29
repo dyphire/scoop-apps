@@ -83,6 +83,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - amorphobia/siku
 - littleli/Scoop-littleli
 - ViCrack/scoop-bucket
+- jonz94/scoop-sarasa-nerd-fonts
 - ChinLong/scoop-customize
 - Velgus/Scoop-Portapps
 - alextwothousand/scoop-bucket
@@ -93,6 +94,5 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - Weidows-projects/scoop-3rd
 - TheLastZombie/scoop-bucket
 - starise/Scoop-Confetti
-- jonz94/scoop-sarasa-nerd-fonts
 - seumsc/scoop-seu
 - Darkatse/Scoop-KanColle
