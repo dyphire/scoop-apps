@@ -73,6 +73,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - batkiz/backit
 - mogeko/scoop-sysinternals
 - ygguorun/scoop-bucket
+- ViCrack/scoop-bucket
 - jfut/scoop-jfut
 - krproject/qi-windows
 - rivy/scoop-bucket
@@ -82,7 +83,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - cc713/ownscoop
 - amorphobia/siku
 - littleli/Scoop-littleli
-- ViCrack/scoop-bucket
+- TheLastZombie/scoop-bucket
 - jonz94/scoop-sarasa-nerd-fonts
 - ChinLong/scoop-customize
 - Velgus/Scoop-Portapps
@@ -90,7 +91,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - niheaven/scoop-sysinternals
 - MCOfficer/scoop-bucket
 - Weidows-projects/scoop-3rd
-- TheLastZombie/scoop-bucket
 - starise/Scoop-Confetti
 - seumsc/scoop-seu
 - Darkatse/Scoop-KanColle
