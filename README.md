@@ -71,6 +71,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - 42wim/scoop-bucket
 - AStupidBear/scoop-bear
 - batkiz/backit
+- akirco/aki-apps
 - mogeko/scoop-sysinternals
 - ygguorun/scoop-bucket
 - ViCrack/scoop-bucket
@@ -79,7 +80,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - rivy/scoop-bucket
 - excitoon/scoop-user
 - Darkatse/Scoop-Darkatse
-- akirco/aki-apps
 - cc713/ownscoop
 - amorphobia/siku
 - littleli/Scoop-littleli
