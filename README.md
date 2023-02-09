@@ -59,10 +59,10 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - TheRandomLabs/Scoop-Bucket
 - ScoopInstaller/Nonportable
 - ZvonimirSun/scoop-iszy
+- duzyn/scoop-cn
 - wangzq/scoop-bucket
 - zhoujin7/tomato
 - kiennq/scoop-misc
-- duzyn/scoop-cn
 - wzv5/ScoopBucket
 - TheRandomLabs/Scoop-Python
 - naderi/scoop-bucket
@@ -70,11 +70,11 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - iquiw/scoop-bucket
 - 42wim/scoop-bucket
 - AStupidBear/scoop-bear
+- ViCrack/scoop-bucket
 - batkiz/backit
 - akirco/aki-apps
 - mogeko/scoop-sysinternals
 - ygguorun/scoop-bucket
-- ViCrack/scoop-bucket
 - jfut/scoop-jfut
 - krproject/qi-windows
 - rivy/scoop-bucket
