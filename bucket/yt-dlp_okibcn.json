@@ -1,0 +1,43 @@
+{
+    "version": "2023.02.10.334",
+    "description": "Daily builds of yt-dlp by github.com/ytdl-patched. Do not request support for these builds.",
+    "homepage": "https://github.com/ytdl-patched/yt-dlp",
+    "license": "Unlicense",
+    "suggest": {
+        "ffmpeg": [
+            "scoop-alts/ffmpeg-shared-nightly",
+            "ffmpeg-yt-dlp",
+            "ffmpeg"
+        ]
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ytdl-patched/yt-dlp/releases/download/2023.02.10.334/yt-dlp.exe",
+            "hash": "sha512:905842683076fb25993f1a252a28974795698c44ce78e542a2999aa6ab89edfff48a981341dbf58200abab88cc77410d613e6af3856203abe2e2038074c4bb8e"
+        },
+        "32bit": {
+            "url": "https://github.com/ytdl-patched/yt-dlp/releases/download/2023.02.10.334/yt-dlp_x86.exe#/yt-dlp.exe",
+            "hash": "sha512:9f1d8140f8f4dd4312197a39a73cf62575051b788c07dfde90ce7d9e40c49e6ca3014257d323670ab38cbc7c223e61e139853679126f2150a5f027f8aa806f86"
+        }
+    },
+    "bin": "yt-dlp.exe",
+    "pre_install": "if (-not (Test-Path \"$persist_dir\\yt-dlp.conf\")) { New-Item \"$dir\\yt-dlp.conf\" -ItemType file | Out-Null }",
+    "persist": [
+        "yt-dlp.conf",
+        "ytdlp_plugins"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/ytdl-patched/yt-dlp/releases/download/$version/yt-dlp.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/ytdl-patched/yt-dlp/releases/download/$version/yt-dlp_x86.exe#/yt-dlp.exe"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/SHA2-512SUMS"
+        }
+    }
+}

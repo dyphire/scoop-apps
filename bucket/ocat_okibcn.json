@@ -1,0 +1,28 @@
+{
+    "version": "20230014",
+    "description": "OpenCore Auxiliary Tools OpenCore Configurator OCAT",
+    "homepage": "https://github.com/ic005k/QtOpenCoreConfig",
+    "license": "Public Domain",
+    "url": "https://github.com/ic005k/QtOpenCoreConfig/releases/download/20230014/OCAT-Win64.zip",
+    "hash": "809d7e3b9593c2a8361b5450b7b823578d211df23596ed4f0ddaf014db0d929b",
+    "extract_dir": "OCAT-Win64",
+    "bin": [
+        "OCAuxiliaryTools.exe",
+        "Database/win/FindESP.exe",
+        "Database/win/macserial.exe",
+        "Database/win/ocpasswordgen.exe",
+        "Database/win/ocvalidate.exe",
+        "Database/win/Winfile.exe"
+    ],
+    "shortcuts": [
+        [
+            "OCAuxiliaryTools.exe",
+            "OCAuxiliaryTools"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/ic005k/QtOpenCoreConfig/releases/download/$version/OCAT-Win64.zip",
+        "extract_dir": "OCAT-Win64"
+    }
+}
