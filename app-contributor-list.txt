@@ -416,6 +416,7 @@ easyrsa.json    ScoopInstaller/Extras
 pixitracker-1bit.json    ScoopInstaller/Extras
 serial-cloner.json    ScoopInstaller/Extras
 terminals.json    ScoopInstaller/Extras
+whkd.json    ScoopInstaller/Extras
 windowtextextractor.json    ScoopInstaller/Extras
 biblioteq.json    ScoopInstaller/Extras
 deepgit.json    ScoopInstaller/Extras
@@ -1318,7 +1319,9 @@ mpc.json    ScoopInstaller/Extras
 brackets.json    ScoopInstaller/Extras
 raspberry-pi-imager.json    ScoopInstaller/Extras
 thunderbird.json    ScoopInstaller/Extras
+komac.json    ScoopInstaller/Extras
 nheko.json    ScoopInstaller/Extras
+discrakt.json    ScoopInstaller/Extras
 qnapi.json    ScoopInstaller/Extras
 ffmpeg-batch.json    ScoopInstaller/Extras
 prusaslicer.json    ScoopInstaller/Extras
@@ -5247,7 +5250,6 @@ LXGW-Bright-GB_anderlli0053.json    anderlli0053/DEV-tools
 LXGW-Bright-TC_anderlli0053.json    anderlli0053/DEV-tools
 LXGW-Bright_anderlli0053.json    anderlli0053/DEV-tools
 LXGWWenKaiScreen_anderlli0053.json    anderlli0053/DEV-tools
-LXGWWenKaiScreenR_anderlli0053.json    anderlli0053/DEV-tools
 LaTeXDraw.json    anderlli0053/DEV-tools
 LameXPPortable.json    anderlli0053/DEV-tools
 LanguageTool-Portable.json    anderlli0053/DEV-tools
@@ -6429,6 +6431,7 @@ avogadro2.json    anderlli0053/DEV-tools
 avr-gcc.json    anderlli0053/DEV-tools
 avrdude.json    anderlli0053/DEV-tools
 avro-tools.json    anderlli0053/DEV-tools
+avspmod_anderlli0053.json    anderlli0053/DEV-tools
 awatch_anderlli0053.json    anderlli0053/DEV-tools
 awgg.json    anderlli0053/DEV-tools
 aws-amplify.json    anderlli0053/DEV-tools
@@ -7923,7 +7926,7 @@ fedora-remix-for-wsl.json    anderlli0053/DEV-tools
 fenrirfs.json    anderlli0053/DEV-tools
 ferdi_anderlli0053.json    anderlli0053/DEV-tools
 feroxbuster.json    anderlli0053/DEV-tools
-ffmpeg-shared-nightly_anderlli0053.json    anderlli0053/DEV-tools
+ffmpeg-nightly_anderlli0053.json    anderlli0053/DEV-tools
 ffmpeg-shared.json    anderlli0053/DEV-tools
 ffmpeg.json    anderlli0053/DEV-tools
 ffrename-pro.json    anderlli0053/DEV-tools
@@ -8721,6 +8724,7 @@ ipinfo.json    anderlli0053/DEV-tools
 ipinfooffline_anderlli0053.json    anderlli0053/DEV-tools
 iplookup.json    anderlli0053/DEV-tools
 ipopt.json    anderlli0053/DEV-tools
+ipscan_anderlli0053.json    anderlli0053/DEV-tools
 irreader_anderlli0053.json    anderlli0053/DEV-tools
 irust.json    anderlli0053/DEV-tools
 ishiirukadolphin.json    anderlli0053/DEV-tools
@@ -8848,8 +8852,8 @@ kbld.json    anderlli0053/DEV-tools
 kc85emu.json    anderlli0053/DEV-tools
 kcemu.json    anderlli0053/DEV-tools
 kcptun.json    anderlli0053/DEV-tools
+kde-dolphin-nightly_anderlli0053.json    anderlli0053/DEV-tools
 kde-dolphin.json    anderlli0053/DEV-tools
-kdeconnect-nightly_anderlli0053.json    anderlli0053/DEV-tools
 kdevelop-nightly.json    anderlli0053/DEV-tools
 kdevelop.json    anderlli0053/DEV-tools
 kdiff3-aoks.json    anderlli0053/DEV-tools
@@ -9132,6 +9136,7 @@ makeme@0.10.8.json    anderlli0053/DEV-tools
 makeme@1.0.3.json    anderlli0053/DEV-tools
 makerom.json    anderlli0053/DEV-tools
 malm.json    anderlli0053/DEV-tools
+mambaforge_anderlli0053.json    anderlli0053/DEV-tools
 mameclassic.json    anderlli0053/DEV-tools
 managewirelessnetworks_anderlli0053.json    anderlli0053/DEV-tools
 mandoc.json    anderlli0053/DEV-tools
@@ -9216,6 +9221,8 @@ microsoft-edge-install.json    anderlli0053/DEV-tools
 microsoft-edge.json    anderlli0053/DEV-tools
 microsoft-error-lookup-tool.json    anderlli0053/DEV-tools
 microsoftedge-canary_anderlli0053.json    anderlli0053/DEV-tools
+microsoftedge-dev_anderlli0053.json    anderlli0053/DEV-tools
+microsoftedge_anderlli0053.json    anderlli0053/DEV-tools
 miflash.json    anderlli0053/DEV-tools
 migrate.json    anderlli0053/DEV-tools
 mihome-token.json    anderlli0053/DEV-tools
@@ -9237,6 +9244,7 @@ mingw-winlibs.json    anderlli0053/DEV-tools
 mingw.json    anderlli0053/DEV-tools
 minidumpview.json    anderlli0053/DEV-tools
 miniflux.json    anderlli0053/DEV-tools
+miniforge_anderlli0053.json    anderlli0053/DEV-tools
 minikube.json    anderlli0053/DEV-tools
 minimon.json    anderlli0053/DEV-tools
 minio-client.json    anderlli0053/DEV-tools
@@ -9461,7 +9469,6 @@ neofetch.json    anderlli0053/DEV-tools
 neonds.json    anderlli0053/DEV-tools
 neopocott.json    anderlli0053/DEV-tools
 neopop.json    anderlli0053/DEV-tools
-neovim-nightly_anderlli0053.json    anderlli0053/DEV-tools
 neovim.json    anderlli0053/DEV-tools
 nerdctl.json    anderlli0053/DEV-tools
 nero-aac.json    anderlli0053/DEV-tools
@@ -9478,7 +9485,6 @@ neteasepopo_anderlli0053.json    anderlli0053/DEV-tools
 netlimiter-aoks.json    anderlli0053/DEV-tools
 netlogo_anderlli0053.json    anderlli0053/DEV-tools
 netpass_anderlli0053.json    anderlli0053/DEV-tools
-netron_anderlli0053.json    anderlli0053/DEV-tools
 netrouteview_anderlli0053.json    anderlli0053/DEV-tools
 netsetman.json    anderlli0053/DEV-tools
 networkconnectlog_anderlli0053.json    anderlli0053/DEV-tools
@@ -9669,6 +9675,7 @@ octotentacle.json    anderlli0053/DEV-tools
 odfe-cli.json    anderlli0053/DEV-tools
 odiff.json    anderlli0053/DEV-tools
 odin-dev_fixed.json    anderlli0053/DEV-tools
+odin-nightly_anderlli0053.json    anderlli0053/DEV-tools
 odo.json    anderlli0053/DEV-tools
 office-365-apps-minimal-np_anderlli0053.json    anderlli0053/DEV-tools
 office-365-apps-np_anderlli0053.json    anderlli0053/DEV-tools
@@ -9716,6 +9723,7 @@ oh-my-posh3.json    anderlli0053/DEV-tools
 oha.json    anderlli0053/DEV-tools
 okPlayer.json    anderlli0053/DEV-tools
 okteto.json    anderlli0053/DEV-tools
+okular-nightly_anderlli0053.json    anderlli0053/DEV-tools
 okular@1.7.70.json    anderlli0053/DEV-tools
 ollydbg2.json    anderlli0053/DEV-tools
 omnidb-np_anderlli0053.json    anderlli0053/DEV-tools
@@ -9879,6 +9887,7 @@ pdf2htmlEX.json    anderlli0053/DEV-tools
 pdfbox.json    anderlli0053/DEV-tools
 pdfcpu.json    anderlli0053/DEV-tools
 pdfpatcher.json    anderlli0053/DEV-tools
+pdfsam_anderlli0053.json    anderlli0053/DEV-tools
 pdftk.json    anderlli0053/DEV-tools
 pdm.json    anderlli0053/DEV-tools
 pe-anatomist.json    anderlli0053/DEV-tools
@@ -11376,7 +11385,6 @@ scrawler.json    anderlli0053/DEV-tools
 scrcpy.json    anderlli0053/DEV-tools
 screenshot-captor.json    anderlli0053/DEV-tools
 screenshot-tool.json    anderlli0053/DEV-tools
-screentogif_anderlli0053.json    anderlli0053/DEV-tools
 scriptcs.json    anderlli0053/DEV-tools
 scriptcs@0.15.0.json    anderlli0053/DEV-tools
 scriptcs@0.17.1.json    anderlli0053/DEV-tools
@@ -11412,7 +11420,6 @@ serialtest.json    anderlli0053/DEV-tools
 serve.json    anderlli0053/DEV-tools
 serverless.json    anderlli0053/DEV-tools
 serviwin_anderlli0053.json    anderlli0053/DEV-tools
-session_anderlli0053.json    anderlli0053/DEV-tools
 setacl-aoks.json    anderlli0053/DEV-tools
 setacl-studio.json    anderlli0053/DEV-tools
 setacl_studio-aoks.json    anderlli0053/DEV-tools
@@ -11487,7 +11494,6 @@ simpread-sync.json    anderlli0053/DEV-tools
 simpread-synchelper.json    anderlli0053/DEV-tools
 sing-box.json    anderlli0053/DEV-tools
 sirikali-aoks.json    anderlli0053/DEV-tools
-siyuan-note_anderlli0053.json    anderlli0053/DEV-tools
 skylark.json    anderlli0053/DEV-tools
 skytable.json    anderlli0053/DEV-tools
 skywalking-cli.json    anderlli0053/DEV-tools
@@ -11529,7 +11535,6 @@ sogouinput-xingkbjm.json    anderlli0053/DEV-tools
 sogouinput-zd423.json    anderlli0053/DEV-tools
 sogouwbinput-qiuquan.json    anderlli0053/DEV-tools
 sogouwbinput-xingkbjm.json    anderlli0053/DEV-tools
-solana_anderlli0053.json    anderlli0053/DEV-tools
 solidity_anderlli0053.json    anderlli0053/DEV-tools
 sometypemono.json    anderlli0053/DEV-tools
 sonar-scanner.json    anderlli0053/DEV-tools
@@ -11607,7 +11612,6 @@ ssr.json    anderlli0053/DEV-tools
 stacher.io.json    anderlli0053/DEV-tools
 stack.json    anderlli0053/DEV-tools
 stage-studio.json    anderlli0053/DEV-tools
-standardnotes_anderlli0053.json    anderlli0053/DEV-tools
 starship.json    anderlli0053/DEV-tools
 start-reader.json    anderlli0053/DEV-tools
 static-web-server.json    anderlli0053/DEV-tools
@@ -11666,7 +11670,7 @@ sudo@1.3.0.json    anderlli0053/DEV-tools
 sugarbox.json    anderlli0053/DEV-tools
 sunflower.json    anderlli0053/DEV-tools
 sunloginclient-lite.json    anderlli0053/DEV-tools
-super-productivity_anderlli0053.json    anderlli0053/DEV-tools
+sunshine_anderlli0053.json    anderlli0053/DEV-tools
 super-ttc-iosevka-aile-tuna.json    anderlli0053/DEV-tools
 super-ttc-iosevka-aile.json    anderlli0053/DEV-tools
 super-ttc-iosevka-curly-slab-tuna.json    anderlli0053/DEV-tools
@@ -11807,7 +11811,6 @@ tegra-rcm-gui.json    anderlli0053/DEV-tools
 tektoncd-cli.json    anderlli0053/DEV-tools
 telegraf.json    anderlli0053/DEV-tools
 telegram-beta.json    anderlli0053/DEV-tools
-telegram_anderlli0053.json    anderlli0053/DEV-tools
 telegram_fixed.json    anderlli0053/DEV-tools
 teleport.json    anderlli0053/DEV-tools
 telepresence.json    anderlli0053/DEV-tools
@@ -11962,7 +11965,6 @@ twilio-cli.json    anderlli0053/DEV-tools
 twinkstar-flash-portable.json    anderlli0053/DEV-tools
 twinkstar-portable.json    anderlli0053/DEV-tools
 twitchdownloader-cli.json    anderlli0053/DEV-tools
-twitchdownloader_anderlli0053.json    anderlli0053/DEV-tools
 twolame.json    anderlli0053/DEV-tools
 twombit.json    anderlli0053/DEV-tools
 txedu.json    anderlli0053/DEV-tools
@@ -12001,7 +12003,6 @@ uncrustify-aoks.json    anderlli0053/DEV-tools
 uncrustify.json    anderlli0053/DEV-tools
 undelete_plus-aoks.json    anderlli0053/DEV-tools
 ungoogled-chromium-portable.json    anderlli0053/DEV-tools
-ungoogled-chromium_anderlli0053.json    anderlli0053/DEV-tools
 uni.json    anderlli0053/DEV-tools
 uniCSVed.json    anderlli0053/DEV-tools
 uniextract.json    anderlli0053/DEV-tools
@@ -12260,7 +12261,6 @@ vide.json    anderlli0053/DEV-tools
 video2x.json    anderlli0053/DEV-tools
 videomanager.json    anderlli0053/DEV-tools
 videomass.json    anderlli0053/DEV-tools
-vim-nightly_anderlli0053.json    anderlli0053/DEV-tools
 vim.json    anderlli0053/DEV-tools
 vim8.json    anderlli0053/DEV-tools
 vim82.json    anderlli0053/DEV-tools
@@ -13047,6 +13047,7 @@ cue_hoilc.json    hoilc/scoop-lemon
 downkyi_hoilc.json    hoilc/scoop-lemon
 trzsz_hoilc.json    hoilc/scoop-lemon
 wingetui_hoilc.json    hoilc/scoop-lemon
+flydav.json    hoilc/scoop-lemon
 little-tips_hoilc.json    hoilc/scoop-lemon
 whynotwin11_hoilc.json    hoilc/scoop-lemon
 rare_hoilc.json    hoilc/scoop-lemon
@@ -13074,6 +13075,7 @@ unlock-music_hoilc.json    hoilc/scoop-lemon
 maxthon6_hoilc.json    hoilc/scoop-lemon
 speex_hoilc.json    hoilc/scoop-lemon
 balabolka_hoilc.json    hoilc/scoop-lemon
+opscan.json    hoilc/scoop-lemon
 terraformer_hoilc.json    hoilc/scoop-lemon
 rssguard_hoilc.json    hoilc/scoop-lemon
 ossutil_hoilc.json    hoilc/scoop-lemon
@@ -13089,9 +13091,7 @@ yank-note_hoilc.json    hoilc/scoop-lemon
 zotero-beta_hoilc.json    hoilc/scoop-lemon
 flac_hoilc.json    hoilc/scoop-lemon
 amass_hoilc.json    hoilc/scoop-lemon
-step_hoilc.json    hoilc/scoop-lemon
 kosli_hoilc.json    hoilc/scoop-lemon
-baidupcs-go_hoilc.json    hoilc/scoop-lemon
 qbittorrent-enhanced_hoilc.json    hoilc/scoop-lemon
 perfview_hoilc.json    hoilc/scoop-lemon
 dufs_hoilc.json    hoilc/scoop-lemon
@@ -13136,7 +13136,6 @@ foobox-en_hoilc.json    hoilc/scoop-lemon
 kubeseal_hoilc.json    hoilc/scoop-lemon
 mouseinc_hoilc.json    hoilc/scoop-lemon
 grype_hoilc.json    hoilc/scoop-lemon
-tilt_hoilc.json    hoilc/scoop-lemon
 dnote_hoilc.json    hoilc/scoop-lemon
 another-redis-desktop-manager_hoilc.json    hoilc/scoop-lemon
 bilibili-live-record-downloader_hoilc.json    hoilc/scoop-lemon
@@ -14147,17 +14146,17 @@ VSCodium-Portable_ACooper81.json    ACooper81/scoop-apps
 WindowTop-Portable_ACooper81.json    ACooper81/scoop-apps
 PRemoteM-Portable_ACooper81.json    ACooper81/scoop-apps
 FileMenuTools-Portable_ACooper81.json    ACooper81/scoop-apps
-ScreenToGif-Portable_ACooper81.json    ACooper81/scoop-apps
 PotPlayer-Portable_ACooper81.json    ACooper81/scoop-apps
 ThisIsWin11-Portable_ACooper81.json    ACooper81/scoop-apps
 Inkscape-Portable_ACooper81.json    ACooper81/scoop-apps
+GuiCompletion-PSModule.json    ACooper81/scoop-apps
 RegCool-Portable_ACooper81.json    ACooper81/scoop-apps
 Brave-Portable_ACooper81.json    ACooper81/scoop-apps
-Telegram-Portable_ACooper81.json    ACooper81/scoop-apps
 DBeaver-Portable_ACooper81.json    ACooper81/scoop-apps
 KDEConnect-Portable_ACooper81.json    ACooper81/scoop-apps
 MicrosoftOneDriveInsiders-UserInstall_ACooper81.json    ACooper81/scoop-apps
 Windows10UpdateAssistant-Portable_ACooper81.json    ACooper81/scoop-apps
+FirefoxNightly-Portable_ACooper81.json    ACooper81/scoop-apps
 HeroicGameLauncher-Portable_ACooper81.json    ACooper81/scoop-apps
 GameMakerStudio2-ManualInstall_ACooper81.json    ACooper81/scoop-apps
 MicrosoftOneDriveEnterprise-Install_ACooper81.json    ACooper81/scoop-apps
@@ -14169,7 +14168,6 @@ MiTeCTaskManagerDeLuxe-Portable_ACooper81.json    ACooper81/scoop-apps
 FlowLauncher-Portable_ACooper81.json    ACooper81/scoop-apps
 LibreWolf-Portable_ACooper81.json    ACooper81/scoop-apps
 BlueStacks5-ManualInstall_ACooper81.json    ACooper81/scoop-apps
-SoundSwitch-Portable_ACooper81.json    ACooper81/scoop-apps
 WindowsTerminalPreview-Portable_ACooper81.json    ACooper81/scoop-apps
 TinyNvidiaUpdateChecker-Portable_ACooper81.json    ACooper81/scoop-apps
 wpsoffice_ACooper81.json    ACooper81/scoop-apps
@@ -14233,6 +14231,19 @@ SnapCamera.json    ACooper81/scoop-apps
 nuclear_ACooper81.json    ACooper81/scoop-apps
 vlc_ACooper81.json    ACooper81/scoop-apps
 ipscan_ACooper81.json    ACooper81/scoop-apps
+ffmpeg-for-audacity.json    TheRandomLabs/Scoop-Bucket
+luyten_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
+visualvm_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
+corsair-icue.json    TheRandomLabs/Scoop-Bucket
+raylib_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
+rfxgen.json    TheRandomLabs/Scoop-Bucket
+custom-resolution-utility.json    TheRandomLabs/Scoop-Bucket
+aomei-partition-assistant-standard.json    TheRandomLabs/Scoop-Bucket
+neovim-dev.json    TheRandomLabs/Scoop-Bucket
+win10-initial-setup-script.json    TheRandomLabs/Scoop-Bucket
+shellexview_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
+windows-sdk-signing-tools.json    TheRandomLabs/Scoop-Bucket
+musescore-nightly-with-file-associations.json    TheRandomLabs/Scoop-Bucket
 trojan-go_Qv2ray.json    Qv2ray/mochi
 v2ray-domain-list-community.json    Qv2ray/mochi
 naiveproxy_Qv2ray.json    Qv2ray/mochi
@@ -14248,21 +14259,9 @@ v2ray-rules-dat_Qv2ray.json    Qv2ray/mochi
 qv2ray-plugin-ss_Qv2ray.json    Qv2ray/mochi
 qv2ray-plugin-command_Qv2ray.json    Qv2ray/mochi
 qv2ray-plugin-naiveproxy_Qv2ray.json    Qv2ray/mochi
-ffmpeg-for-audacity.json    TheRandomLabs/Scoop-Bucket
-luyten_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
-visualvm_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
-corsair-icue.json    TheRandomLabs/Scoop-Bucket
-raylib_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
-rfxgen.json    TheRandomLabs/Scoop-Bucket
-custom-resolution-utility.json    TheRandomLabs/Scoop-Bucket
-aomei-partition-assistant-standard.json    TheRandomLabs/Scoop-Bucket
-neovim-dev.json    TheRandomLabs/Scoop-Bucket
-win10-initial-setup-script.json    TheRandomLabs/Scoop-Bucket
-shellexview_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
-windows-sdk-signing-tools.json    TheRandomLabs/Scoop-Bucket
-musescore-nightly-with-file-associations.json    TheRandomLabs/Scoop-Bucket
 protonvpn-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 stevedore-np_ScoopInstaller.json    ScoopInstaller/Nonportable
+spotx-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 dependencies_duzyn.json    duzyn/scoop-cn
 nomino_duzyn.json    duzyn/scoop-cn
 7zip-zstd_duzyn.json    duzyn/scoop-cn
@@ -14618,6 +14617,7 @@ hourglass_duzyn.json    duzyn/scoop-cn
 Delugia-Nerd-Font-Complete_duzyn.json    duzyn/scoop-cn
 picocrypt_duzyn.json    duzyn/scoop-cn
 CodeNewRoman-NF_duzyn.json    duzyn/scoop-cn
+kdeconnect_duzyn.json    duzyn/scoop-cn
 wakatime-cli_duzyn.json    duzyn/scoop-cn
 golangci-lint_duzyn.json    duzyn/scoop-cn
 notable_duzyn.json    duzyn/scoop-cn
@@ -14633,6 +14633,7 @@ ezunlock_duzyn.json    duzyn/scoop-cn
 dum_duzyn.json    duzyn/scoop-cn
 SourceCodePro-NF_duzyn.json    duzyn/scoop-cn
 nova_duzyn.json    duzyn/scoop-cn
+kdeconnect-nightly_duzyn.json    duzyn/scoop-cn
 keptn-cli_duzyn.json    duzyn/scoop-cn
 beekeeper-studio_duzyn.json    duzyn/scoop-cn
 twinkle-tray_duzyn.json    duzyn/scoop-cn
@@ -14922,6 +14923,7 @@ mediacreationtool_duzyn.json    duzyn/scoop-cn
 gauge_duzyn.json    duzyn/scoop-cn
 lessmsi_duzyn.json    duzyn/scoop-cn
 hugo_duzyn.json    duzyn/scoop-cn
+onecommander_duzyn.json    duzyn/scoop-cn
 macast-debug_duzyn.json    duzyn/scoop-cn
 gitignore_duzyn.json    duzyn/scoop-cn
 shellcheck_duzyn.json    duzyn/scoop-cn
@@ -15191,6 +15193,7 @@ castle-view-image_duzyn.json    duzyn/scoop-cn
 nextcloud_duzyn.json    duzyn/scoop-cn
 neo-cowsay_duzyn.json    duzyn/scoop-cn
 flow_duzyn.json    duzyn/scoop-cn
+tixati_duzyn.json    duzyn/scoop-cn
 angband_duzyn.json    duzyn/scoop-cn
 sudo_duzyn.json    duzyn/scoop-cn
 greenshot_duzyn.json    duzyn/scoop-cn
@@ -15813,6 +15816,7 @@ autohotkey-np_duzyn.json    duzyn/scoop-cn
 steam-achievement-manager_duzyn.json    duzyn/scoop-cn
 nyagos_duzyn.json    duzyn/scoop-cn
 jira_duzyn.json    duzyn/scoop-cn
+balabolka_duzyn.json    duzyn/scoop-cn
 rbtray_duzyn.json    duzyn/scoop-cn
 Delugia-Mono-Nerd-Font_duzyn.json    duzyn/scoop-cn
 duplicacy_duzyn.json    duzyn/scoop-cn
@@ -16014,6 +16018,7 @@ sapmachine12-jre_duzyn.json    duzyn/scoop-cn
 chezmoi_duzyn.json    duzyn/scoop-cn
 tailblazer_duzyn.json    duzyn/scoop-cn
 IBMPlexSans-KR_duzyn.json    duzyn/scoop-cn
+gnuplot_duzyn.json    duzyn/scoop-cn
 kube-linter_duzyn.json    duzyn/scoop-cn
 ojdkbuild11-full_duzyn.json    duzyn/scoop-cn
 sharex_duzyn.json    duzyn/scoop-cn
@@ -16122,10 +16127,12 @@ nodejs7_duzyn.json    duzyn/scoop-cn
 sqlitebrowser-nightly_duzyn.json    duzyn/scoop-cn
 liberica11-full-jdk_duzyn.json    duzyn/scoop-cn
 pdf2djvu_duzyn.json    duzyn/scoop-cn
+ppsspp-dev_duzyn.json    duzyn/scoop-cn
 simple-dnscrypt_duzyn.json    duzyn/scoop-cn
 tidy_duzyn.json    duzyn/scoop-cn
 space-radar_duzyn.json    duzyn/scoop-cn
 janet_duzyn.json    duzyn/scoop-cn
+dos2unix_duzyn.json    duzyn/scoop-cn
 yara_duzyn.json    duzyn/scoop-cn
 jellyfin-mpv-shim_duzyn.json    duzyn/scoop-cn
 clash.meta_duzyn.json    duzyn/scoop-cn
@@ -16411,6 +16418,7 @@ ivan_duzyn.json    duzyn/scoop-cn
 mingw-winlibs_duzyn.json    duzyn/scoop-cn
 sophiapp_duzyn.json    duzyn/scoop-cn
 git_duzyn.json    duzyn/scoop-cn
+multimc_duzyn.json    duzyn/scoop-cn
 ipopt_duzyn.json    duzyn/scoop-cn
 mypaint_duzyn.json    duzyn/scoop-cn
 xx-net_duzyn.json    duzyn/scoop-cn
@@ -17611,7 +17619,6 @@ upscaler.json    akirco/aki-apps
 WXQQ_RevokeMsgPatcher_akirco.json    akirco/aki-apps
 charles_akirco.json    akirco/aki-apps
 fu_akirco.json    akirco/aki-apps
-nvm-windows_akirco.json    akirco/aki-apps
 maven_akirco.json    akirco/aki-apps
 listen1desktop_akirco.json    akirco/aki-apps
 fiddler_akirco.json    akirco/aki-apps
@@ -18872,6 +18879,7 @@ drone-jenkins.json    MCOfficer/scoop-bucket
 .markdownlint_okibcn.json    okibcn/ScoopMaster
 0cc-famitracker.json    okibcn/ScoopMaster
 11game-platform.json    okibcn/ScoopMaster
+163musiclyrics_okibcn.json    okibcn/ScoopMaster
 1964_okibcn.json    okibcn/ScoopMaster
 1Password_okibcn.json    okibcn/ScoopMaster
 1history_okibcn.json    okibcn/ScoopMaster
@@ -18955,6 +18963,7 @@ ArmagetronAdvancedPortable_okibcn.json    okibcn/ScoopMaster
 ArthaPortable_okibcn.json    okibcn/ScoopMaster
 AsmSpy_okibcn.json    okibcn/ScoopMaster
 AssaultCubePortable_okibcn.json    okibcn/ScoopMaster
+Atom-Portable_okibcn.json    okibcn/ScoopMaster
 AtomicTanksPortable_okibcn.json    okibcn/ScoopMaster
 AudioPlaybackConnector.json    okibcn/ScoopMaster
 AutoCompress.json    okibcn/ScoopMaster
@@ -19003,7 +19012,6 @@ CanabaltPortable_okibcn.json    okibcn/ScoopMaster
 CapsLockIndicator_okibcn.json    okibcn/ScoopMaster
 Cascadia-Code_okibcn.json    okibcn/ScoopMaster
 Caskaydia-Cove-Nerd-Font.json    okibcn/ScoopMaster
-CefDetectorX_okibcn.json    okibcn/ScoopMaster
 CelestiaPortable_okibcn.json    okibcn/ScoopMaster
 ChecksumControlPortable_okibcn.json    okibcn/ScoopMaster
 CherrytreePortable_okibcn.json    okibcn/ScoopMaster
@@ -19080,7 +19088,9 @@ DotNetDesktopRuntime-installer.json    okibcn/ScoopMaster
 DotNetDesktopRuntime6-installer.json    okibcn/ScoopMaster
 DotNetVersions_okibcn.json    okibcn/ScoopMaster
 DriverAssitant.json    okibcn/ScoopMaster
+DriverGenius_okibcn.json    okibcn/ScoopMaster
 DropPoint-Portable_okibcn.json    okibcn/ScoopMaster
+DuplicateCleanerFree_okibcn.json    okibcn/ScoopMaster
 DuplicateCleanerPro.json    okibcn/ScoopMaster
 DuplicateFilesFinderPortable_okibcn.json    okibcn/ScoopMaster
 Duplicati-ims.json    okibcn/ScoopMaster
@@ -19116,6 +19126,7 @@ Feep_okibcn.json    okibcn/ScoopMaster
 FeiQ_okibcn.json    okibcn/ScoopMaster
 FileAlyzerPortable_okibcn.json    okibcn/ScoopMaster
 FileCleaner.json    okibcn/ScoopMaster
+FileLocatorPro_okibcn.json    okibcn/ScoopMaster
 FileMenuTools_okibcn.json    okibcn/ScoopMaster
 FileVoyagerPortable_okibcn.json    okibcn/ScoopMaster
 FileZillaPortable_okibcn.json    okibcn/ScoopMaster
@@ -19263,10 +19274,10 @@ KeePassXCPortable_okibcn.json    okibcn/ScoopMaster
 KeepNotePortable_okibcn.json    okibcn/ScoopMaster
 Keybase_okibcn.json    okibcn/ScoopMaster
 KeymouseGo_okibcn.json    okibcn/ScoopMaster
+KikoPlay_okibcn.json    okibcn/ScoopMaster
 KindleMate_okibcn.json    okibcn/ScoopMaster
 KitX.json    okibcn/ScoopMaster
 KoboDeluxePortable_okibcn.json    okibcn/ScoopMaster
-KomodoIDE.json    okibcn/ScoopMaster
 KompoZerPortable_okibcn.json    okibcn/ScoopMaster
 KugouMusic.json    okibcn/ScoopMaster
 LANMessengerPortable_okibcn.json    okibcn/ScoopMaster
@@ -19532,7 +19543,6 @@ SetPowerConfiguration.json    okibcn/ScoopMaster
 SetUserFTA_okibcn.json    okibcn/ScoopMaster
 ShadowsocksR-dotnet-runtime.json    okibcn/ScoopMaster
 ShadowsocksR-nsc.json    okibcn/ScoopMaster
-ShadowsocksR_okibcn.json    okibcn/ScoopMaster
 ShimakazeGO-Legacy.json    okibcn/ScoopMaster
 ShimakazeGO.json    okibcn/ScoopMaster
 ShortcutsSearchAndReplacePortable_okibcn.json    okibcn/ScoopMaster
@@ -19695,6 +19705,7 @@ WindowsErrorLookupToolPortable_okibcn.json    okibcn/ScoopMaster
 WindowsPowerShell.json    okibcn/ScoopMaster
 WindowsSpyBlocker-Portable_okibcn.json    okibcn/ScoopMaster
 WindowsTerminal.json    okibcn/ScoopMaster
+WiseCare365_okibcn.json    okibcn/ScoopMaster
 WiseDataRecoveryPortable_okibcn.json    okibcn/ScoopMaster
 WiseDiskCleanerPortable_okibcn.json    okibcn/ScoopMaster
 WiseProgramUninstallerPortable_okibcn.json    okibcn/ScoopMaster
@@ -19772,6 +19783,7 @@ adoptopenjdk-8-openj9-cn-ustc-mirror.json    okibcn/ScoopMaster
 adoptopenjdk@11.0+28.json    okibcn/ScoopMaster
 adripsx_okibcn.json    okibcn/ScoopMaster
 adrive-portable_okibcn.json    okibcn/ScoopMaster
+adrive_okibcn.json    okibcn/ScoopMaster
 advanced-combat-tracker.json    okibcn/ScoopMaster
 advanced-rest-client_okibcn.json    okibcn/ScoopMaster
 adviem_okibcn.json    okibcn/ScoopMaster
@@ -19785,7 +19797,6 @@ afspacker_okibcn.json    okibcn/ScoopMaster
 agat_okibcn.json    okibcn/ScoopMaster
 agave-slashed_okibcn.json    okibcn/ScoopMaster
 agave_okibcn.json    okibcn/ScoopMaster
-age_okibcn.json    okibcn/ScoopMaster
 agebox-aoks_okibcn.json    okibcn/ScoopMaster
 agent.json    okibcn/ScoopMaster
 ages_okibcn.json    okibcn/ScoopMaster
@@ -19903,7 +19914,6 @@ archive-is-beta_okibcn.json    okibcn/ScoopMaster
 archive-is_okibcn.json    okibcn/ScoopMaster
 archive-org.json    okibcn/ScoopMaster
 archtype.json    okibcn/ScoopMaster
-archwsl_okibcn.json    okibcn/ScoopMaster
 archwsl2_okibcn.json    okibcn/ScoopMaster
 arctime-pro.json    okibcn/ScoopMaster
 arculator_okibcn.json    okibcn/ScoopMaster
@@ -19964,10 +19974,12 @@ auto-dark-mode_okibcn.json    okibcn/ScoopMaster
 auto-unlocker_okibcn.json    okibcn/ScoopMaster
 auto-wiiware-patcher_okibcn.json    okibcn/ScoopMaster
 autocorrect_okibcn.json    okibcn/ScoopMaster
+autodarkmode_okibcn.json    okibcn/ScoopMaster
 autodarkmodex.json    okibcn/ScoopMaster
 autohotkey-installer_okibcn.json    okibcn/ScoopMaster
 autohotkey-v2-nightly.json    okibcn/ScoopMaster
 autohotkey-v2_okibcn.json    okibcn/ScoopMaster
+autohotkey_okibcn.json    okibcn/ScoopMaster
 autohotkey2_okibcn.json    okibcn/ScoopMaster
 autoruns_okibcn.json    okibcn/ScoopMaster
 autosub_okibcn.json    okibcn/ScoopMaster
@@ -19991,9 +20003,7 @@ axhelper_okibcn.json    okibcn/ScoopMaster
 axmlprinter_okibcn.json    okibcn/ScoopMaster
 axure9.json    okibcn/ScoopMaster
 azbrowse.json    okibcn/ScoopMaster
-aztfy_okibcn.json    okibcn/ScoopMaster
 aztx.json    okibcn/ScoopMaster
-azure-cli_okibcn.json    okibcn/ScoopMaster
 azuredatastudio-portable.json    okibcn/ScoopMaster
 b1-free-archiver_okibcn.json    okibcn/ScoopMaster
 b23downloader-win7_okibcn.json    okibcn/ScoopMaster
@@ -20018,7 +20028,6 @@ bandsnatch.json    okibcn/ScoopMaster
 bark-cli.json    okibcn/ScoopMaster
 barrier-meta_okibcn.json    okibcn/ScoopMaster
 basiliskii_okibcn.json    okibcn/ScoopMaster
-bat_okibcn.json    okibcn/ScoopMaster
 batari-basic_okibcn.json    okibcn/ScoopMaster
 batchencoder.json    okibcn/ScoopMaster
 batteryhistoryview_okibcn.json    okibcn/ScoopMaster
@@ -20148,7 +20157,6 @@ brogue-tiles_okibcn.json    okibcn/ScoopMaster
 bront-dvsm_okibcn.json    okibcn/ScoopMaster
 bront-um_okibcn.json    okibcn/ScoopMaster
 brook-gui-lite_okibcn.json    okibcn/ScoopMaster
-broot_okibcn.json    okibcn/ScoopMaster
 browserdownloadsview_okibcn.json    okibcn/ScoopMaster
 browsertools_okibcn.json    okibcn/ScoopMaster
 browsinghistoryview_okibcn.json    okibcn/ScoopMaster
@@ -20163,7 +20171,6 @@ buanzo-ffmpeg-shared.json    okibcn/ScoopMaster
 bucketlist.json    okibcn/ScoopMaster
 buildifier.json    okibcn/ScoopMaster
 buildozer.json    okibcn/ScoopMaster
-bulk-rename-command_okibcn.json    okibcn/ScoopMaster
 bulkrenameutility-aoks_okibcn.json    okibcn/ScoopMaster
 bulkrenameutility.json    okibcn/ScoopMaster
 bunbackup_okibcn.json    okibcn/ScoopMaster
@@ -20511,6 +20518,7 @@ chromepass_okibcn.json    okibcn/ScoopMaster
 chromium-canary.json    okibcn/ScoopMaster
 chromium-chrupd_okibcn.json    okibcn/ScoopMaster
 chromium-dev-nosync_okibcn.json    okibcn/ScoopMaster
+chromium-dev_okibcn.json    okibcn/ScoopMaster
 chromium-hibbiki-x64-cn-coding-mirror.json    okibcn/ScoopMaster
 chromium-hibbiki-x64.json    okibcn/ScoopMaster
 chromium-hibbiki.json    okibcn/ScoopMaster
@@ -20531,6 +20539,7 @@ clash-binary.json    okibcn/ScoopMaster
 clash-chinese-patch_okibcn.json    okibcn/ScoopMaster
 clash-dotnet.json    okibcn/ScoopMaster
 clash-for-windows-origin-chinese-patch.json    okibcn/ScoopMaster
+clash-for-windows_okibcn.json    okibcn/ScoopMaster
 clash-meta_okibcn.json    okibcn/ScoopMaster
 clash-mini_okibcn.json    okibcn/ScoopMaster
 clash-premium_okibcn.json    okibcn/ScoopMaster
@@ -20544,7 +20553,6 @@ clashdotnetframework_okibcn.json    okibcn/ScoopMaster
 clashmini.json    okibcn/ScoopMaster
 clashn-core_okibcn.json    okibcn/ScoopMaster
 clashp.json    okibcn/ScoopMaster
-clashsinicizationtool_okibcn.json    okibcn/ScoopMaster
 clashw.json    okibcn/ScoopMaster
 clashwarden_okibcn.json    okibcn/ScoopMaster
 clashweb_okibcn.json    okibcn/ScoopMaster
@@ -20561,7 +20569,6 @@ clean-flash_okibcn.json    okibcn/ScoopMaster
 cleanmywechat_okibcn.json    okibcn/ScoopMaster
 cleo-scripting-pack_okibcn.json    okibcn/ScoopMaster
 clibor_okibcn.json    okibcn/ScoopMaster
-clink_okibcn.json    okibcn/ScoopMaster
 clion-rc-portable_okibcn.json    okibcn/ScoopMaster
 clipangel.json    okibcn/ScoopMaster
 clipboard-history.json    okibcn/ScoopMaster
@@ -20573,16 +20580,15 @@ cloneapp-aoks_okibcn.json    okibcn/ScoopMaster
 clonespy-aoks_okibcn.json    okibcn/ScoopMaster
 cloudflare-speedtest.json    okibcn/ScoopMaster
 cloudflare-warp.json    okibcn/ScoopMaster
+cloudflarespeedtest_okibcn.json    okibcn/ScoopMaster
 cloudmusic-unblock_okibcn.json    okibcn/ScoopMaster
 cloudmusic-zd423_okibcn.json    okibcn/ScoopMaster
 clover.json    okibcn/ScoopMaster
 clusterctl-aoks_okibcn.json    okibcn/ScoopMaster
 cmake-as7.json    okibcn/ScoopMaster
-cmake-ra.json    okibcn/ScoopMaster
 cmake-rc_okibcn.json    okibcn/ScoopMaster
 cmake@3.2.2+gui.json    okibcn/ScoopMaster
 cmder-cvp-crcv.json    okibcn/ScoopMaster
-cmder-full_okibcn.json    okibcn/ScoopMaster
 cmigemo.json    okibcn/ScoopMaster
 cmpasm.json    okibcn/ScoopMaster
 cmwtat-digital-edition.json    okibcn/ScoopMaster
@@ -20649,6 +20655,7 @@ coqui-stt.json    okibcn/ScoopMaster
 coretemp_fixed.json    okibcn/ScoopMaster
 coreutils-rs_okibcn.json    okibcn/ScoopMaster
 corsair-icue_okibcn.json    okibcn/ScoopMaster
+cosbrowser_okibcn.json    okibcn/ScoopMaster
 couchdb.json    okibcn/ScoopMaster
 countrytraceroute_okibcn.json    okibcn/ScoopMaster
 courierprime_okibcn.json    okibcn/ScoopMaster
@@ -20679,12 +20686,10 @@ cq-editor_okibcn.json    okibcn/ScoopMaster
 crab.json    okibcn/ScoopMaster
 cracklock.json    okibcn/ScoopMaster
 cranko_okibcn.json    okibcn/ScoopMaster
-creaminstaller_okibcn.json    okibcn/ScoopMaster
 creativision_okibcn.json    okibcn/ScoopMaster
 crevice.json    okibcn/ScoopMaster
 crewchief.json    okibcn/ScoopMaster
 crinkler.json    okibcn/ScoopMaster
-croc_okibcn.json    okibcn/ScoopMaster
 cronitorcli.json    okibcn/ScoopMaster
 cross.json    okibcn/ScoopMaster
 crowbar_okibcn.json    okibcn/ScoopMaster
@@ -20693,7 +20698,6 @@ crystal_okibcn.json    okibcn/ScoopMaster
 crystaldiskinfo-kureikei_okibcn.json    okibcn/ScoopMaster
 crystaldiskinfo-shizuku-edition_okibcn.json    okibcn/ScoopMaster
 crystaldiskinfo-shizuku_okibcn.json    okibcn/ScoopMaster
-crystaldiskinfo_okibcn.json    okibcn/ScoopMaster
 crystaldiskinfoshizuku.json    okibcn/ScoopMaster
 crystaldiskmark-portable.json    okibcn/ScoopMaster
 crystaldiskmark-shizuku-tuna_okibcn.json    okibcn/ScoopMaster
@@ -20914,11 +20918,8 @@ cuDNNv8.4.1-CUDAv11.6-windows_okibcn.json    okibcn/ScoopMaster
 cubeice.json    okibcn/ScoopMaster
 cubox.json    okibcn/ScoopMaster
 cudnn.json    okibcn/ScoopMaster
-cuetools_okibcn.json    okibcn/ScoopMaster
 cura4.json    okibcn/ScoopMaster
 cure.json    okibcn/ScoopMaster
-curl_okibcn.json    okibcn/ScoopMaster
-curlie_okibcn.json    okibcn/ScoopMaster
 custom-install_okibcn.json    okibcn/ScoopMaster
 customizemii-mod_okibcn.json    okibcn/ScoopMaster
 cutepdf.json    okibcn/ScoopMaster
@@ -20933,13 +20934,11 @@ cyg.json    okibcn/ScoopMaster
 cygne_okibcn.json    okibcn/ScoopMaster
 cygwin-aoks_okibcn.json    okibcn/ScoopMaster
 cygwin-cvp.json    okibcn/ScoopMaster
-cygwin_okibcn.json    okibcn/ScoopMaster
 cyotek-copytools.json    okibcn/ScoopMaster
 cyotek-palette-editor.json    okibcn/ScoopMaster
 cyotek-sitemap-creator.json    okibcn/ScoopMaster
 cyotek-spriter.json    okibcn/ScoopMaster
 cytoscape.json    okibcn/ScoopMaster
-d2_okibcn.json    okibcn/ScoopMaster
 daedalus_okibcn.json    okibcn/ScoopMaster
 daisy_okibcn.json    okibcn/ScoopMaster
 dandanplay_okibcn.json    okibcn/ScoopMaster
@@ -20947,7 +20946,6 @@ daphne_okibcn.json    okibcn/ScoopMaster
 dapple_okibcn.json    okibcn/ScoopMaster
 dapple2-emuii_okibcn.json    okibcn/ScoopMaster
 dark_okibcn.json    okibcn/ScoopMaster
-dasel_okibcn.json    okibcn/ScoopMaster
 dasviewer.json    okibcn/ScoopMaster
 data-pixels_okibcn.json    okibcn/ScoopMaster
 database-converter_okibcn.json    okibcn/ScoopMaster
@@ -20958,7 +20956,6 @@ dave.json    okibcn/ScoopMaster
 daxstudio_okibcn.json    okibcn/ScoopMaster
 db-browser-for-sqlite.json    okibcn/ScoopMaster
 dbeaver-ee.json    okibcn/ScoopMaster
-dbeaver_okibcn.json    okibcn/ScoopMaster
 dbgate_okibcn.json    okibcn/ScoopMaster
 dbptk.json    okibcn/ScoopMaster
 dbschema.json    okibcn/ScoopMaster
@@ -20978,7 +20975,6 @@ decaf_okibcn.json    okibcn/ScoopMaster
 decompiler.json    okibcn/ScoopMaster
 deemix_okibcn.json    okibcn/ScoopMaster
 deepgit-aoks_okibcn.json    okibcn/ScoopMaster
-deepl_okibcn.json    okibcn/ScoopMaster
 default-programs-editor.json    okibcn/ScoopMaster
 defender-control_okibcn.json    okibcn/ScoopMaster
 defineEditor_okibcn.json    okibcn/ScoopMaster
@@ -21060,7 +21056,6 @@ disk2vhd_okibcn.json    okibcn/ScoopMaster
 diskcountersview_okibcn.json    okibcn/ScoopMaster
 diskgen_okibcn.json    okibcn/ScoopMaster
 diskgenius-pe_okibcn.json    okibcn/ScoopMaster
-diskgenius_okibcn.json    okibcn/ScoopMaster
 diskmon_okibcn.json    okibcn/ScoopMaster
 diskovery_okibcn.json    okibcn/ScoopMaster
 dismplusplus_okibcn.json    okibcn/ScoopMaster
@@ -21094,7 +21089,6 @@ dnspy_okibcn.json    okibcn/ScoopMaster
 dnspy32.json    okibcn/ScoopMaster
 dnspyex-win32_okibcn.json    okibcn/ScoopMaster
 dnspyex-win64_okibcn.json    okibcn/ScoopMaster
-dnspyex_okibcn.json    okibcn/ScoopMaster
 dnspyex32.json    okibcn/ScoopMaster
 dnsquerysniffer_okibcn.json    okibcn/ScoopMaster
 dnstrace.json    okibcn/ScoopMaster
@@ -21181,7 +21175,6 @@ dpeaklim.json    okibcn/ScoopMaster
 dpic.json    okibcn/ScoopMaster
 dpspemu_okibcn.json    okibcn/ScoopMaster
 dragonunpacker_okibcn.json    okibcn/ScoopMaster
-draw.io_okibcn.json    okibcn/ScoopMaster
 drawio-desktop_okibcn.json    okibcn/ScoopMaster
 dream3d.json    okibcn/ScoopMaster
 dream64_okibcn.json    okibcn/ScoopMaster
@@ -21217,7 +21210,6 @@ dsv-cli.json    okibcn/ScoopMaster
 dsvz200_okibcn.json    okibcn/ScoopMaster
 dt.json    okibcn/ScoopMaster
 dtc.json    okibcn/ScoopMaster
-dua_okibcn.json    okibcn/ScoopMaster
 dualis_okibcn.json    okibcn/ScoopMaster
 duckencode.json    okibcn/ScoopMaster
 duckstation_okibcn.json    okibcn/ScoopMaster
@@ -21227,7 +21219,6 @@ dum_okibcn.json    okibcn/ScoopMaster
 dumpster-u_okibcn.json    okibcn/ScoopMaster
 duo-rdgateway-np.json    okibcn/ScoopMaster
 duplicati-cli.json    okibcn/ScoopMaster
-dust_okibcn.json    okibcn/ScoopMaster
 dust3d_okibcn.json    okibcn/ScoopMaster
 dve_okibcn.json    okibcn/ScoopMaster
 dview.json    okibcn/ScoopMaster
@@ -21253,7 +21244,6 @@ ebbflow.json    okibcn/ScoopMaster
 ebmused.json    okibcn/ScoopMaster
 ebomgen.json    okibcn/ScoopMaster
 ec2connect.json    okibcn/ScoopMaster
-eclipse-java_okibcn.json    okibcn/ScoopMaster
 eclipse-libertytools.json    okibcn/ScoopMaster
 eclipse-wdt.json    okibcn/ScoopMaster
 ecloud_okibcn.json    okibcn/ScoopMaster
@@ -21416,6 +21406,7 @@ exoscale-cli.json    okibcn/ScoopMaster
 expect-lua.json    okibcn/ScoopMaster
 experimental-clash_okibcn.json    okibcn/ScoopMaster
 explorerpatcher_okibcn.json    okibcn/ScoopMaster
+explorerplusplus_okibcn.json    okibcn/ScoopMaster
 explzh-np.json    okibcn/ScoopMaster
 ext2fsd-aoks_okibcn.json    okibcn/ScoopMaster
 extract-xiso_okibcn.json    okibcn/ScoopMaster
@@ -21453,7 +21444,6 @@ farcry6-modinstaller.json    okibcn/ScoopMaster
 farcrynd-modinstaller.json    okibcn/ScoopMaster
 fast-data-transfer-aoks_okibcn.json    okibcn/ScoopMaster
 fastbootEnhance_okibcn.json    okibcn/ScoopMaster
-fastcopy_okibcn.json    okibcn/ScoopMaster
 fastget.json    okibcn/ScoopMaster
 fastgithub-portable_okibcn.json    okibcn/ScoopMaster
 fastgithub_okibcn.json    okibcn/ScoopMaster
@@ -21470,7 +21460,6 @@ fceux-dev2_okibcn.json    okibcn/ScoopMaster
 fceux_okibcn.json    okibcn/ScoopMaster
 fclone.json    okibcn/ScoopMaster
 fcopy.json    okibcn/ScoopMaster
-fd_okibcn.json    okibcn/ScoopMaster
 fedora-remix-for-wsl_okibcn.json    okibcn/ScoopMaster
 feedcrawler.json    okibcn/ScoopMaster
 feeluown.json    okibcn/ScoopMaster
@@ -21530,6 +21519,7 @@ filebeat7161.json    okibcn/ScoopMaster
 filebeat762.json    okibcn/ScoopMaster
 filebeat792.json    okibcn/ScoopMaster
 filecode-checker.json    okibcn/ScoopMaster
+fileconverter_okibcn.json    okibcn/ScoopMaster
 filedrop_okibcn.json    okibcn/ScoopMaster
 fileinsight.json    okibcn/ScoopMaster
 filelist-aoks_okibcn.json    okibcn/ScoopMaster
@@ -21539,6 +21529,7 @@ filetypesman_okibcn.json    okibcn/ScoopMaster
 finddupe.json    okibcn/ScoopMaster
 finddupe_thomas694.json    okibcn/ScoopMaster
 findo.json    okibcn/ScoopMaster
+findutils_okibcn.json    okibcn/ScoopMaster
 fio-aoks_okibcn.json    okibcn/ScoopMaster
 fira-code-ttf.json    okibcn/ScoopMaster
 fira-code-vf-ttf.json    okibcn/ScoopMaster
@@ -21562,11 +21553,13 @@ firefox-developer.ja.json    okibcn/ScoopMaster
 firefox-esr-zh-cn_okibcn.json    okibcn/ScoopMaster
 firefox-it.json    okibcn/ScoopMaster
 firefox-jp.json    okibcn/ScoopMaster
+firefox-nightly-zh-cn_okibcn.json    okibcn/ScoopMaster
 firefox-noinstall.json    okibcn/ScoopMaster
 firefox-portable-it.json    okibcn/ScoopMaster
 firefox-tete009-portable.json    okibcn/ScoopMaster
 firefox-tete009.json    okibcn/ScoopMaster
 firefox-unbranded.json    okibcn/ScoopMaster
+firefox-zh-cn_okibcn.json    okibcn/ScoopMaster
 firefox.ja_okibcn.json    okibcn/ScoopMaster
 firefox_okibcn.json    okibcn/ScoopMaster
 firegb_okibcn.json    okibcn/ScoopMaster
@@ -21581,6 +21574,7 @@ flameshot-aoks_okibcn.json    okibcn/ScoopMaster
 flashdec.json    okibcn/ScoopMaster
 flashdevelop_okibcn.json    okibcn/ScoopMaster
 flashpatch_okibcn.json    okibcn/ScoopMaster
+flashpoint_okibcn.json    okibcn/ScoopMaster
 flawless-widescreen.json    okibcn/ScoopMaster
 flexible-renamer_okibcn.json    okibcn/ScoopMaster
 flexihub.json    okibcn/ScoopMaster
@@ -21636,7 +21630,6 @@ font-source-han-serif_okibcn.json    okibcn/ScoopMaster
 font-udev-gothic-nf_okibcn.json    okibcn/ScoopMaster
 font-udev-gothic_okibcn.json    okibcn/ScoopMaster
 font-yahei-mono.json    okibcn/ScoopMaster
-fontcreator_okibcn.json    okibcn/ScoopMaster
 fonts-amazon-bookerly.json    okibcn/ScoopMaster
 fonts-amazon-ember.json    okibcn/ScoopMaster
 fonts-fira-code.json    okibcn/ScoopMaster
@@ -21674,7 +21667,6 @@ foreman_okibcn.json    okibcn/ScoopMaster
 format-factory_okibcn.json    okibcn/ScoopMaster
 fortiClient.json    okibcn/ScoopMaster
 fortio.json    okibcn/ScoopMaster
-foxe_okibcn.json    okibcn/ScoopMaster
 foxit-reader-portable.json    okibcn/ScoopMaster
 foxit.json    okibcn/ScoopMaster
 foxitphantompdflite.json    okibcn/ScoopMaster
@@ -21779,7 +21771,6 @@ gcc_winlibs.json    okibcn/ScoopMaster
 gcemu_okibcn.json    okibcn/ScoopMaster
 gcg.json    okibcn/ScoopMaster
 gclone_okibcn.json    okibcn/ScoopMaster
-gcloud_okibcn.json    okibcn/ScoopMaster
 gcm-core.json    okibcn/ScoopMaster
 gcsimui.json    okibcn/ScoopMaster
 gctx.json    okibcn/ScoopMaster
@@ -21788,7 +21779,6 @@ gda_okibcn.json    okibcn/ScoopMaster
 gdlauncher.json    okibcn/ScoopMaster
 gdmenu-card-manager_okibcn.json    okibcn/ScoopMaster
 gdrom-explorer_okibcn.json    okibcn/ScoopMaster
-gdu_okibcn.json    okibcn/ScoopMaster
 gearboy_okibcn.json    okibcn/ScoopMaster
 gearsystem_okibcn.json    okibcn/ScoopMaster
 geekuninstaller_okibcn.json    okibcn/ScoopMaster
@@ -21849,27 +21839,22 @@ git-alias.json    okibcn/ScoopMaster
 git-branch-stash_okibcn.json    okibcn/ScoopMaster
 git-bug-master.json    okibcn/ScoopMaster
 git-busybox.json    okibcn/ScoopMaster
+git-chglog_okibcn.json    okibcn/ScoopMaster
 git-credential-gopass.json    okibcn/ScoopMaster
-git-credential-manager-core_okibcn.json    okibcn/ScoopMaster
 git-extensions_okibcn.json    okibcn/ScoopMaster
 git-extras.json    okibcn/ScoopMaster
-git-filter-repo_okibcn.json    okibcn/ScoopMaster
 git-ftp-aoks_okibcn.json    okibcn/ScoopMaster
-git-lfs_okibcn.json    okibcn/ScoopMaster
 git-plus_okibcn.json    okibcn/ScoopMaster
 git-remote-init.json    okibcn/ScoopMaster
 git-roew.json    okibcn/ScoopMaster
 git-stack_okibcn.json    okibcn/ScoopMaster
 git-toolbelt-aoks_okibcn.json    okibcn/ScoopMaster
 git-with-openssh-cn-taobao-mirror.json    okibcn/ScoopMaster
-git-with-openssh_okibcn.json    okibcn/ScoopMaster
-git_okibcn.json    okibcn/ScoopMaster
 gitalias_okibcn.json    okibcn/ScoopMaster
 gitall.json    okibcn/ScoopMaster
 gitdelta_okibcn.json    okibcn/ScoopMaster
 github-beta_okibcn.json    okibcn/ScoopMaster
 github-desktop_okibcn.json    okibcn/ScoopMaster
-github_okibcn.json    okibcn/ScoopMaster
 gitkraken_okibcn.json    okibcn/ScoopMaster
 gitkraken5.0.4.json    okibcn/ScoopMaster
 gitlab-ci-pipelines-exporter.json    okibcn/ScoopMaster
@@ -21879,7 +21864,6 @@ gitleaks_okibcn.json    okibcn/ScoopMaster
 gitnote-aoks_okibcn.json    okibcn/ScoopMaster
 gitoxide_okibcn.json    okibcn/ScoopMaster
 gitty_okibcn.json    okibcn/ScoopMaster
-gitui_okibcn.json    okibcn/ScoopMaster
 gitwrk.json    okibcn/ScoopMaster
 gix_okibcn.json    okibcn/ScoopMaster
 glary-utilities-aoks_okibcn.json    okibcn/ScoopMaster
@@ -21897,7 +21881,6 @@ gns3_okibcn.json    okibcn/ScoopMaster
 gnuwin64.json    okibcn/ScoopMaster
 go-apfs_okibcn.json    okibcn/ScoopMaster
 go-cqhttp-nightly.json    okibcn/ScoopMaster
-go-cqhttp_okibcn.json    okibcn/ScoopMaster
 go-fakelish.json    okibcn/ScoopMaster
 go-feature-flag-relay-proxy.json    okibcn/ScoopMaster
 go-feature-flag.json    okibcn/ScoopMaster
@@ -21909,7 +21892,6 @@ go-shadowsocks2.json    okibcn/ScoopMaster
 go-shell.json    okibcn/ScoopMaster
 go-unstable_okibcn.json    okibcn/ScoopMaster
 go-uploader.json    okibcn/ScoopMaster
-go_okibcn.json    okibcn/ScoopMaster
 go118.json    okibcn/ScoopMaster
 go2tv_okibcn.json    okibcn/ScoopMaster
 goawk_okibcn.json    okibcn/ScoopMaster
@@ -22003,7 +21985,6 @@ gpg@2.0.30+gui.json    okibcn/ScoopMaster
 gpg@2.2.23+gui.json    okibcn/ScoopMaster
 gpg@2.2.5+gui.json    okibcn/ScoopMaster
 gpgpdump_okibcn.json    okibcn/ScoopMaster
-gping_okibcn.json    okibcn/ScoopMaster
 gpmdp.json    okibcn/ScoopMaster
 gpmm.json    okibcn/ScoopMaster
 gpu-z-2.45.0_okibcn.json    okibcn/ScoopMaster
@@ -22021,7 +22002,6 @@ grc-fw_okibcn.json    okibcn/ScoopMaster
 greatdismal_okibcn.json    okibcn/ScoopMaster
 greenfish.json    okibcn/ScoopMaster
 greenfoot.json    okibcn/ScoopMaster
-grep_okibcn.json    okibcn/ScoopMaster
 grepWinPortable_okibcn.json    okibcn/ScoopMaster
 grindstone-aoks_okibcn.json    okibcn/ScoopMaster
 grok.json    okibcn/ScoopMaster
@@ -22030,7 +22010,6 @@ grout.json    okibcn/ScoopMaster
 grpcui_okibcn.json    okibcn/ScoopMaster
 grvk.json    okibcn/ScoopMaster
 grw-ghost-buster.json    okibcn/ScoopMaster
-grype_okibcn.json    okibcn/ScoopMaster
 gsport_okibcn.json    okibcn/ScoopMaster
 gstreamer-msvc.json    okibcn/ScoopMaster
 gsudo_okibcn.json    okibcn/ScoopMaster
@@ -22098,7 +22077,6 @@ helm-secrets.json    okibcn/ScoopMaster
 helmsman_okibcn.json    okibcn/ScoopMaster
 helo.json    okibcn/ScoopMaster
 heroic-games-launcher_okibcn.json    okibcn/ScoopMaster
-heroku-cli_okibcn.json    okibcn/ScoopMaster
 hetty.json    okibcn/ScoopMaster
 heu-kms-activator_okibcn.json    okibcn/ScoopMaster
 hex2bin.json    okibcn/ScoopMaster
@@ -22114,6 +22092,7 @@ hide_okibcn.json    okibcn/ScoopMaster
 hidetaskbar.json    okibcn/ScoopMaster
 higan_okibcn.json    okibcn/ScoopMaster
 histcite_okibcn.json    okibcn/ScoopMaster
+hitomi-downloader_okibcn.json    okibcn/ScoopMaster
 hiyacfw-helper.json    okibcn/ScoopMaster
 _okibcn.json-cli-aoks.json    okibcn/ScoopMaster
 hkbtest_okibcn.json    okibcn/ScoopMaster
@@ -22153,7 +22132,6 @@ httpie-go_okibcn.json    okibcn/ScoopMaster
 httpie_okibcn.json    okibcn/ScoopMaster
 httplab.json    okibcn/ScoopMaster
 httprobe.json    okibcn/ScoopMaster
-httpstat_okibcn.json    okibcn/ScoopMaster
 httpx_okibcn.json    okibcn/ScoopMaster
 hu6280_okibcn.json    okibcn/ScoopMaster
 huayupinyin.json    okibcn/ScoopMaster
@@ -22182,6 +22160,7 @@ iawriterquattro-variable_okibcn.json    okibcn/ScoopMaster
 iawriterquattro_okibcn.json    okibcn/ScoopMaster
 ibeverythingext_okibcn.json    okibcn/ScoopMaster
 ice64_okibcn.json    okibcn/ScoopMaster
+iceweasel_okibcn.json    okibcn/ScoopMaster
 icm.json    okibcn/ScoopMaster
 icns_okibcn.json    okibcn/ScoopMaster
 icon-explorer.json    okibcn/ScoopMaster
@@ -22213,7 +22192,6 @@ im-select.json    okibcn/ScoopMaster
 im-yong.json    okibcn/ScoopMaster
 image2text.json    okibcn/ScoopMaster
 imageglass-moon_okibcn.json    okibcn/ScoopMaster
-imagemagick_okibcn.json    okibcn/ScoopMaster
 imazing_okibcn.json    okibcn/ScoopMaster
 imdisktoolkit-np.json    okibcn/ScoopMaster
 imgcat_okibcn.json    okibcn/ScoopMaster
@@ -22307,6 +22285,7 @@ ip6_okibcn.json    okibcn/ScoopMaster
 ip6plus_okibcn.json    okibcn/ScoopMaster
 iperf2.json    okibcn/ScoopMaster
 iperf3_okibcn.json    okibcn/ScoopMaster
+ipinfo_okibcn.json    okibcn/ScoopMaster
 ipinfooffline_okibcn.json    okibcn/ScoopMaster
 ipmsg.json    okibcn/ScoopMaster
 ippathtableview_okibcn.json    okibcn/ScoopMaster
@@ -22320,7 +22299,6 @@ irreader_okibcn.json    okibcn/ScoopMaster
 irust_okibcn.json    okibcn/ScoopMaster
 ishiirukadolphin_okibcn.json    okibcn/ScoopMaster
 islide.json    okibcn/ScoopMaster
-istioctl_okibcn.json    okibcn/ScoopMaster
 itunes-portable_okibcn.json    okibcn/ScoopMaster
 itunes.json    okibcn/ScoopMaster
 iv-play_okibcn.json    okibcn/ScoopMaster
@@ -22331,6 +22309,7 @@ jabref_okibcn.json    okibcn/ScoopMaster
 jabref57_okibcn.json    okibcn/ScoopMaster
 jackal_okibcn.json    okibcn/ScoopMaster
 jackett-cn.json    okibcn/ScoopMaster
+jackett_okibcn.json    okibcn/ScoopMaster
 jadx-unstable.json    okibcn/ScoopMaster
 jagulator_okibcn.json    okibcn/ScoopMaster
 jailer.json    okibcn/ScoopMaster
@@ -22366,7 +22345,6 @@ jlink614.json    okibcn/ScoopMaster
 jlink700.json    okibcn/ScoopMaster
 jmeter_okibcn.json    okibcn/ScoopMaster
 jnes_okibcn.json    okibcn/ScoopMaster
-jo_okibcn.json    okibcn/ScoopMaster
 john-the-ripper.json    okibcn/ScoopMaster
 johns-background-switcher.json    okibcn/ScoopMaster
 johnsbackgroundswitcher.json    okibcn/ScoopMaster
@@ -22383,6 +22361,7 @@ jpdftweak.json    okibcn/ScoopMaster
 jpeg-lossless-rotator.json    okibcn/ScoopMaster
 jpegcrops_okibcn.json    okibcn/ScoopMaster
 jpegoptim.json    okibcn/ScoopMaster
+jpegview-fork_okibcn.json    okibcn/ScoopMaster
 jpemu_okibcn.json    okibcn/ScoopMaster
 jpexs-decompiler_okibcn.json    okibcn/ScoopMaster
 jpexs_okibcn.json    okibcn/ScoopMaster
@@ -22426,6 +22405,7 @@ kcptun_okibcn.json    okibcn/ScoopMaster
 kdash.json    okibcn/ScoopMaster
 kde-mover-sizer.json    okibcn/ScoopMaster
 kdeconnect-nightly_okibcn.json    okibcn/ScoopMaster
+kdeconnect_okibcn.json    okibcn/ScoopMaster
 kdiff3-aoks_okibcn.json    okibcn/ScoopMaster
 kdramadl-ffmpeg.json    okibcn/ScoopMaster
 kdramadl.json    okibcn/ScoopMaster
@@ -22488,7 +22468,6 @@ kibana621.json    okibcn/ScoopMaster
 kibana642.json    okibcn/ScoopMaster
 kibana651.json    okibcn/ScoopMaster
 kicad-nightly-x86_64.json    okibcn/ScoopMaster
-kicad_okibcn.json    okibcn/ScoopMaster
 kigb_okibcn.json    okibcn/ScoopMaster
 kindred_okibcn.json    okibcn/ScoopMaster
 kingofkingsg.json    okibcn/ScoopMaster
@@ -22508,6 +22487,7 @@ koalageddon.json    okibcn/ScoopMaster
 kobweb.json    okibcn/ScoopMaster
 koleko_okibcn.json    okibcn/ScoopMaster
 kombucha.json    okibcn/ScoopMaster
+komf_okibcn.json    okibcn/ScoopMaster
 komorebi_okibcn.json    okibcn/ScoopMaster
 koodoreader.json    okibcn/ScoopMaster
 kopia-aoks_okibcn.json    okibcn/ScoopMaster
@@ -22523,7 +22503,6 @@ krita_okibcn.json    okibcn/ScoopMaster
 krmfnbuiltin.json    okibcn/ScoopMaster
 krmfnsops.json    okibcn/ScoopMaster
 kscan_okibcn.json    okibcn/ScoopMaster
-kube-linter_okibcn.json    okibcn/ScoopMaster
 kubectl-crossplane_okibcn.json    okibcn/ScoopMaster
 kubectl-nplist.json    okibcn/ScoopMaster
 kure.json    okibcn/ScoopMaster
@@ -22542,7 +22521,6 @@ lantern.json    okibcn/ScoopMaster
 lanzou-cmd_okibcn.json    okibcn/ScoopMaster
 lanzou-gui_okibcn.json    okibcn/ScoopMaster
 lanzous.json    okibcn/ScoopMaster
-lanzouyun-disk_okibcn.json    okibcn/ScoopMaster
 lapce-nightly.json    okibcn/ScoopMaster
 lapce_okibcn.json    okibcn/ScoopMaster
 lapce_dev.json    okibcn/ScoopMaster
@@ -22564,6 +22542,7 @@ lazarus-aoks_okibcn.json    okibcn/ScoopMaster
 lazycomplete.json    okibcn/ScoopMaster
 lc3sim_okibcn.json    okibcn/ScoopMaster
 lceda-pro.json    okibcn/ScoopMaster
+ldc_okibcn.json    okibcn/ScoopMaster
 ldview.json    okibcn/ScoopMaster
 league-gothic-otf.json    okibcn/ScoopMaster
 league-gothic-ttf.json    okibcn/ScoopMaster
@@ -22581,7 +22560,6 @@ ledgerble.json    okibcn/ScoopMaster
 leeyes.json    okibcn/ScoopMaster
 legendary_okibcn.json    okibcn/ScoopMaster
 lenovo-legion-toolkit-np.json    okibcn/ScoopMaster
-lens_okibcn.json    okibcn/ScoopMaster
 leocad.json    okibcn/ScoopMaster
 less-windows_okibcn.json    okibcn/ScoopMaster
 letodb.json    okibcn/ScoopMaster
@@ -22630,7 +22608,6 @@ lisa_okibcn.json    okibcn/ScoopMaster
 lisaem_okibcn.json    okibcn/ScoopMaster
 listarypro_okibcn.json    okibcn/ScoopMaster
 listen1.json    okibcn/ScoopMaster
-listen1desktop_okibcn.json    okibcn/ScoopMaster
 lister_okibcn.json    okibcn/ScoopMaster
 lite_okibcn.json    okibcn/ScoopMaster
 litedb-studio.json    okibcn/ScoopMaster
@@ -22706,7 +22683,6 @@ lunatask.json    okibcn/ScoopMaster
 lunatic_okibcn.json    okibcn/ScoopMaster
 luvi.json    okibcn/ScoopMaster
 lux-binary.json    okibcn/ScoopMaster
-lux_okibcn.json    okibcn/ScoopMaster
 luyten_okibcn.json    okibcn/ScoopMaster
 lv-mod.json    okibcn/ScoopMaster
 lx-music_okibcn.json    okibcn/ScoopMaster
@@ -22725,7 +22701,6 @@ mactype-np_okibcn.json    okibcn/ScoopMaster
 mactype.json    okibcn/ScoopMaster
 madedit.json    okibcn/ScoopMaster
 madvr_okibcn.json    okibcn/ScoopMaster
-magicsplat-tcl.json    okibcn/ScoopMaster
 magpie-preview_okibcn.json    okibcn/ScoopMaster
 magpie_okibcn.json    okibcn/ScoopMaster
 mahjong-helper_okibcn.json    okibcn/ScoopMaster
@@ -22743,6 +22718,7 @@ makehuman_okibcn.json    okibcn/ScoopMaster
 makemkv_okibcn.json    okibcn/ScoopMaster
 makerom_okibcn.json    okibcn/ScoopMaster
 mallet.json    okibcn/ScoopMaster
+mambaforge_okibcn.json    okibcn/ScoopMaster
 mame_okibcn.json    okibcn/ScoopMaster
 mameclassic_okibcn.json    okibcn/ScoopMaster
 managewirelessnetworks_okibcn.json    okibcn/ScoopMaster
@@ -22763,7 +22739,6 @@ manifold-xtra-lang-et.json    okibcn/ScoopMaster
 manifold-xtra.json    okibcn/ScoopMaster
 manjarowsl.json    okibcn/ScoopMaster
 maptool.json    okibcn/ScoopMaster
-mariadb_okibcn.json    okibcn/ScoopMaster
 markdown-monster-aoks_okibcn.json    okibcn/ScoopMaster
 markdown-monster_okibcn.json    okibcn/ScoopMaster
 markdown2confluence.json    okibcn/ScoopMaster
@@ -22815,9 +22790,7 @@ meisei_okibcn.json    okibcn/ScoopMaster
 meka_okibcn.json    okibcn/ScoopMaster
 mellow_okibcn.json    okibcn/ScoopMaster
 melonds_okibcn.json    okibcn/ScoopMaster
-memcached_okibcn.json    okibcn/ScoopMaster
 memreduct-sdu_okibcn.json    okibcn/ScoopMaster
-memreduct_okibcn.json    okibcn/ScoopMaster
 memtest_okibcn.json    okibcn/ScoopMaster
 menutools_okibcn.json    okibcn/ScoopMaster
 mercury_okibcn.json    okibcn/ScoopMaster
@@ -22835,7 +22808,6 @@ metropolis-ttf.json    okibcn/ScoopMaster
 mfme_okibcn.json    okibcn/ScoopMaster
 mgba_okibcn.json    okibcn/ScoopMaster
 mgtv.json    okibcn/ScoopMaster
-micaforeveryone_okibcn.json    okibcn/ScoopMaster
 micro_okibcn.json    okibcn/ScoopMaster
 micro64_okibcn.json    okibcn/ScoopMaster
 microbenchx.json    okibcn/ScoopMaster
@@ -22961,9 +22933,7 @@ mpsmart.json    okibcn/ScoopMaster
 mpv-clipboard.json    okibcn/ScoopMaster
 mpv-git_okibcn.json    okibcn/ScoopMaster
 mpv-handler_okibcn.json    okibcn/ScoopMaster
-mpv-lazy_okibcn.json    okibcn/ScoopMaster
 mpv-v3.json    okibcn/ScoopMaster
-mpv_okibcn.json    okibcn/ScoopMaster
 mpv.net-CM_okibcn.json    okibcn/ScoopMaster
 mqtt-cli_okibcn.json    okibcn/ScoopMaster
 mratool.json    okibcn/ScoopMaster
@@ -22978,7 +22948,6 @@ msedge-plus_okibcn.json    okibcn/ScoopMaster
 msedge-stable-shuax_okibcn.json    okibcn/ScoopMaster
 msedgeredirect_okibcn.json    okibcn/ScoopMaster
 msiafterburner-np.json    okibcn/ScoopMaster
-msiafterburner_okibcn.json    okibcn/ScoopMaster
 msiver.json    okibcn/ScoopMaster
 msls-aoks_okibcn.json    okibcn/ScoopMaster
 msoffice2016-4in1.json    okibcn/ScoopMaster
@@ -23015,6 +22984,8 @@ mupen64plusplus_okibcn.json    okibcn/ScoopMaster
 murata-simsurfing.json    okibcn/ScoopMaster
 murex.json    okibcn/ScoopMaster
 musicdecrypto.json    okibcn/ScoopMaster
+musicdownloader-py_okibcn.json    okibcn/ScoopMaster
+musicdownloader_okibcn.json    okibcn/ScoopMaster
 musictag_okibcn.json    okibcn/ScoopMaster
 mweather_okibcn.json    okibcn/ScoopMaster
 my-keepass.json    okibcn/ScoopMaster
@@ -23061,7 +23032,6 @@ nanazip-preview_okibcn.json    okibcn/ScoopMaster
 nanazip-sdu_okibcn.json    okibcn/ScoopMaster
 nanowasp_okibcn.json    okibcn/ScoopMaster
 naotu_okibcn.json    okibcn/ScoopMaster
-nasm_okibcn.json    okibcn/ScoopMaster
 nat-type-tester_okibcn.json    okibcn/ScoopMaster
 nattypetester_okibcn.json    okibcn/ScoopMaster
 navi_okibcn.json    okibcn/ScoopMaster
@@ -23111,6 +23081,7 @@ netconnectchoose_okibcn.json    okibcn/ScoopMaster
 netcore.json    okibcn/ScoopMaster
 neteasecloudmusic.json    okibcn/ScoopMaster
 neteasemusic-cvp.json    okibcn/ScoopMaster
+neteasemusic_okibcn.json    okibcn/ScoopMaster
 netenum5.json    okibcn/ScoopMaster
 netlimiter-aoks_okibcn.json    okibcn/ScoopMaster
 netlogo_okibcn.json    okibcn/ScoopMaster
@@ -23154,7 +23125,6 @@ nircmd-both.json    okibcn/ScoopMaster
 nirlauncher-ims.json    okibcn/ScoopMaster
 nirlauncher.schinese.json    okibcn/ScoopMaster
 nitric.json    okibcn/ScoopMaster
-nixpacks_okibcn.json    okibcn/ScoopMaster
 nk2edit_okibcn.json    okibcn/ScoopMaster
 nkf.json    okibcn/ScoopMaster
 nlmsx_okibcn.json    okibcn/ScoopMaster
@@ -23171,7 +23141,6 @@ nocodb-aoks_okibcn.json    okibcn/ScoopMaster
 nocpc_okibcn.json    okibcn/ScoopMaster
 nodejs-bin_okibcn.json    okibcn/ScoopMaster
 nodejs-lts-10.json    okibcn/ScoopMaster
-nodejs_okibcn.json    okibcn/ScoopMaster
 nodejs12-tuna_okibcn.json    okibcn/ScoopMaster
 nodejs14-tuna_okibcn.json    okibcn/ScoopMaster
 nodejs16-tuna_okibcn.json    okibcn/ScoopMaster
@@ -23231,7 +23200,6 @@ nssm224.json    okibcn/ScoopMaster
 nsudo-devil-mode.json    okibcn/ScoopMaster
 nsz.json    okibcn/ScoopMaster
 ntfs-ln-aoks_okibcn.json    okibcn/ScoopMaster
-ntfs2btrfs_okibcn.json    okibcn/ScoopMaster
 ntfslinksview_okibcn.json    okibcn/ScoopMaster
 ntlite_okibcn.json    okibcn/ScoopMaster
 ntop_okibcn.json    okibcn/ScoopMaster
@@ -23270,7 +23238,6 @@ obs-command_okibcn.json    okibcn/ScoopMaster
 obs-currentsong_okibcn.json    okibcn/ScoopMaster
 obs-plugin-auto-subtitle.json    okibcn/ScoopMaster
 obs-plugin-backgroundremoval.json    okibcn/ScoopMaster
-obs-plugin-droidcam_fixed_okibcn.json    okibcn/ScoopMaster
 obs-plugin-scale-to-sound.json    okibcn/ScoopMaster
 obs-studio-cn-bfsu-mirror.json    okibcn/ScoopMaster
 obsf4proxy.json    okibcn/ScoopMaster
@@ -23294,14 +23261,13 @@ officecodepro-d_okibcn.json    okibcn/ScoopMaster
 officecodepro_okibcn.json    okibcn/ScoopMaster
 officemalscanner.json    okibcn/ScoopMaster
 officetool-plus_okibcn.json    okibcn/ScoopMaster
-officetoolplus-with-runtime_okibcn.json    okibcn/ScoopMaster
+officetool_okibcn.json    okibcn/ScoopMaster
 officetopdf_okibcn.json    okibcn/ScoopMaster
 offvis.json    okibcn/ScoopMaster
 ofview_okibcn.json    okibcn/ScoopMaster
 og-xbox-soundtrack-editor_okibcn.json    okibcn/ScoopMaster
 oggextract_okibcn.json    okibcn/ScoopMaster
 oh-my-posh_okibcn.json    okibcn/ScoopMaster
-oh-my-posh2_okibcn.json    okibcn/ScoopMaster
 oh-my-posh3_okibcn.json    okibcn/ScoopMaster
 ohdear-cli.json    okibcn/ScoopMaster
 ohmgraphite.json    okibcn/ScoopMaster
@@ -23442,7 +23408,6 @@ pandaocr_okibcn.json    okibcn/ScoopMaster
 pandoc-sidenote.json    okibcn/ScoopMaster
 pandownload_okibcn.json    okibcn/ScoopMaster
 pangobright_okibcn.json    okibcn/ScoopMaster
-pansy_okibcn.json    okibcn/ScoopMaster
 paper-icons.json    okibcn/ScoopMaster
 paperang.json    okibcn/ScoopMaster
 par.json    okibcn/ScoopMaster
@@ -23527,7 +23492,6 @@ pentaho-schema-workbench.json    okibcn/ScoopMaster
 percentage.json    okibcn/ScoopMaster
 perfmon.json    okibcn/ScoopMaster
 perfview64.json    okibcn/ScoopMaster
-perl_okibcn.json    okibcn/ScoopMaster
 perl528_okibcn.json    okibcn/ScoopMaster
 perl@+gcc.json    okibcn/ScoopMaster
 perl@5.10.1.1+gcc.json    okibcn/ScoopMaster
@@ -23564,7 +23528,6 @@ persistentwindows.json    okibcn/ScoopMaster
 personal-backup-aoks_okibcn.json    okibcn/ScoopMaster
 personalbackup-ims.json    okibcn/ScoopMaster
 personalbackup.json    okibcn/ScoopMaster
-pester_okibcn.json    okibcn/ScoopMaster
 pestudio-ims.json    okibcn/ScoopMaster
 pet_okibcn.json    okibcn/ScoopMaster
 petools_okibcn.json    okibcn/ScoopMaster
@@ -23960,7 +23923,6 @@ pneumatictube.json    okibcn/ScoopMaster
 png2ico_okibcn.json    okibcn/ScoopMaster
 pngcap.json    okibcn/ScoopMaster
 pngsource.json    okibcn/ScoopMaster
-pnpm_okibcn.json    okibcn/ScoopMaster
 pocketasterisk_okibcn.json    okibcn/ScoopMaster
 podesk.json    okibcn/ScoopMaster
 podlite-aoks_okibcn.json    okibcn/ScoopMaster
@@ -23968,7 +23930,6 @@ podman-aoks_okibcn.json    okibcn/ScoopMaster
 podman-remote.json    okibcn/ScoopMaster
 podman_okibcn.json    okibcn/ScoopMaster
 poedit-oss-unofficial.json    okibcn/ScoopMaster
-poetry_okibcn.json    okibcn/ScoopMaster
 poi-nightly.json    okibcn/ScoopMaster
 poi-np.json    okibcn/ScoopMaster
 poi_okibcn.json    okibcn/ScoopMaster
@@ -24021,6 +23982,7 @@ powershell_okibcn.json    okibcn/ScoopMaster
 powertool_okibcn.json    okibcn/ScoopMaster
 powertoys_okibcn.json    okibcn/ScoopMaster
 ppink.json    okibcn/ScoopMaster
+ppsspp-dev_okibcn.json    okibcn/ScoopMaster
 ppsspp_okibcn.json    okibcn/ScoopMaster
 pre-commit.json    okibcn/ScoopMaster
 prepros-6-np.json    okibcn/ScoopMaster
@@ -24033,7 +23995,6 @@ prisma-studio.json    okibcn/ScoopMaster
 prismlauncher-portable.json    okibcn/ScoopMaster
 prismlauncher-qt5-portable.json    okibcn/ScoopMaster
 privatezilla-aoks_okibcn.json    okibcn/ScoopMaster
-privoxy_okibcn.json    okibcn/ScoopMaster
 prm_okibcn.json    okibcn/ScoopMaster
 process-hacker_okibcn.json    okibcn/ScoopMaster
 process-lasso.json    okibcn/ScoopMaster
@@ -24043,7 +24004,6 @@ processhacker_okibcn.json    okibcn/ScoopMaster
 processhacker3.json    okibcn/ScoopMaster
 processmonitor_okibcn.json    okibcn/ScoopMaster
 processtcpsummary_okibcn.json    okibcn/ScoopMaster
-procs_okibcn.json    okibcn/ScoopMaster
 productkeyscanner_okibcn.json    okibcn/ScoopMaster
 profile.json    okibcn/ScoopMaster
 progtools_okibcn.json    okibcn/ScoopMaster
@@ -24074,7 +24034,6 @@ proxyee-down.json    okibcn/ScoopMaster
 prtscr_okibcn.json    okibcn/ScoopMaster
 ps-colours_okibcn.json    okibcn/ScoopMaster
 ps-dotenv.json    okibcn/ScoopMaster
-ps-guicompletion_okibcn.json    okibcn/ScoopMaster
 ps-mpd.json    okibcn/ScoopMaster
 ps-pushover.json    okibcn/ScoopMaster
 ps-rust-docs.json    okibcn/ScoopMaster
@@ -24129,7 +24088,6 @@ ptsans_okibcn.json    okibcn/ScoopMaster
 ptserif-expert_okibcn.json    okibcn/ScoopMaster
 ptserif_okibcn.json    okibcn/ScoopMaster
 public-sans_okibcn.json    okibcn/ScoopMaster
-pueue_okibcn.json    okibcn/ScoopMaster
 pueued_okibcn.json    okibcn/ScoopMaster
 pulseaudio.json    okibcn/ScoopMaster
 punes-opengl_okibcn.json    okibcn/ScoopMaster
@@ -24141,13 +24099,11 @@ purplepen.json    okibcn/ScoopMaster
 putty-d2ddw.json    okibcn/ScoopMaster
 putty-ranvis.json    okibcn/ScoopMaster
 putty-snapshot.json    okibcn/ScoopMaster
-putty_okibcn.json    okibcn/ScoopMaster
 puttygen.json    okibcn/ScoopMaster
 puttytm.json    okibcn/ScoopMaster
 pwsh-beta_okibcn.json    okibcn/ScoopMaster
 pwsh-preview.json    okibcn/ScoopMaster
 pwsh-search-web.json    okibcn/ScoopMaster
-pwsh_okibcn.json    okibcn/ScoopMaster
 pwsh6.json    okibcn/ScoopMaster
 pxlcon.json    okibcn/ScoopMaster
 py-ml-packages_okibcn.json    okibcn/ScoopMaster
@@ -24176,7 +24132,6 @@ python-doc_okibcn.json    okibcn/ScoopMaster
 python-eai-np_okibcn.json    okibcn/ScoopMaster
 python-embed-cn-taobao-mirror.json    okibcn/ScoopMaster
 python-embedded.json    okibcn/ScoopMaster
-python-lazy.json    okibcn/ScoopMaster
 python-poetry-preview.json    okibcn/ScoopMaster
 python-poetry.json    okibcn/ScoopMaster
 python_okibcn.json    okibcn/ScoopMaster
@@ -24205,7 +24160,6 @@ qalculate-qt.json    okibcn/ScoopMaster
 qalculate_okibcn.json    okibcn/ScoopMaster
 qbittorrent-enh.json    okibcn/ScoopMaster
 qbittorrent-enhanced_okibcn.json    okibcn/ScoopMaster
-qbittorrent_okibcn.json    okibcn/ScoopMaster
 qcadcam.json    okibcn/ScoopMaster
 qdir.json    okibcn/ScoopMaster
 qemu-510.json    okibcn/ScoopMaster
@@ -24220,7 +24174,6 @@ qmk_toolbox.json    okibcn/ScoopMaster
 qowlscaner.json    okibcn/ScoopMaster
 qownnotes-aoks_okibcn.json    okibcn/ScoopMaster
 qownnotes_okibcn.json    okibcn/ScoopMaster
-qpdf_okibcn.json    okibcn/ScoopMaster
 qpkt_okibcn.json    okibcn/ScoopMaster
 qq-dreamcast_okibcn.json    okibcn/ScoopMaster
 qq-mod-portable_okibcn.json    okibcn/ScoopMaster
@@ -24239,6 +24192,7 @@ qqmusic-cvp.json    okibcn/ScoopMaster
 qqmusic-zd423_okibcn.json    okibcn/ScoopMaster
 qqmusic_okibcn.json    okibcn/ScoopMaster
 qsel.json    okibcn/ScoopMaster
+qshell_okibcn.json    okibcn/ScoopMaster
 qsr.json    okibcn/ScoopMaster
 qsvencc.json    okibcn/ScoopMaster
 qtfiles.json    okibcn/ScoopMaster
@@ -24253,11 +24207,9 @@ quark_okibcn.json    okibcn/ScoopMaster
 quarto-prerelease_okibcn.json    okibcn/ScoopMaster
 quasar_okibcn.json    okibcn/ScoopMaster
 quasi88_okibcn.json    okibcn/ScoopMaster
-quick-access-popup_okibcn.json    okibcn/ScoopMaster
 quick-set-dns.json    okibcn/ScoopMaster
 quickbms_okibcn.json    okibcn/ScoopMaster
 quicker-fast_okibcn.json    okibcn/ScoopMaster
-quicklook_okibcn.json    okibcn/ScoopMaster
 quickplay.json    okibcn/ScoopMaster
 quickroute.json    okibcn/ScoopMaster
 quill.json    okibcn/ScoopMaster
@@ -24284,7 +24236,6 @@ r-4.1.2_okibcn.json    okibcn/ScoopMaster
 r-4.1.3_okibcn.json    okibcn/ScoopMaster
 r-4.2.0_okibcn.json    okibcn/ScoopMaster
 r-4.2.1_okibcn.json    okibcn/ScoopMaster
-r-devel_okibcn.json    okibcn/ScoopMaster
 r-openblas_okibcn.json    okibcn/ScoopMaster
 r-patched_okibcn.json    okibcn/ScoopMaster
 r2modman_okibcn.json    okibcn/ScoopMaster
@@ -24298,7 +24249,6 @@ rabbitmqadmin380.json    okibcn/ScoopMaster
 rabbitmqadmin382.json    okibcn/ScoopMaster
 race-control.json    okibcn/ScoopMaster
 race_okibcn.json    okibcn/ScoopMaster
-radare2_okibcn.json    okibcn/ScoopMaster
 radio86_okibcn.json    okibcn/ScoopMaster
 rahasher.json    okibcn/ScoopMaster
 rahole.json    okibcn/ScoopMaster
@@ -24406,7 +24356,6 @@ resilio-sync_okibcn.json    okibcn/ScoopMaster
 resizer_okibcn.json    okibcn/ScoopMaster
 resophnotes.json    okibcn/ScoopMaster
 resource-hacker-jp-lang.json    okibcn/ScoopMaster
-resource-hacker_okibcn.json    okibcn/ScoopMaster
 resticterm-aoks_okibcn.json    okibcn/ScoopMaster
 retroarch_okibcn.json    okibcn/ScoopMaster
 retrocopy_okibcn.json    okibcn/ScoopMaster
@@ -24427,7 +24376,6 @@ rime-setting-cvp.json    okibcn/ScoopMaster
 rime-setting.json    okibcn/ScoopMaster
 rime-weasel-np.json    okibcn/ScoopMaster
 rime-weasel.json    okibcn/ScoopMaster
-rimpy_okibcn.json    okibcn/ScoopMaster
 riot-db.json    okibcn/ScoopMaster
 riot-file.json    okibcn/ScoopMaster
 riot-gen.json    okibcn/ScoopMaster
@@ -24465,6 +24413,7 @@ rome.json    okibcn/ScoopMaster
 rongda-zhihuiyun_okibcn.json    okibcn/ScoopMaster
 ropresence_okibcn.json    okibcn/ScoopMaster
 roslynator_okibcn.json    okibcn/ScoopMaster
+roslynpad_okibcn.json    okibcn/ScoopMaster
 rotki.json    okibcn/ScoopMaster
 rpcemu_okibcn.json    okibcn/ScoopMaster
 rpg-cli.json    okibcn/ScoopMaster
@@ -24498,9 +24447,6 @@ runningcheese-firefox_okibcn.json    okibcn/ScoopMaster
 runtimeclassesview_okibcn.json    okibcn/ScoopMaster
 rush.json    okibcn/ScoopMaster
 rust-analyzer_okibcn.json    okibcn/ScoopMaster
-rust-msvc_okibcn.json    okibcn/ScoopMaster
-rust_okibcn.json    okibcn/ScoopMaster
-rustup-msvc_okibcn.json    okibcn/ScoopMaster
 rustup_okibcn.json    okibcn/ScoopMaster
 rustywind_okibcn.json    okibcn/ScoopMaster
 rvmbuilder.json    okibcn/ScoopMaster
@@ -24508,7 +24454,6 @@ rweverything.json    okibcn/ScoopMaster
 rxnes_okibcn.json    okibcn/ScoopMaster
 rzf-functions.json    okibcn/ScoopMaster
 s-search.json    okibcn/ScoopMaster
-s_okibcn.json    okibcn/ScoopMaster
 s3-stream.json    okibcn/ScoopMaster
 s5.json    okibcn/ScoopMaster
 s5cmd-aoks_okibcn.json    okibcn/ScoopMaster
@@ -24538,6 +24483,7 @@ sandboxie-plus-aoks_okibcn.json    okibcn/ScoopMaster
 sandboxie_okibcn.json    okibcn/ScoopMaster
 sandboxieplus.json    okibcn/ScoopMaster
 sapling_okibcn.json    okibcn/ScoopMaster
+sarasa-gothic-sc_okibcn.json    okibcn/ScoopMaster
 sarasa-gothic-ttc.json    okibcn/ScoopMaster
 sarasa-gothic-ttf.json    okibcn/ScoopMaster
 sarasa-gothic_okibcn.json    okibcn/ScoopMaster
@@ -24573,7 +24519,6 @@ scoop-helper_okibcn.json    okibcn/ScoopMaster
 scoop-search-aoks_okibcn.json    okibcn/ScoopMaster
 scoop-search-chriscp_okibcn.json    okibcn/ScoopMaster
 scoop-search-multisource_okibcn.json    okibcn/ScoopMaster
-scoop-search_okibcn.json    okibcn/ScoopMaster
 scoop-tray_okibcn.json    okibcn/ScoopMaster
 scoop-viewer_okibcn.json    okibcn/ScoopMaster
 scoopSearch.json    okibcn/ScoopMaster
@@ -24583,7 +24528,6 @@ scoopfz.json    okibcn/ScoopMaster
 scoopmanifest_okibcn.json    okibcn/ScoopMaster
 scoopsearch-shilangyu.json    okibcn/ScoopMaster
 scoopsearch-tokiedokie.json    okibcn/ScoopMaster
-scrawler_okibcn.json    okibcn/ScoopMaster
 scrcpy-gui_okibcn.json    okibcn/ScoopMaster
 screen-on.json    okibcn/ScoopMaster
 screenpresso.json    okibcn/ScoopMaster
@@ -24595,7 +24539,6 @@ sculptgl_okibcn.json    okibcn/ScoopMaster
 scxvid-standalone.json    okibcn/ScoopMaster
 sd_okibcn.json    okibcn/ScoopMaster
 sd_formatter_okibcn.json    okibcn/ScoopMaster
-sdcc-snapshot-i586_okibcn.json    okibcn/ScoopMaster
 sdcc-snapshot-x86_64_okibcn.json    okibcn/ScoopMaster
 sdelete_okibcn.json    okibcn/ScoopMaster
 sdi.json    okibcn/ScoopMaster
@@ -24628,9 +24571,7 @@ sfmono-nerd-font-ligaturized_okibcn.json    okibcn/ScoopMaster
 sforzando.json    okibcn/ScoopMaster
 sfp.json    okibcn/ScoopMaster
 sfss_okibcn.json    okibcn/ScoopMaster
-sfsu_okibcn.json    okibcn/ScoopMaster
 sftp-tc.json    okibcn/ScoopMaster
-sftpgo-aoks_okibcn.json    okibcn/ScoopMaster
 sfxr_okibcn.json    okibcn/ScoopMaster
 shader-minifier.json    okibcn/ScoopMaster
 shadowcopyview-aoks_okibcn.json    okibcn/ScoopMaster
@@ -24638,7 +24579,6 @@ shadowexplorer-aoks_okibcn.json    okibcn/ScoopMaster
 shadowsocks-go.json    okibcn/ScoopMaster
 shadowsocks-rust-gnu_okibcn.json    okibcn/ScoopMaster
 shadowsocks-uri-generator.json    okibcn/ScoopMaster
-shadowsocks_okibcn.json    okibcn/ScoopMaster
 shadowsocksr-full_okibcn.json    okibcn/ScoopMaster
 shadowsocksr-hmbsbige-full_okibcn.json    okibcn/ScoopMaster
 shadowsocksr-windows_okibcn.json    okibcn/ScoopMaster
@@ -24714,7 +24654,6 @@ smallcliutils.json    okibcn/ScoopMaster
 smartftp_okibcn.json    okibcn/ScoopMaster
 smartget_okibcn.json    okibcn/ScoopMaster
 smarthut.json    okibcn/ScoopMaster
-smartsystemmenu_okibcn.json    okibcn/ScoopMaster
 smartversion.json    okibcn/ScoopMaster
 smartzip_okibcn.json    okibcn/ScoopMaster
 smsniff_okibcn.json    okibcn/ScoopMaster
@@ -24859,11 +24798,10 @@ stackit.json    okibcn/ScoopMaster
 stage-studio_okibcn.json    okibcn/ScoopMaster
 stairspeedtest-reborn_okibcn.json    okibcn/ScoopMaster
 stalkbot.json    okibcn/ScoopMaster
-starship_okibcn.json    okibcn/ScoopMaster
 start_okibcn.json    okibcn/ScoopMaster
 startallback.json    okibcn/ScoopMaster
 staruml.json    okibcn/ScoopMaster
-stash_okibcn.json    okibcn/ScoopMaster
+stash-dev_okibcn.json    okibcn/ScoopMaster
 staticcheck_okibcn.json    okibcn/ScoopMaster
 statping-ng-aoks_okibcn.json    okibcn/ScoopMaster
 statuspilatus_okibcn.json    okibcn/ScoopMaster
@@ -24873,7 +24811,6 @@ steam_okibcn.json    okibcn/ScoopMaster
 steamchina.json    okibcn/ScoopMaster
 steamcommunity-302.json    okibcn/ScoopMaster
 steamless.json    okibcn/ScoopMaster
-steampp_okibcn.json    okibcn/ScoopMaster
 steamtools_okibcn.json    okibcn/ScoopMaster
 steem_okibcn.json    okibcn/ScoopMaster
 steemsse_okibcn.json    okibcn/ScoopMaster
@@ -24953,20 +24890,19 @@ svut.json    okibcn/ScoopMaster
 sweethome3d_okibcn.json    okibcn/ScoopMaster
 swf2projector_okibcn.json    okibcn/ScoopMaster
 swfopener_okibcn.json    okibcn/ScoopMaster
-swift_okibcn.json    okibcn/ScoopMaster
 swift_dev.json    okibcn/ScoopMaster
 swiftlatex_okibcn.json    okibcn/ScoopMaster
 switch-firmware.json    okibcn/ScoopMaster
 switch-theme-injector_okibcn.json    okibcn/ScoopMaster
 switchlayouteditor.json    okibcn/ScoopMaster
 swyh-rs_okibcn.json    okibcn/ScoopMaster
-syft_okibcn.json    okibcn/ScoopMaster
 sylphyhorn-ex.json    okibcn/ScoopMaster
 sylphyhorn-plus.json    okibcn/ScoopMaster
 symchk_okibcn.json    okibcn/ScoopMaster
 sync_okibcn.json    okibcn/ScoopMaster
 synchredible.json    okibcn/ScoopMaster
 syncplay_okibcn.json    okibcn/ScoopMaster
+synctrayzor_okibcn.json    okibcn/ScoopMaster
 synergy-portable_okibcn.json    okibcn/ScoopMaster
 synopsys-installer35-wsl.json    okibcn/ScoopMaster
 synopsys-installer50-wsl.json    okibcn/ScoopMaster
@@ -25004,7 +24940,6 @@ tachideskjui_okibcn.json    okibcn/ScoopMaster
 tai.json    okibcn/ScoopMaster
 taiga-beta_okibcn.json    okibcn/ScoopMaster
 tailscale-np.json    okibcn/ScoopMaster
-tailwindcss_okibcn.json    okibcn/ScoopMaster
 takecolor.json    okibcn/ScoopMaster
 takeda_okibcn.json    okibcn/ScoopMaster
 tal-elek7ro.json    okibcn/ScoopMaster
@@ -25014,7 +24949,6 @@ taplo.json    okibcn/ScoopMaster
 tar_okibcn.json    okibcn/ScoopMaster
 tarmac_okibcn.json    okibcn/ScoopMaster
 task-manager-deluxe.json    okibcn/ScoopMaster
-task_okibcn.json    okibcn/ScoopMaster
 taskbarhider.json    okibcn/ScoopMaster
 taskbarxi.json    okibcn/ScoopMaster
 taskctl-aoks_okibcn.json    okibcn/ScoopMaster
@@ -25048,7 +24982,6 @@ telegraf1124.json    okibcn/ScoopMaster
 telegraf120.json    okibcn/ScoopMaster
 telegram-beta_okibcn.json    okibcn/ScoopMaster
 telegram-np.json    okibcn/ScoopMaster
-telegram_fixed_okibcn.json    okibcn/ScoopMaster
 template_okibcn.json    okibcn/ScoopMaster
 ten-hands.json    okibcn/ScoopMaster
 tencent-meeting-reworked_okibcn.json    okibcn/ScoopMaster
@@ -25063,7 +24996,6 @@ terraform-beta.json    okibcn/ScoopMaster
 terraform-doc.json    okibcn/ScoopMaster
 terraform-docs_okibcn.json    okibcn/ScoopMaster
 terraform-graph-beautifier_okibcn.json    okibcn/ScoopMaster
-terraform_okibcn.json    okibcn/ScoopMaster
 terraformer-alicloud.json    okibcn/ScoopMaster
 terraformer-all.json    okibcn/ScoopMaster
 terraformer-aws.json    okibcn/ScoopMaster
@@ -25199,7 +25131,6 @@ tron.json    okibcn/ScoopMaster
 tronds_okibcn.json    okibcn/ScoopMaster
 trs80gp_okibcn.json    okibcn/ScoopMaster
 trubka.json    okibcn/ScoopMaster
-trufflehog_okibcn.json    okibcn/ScoopMaster
 tsduck.json    okibcn/ScoopMaster
 tsmemseg.json    okibcn/ScoopMaster
 tsmuxer_okibcn.json    okibcn/ScoopMaster
@@ -25504,6 +25435,7 @@ vac.json    okibcn/ScoopMaster
 vace_okibcn.json    okibcn/ScoopMaster
 vace3d_okibcn.json    okibcn/ScoopMaster
 vale-proselint.json    okibcn/ScoopMaster
+vale_okibcn.json    okibcn/ScoopMaster
 valelang.json    okibcn/ScoopMaster
 valheim-save-shield.json    okibcn/ScoopMaster
 vapoursynth-python.json    okibcn/ScoopMaster
@@ -25524,7 +25456,6 @@ vcpkg_okibcn.json    okibcn/ScoopMaster
 vcpython.json    okibcn/ScoopMaster
 vcredist-2010_okibcn.json    okibcn/ScoopMaster
 vcredist-2019_okibcn.json    okibcn/ScoopMaster
-vcredist-aio_okibcn.json    okibcn/ScoopMaster
 vcredist-dreamcast_okibcn.json    okibcn/ScoopMaster
 vcredist-mix.json    okibcn/ScoopMaster
 vcredist2010_okibcn.json    okibcn/ScoopMaster
@@ -25537,7 +25468,6 @@ vegeta_okibcn.json    okibcn/ScoopMaster
 velocity.json    okibcn/ScoopMaster
 vencord-installer.json    okibcn/ScoopMaster
 vendir-aoks_okibcn.json    okibcn/ScoopMaster
-ventoy_okibcn.json    okibcn/ScoopMaster
 veracrypt-legacy-np_okibcn.json    okibcn/ScoopMaster
 veracrypt-np-ims.json    okibcn/ScoopMaster
 veracrypt_okibcn.json    okibcn/ScoopMaster
@@ -25631,6 +25561,7 @@ vmu-explorer_okibcn.json    okibcn/ScoopMaster
 vmware-macos-unlocker.json    okibcn/ScoopMaster
 vmware-player-np_okibcn.json    okibcn/ScoopMaster
 vmware-player.json    okibcn/ScoopMaster
+vmware-workstation-pro_okibcn.json    okibcn/ScoopMaster
 vmware-ws-pro.json    okibcn/ScoopMaster
 vmware.json    okibcn/ScoopMaster
 vnote_okibcn.json    okibcn/ScoopMaster
@@ -25666,7 +25597,6 @@ vscode-extension-asvetliakov.vscode-neovim.json    okibcn/ScoopMaster
 vscode-extension-ms-vscode.PowerShell.json    okibcn/ScoopMaster
 vscode-extension-yzhang.markdown-all-in-one.json    okibcn/ScoopMaster
 vscode-insiders-portable.json    okibcn/ScoopMaster
-vscode-insiders_okibcn.json    okibcn/ScoopMaster
 vscode-it.json    okibcn/ScoopMaster
 vscode-np.json    okibcn/ScoopMaster
 vscode-portable-association.json    okibcn/ScoopMaster
@@ -25713,7 +25643,6 @@ wax_okibcn.json    okibcn/ScoopMaster
 wayback_okibcn.json    okibcn/ScoopMaster
 wdcontrol.json    okibcn/ScoopMaster
 wdiff_okibcn.json    okibcn/ScoopMaster
-weakauras-companion_okibcn.json    okibcn/ScoopMaster
 weasel-dev.json    okibcn/ScoopMaster
 webbrowserbookmarksview_okibcn.json    okibcn/ScoopMaster
 webbrowserpassview_okibcn.json    okibcn/ScoopMaster
@@ -25745,7 +25674,6 @@ wetool.json    okibcn/ScoopMaster
 weylus_okibcn.json    okibcn/ScoopMaster
 wfc-ims.json    okibcn/ScoopMaster
 wgestures_okibcn.json    okibcn/ScoopMaster
-wget_okibcn.json    okibcn/ScoopMaster
 wget2_okibcn.json    okibcn/ScoopMaster
 wgsl-analyzer.json    okibcn/ScoopMaster
 whinecube_okibcn.json    okibcn/ScoopMaster
@@ -25776,7 +25704,6 @@ win64_okibcn.json    okibcn/ScoopMaster
 win994a_okibcn.json    okibcn/ScoopMaster
 winMd5SumPortable_okibcn.json    okibcn/ScoopMaster
 winaero-tweaker-jp.json    okibcn/ScoopMaster
-winaero-tweaker_okibcn.json    okibcn/ScoopMaster
 winape_okibcn.json    okibcn/ScoopMaster
 winapp2ool_okibcn.json    okibcn/ScoopMaster
 winarcadia_okibcn.json    okibcn/ScoopMaster
@@ -25810,7 +25737,6 @@ windows11SDK.json    okibcn/ScoopMaster
 windowscenteringhelper.json    okibcn/ScoopMaster
 windowsdesktop-runtime-lts-6.0.x-x64_okibcn.json    okibcn/ScoopMaster
 windowsdesktop-runtime-lts-6.0.x-x86_okibcn.json    okibcn/ScoopMaster
-windowsdesktop-runtime-lts_okibcn.json    okibcn/ScoopMaster
 windowsdesktop-runtime-x64_okibcn.json    okibcn/ScoopMaster
 windowsdesktop-runtime-x86_okibcn.json    okibcn/ScoopMaster
 windowsdesktop-runtime_okibcn.json    okibcn/ScoopMaster
@@ -25819,15 +25745,12 @@ windowserrorlookuptool.json    okibcn/ScoopMaster
 windowswitcher_okibcn.json    okibcn/ScoopMaster
 windscribevpn-np_okibcn.json    okibcn/ScoopMaster
 windterm_okibcn.json    okibcn/ScoopMaster
-windynamicdesktop_okibcn.json    okibcn/ScoopMaster
 winfetch-nightly.json    okibcn/ScoopMaster
 winfig.json    okibcn/ScoopMaster
 winfoom.json    okibcn/ScoopMaster
 winfsp.json    okibcn/ScoopMaster
 winget-cli_okibcn.json    okibcn/ScoopMaster
 winget-np.json    okibcn/ScoopMaster
-winget_okibcn.json    okibcn/ScoopMaster
-wingetui_okibcn.json    okibcn/ScoopMaster
 winimage_okibcn.json    okibcn/ScoopMaster
 winkawaks_okibcn.json    okibcn/ScoopMaster
 winlibs-gcc-ucrt.json    okibcn/ScoopMaster
@@ -25870,7 +25793,6 @@ winvice_okibcn.json    okibcn/ScoopMaster
 winvz_okibcn.json    okibcn/ScoopMaster
 winvz300_okibcn.json    okibcn/ScoopMaster
 winx1_okibcn.json    okibcn/ScoopMaster
-winxray_okibcn.json    okibcn/ScoopMaster
 wio.json    okibcn/ScoopMaster
 wireguard.json    okibcn/ScoopMaster
 wirelessconnectioninfo_okibcn.json    okibcn/ScoopMaster
@@ -25990,7 +25912,6 @@ xelfviewer_okibcn.json    okibcn/ScoopMaster
 xenia_okibcn.json    okibcn/ScoopMaster
 xenos_okibcn.json    okibcn/ScoopMaster
 xenu-beta.json    okibcn/ScoopMaster
-xenu_okibcn.json    okibcn/ScoopMaster
 xeon_okibcn.json    okibcn/ScoopMaster
 xfel.json    okibcn/ScoopMaster
 xformer_okibcn.json    okibcn/ScoopMaster
@@ -26123,9 +26044,6 @@ yt-dlp_okibcn.json    okibcn/ScoopMaster
 ytdl-patched.json    okibcn/ScoopMaster
 ytmdesktop-portable.json    okibcn/ScoopMaster
 yuanshen_okibcn.json    okibcn/ScoopMaster
-yumi-exfat_okibcn.json    okibcn/ScoopMaster
-yumi-uefi_okibcn.json    okibcn/ScoopMaster
-yumi_okibcn.json    okibcn/ScoopMaster
 yuque_okibcn.json    okibcn/ScoopMaster
 yuwriter.json    okibcn/ScoopMaster
 yuzu_okibcn.json    okibcn/ScoopMaster
@@ -26137,7 +26055,6 @@ z.lua_okibcn.json    okibcn/ScoopMaster
 z80stealth_okibcn.json    okibcn/ScoopMaster
 zabbix-agent_okibcn.json    okibcn/ScoopMaster
 zap_okibcn.json    okibcn/ScoopMaster
-zaproxy_okibcn.json    okibcn/ScoopMaster
 zar.json    okibcn/ScoopMaster
 zboy_okibcn.json    okibcn/ScoopMaster
 zclient.json    okibcn/ScoopMaster
@@ -26169,20 +26086,32 @@ Synergy-Binaries.json    Weidows-projects/scoop-3rd
 360zip_Weidows-projects.json    Weidows-projects/scoop-3rd
 wps-photoplus.json    Weidows-projects/scoop-3rd
 CAJViewer_Weidows-projects.json    Weidows-projects/scoop-3rd
+anaconda3_Weidows-projects.json    Weidows-projects/scoop-3rd
 jetbrains-toolbox_Weidows-projects.json    Weidows-projects/scoop-3rd
 wps-office.json    Weidows-projects/scoop-3rd
+pnpm_Weidows-projects.json    Weidows-projects/scoop-3rd
 test_Weidows-projects.json    Weidows-projects/scoop-3rd
 yas_Weidows-projects.json    Weidows-projects/scoop-3rd
 KikoPlay_Weidows-projects.json    Weidows-projects/scoop-3rd
 ApiPost_Weidows-projects.json    Weidows-projects/scoop-3rd
+audius_Weidows-projects.json    Weidows-projects/scoop-3rd
+UsbEAm-Hosts-Editor_Weidows-projects.json    Weidows-projects/scoop-3rd
 Waifu2x-Extension-GUI_Weidows-projects.json    Weidows-projects/scoop-3rd
+WingetUI_Weidows-projects.json    Weidows-projects/scoop-3rd
 dev-sidecar_Weidows-projects.json    Weidows-projects/scoop-3rd
-anaconda3_Weidows-projects.json    Weidows-projects/scoop-3rd
+obs-plugin-droidcam_fixed_Weidows-projects.json    Weidows-projects/scoop-3rd
+CefDetectorX_Weidows-projects.json    Weidows-projects/scoop-3rd
 PCmaster_Weidows-projects.json    Weidows-projects/scoop-3rd
 Pixeval_Weidows-projects.json    Weidows-projects/scoop-3rd
+SmartSystemMenu_Weidows-projects.json    Weidows-projects/scoop-3rd
 clash.net_Weidows-projects.json    Weidows-projects/scoop-3rd
+Lively-Wallpaper_Weidows-projects.json    Weidows-projects/scoop-3rd
 nvm_Weidows-projects.json    Weidows-projects/scoop-3rd
+poetry_Weidows-projects.json    Weidows-projects/scoop-3rd
 XYplorer_Weidows-projects.json    Weidows-projects/scoop-3rd
+gptcommit.json    Weidows-projects/scoop-3rd
+winxray_Weidows-projects.json    Weidows-projects/scoop-3rd
+He3_Weidows-projects.json    Weidows-projects/scoop-3rd
 PartAssist_Weidows-projects.json    Weidows-projects/scoop-3rd
 etesync-dav_TheLastZombie.json    TheLastZombie/scoop-bucket
 uxn32_TheLastZombie.json    TheLastZombie/scoop-bucket
