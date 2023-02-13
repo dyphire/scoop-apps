@@ -83,13 +83,13 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - cc713/ownscoop
 - amorphobia/siku
 - littleli/Scoop-littleli
+- okibcn/ScoopMaster
 - jonz94/scoop-sarasa-nerd-fonts
 - ChinLong/scoop-customize
 - Velgus/Scoop-Portapps
 - alextwothousand/scoop-bucket
 - niheaven/scoop-sysinternals
 - MCOfficer/scoop-bucket
-- okibcn/ScoopMaster
 - Weidows-projects/scoop-3rd
 - TheLastZombie/scoop-bucket
 - starise/Scoop-Confetti
