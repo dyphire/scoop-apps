@@ -1,0 +1,23 @@
+{
+    "version": "1.0.7.0",
+    "homepage": "https://github.com/Abdelrhman-AK/WinPaletter",
+    "description": "An open-source application for advanced customization of Windows 10/11 Accent colours.",
+    "license": "MIT",
+    "url": "https://github.com/Abdelrhman-AK/WinPaletter/releases/download/v1.0.7.0/WinPaletter.exe",
+    "hash": "6c79151b438112c00f6496a5ddc1f7305cca131d900d05d466c41cd6db96533a",
+    "shortcuts": [
+        [
+            "WinPaletter.exe",
+            "WinPaletter"
+        ]
+    ],
+    "pre_uninstall": [
+        "if ($cmd -eq 'uninstall') {",
+        "   Start-Process \"$dir\\WinPaletter.exe\" -Wait -Args '/uninstall-quiet'; Start-Sleep -Seconds 2",
+        "}"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/Abdelrhman-AK/WinPaletter/releases/download/v$version/WinPaletter.exe"
+    }
+}
