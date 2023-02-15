@@ -1,0 +1,39 @@
+{
+    "version": "7.87.0_8",
+    "description": "Command line tool and library for transferring data with URLs",
+    "homepage": "https://curl.haxx.se/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://curl.haxx.se/windows/dl-7.87.0_8/curl-7.87.0_8-win64-mingw.tar.xz",
+            "hash": "affad4e39661686c7738165f2c6386f93130d700c440433805772fac1303ff0f",
+            "extract_dir": "curl-7.87.0_8-win64-mingw"
+        },
+        "32bit": {
+            "url": "https://curl.haxx.se/windows/dl-7.87.0_8/curl-7.87.0_8-win32-mingw.tar.xz",
+            "hash": "d1841018d81fe460fdde3082a79ff7c461788beaf3030e9780d81a307240da53",
+            "extract_dir": "curl-7.87.0_8-win32-mingw"
+        }
+    },
+    "bin": "bin\\curl.exe",
+    "checkver": {
+        "url": "https://curl.haxx.se/windows/",
+        "regex": "Build<\\/b>:\\s+([\\d._]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://curl.haxx.se/windows/dl-$version/curl-$version-win64-mingw.tar.xz",
+                "extract_dir": "curl-$version-win64-mingw"
+            },
+            "32bit": {
+                "url": "https://curl.haxx.se/windows/dl-$version/curl-$version-win32-mingw.tar.xz",
+                "extract_dir": "curl-$version-win32-mingw"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/hashes.txt",
+            "regex": "SHA256\\($basename\\)=\\s+$sha256"
+        }
+    }
+}
