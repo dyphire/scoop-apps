@@ -1,86 +1,59 @@
 {
-    "homepage": "https://github.com/DynamoRIO/dynamorio",
+    "version": "9.90.19402",
     "description": "DynamoRIO is a runtime code manipulation system that supports code transformations on any part of a program, while it executes.",
-    "version": "9.0.1",
-    "license": "https://raw.githubusercontent.com/DynamoRIO/dynamorio/master/License.txt",
-    "hash": "dd23678a3aaaed6baa49391ed2dcd39fb824b4ba0d40a47ef4b7cb057a3f3c65",
-    "url": "https://github.com/DynamoRIO/dynamorio/releases/download/release_9.0.1/DynamoRIO-Windows-9.0.1.zip",
-    "extract_dir": "DynamoRIO-Windows-9.0.1",
-    "bin": [
-        "/bin64/balloon.exe",
-        "/bin64/closewnd.exe",
-        "/bin64/create_process.exe",
-        "/bin64/drconfig.exe",
-        "/bin64/DRcontrol.exe",
-        "/bin64/drinject.exe",
-        "/bin64/DRkill.exe",
-        "/bin64/DRload.exe",
-        "/bin64/drrun.exe",
-        "/bin64/DRstats.exe",
-        "/bin64/DRview.exe",
-        "/bin64/svccntrl.exe",
-        "/bin64/winstats.exe",
-        [
-            "/bin32/balloon.exe",
-            "balloon32"
-        ],
-        [
-            "/bin32/closewnd.exe",
-            "closewnd32"
-        ],
-        [
-            "/bin32/create_process.exe",
-            "create_process32"
-        ],
-        [
-            "/bin32/drconfig.exe",
-            "drconfig32"
-        ],
-        [
-            "/bin32/DRcontrol.exe",
-            "DRcontrol32"
-        ],
-        [
-            "/bin32/drinject.exe",
-            "drinject32"
-        ],
-        [
-            "/bin32/DRkill.exe",
-            "DRkill32"
-        ],
-        [
-            "/bin32/DRload.exe",
-            "DRload32"
-        ],
-        [
-            "/bin32/drrun.exe",
-            "drrun32"
-        ],
-        [
-            "/bin32/DRstats.exe",
-            "DRstats32"
-        ],
-        [
-            "/bin32/DRview.exe",
-            "DRview32"
-        ],
-        [
-            "/bin32/svccntrl.exe",
-            "svccntrl32"
-        ],
-        [
-            "/bin32/winstats.exe",
-            "winstats32"
-        ]
-    ],
-    "env_set": {
-        "DYNAMORIO_DIR": "$dir"
+    "homepage": "https://dynamorio.org",
+    "license": "BSD-3-Clause-Clear",
+    "url": "https://github.com/DynamoRIO/dynamorio/releases/download/cronbuild-9.90.19402/DynamoRIO-Windows-9.90.19402.zip",
+    "hash": "619909be695379e71f66b30288129bdc483afc119d56ff3f0b38ba401512e9fd",
+    "extract_dir": "DynamoRIO-Windows-9.90.19402",
+    "architecture": {
+        "64bit": {
+            "bin": [
+                "bin64\\closewnd.exe",
+                "bin64\\create_process.exe",
+                "bin64\\drconfig.exe",
+                "bin64\\DRcontrol.exe",
+                "bin64\\drdisas.exe",
+                "bin64\\drinject.exe",
+                "bin64\\DRkill.exe",
+                "bin64\\DRload.exe",
+                "bin64\\drrun.exe",
+                "bin64\\DRstats.exe",
+                "bin64\\DRview.exe",
+                "bin64\\dummy.exe",
+                "bin32\\ldmp.exe",
+                "bin64\\svccntrl.exe",
+                "bin64\\winstats.exe",
+                "bin64\\balloon.exe"
+            ]
+        },
+        "32bit": {
+            "bin": [
+                "bin32\\closewnd.exe",
+                "bin32\\create_process.exe",
+                "bin32\\drconfig.exe",
+                "bin32\\DRcontrol.exe",
+                "bin32\\drdisas.exe",
+                "bin32\\drinject.exe",
+                "bin32\\DRkill.exe",
+                "bin32\\DRload.exe",
+                "bin32\\drrun.exe",
+                "bin32\\DRstats.exe",
+                "bin32\\DRview.exe",
+                "bin32\\dummy.exe",
+                "bin32\\ldmp.exe",
+                "bin32\\svccntrl.exe",
+                "bin32\\winstats.exe",
+                "bin32\\balloon.exe"
+            ]
+        }
     },
     "checkver": {
-        "url": "https://dynamorio.org/page_releases.html",
-        "re": "DynamoRIO-Windows-(?<version>.*?)\\.zip"
+        "url": "https://github.com/DynamoRIO/dynamorio",
+        "regex": "tag/cronbuild-([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/DynamoRIO/dynamorio/releases/download/release_$version/DynamoRIO-Windows-$version.zip"
+        "url": "https://github.com/DynamoRIO/dynamorio/releases/download/cronbuild-$version/DynamoRIO-Windows-$version.zip",
+        "extract_dir": "DynamoRIO-Windows-$version"
     }
 }
