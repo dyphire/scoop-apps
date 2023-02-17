@@ -12,10 +12,7 @@
             "SophiApp"
         ]
     ],
-    "persist": [
-        "SophiApp.exe.config",
-        "Logs"
-    ],
+    "persist": "Logs",
     "checkver": "github",
     "autoupdate": {
         "url": "https://ghproxy.com/github.com/Sophia-Community/SophiApp/releases/download/$version/SophiApp.zip",

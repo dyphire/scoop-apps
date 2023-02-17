@@ -1,0 +1,52 @@
+{
+    "version": "112.0a1.20230216213942",
+    "description": "Nightly builds of Firefox: the popular open source web browser.",
+    "homepage": "https://www.mozilla.org/zh-CN/firefox/nightly/",
+    "license": "MPL-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://archive.mozilla.org/pub/firefox/nightly/2023/02/2023-02-16-21-39-42-mozilla-central-l10n/firefox-112.0a1.zh-CN.win64.installer.exe#/firefox.7z",
+            "hash": "sha512:1270ba46c2c83c95c36c70c219d818ca7b2188c17cb820cf860df0faa315a2cf8f4769a9fcfdeeb4266ce9f1b3e29bd43e7892b17b8e156db8ce334079a4cb6a"
+        },
+        "32bit": {
+            "url": "https://archive.mozilla.org/pub/firefox/nightly/2023/02/2023-02-16-21-39-42-mozilla-central-l10n/firefox-112.0a1.zh-CN.win32.installer.exe#/firefox.7z",
+            "hash": "sha512:0c76572097c2d60cd20ed362355051cbf301d01dea62427717b6931ccd7fcbb721db5af55a3e58be2f9fdd31f0ac6a292fe7557d4c67df7483489ff9655f12c7"
+        }
+    },
+    "extract_dir": "core",
+    "bin": [
+        [
+            "firefox.exe",
+            "firefox-nightly"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "firefox.exe",
+            "Firefox Nightly"
+        ]
+    ],
+    "persist": "profile-portable",
+    "checkver": {
+        "url": "https://aus5.mozilla.org/update/6/Firefox/60.0/_/WINNT_x86_64-msvc-x64/zh-CN/nightly/_/_/_/_/update.xml",
+        "regex": "appVersion=\"([\\w.]+)\".*?buildID=\"((?<yyyy>\\d{4})(?<mm>\\d{2})(?<dd>\\d{2})(?<hr>\\d{2})(?<mi>\\d{2})(?<se>\\d{2}))",
+        "replace": "${1}.${2}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://archive.mozilla.org/pub/firefox/nightly/$matchYyyy/$matchMm/$matchYyyy-$matchMm-$matchDd-$matchHr-$matchMi-$matchSe-mozilla-central-l10n/firefox-$majorVersion.$minorVersion.zh-CN.win64.installer.exe#/firefox.7z",
+                "hash": {
+                    "url": "$baseurl/firefox-$majorVersion.$minorVersion.zh-CN.win64.checksums"
+                }
+            },
+            "32bit": {
+                "url": "https://archive.mozilla.org/pub/firefox/nightly/$matchYyyy/$matchMm/$matchYyyy-$matchMm-$matchDd-$matchHr-$matchMi-$matchSe-mozilla-central-l10n/firefox-$majorVersion.$minorVersion.zh-CN.win32.installer.exe#/firefox.7z",
+                "hash": {
+                    "url": "$baseurl/firefox-$majorVersion.$minorVersion.zh-CN.win32.checksums"
+                }
+            }
+        }
+    },
+    "notes": "To recover persisted profile, you need to open the Profile Manager with `firefox-nightly -P` and create by selecting the portable profile directory."
+}
