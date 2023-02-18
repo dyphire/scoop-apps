@@ -71,11 +71,11 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - batkiz/backit
 - iquiw/scoop-bucket
 - AStupidBear/scoop-bear
+- okibcn/ScoopMaster
 - ViCrack/scoop-bucket
 - akirco/aki-apps
 - mogeko/scoop-sysinternals
 - ygguorun/scoop-bucket
-- okibcn/ScoopMaster
 - jfut/scoop-jfut
 - krproject/qi-windows
 - rivy/scoop-bucket
