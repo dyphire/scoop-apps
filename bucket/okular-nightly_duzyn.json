@@ -1,0 +1,38 @@
+{
+    "version": "1420",
+    "description": "Universal document viewer",
+    "homepage": "https://okular.kde.org",
+    "license": "LGPL-2.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://binary-factory.kde.org/job/Okular_Nightly_win64/lastSuccessfulBuild/artifact/okular-master-1420-windows-cl-msvc2019-x86_64.7z",
+            "hash": "0ff59771a5f6c46f6ae6179e00dc818a46d103fb64b6e1eb9e84c8f12ba5f862"
+        }
+    },
+    "bin": [
+        [
+            "bin\\okular.exe",
+            "okular"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "bin\\okular.exe",
+            "Okular Nightly"
+        ]
+    ],
+    "checkver": {
+        "url": "https://binary-factory.kde.org/job/Okular_Nightly_win64/",
+        "regex": "okular-master-(\\d+)-windows"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://binary-factory.kde.org/job/Okular_Nightly_win64/lastSuccessfulBuild/artifact/okular-master-$version-windows-cl-msvc2019-x86_64.7z"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
