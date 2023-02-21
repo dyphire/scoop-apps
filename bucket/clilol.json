@@ -1,22 +1,22 @@
 {
-    "version": "0.2.3",
+    "version": "0.3.1",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/mcornick/clilol/releases/download/v0.2.3/clilol_0.2.3_windows_386.zip",
+            "url": "https://github.com/mcornick/clilol/releases/download/v0.3.1/clilol_0.3.1_windows_386.zip",
             "bin": [
                 "clilol.exe"
             ],
-            "hash": "406423d28b8bb404d4bb06ecdb3d701971d614b029a47b11c81e067e21b236c5"
+            "hash": "70a1491b799a8b44744a3504f3ed9c2b0e8f1c0e4bbdddda6f89248074f646e2"
         },
         "64bit": {
-            "url": "https://github.com/mcornick/clilol/releases/download/v0.2.3/clilol_0.2.3_windows_amd64.zip",
+            "url": "https://github.com/mcornick/clilol/releases/download/v0.3.1/clilol_0.3.1_windows_amd64.zip",
             "bin": [
                 "clilol.exe"
             ],
-            "hash": "664fd8aad8fd449ab52aa700f41454af3766f679930d843a462da52b4c8c8b46"
+            "hash": "bcd366f1b1251820a97281d2febc0beda70c7b7a5b7e9c3cac021f7127abf2aa"
         }
     },
     "homepage": "https://mcornick.com/clilol",
-    "license": "MIT",
+    "license": "MPL-2.0",
     "description": "A CLI for omg.lol"
 }

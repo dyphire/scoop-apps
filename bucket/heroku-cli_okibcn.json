@@ -1,0 +1,51 @@
+{
+    "version": "7.68.1",
+    "description": "An essential part of using Heroku, which can perform nearly any Heroku-related task right from your terminal.",
+    "homepage": "https://devcenter.heroku.com/articles/heroku-cli",
+    "license": "ISC",
+    "architecture": {
+        "64bit": {
+            "url": "https://cli-assets.heroku.com/heroku-win32-x64.tar.xz#/dl.xz",
+            "hash": "d0d2833a7f688e8851795430a23464dafa28e2de9684c1c3d2ac29ef5f693453"
+        },
+        "32bit": {
+            "url": "https://cli-assets.heroku.com/heroku-win32-x86.tar.xz#/dl.xz",
+            "hash": "800dcbe2ee6e44cb9e9e52119749d15cc3ec2475445799ac55c40167d37d7057"
+        }
+    },
+    "pre_install": [
+        "Invoke-ExternalCommand (Get-HelperPath '7zip') -ArgumentList @(",
+        "    'x'",
+        "    \"$dir\\dl\"",
+        "    \"-o`\"$dir\\dlo`\"\"",
+        "    '-bso0'",
+        "    '-bd'",
+        "    '-bse0'",
+        ") -ContinueExitCodes @{ 2 = 'Can not create symlink while running from un-elevated prompt. Installation is not affected.'} | Out-Null",
+        "Move-Item \"$dir\\dlo\\heroku\\*\" \"$dir\"",
+        "Remove-Item \"$dir\\dl*\" -Recurse"
+    ],
+    "bin": "bin\\heroku.cmd",
+    "checkver": {
+        "url": "https://cli-assets.heroku.com/version",
+        "jsonpath": "$.version"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://cli-assets.heroku.com/heroku-win32-x64.tar.xz#/dl.xz",
+                "hash": {
+                    "url": "https://cli-assets.heroku.com/win32-x64",
+                    "jsonpath": "$.sha256xz"
+                }
+            },
+            "32bit": {
+                "url": "https://cli-assets.heroku.com/heroku-win32-x86.tar.xz#/dl.xz",
+                "hash": {
+                    "url": "https://cli-assets.heroku.com/win32-x86",
+                    "jsonpath": "$.sha256xz"
+                }
+            }
+        }
+    }
+}
