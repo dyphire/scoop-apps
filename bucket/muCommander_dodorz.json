@@ -2,7 +2,7 @@
     "homepage": "http://www.mucommander.com/",
     "version": "1.1.0-1",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/mucommander/mucommander/releases/download/1.1.0-1/mucommander-1.1.0-1-portable.zip",
+    "url": "https://ghproxy.com/https://github.com/mucommander/mucommander/releases/download/1.1.0-1/mucommander-1.1.0-1-portable.zip",
     "hash": "33dcd6db647cdf7f17f9402e5b0234d11ae463ac0bcf18a43d880f9f277251c1",
     "installer": {
         "script": [
@@ -28,7 +28,7 @@
         "re": "/mucommander/mucommander/releases/tag/([\\d.-]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/mucommander/mucommander/releases/download/$version/mucommander-$version-portable.zip"
+        "url": "https://ghproxy.com/https://github.com/mucommander/mucommander/releases/download/$version/mucommander-$version-portable.zip"
     },
     "suggest": {
         "JDK": [

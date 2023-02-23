@@ -1,13 +1,13 @@
 {
-    "version": "bfa3661",
+    "version": "09dd3e8",
     "description": "Sony PlayStation Vita emulator",
     "homepage": "https://vita3k.org",
     "license": {
         "identifier": "GPL-2.0",
         "url": "https://github.com/Vita3K/Vita3K/blob/master/COPYING.txt"
     },
-    "url": "https://github.com/Vita3K/Vita3K/releases/download/continuous/windows-latest.zip",
-    "hash": "4008ea57484bf2443cd58c581455229db9972cb9bacaa1027c268048079e3654",
+    "url": "https://ghproxy.com/https://github.com/Vita3K/Vita3K/releases/download/continuous/windows-latest.zip",
+    "hash": "d854455fb6ea221db6f12962433db70a12d3fd719d8c2270e9daf3e4c96be115",
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\")) {",
         "   New-item \"$persist_dir\" -ItemType Directory | Out-Null",
@@ -30,6 +30,6 @@
         "regex": "commit[/:]\\s?([a-f0-9]{7})"
     },
     "autoupdate": {
-        "url": "https://github.com/Vita3K/Vita3K/releases/download/continuous/windows-latest.zip"
+        "url": "https://ghproxy.com/https://github.com/Vita3K/Vita3K/releases/download/continuous/windows-latest.zip"
     }
 }

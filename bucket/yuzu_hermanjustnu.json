@@ -8,7 +8,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/yuzu-emu/yuzu-mainline/releases/download/mainline-0-1347/yuzu-windows-msvc-20230221-9b746dc05.7z",
+            "url": "https://ghproxy.com/https://github.com/yuzu-emu/yuzu-mainline/releases/download/mainline-0-1347/yuzu-windows-msvc-20230221-9b746dc05.7z",
             "hash": "445edf3797f7c2d0b3abbd1c04691360b04a528547e9bafa230c5d7015686f81"
         }
     },
@@ -45,7 +45,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/yuzu-emu/yuzu-mainline/releases/download/mainline-$version/yuzu-windows-msvc-$matchDate-$matchCommit.7z"
+                "url": "https://ghproxy.com/https://github.com/yuzu-emu/yuzu-mainline/releases/download/mainline-$version/yuzu-windows-msvc-$matchDate-$matchCommit.7z"
             }
         }
     }

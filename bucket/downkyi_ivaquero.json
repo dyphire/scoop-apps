@@ -5,7 +5,7 @@
     "license": "GPL",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/leiurayer/downkyi/releases/download/v1.5.7/DownKyi-1.5.7.zip",
+            "url": "https://ghproxy.com/https://github.com/leiurayer/downkyi/releases/download/v1.5.7/DownKyi-1.5.7.zip",
             "hash": "ac38cb9ed02cc722f4242812d1a16c337920269921cc33728af02bac7e7f72bc"
         }
     },
@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/leiurayer/downkyi/releases/download/v$version/DownKyi-$version.zip"
+                "url": "https://ghproxy.com/https://github.com/leiurayer/downkyi/releases/download/v$version/DownKyi-$version.zip"
             }
         }
     }

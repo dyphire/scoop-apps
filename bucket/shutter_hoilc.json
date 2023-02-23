@@ -5,7 +5,7 @@
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dream7180/Shutter-cn/releases/download/v1.3/Shutter-Win64_1.3.7z",
+            "url": "https://ghproxy.com/https://github.com/dream7180/Shutter-cn/releases/download/v1.3/Shutter-Win64_1.3.7z",
             "hash": "7d4b52b383670c00201f4c416d3b1dfa64f1a63573dfbc9c37fb94bb36de297d"
         }
     },
@@ -25,7 +25,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/dream7180/Shutter-cn/releases/download/v$version/Shutter-Win64_$version.7z"
+                "url": "https://ghproxy.com/https://github.com/dream7180/Shutter-cn/releases/download/v$version/Shutter-Win64_$version.7z"
             }
         }
     }

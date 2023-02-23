@@ -2,7 +2,7 @@
     "homepage": "https://www.pinta-project.com/",
     "license": "MIT",
     "version": "2.1",
-    "url": "https://github.com/PintaProject/Pinta/releases/download/2.1/Pinta.exe",
+    "url": "https://ghproxy.com/https://github.com/PintaProject/Pinta/releases/download/2.1/Pinta.exe",
     "hash": "8004d141d5a9853a373ad7267aa463b26c6e9bfcab79bc832048fd8d0e8bf394",
     "installer": {
         "script": [
@@ -24,6 +24,6 @@
         "github": "https://github.com/PintaProject/Pinta"
     },
     "autoupdate": {
-        "url": "https://github.com/PintaProject/Pinta/releases/download/$version/Pinta.exe"
+        "url": "https://ghproxy.com/https://github.com/PintaProject/Pinta/releases/download/$version/Pinta.exe"
     }
 }

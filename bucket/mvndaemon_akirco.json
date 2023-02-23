@@ -14,7 +14,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/apache/maven-mvnd/releases/download/1.0.0-m4/maven-mvnd-1.0.0-m4-windows-amd64.zip",
+            "url": "https://ghproxy.com/https://github.com/apache/maven-mvnd/releases/download/1.0.0-m4/maven-mvnd-1.0.0-m4-windows-amd64.zip",
             "hash": "f56fd8a16cf20574754bffc311beb9f4866cf121b50900087f01b67789e59625",
             "extract_dir": "maven-mvnd-1.0.0-m4-windows-amd64"
         }
@@ -28,7 +28,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/apache/maven-mvnd/releases/download/$version/maven-mvnd-$version-windows-amd64.zip",
+                "url": "https://ghproxy.com/https://github.com/apache/maven-mvnd/releases/download/$version/maven-mvnd-$version-windows-amd64.zip",
                 "hash": {
                     "url": "$url.sha256"
                 },

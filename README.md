@@ -68,11 +68,11 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - naderi/scoop-bucket
 - ChungZH/peach
 - 42wim/scoop-bucket
+- okibcn/ScoopMaster
 - akirco/aki-apps
 - batkiz/backit
 - iquiw/scoop-bucket
 - AStupidBear/scoop-bear
-- okibcn/ScoopMaster
 - ViCrack/scoop-bucket
 - mogeko/scoop-sysinternals
 - ygguorun/scoop-bucket
@@ -92,6 +92,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - alextwothousand/scoop-bucket
 - hu3rror/scoop-muggle
 - MCOfficer/scoop-bucket
+- aoisummer/scoop-bucket
 - Weidows-projects/scoop-3rd
 - TheLastZombie/scoop-bucket
 - starise/Scoop-Confetti

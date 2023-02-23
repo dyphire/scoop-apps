@@ -4,7 +4,7 @@
     "version": "1.4.5",
     "license": "Apache 2.0",
     "hash": "f1d982d35fbea5ca64f2b1ab074841771e3990070016a3d2a3f936f3875fc0d2",
-    "url": "https://github.com/skylot/jadx/releases/download/v1.4.5/jadx-1.4.5.zip",
+    "url": "https://ghproxy.com/https://github.com/skylot/jadx/releases/download/v1.4.5/jadx-1.4.5.zip",
     "suggest": {
         "JDK": [
             "java/oraclejdk",
@@ -13,7 +13,7 @@
     },
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/skylot/jadx/releases/download/v$version/jadx-$version.zip"
+        "url": "https://ghproxy.com/https://github.com/skylot/jadx/releases/download/v$version/jadx-$version.zip"
     },
     "bin": [
         "bin/jadx.bat",
