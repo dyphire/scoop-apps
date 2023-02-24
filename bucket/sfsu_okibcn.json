@@ -1,0 +1,32 @@
+{
+    "version": "1.4.3",
+    "description": "Stupid Fast Scoop Utilities. Incredibly fast replacements for commonly used Scoop commands, written in Rust.",
+    "homepage": "https://github.com/jewlexx/sfsu",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/jewlexx/sfsu/releases/download/v1.4.3/dl-x86_64.7z",
+            "hash": "0a92cd9c2eb550faea4bff2e16746a37a3961a581c1cf2f851bf28acf16cc498"
+        },
+        "32bit": {
+            "url": "https://github.com/jewlexx/sfsu/releases/download/v1.4.3/dl-i686.7z",
+            "hash": "da93724103e19daaa931a607c9361076ea6d1a655df41b19f5170d05174da5c5"
+        }
+    },
+    "notes": "In order to replace scoop commands use `Invoke-Expression (&sfsu hook)` in your Powershell profile.",
+    "bin": "sfsu.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/jewlexx/sfsu/releases/download/v$version/dl-x86_64.7z"
+            },
+            "32bit": {
+                "url": "https://github.com/jewlexx/sfsu/releases/download/v$version/dl-i686.7z"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}

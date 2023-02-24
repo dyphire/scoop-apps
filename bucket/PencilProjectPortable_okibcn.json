@@ -8,7 +8,7 @@
     },
     "bin": "PencilProjectPortable.exe",
     "checkver": {
-        "re": "Version \\s+([\\w\\.]* for Win",
+        "re": "PencilProjectPortable_([\\d.]+)_",
         "url": "https://portableapps.com/apps/graphics_pictures/pencil-project-portable"
     },
     "description": "Prototyping and diagramming tool",

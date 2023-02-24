@@ -5,7 +5,7 @@
     "license": "Unlicense",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/KurtBestor/Hitomi-Downloader/releases/download/v3.8a/hitomi_downloader_GUI.zip",
+            "url": "https://ghproxy.com/https://github.com/KurtBestor/Hitomi-Downloader/releases/download/v3.8a/hitomi_downloader_GUI.zip",
             "hash": "00488146044f70c75c2e50bfbc3c659534d942124cf8c55ea34e4494e23e1325",
             "pre_install": "if(!(Test-Path \"$persist_dir\\hitomi_downloader_GUI.ini\")) { New-Item \"$dir\\hitomi_downloader_GUI.ini\" -ItemType File -Force | Out-Null }"
         }
@@ -28,7 +28,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/KurtBestor/Hitomi-Downloader/releases/download/v$matchMajor$matchBuild/hitomi_downloader_GUI.zip"
+                "url": "https://ghproxy.com/https://github.com/KurtBestor/Hitomi-Downloader/releases/download/v$matchMajor$matchBuild/hitomi_downloader_GUI.zip"
             }
         }
     }
