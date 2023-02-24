@@ -74,6 +74,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - iquiw/scoop-bucket
 - AStupidBear/scoop-bear
 - ViCrack/scoop-bucket
+- niheaven/scoop-sysinternals
 - mogeko/scoop-sysinternals
 - ygguorun/scoop-bucket
 - jfut/scoop-jfut
@@ -83,11 +84,11 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - excitoon/scoop-user
 - Velgus/Scoop-Portapps
 - Darkatse/Scoop-Darkatse
-- niheaven/scoop-sysinternals
 - cc713/ownscoop
 - amorphobia/siku
 - littleli/Scoop-littleli
 - jonz94/scoop-sarasa-nerd-fonts
+- seumsc/scoop-seu
 - ChinLong/scoop-customize
 - alextwothousand/scoop-bucket
 - hu3rror/scoop-muggle
@@ -96,6 +97,5 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - Weidows-projects/scoop-3rd
 - TheLastZombie/scoop-bucket
 - starise/Scoop-Confetti
-- seumsc/scoop-seu
 - yuusakuri/scoop-bucket
 - Darkatse/Scoop-KanColle
