@@ -92,10 +92,10 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - ChinLong/scoop-customize
 - alextwothousand/scoop-bucket
 - hu3rror/scoop-muggle
+- TheLastZombie/scoop-bucket
 - MCOfficer/scoop-bucket
 - aoisummer/scoop-bucket
 - Weidows-projects/scoop-3rd
-- TheLastZombie/scoop-bucket
 - starise/Scoop-Confetti
 - yuusakuri/scoop-bucket
 - Darkatse/Scoop-KanColle

@@ -11,7 +11,7 @@
         "Delete scheduled task by running: '$dir\\delete-scheduled-task.ps1'"
     ],
     "depends": "gsudo",
-    "url": "https://ghproxy.com/https://github.com/2dust/clashN/releases/download/2.14/clashN.zip",
+    "url": "https://github.com/2dust/clashN/releases/download/2.14/clashN.zip",
     "hash": "b7c4a960b258f1e6a75079f52926a31823fb612dd1f247da917012ef58f97317",
     "extract_dir": "clashN",
     "pre_install": [
@@ -48,6 +48,6 @@
         "jsonpath": "$[0].tag_name"
     },
     "autoupdate": {
-        "url": "https://ghproxy.com/https://github.com/2dust/clashN/releases/download/$version/clashN.zip"
+        "url": "https://github.com/2dust/clashN/releases/download/$version/clashN.zip"
     }
 }

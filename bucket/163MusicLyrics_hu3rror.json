@@ -5,7 +5,7 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://ghproxy.com/https://github.com/jitwxs/163MusicLyrics/releases/download/v5.8/v5.8-green.zip",
+            "url": "https://github.com/jitwxs/163MusicLyrics/releases/download/v5.8/v5.8-green.zip",
             "hash": "535ac4173f98413051ac8555287006c2188dda9c64dc571dc4a23e5af2cd3c31"
         }
     },
@@ -19,7 +19,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://ghproxy.com/https://github.com/jitwxs/163MusicLyrics/releases/download/v$version/v$version-green.zip"
+                "url": "https://github.com/jitwxs/163MusicLyrics/releases/download/v$version/v$version-green.zip"
             }
         }
     }
