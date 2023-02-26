@@ -1,0 +1,31 @@
+{
+    "version": "0.1.0.0-beta.13",
+    "description": "A lightweight Apple Music client for Windows and macOS, built with MusicKit JS, Edge WebView2 / WKWebView and React. ",
+    "homepage": "https://litomusic.org",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/lujjjh/LitoMusic/releases/download/v0.1.0.0-beta.13/LitoMusic.exe",
+            "hash": "95e611569c2394b0ae198c6ac81efc4c8f61200d3a6b9322b590f91401579f93"
+        }
+    },
+    "bin": "LitoMusic.exe",
+    "shortcuts": [
+        [
+            "LitoMusic.exe",
+            "Lito Music"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/lujjjh/LitoMusic/releases",
+        "regex": "v(?<tag>(?<major>[\\d.]+)-(?<test>\\w+)\\.(?<build>\\d+))",
+        "replace": "${major}-${test}.${build}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/lujjjh/LitoMusic/releases/download/v$matchTag/LitoMusic.exe"
+            }
+        }
+    }
+}
