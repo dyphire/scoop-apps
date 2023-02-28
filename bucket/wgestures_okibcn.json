@@ -1,23 +1,17 @@
 {
-  "homepage": "http://www.yingdev.com/projects/wgestures",
-  "description": "WGestures全局鼠标手势",
-  "version": "1.8.4.1",
-  "url": [
-    "https://sourceforge.net/projects/bearapps/files/Install WGestures.zip",
-    "https://raw.githubusercontent.com/tianzhijiexian/scoop-packages/master/WGestures 1.8.4.0.wgb"
-  ],
-  "hash": [
-    "7F4B56009F14A662F746DA0DF6C4CA833567278EE154C0930DF8EE0F925B5852",
-    "8C38BB530883D818F17EB2074F9E7143147CD0E9A64B6BA2A29060BEB799E2E2"
-  ],
+  "homepage": "https://www.yingdev.com/projects/wgestures",
+  "description": "Modern mouse gestures for Windows",
+  "version": "1.8.4.0",
+  "license": "GPL-2.0-only",
+  "url": "https://www.yingdev.com/Content/Projects/WGestures/Release/1.8.4.0/Install%20WGestures%201.8.4.0.zip",
+  "hash": "7f126c0d574c1df8a387a7658f03f67bfffce6d35355c2783e1d7b7048a98ffd",
   "installer": {
-    "script": "Start-Process -Wait msiexec \"/i `\"$dir\\Install WGestures.msi`\" /qn\" -Verb RunAs"
+    "script": "# FIXME"
   },
-  "uninstaller": {
-    "script": "Start-Process -Wait msiexec \"/x `\"$dir\\Install WGestures.msi`\" /qn\" -Verb RunAs"
+  "checkver": {
+    "regex": "(?sm)当前版本: .*?([\\d.]+)<"
   },
-  "shortcuts": [
-    []
-  ],
-  "notes": "需要手动导入配置文件"
+  "autoupdate": {
+    "url": "https://www.yingdev.com/Content/Projects/WGestures/Release/$version/Install%20WGestures%20$version.zip"
+  }
 }
