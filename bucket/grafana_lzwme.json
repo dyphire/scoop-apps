@@ -1,0 +1,39 @@
+{
+  "version": "9.4.1",
+  "description": "Open platform for analytics and data monitoring",
+  "homepage": "https://grafana.com/",
+  "license": "Apache-2.0",
+  "architecture": {
+    "64bit": {
+      "url": "https://dl.grafana.com/oss/release/grafana-9.4.1.windows-amd64.zip",
+      "hash": "cb377b9c594f2b54b62df8aba4af566f6149fabd681b251142cf3810ece0f889"
+    }
+  },
+  "extract_dir": "grafana-9.4.1",
+  "bin": [
+    [
+      "bin\\grafana-server.exe",
+      "grafana-server",
+      "-homepath \"$dir\""
+    ]
+  ],
+  "persist": [
+    "conf",
+    "data"
+  ],
+  "checkver": {
+    "url": "https://grafana.com/grafana/download?platform=windows",
+    "regex": "-([\\d.]+)\\.windows"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://dl.grafana.com/oss/release/grafana-$version.windows-amd64.zip"
+      }
+    },
+    "hash": {
+      "url": "$url.sha256"
+    },
+    "extract_dir": "grafana-$version"
+  }
+}

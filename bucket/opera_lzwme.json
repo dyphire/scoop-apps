@@ -1,0 +1,55 @@
+{
+  "version": "96.0.4693.20",
+  "description": "Fast, secure, easy-to-use browser.",
+  "homepage": "https://www.opera.com/",
+  "license": {
+    "identifier": "Freeware",
+    "url": "https://www.opera.com/eula/computers"
+  },
+  "architecture": {
+    "64bit": {
+      "url": "https://download1.operacdn.com/pub/opera/desktop/96.0.4693.20/win/Opera_96.0.4693.20_Setup_x64.exe#/dl.7z",
+      "hash": "d532a9d9fbb295ddaf369eb5122f7dd22512c2b8dc8921f7eeff08f981e0b5ed"
+    },
+    "32bit": {
+      "url": "https://download1.operacdn.com/pub/opera/desktop/96.0.4693.20/win/Opera_96.0.4693.20_Setup.exe#/dl.7z",
+      "hash": "f802c0938ad733fdb86a05b5be57bb0c4ca75286af06d9c47b22fe9e17d3e56a"
+    }
+  },
+  "installer": {
+    "script": [
+      "Remove-Item -Path \"$dir\\*_list\" -Force",
+      "Move-Item -Path \"$dir\\*\" -Destination \"$dir\\$version\" -Exclude 'Assets', 'launcher*', 'Resources.pri' -ErrorAction Ignore",
+      "if (!(Test-Path \"$dir\\$version\\localization\")) {",
+      "   New-Item -Path \"$dir\\$version\\localization\" -ItemType Directory | Out-Null",
+      "   Move-Item -Path \"$dir\\$version\\*.pak\" -Destination \"$dir\\$version\\localization\" -Exclude 'opera*' -ErrorAction Ignore",
+      "}",
+      "Set-Content -Path \"$dir\\installer_prefs.json\" -Value (@{ 'autoupdate'= $false; 'enable_stats' = $false; 'single_profile' = $true } | ConvertTo-Json) -Encoding ASCII"
+    ]
+  },
+  "shortcuts": [
+    [
+      "launcher.exe",
+      "Opera"
+    ]
+  ],
+  "persist": "profile",
+  "checkver": {
+    "url": "http://get.opera.com/ftp/pub/opera/desktop/",
+    "regex": "([\\d.]+)/",
+    "reverse": true
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://download1.operacdn.com/pub/opera/desktop/$version/win/Opera_$version_Setup_x64.exe#/dl.7z"
+      },
+      "32bit": {
+        "url": "https://download1.operacdn.com/pub/opera/desktop/$version/win/Opera_$version_Setup.exe#/dl.7z"
+      }
+    },
+    "hash": {
+      "url": "$url.sha256sum"
+    }
+  }
+}

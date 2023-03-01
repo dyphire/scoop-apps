@@ -1,0 +1,55 @@
+{
+  "version": "1.14.4-698-g23fd9907e",
+  "description": "Sony PlayStation Portable (PSP) emulator. Development build",
+  "homepage": "https://www.ppsspp.org",
+  "license": "GPL-2.0-or-later",
+  "architecture": {
+    "64bit": {
+      "url": "https://buildbot.orphis.net/ppsspp/index.php?m=dl&rev=v1.14.4-698-g23fd9907e&platform=windows-amd64#/dl.zip",
+      "hash": "16164085259adfa5908a32d886b04ab5c31ceab5fb4f9aa972de590e8108c43d",
+      "shortcuts": [
+        [
+          "PPSSPPWindows64.exe",
+          "PPSSPP (Development)"
+        ]
+      ]
+    },
+    "32bit": {
+      "url": "https://buildbot.orphis.net/ppsspp/index.php?m=dl&rev=v1.14.4-698-g23fd9907e&platform=windows-x86#/dl.zip",
+      "hash": "29f8e6844c3bf6e00994e79fde7e6bdad686c44503db6aa419d1f87b2cbf0bd1",
+      "shortcuts": [
+        [
+          "PPSSPPWindows.exe",
+          "PPSSPP (Development)"
+        ]
+      ]
+    }
+  },
+  "extract_dir": "ppsspp",
+  "pre_install": [
+    "if (!(Test-Path \"$persist_dir\")) {",
+    "   New-item \"$persist_dir\" -ItemType Directory | Out-Null",
+    "   New-item \"$persist_dir\\memstick\" -ItemType Directory | Out-Null",
+    "}"
+  ],
+  "persist": [
+    "memstick",
+    "assets",
+    "demos"
+  ],
+  "checkver": {
+    "url": "https://buildbot.orphis.net/ppsspp/index.php",
+    "regex": "rev=v(?<version>[\\d.]+)-(?<build>[\\d]+)-g(?<commit>[\\da-fA-F]+)&(?:amp;)platform=windows-amd64",
+    "replace": "${version}-${build}-g${commit}"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://buildbot.orphis.net/ppsspp/index.php?m=dl&rev=v$matchVersion-$matchBuild-g$matchCommit&platform=windows-amd64#/dl.zip"
+      },
+      "32bit": {
+        "url": "https://buildbot.orphis.net/ppsspp/index.php?m=dl&rev=v$matchVersion-$matchBuild-g$matchCommit&platform=windows-x86#/dl.zip"
+      }
+    }
+  }
+}

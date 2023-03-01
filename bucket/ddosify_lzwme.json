@@ -1,0 +1,40 @@
+{
+  "version": "0.15.0",
+  "description": "Load testing and DDOS attack simulation tool",
+  "homepage": "https://ddosify.com",
+  "license": "AGPL-3.0-only",
+  "architecture": {
+    "64bit": {
+      "url": "https://ghproxy.com/https://github.com/ddosify/ddosify/releases/download/v0.15.0/ddosify_0.15.0_windows_amd64.zip",
+      "hash": "267b5c7021f9020b896ba79c6a36747d9d1c7a98bb14d48f6bb2f9b4ad6c1d87"
+    },
+    "32bit": {
+      "url": "https://ghproxy.com/https://github.com/ddosify/ddosify/releases/download/v0.15.0/ddosify_0.15.0_windows_386.zip",
+      "hash": "6d9e10be5094e48bb983ca413dacf39d1a777fecf6c0944ce6dde6efb1e2ffd3"
+    },
+    "arm64": {
+      "url": "https://ghproxy.com/https://github.com/ddosify/ddosify/releases/download/v0.15.0/ddosify_0.15.0_windows_arm64.zip",
+      "hash": "15c45412ddade94c062ba49b8ce0b1d156e4147f2b52f572a32a584d468aff16"
+    }
+  },
+  "bin": "ddosify.exe",
+  "checkver": {
+    "github": "https://github.com/ddosify/ddosify"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://ghproxy.com/https://github.com/ddosify/ddosify/releases/download/v$version/ddosify_$version_windows_amd64.zip"
+      },
+      "32bit": {
+        "url": "https://ghproxy.com/https://github.com/ddosify/ddosify/releases/download/v$version/ddosify_$version_windows_386.zip"
+      },
+      "arm64": {
+        "url": "https://ghproxy.com/https://github.com/ddosify/ddosify/releases/download/v$version/ddosify_$version_windows_arm64.zip"
+      }
+    },
+    "hash": {
+      "url": "$baseurl/checksums.txt"
+    }
+  }
+}

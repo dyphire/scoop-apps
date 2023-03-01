@@ -16,7 +16,7 @@
             "url": "https://github.com/Icalingua-plus-plus/Icalingua-plus-plus/releases/download/v2.8.15/Icalingua++-2.8.15_arm64.exe#/dl.7z",
             "hash": "f5cff95dfafe62d1342cf331e0affcc13697cce9ba676dbf1cbb7e80c1e5faed",
             "pre_install": [
-                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-arm64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Force -Recurse"
             ]
         }
