@@ -1,0 +1,22 @@
+{
+    "version": "1677953078",
+    "description": "Templates for pandoc, tagged to release",
+    "homepage": "https://github.com/jgm/pandoc-templates",
+    "license": "GPL-2.0-or-later,BSD-3-Clause",
+    "url": "https://github.com/jgm/pandoc-templates/archive/refs/heads/master.zip",
+    "hash": "e1018ff93ce94f706b90d8d715bcbc37bd7ee9caf0f481efca0984b6c1f80707",
+    "pre_install": [
+        "$templates = \"$dir\\templates\"",
+        "Rename-Item \"$dir\\pandoc-templates-master\" $templates",
+        "$installPath = \"$env:APPDATA\\pandoc\\templates\"",
+        "if (!(Test-Path $installPath)) { New-Item -ItemType SymbolicLink -Path $installPath -Target $templates | Out-Null }"
+    ],
+    "post_uninstall": "Remove-Item -Recurse -ErrorAction Ignore \"$env:APPDATA\\pandoc\\templates\"",
+    "checkver": {
+        "script": "try { Get-Date (Invoke-RestMethod https://api.github.com/repositories/115543137/commits/master).commit.committer.date -UFormat %s } catch { '' }",
+        "regex": "\\A(\\d+)\\Z"
+    },
+    "autoupdate": {
+        "url": "https://github.com/jgm/pandoc-templates/archive/refs/heads/master.zip"
+    }
+}

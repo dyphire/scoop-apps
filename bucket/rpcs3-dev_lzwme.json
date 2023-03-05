@@ -1,10 +1,10 @@
 {
-  "version": "0.0.27-14785",
+  "version": "0.0.27-14800",
   "description": "Open-source Sony PlayStation 3 emulator (development version)",
   "homepage": "https://rpcs3.net/",
   "license": "GPL-2.0-only",
-  "url": "https://ghproxy.com/https://github.com/rpcs3/rpcs3-binaries-win/releases/download/build-fc21ece7841ed87ddb1a58215bdb8c02a78b2143/rpcs3-v0.0.27-14785-fc21ece7_win64.7z",
-  "hash": "c6ad19098ba74e34860849690539ab46f1a9ede01163a681d99e5f1a58f73ee1",
+  "url": "https://ghproxy.com/https://github.com/rpcs3/rpcs3-binaries-win/releases/download/build-0d34b97948ac98ca5bfad5cecfde61cf9c8c3291/rpcs3-v0.0.27-14800-0d34b979_win64.7z",
+  "hash": "d04d7057021fdc824b31c832a67853ff9d12c22bdbd03820277bdc5ee6dd34bd",
   "bin": "rpcs3.exe",
   "persist": [
     "GuiConfigs",
@@ -56,5 +56,5 @@
     "NEW: Alternatively, install the ps3-system-software package.  You must still manually load PS3UPDAT.PUP",
     "Suggested apps could be safely uninstalled/ignored if have been installed."
   ],
-  "_from": "kkzzhizhou/scoop-apps"
+  "_from": "cc713/ownscoop"
 }

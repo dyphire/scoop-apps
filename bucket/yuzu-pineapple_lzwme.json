@@ -1,15 +1,15 @@
 {
-  "version": "EA-3434",
-  "description": "A Yuzu Early Access fork with Linux-specific patches",
+  "version": "3436",
+  "description": "Nintendo Switch emulator",
   "homepage": "https://github.com/pineappleEA/pineapple-src",
   "license": {
-    "identifier": "GPL-2.0",
-    "url": "https://github.com/pineappleEA/pineapple-src/blob/main/LICENSE"
+    "url": "https://github.com/pineappleEA/pineapple-src/blob/main/LICENSE",
+    "identifier": "GPL-2.0"
   },
   "architecture": {
     "64bit": {
-      "url": "https://ghproxy.com/https://github.com/pineappleEA/pineapple-src/releases/download/EA-3434/Windows-Yuzu-EA-3434.zip",
-      "hash": "f1ff22ec4814bcb14c5a70144facd3487e0f9da30ccf687721bf31671a743ad6"
+      "url": "https://ghproxy.com/https://github.com/pineappleEA/pineapple-src/releases/download/EA-3436/Windows-Yuzu-EA-3436.zip",
+      "hash": "285c3109890e37b1470bbda2083c2ac314c68a1fa2389c0c94fa1c018ba5e6b6"
     }
   },
   "extract_dir": "yuzu-windows-msvc-early-access",
@@ -37,7 +37,7 @@
   "shortcuts": [
     [
       "yuzu.exe",
-      "Yuzu (Development)"
+      "Yuzu (dev)"
     ]
   ],
   "persist": [
@@ -46,14 +46,14 @@
   ],
   "checkver": {
     "github": "https://github.com/pineappleEA/pineapple-src",
-    "regex": "(EA-\\d+)"
+    "regex": "EA-(\\d+)"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://ghproxy.com/https://github.com/pineappleEA/pineapple-src/releases/download/$version/Windows-Yuzu-$version.zip"
+        "url": "https://ghproxy.com/https://github.com/pineappleEA/pineapple-src/releases/download/EA-$version/Windows-Yuzu-EA-$version.zip"
       }
     }
   },
-  "_from": "Calinou/scoop-games"
+  "_from": "hermanjustnu/scoop-emulators"
 }

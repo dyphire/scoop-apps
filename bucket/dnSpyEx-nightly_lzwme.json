@@ -1,16 +1,16 @@
 {
-  "version": "2023-02-27-run323-id4286219146",
+  "version": "2023-03-04-run326-id4332211191",
   "description": "Revival of the well known .NET debugger and assembly editor, dnSpy",
   "homepage": "https://github.com/dnSpyEx/dnSpy",
   "license": "GPL-3.0-only",
   "architecture": {
     "64bit": {
       "url": "https://nightly.link/dnSpyEx/dnSpy/workflows/build/master/dnSpy-net-win64.zip#/dl.7z",
-      "hash": "a65124ee92a1df91d3997d18928921588aa0f988863397336c2868a5cd42f6aa"
+      "hash": "b805b69419f2ef2063bd9d141c7c772b17d1c316429168bbc52524e1ead8b01f"
     },
     "32bit": {
       "url": "https://nightly.link/dnSpyEx/dnSpy/workflows/build/master/dnSpy-net-win32.zip#/dl.7z",
-      "hash": "ec891c9739937b6d9db9d3c032c256c20830e2f7e1424e024f8b7c383f5c048f"
+      "hash": "36bd835599f7f201b24a9929ee690d985a88a314aeb37c6ea4ba6e353694c82e"
     }
   },
   "bin": [
@@ -44,5 +44,5 @@
       }
     }
   },
-  "_from": "kkzzhizhou/scoop-apps"
+  "_from": "okibcn/ScoopMaster"
 }
