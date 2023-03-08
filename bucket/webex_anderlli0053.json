@@ -1,0 +1,40 @@
+{
+    "version": "43.1.0.24716",
+    "description": "Video and audio conferencing",
+    "homepage": "https://www.webex.com/",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://www.cisco.com/c/en/us/about/legal/cloud-and-software/end_user_license_agreement.html"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://binaries.webex.com/WebexTeamsDesktop-Windows-Gold/Webex.msi",
+            "hash": "7d987cab44675cc19a9e5bdf2e2bcefc7b9d9d983671b98e66dc9694a9e66d0a"
+        },
+        "32bit": {
+            "url": "https://binaries.webex.com/WebexTeamsDesktop-Windows-Gold/Webex_x86.msi",
+            "hash": "aee73cbe151ad17f6acfe2613e1325aca9ebd688c30ded73769eb37112265816"
+        }
+    },
+    "extract_dir": "Cisco Spark",
+    "shortcuts": [
+        [
+            "CiscoCollabHost.exe",
+            "Webex"
+        ]
+    ],
+    "checkver": {
+        "url": "https://help.webex.com/article/mqkve8",
+        "regex": ">Windows[^\\d]+([\\d.]+)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://binaries.webex.com/WebexTeamsDesktop-Windows-Gold/Webex.msi"
+            },
+            "32bit": {
+                "url": "https://binaries.webex.com/WebexTeamsDesktop-Windows-Gold/Webex_x86.msi"
+            }
+        }
+    }
+}
