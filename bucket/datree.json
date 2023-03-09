@@ -5,11 +5,11 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/datreeio/datree/releases/download/1.8.37/datree-cli_1.8.37_windows_x86_64.zip",
+            "url": "https://ghproxy.com/github.com/datreeio/datree/releases/download/1.8.37/datree-cli_1.8.37_windows_x86_64.zip",
             "hash": "f80c161380d95ef03c3bdeb0c3cc12a15dc18f2a716ee22aca1e691528626808"
         },
         "32bit": {
-            "url": "https://github.com/datreeio/datree/releases/download/1.8.37/datree-cli_1.8.37_windows_386.zip",
+            "url": "https://ghproxy.com/github.com/datreeio/datree/releases/download/1.8.37/datree-cli_1.8.37_windows_386.zip",
             "hash": "2275d43c471c600d00ac83a429cd07a1681c647e3c57ecc2ce3e592c68419d8e"
         }
     },
@@ -20,10 +20,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/datreeio/datree/releases/download/$version/datree-cli_$version_windows_x86_64.zip"
+                "url": "https://ghproxy.com/github.com/datreeio/datree/releases/download/$version/datree-cli_$version_windows_x86_64.zip"
             },
             "32bit": {
-                "url": "https://github.com/datreeio/datree/releases/download/$version/datree-cli_$version_windows_386.zip"
+                "url": "https://ghproxy.com/github.com/datreeio/datree/releases/download/$version/datree-cli_$version_windows_386.zip"
             }
         }
     }
