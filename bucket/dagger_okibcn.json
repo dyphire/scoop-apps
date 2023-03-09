@@ -1,0 +1,26 @@
+{
+    "version": "0.4.0",
+    "description": "A portable devkit for CI/CD pipelines",
+    "homepage": "https://dagger.io/",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/dagger/dagger/releases/download/v0.4.0/dagger_v0.4.0_windows_amd64.zip",
+            "hash": "5ce3947b6ac32ffde88263513862b9cf05bb1e9a5b442ac3ae59824771aae062"
+        }
+    },
+    "bin": "dagger.exe",
+    "checkver": {
+        "github": "https://github.com/dagger/dagger"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/dagger/dagger/releases/download/v$version/dagger_v$version_windows_amd64.zip",
+                "hash": {
+                    "url": "$baseurl/checksums.txt"
+                }
+            }
+        }
+    }
+}

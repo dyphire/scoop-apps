@@ -1,0 +1,47 @@
+{
+    "homepage": "https://www.microsoft.com/en-us/edge",
+    "description": "The chromium based Microsoft Edge browser (Beta Channel)",
+    "version": "111.0.1661.34",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://dorado-api.deno.dev/edge?arch=64&channel=beta&version=111.0.1661.34&dl#/MicrosoftEdge-111.0.1661.34-x64.7z",
+            "hash": "5c9bc792d870055e160a81178406e9d16b036b6a2556041d2b5a9205cf20ecdd"
+        },
+        "32bit": {
+            "url": "https://dorado-api.deno.dev/edge?arch=86&channel=beta&version=111.0.1661.34&dl#/MicrosoftEdge-111.0.1661.34-x86.7z",
+            "hash": "11556b715d4babad949206dacdda3c8b3eddb9a4b7a94171b418508661d73b97"
+        }
+    },
+    "installer": {
+        "script": "Expand-7zipArchive -Path \"$dir\\MSEDGE.7z\" -ExtractDir \"Chrome-bin\\$version\" -Removal"
+    },
+    "shortcuts": [
+        [
+            "msedge.exe",
+            "Microsoft Edge Beta"
+        ]
+    ],
+    "checkver": {
+        "url": "https://dorado-api.deno.dev/edge?arch=64&channel=beta",
+        "jsonpath": "$.Version"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://dorado-api.deno.dev/edge?arch=64&channel=beta&version=$version&dl#/MicrosoftEdge-$version-x64.7z",
+                "hash": {
+                    "url": "https://dorado-api.deno.dev/edge?arch=64&channel=beta&version=$version",
+                    "jsonpath": "$.Hashes.Sha256"
+                }
+            },
+            "32bit": {
+                "url": "https://dorado-api.deno.dev/edge?arch=86&channel=beta&version=$version&dl#/MicrosoftEdge-$version-x86.7z",
+                "hash": {
+                    "url": "https://dorado-api.deno.dev/edge?arch=86&channel=beta&version=$version",
+                    "jsonpath": "$.Hashes.Sha256"
+                }
+            }
+        }
+    }
+}
