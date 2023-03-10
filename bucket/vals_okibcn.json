@@ -1,0 +1,28 @@
+{
+    "version": "0.23.0",
+    "description": "Helm-like configuration values loader with support for various sources",
+    "homepage": "https://github.com/variantdev/vals",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/variantdev/vals/releases/download/v0.23.0/vals_0.23.0_windows_amd64.tar.gz",
+            "hash": "25ee17d122a766b499a1df98e721f0e62499b1b1ca4396269a8d239a733e2108"
+        },
+        "32bit": {
+            "url": "https://github.com/variantdev/vals/releases/download/v0.23.0/vals_0.23.0_windows_386.tar.gz",
+            "hash": "7bcdae8990ee866fde7f6a3af1c3df06a980b4a39fa1cc917aa763602f287dca"
+        }
+    },
+    "bin": "vals.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/variantdev/vals/releases/download/v$version/vals_$version_windows_amd64.tar.gz"
+            },
+            "32bit": {
+                "url": "https://github.com/variantdev/vals/releases/download/v$version/vals_$version_windows_386.tar.gz"
+            }
+        }
+    }
+}
