@@ -1,0 +1,40 @@
+{
+    "homepage": "https://docs.microsoft.com/en-us/sysinternals/",
+    "description": "Presentation utility for zooming and drawing on the screen.",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://docs.microsoft.com/en-us/sysinternals/license-terms"
+    },
+    "version": "6.12",
+    "url": "https://download.sysinternals.com/files/ZoomIt.zip",
+    "hash": "d94d48f2519d5f28efcf7b9f2eacfab3b25cb0175d0ad9a2383f3107bc56fc21",
+    "checkver": {
+        "url": "https://docs.microsoft.com/en-us/sysinternals/downloads/zoomIt",
+        "re": "ZoomIt\\s(?:v|V)?([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://download.sysinternals.com/files/ZoomIt.zip"
+    },
+    "architecture": {
+        "32bit": {
+            "bin": "ZoomIt.exe",
+            "shortcuts": [
+                [
+                    "ZoomIt.exe",
+                    "SysInternals/ZoomIt",
+                    "/accepteula"
+                ]
+            ]
+        },
+        "64bit": {
+            "bin": "ZoomIt.exe",
+            "shortcuts": [
+                [
+                    "ZoomIt.exe",
+                    "SysInternals/ZoomIt",
+                    "/accepteula"
+                ]
+            ]
+        }
+    }
+}

@@ -77,6 +77,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - ygguorun/scoop-bucket
 - niheaven/scoop-sysinternals
 - mogeko/scoop-sysinternals
+- lzwme/scoop-proxy-cn
 - jfut/scoop-jfut
 - krproject/qi-windows
 - NyaMisty/scoopbucketmisty
@@ -94,7 +95,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - hu3rror/scoop-muggle
 - MCOfficer/scoop-bucket
 - aoisummer/scoop-bucket
-- lzwme/scoop-proxy-cn
 - Weidows-projects/scoop-3rd
 - starise/Scoop-Confetti
 - yuusakuri/scoop-bucket

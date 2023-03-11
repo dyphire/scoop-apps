@@ -1,0 +1,33 @@
+{
+    "version": "3.22.0",
+    "description": "A task runner / simpler Make alternative written in Go",
+    "homepage": "https://taskfile.dev/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/go-task/task/releases/download/v3.22.0/task_windows_amd64.zip",
+            "hash": "2e690b348a8080b59395e2e01cb13733307985ab7966fd29453b6c9250b46ae7"
+        },
+        "32bit": {
+            "url": "https://github.com/go-task/task/releases/download/v3.22.0/task_windows_386.zip",
+            "hash": "bb86032725780c42682021d1f1c87df6cf333a591048ba8970d3374715f26007"
+        }
+    },
+    "bin": "task.exe",
+    "checkver": {
+        "github": "https://github.com/go-task/task"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/go-task/task/releases/download/v$version/task_windows_amd64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/go-task/task/releases/download/v$version/task_windows_386.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/task_checksums.txt"
+        }
+    }
+}
