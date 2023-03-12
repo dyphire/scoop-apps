@@ -1,0 +1,25 @@
+{
+  "url": "https://github.com/browsh-org/browsh/releases/download/v1.8.2/browsh_1.8.2_windows_amd64.exe",
+  "version": "1.8.2",
+  "homepage": "http://www.brow.sh",
+  "bin": [
+    [
+      "browsh_1.8.2_windows_amd64.exe",
+      "browsh"
+    ]
+  ],
+  "depends": "firefox",
+  "license": "LGPL-2.1",
+  "hash": "97358d33e1d8931c20d55edf10e88cabe8bb451410dd1ebeb63df2e02c17f8ca",
+  "checkver": {
+    "github": "https://github.com/browsh-org/browsh"
+  },
+  "autoupdate": {
+    "url": "https://github.com/browsh-org/browsh/releases/download/v$version/browsh_$version_windows_amd64.exe",
+    "bin": "browsh_$version_windows_amd64",
+    "hash": {
+      "url": "https://github.com/browsh-org/browsh/releases/download/v$version/browsh_$version_checksums.txt",
+      "find": "([a-fA-F0-9]{64})\\s+browsh_$version_windows_amd64.exe"
+    }
+  }
+}
