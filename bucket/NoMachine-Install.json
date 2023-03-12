@@ -1,13 +1,13 @@
 {
-    "version": "8.1.2",
+    "version": "8.4.2",
     "description": "NoMachine. A remote-control tool, available for multiple platforms",
     "homepage": "https://www.nomachine.com/",
     "license": "Proprietary",
     "changelog": "https://www.nomachine.com/what-s-new-in-nomachine",
     "architecture": {
         "64bit": {
-            "url": "https://download.nomachine.com/download/8.1/Windows/nomachine_8.1.2_4_x64.exe#/setup.exe",
-            "hash": "5247e391afe267300074929d301b1e36d3916ee0df12e9b6fa1ec692a14418f3"
+            "url": "https://download.nomachine.com/download/8.4/Windows/nomachine_8.4.2_10_x64.exe#/setup.exe",
+            "hash": "a300593bd11fc7c978cc17ef3cc2d1d44d447f41a4558fd0842c33ebf48de7f7"
         }
     },
     "pre_download": "Assert-Administrator",
