@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "description": "A CLI batch downloader for your Bandcamp collection.",
+    "homepage": "https://github.com/Ovyerus/bandsnatch",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Ovyerus/bandsnatch/releases/download/v0.2.0/bandsnatch-windows-x86_64-msvc.exe#/bandsnatch.exe",
+            "hash": "c9140f67945f658eb71b7f4a82c285f2fba2fe73357222477a229f0fcae054c3"
+        }
+    },
+    "bin": "bandsnatch.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Ovyerus/bandsnatch/releases/download/v$version/bandsnatch-windows-x86_64-msvc.exe#/bandsnatch.exe"
+            }
+        }
+    }
+}
