@@ -1,0 +1,35 @@
+{
+    "version": "3.110.0",
+    "homepage": "https://tutanota.com/",
+    "description": "The official desktop client for Tutanota, the email service with a strong focus on security and privacy.",
+    "license": "GPL-3.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://mail.tutanota.com/desktop/tutanota-desktop-win.exe#/dl.7z",
+            "hash": "abc0840735e4edef00a9b395d55ea3da7a1c0b97fe9c867fc68a6285f2faa4d5"
+        }
+    },
+    "extract_dir": "$PLUGINSDIR",
+    "pre_install": "Expand-7zipArchive \"$dir\\app-64.7z\" \"$dir\" -Removal",
+    "shortcuts": [
+        [
+            "Tutanota Desktop.exe",
+            "Tutanota Desktop Client"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/tutao/tutanota/tags",
+        "regex": "tutanota-desktop-release-([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://mail.tutanota.com/desktop/tutanota-desktop-win.exe#/dl.7z",
+                "hash": {
+                    "url": "https://github.com/tutao/tutanota/releases/tag/tutanota-desktop-release-$version",
+                    "regex": "tutanota-desktop-win.exe:.*\\n$sha256"
+                }
+            }
+        }
+    }
+}
