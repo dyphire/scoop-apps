@@ -1,0 +1,38 @@
+{
+    "version": "5.8.4",
+    "description": "Portable reversing framework",
+    "homepage": "https://github.com/radareorg/radare2",
+    "license": "LGPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/radareorg/radare2/releases/download/5.8.4/radare2-5.8.4-w64.zip",
+            "hash": "9189f40c0a119179ebf525f9a6e909594d7bbb55f5d631889eac24f8b8363272",
+            "extract_dir": "radare2-5.8.4-w64"
+        }
+    },
+    "bin": [
+        [
+            "bin\\radare2.exe",
+            "r2"
+        ],
+        "bin\\r2agent.exe",
+        "bin\\rabin2.exe",
+        "bin\\radare2.exe",
+        "bin\\radiff2.exe",
+        "bin\\rafind2.exe",
+        "bin\\ragg2.exe",
+        "bin\\rahash2.exe",
+        "bin\\rarun2.exe",
+        "bin\\rasm2.exe",
+        "bin\\rax2.exe"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/radareorg/radare2/releases/download/$version/radare2-$version-w64.zip",
+                "extract_dir": "radare2-$version-w64"
+            }
+        }
+    }
+}
