@@ -1,0 +1,46 @@
+{
+    "version": "1.11.1.1252",
+    "description": "Use `clj-deps`. Clojure is a modern, dynamic, and functional dialect of the Lisp programming language on the Java platform",
+    "homepage": "https://clojure.org",
+    "license": "EPL-1.0",
+    "notes": [
+        "Please fully exit and restart any active terminal sessions.",
+        "-----------------------------------------------------------",
+        "IMPORTANT NOTICE: This is no longer prefered way to install Clojure on Windows.",
+        "To migrate execute following:",
+        "   scoop uninstall clojure",
+        "   scoop install clj-deps"
+    ],
+    "suggest": {
+        "JDK": [
+            "java/openjdk",
+            "java/temurin-jdk",
+            "java/oraclejdk"
+        ]
+    },
+    "url": "https://download.clojure.org/install/clojure-tools-1.11.1.1252.zip",
+    "hash": "055f07b9de1ed4e91ee14ef361752fb4fbdaec1f954e7e9b339f24ee6cff4c56",
+    "extract_dir": "ClojureTools",
+    "psmodule": {
+        "name": "ClojureTools"
+    },
+    "bin": [
+        [
+            "powershell.exe",
+            "cmd-clojure",
+            "-NoProfile -ExecutionPolicy Bypass -Command Invoke-Clojure"
+        ],
+        [
+            "powershell.exe",
+            "cmd-clj",
+            "-NoProfile -ExecutionPolicy Bypass -Command Invoke-Clojure"
+        ]
+    ],
+    "checkver": {
+        "url": "https://clojure.org/releases/tools",
+        "regex": "(\\d+\\.\\d+\\.\\d+\\.\\d+) \\("
+    },
+    "autoupdate": {
+        "url": "https://download.clojure.org/install/clojure-tools-$version.zip"
+    }
+}
