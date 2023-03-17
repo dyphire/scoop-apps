@@ -70,12 +70,12 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - ChungZH/peach
 - 42wim/scoop-bucket
 - ViCrack/scoop-bucket
+- lzwme/scoop-proxy-cn
 - akirco/aki-apps
 - iquiw/scoop-bucket
 - batkiz/backit
 - AStupidBear/scoop-bear
 - ygguorun/scoop-bucket
-- lzwme/scoop-proxy-cn
 - niheaven/scoop-sysinternals
 - mogeko/scoop-sysinternals
 - jfut/scoop-jfut
