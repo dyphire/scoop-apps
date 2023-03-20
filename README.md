@@ -68,9 +68,9 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - okibcn/ScoopMaster
 - naderi/scoop-bucket
 - ChungZH/peach
+- lzwme/scoop-proxy-cn
 - 42wim/scoop-bucket
 - ViCrack/scoop-bucket
-- lzwme/scoop-proxy-cn
 - akirco/aki-apps
 - iquiw/scoop-bucket
 - batkiz/backit
@@ -78,6 +78,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - ygguorun/scoop-bucket
 - niheaven/scoop-sysinternals
 - mogeko/scoop-sysinternals
+- amorphobia/siku
 - jfut/scoop-jfut
 - krproject/qi-windows
 - NyaMisty/scoopbucketmisty
@@ -86,7 +87,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - Darkatse/Scoop-Darkatse
 - Velgus/Scoop-Portapps
 - cc713/ownscoop
-- amorphobia/siku
 - littleli/Scoop-littleli
 - jonz94/scoop-sarasa-nerd-fonts
 - seumsc/scoop-seu
@@ -96,6 +96,5 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - MCOfficer/scoop-bucket
 - aoisummer/scoop-bucket
 - Weidows-projects/scoop-3rd
-- starise/Scoop-Confetti
 - yuusakuri/scoop-bucket
 - Darkatse/Scoop-KanColle
