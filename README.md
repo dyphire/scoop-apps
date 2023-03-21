@@ -49,8 +49,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - echoiron/echo-scoop
 - scoopcn/scoopcn
 - hermanjustnu/scoop-emulators
-- Paxxs/Cluttered-bucket
 - duzyn/scoop-cn
+- Paxxs/Cluttered-bucket
 - cderv/r-bucket
 - everyx/scoop-bucket
 - ACooper81/scoop-apps
@@ -67,15 +67,15 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - TheRandomLabs/Scoop-Python
 - okibcn/ScoopMaster
 - naderi/scoop-bucket
-- ChungZH/peach
 - lzwme/scoop-proxy-cn
+- ChungZH/peach
 - 42wim/scoop-bucket
-- ViCrack/scoop-bucket
 - akirco/aki-apps
 - iquiw/scoop-bucket
 - batkiz/backit
 - AStupidBear/scoop-bear
 - ygguorun/scoop-bucket
+- ViCrack/scoop-bucket
 - niheaven/scoop-sysinternals
 - mogeko/scoop-sysinternals
 - amorphobia/siku
