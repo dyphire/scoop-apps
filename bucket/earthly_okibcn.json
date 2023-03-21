@@ -1,0 +1,23 @@
+{
+    "version": "0.7.2",
+    "description": "The effortless CI/CD framework that runs anywhere",
+    "homepage": "https://earthly.dev",
+    "license": "MPL-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/earthly/earthly/releases/download/v0.7.2/earthly-windows-amd64.exe#/earthly.exe",
+            "hash": "8aaa86a3f8c5ac02d1073d2f81e027ad4452674766aa1c76183c244976faa250"
+        }
+    },
+    "bin": "earthly.exe",
+    "checkver": {
+        "github": "https://github.com/earthly/earthly"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/earthly/earthly/releases/download/v$version/earthly-windows-amd64.exe#/earthly.exe"
+            }
+        }
+    }
+}
