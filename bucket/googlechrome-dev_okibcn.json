@@ -1,0 +1,49 @@
+{
+    "version": "113.0.5653.0",
+    "description": "Fast, secure, and free web browser, built for the modern web.",
+    "homepage": "https://www.google.com/chrome/dev",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://www.google.com/chrome/privacy/eula_text.html"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://dl.google.com/release2/chrome/ad5o2lor4apfm5dkk2mdvgouptpq_113.0.5653.0/113.0.5653.0_chrome_installer.exe#/dl.7z",
+            "hash": "7253caa7da75da336ad36fd82b99a742e8befa73bb74f0de444e96dfb334353b"
+        },
+        "32bit": {
+            "url": "https://dl.google.com/release2/chrome/da5ambzsrcdvr7sql3pusiptv4_113.0.5653.0/113.0.5653.0_chrome_installer.exe#/dl.7z",
+            "hash": "33d921381049d12f173cce1b0e79d4ecfb6f199d4ff07063d09c37da03d42149"
+        }
+    },
+    "installer": {
+        "script": "Expand-7zipArchive \"$dir\\chrome.7z\" -ExtractDir 'Chrome-bin' -Removal"
+    },
+    "bin": [
+        [
+            "chrome.exe",
+            "chrome-dev"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "chrome.exe",
+            "Google Chrome (Dev)"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.iplaysoft.com/tools/chrome/",
+        "regex": "(?sm)Windows 开发版 64 位.*?dl.google.com/release2/chrome/(?<64>[\\w.-]+)/(?<version64>[\\d.]+)_chrome_installer\\.exe.*?Windows 开发版 32 位.*?dl.google.com/release2/chrome/(?<32>[\\w.-]+)/(?<version32>[\\d.]+)_chrome_installer\\.exe",
+        "replace": "${version64}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://dl.google.com/release2/chrome/$match64/$matchVersion64_chrome_installer.exe#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://dl.google.com/release2/chrome/$match32/$matchVersion32_chrome_installer.exe#/dl.7z"
+            }
+        }
+    }
+}

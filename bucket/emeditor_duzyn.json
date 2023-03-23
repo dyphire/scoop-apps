@@ -1,0 +1,50 @@
+{
+    "version": "22.2.916",
+    "description": "A fast, lightweight and extensible text editor for Windows. Useful for opening very large files.",
+    "homepage": "https://www.emeditor.com/",
+    "license": "Shareware",
+    "architecture": {
+        "64bit": {
+            "url": "https://emeditor.blob.core.windows.net/emed64_22.2.916_portable.zip",
+            "hash": "9dda287f68b0aecfa40f7a579221ecb7e9727f2a993b5f61db828f1fd7f2d356"
+        },
+        "32bit": {
+            "url": "https://emeditor.blob.core.windows.net/emed32_22.2.916_portable.zip",
+            "hash": "8c581ff96eacfc555531aebf2cbb82503d6f644c44b65836e9d104ec5c13c258"
+        }
+    },
+    "pre_install": [
+        "$manifest.persist | ForEach-Object {",
+        "    if ([io.path]::GetExtension($_)) {",
+        "        if (!(Test-Path \"$persist_dir\\$_\")) { New-Item \"$dir\\$_\" | Out-Null }",
+        "    }",
+        "}"
+    ],
+    "bin": "EmEditor.exe",
+    "shortcuts": [
+        [
+            "EmEditor.exe",
+            "EmEditor"
+        ]
+    ],
+    "persist": [
+        "eeCommon.ini",
+        "eeConfig.ini",
+        "eeLM.ini",
+        "eePlugins.ini"
+    ],
+    "checkver": {
+        "url": "https://support.emeditor.com/en/downloads",
+        "regex": "v([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://emeditor.blob.core.windows.net/emed64_$version_portable.zip"
+            },
+            "32bit": {
+                "url": "https://emeditor.blob.core.windows.net/emed32_$version_portable.zip"
+            }
+        }
+    }
+}
