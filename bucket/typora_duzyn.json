@@ -1,0 +1,45 @@
+{
+    "version": "1.5.9",
+    "description": "A truly minimal markdown editor",
+    "homepage": "https://typora.io",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://support.typora.io/License-Agreement/"
+    },
+    "notes": [
+        "This package has a 15-day free trial",
+        "For free version (old beta version), install: versions/typora0.11.18"
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://download.typora.io/windows/typora-setup-x64-1.5.9.exe",
+            "hash": "cfb8fe7ea42368fba9d3207bc54dc564a86edec858070e373068eadcac56c5e7"
+        },
+        "32bit": {
+            "url": "https://download.typora.io/windows/typora-setup-ia32-1.5.9.exe",
+            "hash": "3767362106e8d62b61810e62696a306fce2b44814e5a87c4149fe723c95bf711"
+        }
+    },
+    "innosetup": true,
+    "bin": "Typora.exe",
+    "shortcuts": [
+        [
+            "Typora.exe",
+            "Typora"
+        ]
+    ],
+    "checkver": {
+        "url": "https://typora.io/releases/stable",
+        "regex": "<h2>([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download.typora.io/windows/typora-setup-x64-$version.exe"
+            },
+            "32bit": {
+                "url": "https://download.typora.io/windows/typora-setup-ia32-$version.exe"
+            }
+        }
+    }
+}
