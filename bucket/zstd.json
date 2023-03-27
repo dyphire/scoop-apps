@@ -6,7 +6,8 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/facebook/zstd/releases/download/v1.5.4/zstd-v1.5.4-win64.zip",
-            "hash": "0f4e67626f8d758a219c24e780a556a88a7baf4793e95802e55a789f9a4d3cc6"
+            "hash": "0f4e67626f8d758a219c24e780a556a88a7baf4793e95802e55a789f9a4d3cc6",
+            "extract_dir": "zstd-v1.5.4-win64"
         }
     },
     "bin": "zstd.exe",
@@ -16,7 +17,8 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/facebook/zstd/releases/download/v$version/zstd-v$version-win64.zip"
+                "url": "https://github.com/facebook/zstd/releases/download/v$version/zstd-v$version-win64.zip",
+                "extract_dir": "zstd-v$version-win64"
             }
         }
     }

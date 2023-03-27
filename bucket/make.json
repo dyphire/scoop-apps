@@ -1,16 +1,13 @@
 {
-    "version": "4.4.1",
-    "description": "Build automation tool.",
-    "homepage": "https://www.gnu.org/software/make/",
-    "license": "GPL-3.0-or-later",
-    "url": "https://downloads.sourceforge.net/project/ezwinports/make-4.4.1-without-guile-w32-bin.zip",
-    "hash": "sha1:f5d9f5450536bfb6dc11c5053cd36ba3699aafa5",
-    "bin": "bin\\make.exe",
-    "checkver": {
-        "url": "https://sourceforge.net/projects/ezwinports/files",
-        "regex": "/files/make-([\\d.]+)-without-guile-w32-bin.zip"
-    },
-    "autoupdate": {
-        "url": "https://downloads.sourceforge.net/project/ezwinports/make-$version-without-guile-w32-bin.zip"
-    }
+	"homepage": "https://ezwinports.sourceforge.io/",
+	"version": "4.3",
+	"license": "GPLv3",
+	"url": "https://downloads.sourceforge.net/project/ezwinports/make-4.3-without-guile-w32-bin.zip",
+	"hash": "sha256:835f19a24d952b281a27884b8c972ca00da38cf01f7c52226738b58b021f7c4a",
+	"bin": [
+		["bin/make.exe", "make", "MAKE=make"],
+		["bin/make.exe", "gmake", "MAKE=gmake"],
+		["bin/make.exe", "gnumake", "MAKE=gnumake"],
+		["bin/make.exe", "gnu-make", "MAKE=gnu-make"]
+	]
 }

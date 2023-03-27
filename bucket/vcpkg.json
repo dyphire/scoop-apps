@@ -1,13 +1,14 @@
 {
+    "homepage": "https://github.com/microsoft/vcpkg",
+    "description": "C++ Library Manager",
     "version": "2023.02.24",
-    "description": "C/C++ dependency manager from Microsoft For all platforms, buildsystems, and workflows",
-    "homepage": "https://vcpkg.io/",
     "license": "MIT",
-    "url": "https://github.com/microsoft/vcpkg/archive/refs/tags/2023.02.24.zip",
-    "hash": "5b98ef4854e3072b298d25317f0ff1de4c59327b907e7875becc729d0d27b29e",
+    "url": "https://github.com/microsoft/vcpkg/archive/2023.02.24.zip",
     "extract_dir": "vcpkg-2023.02.24",
+    "hash": "5b98ef4854e3072b298d25317f0ff1de4c59327b907e7875becc729d0d27b29e",
     "installer": {
         "file": "bootstrap-vcpkg.bat",
+        "args": "-disableMetrics",
         "keep": true
     },
     "bin": "vcpkg.exe",
@@ -16,16 +17,12 @@
         "script": "vcpkg integrate remove"
     },
     "persist": [
-        "buildtrees",
         "downloads",
-        "installed",
-        "packages"
+        "installed"
     ],
-    "checkver": {
-        "github": "https://github.com/microsoft/vcpkg/"
-    },
+    "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/microsoft/vcpkg/archive/refs/tags/$version.zip",
+        "url": "https://github.com/microsoft/vcpkg/archive/$version.zip",
         "extract_dir": "vcpkg-$version"
     }
 }

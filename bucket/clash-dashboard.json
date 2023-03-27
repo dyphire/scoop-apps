@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/Dreamacro/clash-dashboard",
     "description": "web port of clash",
-    "version": "5c86e9de19f730293117da967fa6c5431ae8a1bf",
-    "url": "https://ghproxy.com/https://github.com/Dreamacro/clash-dashboard/archive/5c86e9de19f730293117da967fa6c5431ae8a1bf.zip",
-    "hash": "187e3f6fa5dc697056ef6731c36e3a0bf733335730b02a1ff0e3f5717abdfc1f",
+    "version": "6a157ecd861b788e142cc01aa223b5c1f126415d",
+    "url": "https://github.com/Dreamacro/clash-dashboard/archive/6a157ecd861b788e142cc01aa223b5c1f126415d.zip",
+    "hash": "cc8f80fdbc7085ef0d8743430e3281b7a872d373079ebab64de74a460a0fd5c1",
     "pre_install": [
         "Move-Item -Path \"$dir\\clash-dashboard-$version\\*\" -Destination \"$dir\\\"",
         "Remove-Item \"$dir\\clash-dashboard-$version\""
@@ -14,7 +14,6 @@
         "re": "/Dreamacro/clash-dashboard/commit/([a-z0-9]+)"
     },
     "autoupdate": {
-        "url": "https://ghproxy.com/https://github.com/Dreamacro/clash-dashboard/archive/$version.zip"
-    },
-    "_from": "everyx/scoop-bucket"
+        "url": "https://github.com/Dreamacro/clash-dashboard/archive/$version.zip"
+    }
 }

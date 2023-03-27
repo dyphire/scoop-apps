@@ -5,11 +5,11 @@
     "license": "Freeware",
     "architecture": {
         "32bit": {
-            "url": "https://ghproxy.com/https://github.com/projectdiscovery/naabu/releases/download/v2.1.4/naabu_2.1.4_windows_386.zip",
+            "url": "https://github.com/projectdiscovery/naabu/releases/download/v2.1.4/naabu_2.1.4_windows_386.zip",
             "hash": "0bbfb8c1f9ba3c9064af8680b6278dba69a7b0281493c65c1be42b5be2670f45"
         },
         "64bit": {
-            "url": "https://ghproxy.com/https://github.com/projectdiscovery/naabu/releases/download/v2.1.4/naabu_2.1.4_windows_amd64.zip",
+            "url": "https://github.com/projectdiscovery/naabu/releases/download/v2.1.4/naabu_2.1.4_windows_amd64.zip",
             "hash": "390dfb522b4b9a6275d0aa61bf46318ff2627f4211a352d3489c35d19be7ca85"
         }
     },
@@ -18,12 +18,11 @@
     "autoupdate": {
         "architecture": {
             "32bit": {
-                "url": "https://ghproxy.com/https://github.com/projectdiscovery/naabu/releases/download/v$version/naabu_$version_windows_386.zip"
+                "url": "https://github.com/projectdiscovery/naabu/releases/download/v$version/naabu_$version_windows_386.zip"
             },
             "64bit": {
-                "url": "https://ghproxy.com/https://github.com/projectdiscovery/naabu/releases/download/v$version/naabu_$version_windows_amd64.zip"
+                "url": "https://github.com/projectdiscovery/naabu/releases/download/v$version/naabu_$version_windows_amd64.zip"
             }
         }
-    },
-    "_from": "ViCrack/scoop-bucket"
+    }
 }

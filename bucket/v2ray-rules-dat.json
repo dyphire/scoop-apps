@@ -1,15 +1,11 @@
 {
-    "autoupdate": {
-        "hash": {
-            "url": "$url.sha256sum"
-        },
-        "url": "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/$version/rules.zip"
-    },
-    "checkver": "github",
-    "depends": "v2ray",
+    "version": "202303252209",
     "description": "Enhanced ruleset for V2Ray (unofficial)",
-    "hash": "66520c259eb401565288436aeaafd455e2a4ffcc2935e7ccf77989b5690b4a2a",
     "homepage": "https://github.com/Loyalsoldier/v2ray-rules-dat",
+    "license": "GPL-3.0-only",
+    "depends": "mochi/v2ray",
+    "url": "https://download.fastgit.org/Loyalsoldier/v2ray-rules-dat/releases/download/202303252209/rules.zip",
+    "hash": "de2fdf677c13b7e4048c5f9d5ed41f69192c585854ac34f0eea4eb55a7e255f3",
     "installer": {
         "script": [
             "if (-not (Test-Path \"$persist_dir\\v2ray-rules-dat\")) {",
@@ -24,17 +20,21 @@
             "LinkFile 'geosite.dat'"
         ]
     },
-    "license": "GPL-3.0-only",
-    "persist": [
-        "geoip.dat.bak",
-        "geosite.dat.bak"
-    ],
     "uninstaller": {
         "script": [
             "Copy-Item \"$dir\\geoip.dat.bak\" -Destination \"$(appdir v2ray $global)\\current\\geoip.dat\" -Force",
             "Copy-Item \"$dir\\geosite.dat.bak\" -Destination \"$(appdir v2ray $global)\\current\\geosite.dat\" -Force"
         ]
     },
-    "url": "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/202303102209/rules.zip",
-    "version": "202303102209"
+    "persist": [
+        "geoip.dat.bak",
+        "geosite.dat.bak"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://download.fastgit.org/Loyalsoldier/v2ray-rules-dat/releases/download/$version/rules.zip",
+        "hash": {
+            "url": "$url.sha256sum"
+        }
+    }
 }

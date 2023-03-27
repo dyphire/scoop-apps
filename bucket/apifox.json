@@ -1,23 +1,25 @@
 {
-    "version": "2.2.24",
-    "description": "Apifox 是 API 文档、API 调试、API Mock、API 自动化测试一体化协作平台，定位 Postman + Swagger + Mock + JMeter。",
+    "version": "nightly",
+    "description": "Apifox = Postman + Swagger + Mock + JMeter",
     "homepage": "https://www.apifox.cn/",
-    "license": "Freeware",
+    "license": {
+        "identifier": "Freeware"
+    },
     "architecture": {
-        "32bit": {
-            "url": "https://cdn.apifox.cn/download/2.1.25/Apifox-windows-x86-2.1.25.exe#/dl.7z",
-            "hash": "80412de1c7bcdd668d7064f1001c4439d587e36267756e799d5c7a152ac5399c",
+        "64bit": {
+            "url": "https://cdn.apifox.cn/download/Apifox-windows-latest.zip",
             "pre_install": [
-                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\"",
-                "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Force -Recurse"
+                "Expand-7zipArchive $(Get-Item \"$dir\\Apifox*.exe\").FullName \"$dir\" -Removal",
+                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+                "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Recurse"
             ]
         },
-        "64bit": {
-            "url": "https://cdn.apifox.cn/download/2.1.25/Apifox-2.1.25.exe#/dl.7z",
-            "hash": "b545cdf256712b06b3c6e0b680f16b1fb53c8a4bc4cd4e4b18eec7fc9ea994d4",
+        "32bit": {
+            "url": "https://cdn.apifox.cn/download/Apifox-win32-latest.zip",
             "pre_install": [
-                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
-                "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Force -Recurse"
+                "Expand-7zipArchive $(Get-Item \"$dir\\Apifox*.exe\").FullName \"$dir\" -Removal",
+                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\"",
+                "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Recurse"
             ]
         }
     },
@@ -26,17 +28,5 @@
             "Apifox.exe",
             "Apifox"
         ]
-    ],
-    "checkver": {
-        "url": "https://cdn.apifox.cn/download/latest.yml",
-        "regex": "version: ([\\d.]+)"
-    },
-    "autoupdate": {
-        "32bit": {
-            "url": "https://cdn.apifox.cn/download/$version/Apifox-windows-x86-$version.exe#/dl.7z"
-        },
-        "64bit": {
-            "url": "https://cdn.apifox.cn/download/$version/Apifox-$version.exe#/dl.7z"
-        }
-    }
+    ]
 }

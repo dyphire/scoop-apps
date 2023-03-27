@@ -2,7 +2,7 @@
     "homepage": "https://github.com/alibaba/nacos",
     "license": "Apache-2.0",
     "version": "2.2.1",
-    "url": "https://ghproxy.com/https://github.com/alibaba/nacos/releases/download/2.2.1/nacos-server-2.2.1.zip",
+    "url": "https://github.com/alibaba/nacos/releases/download/2.2.1/nacos-server-2.2.1.zip",
     "hash": "3d44cbcc53435e7d8e3b38ca2d6d3f017de97991ac65980293d587b4040eec43",
     "extract_dir": "nacos",
     "bin": [
@@ -28,8 +28,7 @@
         "github": "https://github.com/alibaba/nacos"
     },
     "autoupdate": {
-        "url": "https://ghproxy.com/https://github.com/alibaba/nacos/releases/download/$version/nacos-server-$version.zip",
+        "url": "https://github.com/alibaba/nacos/releases/download/$version/nacos-server-$version.zip",
         "extract_dir": "nacos"
-    },
-    "_from": "zhoujin7/tomato"
+    }
 }

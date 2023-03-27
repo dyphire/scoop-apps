@@ -1,18 +1,24 @@
 {
+    "homepage": "https://crates.io/crates/mdcat",
+    "description": "cat for Markdown",
+    "license": "Apache-2.0",
     "version": "1.1.1",
-    "description": "cat for markdown",
-    "homepage": "https://github.com/lunaryorn/mdcat",
-    "license": "MPL-2.0",
     "architecture": {
         "64bit": {
             "url": "https://github.com/lunaryorn/mdcat/releases/download/mdcat-1.1.1/mdcat-1.1.1-x86_64-pc-windows-msvc.zip",
             "hash": "sha512:da9e9844dacd421e754d0c5bf421a2656fc9650f2de17c87b28f4f118192b818d50d5c217f90c54010f10c568a148fdad5141e3f7a4e0754e83d34d2bd7c592f"
         }
     },
-    "bin": "mdcat.exe",
+    "installer": {
+        "script": "Copy-Item \"$dir\\mdcat.exe\" \"$dir\\mdless.exe\""
+    },
+    "bin": [
+        "mdcat.exe",
+        "mdless.exe"
+    ],
     "checkver": {
-        "github": "https://github.com/lunaryorn/mdcat",
-        "regex": "mdcat-([\\d.]+)"
+        "url": "https://github.com/lunaryorn/mdcat/releases/latest",
+        "regex": "\\/releases\\/tag\\/mdcat-([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
