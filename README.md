@@ -64,15 +64,15 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - TheRandomLabs/Scoop-Python
 - wzv5/ScoopBucket
 - naderi/scoop-bucket
+- akirco/aki-apps
 - ChungZH/peach
 - 42wim/scoop-bucket
 - ygguorun/scoop-bucket
 - ViCrack/scoop-bucket
-- akirco/aki-apps
 - iquiw/scoop-bucket
 - batkiz/backit
-- AStupidBear/scoop-bear
 - niheaven/scoop-sysinternals
+- AStupidBear/scoop-bear
 - cc713/ownscoop
 - mogeko/scoop-sysinternals
 - amorphobia/siku
