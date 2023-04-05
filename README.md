@@ -58,11 +58,11 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - Qv2ray/mochi
 - ZvonimirSun/scoop-iszy
 - ScoopInstaller/Nonportable
-- zhoujin7/tomato
 - kiennq/scoop-misc
+- zhoujin7/tomato
 - wangzq/scoop-bucket
-- TheRandomLabs/Scoop-Python
 - wzv5/ScoopBucket
+- TheRandomLabs/Scoop-Python
 - naderi/scoop-bucket
 - akirco/aki-apps
 - ChungZH/peach
