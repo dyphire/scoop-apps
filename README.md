@@ -73,13 +73,13 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - batkiz/backit
 - niheaven/scoop-sysinternals
 - AStupidBear/scoop-bear
+- NyaMisty/scoopbucketmisty
 - cc713/ownscoop
 - mogeko/scoop-sysinternals
 - amorphobia/siku
 - jonz94/scoop-sarasa-nerd-fonts
 - jfut/scoop-jfut
 - krproject/qi-windows
-- NyaMisty/scoopbucketmisty
 - rivy/scoop-bucket
 - excitoon/scoop-user
 - Darkatse/Scoop-Darkatse
