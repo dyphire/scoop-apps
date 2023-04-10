@@ -31,13 +31,13 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - ScoopInstaller/Extras
 - chawyehsu/dorado
 - matthewjberger/scoop-nerd-fonts
+- ivaquero/scoopet
 - Calinou/scoop-games
 - ScoopInstaller/Java
-- ivaquero/scoopet
 - borger/scoop-galaxy-integrations
 - TheRandomLabs/scoop-nonportable
-- ScoopInstaller/Versions
 - TheCjw/scoop-retools
+- ScoopInstaller/Versions
 - kodybrown/scoop-nirsoft
 - L-Trump/scoop-raresoft
 - littleli/scoop-clojure
