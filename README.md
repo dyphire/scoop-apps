@@ -66,10 +66,10 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - naderi/scoop-bucket
 - akirco/aki-apps
 - niheaven/scoop-sysinternals
+- 42wim/scoop-bucket
 - ygguorun/scoop-bucket
 - ViCrack/scoop-bucket
 - ChungZH/peach
-- 42wim/scoop-bucket
 - NyaMisty/scoopbucketmisty
 - jonz94/scoop-sarasa-nerd-fonts
 - iquiw/scoop-bucket
