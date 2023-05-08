@@ -1,33 +1,38 @@
 {
-	"version": "3.0.5",
-	"description": "Google's mobile app SDK for crafting high-quality native interfaces on iOS and Android",
+	"version": "3.7.12",
+	"description": "Google's SDK for crafting beautiful, fast user experiences for mobile, web, and desktop",
 	"homepage": "https://flutter.dev",
 	"license": "BSD-3-Clause",
-	"depends": [
-		"android-sdk",
-		"java/temurin8-jdk" /* from `scoop install bucket java https://github.com/ScoopInstaller/Java */
-		// "https://raw.githubusercontent.com/ScoopInstaller/Java/master/bucket/temurin8-jdk.json"
-	],
-	"suggest": { "Visual Studio Code with Flutter Extension": "vscode" },
+	"depends": ["android-sdk"],
+	"suggest": {
+		"Android SDK Tools": "android-clt",
+		"Android Studio": "extras/android-studio",
+		"Java": [
+			"java/oraclejdk-lts",
+			"java/openjdk11",
+			"java/temurin8-jdk" /* or // "https://raw.githubusercontent.com/ScoopInstaller/Java/master/bucket/temurin8-jdk.json" */
+		], /* from `scoop bucket add java https://github.com/ScoopInstaller/Java */
+		"Visual Studio Code with Flutter extension": "extras/vscode"
+	},
 	"url": [
-		"https://storage.googleapis.com/flutter_infra_release/releases/stable/windows/flutter_windows_3.0.5-stable.zip",
+		"https://storage.googleapis.com/flutter_infra_release/releases/stable/windows/flutter_windows_3.7.12-stable.zip",
 		// "https://raw.githubusercontent.com/ScoopInstaller/Extras/master/scripts/flutter-dev-setup.ps1"
 		"https://gist.githubusercontent.com/rivy/9f76563589188990c9f2facb2ff24fcf/raw/69b3e98e8e2a51bcd6107043497dffbe8627b9be/flutter-dev-setup.ps1"
 	],
 	"hash": [
-		"sha256:487528699af7a0536e7cd8c770e8c0626d7449864ab12c0bfed770b2d0f99b95",
+		"sha256:31627616bed50083f6512ff72e65fc1887824554664bc7f25f3de023589d6137",
 		"sha256:e953a62d8bd0a72bdce2822e7ebe2a24e4f1255feb8f514c0350b605f1ad8afe"
 	],
 	"extract_dir": "flutter",
 	"post_install": [
-		"flutter-dev-setup.ps1",
+		// "iex \"$dir\\flutter-dev-setup.ps1\"",
 		// "Write-Host 'Some licenses need to be accepted before developing. It is recommended to do by running ''flutter doctor --android-licenses''.' -ForegroundColor Yellow",
 		"flutter doctor"
 		// "flutter doctor --android-licenses"
 	],
-	"bin": ["bin\\flutter.bat", "flutter-dev-setup.ps1"],
+	// "bin": ["bin\\flutter.bat", "flutter-dev-setup.ps1"],
+	"env_add_path": ["bin", "bin\\cache\\dart-sdk\\bin"],
 	"env_set": { "FLUTTER_ROOT": "$dir" },
-	"env_add_path": "bin\\cache\\dart-sdk\\bin",
 	"checkver": {
 		"url": "https://storage.googleapis.com/flutter_infra_release/releases/releases_windows.json",
 		"regex": "windows_(v?[\\d.]+)(?<delim>[-+]?)(?<build>[\\w.]*)-stable",
@@ -39,5 +44,8 @@
 			"url": "https://storage.googleapis.com/flutter_infra_release/releases/releases_windows.json",
 			"jsonpath": "$.releases[?(@.archive =~ /.*flutter_windows_$matchHead$matchDelim$matchBuild-stable.zip/)].sha256"
 		}
-	}
+	},
+	"#notes": [
+		" - Run 'flutter doctor' to see if there are any platform dependencies you need to complete the setup."
+	]
 }
