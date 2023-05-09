@@ -1,18 +1,19 @@
 {
-    "version": "EA-3574",
-    "description": "Nintendo Switch emulator",
-    "homepage": "https://github.com/pineappleEA/pineapple-src",
+    "$schema": "https://raw.githubusercontent.com/ScoopInstaller/Scoop/master/schema.json",
+    "version": "20230509.7",
+    "description": "Experimental emulator for the Nintendo Switch",
+    "homepage": "https://yuzu-emu.org/",
     "license": {
         "identifier": "GPL-2.0",
-        "url": "https://github.com/pineappleEA/pineapple-src/blob/main/LICENSE"
+        "url": "https://github.com/yuzu-emu/yuzu-mainline/blob/master/license.txt"
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/pineappleEA/pineapple-src/releases/download/EA-3574/Windows-Yuzu-EA-3574.zip",
-            "hash": "8fdb4f7323b768c353ab3d77f80f73e80cd619a547add9e0df62764a8fc4bd36"
+            "url": "https://github.com/kiennq/yuzu-build/releases/download/ea-20230509.7/yuzu-windows-msvc-20230508-16d244d50.7z",
+            "hash": "c8ba94183a11be2c7f7cdd1e07414f19908669a67fcd6317e1a05d31ad3d9471"
         }
     },
-    "extract_dir": "yuzu-windows-msvc-early-access",
+    "extract_dir": "yuzu-windows-msvc-ea",
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\")) {",
         "   New-item \"$persist_dir\" -ItemType Directory | Out-Null",
@@ -27,17 +28,17 @@
     "bin": [
         [
             "yuzu.exe",
-            "yuzu-dev"
+            "yuzu-ea"
         ],
         [
             "yuzu-cmd.exe",
-            "yuzu-cmd-dev"
+            "yuzu-cmd-ea"
         ]
     ],
     "shortcuts": [
         [
             "yuzu.exe",
-            "Yuzu (dev)"
+            "Yuzu (EA)"
         ]
     ],
     "persist": [
@@ -45,13 +46,13 @@
         "plugins"
     ],
     "checkver": {
-        "github": "https://github.com/pineappleEA/pineapple-src",
-        "regex": "(EA-\\d+)"
+        "url": "https://api.github.com/repos/kiennq/yuzu-build/releases/latest",
+        "re": "/download/ea-([\\d.-]+)/yuzu-windows-msvc-(?<date>[\\d]{8})-(?<commit>[\\da-f]+).7z"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/pineappleEA/pineapple-src/releases/download/$version/Windows-Yuzu-$version.zip"
+                "url": "https://github.com/kiennq/yuzu-build/releases/download/ea-$version/yuzu-windows-msvc-$matchDate-$matchCommit.7z"
             }
         }
     }
