@@ -1,8 +1,8 @@
 {
-    "homepage": "https://godoc.org/github.com/gokcehan/lf",
-    "description": "A terminal file manager.",
-    "license": "MIT",
     "version": "r29",
+    "description": "A terminal file manager written in Go",
+    "homepage": "https://godoc.org/github.com/gokcehan/lf",
+    "license": "MIT",
     "architecture": {
         "64bit": {
             "url": "https://github.com/gokcehan/lf/releases/download/r29/lf-windows-amd64.zip",
@@ -14,9 +14,35 @@
         }
     },
     "bin": "lf.exe",
+    "installer": {
+        "script": [
+            "if (!(Test-Path \"$persist_dir\\Cache\")) {",
+            "    New-Item \"$persist_dir\\Cache\" -Type Directory -Force | Out-Null",
+            "}",
+            "$runtimeCache = \"$env:LOCALAPPDATA\\lf\"",
+            "$runtimeCachePersist = \"$persist_dir\\Cache\"",
+            "if (Test-Path $runtimeCachePersist) {",
+            "    Remove-Item $runtimeCache -Force -Recurse -ErrorAction SilentlyContinue",
+            "    New-Item -Type Junction -Path $runtimeCache -Target $runtimeCachePersist | Out-Null",
+            "} else {",
+            "    if (Test-Path $runtimeCache) {",
+            "        Move-Item $runtimeCache $runtimeCachePersist -Force",
+            "        New-Item -Type Junction -Path $runtimeCache -Target $runtimeCachePersist | Out-Null",
+            "    }",
+            "}"
+        ]
+    },
+    "uninstaller": {
+        "script": [
+            "$runtimeCache = \"$env:LOCALAPPDATA\\lf\"",
+            "$runtimeCachePersist = \"$persist_dir",
+            "Remove-Item $runtimeCache -Force -Recurse -ErrorAction SilentlyContinue",
+            "Remove-Item $runtimeCachePersist -Force -Recurse -ErrorAction SilentlyContinue"
+        ]
+    },
     "checkver": {
-        "url": "https://github.com/gokcehan/lf/releases",
-        "re": "/releases/tag/(?:v|V)?(r[\\d.]+)"
+        "github": "https://github.com/gokcehan/lf/",
+        "regex": "tag/(r[\\d]+)"
     },
     "autoupdate": {
         "architecture": {
