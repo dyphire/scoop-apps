@@ -60,8 +60,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - ZvonimirSun/scoop-iszy
 - ScoopInstaller/Nonportable
 - kiennq/scoop-misc
-- zhoujin7/tomato
 - wangzq/scoop-bucket
+- zhoujin7/tomato
 - wzv5/ScoopBucket
 - TheRandomLabs/Scoop-Python
 - akirco/aki-apps
