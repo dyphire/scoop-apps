@@ -35,8 +35,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - Calinou/scoop-games
 - ScoopInstaller/Java
 - borger/scoop-galaxy-integrations
-- ScoopInstaller/Versions
 - TheRandomLabs/scoop-nonportable
+- ScoopInstaller/Versions
 - TheCjw/scoop-retools
 - kodybrown/scoop-nirsoft
 - L-Trump/scoop-raresoft
