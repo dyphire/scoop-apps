@@ -69,8 +69,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - niheaven/scoop-sysinternals
 - ViCrack/scoop-bucket
 - 42wim/scoop-bucket
-- ygguorun/scoop-bucket
 - ChungZH/peach
+- ygguorun/scoop-bucket
 - NyaMisty/scoopbucketmisty
 - jonz94/scoop-sarasa-nerd-fonts
 - iquiw/scoop-bucket
