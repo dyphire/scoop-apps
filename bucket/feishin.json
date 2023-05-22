@@ -1,12 +1,12 @@
 {
-    "version": "0.0.1-alpha6",
+    "version": "0.1.1",
     "description": "Rewrite of Sonixd, a full-featured Subsonic/Jellyfin compatible desktop music player.",
     "homepage": "https://github.com/jeffvli/feishin",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/jeffvli/feishin/releases/download/v0.0.1-alpha6/Feishin-0.0.1-alpha6-win-x64.zip",
-            "hash": "aa5f23db7cf2627debd5ee1777e0378232337e6fd7bdf64eef378a7d1ea16068"
+            "url": "https://github.com/jeffvli/feishin/releases/download/v0.1.1/Feishin-0.1.1-win-x64.zip",
+            "hash": "c5404e4ca984ddb507f23073c23bc47a0760ebd11a1c0bf1bac912c8871497d9"
         }
     },
     "post_install": "Remove-Item \"$dir\\resources\\app-update.yml\"  -Force",
