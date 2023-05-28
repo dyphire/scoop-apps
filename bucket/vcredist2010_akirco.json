@@ -1,19 +1,19 @@
 {
-    "version": "11.0.61030.0",
-    "description": "Microsoft Visual C++ Redistributable for Visual Studio 2012.",
+    "version": "10.0.40219.473",
+    "description": "Microsoft Visual C++ Redistributable for Visual Studio 2010",
     "homepage": "https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads",
     "license": {
         "identifier": "Freeware",
         "url": "https://www.microsoft.com/en-us/legal/intellectualproperty/copyright/default.aspx"
     },
-    "notes": "You can now remove this installer with 'scoop uninstall vcredist2012'",
+    "notes": "You can now remove this installer with 'scoop uninstall vcredist2010'",
     "url": [
-        "https://download.microsoft.com/download/1/6/B/16B06F60-3B20-4FF2-B699-5E9B7962F9AE/VSU_4/vcredist_x64.exe",
-        "https://download.microsoft.com/download/1/6/B/16B06F60-3B20-4FF2-B699-5E9B7962F9AE/VSU_4/vcredist_x86.exe"
+        "https://download.microsoft.com/download/E/E/0/EE05C9EF-A661-4D9E-BCE2-6961ECDF087F/vcredist_x64.exe",
+        "https://download.microsoft.com/download/E/E/0/EE05C9EF-A661-4D9E-BCE2-6961ECDF087F/vcredist_x86.exe"
     ],
     "hash": [
-        "681be3e5ba9fd3da02c09d7e565adfa078640ed66a0d58583efad2c1e3cc4064",
-        "b924ad8062eaf4e70437c8be50fa612162795ff0839479546ce907ffa8d6e386"
+        "7ba40e8c2dbcec6d0b83b94e719ea9291c2ebc4fd9d4f34dce6f852739841ed7",
+        "1df24320ae1b974a42fc37f852d962c0e2f0e62bb339585fc862bb15d5a5d216"
     ],
     "post_install": [
         "# For error codes, see https://docs.microsoft.com/en-us/windows/win32/msi/error-codes",
