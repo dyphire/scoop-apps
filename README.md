@@ -69,11 +69,11 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - naderi/scoop-bucket
 - ViCrack/scoop-bucket
 - iquiw/scoop-bucket
-- ChungZH/peach
 - 42wim/scoop-bucket
 - ygguorun/scoop-bucket
 - NyaMisty/scoopbucketmisty
 - jonz94/scoop-sarasa-nerd-fonts
+- ChungZH/peach
 - batkiz/backit
 - AStupidBear/scoop-bear
 - amorphobia/siku
