@@ -1,19 +1,19 @@
 {
-    "version": "99.0.4788.9",
-    "description": "Opera. Fast, secure, easy-to-use browser.",
-    "homepage": "https://www.opera.com/",
+    "version": "0",
+    "description": "Opera Beta. Fast, secure, easy-to-use browser.",
+    "homepage": "https://www.opera.com/browsers/opera/beta",
     "license": {
         "identifier": "Freeware",
         "url": "https://www.opera.com/eula/computers"
     },
     "architecture": {
         "64bit": {
-            "url": "https://download1.operacdn.com/pub/opera/desktop/99.0.4788.9/win/Opera_99.0.4788.9_Autoupdate_x64.exe#/dl.7z",
-            "hash": "61e0e758f20be3fff1740e4bc384f08c39e616949fabcee0c5c983a25bd55419"
+            "url": "https://download1.operacdn.com/pub/opera-developer/0/win/Opera_Developer_0_Setup_x64.exe#/dl.7z",
+            "hash": "56c06f1a58751e10235a2c3a5e56702387f4bf851c20e1157f6662b5c5f691f6"
         },
         "32bit": {
-            "url": "https://download1.operacdn.com/pub/opera/desktop/99.0.4788.9/win/Opera_99.0.4788.9_Autoupdate.exe#/dl.7z",
-            "hash": "6e6cac096e123613f40a3e9763db08c34444be7798d52926552acfa129a9a5df"
+            "url": "https://download1.operacdn.com/pub/opera-developer/0/win/Opera_Developer_0_Setup.exe#/dl.7z",
+            "hash": "81597cf9375c5558a755e8a1dff318d1ca9a98add8ce66a3a316e461562e460b"
         }
     },
     "installer": {
@@ -30,22 +30,25 @@
     "shortcuts": [
         [
             "launcher.exe",
-            "Opera"
+            "Opera Beta"
         ]
     ],
     "persist": "profile",
     "checkver": {
-        "url": "https://community.chocolatey.org/packages/opera",
-        "regex": "Chocolatey Software | Opera ([\\d.]+)"
+        "url": "https://community.chocolatey.org/packages/opera-beta",
+        "regex": "Chocolatey Software | Opera Beta ([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download1.operacdn.com/pub/opera/desktop/$version/win/Opera_$version_Autoupdate_x64.exe#/dl.7z"
+                "url": "https://download1.operacdn.com/pub/opera-beta/$version/win/Opera_Beta_$version_Setup_x64.exe#/dl.7z"
             },
             "32bit": {
-                "url": "https://download1.operacdn.com/pub/opera/desktop/$version/win/Opera_$version_Autoupdate.exe#/dl.7z"
+                "url": "https://download1.operacdn.com/pub/opera-beta/$version/win/Opera_Beta_$version_Setup.exe#/dl.7z"
             }
+        },
+        "hash": {
+            "url": "$url.sha256sum"
         }
     }
 }
