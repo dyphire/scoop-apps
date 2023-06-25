@@ -78,6 +78,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - AStupidBear/scoop-bear
 - amorphobia/siku
 - mogeko/scoop-sysinternals
+- arch3rPro/scoop-bucket
 - jfut/scoop-jfut
 - krproject/qi-windows
 - rivy/scoop-bucket
@@ -86,7 +87,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - cc713/ownscoop
 - Velgus/Scoop-Portapps
 - aoisummer/scoop-bucket
-- arch3rPro/scoop-bucket
 - seumsc/scoop-seu
 - alextwothousand/scoop-bucket
 - hu3rror/scoop-muggle
