@@ -59,6 +59,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - borger/scoop-emulators
 - ZvonimirSun/scoop-iszy
 - Qv2ray/mochi
+- kiennq/scoop-misc
 - wangzq/scoop-bucket
 - zhoujin7/tomato
 - TheRandomLabs/Scoop-Python
@@ -76,8 +77,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - batkiz/backit
 - AStupidBear/scoop-bear
 - amorphobia/siku
-- mogeko/scoop-sysinternals
 - arch3rPro/scoop-bucket
+- mogeko/scoop-sysinternals
 - jfut/scoop-jfut
 - krproject/qi-windows
 - rivy/scoop-bucket
