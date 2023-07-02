@@ -35,8 +35,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - Calinou/scoop-games
 - ScoopInstaller/Java
 - borger/scoop-galaxy-integrations
-- ScoopInstaller/Versions
 - TheRandomLabs/scoop-nonportable
+- ScoopInstaller/Versions
 - TheCjw/scoop-retools
 - L-Trump/scoop-raresoft
 - kodybrown/scoop-nirsoft
@@ -52,8 +52,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - ACooper81/scoop-apps
 - hermanjustnu/scoop-emulators
 - cderv/r-bucket
-- ScoopInstaller/Nonportable
 - everyx/scoop-bucket
+- ScoopInstaller/Nonportable
 - dodorz/scoop
 - TheRandomLabs/Scoop-Bucket
 - borger/scoop-emulators
@@ -67,8 +67,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - akirco/aki-apps
 - naderi/scoop-bucket
 - ViCrack/scoop-bucket
-- niheaven/scoop-sysinternals
 - iquiw/scoop-bucket
+- niheaven/scoop-sysinternals
 - 42wim/scoop-bucket
 - ygguorun/scoop-bucket
 - NyaMisty/scoopbucketmisty
