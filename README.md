@@ -52,11 +52,11 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - ACooper81/scoop-apps
 - hermanjustnu/scoop-emulators
 - cderv/r-bucket
-- everyx/scoop-bucket
 - ScoopInstaller/Nonportable
+- everyx/scoop-bucket
 - dodorz/scoop
-- TheRandomLabs/Scoop-Bucket
 - borger/scoop-emulators
+- TheRandomLabs/Scoop-Bucket
 - ZvonimirSun/scoop-iszy
 - Qv2ray/mochi
 - kiennq/scoop-misc
