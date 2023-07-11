@@ -76,8 +76,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - ChungZH/peach
 - batkiz/backit
 - AStupidBear/scoop-bear
-- amorphobia/siku
 - arch3rPro/scoop-bucket
+- amorphobia/siku
 - mogeko/scoop-sysinternals
 - jfut/scoop-jfut
 - krproject/qi-windows
