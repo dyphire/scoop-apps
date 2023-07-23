@@ -70,9 +70,9 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - ViCrack/scoop-bucket
 - 42wim/scoop-bucket
 - iquiw/scoop-bucket
+- ygguorun/scoop-bucket
 - batkiz/backit
 - arch3rPro/scoop-bucket
-- ygguorun/scoop-bucket
 - NyaMisty/scoopbucketmisty
 - jonz94/scoop-sarasa-nerd-fonts
 - ChungZH/peach
