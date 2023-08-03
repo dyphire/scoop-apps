@@ -812,6 +812,7 @@ darktable.json    ScoopInstaller/Extras
 gcfscape.json    ScoopInstaller/Extras
 electronics-assistant.json    ScoopInstaller/Extras
 dartium-content-shell.json    ScoopInstaller/Extras
+arcadedb.json    ScoopInstaller/Extras
 hexchat.json    ScoopInstaller/Extras
 freemind.json    ScoopInstaller/Extras
 network-profile-name-changer.json    ScoopInstaller/Extras
@@ -3515,7 +3516,7 @@ fmedia16.json    ScoopInstaller/Versions
 hyper-beta.json    ScoopInstaller/Versions
 idea-rc.json    ScoopInstaller/Versions
 cuda9.2.json    ScoopInstaller/Versions
-python39-beta.json    ScoopInstaller/Versions
+biber-prev.json    ScoopInstaller/Versions
 nodejs14.json    ScoopInstaller/Versions
 go114.json    ScoopInstaller/Versions
 cuda7.0.json    ScoopInstaller/Versions
@@ -3600,7 +3601,6 @@ rstudio-preview.json    ScoopInstaller/Versions
 qview-nightly.json    ScoopInstaller/Versions
 ruby24.json    ScoopInstaller/Versions
 edgedriver-legacy.json    ScoopInstaller/Versions
-python38-beta.json    ScoopInstaller/Versions
 flow031.json    ScoopInstaller/Versions
 ruby30.json    ScoopInstaller/Versions
 git-without-openssh.json    ScoopInstaller/Versions
@@ -7515,6 +7515,7 @@ roslynator.json    wangzq/scoop-bucket
 fsharp4.json    wangzq/scoop-bucket
 dnspy-wangzq.json    wangzq/scoop-bucket
 gptgen.json    wangzq/scoop-bucket
+sqlce_40_runtime.json    wangzq/scoop-bucket
 pswhich.json    wangzq/scoop-bucket
 wtga_wangzq.json    wangzq/scoop-bucket
 fvim_wangzq.json    wangzq/scoop-bucket
@@ -7525,6 +7526,7 @@ grpcui.json    wangzq/scoop-bucket
 sqlmetal.json    wangzq/scoop-bucket
 yumi_wangzq.json    wangzq/scoop-bucket
 iedriver.json    wangzq/scoop-bucket
+exportsqlce40.json    wangzq/scoop-bucket
 doublecmd_wangzq.json    wangzq/scoop-bucket
 vim8.json    wangzq/scoop-bucket
 cronical.json    wangzq/scoop-bucket
@@ -7728,7 +7730,6 @@ youtube-dl.json    akirco/aki-apps
 mysql57_akirco.json    akirco/aki-apps
 vcredist2012_akirco.json    akirco/aki-apps
 tar.json    akirco/aki-apps
-feishu_akirco.json    akirco/aki-apps
 mubu_akirco.json    akirco/aki-apps
 chromedriver.json    akirco/aki-apps
 handbrake-cli.json    akirco/aki-apps
@@ -7970,6 +7971,7 @@ wegameMiniLoader.json    akirco/aki-apps
 clash-dotnet.json    akirco/aki-apps
 dim.json    akirco/aki-apps
 neovim.json    akirco/aki-apps
+crow-translate_akirco.json    akirco/aki-apps
 maven_akirco.json    akirco/aki-apps
 rnr.json    akirco/aki-apps
 firefox-zh-cn_akirco.json    akirco/aki-apps
@@ -8777,7 +8779,6 @@ WindowTop_ygguorun.json    ygguorun/scoop-bucket
 ttfname3.json    ygguorun/scoop-bucket
 MajsoulPaipuAnalyzer.json    ygguorun/scoop-bucket
 DotNetVersions.json    ygguorun/scoop-bucket
-aDrive_ygguorun.json    ygguorun/scoop-bucket
 katrain_ygguorun.json    ygguorun/scoop-bucket
 CefDetectorX.json    ygguorun/scoop-bucket
 WinFontPlus.json    ygguorun/scoop-bucket
@@ -9686,6 +9687,7 @@ perl@5.26+gcc.json    rivy/scoop-bucket
 iconv@1.14-3.json    rivy/scoop-bucket
 shfmt@3.4.3.json    rivy/scoop-bucket
 glow@1.4.1.json    rivy/scoop-bucket
+python@mini-3.11.5.json    rivy/scoop-bucket
 nim@1.6.12-x64.json    rivy/scoop-bucket
 nodejs@lts-10.15.3.json    rivy/scoop-bucket
 xmake@2.2.1.json    rivy/scoop-bucket
@@ -9791,6 +9793,7 @@ adoptopenjdk@11.0+28.json    rivy/scoop-bucket
 git@2.41.0.1.json    rivy/scoop-bucket
 make@4.2.json    rivy/scoop-bucket
 deno@0.31.0.json    rivy/scoop-bucket
+zig@0.10.1.json    rivy/scoop-bucket
 git@2.39.0.2.json    rivy/scoop-bucket
 perl@5.18.4.1+gcc.json    rivy/scoop-bucket
 perl@5.24.3.1+gcc.json    rivy/scoop-bucket
@@ -9819,6 +9822,7 @@ nim@1.0.2-x64.json    rivy/scoop-bucket
 v@latest.json    rivy/scoop-bucket
 graphviz@5.0.0.json    rivy/scoop-bucket
 file@5.43.json    rivy/scoop-bucket
+odin@dev-2023-08.json    rivy/scoop-bucket
 upx@3.96.json    rivy/scoop-bucket
 busybox@1.37.0.json    rivy/scoop-bucket
 cmake@3.23.2.json    rivy/scoop-bucket
@@ -9979,6 +9983,7 @@ openssh@7.1p2.json    rivy/scoop-bucket
 dosbox-x@0.83.20.json    rivy/scoop-bucket
 task@3.14.0.json    rivy/scoop-bucket
 llvm@14.0.6.json    rivy/scoop-bucket
+python@mini-3.10.5.json    rivy/scoop-bucket
 perl@5.28.json    rivy/scoop-bucket
 embcc.json    rivy/scoop-bucket
 gh@1.2.0.json    rivy/scoop-bucket
