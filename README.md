@@ -86,10 +86,10 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - rivy/scoop-bucket
 - excitoon/scoop-user
 - Darkatse/Scoop-Darkatse
+- hu3rror/scoop-muggle
 - aoisummer/scoop-bucket
 - seumsc/scoop-seu
 - alextwothousand/scoop-bucket
-- hu3rror/scoop-muggle
 - MCOfficer/scoop-bucket
 - littleli/Scoop-littleli
 - Weidows-projects/scoop-3rd
