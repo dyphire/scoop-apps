@@ -1,41 +1,34 @@
 {
-    "version": "10.01.2",
-    "description": "An interpreter for the PostScript language and for PDF",
     "homepage": "https://www.ghostscript.com",
-    "license": {
-        "identifier": "AGPL-3.0-or-later|Freeware",
-        "url": "https://www.ghostscript.com/license.html"
-    },
+    "version": "9.23",
+    "license": "https://www.gnu.org/licenses/agpl-3.0.html",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs10012/gs10012w64.exe#/dl.7z",
-            "hash": "sha512:646665d4a826d19e85553af5423a7bfcad6e3a5223d0d1aa69a8a4eb537516073bd8385dbca2b248467f30598ff32b23801331fa3f6e6e13765167653f67a450",
+            "url": "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs923/gs923w64.exe#/dl.7z",
+            "hash": "9e614cbac9f674710de965d9847ace29127d71dc1875e48517f4abce0e324400",
             "bin": [
                 "bin\\gswin64.exe",
                 "bin\\gswin64c.exe",
-                [
-                    "bin\\gswin64c.exe",
-                    "gs"
-                ]
+                [ "bin\\gswin64c.exe", "gs", "" ]
             ]
         },
         "32bit": {
-            "url": "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs10012/gs10012w32.exe#/dl.7z",
-            "hash": "sha512:0424208683f7cd207a358cebceb38cfff6de1569165e227f7e2d985efb9229722636d5fcde14c4479dec4789cdb9991c204a696747ace83fc3931d6792bfc8d3",
+            "url": "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs923/gs923w32.exe#/dl.7z",
+            "hash": "5879b9970007490e62f1c1d9d6688bb633a069cdd5fc466dadb9ea8114c8c75a",
             "bin": [
                 "bin\\gswin32.exe",
                 "bin\\gswin32c.exe",
-                [
-                    "bin\\gswin32c.exe",
-                    "gs"
-                ]
+                [ "bin\\gswin32c.exe", "gs", "" ]
             ]
         }
     },
-    "env_add_path": "lib",
+    "env_add_path": [
+        "bin",
+        "lib"
+    ],
     "checkver": {
-        "github": "https://github.com/ArtifexSoftware/ghostpdl-downloads/",
-        "regex": "Ghostscript/GhostPDL ([\\d.]+)"
+        "url": "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/latest",
+        "re": "Ghostscript\\/GhostPDL ([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
@@ -47,8 +40,7 @@
             }
         },
         "hash": {
-            "url": "$baseurl/SHA512SUMS"
+            "url": "$baseurl/SHA256SUMS"
         }
-    },
-    "post_install": "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+    }
 }
