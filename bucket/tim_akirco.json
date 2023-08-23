@@ -1,26 +1,27 @@
 {
-    "version": "9.7.15.29157",
-    "description": "An instant messaging tool that gives you the best way to keep in touch with your friends and family.",
-    "homepage": "https://im.qq.com",
+    "version": "3.4.8.22092",
+    "description": "An lightweight instant messaging software service developed by Tencent",
+    "homepage": "https://tim.qq.com/",
     "license": {
         "identifier": "Proprietary",
-        "url": "https://ti.qq.com/agreement/index.html"
+        "url": "https://ti.qq.com/tim/serverinfo.html"
     },
     "notes": [
-        "Scoop doesn't persist your QQ data, by default they are stored in: ",
+        "Scoop doesn't persist your TIM data, by default they are stored in: ",
         "'%UserProfile%\\Documents\\Tencent Files'.",
         "Files produced at runtime leaves in '%AppData%\\Tencent'."
     ],
-    "url": "https://webcdn.m.qq.com/spcmgr/download/QQ9.7.15.29157.exe#/dl.7z",
-    "hash": "681db868383324ce605ec946d3c3343b05b0e36f794d14469141d8561eac821e",
+    "url": "https://webcdn.m.qq.com/spcmgr/download/TIM3.4.8.22092.exe#/dl.exe",
+    "hash": "57b2d7fc2065751e66354b9a4ef05fff89ba5e2342520aaba85776e0e174925c",
     "shortcuts": [
         [
             "Bin\\QQScLauncher.exe",
-            "QQ"
+            "TIM"
         ]
     ],
     "installer": {
         "script": [
+            "Expand-7zipArchive \"$dir\\$fname\" -Switches '-t*' -Removal",
             "Get-Item \"$dir\\*\" -Exclude .rsrc | Remove-Item",
             "Expand-7zipArchive \"$dir\\.rsrc\\2052\\MSI\\101\" \"$dir\" -ExtractDir 'Files'",
             "Expand-7zipArchive \"$dir\\.rsrc\\2052\\MSI\\102\" \"$dir\\temp\"",
@@ -32,10 +33,10 @@
         ]
     },
     "checkver": {
-        "url": "https://pc.qq.com/detail/2/detail_2.html",
-        "regex": "QQ([\\d.]+).exe"
+        "url": "https://pc.qq.com/detail/18/detail_23258.html",
+        "regex": "TIM([\\d.]+).exe"
     },
     "autoupdate": {
-        "url": "https://webcdn.m.qq.com/spcmgr/download/QQ$version.exe#/dl.7z"
+        "url": "https://webcdn.m.qq.com/spcmgr/download/TIM$version.exe#/dl.exe"
     }
 }
