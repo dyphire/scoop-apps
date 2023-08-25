@@ -1,34 +1,27 @@
 {
-    "version": "5.6.1",
+    "version": "4.4.2",
     "description": "简单好用的DDNS。自动更新域名解析到公网IP(支持阿里云、腾讯云dnspod、Cloudflare、华为云、百度云、porkbun)",
     "homepage": "https://github.com/jeessy2/ddns-go",
     "license": "MIT",
     "architecture": {
-        "64bit": {
-            "url": "https://github.com/jeessy2/ddns-go/releases/download/v5.6.1/ddns-go_5.6.1_windows_x86_64.zip",
-            "hash": "b5a73b4c0b8e5ca1630913afe5cb0b7690d41b744d116fc87351ae9ea8d38d26"
-        },
         "32bit": {
-            "url": "https://github.com/jeessy2/ddns-go/releases/download/v5.6.1/ddns-go_5.6.1_windows_i386.zip",
-            "hash": "6c0d3d67e67a65fb29e960805d35b8a157e726f9f1844260c6cd4c9345dab938"
+            "url": "https://github.com/jeessy2/ddns-go/releases/download/v4.4.2/ddns-go_4.4.2_Windows_i386.tar.gz",
+            "hash": "60987dd963c76b994b21b985815fd87ddd31907235f87ae0966c4f448dff8092"
         },
-        "arm64": {
-            "url": "https://github.com/jeessy2/ddns-go/releases/download/v5.6.1/ddns-go_5.6.1_windows_arm64.zip",
-            "hash": "3f2e440fa054a5f24f1f1e5acc963105f225ebeed6edd297b4e81a54275a30e5"
+        "64bit": {
+            "url": "https://github.com/jeessy2/ddns-go/releases/download/v4.4.2/ddns-go_4.4.2_Windows_x86_64.tar.gz",
+            "hash": "6c71686f4ee51a322e29182132bf552b831f8eb5638ebd6e6e1b0b5c3164260a"
         }
     },
     "bin": "ddns-go.exe",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
-            "64bit": {
-                "url": "https://github.com/jeessy2/ddns-go/releases/download/v$version/ddns-go_$version_windows_x86_64.zip"
-            },
             "32bit": {
-                "url": "https://github.com/jeessy2/ddns-go/releases/download/v$version/ddns-go_$version_windows_i386.zip"
+                "url": "https://github.com/jeessy2/ddns-go/releases/download/v$version/ddns-go_$version_Windows_i386.tar.gz"
             },
-            "arm64": {
-                "url": "https://github.com/jeessy2/ddns-go/releases/download/v$version/ddns-go_$version_windows_arm64.zip"
+            "64bit": {
+                "url": "https://github.com/jeessy2/ddns-go/releases/download/v$version/ddns-go_$version_Windows_x86_64.tar.gz"
             }
         }
     }
