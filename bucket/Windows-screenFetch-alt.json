@@ -1,20 +1,27 @@
 {
-    "version": "1.0.18",
-    "description": "A command-line tool for memory usage statistics.",
-    "homepage": "https://github.com/AkariiinMKII/WhoAteMyRAM",
-    "license": "MIT",
+    "version": "1.3.2",
+    "description": "An alt version of Scoop4kariiin/Windows-screenFetch.",
+    "homepage": "https://github.com/AkariiinMKII/Windows-screenFetch",
+    "license": "GPL-3.0-only",
     "notes": [
-        "Run following command to import WhoAteMyRAM automatically in Powershell:",
+        "Run following command to import Windows-screenFetch automatically in Powershell:",
         "$dir\\add-profile-content.ps1"
     ],
-    "url": "https://github.com/AkariiinMKII/WhoAteMyRAM/archive/v1.0.18.zip",
-    "hash": "2df5dee56c95714fd35268dd05d1f7a3e82f1d966677398c87de30650586926b",
-    "extract_dir": "WhoAteMyRAM-1.0.18",
+    "url": "https://github.com/AkariiinMKII/Windows-screenFetch/archive/v1.3.2-alt.zip",
+    "hash": "4e1eabec5ff2bf32a0ed449b4042908e768b743816da5d221577bf67a276336e",
+    "extract_dir": "Windows-screenFetch-1.3.2-alt",
     "psmodule": {
-        "name": "WhoAteMyRAM"
+        "name": "Windows-screenFetch"
     },
+    "pre_install": [
+        "$CheckOriInstall = $(appdir Windows-screenFetch $global)",
+        "if (Test-Path \"$CheckOriInstall\") {",
+        "    Write-Host \"Found conflict version, uninstalling ...\" -ForegroundColor Yellow",
+        "    scoop uninstall Windows-screenFetch",
+        "}"
+    ],
     "post_install": [
-        "Remove-Item \"$dir\\LICENSE\", \"$dir\\README.md\" -Force -Recurse -ErrorAction SilentlyContinue",
+        "Remove-Item \"$dir\\LICENSE\", \"$dir\\README.md\", \"$dir\\screenshots\" -Force -Recurse -ErrorAction SilentlyContinue",
         "Import-Module $manifest.psmodule.name",
         "$BucketDir = Find-BucketDirectory -Root -Name $bucket",
         "$S4UtilsPath = $BucketDir | Join-Path -ChildPath \"scripts\\S4Utils.psm1\"",
@@ -37,11 +44,11 @@
         "}"
     ],
     "checkver": {
-        "url": "https://api.github.com/repos/AkariiinMKII/WhoAteMyRAM/tags",
-        "regex": "tags/v([\\d.]+)"
+        "url": "https://api.github.com/repos/AkariiinMKII/Windows-screenFetch/tags",
+        "regex": "tags/v([\\d.]+)-alt\""
     },
     "autoupdate": {
-        "url": "https://github.com/AkariiinMKII/WhoAteMyRAM/archive/v$version.zip",
-        "extract_dir": "WhoAteMyRAM-$version"
+        "url": "https://github.com/AkariiinMKII/Windows-screenFetch/archive/v$version-alt.zip",
+        "extract_dir": "Windows-screenFetch-$version-alt"
     }
 }
