@@ -50,12 +50,12 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - Paxxs/Cluttered-bucket
 - ACooper81/scoop-apps
 - couleur-tweak-tips/utils
-- hermanjustnu/scoop-emulators
 - ScoopInstaller/Nonportable
+- hermanjustnu/scoop-emulators
 - cderv/r-bucket
 - everyx/scoop-bucket
-- TheRandomLabs/Scoop-Bucket
 - dodorz/scoop
+- TheRandomLabs/Scoop-Bucket
 - borger/scoop-emulators
 - ZvonimirSun/scoop-iszy
 - Qv2ray/mochi
