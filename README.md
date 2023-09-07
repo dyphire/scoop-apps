@@ -42,6 +42,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - kodybrown/scoop-nirsoft
 - littleli/scoop-clojure
 - rasa/scoops
+- kidonng/sushi
 - ScoopInstaller/Nirsoft
 - scoopcn/scoopcn
 - hoilc/scoop-lemon
@@ -74,8 +75,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - jonz94/scoop-sarasa-nerd-fonts
 - 42wim/scoop-bucket
 - amorphobia/siku
-- ChungZH/peach
 - batkiz/backit
+- ChungZH/peach
 - mogeko/scoop-sysinternals
 - Velgus/Scoop-Portapps
 - AStupidBear/scoop-bear
