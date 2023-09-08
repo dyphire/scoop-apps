@@ -1,20 +1,23 @@
 {
     "version": "6.26.0",
-    "description": "E-book manager.",
-    "homepage": "https://calibre-ebook.com/",
+    "description": "Powerful and easy to use e-book manager",
+    "homepage": "https://calibre-ebook.com",
     "license": "GPL-3.0-only",
+    "notes": "Calibre drops support for 32-bit CPUs after v6.0.0, if you are running a 32-bit system, please install calibre-normal5 from Versions bucket.",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kovidgoyal/calibre/releases/download/v6.26.0/calibre-64bit-6.26.0.msi",
-            "hash": "d482be68707f6d005ed717b736a6896a9cc8b3f5ce0f05f03cd8a039c6c10a03",
+            "url": "https://download.calibre-ebook.com/6.26.0/calibre-64bit-6.26.0.msi",
+            "hash": "sha512:22523b7deda522313310c280249f4c3742574a96ec7bcdaa3bff32f91935b67e57780ca2bdfb23e0e6b304e252d1469a873c07bd2e03521cb8936a7af020da3f",
             "extract_dir": "PFiles\\Calibre2"
         }
     },
     "bin": [
         "calibre.exe",
+        "calibre-complete.exe",
         "calibre-customize.exe",
         "calibredb.exe",
         "calibre-debug.exe",
+        "calibre-parallel.exe",
         "calibre-server.exe",
         "calibre-smtp.exe",
         "ebook-convert.exe",
@@ -54,7 +57,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/kovidgoyal/calibre/releases/download/v$version/calibre-64bit-$version.msi"
+                "url": "https://download.calibre-ebook.com/$version/calibre-64bit-$version.msi",
+                "hash": {
+                    "url": "https://calibre-ebook.com/signatures/calibre-64bit-$version.msi.sha512"
+                }
             }
         }
     }
