@@ -63,9 +63,9 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - wangzq/scoop-bucket
 - kiennq/scoop-misc
 - zhoujin7/tomato
+- arch3rPro/PST-Bucket
 - akirco/aki-apps
 - TheRandomLabs/Scoop-Python
-- arch3rPro/PST-Bucket
 - wzv5/ScoopBucket
 - ViCrack/scoop-bucket
 - niheaven/scoop-sysinternals
