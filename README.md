@@ -62,8 +62,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - ZvonimirSun/scoop-iszy
 - wangzq/scoop-bucket
 - kiennq/scoop-misc
-- zhoujin7/tomato
 - arch3rPro/PST-Bucket
+- zhoujin7/tomato
 - akirco/aki-apps
 - TheRandomLabs/Scoop-Python
 - wzv5/ScoopBucket
@@ -87,11 +87,11 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - rivy/scoop-bucket
 - excitoon/scoop-user
 - Darkatse/Scoop-Darkatse
+- DoveBoy/Apps
 - cc713/ownscoop
 - aoisummer/scoop-bucket
 - seumsc/scoop-seu
 - alextwothousand/scoop-bucket
-- DoveBoy/Apps
 - Weidows-projects/scoop-3rd
 - littleli/Scoop-littleli
 - AkariiinMKII/Scoop4kariiin
