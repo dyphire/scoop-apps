@@ -32,8 +32,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - chawyehsu/dorado
 - matthewjberger/scoop-nerd-fonts
 - ivaquero/scoopet
-- Calinou/scoop-games
 - ScoopInstaller/Java
+- Calinou/scoop-games
 - borger/scoop-galaxy-integrations
 - ScoopInstaller/Versions
 - TheRandomLabs/scoop-nonportable
@@ -70,8 +70,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - ViCrack/scoop-bucket
 - niheaven/scoop-sysinternals
 - naderi/scoop-bucket
-- iquiw/scoop-bucket
 - ygguorun/scoop-bucket
+- iquiw/scoop-bucket
 - jonz94/scoop-sarasa-nerd-fonts
 - 42wim/scoop-bucket
 - NyaMisty/scoopbucketmisty
