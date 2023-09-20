@@ -1,26 +1,32 @@
 {
-    "homepage": "https://www.gnu.org/software/sed/",
-    "version": "4.4",
-    "license": "GNU General Public License",
+    "version": "4.9",
+    "description": "sed (stream editor) is a non-interactive command-line text editor",
+    "homepage": "https://www.gnu.org/software/sed",
+    "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": [
-                "http://repo.msys2.org/msys/x86_64/gcc-libs-6.4.0-3-x86_64.pkg.tar.xz",
-                "http://repo.msys2.org/msys/x86_64/libiconv-1.14-2-x86_64.pkg.tar.xz",
-                "http://repo.msys2.org/msys/x86_64/libintl-0.19.8.1-1-x86_64.pkg.tar.xz",
-                "http://repo.msys2.org/msys/x86_64/msys2-runtime-2.9.0-2-x86_64.pkg.tar.xz",
-                "http://repo.msys2.org/msys/x86_64/sed-4.4-2-x86_64.pkg.tar.xz"
-            ],
-            "hash": [
-                "14f6f42e85fe15a9ddc4535cc536e5122bc6b49630066c357a7c941f150a2cc2",
-                "de1a5b4974b10ddcf35389c9ede615ed4ab93f86854e7355e66d1f39723ca3c8",
-                "5eadc3cc42da78948d65d994f1f8326706afe011f28e2e5bd0872a37612072d2",
-                "a3b8c0f46d9ba40830a868a8aa3b3951eae4ef9fdb9a679d857432ab18819d19",
-                "46dbccaee1d40523d6a38db7b61d482b57b819ade359b2864120d2eb00ed18b5"
-            ]
+            "url": "https://github.com/mbuilov/sed-windows/releases/download/sed-4.9/sed-4.9-x64.exe#/sed.exe",
+            "hash": "55252fc023b7092d8f39b209a33ae2d56558a541ea6606af53e00c37f1296163"
+        },
+        "32bit": {
+            "url": "https://github.com/mbuilov/sed-windows/releases/download/sed-4.9/sed-4.9-x86.exe#/sed.exe",
+            "hash": "7b31b07ebffa675f85b27908e9f3eb8ef57ec297c289942f6cd2a40eee8f88b3"
         }
     },
-    "depends": "bash",
-    "bin": "usr/bin/sed.exe",
-    "pre_install": [ "mkdir $dir/tmp", "mkdir $dir/home", "cmd /c mklink /j $dir\\home\\%USERNAME% %USERPROFILE%" ]
+    "bin": "sed.exe",
+    "checkver": {
+        "github": "https://github.com/mbuilov/sed-windows",
+        "jsonpath": "$.tag_name",
+        "regex": "sed-([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/mbuilov/sed-windows/releases/download/sed-$version/sed-$version-x64.exe#/sed.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/mbuilov/sed-windows/releases/download/sed-$version/sed-$version-x86.exe#/sed.exe"
+            }
+        }
+    }
 }

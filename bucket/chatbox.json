@@ -1,34 +1,46 @@
 {
-    "version": "1.0.0",
-    "description": "A desktop app for GPT/LLM that supports Windows, Mac, Linux & Web Online",
+    "version": "0.4.3",
+    "description": "A desktop app for ChatGPT API (OpenAI API) that supports Windows, Mac & Linux. 开源的ChatGPT桌面应用，prompt 开发神器，全平台支持",
     "homepage": "https://github.com/Bin-Huang/chatbox",
-    "license": "GPL-3.0-only",
+    "license": {
+        "identifier": "GPL-3.0 license",
+        "url": "https://github.com/Bin-Huang/chatbox/blob/main/LICENSE"
+    },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Bin-Huang/chatbox/releases/download/v1.0.0/Chatbox-1.0.0-Setup.exe#/dl.7z",
-            "hash": "sha512:7a3aaacce08ca5fa95a739c3e52945d0f0278e23a4350f273e7403a4930d895b412a9150d451c928894c58ecc061e49c646a1d45a0def6500864d29f74568068"
+            "url": "https://github.com/Bin-Huang/chatbox/releases/download/Chatbox-v0.4.3/chatbox_0.4.3_x64_en-US.msi",
+            "hash": "d754239badb6c05d12d36b59d39f7caf736d157b10c68978eaeb0387277fcfed"
         }
     },
-    "pre_install": [
-        "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\" -Removal",
-        "Remove-Item \"$dir\\`$*\" -Recurse"
-    ],
+    "extract_dir": "PFiles\\chatbox",
+    "installer": {
+        "script": [
+            "# handle runtime cache",
+            "Import-Module $(Join-Path $(Find-BucketDirectory -Root -Name apps) scripts/AppsUtils.psm1)",
+            "Mount-ExternalRuntimeData -Source \"$persist_dir\\appdata\" -Target \"$env:APPDATA\\xyz.chatboxapp.app\"",
+            "Mount-ExternalRuntimeData -Source \"$persist_dir\\appdata\" -Target \"$env:LOCALAPPDATA\\xyz.chatboxapp.app\"",
+            "Remove-Module -Name AppsUtils"
+        ]
+    },
+    "uninstaller": {
+        "script": [
+            "Import-Module $(Join-Path $(Find-BucketDirectory -Root -Name apps) scripts/AppsUtils.psm1)",
+            "Dismount-ExternalRuntimeData -Target \"$env:APPDATA\\xyz.chatboxapp.app\"",
+            "Dismount-ExternalRuntimeData -Target \"$env:LOCALAPPDATA\\xyz.chatboxapp.app\"",
+            "Remove-Module -Name AppsUtils"
+        ]
+    },
     "shortcuts": [
         [
             "chatbox.exe",
-            "ChatBox"
+            "chatbox"
         ]
     ],
-    "checkver": "github",
+    "checkver": {
+        "url": "https://api.github.com/repos/Bin-Huang/chatbox/releases",
+        "regex": "(?sm)browser_download_url.*?releases/download/(?<tag>Chatbox-v([\\d.]+))/chatbox_([\\d.]+)_x64_en-US\\.msi"
+    },
     "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/Bin-Huang/chatbox/releases/download/v$version/Chatbox-$version-Setup.exe#/dl.7z"
-            }
-        },
-        "hash": {
-            "url": "$baseurl/latest.yml",
-            "regex": "$basename\\s+sha512:\\s+$base64"
-        }
+        "url": "https://github.com/Bin-Huang/chatbox/releases/download/$matchTag/chatbox_$version_x64_en-US.msi"
     }
 }
