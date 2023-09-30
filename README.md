@@ -97,6 +97,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - AkariiinMKII/Scoop4kariiin
 - mo-san/scoop-bucket
 - brian6932/dank-scoop
+- starise/Scoop-Confetti
 - yuusakuri/scoop-bucket
 - ChinLong/scoop-customize
 - Darkatse/Scoop-KanColle
