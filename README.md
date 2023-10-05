@@ -60,8 +60,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - borger/scoop-emulators
 - TheRandomLabs/Scoop-Bucket
 - ZvonimirSun/scoop-iszy
-- wangzq/scoop-bucket
 - arch3rPro/PST-Bucket
+- wangzq/scoop-bucket
 - kiennq/scoop-misc
 - zhoujin7/tomato
 - akirco/aki-apps
