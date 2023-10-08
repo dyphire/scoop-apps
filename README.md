@@ -58,8 +58,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - dodorz/scoop
 - Qv2ray/mochi
 - borger/scoop-emulators
-- TheRandomLabs/Scoop-Bucket
 - arch3rPro/PST-Bucket
+- TheRandomLabs/Scoop-Bucket
 - ZvonimirSun/scoop-iszy
 - wangzq/scoop-bucket
 - kiennq/scoop-misc
