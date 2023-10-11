@@ -55,10 +55,10 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - cderv/r-bucket
 - couleur-tweak-tips/utils
 - everyx/scoop-bucket
+- arch3rPro/PST-Bucket
 - dodorz/scoop
 - Qv2ray/mochi
 - borger/scoop-emulators
-- arch3rPro/PST-Bucket
 - TheRandomLabs/Scoop-Bucket
 - ZvonimirSun/scoop-iszy
 - wangzq/scoop-bucket
