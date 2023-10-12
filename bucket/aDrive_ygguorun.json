@@ -1,18 +1,17 @@
 {
-    "version": "1.2.2",
-    "description": "Yet another remote desktop software",
-    "homepage": "https://rustdesk.com",
-    "license": "GNU General Public License v3.0",
-    "url": "https://github.com/rustdesk/rustdesk/releases/download/1.2.2/rustdesk-1.2.2-x86_64.exe",
-    "hash": "7d8790e65a906706a93734b91efa6dfdb732f9897e04707233fe48033bd5654e",
+    "version": "4.9.12",
+    "description": "阿里云盘是一款速度快、不打扰、够安全、易于分享的网盘，由阿里巴巴集团出品",
+    "homepage": "https://www.aliyundrive.com/",
+    "license": "Unknown",
+    "url": "https://cdn.aliyundrive.net/downloads/apps/desktop/update/4.9.12/win32/ia32/aDrive-4.9.12.exe#/dl.7z",
+    "hash": "1d94f845dd110e47ea6417d0ca9cec0b5663871ff7d6185ed7e7449281263057",
     "installer": {
         "script": [
-            "Move-Item $dir\\rust* $dir\\RustDesk.exe",
             "# handle runtime cache",
             "if (!(Test-Path $persist_dir)) {",
             "    New-Item $persist_dir -Type Directory -Force | Out-Null",
             "}",
-            "$runtimeCache = \"$env:APPDATA\\RustDesk\"",
+            "$runtimeCache = \"$env:APPDATA\\aDrive\"",
             "$runtimeCachePersist = \"$persist_dir\\appdata\"",
             "if (Test-Path $runtimeCachePersist) {",
             "    Remove-Item $runtimeCache -Force -Recurse -ErrorAction SilentlyContinue",
@@ -27,7 +26,7 @@
     },
     "uninstaller": {
         "script": [
-            "$runtimeCache = \"$env:APPDATA\\RustDesk\"",
+            "$runtimeCache = \"$env:APPDATA\\aDrive\"",
             "$runtimeCachePersist = \"$persist_dir\\appdata\"",
             "if (!(Test-Path $runtimeCachePersist)) {",
             "    Move-Item $runtimeCache $runtimeCachePersist -Force",
@@ -38,14 +37,19 @@
     },
     "shortcuts": [
         [
-            "RustDesk.exe",
-            "RustDesk"
+            "aDrive.exe",
+            "阿里云盘"
         ]
     ],
+    "post_install": [
+        "Remove-Item -Force -Recurse \"$dir\\`$PLUGINSDIR\"",
+        "Remove-Item -Force -Recurse \"$dir\\`$TEMP\""
+    ],
     "checkver": {
-        "github": "https://github.com/rustdesk/rustdesk"
+        "url": "https://www.aliyundrive.com/desktop/version/update.json",
+        "regex": "/([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/rustdesk/rustdesk/releases/download/$version/rustdesk-$version-x86_64.exe"
+        "url": "https://cdn.aliyundrive.net/downloads/apps/desktop/update/$version/win32/ia32/aDrive-$version.exe#/dl.7z"
     }
 }
