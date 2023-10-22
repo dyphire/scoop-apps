@@ -1,26 +1,27 @@
 {
-    "version": "2023-08-14",
+    "version": "1.0.1",
     "description": "超方便的微信视频号下载器",
     "homepage": "https://github.com/lecepin/WeChatVideoDownloader",
     "license": "Unknown",
-    "architecture": {
-        "32bit": {
-            "url": "https://github.com/Tohrusky/Final2x/releases/download/2023-08-14/Final2x-windows-x64-setup.exe#/dl.7z",
-            "hash": "3937df95aaea9ba54f3afd881122a9c7f14e7aac7ac6e19a441c49bf25a192f2"
-        }
-    },
+    "url": "https://github.com/lecepin/WeChatVideoDownloader/releases/download/v1.0.1/WeChatVideoDownloader.Setup.1.0.1.exe#/dl.7z",
+    "hash": "8a10b16ef9a28570197997b768d515471beb7c8406e9b1d3e0457d66c8223a2c",
     "pre_install": [
         "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\"",
         "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R0\" -Force -Recurse"
     ],
     "installer": {
         "script": [
-            "ensure \"$persist_dir\" | Out-Null",
-            "New-Item \"$env:APPDATA\\wechat-video-downloader\" -ItemType Junction -Target \"$persist_dir\" | Out-Null"
+            "ensure \"$persist_dir\\wechat-video-downloader\" | Out-Null",
+            "New-Item \"$env:APPDATA\\wechat-video-downloader\" -ItemType Junction -Target \"$persist_dir\\wechat-video-downloader\" | Out-Null",
+            "ensure \"$persist_dir\\.wechat-video-downloader\" | Out-Null",
+            "New-Item \"$env:USERPROFILE\\.wechat-video-downloader\" -ItemType Junction -Target \"$persist_dir\\.wechat-video-downloader\" | Out-Null"
         ]
     },
     "uninstaller": {
-        "script": "Remove-Item \"$env:APPDATA\\wechat-video-downloader\" -Recurse -Force -ErrorAction 'SilentlyContinue'"
+        "script": [
+            "Remove-Item \"$env:APPDATA\\wechat-video-downloader\" -Recurse -Force -ErrorAction 'SilentlyContinue'",
+            "Remove-Item \"$env:USERPROFILE\\.wechat-video-downloader\" -Recurse -Force -ErrorAction 'SilentlyContinue'"
+        ]
     },
     "shortcuts": [
         [
@@ -34,10 +35,6 @@
         "regex": "WeChatVideoDownloader.Setup.([\\d.]+)\\.exe"
     },
     "autoupdate": {
-        "architecture": {
-            "32bit": {
-                "url": "https://github.com/lecepin/WeChatVideoDownloader/releases/download/v$version/WeChatVideoDownloader.Setup.$version.exe#/dl.7z"
-            }
-        }
+        "url": "https://github.com/lecepin/WeChatVideoDownloader/releases/download/v$version/WeChatVideoDownloader.Setup.$version.exe#/dl.7z"
     }
 }
