@@ -1,0 +1,33 @@
+{
+    "version": "2023-08-14",
+    "description": "Easy and blazing-fast book searcher, create and search your private library.",
+    "homepage": "https://github.com/book-searcher-org/book-searcher",
+    "license": {
+        "identifier": "BSD-3-Clause license",
+        "url": "https://github.com/book-searcher-org/book-searcher/blob/master/LICENSE"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Tohrusky/Final2x/releases/download/2023-08-14/Final2x-windows-x64-setup.exe#/dl.7z",
+            "hash": "3937df95aaea9ba54f3afd881122a9c7f14e7aac7ac6e19a441c49bf25a192f2"
+        }
+    },
+    "extract_dir": "PFiles64\\Book Searcher",
+    "shortcuts": [
+        [
+            "book-searcher.exe",
+            "book-searcher"
+        ]
+    ],
+    "checkver": {
+        "url": "https://api.github.com/repos/book-searcher-org/book-searcher/releases",
+        "regex": "/releases/tag/([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/book-searcher-org/book-searcher/releases/download/$version/Book.Searcher_$version_x64_en-US.msi"
+            }
+        }
+    }
+}
