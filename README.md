@@ -50,9 +50,9 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - Paxxs/Cluttered-bucket
 - echoiron/echo-scoop
 - ACooper81/scoop-apps
+- arch3rPro/PST-Bucket
 - ScoopInstaller/Nonportable
 - hermanjustnu/scoop-emulators
-- arch3rPro/PST-Bucket
 - cderv/r-bucket
 - couleur-tweak-tips/utils
 - everyx/scoop-bucket
@@ -82,8 +82,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - mogeko/scoop-sysinternals
 - AStupidBear/scoop-bear
 - jfut/scoop-jfut
-- Velgus/Scoop-Portapps
 - hu3rror/scoop-muggle
+- Velgus/Scoop-Portapps
 - krproject/qi-windows
 - rivy/scoop-bucket
 - excitoon/scoop-user
