@@ -89,11 +89,11 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - excitoon/scoop-user
 - Darkatse/Scoop-Darkatse
 - cc713/ownscoop
+- Weidows-projects/scoop-3rd
 - aoisummer/scoop-bucket
 - seumsc/scoop-seu
 - alextwothousand/scoop-bucket
 - SayCV/scoop-cvp
-- Weidows-projects/scoop-3rd
 - littleli/Scoop-littleli
 - AkariiinMKII/Scoop4kariiin
 - mo-san/scoop-bucket
