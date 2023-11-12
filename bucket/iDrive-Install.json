@@ -1,14 +1,14 @@
 {
-    "version": "23.10.29",
-    "description": "FX Draw Tools. High-productivity drawing environment designed specifically for mathematics teachers",
-    "homepage": "https://www.efofex.com/fxdraw.php",
+    "version": "6.7.4.47",
+    "description": "iDrive. Online cloud backup for your PC's, Macs and Mobile devices",
+    "homepage": "https://idriveonlinebackup.com/",
     "license": "Proprietary",
-    "changelog": "https://www.efofex.com/downloads.php#versions",
-    "url": "https://www.efofex.com/downloadexe.php?&file=FXDrawTools.exe#/setup.exe",
-    "hash": "b6fb24e312e9377255e4d217a3b0c0c87a92e6e26906e13a1eb699fe6aa1fda5",
+    "changelog": "https://idriveonlinebackup.com/release-info#win",
+    "url": "https://static.idriveonlinebackup.com/downloads/IDriveWinSetup.exe#/setup.exe",
+    "hash": "10603d554167ab890c94aae1afc0144c83b1e3e57c135d942895562ead745a7f",
     "pre_download": "Assert-Administrator",
     "pre_install": [
-        "$processname = \"FXDraw\"",
+        "$processname = \"id_win\"",
         "$process = Get-Process $processname -ErrorAction SilentlyContinue",
         "if ($process) {",
         "   $process.CloseMainWindow()",
@@ -21,12 +21,12 @@
     ],
     "installer": {
         "script": [
-            "$programname = \"FX Draw Tools*\"",
+            "$programname = \"id_win*\"",
             "$ProgramFiles = [Environment]::GetFolderPath(\"ProgramFilesX86\")",
-            "$filepath = \"$ProgramFiles\\Efofex\\bin\\FXDraw.exe\"",
+            "$filepath = \"$ProgramFiles\\IDriveWindows\\id_win.exe\"",
             "if(((Test-Path -Path $filepath -PathType Leaf) -eq $false) -or ((Get-Command $filepath).Version -lt [System.Version]\"$version\"))",
             "{",
-            "   &\"$dir\\setup.exe\" /verysilent /noreboot | Out-Null",
+            "   &\"$dir\\setup.exe\" /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /CLOSEAPPLICATIONS /SP- | Out-Null",
             "   if(((Test-Path -Path $filepath -PathType Leaf) -eq $false) -or ((Get-Command $filepath).Version -lt [System.Version]\"$version\"))",
             "   {",
             "       exit 1",
@@ -35,16 +35,11 @@
             "if (Test-Path -Path \"$dir\\setup.exe\") { Remove-Item \"$dir\\setup.exe\" -Force }"
         ]
     },
-    "post_install": [
-        "$programname = \"FX Draw Tools\"",
-        "$CommonDesktopPath = [Environment]::GetFolderPath(\"CommonDesktopDirectory\")",
-        "if (Test-Path \"$CommonDesktopPath\\$programname.lnk\") {Remove-Item \"$CommonDesktopPath\\$programname.lnk\" -Force}"
-    ],
     "checkver": {
-        "url": "https://www.efofex.com/downloads.php#versions",
-        "regex": "V([\\d.]+)"
+        "url": "https://community.chocolatey.org/packages/idrive",
+        "regex": "Downloads of v ([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://www.efofex.com/downloadexe.php?&file=FXDrawTools.exe#/setup.exe"
+        "url": "https://static.idriveonlinebackup.com/downloads/IDriveWinSetup.exe#/setup.exe"
     }
 }
