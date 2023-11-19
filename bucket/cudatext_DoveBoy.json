@@ -1,0 +1,38 @@
+{
+    "version": "1.202.0.1",
+    "description": "Text editor",
+    "homepage": "http://uvviewsoft.com/cudatext/",
+    "license": "MPL-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://sourceforge.net/projects/cudatext/files/release/1.202.0.1/cudatext-windows-amd64-1.202.0.1.zip",
+            "hash": "sha1:8b889dce5ef995e22e1235873c8f93c5b438d2e3"
+        },
+        "32bit": {
+            "url": "https://sourceforge.net/projects/cudatext/files/release/1.202.0.1/cudatext-windows-i386-1.202.0.1.zip",
+            "hash": "sha1:8cdbe7bdd8fbed6b6308f4859f7aa4889f91094b"
+        }
+    },
+    "extract_dir": "cudatext",
+    "bin": "cudatext.exe",
+    "shortcuts": [
+        [
+            "cudatext.exe",
+            "CudaText"
+        ]
+    ],
+    "persist": "settings",
+    "checkver": {
+        "sourceforge": "cudatext/release"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://sourceforge.net/projects/cudatext/files/release/$version/cudatext-windows-amd64-$version.zip"
+            },
+            "32bit": {
+                "url": "https://sourceforge.net/projects/cudatext/files/release/$version/cudatext-windows-i386-$version.zip"
+            }
+        }
+    }
+}
