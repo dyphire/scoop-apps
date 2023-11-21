@@ -45,8 +45,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - kidonng/sushi
 - ScoopInstaller/Nirsoft
 - scoopcn/scoopcn
-- hoilc/scoop-lemon
 - arch3rPro/PST-Bucket
+- hoilc/scoop-lemon
 - KNOXDEV/wsl
 - Paxxs/Cluttered-bucket
 - echoiron/echo-scoop
