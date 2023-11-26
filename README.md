@@ -75,10 +75,10 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - amorphobia/siku
 - 42wim/scoop-bucket
 - ygguorun/scoop-bucket
+- DoveBoy/Apps
 - NyaMisty/scoopbucketmisty
 - batkiz/backit
 - ChungZH/peach
-- DoveBoy/Apps
 - hu3rror/scoop-muggle
 - mogeko/scoop-sysinternals
 - AStupidBear/scoop-bear
