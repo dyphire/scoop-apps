@@ -955,7 +955,6 @@ tabula.json    ScoopInstaller/Extras
 mqtt-spy.json    ScoopInstaller/Extras
 basilisk.json    ScoopInstaller/Extras
 masvis.json    ScoopInstaller/Extras
-lightcord.json    ScoopInstaller/Extras
 pianobar.json    ScoopInstaller/Extras
 redis-tui.json    ScoopInstaller/Extras
 qrscan.json    ScoopInstaller/Extras
@@ -2069,6 +2068,7 @@ keenwrite.json    ScoopInstaller/Extras
 veonim.json    ScoopInstaller/Extras
 ibmcloud-cli.json    ScoopInstaller/Extras
 git-credential-manager-core.json    ScoopInstaller/Extras
+lightcord.json    ScoopInstaller/Extras
 oh-my-posh.json    ScoopInstaller/Extras
 pandownload.json    ScoopInstaller/Extras
 shinjiru.json    ScoopInstaller/Extras
@@ -3479,6 +3479,7 @@ brave-beta.json    ScoopInstaller/Versions
 winpython38.json    ScoopInstaller/Versions
 micro-nightly.json    ScoopInstaller/Versions
 prismlauncher-git.json    ScoopInstaller/Versions
+nodejs20.json    ScoopInstaller/Versions
 qview-nightly.json    ScoopInstaller/Versions
 sharex-dev.json    ScoopInstaller/Versions
 wireshark3.json    ScoopInstaller/Versions
@@ -3520,6 +3521,7 @@ okular-nightly.json    ScoopInstaller/Versions
 wox-beta.json    ScoopInstaller/Versions
 cuda11.2.json    ScoopInstaller/Versions
 lite-xl-addons.json    ScoopInstaller/Versions
+php83.json    ScoopInstaller/Versions
 zig-dev.json    ScoopInstaller/Versions
 php80-xdebug.json    ScoopInstaller/Versions
 lua-joedf.json    ScoopInstaller/Versions
@@ -3528,7 +3530,6 @@ steam-mover.json    ScoopInstaller/Versions
 logseq-nightly.json    ScoopInstaller/Versions
 love9.json    ScoopInstaller/Versions
 cuda6.5.json    ScoopInstaller/Versions
-python310-beta.json    ScoopInstaller/Versions
 python311.json    ScoopInstaller/Versions
 php72.json    ScoopInstaller/Versions
 calibre-normal5.json    ScoopInstaller/Versions
@@ -3694,6 +3695,7 @@ php82-xdebug.json    ScoopInstaller/Versions
 de4dot-net35.json    ScoopInstaller/Versions
 ffmpeg-shared-4.4.1.json    ScoopInstaller/Versions
 wget120.json    ScoopInstaller/Versions
+lua52.json    ScoopInstaller/Versions
 joplin-pre.json    ScoopInstaller/Versions
 ruby19.json    ScoopInstaller/Versions
 anaconda3-2022.05.json    ScoopInstaller/Versions
@@ -3702,8 +3704,10 @@ inkscape-dev.json    ScoopInstaller/Versions
 git-without-openssh.json    ScoopInstaller/Versions
 idea-ultimate-rc.json    ScoopInstaller/Versions
 vivaldi-snapshot.json    ScoopInstaller/Versions
+python312.json    ScoopInstaller/Versions
 ffmpeg-nightly.json    ScoopInstaller/Versions
 winpython3741.json    ScoopInstaller/Versions
+windowsdesktop-runtime-6.0.json    ScoopInstaller/Versions
 mingw-winlibs-ucrt-mcf.json    ScoopInstaller/Versions
 php70-xdebug.json    ScoopInstaller/Versions
 geogebra5.json    ScoopInstaller/Versions
@@ -5125,12 +5129,14 @@ highlight-text.json    hoilc/scoop-lemon
 pinniped-cli.json    hoilc/scoop-lemon
 imagesearch.json    hoilc/scoop-lemon
 1history.json    hoilc/scoop-lemon
+thesage.json    hoilc/scoop-lemon
 libportable-floorp-lightning.json    hoilc/scoop-lemon
 autohidedesktopicons.json    hoilc/scoop-lemon
 rmedir.json    hoilc/scoop-lemon
 whisper-model-ggml-base.json    hoilc/scoop-lemon
 httpdownloader.json    hoilc/scoop-lemon
 kubeconform.json    hoilc/scoop-lemon
+alephnote.json    hoilc/scoop-lemon
 rj-texted.json    hoilc/scoop-lemon
 mi-sans.json    hoilc/scoop-lemon
 gidot-typesetter.json    hoilc/scoop-lemon
@@ -5154,6 +5160,7 @@ firealpaca.json    hoilc/scoop-lemon
 comicsviewer-eng.json    hoilc/scoop-lemon
 regclient.json    hoilc/scoop-lemon
 blb2txt.json    hoilc/scoop-lemon
+magnifixer.json    hoilc/scoop-lemon
 cmailgui.json    hoilc/scoop-lemon
 tiny-rdm.json    hoilc/scoop-lemon
 snmp_exporter.json    hoilc/scoop-lemon
@@ -5286,6 +5293,7 @@ rssguard_hoilc.json    hoilc/scoop-lemon
 biniware-run.json    hoilc/scoop-lemon
 step.json    hoilc/scoop-lemon
 postgres_exporter.json    hoilc/scoop-lemon
+seppdf.json    hoilc/scoop-lemon
 iplookup.json    hoilc/scoop-lemon
 qshell.json    hoilc/scoop-lemon
 moonbit.json    hoilc/scoop-lemon
@@ -5298,6 +5306,7 @@ pcap2socks.json    hoilc/scoop-lemon
 simple-vhd-manager.json    hoilc/scoop-lemon
 m4acut.json    hoilc/scoop-lemon
 legendary_hoilc.json    hoilc/scoop-lemon
+agent-ransack.json    hoilc/scoop-lemon
 ismylcdok.json    hoilc/scoop-lemon
 quick-change-resolution.json    hoilc/scoop-lemon
 zeno.json    hoilc/scoop-lemon
@@ -5885,6 +5894,7 @@ manyverse.json    hoilc/scoop-lemon
 imtip.json    hoilc/scoop-lemon
 kubecm.json    hoilc/scoop-lemon
 mycomputermanager.json    hoilc/scoop-lemon
+ppee.json    hoilc/scoop-lemon
 infracost.json    hoilc/scoop-lemon
 koyeb-cli.json    hoilc/scoop-lemon
 pointerstick.json    hoilc/scoop-lemon
@@ -5918,6 +5928,7 @@ xplorer_hoilc.json    hoilc/scoop-lemon
 shntool.json    hoilc/scoop-lemon
 mqtt-cli.json    hoilc/scoop-lemon
 sleep.json    hoilc/scoop-lemon
+artweaver-free.json    hoilc/scoop-lemon
 credhub-cli.json    hoilc/scoop-lemon
 twolame.json    hoilc/scoop-lemon
 nexttrace-enhanced.json    hoilc/scoop-lemon
@@ -7454,7 +7465,7 @@ aardio_dodorz.json    dodorz/scoop
 SQLiteExpertPro.json    dodorz/scoop
 uniCSVed.json    dodorz/scoop
 DM2.json    dodorz/scoop
-AlephNote.json    dodorz/scoop
+AlephNote_dodorz.json    dodorz/scoop
 JPEGView_dodorz.json    dodorz/scoop
 DownKyi_dodorz.json    dodorz/scoop
 TypeAndRun.json    dodorz/scoop
@@ -8301,7 +8312,6 @@ koodo-reader_akirco.json    akirco/aki-apps
 topgrade.json    akirco/aki-apps
 nircmd_akirco.json    akirco/aki-apps
 optipng.json    akirco/aki-apps
-youtubedownloader_akirco.json    akirco/aki-apps
 windows-application-driver.json    akirco/aki-apps
 PowerSession.json    akirco/aki-apps
 dp.json    akirco/aki-apps
@@ -9400,7 +9410,6 @@ MyDockFinder.json    ygguorun/scoop-bucket
 noMeiryoUI_ygguorun.json    ygguorun/scoop-bucket
 64gram_DoveBoy.json    DoveBoy/Apps
 mpv.net-beta_DoveBoy.json    DoveBoy/Apps
-chromedriver-beta_DoveBoy.json    DoveBoy/Apps
 sandboxie-classic-portable.json    DoveBoy/Apps
 walk.json    DoveBoy/Apps
 min-portable.json    DoveBoy/Apps
