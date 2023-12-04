@@ -44,8 +44,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - rasa/scoops
 - kidonng/sushi
 - ScoopInstaller/Nirsoft
-- scoopcn/scoopcn
 - arch3rPro/PST-Bucket
+- scoopcn/scoopcn
 - hoilc/scoop-lemon
 - KNOXDEV/wsl
 - Paxxs/Cluttered-bucket
@@ -56,9 +56,9 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - hermanjustnu/scoop-emulators
 - couleur-tweak-tips/utils
 - everyx/scoop-bucket
+- borger/scoop-emulators
 - dodorz/scoop
 - Qv2ray/mochi
-- borger/scoop-emulators
 - TheRandomLabs/Scoop-Bucket
 - ZvonimirSun/scoop-iszy
 - wangzq/scoop-bucket
