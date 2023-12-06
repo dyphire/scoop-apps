@@ -1,36 +1,35 @@
 {
-    "homepage": "https://bitcoincore.org/en/about/",
-    "description": "The Bitcoin client software called Bitcoin Core",
-    "version": "25.1",
+    "homepage": "https://bitcoinknots.org/",
+    "description": "Bitcoin Knots is a combined Bitcoin node and wallet.",
+    "version": "25.1.knots20231115",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://bitcoincore.org/bin/bitcoin-core-25.1/bitcoin-25.1-win64.zip",
-            "hash": "da722a4573b46b9a66aa53992b1ef296ab1b2b75dbdaa3b4eff65cbed438637a",
-            "extract_dir": "bitcoin-25.1"
+            "url": "https://bitcoinknots.org/files/25.x/25.1.knots20231115/bitcoin-25.1.knots20231115-win64.zip",
+            "hash": "4436ece2ce77aeddfcfe8e886272b3236932b323fd96dc9fe155b851332d9746",
+            "extract_dir": "bitcoin-25.1.knots20231115"
         }
     },
     "shortcuts": [
         [
             "bin\\bitcoin-qt.exe",
-            "Bitcoin Core",
+            "Bitcoin Knots",
             "-datadir=\"$dir\\appdata\""
         ]
     ],
     "persist": "appdata",
     "checkver": {
-        "url": "https://bitcoincore.org/en/download/",
-        "regex": "Latest version: ([\\d.]+)"
+        "regex": "Latest version: ([\\d.]+knots[\\d]+)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://bitcoincore.org/bin/bitcoin-core-$version/bitcoin-$version-win64.zip",
+                "url": "https://bitcoinknots.org/files/$majorVersion.x/$version/bitcoin-$version-win64.zip",
                 "extract_dir": "bitcoin-$version"
             }
         },
         "hash": {
-            "url": "https://raw.githubusercontent.com/bitcoin-core/guix.sigs/main/$version/fanquake/all.SHA256SUMS",
+            "url": "https://raw.githubusercontent.com/bitcoinknots/guix.sigs/knots/$version/luke-jr/noncodesigned.SHA256SUMS",
             "mode": "extract"
         }
     },
