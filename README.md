@@ -70,9 +70,9 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - wzv5/ScoopBucket
 - niheaven/scoop-sysinternals
 - naderi/scoop-bucket
+- amorphobia/siku
 - jonz94/scoop-sarasa-nerd-fonts
 - iquiw/scoop-bucket
-- amorphobia/siku
 - 42wim/scoop-bucket
 - ygguorun/scoop-bucket
 - DoveBoy/Apps
