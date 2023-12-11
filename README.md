@@ -91,6 +91,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - cc713/ownscoop
 - Weidows-projects/scoop-3rd
 - aoisummer/scoop-bucket
+- brian6932/dank-scoop
 - starise/Scoop-Confetti
 - seumsc/scoop-seu
 - alextwothousand/scoop-bucket
@@ -98,7 +99,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - littleli/Scoop-littleli
 - AkariiinMKII/Scoop4kariiin
 - mo-san/scoop-bucket
-- brian6932/dank-scoop
 - aliesbelik/poldi
 - yuusakuri/scoop-bucket
 - ChinLong/scoop-customize
