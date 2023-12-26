@@ -12,9 +12,7 @@
             "AVDC"
         ]
     ],
-    "persist": [
-        "config.ini"
-    ],
+    "persist": "config.ini",
     "checkver": {
         "github": "https://github.com/moyy996/AVDC/"
     },
