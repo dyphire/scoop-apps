@@ -42,9 +42,9 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - kodybrown/scoop-nirsoft
 - littleli/scoop-clojure
 - rasa/scoops
+- arch3rPro/PST-Bucket
 - kidonng/sushi
 - ScoopInstaller/Nirsoft
-- arch3rPro/PST-Bucket
 - scoopcn/scoopcn
 - hoilc/scoop-lemon
 - KNOXDEV/wsl
@@ -64,9 +64,9 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - wangzq/scoop-bucket
 - kiennq/scoop-misc
 - zhoujin7/tomato
+- ViCrack/scoop-bucket
 - akirco/aki-apps
 - TheRandomLabs/Scoop-Python
-- ViCrack/scoop-bucket
 - wzv5/ScoopBucket
 - niheaven/scoop-sysinternals
 - naderi/scoop-bucket
@@ -88,8 +88,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - rivy/scoop-bucket
 - excitoon/scoop-user
 - Darkatse/Scoop-Darkatse
-- cc713/ownscoop
 - Weidows-projects/scoop-3rd
+- cc713/ownscoop
 - aoisummer/scoop-bucket
 - brian6932/dank-scoop
 - aliesbelik/poldi
