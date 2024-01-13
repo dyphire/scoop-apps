@@ -64,14 +64,14 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - wangzq/scoop-bucket
 - kiennq/scoop-misc
 - zhoujin7/tomato
-- ViCrack/scoop-bucket
 - akirco/aki-apps
+- ViCrack/scoop-bucket
 - TheRandomLabs/Scoop-Python
 - wzv5/ScoopBucket
 - niheaven/scoop-sysinternals
 - naderi/scoop-bucket
-- amorphobia/siku
 - jonz94/scoop-sarasa-nerd-fonts
+- amorphobia/siku
 - DoveBoy/Apps
 - iquiw/scoop-bucket
 - 42wim/scoop-bucket
