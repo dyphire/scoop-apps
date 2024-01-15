@@ -309,6 +309,7 @@ scantailor-advanced.json    ScoopInstaller/Extras
 wxhexeditor.json    ScoopInstaller/Extras
 qmplay2.json    ScoopInstaller/Extras
 inkscape.json    ScoopInstaller/Extras
+hello-http.json    ScoopInstaller/Extras
 mkvtoolnix.json    ScoopInstaller/Extras
 prime95.json    ScoopInstaller/Extras
 eraser.json    ScoopInstaller/Extras
@@ -450,6 +451,7 @@ vesta.json    ScoopInstaller/Extras
 awesomebump.json    ScoopInstaller/Extras
 rubymine.json    ScoopInstaller/Extras
 wavebox.json    ScoopInstaller/Extras
+mqtt-cli.json    ScoopInstaller/Extras
 nuget-package-explorer.json    ScoopInstaller/Extras
 baregrep.json    ScoopInstaller/Extras
 vcxsrv.json    ScoopInstaller/Extras
@@ -502,6 +504,7 @@ netradio.json    ScoopInstaller/Extras
 gpu-z.json    ScoopInstaller/Extras
 kate.json    ScoopInstaller/Extras
 advancedrenamer.json    ScoopInstaller/Extras
+whepfrom.json    ScoopInstaller/Extras
 synfig-studio.json    ScoopInstaller/Extras
 simplenote.json    ScoopInstaller/Extras
 waifu2x-caffe.json    ScoopInstaller/Extras
@@ -548,6 +551,7 @@ vnote.json    ScoopInstaller/Extras
 usbimager.json    ScoopInstaller/Extras
 retroshare.json    ScoopInstaller/Extras
 dottrace.json    ScoopInstaller/Extras
+protege.json    ScoopInstaller/Extras
 potplayer.json    ScoopInstaller/Extras
 reicon.json    ScoopInstaller/Extras
 musique.json    ScoopInstaller/Extras
@@ -555,6 +559,7 @@ shareaza.json    ScoopInstaller/Extras
 jpass.json    ScoopInstaller/Extras
 logexpert.json    ScoopInstaller/Extras
 ratiomaster.json    ScoopInstaller/Extras
+whipinto.json    ScoopInstaller/Extras
 interlink.json    ScoopInstaller/Extras
 calibre-normal.json    ScoopInstaller/Extras
 scallion.json    ScoopInstaller/Extras
@@ -2038,6 +2043,7 @@ pasteboard.json    ScoopInstaller/Extras
 klogg.json    ScoopInstaller/Extras
 wsl-terminal.json    ScoopInstaller/Extras
 universalpausebutton.json    ScoopInstaller/Extras
+clashtui.json    ScoopInstaller/Extras
 squirreldisk.json    ScoopInstaller/Extras
 protonmail-bridge.json    ScoopInstaller/Extras
 dxirc.json    ScoopInstaller/Extras
@@ -2739,10 +2745,10 @@ lx-music.json    ivaquero/scoopet
 viber.json    ivaquero/scoopet
 regester.json    ivaquero/scoopet
 weasel.json    ivaquero/scoopet
-whepfrom.json    ivaquero/scoopet
+whepfrom_ivaquero.json    ivaquero/scoopet
 octave-cn.json    ivaquero/scoopet
 n-m3u8dl-re.json    ivaquero/scoopet
-whipinto.json    ivaquero/scoopet
+whipinto_ivaquero.json    ivaquero/scoopet
 cajviewer.json    ivaquero/scoopet
 diskgenius-cn.json    ivaquero/scoopet
 music-dl.json    ivaquero/scoopet
@@ -2800,7 +2806,6 @@ cnkiexpress.json    ivaquero/scoopet
 umi-ocr-all-lang.json    ivaquero/scoopet
 lyx-cn.json    ivaquero/scoopet
 pot-desktop.json    ivaquero/scoopet
-clashtui.json    ivaquero/scoopet
 freecad-cn.json    ivaquero/scoopet
 kega-fusion.json    Calinou/scoop-games
 iortcw.json    Calinou/scoop-games
@@ -5206,7 +5211,7 @@ dataflare.json    hoilc/scoop-lemon
 vesta_hoilc.json    hoilc/scoop-lemon
 droppoint.json    hoilc/scoop-lemon
 kubevpn.json    hoilc/scoop-lemon
-mqtt-cli.json    hoilc/scoop-lemon
+mqtt-cli_hoilc.json    hoilc/scoop-lemon
 statsd_exporter.json    hoilc/scoop-lemon
 task-explorer.json    hoilc/scoop-lemon
 jellyfin-media-player.json    hoilc/scoop-lemon
@@ -5381,6 +5386,7 @@ nexttrace-enhanced.json    hoilc/scoop-lemon
 mcap.json    hoilc/scoop-lemon
 ossutil.json    hoilc/scoop-lemon
 whatsapp-chat-exporter.json    hoilc/scoop-lemon
+stranslate.json    hoilc/scoop-lemon
 oplus-sans.json    hoilc/scoop-lemon
 filefriend-cn.json    hoilc/scoop-lemon
 amazon-ec2-metadata-mock.json    hoilc/scoop-lemon
@@ -5899,6 +5905,7 @@ waifu2x-snowshell_hoilc.json    hoilc/scoop-lemon
 mongodb-atlas-cli.json    hoilc/scoop-lemon
 clickmonitorddc.json    hoilc/scoop-lemon
 nuclei_hoilc.json    hoilc/scoop-lemon
+canal2sql.json    hoilc/scoop-lemon
 zip2dir.json    hoilc/scoop-lemon
 img-convert.json    hoilc/scoop-lemon
 sing-box.json    hoilc/scoop-lemon
@@ -8741,6 +8748,7 @@ kscan_ViCrack.json    ViCrack/scoop-bucket
 crawlergo_ViCrack.json    ViCrack/scoop-bucket
 postman-cn_ViCrack.json    ViCrack/scoop-bucket
 subfinder_ViCrack.json    ViCrack/scoop-bucket
+dddd.json    ViCrack/scoop-bucket
 sliver_ViCrack.json    ViCrack/scoop-bucket
 xpoc.json    ViCrack/scoop-bucket
 httpx_ViCrack.json    ViCrack/scoop-bucket
@@ -9396,7 +9404,6 @@ webcam-on-off_DoveBoy.json    DoveBoy/Apps
 min_DoveBoy.json    DoveBoy/Apps
 ttyd.json    DoveBoy/Apps
 video-subtitle-extractor-cpu.json    DoveBoy/Apps
-chromedriver-canary_DoveBoy.json    DoveBoy/Apps
 potplayer_DoveBoy.json    DoveBoy/Apps
 reicon_DoveBoy.json    DoveBoy/Apps
 jenny.json    DoveBoy/Apps
@@ -9661,6 +9668,7 @@ deeplx_DoveBoy.json    DoveBoy/Apps
 ntrace-core.json    DoveBoy/Apps
 showkeyboard.json    DoveBoy/Apps
 xhs-downloader.json    DoveBoy/Apps
+ytdlp-interface_DoveBoy.json    DoveBoy/Apps
 reader_DoveBoy.json    DoveBoy/Apps
 sandboxie-classic-portable.json    DoveBoy/Apps
 binggpt.json    DoveBoy/Apps
@@ -11500,7 +11508,6 @@ pgweb.json    aliesbelik/poldi
 unfurl.json    aliesbelik/poldi
 claws.json    aliesbelik/poldi
 muffet_aliesbelik.json    aliesbelik/poldi
-mqtt-cli_aliesbelik.json    aliesbelik/poldi
 proxify_aliesbelik.json    aliesbelik/poldi
 kafta.json    aliesbelik/poldi
 gat.json    aliesbelik/poldi
@@ -11509,6 +11516,7 @@ gocannon.json    aliesbelik/poldi
 fortio.json    aliesbelik/poldi
 jc.json    aliesbelik/poldi
 eget_aliesbelik.json    aliesbelik/poldi
+mqtt-cli_aliesbelik.json    aliesbelik/poldi
 bombardier.json    aliesbelik/poldi
 gut.json    aliesbelik/poldi
 ov.json    aliesbelik/poldi
@@ -11521,6 +11529,7 @@ jo_aliesbelik.json    aliesbelik/poldi
 gotop_aliesbelik.json    aliesbelik/poldi
 jaq.json    aliesbelik/poldi
 dnslookup.json    aliesbelik/poldi
+tailspin.json    aliesbelik/poldi
 tcping_aliesbelik.json    aliesbelik/poldi
 tf-summarize.json    aliesbelik/poldi
 oha.json    aliesbelik/poldi
@@ -11574,12 +11583,12 @@ dijo.json    aliesbelik/poldi
 trdsql_aliesbelik.json    aliesbelik/poldi
 dt.json    aliesbelik/poldi
 fast.json    aliesbelik/poldi
-tailspin.json    aliesbelik/poldi
 hey_aliesbelik.json    aliesbelik/poldi
 mturoute_aliesbelik.json    aliesbelik/poldi
 rewrk.json    aliesbelik/poldi
 dnstrace.json    aliesbelik/poldi
 godu.json    aliesbelik/poldi
+ego.json    aliesbelik/poldi
 ck-cli.json    aliesbelik/poldi
 cdntest.json    aliesbelik/poldi
 beast.json    aliesbelik/poldi
