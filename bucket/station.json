@@ -1,18 +1,12 @@
 {
-    "version": "2.7.2",
-    "description": "Open-source smart browser for busy people. A single place for all of your web applications.",
     "homepage": "https://getstation.com/",
-    "license": "Apache-2.0",
-    "architecture": {
-        "64bit": {
-            "url": "https://github.com/getstation/desktop-app/releases/download/v2.7.2/Station-Setup.exe#/dl.7z",
-            "hash": "sha512:2bb3d90d3df47258d56a1bd37913ea6701494f2bfc47132cc189f08cf78286573916400ab0a7b75f315546983749c9d59ca5eab203c21ff9eaf3963a0874ed7a"
-        }
-    },
-    "pre_install": [
-        "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\" -Removal | Out-Null",
-        "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*.exe\" -Force -Recurse"
-    ],
+    "description": "A free desktop application that unifies all your work tools in one neat & productive interface.",
+    "version": "1.65.0",
+    "license": "Proprietary",
+    "url": "https://github.com/getstation/desktop-app-releases/releases/download/1.65.0/browserX-1.65.0-full.nupkg",
+    "hash": "sha1:0ada8303baa27679fc44ce4bd8e2e36c5a060b6f",
+    "extract_dir": "lib\\net45",
+    "bin": "Station.exe",
     "shortcuts": [
         [
             "Station.exe",
@@ -20,17 +14,12 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/getstation/desktop-app"
+        "github": "https://github.com/getstation/desktop-app-releases"
     },
     "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/getstation/desktop-app/releases/download/v$version/Station-Setup.exe#/dl.7z"
-            }
-        },
+        "url": "https://github.com/getstation/desktop-app-releases/releases/download/$version/browserX-$version-full.nupkg",
         "hash": {
-            "url": "$baseurl/latest.yml",
-            "regex": "(?sm)$basename.*?$base64"
+            "url": "$baseurl/RELEASES"
         }
     }
 }
