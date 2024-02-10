@@ -41,8 +41,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - L-Trump/scoop-raresoft
 - kodybrown/scoop-nirsoft
 - littleli/scoop-clojure
-- rasa/scoops
 - arch3rPro/PST-Bucket
+- rasa/scoops
 - ScoopInstaller/Nirsoft
 - kidonng/sushi
 - hoilc/scoop-lemon
@@ -81,8 +81,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - ChungZH/peach
 - hu3rror/scoop-muggle
 - mogeko/scoop-sysinternals
-- jfut/scoop-jfut
 - AStupidBear/scoop-bear
+- jfut/scoop-jfut
 - Velgus/Scoop-Portapps
 - aoisummer/scoop-bucket
 - krproject/qi-windows
