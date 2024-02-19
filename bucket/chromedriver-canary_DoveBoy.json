@@ -1,24 +1,24 @@
 {
-    "version": "121.0.6167.184",
+    "version": "123.0.6309.0",
     "description": "An open source tool for automated testing of webapps across many browsers",
     "homepage": "https://chromedriver.chromium.org/",
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://storage.googleapis.com/chrome-for-testing-public/121.0.6167.184/win64/chromedriver-win64.zip",
-            "hash": "be51d1458a60327a1dcfd93473e8b8cb96b7276e61065d100817e8952d2082aa",
+            "url": "https://storage.googleapis.com/chrome-for-testing-public/123.0.6309.0/win64/chromedriver-win64.zip",
+            "hash": "b3f38516d817e0d62fe0e76d69ca75012c9f734d22710f8cbef598df2c0a20a1",
             "extract_dir": "chromedriver-win64"
         },
         "32bit": {
-            "url": "https://storage.googleapis.com/chrome-for-testing-public/121.0.6167.184/win32/chromedriver-win32.zip",
-            "hash": "0a56cf10f8f5b8813ef6bca01185f1e35af2260fe092ed9a8b7ed1d531bffdf3",
+            "url": "https://storage.googleapis.com/chrome-for-testing-public/123.0.6309.0/win32/chromedriver-win32.zip",
+            "hash": "8bac98d5d2ef1c7dbeed79836d854b90ac5719047f4f2e2c40bd9bb97ce3fa40",
             "extract_dir": "chromedriver-win32"
         }
     },
     "bin": "chromedriver.exe",
     "checkver": {
         "url": "https://googlechromelabs.github.io/chrome-for-testing/last-known-good-versions-with-downloads.json",
-        "jsonpath": "$.channels.Stable.version",
+        "jsonpath": "$.channels.Canary.version",
         "regex": "([\\d.]+)"
     },
     "autoupdate": {
