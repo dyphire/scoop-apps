@@ -1,5 +1,5 @@
 {
-    "version": "00010101",
+    "version": "20240219",
     "description": "Easily connect to your PostgreSQL, MySQL, MSSQL, SQLite databases, manage Table and execute Query.",
     "homepage": "https://dataflare.app/",
     "license": "Freeware",
@@ -19,7 +19,7 @@
     "checkver": {
         "script": [
             "try { $detail = Invoke-WebRequest -Method HEAD 'https://assets.dataflare.app/release/windows/x86_64/Dataflare-Setup.exe' -MaximumRedirection 0 -ErrorAction Ignore } catch { $_.Exception.Response }",
-            "return ([DateTime]$detail.Headers.'Last-Modified'[0]).ToUniversalTime().ToString(\"yyyyMMdd\")"
+            "return ([DateTime][String]$detail.Headers.'Last-Modified').ToUniversalTime().ToString(\"yyyyMMdd\")"
         ],
         "regex": "(\\d{8})"
     },

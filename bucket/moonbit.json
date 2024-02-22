@@ -1,5 +1,5 @@
 {
-    "version": "00010101",
+    "version": "20240219",
     "description": "An end-to-end programming language toolchain for cloud and edge computing using WebAssembly.",
     "homepage": "https://www.moonbitlang.com/",
     "license": "Proprietary",
@@ -28,7 +28,7 @@
     "checkver": {
         "script": [
             "try { $detail = Invoke-WebRequest -Method HEAD 'https://cli.moonbitlang.com/windows/moon.exe' -MaximumRedirection 0 -ErrorAction Ignore } catch { $_.Exception.Response }",
-            "if ($detail.StatusCode -eq 200) { return ([DateTime]$detail.Headers.'Last-Modified'[0]).ToUniversalTime().ToString(\"yyyyMMdd\") } else { return '' }"
+            "if ($detail.StatusCode -eq 200) { return ([DateTime][String]$detail.Headers.'Last-Modified').ToUniversalTime().ToString(\"yyyyMMdd\") } else { return '' }"
         ],
         "regex": "(\\d{8})"
     },
