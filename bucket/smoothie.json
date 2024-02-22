@@ -40,7 +40,10 @@
 			") | ForEach-Object {if (Test-Path $PSItem) {Remove-Item $PSItem}}"
 		]
 	},
-	"checkver": "github",
+	"checkver": {
+		"github": "https://github.com/couleur-tweak-tips/smoothie-rs",
+		"regex": "Nightly_(?:v|V)?(\\d{4}\\.\\d{2}\\.\\d{2}_\\d{2}-\\d{2})"
+	},
 	"autoupdate": {
 		"architecture": {
 			"64bit": {
