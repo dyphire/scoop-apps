@@ -3536,6 +3536,7 @@ nodejs12.json    ScoopInstaller/Versions
 logseq-nightly.json    ScoopInstaller/Versions
 v-weekly.json    ScoopInstaller/Versions
 postgresql15.json    ScoopInstaller/Versions
+miniconda3-py39.json    ScoopInstaller/Versions
 kdeconnect-nightly.json    ScoopInstaller/Versions
 gcc45.json    ScoopInstaller/Versions
 postgresql14.json    ScoopInstaller/Versions
@@ -3633,7 +3634,6 @@ kodi-nightly.json    ScoopInstaller/Versions
 mariadb103.json    ScoopInstaller/Versions
 ngrok2.json    ScoopInstaller/Versions
 handbrake-cli-snapshot.json    ScoopInstaller/Versions
-godot4-mono.json    ScoopInstaller/Versions
 xdman-beta.json    ScoopInstaller/Versions
 everything-alpha.json    ScoopInstaller/Versions
 rtools40.json    ScoopInstaller/Versions
@@ -3663,7 +3663,6 @@ stunnel-beta.json    ScoopInstaller/Versions
 vim-tux.json    ScoopInstaller/Versions
 mysql56.json    ScoopInstaller/Versions
 python39.json    ScoopInstaller/Versions
-godot4.json    ScoopInstaller/Versions
 de4dot-net45.json    ScoopInstaller/Versions
 ruby26.json    ScoopInstaller/Versions
 gimp-dev.json    ScoopInstaller/Versions
@@ -3701,14 +3700,17 @@ gogs0.json    ScoopInstaller/Versions
 chromedriver-canary.json    ScoopInstaller/Versions
 winpython37.json    ScoopInstaller/Versions
 tesseract4.json    ScoopInstaller/Versions
+miniconda3-py311.json    ScoopInstaller/Versions
 phantomjs19.json    ScoopInstaller/Versions
 php81.json    ScoopInstaller/Versions
 php80-xdebug.json    ScoopInstaller/Versions
 idea-ultimate-rc.json    ScoopInstaller/Versions
 nodejs012.json    ScoopInstaller/Versions
+miniconda3-py37.json    ScoopInstaller/Versions
 mingw-winlibs-llvm-ucrt.json    ScoopInstaller/Versions
 r41.json    ScoopInstaller/Versions
 docker-nightly.json    ScoopInstaller/Versions
+miniconda3-py310.json    ScoopInstaller/Versions
 spotbugs-beta.json    ScoopInstaller/Versions
 fluxctl.json    ScoopInstaller/Versions
 neovide-dev.json    ScoopInstaller/Versions
@@ -3722,6 +3724,7 @@ wireshark3.6.json    ScoopInstaller/Versions
 teamcity-rc.json    ScoopInstaller/Versions
 premake5.json    ScoopInstaller/Versions
 php54.json    ScoopInstaller/Versions
+godot3.json    ScoopInstaller/Versions
 musescore3-nightly.json    ScoopInstaller/Versions
 python312.json    ScoopInstaller/Versions
 php83.json    ScoopInstaller/Versions
@@ -3858,6 +3861,7 @@ python38.json    ScoopInstaller/Versions
 zig-dev.json    ScoopInstaller/Versions
 anaconda2_ScoopInstaller.json    ScoopInstaller/Versions
 python35.json    ScoopInstaller/Versions
+godot3-mono.json    ScoopInstaller/Versions
 goneovim-nightly.json    ScoopInstaller/Versions
 biber-prev.json    ScoopInstaller/Versions
 php73-xdebug.json    ScoopInstaller/Versions
@@ -3891,6 +3895,7 @@ xmind8.json    ScoopInstaller/Versions
 vscode-insiders.json    ScoopInstaller/Versions
 putty-cac.json    ScoopInstaller/Versions
 mongodb-rc.json    ScoopInstaller/Versions
+miniconda3-py38.json    ScoopInstaller/Versions
 php82-xdebug.json    ScoopInstaller/Versions
 caret-beta.json    ScoopInstaller/Versions
 kate-nightly.json    ScoopInstaller/Versions
@@ -3898,6 +3903,7 @@ kicad-lite-nightly.json    ScoopInstaller/Versions
 brave-beta.json    ScoopInstaller/Versions
 influxdb1.json    ScoopInstaller/Versions
 php74-xdebug.json    ScoopInstaller/Versions
+wixtoolset3.json    ScoopInstaller/Versions
 rambox-ce.json    ScoopInstaller/Versions
 chromedriver-dev.json    ScoopInstaller/Versions
 odin-dev.json    ScoopInstaller/Versions
@@ -7525,6 +7531,7 @@ DSynchronize.json    dodorz/scoop
 IcecreamPDFEditor.json    dodorz/scoop
 speak.json    dodorz/scoop
 ToolBox.json    dodorz/scoop
+ruff.json    dodorz/scoop
 tkdiff.json    dodorz/scoop
 TiddlyDesktop_dodorz.json    dodorz/scoop
 Clash_dodorz.json    dodorz/scoop
@@ -7592,6 +7599,7 @@ ditaa.json    dodorz/scoop
 gomi.json    dodorz/scoop
 Ollama.json    dodorz/scoop
 PicPick_dodorz.json    dodorz/scoop
+uv_dodorz.json    dodorz/scoop
 Notable_dodorz.json    dodorz/scoop
 ViDown.json    dodorz/scoop
 Shorten.json    dodorz/scoop
@@ -9437,7 +9445,6 @@ everything-cli_DoveBoy.json    DoveBoy/Apps
 npm-tab-completion.json    DoveBoy/Apps
 crystaldiskinfo-kureikei.json    DoveBoy/Apps
 clashxw.json    DoveBoy/Apps
-lky-officetools_DoveBoy.json    DoveBoy/Apps
 watttoolkit.json    DoveBoy/Apps
 zoxide.json    DoveBoy/Apps
 imagemagick-lean.json    DoveBoy/Apps
