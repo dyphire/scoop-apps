@@ -60,7 +60,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - borger/scoop-emulators
 - Qv2ray/mochi
 - TheRandomLabs/Scoop-Bucket
-- ZvonimirSun/scoop-iszy
 - wangzq/scoop-bucket
 - kiennq/scoop-misc
 - zhoujin7/tomato
@@ -70,9 +69,9 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - TheRandomLabs/Scoop-Python
 - wzv5/ScoopBucket
 - charmbracelet/scoop-bucket
+- jonz94/scoop-sarasa-nerd-fonts
 - naderi/scoop-bucket
 - DoveBoy/Apps
-- jonz94/scoop-sarasa-nerd-fonts
 - amorphobia/siku
 - 42wim/scoop-bucket
 - ygguorun/scoop-bucket
