@@ -29,12 +29,14 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/qier222/YesPlayMusic"
+        "url": "https://api.github.com/repos/qier222/YesPlayMusic/releases",
+        "jsonpath": "$[0].assets[*].browser_download_url",
+        "regex": "/releases/download/v([\\d.-]+)/(?<file>YesPlayMusic(?:.|-)([\\d.]+)\\.exe)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/qier222/YesPlayMusic/releases/download/v$version/YesPlayMusic-$version.exe#/dl.7z"
+                "url": "https://github.com/qier222/YesPlayMusic/releases/download/v$version/$matchFile#/dl.7z"
             }
         }
     }

@@ -18,12 +18,13 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/Pixeval/Pixeval"
+        "url": "https://api.github.com/repos/Pixeval/Pixeval/releases/latest",
+        "regex": "(?sm)browser_download_url.*?releases/download/([\\d.]+)/(?<file>Pixeval_(?:([\\d.]+))_x64.zip)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Pixeval/Pixeval/releases/download/$version/Pixeval-x64.zip"
+                "url": "https://github.com/Pixeval/Pixeval/releases/download/$version/$matchFile"
             }
         }
     }

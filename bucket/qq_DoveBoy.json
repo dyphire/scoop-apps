@@ -23,9 +23,9 @@
     "post_install": "Echo \"$dir\\Files\" \"$dir\\.rsrc\" \"$dir\\TXSSO\" | Remove-Item -Recurse",
     "checkver": {
         "url": "https://im.qq.com/pcqq",
-        "regex": "QQ([\\d.]+).exe"
+        "regex": "QQ_([\\d._]+).exe"
     },
     "autoupdate": {
-        "url": "https://dldir1.qq.com/qqfile/qq/PCQQ$majorVersion.$minorVersion.$patchVersion/QQ$majorVersion.$minorVersion.$patchVersion.$buildVersion.exe#/dl.7z"
+        "url": "https://dldir1.qq.com/qqfile/qq/PCQQ$majorVersion.$minorVersion.$patchVersion/QQ_$majorVersion.$minorVersion.$patchVersion.$buildVersion.exe#/dl.7z"
     }
 }
