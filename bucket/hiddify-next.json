@@ -1,30 +1,42 @@
 {
-    "version": "0.14.20",
-    "description": "A multi-platform client based on Sing-box that serves as a universal proxy tool-chain.",
-    "homepage": "https://github.com/hiddify/hiddify-next",
+    "version": "1.1.1",
+    "description": "Multi-platform auto-proxy client, supporting Sing-box, X-ray, TUIC, Hysteria, Reality, Trojan, SSH etc. It’s an open-source, secure and ad-free.",
+    "homepage": "https://hiddify.com/",
     "license": {
         "identifier": "CC-BY-NC-SA-4.0",
         "url": "https://github.com/hiddify/hiddify-next/blob/main/LICENSE.md"
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/hiddify/hiddify-next/releases/download/v0.14.20/hiddify-windows-x64-portable.zip",
-            "hash": "a8d8e0875a9992ee39c1fc4f99d6ce4cf602549c984d45a5d9a4ad81ecf8d8e7"
+            "url": "https://github.com/hiddify/hiddify-next/releases/download/v1.1.1/Hiddify-Windows-Portable-x64.zip",
+            "hash": "bce2718db5af02755fb68f5a32bd8c1afad23d86102311091c92d443aadc9629"
         }
     },
     "extract_dir": "HiddifyNext-portable",
+    "installer": {
+        "script": [
+            "ensure \"$persist_dir\" | Out-Null",
+            "New-Item \"$env:APPDATA\\Hiddify\" -ItemType Junction -Target \"$persist_dir\" | Out-Null"
+        ]
+    },
+    "uninstaller": {
+        "script": "Remove-Item \"$env:APPDATA\\Hiddify\" -Recurse -Force -ErrorAction 'SilentlyContinue'"
+    },
     "shortcuts": [
         [
             "HiddifyNext.exe",
-            "Hiddify Next"
+            "HiddifyNext"
         ]
     ],
-    "notes": "Hiddify Next is NOT portable.",
-    "checkver": "github",
+    "checkver": {
+        "url": "https://api.github.com/repos/hiddify/hiddify-next/releases",
+        "jsonpath": "$[0].assets[*].browser_download_url",
+        "regex": "/releases/download/v([\\w.]+)/(?<file>(?:hiddify|Hiddify)-(?:windows|Windows)-(?:portable|Portable)-x64\\.zip)"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/hiddify/hiddify-next/releases/download/v$version/hiddify-windows-x64-portable.zip"
+                "url": "https://github.com/hiddify/hiddify-next/releases/download/v$version/$matchFile"
             }
         }
     }
