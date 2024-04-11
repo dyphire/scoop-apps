@@ -1,0 +1,22 @@
+{
+    "$schema": "https://raw.githubusercontent.com/ScoopInstaller/Scoop/master/schema.json",
+    "version": "1.20.6",
+    "description": "An experimental lossless and lossy image optimizer (PNG, JPEG, WebP, APNG) designed to be used for web context",
+    "homepage": "https://css-ig.net/pingo",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://css-ig.net/bin/pingo-win64.zip",
+            "hash": "63bc3b00852436e432f854b089a5a359e734c1a78a266703a36e2543ea246cae"
+        }
+    },
+    "bin": "pingo.exe",
+    "checkver": "<span class=\"bold\">v?(.+) — <a id=\"download\"",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://css-ig.net/bin/pingo-win64.zip"
+            }
+        }
+    }
+}
