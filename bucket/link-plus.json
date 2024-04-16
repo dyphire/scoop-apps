@@ -1,0 +1,62 @@
+{
+    "version": "3.1.4",
+    "description": "Multifunctional integrated, cross platform, highly compatible assistant for your keyboard.",
+    "homepage": "https://github.com/lnelab/link-plus",
+    "license": "Unknown",
+    "notes": [
+        "Visit following site for user guide:",
+        "https://www.lnelab.com/docs"
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/lnelab/link-plus/releases/download/3.1.4/link-plus-win-3.1.4.exe#/dl.7z",
+            "hash": "sha512:2b75fcda46feb4a4f75e6d1c4964c3d02df621d48088b91d024051a5e041b56ac673853cb6c0024215db7cd896225f12c33d879d2c20a607c249269a7e67f10a",
+            "pre_install": [
+                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+                "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R0\" -Force -Recurse"
+            ]
+        }
+    },
+    "installer": {
+        "script": [
+            "$S4UtilsPath = Find-BucketDirectory -Root -Name $bucket | Join-Path -ChildPath \"scripts\\S4Utils.psm1\"",
+            "if (Test-Path $S4UtilsPath) {",
+            "    Unblock-File $S4UtilsPath",
+            "    Import-Module $S4UtilsPath",
+            "    Mount-ExternalRuntimeData -Source \"$persist_dir\\link-plus\" -AppData",
+            "    Remove-Module -Name S4Utils -ErrorAction SilentlyContinue",
+            "} else {",
+            "    Write-Host \"Missing files, please re-add Scoop4kariiin bucket and re-install this app.\" -ForegroundColor Red",
+            "}"
+        ]
+    },
+    "shortcuts": [
+        [
+            "LINK+.exe",
+            "LINK+"
+        ]
+    ],
+    "uninstaller": {
+        "script": [
+            "$S4UtilsPath = Find-BucketDirectory -Root -Name $install.bucket | Join-Path -ChildPath \"scripts\\S4Utils.psm1\"",
+            "if (Test-Path $S4UtilsPath) {",
+            "    Unblock-File $S4UtilsPath",
+            "    Import-Module $S4UtilsPath",
+            "    Dismount-ExternalRuntimeData -Target \"link-plus\" -AppData",
+            "    Remove-Module -Name S4Utils -ErrorAction SilentlyContinue",
+            "}"
+        ]
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/lnelab/link-plus/releases/download/$version/link-plus-win-$version.exe#/dl.7z",
+                "hash": {
+                    "url": "$baseurl/latest.yml",
+                    "regex": "sha512:\\s+$base64"
+                }
+            }
+        }
+    }
+}
