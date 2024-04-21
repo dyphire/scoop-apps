@@ -89,12 +89,12 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - krproject/qi-windows
 - rivy/scoop-bucket
 - excitoon/scoop-user
+- Darkatse/Scoop-Darkatse
 - Weidows-projects/scoop-3rd
 - cc713/ownscoop
 - starise/Scoop-Confetti
 - seumsc/scoop-seu
 - KnotUntied/scoop-fonts
-- Darkatse/Scoop-Darkatse
 - alextwothousand/scoop-bucket
 - SayCV/scoop-cvp
 - littleli/Scoop-littleli
