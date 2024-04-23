@@ -1,10 +1,10 @@
 {
-    "version": "4.1.20.6024",
+    "version": "4.1.22.6009",
     "description": "企业微信是腾讯微信团队为企业打造的专业办公管理工具，与微信一致的沟通体验，丰富免费的OA应用，并与微信消息、小程序、微信支付等互通，助力企业高效办公和管理",
     "homepage": "https://work.weixin.qq.com/",
     "license": "Freeware",
-    "url": "https://dldir1.qq.com/wework/work_weixin/WeCom_4.1.20.6024.exe#/dl.7z",
-    "hash": "ecbbcce2ff919c68464b3fd98ac87fd6f7234d6790c4223de7b0edae1809dcf2",
+    "url": "https://dldir1.qq.com/wework/work_weixin/WeCom_4.1.22.6009.exe#/dl.7z",
+    "hash": "98733142a8995c898273f2cda1cf62e6df76d6dc73e23c5fd99f0f09e530b8b4",
     "shortcuts": [
         [
             "WXWork.exe",
@@ -13,8 +13,11 @@
     ],
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\" -Force -Recurse",
     "checkver": {
-        "url": "https://pc.qq.com/detail/14/detail_22554.html",
-        "regex": "最新([\\d.]+)官方正式版"
+        "script": [
+            "try { $detail = Invoke-WebRequest 'https://work.weixin.qq.com/wework_admin/commdownload?platform=win&from=wwindex' -MaximumRedirection 0 -ErrorAction Ignore } catch { $_.Exception.Response }",
+            "return $detail.Headers.Location"
+        ],
+        "regex": "WeCom_([\\d.]+?).exe"
     },
     "autoupdate": {
         "url": "https://dldir1.qq.com/wework/work_weixin/WeCom_$version.exe#/dl.7z"
