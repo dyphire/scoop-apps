@@ -81,10 +81,10 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - ChungZH/peach
 - mogeko/scoop-sysinternals
 - AStupidBear/scoop-bear
+- brian6932/dank-scoop
 - jfut/scoop-jfut
 - Velgus/Scoop-Portapps
 - aoisummer/scoop-bucket
-- brian6932/dank-scoop
 - aliesbelik/poldi
 - krproject/qi-windows
 - rivy/scoop-bucket
