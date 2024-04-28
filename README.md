@@ -41,11 +41,11 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - kodybrown/scoop-nirsoft
 - littleli/scoop-clojure
 - arch3rPro/PST-Bucket
-- rasa/scoops
 - ScoopInstaller/Nirsoft
+- rasa/scoops
 - hoilc/scoop-lemon
-- kidonng/sushi
 - scoopcn/scoopcn
+- kidonng/sushi
 - Paxxs/Cluttered-bucket
 - KNOXDEV/wsl
 - ScoopInstaller/Nonportable
