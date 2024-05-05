@@ -61,10 +61,10 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - TheRandomLabs/Scoop-Bucket
 - kiennq/scoop-misc
 - wangzq/scoop-bucket
+- akirco/aki-apps
 - niheaven/scoop-sysinternals
 - ViCrack/scoop-bucket
 - zhoujin7/tomato
-- akirco/aki-apps
 - TheRandomLabs/Scoop-Python
 - wzv5/ScoopBucket
 - DoveBoy/Apps
