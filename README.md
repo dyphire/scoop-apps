@@ -42,8 +42,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - littleli/scoop-clojure
 - arch3rPro/PST-Bucket
 - hoilc/scoop-lemon
-- ScoopInstaller/Nirsoft
 - rasa/scoops
+- ScoopInstaller/Nirsoft
 - scoopcn/scoopcn
 - kidonng/sushi
 - Paxxs/Cluttered-bucket
@@ -61,8 +61,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - TheRandomLabs/Scoop-Bucket
 - kiennq/scoop-misc
 - wangzq/scoop-bucket
-- akirco/aki-apps
 - ViCrack/scoop-bucket
+- akirco/aki-apps
 - zhoujin7/tomato
 - niheaven/scoop-sysinternals
 - TheRandomLabs/Scoop-Python
