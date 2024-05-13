@@ -67,11 +67,11 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - niheaven/scoop-sysinternals
 - TheRandomLabs/Scoop-Python
 - wzv5/ScoopBucket
+- jonz94/scoop-sarasa-nerd-fonts
 - DoveBoy/Apps
 - naderi/scoop-bucket
 - charmbracelet/scoop-bucket
 - amorphobia/siku
-- jonz94/scoop-sarasa-nerd-fonts
 - ygguorun/scoop-bucket
 - NyaMisty/scoopbucketmisty
 - 42wim/scoop-bucket
