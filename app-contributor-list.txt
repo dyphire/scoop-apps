@@ -3621,6 +3621,7 @@ php81-xdebug.json    ScoopInstaller/Versions
 spark-without-hadoop.json    ScoopInstaller/Versions
 cuda11.1.json    ScoopInstaller/Versions
 freac-continuous.json    ScoopInstaller/Versions
+cuda11.7.json    ScoopInstaller/Versions
 python37.json    ScoopInstaller/Versions
 greenshot-unstable.json    ScoopInstaller/Versions
 cuda7.5.json    ScoopInstaller/Versions
@@ -3683,6 +3684,7 @@ php80-xdebug.json    ScoopInstaller/Versions
 dataspell-eap.json    ScoopInstaller/Versions
 mingw-winlibs-llvm-ucrt.json    ScoopInstaller/Versions
 audacity2.4.2.json    ScoopInstaller/Versions
+cuda11.8.json    ScoopInstaller/Versions
 nodejs16.json    ScoopInstaller/Versions
 cuda11.4.json    ScoopInstaller/Versions
 sql-workbench-dev.json    ScoopInstaller/Versions
@@ -3716,6 +3718,7 @@ premake4.json    ScoopInstaller/Versions
 cuda9.1.json    ScoopInstaller/Versions
 php55-xdebug.json    ScoopInstaller/Versions
 rstudio-preview.json    ScoopInstaller/Versions
+vlc-nightly-ucrt-llvm.json    ScoopInstaller/Versions
 python39.json    ScoopInstaller/Versions
 steam_ScoopInstaller.json    ScoopInstaller/Versions
 systeminformer-nightly.json    ScoopInstaller/Versions
@@ -3725,6 +3728,7 @@ ruby19.json    ScoopInstaller/Versions
 nodejs012.json    ScoopInstaller/Versions
 winpython3741.json    ScoopInstaller/Versions
 putty-cac.json    ScoopInstaller/Versions
+mingw-msvcrt.json    ScoopInstaller/Versions
 rtools42.json    ScoopInstaller/Versions
 dotnet-sdk-lts.json    ScoopInstaller/Versions
 r-patched.json    ScoopInstaller/Versions
@@ -3782,6 +3786,7 @@ chromedriver-beta.json    ScoopInstaller/Versions
 godot-mono-beta.json    ScoopInstaller/Versions
 nodejs6.json    ScoopInstaller/Versions
 kicad-lite-nightly.json    ScoopInstaller/Versions
+lapce-nightly.json    ScoopInstaller/Versions
 miniconda2_ScoopInstaller.json    ScoopInstaller/Versions
 chromedriver-dev.json    ScoopInstaller/Versions
 everything-beta.json    ScoopInstaller/Versions
@@ -3911,7 +3916,6 @@ phpstorm-eap.json    ScoopInstaller/Versions
 python312.json    ScoopInstaller/Versions
 openssh-msys.json    ScoopInstaller/Versions
 ffmpeg-yt-dlp.json    ScoopInstaller/Versions
-mingw-winlibs-llvm-ucrt-mcf.json    ScoopInstaller/Versions
 oss-cad-suite-nightly.json    ScoopInstaller/Versions
 idea-eap.json    ScoopInstaller/Versions
 winget-preview.json    ScoopInstaller/Versions
@@ -3974,6 +3978,7 @@ android-studio-beta.json    ScoopInstaller/Versions
 php74-xdebug.json    ScoopInstaller/Versions
 mariadb103.json    ScoopInstaller/Versions
 nodejs12.json    ScoopInstaller/Versions
+yt-dlp-nightly.json    ScoopInstaller/Versions
 nuget3.json    ScoopInstaller/Versions
 graphicsmagick-q16.json    ScoopInstaller/Versions
 lite-xl-addons.json    ScoopInstaller/Versions
@@ -4016,7 +4021,6 @@ git-without-openssh.json    ScoopInstaller/Versions
 winget1.5.json    ScoopInstaller/Versions
 php73.json    ScoopInstaller/Versions
 uplay.json    ScoopInstaller/Versions
-yt-dlp-daily.json    ScoopInstaller/Versions
 idea-ultimate-rc.json    ScoopInstaller/Versions
 lua51.json    ScoopInstaller/Versions
 sfsu-beta.json    ScoopInstaller/Versions
@@ -4025,6 +4029,7 @@ nodejs5.json    ScoopInstaller/Versions
 godot-rc.json    ScoopInstaller/Versions
 deepgit402.json    ScoopInstaller/Versions
 python27.json    ScoopInstaller/Versions
+yt-dlp-master.json    ScoopInstaller/Versions
 tesseract4.json    ScoopInstaller/Versions
 postman9.json    ScoopInstaller/Versions
 php54-xdebug.json    ScoopInstaller/Versions
@@ -4858,6 +4863,7 @@ foldermonitor.json    hoilc/scoop-lemon
 cryptoknife.json    hoilc/scoop-lemon
 keyhac.json    hoilc/scoop-lemon
 memurai.json    hoilc/scoop-lemon
+kikoplay.json    hoilc/scoop-lemon
 credhub-cli.json    hoilc/scoop-lemon
 speex.json    hoilc/scoop-lemon
 whalebird.json    hoilc/scoop-lemon
@@ -5516,6 +5522,7 @@ wxdatviewer.json    hoilc/scoop-lemon
 grafana-agentctl.json    hoilc/scoop-lemon
 ediary3.json    hoilc/scoop-lemon
 tunnelmole.json    hoilc/scoop-lemon
+oneanime.json    hoilc/scoop-lemon
 easy-cat-timer.json    hoilc/scoop-lemon
 nexusfile.json    hoilc/scoop-lemon
 system-tray-menu.json    hoilc/scoop-lemon
@@ -5568,6 +5575,7 @@ arpsift.json    hoilc/scoop-lemon
 musictag.json    hoilc/scoop-lemon
 go-p2ptunnel.json    hoilc/scoop-lemon
 skylark.json    hoilc/scoop-lemon
+subtitle-renamer.json    hoilc/scoop-lemon
 tickeys.json    hoilc/scoop-lemon
 flydav.json    hoilc/scoop-lemon
 rpk.json    hoilc/scoop-lemon
@@ -8740,6 +8748,7 @@ ntop.json    akirco/aki-apps
 vcredist2017.json    akirco/aki-apps
 homedale_akirco.json    akirco/aki-apps
 windows-terminal-quake_akirco.json    akirco/aki-apps
+quicklook_akirco.json    akirco/aki-apps
 regexp_akirco.json    akirco/aki-apps
 dingtalk_akirco.json    akirco/aki-apps
 Thunder_akirco.json    akirco/aki-apps
@@ -10508,7 +10517,7 @@ chromium_hu3rror.json    hu3rror/scoop-muggle
 neovim_hu3rror.json    hu3rror/scoop-muggle
 mpv-lazy_hu3rror.json    hu3rror/scoop-muggle
 qaac.json    hu3rror/scoop-muggle
-kikoplay.json    hu3rror/scoop-muggle
+kikoplay_hu3rror.json    hu3rror/scoop-muggle
 neat-converter.json    hu3rror/scoop-muggle
 RyuSAK_hu3rror.json    hu3rror/scoop-muggle
 DocBox_hu3rror.json    hu3rror/scoop-muggle
