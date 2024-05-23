@@ -95,6 +95,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - AkariiinMKII/Scoop4kariiin
 - starise/Scoop-Confetti
 - seumsc/scoop-seu
+- noql-net/scoop
 - KnotUntied/scoop-fonts
 - alextwothousand/scoop-bucket
 - SayCV/scoop-cvp

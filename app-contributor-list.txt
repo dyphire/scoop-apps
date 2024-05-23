@@ -3345,6 +3345,7 @@ sapmachine11-jdk.json    ScoopInstaller/Java
 openjdk8-redhat-jre.json    ScoopInstaller/Java
 intellij-jbr11-sdk-jcef.json    ScoopInstaller/Java
 semeru20-jdk.json    ScoopInstaller/Java
+zulu22-jre.json    ScoopInstaller/Java
 liberica15-lite-jdk.json    ScoopInstaller/Java
 intellij-jbr11.json    ScoopInstaller/Java
 temurin18-jre.json    ScoopInstaller/Java
@@ -3374,6 +3375,7 @@ ojdkbuild14-full.json    ScoopInstaller/Java
 zulu13-jre.json    ScoopInstaller/Java
 ojdkbuild17.json    ScoopInstaller/Java
 temurin19-jdk.json    ScoopInstaller/Java
+zulufx22-jre.json    ScoopInstaller/Java
 sapmachine-lts-jdk.json    ScoopInstaller/Java
 liberica14-jdk.json    ScoopInstaller/Java
 dragonwell11-jdk-extended.json    ScoopInstaller/Java
@@ -3463,6 +3465,7 @@ dragonwell8-jdk-extended.json    ScoopInstaller/Java
 ojdkbuild14.json    ScoopInstaller/Java
 zulu-jre.json    ScoopInstaller/Java
 temurin20-jdk.json    ScoopInstaller/Java
+zulufx22-jdk.json    ScoopInstaller/Java
 graalvm.json    ScoopInstaller/Java
 ojdkbuild15.json    ScoopInstaller/Java
 gluon-openjfx-sdk.json    ScoopInstaller/Java
@@ -3476,6 +3479,7 @@ liberica17-full-jre.json    ScoopInstaller/Java
 liberica17-jdk.json    ScoopInstaller/Java
 graalvm-jdk17.json    ScoopInstaller/Java
 openjdk18.json    ScoopInstaller/Java
+zulu21-jre.json    ScoopInstaller/Java
 zulufx13-jdk.json    ScoopInstaller/Java
 semeru17-jdk.json    ScoopInstaller/Java
 ojdkbuild9-full.json    ScoopInstaller/Java
@@ -3523,12 +3527,14 @@ graalvm19.json    ScoopInstaller/Java
 temurin17-jdk.json    ScoopInstaller/Java
 temurin11-jdk.json    ScoopInstaller/Java
 liberica-full-lts-jre.json    ScoopInstaller/Java
+zulufx21-jdk.json    ScoopInstaller/Java
 ojdkbuild14-jre.json    ScoopInstaller/Java
 liberica15-jdk.json    ScoopInstaller/Java
 temurin8-nightly-jdk.json    ScoopInstaller/Java
 semeru19-jdk.json    ScoopInstaller/Java
 graalvm19-jdk11.json    ScoopInstaller/Java
 corretto-jdk.json    ScoopInstaller/Java
+zulu21-jdk.json    ScoopInstaller/Java
 sapmachine16-jdk.json    ScoopInstaller/Java
 temurin17-nightly-jdk.json    ScoopInstaller/Java
 icedtea-web.json    ScoopInstaller/Java
@@ -3538,11 +3544,11 @@ zulumc.json    ScoopInstaller/Java
 microsoft17-jdk.json    ScoopInstaller/Java
 liberica15-full-jdk.json    ScoopInstaller/Java
 jmc8.json    ScoopInstaller/Java
+zulufx21-jre.json    ScoopInstaller/Java
 corretto17-jdk.json    ScoopInstaller/Java
 graalvm-nightly-jdk17.json    ScoopInstaller/Java
 temurin-nightly-jdk.json    ScoopInstaller/Java
 dragonwell8-jdk.json    ScoopInstaller/Java
-zulu6-jdk.json    ScoopInstaller/Java
 openjdk22.json    ScoopInstaller/Java
 ojdkbuild-full.json    ScoopInstaller/Java
 temurin20-jre.json    ScoopInstaller/Java
@@ -3589,6 +3595,7 @@ zulu-icedtea-web.json    ScoopInstaller/Java
 sapmachine-jdk.json    ScoopInstaller/Java
 ojdkbuild11-full.json    ScoopInstaller/Java
 liberica-full-jre.json    ScoopInstaller/Java
+zulu22-jdk.json    ScoopInstaller/Java
 zulu15-jre.json    ScoopInstaller/Java
 sapmachine15-jdk.json    ScoopInstaller/Java
 liberica14-lite-jdk.json    ScoopInstaller/Java
@@ -9433,7 +9440,6 @@ lx-music-desktop-win7.json    DoveBoy/Apps
 mihomo-go120.json    DoveBoy/Apps
 ofgb_DoveBoy.json    DoveBoy/Apps
 windterm_DoveBoy.json    DoveBoy/Apps
-rufus_DoveBoy.json    DoveBoy/Apps
 helix_DoveBoy.json    DoveBoy/Apps
 pls.json    DoveBoy/Apps
 perl.json    DoveBoy/Apps
@@ -12295,6 +12301,20 @@ shellexview-zhs.json    seumsc/scoop-seu
 v2rayn-core_seumsc.json    seumsc/scoop-seu
 hmcl_seumsc.json    seumsc/scoop-seu
 office-tool-plus_seumsc.json    seumsc/scoop-seu
+nekoray_noql-net.json    noql-net/scoop
+xray-plugin.json    noql-net/scoop
+singbox-ui.json    noql-net/scoop
+xray-core.json    noql-net/scoop
+oblivion-desktop.json    noql-net/scoop
+sing-box_noql-net.json    noql-net/scoop
+tun2socks.json    noql-net/scoop
+v2ray-core.json    noql-net/scoop
+v2rayn_noql-net.json    noql-net/scoop
+dnscrypt-proxy.json    noql-net/scoop
+bepass.json    noql-net/scoop
+simplednscrypt.json    noql-net/scoop
+hiddify-next_noql-net.json    noql-net/scoop
+warp-plus.json    noql-net/scoop
 courierprimesans.json    KnotUntied/scoop-fonts
 iosevka-ss04.json    KnotUntied/scoop-fonts
 ptserif-expert.json    KnotUntied/scoop-fonts
