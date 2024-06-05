@@ -1,18 +1,18 @@
 {
-    "version": "3.2.0-202406050458",
+    "version": "3.2.2-202406051703",
     "description": "LunaTranslator is a Visual Novel translate tool, support clipboard / OCR/ HOOK, support 40+ translate engines.",
     "homepage": "https://github.com/HIllya51/LunaTranslator",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v3.2.0/LunaTranslator.zip",
+            "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v3.2.2/LunaTranslator.zip",
             "extract_dir": "LunaTranslator",
-            "hash": "ca28daf53e77fd1deb8baca51555f7ac329aa181f136865d0534af093b1ea003"
+            "hash": "99e375cb9f7aca3934000505d714ce7496b8158965b31c40ba4428f5dd351542"
         },
         "32bit": {
-            "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v3.2.0/LunaTranslator_x86.zip",
+            "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v3.2.2/LunaTranslator_x86.zip",
             "extract_dir": "LunaTranslator_x86",
-            "hash": "db4605080485712e843d5a732919425c969b1aba3815264183b5284c1b0ad33a"
+            "hash": "b208dad75d3ac29ff770b632b5057f9eeb23281f9283809d92ae5330079027e1"
         }
     },
     "shortcuts": [
