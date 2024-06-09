@@ -1,8 +1,11 @@
 {
     "version": "1.7.6",
-    "description": "A GUI program for Clash developed by vue3 + wails.",
-    "homepage": "https://github.com/GUI-for-Cores/GUI.for.Clash",
-    "license": "GPL-3.0",
+    "description": "GUI for SingBox",
+    "homepage": "https://gui-for-cores.github.io/",
+    "license": {
+        "identifier": "GPL-3.0 license",
+        "url": "https://github.com/GUI-for-Cores/GUI.for.SingBox#GPL-3.0-1-ov-file"
+    },
     "architecture": {
         "64bit": {
             "url": "https://github.com/GUI-for-Cores/GUI.for.Clash/releases/download/v1.7.6/GUI.for.Clash-windows-amd64.zip",
@@ -19,8 +22,8 @@
     },
     "shortcuts": [
         [
-            "GUI.for.Clash.exe",
-            "GUI.for.Clash"
+            "GUI.for.SingBox.exe",
+            "GUI.for.SingBox"
         ]
     ],
     "persist": "data",
@@ -28,13 +31,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/GUI-for-Cores/GUI.for.Clash/releases/download/v$version/GUI.for.Clash-windows-amd64.zip"
+                "url": "https://github.com/GUI-for-Cores/GUI.for.SingBox/releases/download/v$version/GUI.for.SingBox-windows-amd64.zip"
             },
             "32bit": {
-                "url": "https://github.com/GUI-for-Cores/GUI.for.Clash/releases/download/v$version/GUI.for.Clash-windows-386.zip"
+                "url": "https://github.com/GUI-for-Cores/GUI.for.SingBox/releases/download/v$version/GUI.for.SingBox-windows-386.zip"
             },
             "arm64": {
-                "url": "https://github.com/GUI-for-Cores/GUI.for.Clash/releases/download/v$version/GUI.for.Clash-windows-arm64.zip"
+                "url": "https://github.com/GUI-for-Cores/GUI.for.SingBox/releases/download/v$version/GUI.for.SingBox-windows-arm64.zip"
             }
         }
     }
