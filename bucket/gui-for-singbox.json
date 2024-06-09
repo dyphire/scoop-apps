@@ -1,5 +1,5 @@
 {
-    "version": "1.7.6",
+    "version": "1.7.4",
     "description": "GUI for SingBox",
     "homepage": "https://gui-for-cores.github.io/",
     "license": {
@@ -8,16 +8,16 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/GUI-for-Cores/GUI.for.Clash/releases/download/v1.7.6/GUI.for.Clash-windows-amd64.zip",
-            "hash": "d898cfabf96ec993947b209239b4be34ee62e7d0a7e2d6b15791dab26a1fbbad"
+            "url": "https://github.com/GUI-for-Cores/GUI.for.SingBox/releases/download/v1.7.4/GUI.for.SingBox-windows-amd64.zip",
+            "hash": "41525823aae000351b63c29940829d0f069586be7096108ac78b95fef60067b0"
         },
         "32bit": {
-            "url": "https://github.com/GUI-for-Cores/GUI.for.Clash/releases/download/v1.7.6/GUI.for.Clash-windows-386.zip",
-            "hash": "0437b3fd5f4f83a06867c14b318bde96a5ff15b3ed711e151fdea38eb4b8e240"
+            "url": "https://github.com/GUI-for-Cores/GUI.for.SingBox/releases/download/v1.7.4/GUI.for.SingBox-windows-386.zip",
+            "hash": "42ea7c1da4f79b2f073fe3928f2ebdf2aab6b10abb64f0ae8a1a93213be73db6"
         },
         "arm64": {
-            "url": "https://github.com/GUI-for-Cores/GUI.for.Clash/releases/download/v1.7.6/GUI.for.Clash-windows-arm64.zip",
-            "hash": "a4618a254e1cfd400d6559b604e700ada2aeee644ec1e69d2e6d60a8d8e3366d"
+            "url": "https://github.com/GUI-for-Cores/GUI.for.SingBox/releases/download/v1.7.4/GUI.for.SingBox-windows-arm64.zip",
+            "hash": "2289dd4500ade92750b5be1bd8fe1ff537c46e1f35c8539da18a0b6891821b88"
         }
     },
     "shortcuts": [
@@ -27,7 +27,10 @@
         ]
     ],
     "persist": "data",
-    "checkver": "github",
+    "checkver": {
+        "url": "https://api.github.com/repos/GUI-for-Cores/GUI.for.SingBox/releases",
+        "regex": "/releases/tag/v([\\d.]+)"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
