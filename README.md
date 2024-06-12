@@ -91,15 +91,15 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - rivy/scoop-bucket
 - excitoon/scoop-user
 - Darkatse/Scoop-Darkatse
+- TianXiaTech/scoop-txt
 - alextwothousand/scoop-bucket
 - SayCV/scoop-cvp
 - Weidows-projects/scoop-3rd
+- s0nd9r/scoop-security
 - AkariiinMKII/Scoop4kariiin
 - starise/Scoop-Confetti
 - seumsc/scoop-seu
 - noql-net/scoop
-- TianXiaTech/scoop-txt
-- s0nd9r/scoop-security
 - littleli/Scoop-littleli
 - beerpiss/scoop-bucket
 - yuusakuri/scoop-bucket
