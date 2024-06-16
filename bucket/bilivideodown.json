@@ -1,0 +1,22 @@
+{
+    "version": "1.0",
+    "description": "一款基于 Flutter 开发的桌面端 B 站视频下载器",
+    "homepage": "https://github.com/kangpeiqin/bilivideo_down",
+    "license": "Unknown",
+    "url": "https://github.com/kangpeiqin/bilivideo_down/releases/download/1.0/BiliVideoDownInstaller.exe#/dl.7z",
+    "hash": "dc7bad0ad0ce399653cb19fd207391ef5c15c1c204c93879ebaa67d487eee0ad",
+    "innosetup": true,
+    "shortcuts": [
+        [
+            "BiliVideo.exe",
+            "BiliVideo"
+        ]
+    ],
+    "checkver": {
+        "url": "https://api.github.com/repos/kangpeiqin/bilivideo_down/releases",
+        "regex": "/releases/tag/([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/kangpeiqin/bilivideo_down/releases/download/$version/BiliVideoDownInstaller.exe#/dl.7z"
+    }
+}
