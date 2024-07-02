@@ -85,6 +85,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - jfut/scoop-jfut
 - cc713/ownscoop
 - Velgus/Scoop-Portapps
+- s0nd9r/scoop-security
 - aoisummer/scoop-bucket
 - aliesbelik/poldi
 - krproject/qi-windows
@@ -95,7 +96,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - alextwothousand/scoop-bucket
 - SayCV/scoop-cvp
 - Weidows-projects/scoop-3rd
-- s0nd9r/scoop-security
 - AkariiinMKII/Scoop4kariiin
 - starise/Scoop-Confetti
 - seumsc/scoop-seu
