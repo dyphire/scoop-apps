@@ -1,0 +1,48 @@
+{
+    "version": "1.14.3",
+    "description": "A sandbox-based isolation software for 32-bit and 64-bit Windows NT-based operating systems",
+    "homepage": "https://sandboxie-plus.com/",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/v1.14.3/Sandboxie-Plus-x64-v1.14.3.exe",
+            "hash": "6de50fecf2024d58528a4d0bc1764fda83d92061debb6a679463ff02b5ce5947"
+        },
+        "32bit": {
+            "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/v1.14.3/Sandboxie-Plus-x86-v1.14.3.exe",
+            "hash": "0cf559e0cbf5dbbc04f408781c8d145857c9c47fab51b7a8dd35e054b58abd03"
+        },
+        "arm64": {
+            "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/v1.14.3/Sandboxie-Plus-ARM64-v1.14.3.exe",
+            "hash": "19181bfaf4dac942ed933035d46d2bbdf599c6c34557fcd91b6752d7e9f9f94d"
+        }
+    },
+    "innosetup": true,
+    "pre_install": [
+        "ensure \"$persist_dir\" | Out-Null",
+        "Get-ChildItem \"$persist_dir\\*.ini\" | Copy-Item -Destination \"$dir\" -Force -ErrorAction SilentlyContinue"
+    ],
+    "shortcuts": [
+        [
+            "SandMan.exe",
+            "Sandboxie Plus"
+        ]
+    ],
+    "pre_uninstall": "Get-ChildItem \"$dir\\*\" -Include 'Sandboxie.ini', 'Sandboxie-Plus.ini' | Copy-Item -Destination \"$persist_dir\" -Force -ErrorAction SilentlyContinue",
+    "checkver": {
+        "github": "https://github.com/sandboxie-plus/Sandboxie"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/v$version/Sandboxie-Plus-x64-v$version.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/v$version/Sandboxie-Plus-x86-v$version.exe"
+            },
+            "arm64": {
+                "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/v$version/Sandboxie-Plus-ARM64-v$version.exe"
+            }
+        }
+    }
+}

@@ -100,6 +100,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - starise/Scoop-Confetti
 - seumsc/scoop-seu
 - noql-net/scoop
+- HUMORCE/nuke
 - littleli/Scoop-littleli
 - beerpiss/scoop-bucket
 - yuusakuri/scoop-bucket

@@ -1,0 +1,34 @@
+{
+    "version": "9.3.1",
+    "description": "API client for GraphQL, REST, and gRPC",
+    "homepage": "https://insomnia.rest/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Kong/insomnia/releases/download/core%409.3.1/insomnia-9.3.1-full.nupkg",
+            "hash": "sha1:5ca5ab5539a1d282438ffdc3b0e787ea3dd954cd"
+        }
+    },
+    "extract_dir": "lib\\net45",
+    "shortcuts": [
+        [
+            "Insomnia.exe",
+            "Insomnia"
+        ]
+    ],
+    "checkver": {
+        "url": "https://api.github.com/repos/Kong/insomnia/releases",
+        "jsonpath": "$..tag_name",
+        "regex": "core@([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Kong/insomnia/releases/download/core%40$version/insomnia-$version-full.nupkg"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/RELEASES"
+        }
+    }
+}
