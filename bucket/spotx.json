@@ -1,49 +1,40 @@
 {
-    "version": "1.8-20240704-61b214",
-    "description": "Modified Spotify client. Blocks ads, updates and more. (fixed up-to-date version, preserves Spotify settings and user data on update)",
+    "version": "0.2024.07.10.af30d4c",
+    "description": "SpotX patcher used for patching the desktop version of Spotify",
     "homepage": "https://github.com/SpotX-Official/SpotX",
-    "license": "MIT",
-    "url": "https://raw.githubusercontent.com/SpotX-Official/SpotX/main/run.ps1",
-    "hash": "c649d5a22334bc75190f54c9ffd25b9177def3758592e366f449c844402b3693",
-    "notes": "The manifest is from https://github.com/Ast3risk-ops/spotx-bucket/blob/master/bucket/spotx.json",
-    "installer": {
-        "script": [
-            "# older versions of Powershell 5 requires BOM to recognize UTF8 scripts",
-            "$cont = Get-Content \"$dir\\run.ps1\" -Encoding utf8",
-            "Set-Content \"$dir\\run.ps1\" $cont -Encoding utf8",
-            "& \"$dir\\run.ps1\" -confirm_uninstall_ms_spoti -confirm_spoti_recomended_over -podcasts_off -cache_limit 500 -block_update_on -new_theme -no_shortcut"
-        ]
+    "license": {
+        "identifier": "MIT license",
+        "url": "https://github.com/SpotX-Official/SpotX#MIT-1-ov-file"
     },
-    "uninstaller": {
-        "script": [
-            "if ($cmd -ne 'uninstall') { return }",
-            "Invoke-ExternalCommand \"$Env:Appdata\\Spotify\\Spotify.exe\" -ArgumentList @('/uninstall', '/silent') | Out-Null"
-        ]
-    },
-    "checkver": {
-        "script": [
-            "try {",
-            "    $auth = Get-GitHubToken",
-            "    $head = @{}",
-            "    if($auth) { $head = @{'Authorization' = \"token $auth\"} }",
-            "    $url1 = 'https://api.github.com/repos/SpotX-Official/SpotX/releases/latest'",
-            "    $cont = $(Invoke-WebRequest -Headers $head $url1).Content | ConvertFrom-Json",
-            "    if(!($cont.tag_name)) { error \"Tag name not found in '$url1'\"; throw }",
-            "    $app_ver = $cont.tag_name",
-            "    $url2 = 'https://api.github.com/repos/SpotX-Official/SpotX/commits?path=run.ps1&per_page=1'",
-            "    $cont2 = $(Invoke-WebRequest -Headers $head $url2).Content | ConvertFrom-Json",
-            "    if(!($cont2.commit.committer.date)) { error \"Commit date not found in '$url2'\"; throw }",
-            "    # Using script to get version number from date, e.g. 6 Mar, 2019 -> 20190306",
-            "    $update_date = $(Get-Date $cont2.commit.committer.date).ToString('yyyyMMdd')",
-            "    if(!($cont2.sha)) { error \"Commit hash not found in '$url2'\"; throw }",
-            "    $commit_sha = $($cont2.sha).Substring(0, 6)",
-            "    Write-Output \"$app_ver-$update_date-$commit_sha\"",
-            "}",
-            "catch { error $_.Exception.Message; throw }"
+    "url": "https://github.com/SpotX-Official/SpotX/archive/main.zip",
+    "hash": "bc9c4d3081e8bfedec67e414dbf9d70eb91a178e45ddb069234607bb20a03d5f",
+    "extract_dir": "SpotX-main",
+    "bin": [
+        [
+            "run.ps1",
+            "SpotXInstall"
         ],
-        "regex": "([\\w.-]+)"
+        [
+            "Uninstall.bat",
+            "SpotXUninstall"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "run.ps1",
+            "SpotXInstall"
+        ],
+        [
+            "Uninstall.bat",
+            "SpotXUninstall"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/SpotX-Official/SpotX/commits/main.atom",
+        "regex": "(?s)>(\\d+)-(\\d+)-(\\d+)T.*?/(?<sha>(?<short>[0-9a-f]{7})[0-9a-f]{33})",
+        "replace": "0.${1}.${2}.${3}.${short}"
     },
     "autoupdate": {
-        "url": "https://raw.githubusercontent.com/SpotX-Official/SpotX/main/run.ps1"
+        "url": "https://github.com/SpotX-Official/SpotX/archive/main.zip"
     }
 }
