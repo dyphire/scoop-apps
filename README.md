@@ -78,9 +78,9 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - batkiz/backit
 - ChungZH/peach
 - hu3rror/scoop-muggle
+- AStupidBear/scoop-bear
 - iquiw/scoop-bucket
 - mogeko/scoop-sysinternals
-- AStupidBear/scoop-bear
 - s0nd9r/scoop-security
 - brian6932/dank-scoop
 - jfut/scoop-jfut
