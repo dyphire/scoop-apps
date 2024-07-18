@@ -52,8 +52,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - echoiron/echo-scoop
 - ACooper81/scoop-apps
 - cderv/r-bucket
-- hermanjustnu/scoop-emulators
 - couleur-tweak-tips/utils
+- hermanjustnu/scoop-emulators
 - dodorz/scoop
 - everyx/scoop-bucket
 - borger/scoop-emulators
@@ -74,10 +74,10 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - charmbracelet/scoop-bucket
 - ygguorun/scoop-bucket
 - NyaMisty/scoopbucketmisty
+- hu3rror/scoop-muggle
 - 42wim/scoop-bucket
 - batkiz/backit
 - ChungZH/peach
-- hu3rror/scoop-muggle
 - AStupidBear/scoop-bear
 - iquiw/scoop-bucket
 - mogeko/scoop-sysinternals
