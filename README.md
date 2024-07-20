@@ -75,13 +75,13 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - ygguorun/scoop-bucket
 - NyaMisty/scoopbucketmisty
 - hu3rror/scoop-muggle
+- whoopscs/scoop-security
 - 42wim/scoop-bucket
 - batkiz/backit
 - ChungZH/peach
 - AStupidBear/scoop-bear
 - iquiw/scoop-bucket
 - mogeko/scoop-sysinternals
-- whoopscs/scoop-security
 - brian6932/dank-scoop
 - jfut/scoop-jfut
 - cc713/ownscoop
