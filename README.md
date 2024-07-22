@@ -82,10 +82,10 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - AStupidBear/scoop-bear
 - iquiw/scoop-bucket
 - mogeko/scoop-sysinternals
+- Velgus/Scoop-Portapps
 - brian6932/dank-scoop
 - jfut/scoop-jfut
 - cc713/ownscoop
-- Velgus/Scoop-Portapps
 - aoisummer/scoop-bucket
 - aliesbelik/poldi
 - krproject/qi-windows
@@ -102,7 +102,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - noql-net/scoop
 - HUMORCE/nuke
 - littleli/Scoop-littleli
-- beerpiss/scoop-bucket
+- beer-psi/scoop-bucket
 - yuusakuri/scoop-bucket
 - ChinLong/scoop-customize
 - Darkatse/Scoop-KanColle
