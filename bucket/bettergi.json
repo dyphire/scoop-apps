@@ -1,0 +1,34 @@
+{
+    "version": "0.32.0",
+    "description": "BetterGI · 更好的原神 - UI Automation Testing Tools For Genshin Impact",
+    "homepage": "https://bgi.huiyadan.com",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/babalae/better-genshin-impact/releases/download/0.32/BetterGI_v0.32.0.7z",
+            "hash": "e9e3bd5e457f6ca8f50daa7537c1c03c96063b00b44ee3a40228faca0d7a0cbd"
+        }
+    },
+    "extract_dir": "BetterGI",
+    "shortcuts": [
+        [
+            "BetterGI.exe",
+            "BetterGI"
+        ]
+    ],
+    "persist": [
+        "User",
+        "log"
+    ],
+    "checkver": {
+        "url": "https://api.github.com/repos/babalae/better-genshin-impact/releases/latest",
+        "regex": "/releases/download/(?<tag>[^/]+)/BetterGI_v([\\d.]+).7z"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/babalae/better-genshin-impact/releases/download/$matchTag/BetterGI_v$version.7z"
+            }
+        }
+    }
+}
