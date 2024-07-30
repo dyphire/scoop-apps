@@ -1,14 +1,17 @@
 {
-    "version": "3.0.9",
-    "description": "Sonarr is a PVR for Usenet and BitTorrent users.",
-    "homepage": "https://sonarr.tv",
-    "license": {
-        "identifier": "GPL-3.0 license",
-        "url": "https://github.com/Sonarr/Sonarr/blob/develop/LICENSE.md"
-    },
-    "url": "https://services.sonarr.tv/v1/download/phantom-develop/latest?version=3&os=windows",
-    "hash": "02d814ed0f95fb39435b9dc9872950b6a21445dd7c62541643e274542633aa61",
+    "version": "3.0.10.1567",
+    "description": "Sonarr is an internet PVR for Usenet and Torrents.",
+    "homepage": "https://sonarr.tv/",
+    "license": "GPL-3.0-only",
+    "url": "https://download.sonarr.tv/v3/main/3.0.10.1567/Sonarr.main.3.0.10.1567.windows.zip",
+    "hash": "a5307e2b0fcdd1540dd61414ee74b7242fcc34c46bb36fd19886058f3d3d619b",
     "extract_dir": "Sonarr",
+    "bin": [
+        [
+            "Sonarr.Console.exe",
+            "sonarr"
+        ]
+    ],
     "shortcuts": [
         [
             "Sonarr.exe",
@@ -16,10 +19,10 @@
         ]
     ],
     "checkver": {
-        "url": "https://raw.githubusercontent.com/Sonarr/Sonarr/develop/version.sh",
-        "regex": "packageVersion=.+?([\\d.]+)"
+        "url": "https://siku-api.deno.dev/sonarr",
+        "regex": "\"ver\"\\s?:\\s?\"([\\d\\.]+)\""
     },
     "autoupdate": {
-        "url": "https://services.sonarr.tv/v1/download/phantom-develop/latest?version=3&os=windows"
+        "url": "https://download.sonarr.tv/v3/main/$version/Sonarr.main.$version.windows.zip"
     }
 }
