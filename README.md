@@ -37,8 +37,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - ScoopInstaller/Versions
 - borger/scoop-galaxy-integrations
 - TheCjw/scoop-retools
-- TheRandomLabs/scoop-nonportable
 - kodybrown/scoop-nirsoft
+- TheRandomLabs/scoop-nonportable
 - littleli/scoop-clojure
 - arch3rPro/PST-Bucket
 - hoilc/scoop-lemon
