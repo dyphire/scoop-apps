@@ -10415,9 +10415,15 @@ oneforall_whoopscs.json    whoopscs/scoop-security
 fvuln_whoopscs.json    whoopscs/scoop-security
 jar-obfuscator_whoopscs.json    whoopscs/scoop-security
 proxify_whoopscs.json    whoopscs/scoop-security
+BurpShiroPassiveScan.json    whoopscs/scoop-security
+TsojanScan.json    whoopscs/scoop-security
 HaE.json    whoopscs/scoop-security
+BypassPro.json    whoopscs/scoop-security
 CaA.json    whoopscs/scoop-security
 RouteVulScan.json    whoopscs/scoop-security
+sqlmap4burp-plus-plus.json    whoopscs/scoop-security
+BurpFastJsonScan.json    whoopscs/scoop-security
+OneScan.json    whoopscs/scoop-security
 hackbrowserdata_whoopscs.json    whoopscs/scoop-security
 antsword_whoopscs.json    whoopscs/scoop-security
 quake_rs_whoopscs.json    whoopscs/scoop-security
@@ -12018,6 +12024,7 @@ pcregrep.json    rivy/scoop-bucket
 rebar3.json    rivy/scoop-bucket
 haskell.json    rivy/scoop-bucket
 openssh@7.9p1.json    rivy/scoop-bucket
+clang@17.0.6.json    rivy/scoop-bucket
 vcpkg_rivy.json    rivy/scoop-bucket
 clang@9.0.0.json    rivy/scoop-bucket
 graphviz@5.0.0.json    rivy/scoop-bucket
@@ -12034,6 +12041,7 @@ elixir@1.15.7-otp-26.json    rivy/scoop-bucket
 nim@1.6.12-x32.json    rivy/scoop-bucket
 clink@1.6.0.json    rivy/scoop-bucket
 scriptcs@0.15.0.json    rivy/scoop-bucket
+clang@18.1.8.json    rivy/scoop-bucket
 openssh@stable.json    rivy/scoop-bucket
 gpg@2.3.4.json    rivy/scoop-bucket
 rsync@3.2.3-x64.json    rivy/scoop-bucket
@@ -12164,6 +12172,7 @@ cmake@3.12.0.json    rivy/scoop-bucket
 terminus@1.0.71.json    rivy/scoop-bucket
 scriptcs.json    rivy/scoop-bucket
 biome@1.3.3.json    rivy/scoop-bucket
+clang@18.1.8-llvmdev.json    rivy/scoop-bucket
 restic@0.5.0.json    rivy/scoop-bucket
 dmd.json    rivy/scoop-bucket
 grain.json    rivy/scoop-bucket
