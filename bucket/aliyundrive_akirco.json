@@ -1,13 +1,13 @@
 {
-    "version": "4.15.0",
+    "version": "6.1.0",
     "description": "The official client for Alibaba's cloud dirve service",
     "homepage": "https://www.aliyundrive.com/",
     "license": {
         "identifier": "EULA",
         "url": "https://www.aliyundrive.com/protocol/service"
     },
-    "url": "https://sw.pcmgr.qq.com/11aac7d8deee9f66ce08359998d30a86/668547e2/spcmgr/download/aDrive-4.15.0.exe#/aDrive-4.16.0.7z",
-    "hash": "sha512:bd32db5a5309db7521a1d1cb89b0da63edaa4bdfcb8b0cf5a81f00b380ed82d3a906401e7e7c81a073eedc4db1a9b6bf5c7bd37adf4ef44ad1000e32b11d2ca5",
+    "url": "https://sw.pcmgr.qq.com/2d50ab9258db39c4b4dae708d20067b0/66b18893/spcmgr/download/aDrive-6.1.0.exe#/aDrive-6.1.0.7z",
+    "hash": "sha512:6186b7862e53d66c1d5bae40b47d078d79cb586d2a1a2dfaa2ffbf0b1a56ab6b0cdea53550388b1c75966445e0263f74f1fc54a6ccaf7a2c65d09d33275db118",
     "post_install": [
         "@('$PLUGINSDIR', '$TEMP') | ForEach-Object {",
         "    Remove-Item \"$dir\\$_\" -Recurse -Force",
@@ -52,22 +52,5 @@
             "}"
         ]
     },
-    "shortcuts": [
-        [
-            "aDrive.exe",
-            "阿里云盘"
-        ]
-    ],
-    "checkver": {
-        "script": "return (iwr -useb \"$($(iwr -useb 'https://www.aliyundrive.com/desktop/version/update.json' | ConvertFrom-Json).url)/win32/ia32/latest.yml\")",
-        "regex": "version: ([\\d.]+)"
-    },
-    "autoupdate": {
-        "url": "https://cdn.aliyundrive.net/downloads/apps/desktop/update/$version/win32/ia32/aDrive-$version.exe#/aDrive-$version.7z",
-        "hash": {
-            "url": "https://g.alicdn.com/aliyun-drive-fe/aliyun-drive-desktop-version/$version/win32/ia32/latest.yml",
-            "mode": "extract",
-            "regex": "sha512: $base64"
-        }
-    }
+    "shortcuts": [["aDrive.exe", "阿里云盘"]]
 }
