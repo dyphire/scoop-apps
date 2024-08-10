@@ -85,11 +85,11 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - Velgus/Scoop-Portapps
 - brian6932/dank-scoop
 - jfut/scoop-jfut
+- noql-net/scoop
 - SayCV/scoop-cvp
 - cc713/ownscoop
 - aoisummer/scoop-bucket
 - aliesbelik/poldi
-- noql-net/scoop
 - krproject/qi-windows
 - rivy/scoop-bucket
 - excitoon/scoop-user
