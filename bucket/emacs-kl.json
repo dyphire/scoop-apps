@@ -7,18 +7,37 @@
     "hash": "b359a808f9f97faecfe89bdfa29d3b73ea14414e2ea52dd81a5e27aaa63cd5cd",
     "installer": {
         "script": [
-            "Get-ChildItem \"$dir\\*.msix\" | Add-AppxPackage -AllowUnsigned -ForceApplicationShutdown",
+            "Get-ChildItem \"$dir\\*.msix\" | %{Expand-7zipArchive $_.FullName \"$dir\"}",
             "Remove-Item -Force \"$dir\\*.msix\""
         ]
     },
-    "uninstaller": {
-        "script": "Get-AppxPackage -Name \"emacs-k\" | Remove-AppxPackage"
-    },
+    "bin": [
+        "bin\\runemacs.exe",
+        "bin\\emacs.exe",
+        "bin\\emacsclient.exe",
+        "bin\\emacsclientw.exe",
+        [
+            "bin\\emacsclientw.exe",
+            "emw",
+            "-c -n -a \"\""
+        ]
+    ],
     "checkver": {
         "github": "https://github.com/kiennq/emacs-build",
         "regex": "/tag/v([\\d\\w.-]+)"
     },
     "autoupdate": {
         "url": "https://github.com/kiennq/emacs-build/releases/download/v$version/emacs-$buildVersion-ucrt-x86_64.msix"
-    }
+    },
+    "shortcuts": [
+        [
+            "bin\\runemacs.exe",
+            "Emacs"
+        ],
+        [
+            "bin\\emacsclientw.exe",
+            "Emacs Client",
+            "-c -n -a \"\""
+        ]
+    ]
 }

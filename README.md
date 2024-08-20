@@ -69,8 +69,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - TheRandomLabs/Scoop-Python
 - DoveBoy/Apps
 - jonz94/scoop-sarasa-nerd-fonts
-- amorphobia/siku
 - whoopscs/scoop-security
+- amorphobia/siku
 - naderi/scoop-bucket
 - charmbracelet/scoop-bucket
 - hu3rror/scoop-muggle
@@ -81,11 +81,11 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - ChungZH/peach
 - AStupidBear/scoop-bear
 - iquiw/scoop-bucket
+- noql-net/scoop
 - mogeko/scoop-sysinternals
 - Velgus/Scoop-Portapps
 - brian6932/dank-scoop
 - jfut/scoop-jfut
-- noql-net/scoop
 - SayCV/scoop-cvp
 - cc713/ownscoop
 - aoisummer/scoop-bucket
