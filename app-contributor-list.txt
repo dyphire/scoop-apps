@@ -1202,7 +1202,6 @@ better-joy.json    ScoopInstaller/Extras
 ssh-agent-wsl.json    ScoopInstaller/Extras
 mpv.net.json    ScoopInstaller/Extras
 sysgauge.json    ScoopInstaller/Extras
-ab-download-manager.json    ScoopInstaller/Extras
 sidebar-diagnostics.json    ScoopInstaller/Extras
 ncftpclient.json    ScoopInstaller/Extras
 ydl-ui.json    ScoopInstaller/Extras
@@ -2148,6 +2147,7 @@ sublime-merge.json    ScoopInstaller/Extras
 rimage.json    ScoopInstaller/Extras
 krita.json    ScoopInstaller/Extras
 gcc-aarch64-none-linux-gnu.json    ScoopInstaller/Extras
+abdownloadmanager.json    ScoopInstaller/Extras
 mps.json    ScoopInstaller/Extras
 wpd.json    ScoopInstaller/Extras
 terminal-icons.json    ScoopInstaller/Extras
@@ -3177,7 +3177,6 @@ nanosaur.json    Calinou/scoop-games
 pathofbuilding-community.json    Calinou/scoop-games
 wfinfo.json    Calinou/scoop-games
 freeciv.json    Calinou/scoop-games
-dolphin-beta.json    Calinou/scoop-games
 speed-dreams.json    Calinou/scoop-games
 bsnes-hd-beta.json    Calinou/scoop-games
 evemon.json    Calinou/scoop-games
@@ -3199,6 +3198,7 @@ stonecutter.json    Calinou/scoop-games
 csauto.json    Calinou/scoop-games
 project64.json    Calinou/scoop-games
 openrct2.json    Calinou/scoop-games
+chunker.json    Calinou/scoop-games
 pso2-tweaker.json    Calinou/scoop-games
 tic-80.json    Calinou/scoop-games
 angband.json    Calinou/scoop-games
@@ -7639,7 +7639,7 @@ mame_hermanjustnu.json    hermanjustnu/scoop-emulators
 vice-sdl2.json    hermanjustnu/scoop-emulators
 handy.json    hermanjustnu/scoop-emulators
 yuzu-pineapple.json    hermanjustnu/scoop-emulators
-dolphin-beta_hermanjustnu.json    hermanjustnu/scoop-emulators
+dolphin-beta.json    hermanjustnu/scoop-emulators
 bsnes_hermanjustnu.json    hermanjustnu/scoop-emulators
 mesen-s_hermanjustnu.json    hermanjustnu/scoop-emulators
 cxbx-reloaded_hermanjustnu.json    hermanjustnu/scoop-emulators
@@ -9602,7 +9602,6 @@ regjump_DoveBoy.json    DoveBoy/Apps
 qqmusic_DoveBoy.json    DoveBoy/Apps
 7zip_DoveBoy.json    DoveBoy/Apps
 typora-dev.json    DoveBoy/Apps
-flybird-m3u8downloader.json    DoveBoy/Apps
 etcher-portable.json    DoveBoy/Apps
 gitalias.json    DoveBoy/Apps
 scoop-search-multisource.json    DoveBoy/Apps
@@ -9893,6 +9892,7 @@ gitextensions_DoveBoy.json    DoveBoy/Apps
 dnsjumper_DoveBoy.json    DoveBoy/Apps
 gopeed-web.json    DoveBoy/Apps
 flut-renamer.json    DoveBoy/Apps
+flybird-downloader.json    DoveBoy/Apps
 trafficmonitor-lite_DoveBoy.json    DoveBoy/Apps
 ruffle.json    DoveBoy/Apps
 vimtutor.json    DoveBoy/Apps
