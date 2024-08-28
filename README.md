@@ -97,12 +97,13 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - TianXiaTech/scoop-txt
 - alextwothousand/scoop-bucket
 - Weidows-projects/scoop-3rd
+- littleli/Scoop-littleli
 - AkariiinMKII/Scoop4kariiin
 - starise/Scoop-Confetti
 - seumsc/scoop-seu
 - HUMORCE/nuke
-- littleli/Scoop-littleli
 - Toddli468/Pentest-Scoop-Bucket
+- mo-san/scoop-bucket
 - beer-psi/scoop-bucket
 - yuusakuri/scoop-bucket
 - ChinLong/scoop-customize
