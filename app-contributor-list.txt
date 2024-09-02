@@ -598,6 +598,7 @@ diskspd.json    ScoopInstaller/Extras
 gmkvextractgui.json    ScoopInstaller/Extras
 86box.json    ScoopInstaller/Extras
 mpc-hc.json    ScoopInstaller/Extras
+wasabi-wallet.json    ScoopInstaller/Extras
 gcc-aarch64-none-elf.json    ScoopInstaller/Extras
 podman-desktop.json    ScoopInstaller/Extras
 theia-ide.json    ScoopInstaller/Extras
@@ -1052,6 +1053,7 @@ lens.json    ScoopInstaller/Extras
 puttytel.json    ScoopInstaller/Extras
 sandman.json    ScoopInstaller/Extras
 winspy.json    ScoopInstaller/Extras
+hoppscotch.json    ScoopInstaller/Extras
 stone-soup-tiles.json    ScoopInstaller/Extras
 mangal.json    ScoopInstaller/Extras
 duplicati.json    ScoopInstaller/Extras
@@ -1564,6 +1566,7 @@ vlc.json    ScoopInstaller/Extras
 wavebox.json    ScoopInstaller/Extras
 jitsi-meet.json    ScoopInstaller/Extras
 jmeter-pm.json    ScoopInstaller/Extras
+binance.json    ScoopInstaller/Extras
 gcc-arm-none-linux-gnueabihf.json    ScoopInstaller/Extras
 ani-cli.json    ScoopInstaller/Extras
 jellyfin-mpv-shim.json    ScoopInstaller/Extras
@@ -2479,7 +2482,7 @@ unityhub.json    chawyehsu/dorado
 bob-wallet.json    chawyehsu/dorado
 aapt2.json    chawyehsu/dorado
 uncia.json    chawyehsu/dorado
-binance.json    chawyehsu/dorado
+binance_chawyehsu.json    chawyehsu/dorado
 nano.json    chawyehsu/dorado
 microsoftedge-canary.json    chawyehsu/dorado
 moonup.json    chawyehsu/dorado
@@ -4871,6 +4874,7 @@ step.json    hoilc/scoop-lemon
 whisper-model-ggml-tiny-en.json    hoilc/scoop-lemon
 grype.json    hoilc/scoop-lemon
 qv2ray-nightly.json    hoilc/scoop-lemon
+shanggu-sans-jp.json    hoilc/scoop-lemon
 flyedit.json    hoilc/scoop-lemon
 lucy.json    hoilc/scoop-lemon
 tuic.json    hoilc/scoop-lemon
@@ -4948,6 +4952,7 @@ splayer-legacy.json    hoilc/scoop-lemon
 outwiker.json    hoilc/scoop-lemon
 portx.json    hoilc/scoop-lemon
 piclist.json    hoilc/scoop-lemon
+shanggu-sans-sc.json    hoilc/scoop-lemon
 cloudquery.json    hoilc/scoop-lemon
 tracerx-viewer.json    hoilc/scoop-lemon
 freepic2pdf.json    hoilc/scoop-lemon
@@ -5208,6 +5213,7 @@ watchcat.json    hoilc/scoop-lemon
 redis-shake.json    hoilc/scoop-lemon
 sonobuoy.json    hoilc/scoop-lemon
 pestudio_hoilc.json    hoilc/scoop-lemon
+shanggu-mono-sc.json    hoilc/scoop-lemon
 pngcheck.json    hoilc/scoop-lemon
 spring-boot-migrator.json    hoilc/scoop-lemon
 crosspaste.json    hoilc/scoop-lemon
@@ -5280,6 +5286,7 @@ cosmo-emacs.json    hoilc/scoop-lemon
 windowtop.json    hoilc/scoop-lemon
 rpk.json    hoilc/scoop-lemon
 helmify.json    hoilc/scoop-lemon
+shanggu-sans.json    hoilc/scoop-lemon
 maple-mono-nerd.json    hoilc/scoop-lemon
 docker-ls.json    hoilc/scoop-lemon
 duckling.json    hoilc/scoop-lemon
@@ -5409,6 +5416,7 @@ winobjex64.json    hoilc/scoop-lemon
 verysimple.json    hoilc/scoop-lemon
 kcptun.json    hoilc/scoop-lemon
 greptime.json    hoilc/scoop-lemon
+shanggu-mono-tc.json    hoilc/scoop-lemon
 bookget.json    hoilc/scoop-lemon
 path-locate.json    hoilc/scoop-lemon
 lettura.json    hoilc/scoop-lemon
@@ -5714,9 +5722,12 @@ adpcm-xq.json    hoilc/scoop-lemon
 leaf.json    hoilc/scoop-lemon
 premotem.json    hoilc/scoop-lemon
 tad_hoilc.json    hoilc/scoop-lemon
+shanggu-serif-jp.json    hoilc/scoop-lemon
 hysteria2.json    hoilc/scoop-lemon
+shanggu-serif.json    hoilc/scoop-lemon
 plebbit-cli.json    hoilc/scoop-lemon
 wind.json    hoilc/scoop-lemon
+shanggu-mono-jp.json    hoilc/scoop-lemon
 malware-patch.json    hoilc/scoop-lemon
 primecount.json    hoilc/scoop-lemon
 yida.json    hoilc/scoop-lemon
@@ -5843,6 +5854,7 @@ filefriend.json    hoilc/scoop-lemon
 copy-translator-rust.json    hoilc/scoop-lemon
 readcat.json    hoilc/scoop-lemon
 linux-reader_hoilc.json    hoilc/scoop-lemon
+shanggu-serif-tc.json    hoilc/scoop-lemon
 jellyfin-media-player_hoilc.json    hoilc/scoop-lemon
 vcluster.json    hoilc/scoop-lemon
 emby-pinyin.json    hoilc/scoop-lemon
@@ -5911,8 +5923,10 @@ whisper-cpp-blas-nightly.json    hoilc/scoop-lemon
 grafana-agent.json    hoilc/scoop-lemon
 terranetes-cli.json    hoilc/scoop-lemon
 kosli.json    hoilc/scoop-lemon
+shanggu-mono.json    hoilc/scoop-lemon
 petaclone.json    hoilc/scoop-lemon
 librespeed-cli_hoilc.json    hoilc/scoop-lemon
+otfcc.json    hoilc/scoop-lemon
 sclient.json    hoilc/scoop-lemon
 jib-cli.json    hoilc/scoop-lemon
 milvus_cli.json    hoilc/scoop-lemon
@@ -5993,6 +6007,7 @@ gosmee.json    hoilc/scoop-lemon
 strarc.json    hoilc/scoop-lemon
 vultr-cli.json    hoilc/scoop-lemon
 4dnat.json    hoilc/scoop-lemon
+shanggu-sans-tc.json    hoilc/scoop-lemon
 tclkitsh.json    hoilc/scoop-lemon
 blankandsecure.json    hoilc/scoop-lemon
 gmcurl.json    hoilc/scoop-lemon
@@ -6001,6 +6016,7 @@ tdengine-client.json    hoilc/scoop-lemon
 rj-texted.json    hoilc/scoop-lemon
 code-radio-cli.json    hoilc/scoop-lemon
 faster-whisper-standalone.json    hoilc/scoop-lemon
+shanggu-serif-sc.json    hoilc/scoop-lemon
 doublekiller.json    hoilc/scoop-lemon
 gidot-typesetter.json    hoilc/scoop-lemon
 vesta_hoilc.json    hoilc/scoop-lemon
@@ -10894,7 +10910,7 @@ ttfname3.json    ygguorun/scoop-bucket
 worsttrace_ygguorun.json    ygguorun/scoop-bucket
 netflix-verify.json    ygguorun/scoop-bucket
 BilibiliLiveRecordDownLoader.json    ygguorun/scoop-bucket
-otfcc.json    ygguorun/scoop-bucket
+otfcc_ygguorun.json    ygguorun/scoop-bucket
 NegativeEncoder.json    ygguorun/scoop-bucket
 mahjong-helper.json    ygguorun/scoop-bucket
 PotPlayer-old.json    ygguorun/scoop-bucket
@@ -13345,8 +13361,10 @@ NacosExploitGUI.json    Toddli468/Pentest-Scoop-Bucket
 sbscan.json    Toddli468/Pentest-Scoop-Bucket
 HostCollisionGUI.json    Toddli468/Pentest-Scoop-Bucket
 JYso_Toddli468.json    Toddli468/Pentest-Scoop-Bucket
+MayeLite.json    Toddli468/Pentest-Scoop-Bucket
 JenkinsExploitGUI.json    Toddli468/Pentest-Scoop-Bucket
 SharpScan_Toddli468.json    Toddli468/Pentest-Scoop-Bucket
+TscanPlus_Toddli468.json    Toddli468/Pentest-Scoop-Bucket
 SpringExploitGUI.json    Toddli468/Pentest-Scoop-Bucket
 Slack_Toddli468.json    Toddli468/Pentest-Scoop-Bucket
 MDUT-Extend.json    Toddli468/Pentest-Scoop-Bucket
