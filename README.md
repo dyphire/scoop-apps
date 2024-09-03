@@ -84,12 +84,12 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - iquiw/scoop-bucket
 - mogeko/scoop-sysinternals
 - Velgus/Scoop-Portapps
+- aliesbelik/poldi
 - brian6932/dank-scoop
 - jfut/scoop-jfut
 - SayCV/scoop-cvp
 - cc713/ownscoop
 - aoisummer/scoop-bucket
-- aliesbelik/poldi
 - krproject/qi-windows
 - rivy/scoop-bucket
 - excitoon/scoop-user
