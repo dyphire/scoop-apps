@@ -1,12 +1,18 @@
 {
+    "version": "3.1.0",
+    "description": "Open-source smart browser for busy people. A single place for all of your web applications.",
     "homepage": "https://getstation.com/",
-    "description": "A free desktop application that unifies all your work tools in one neat & productive interface.",
-    "version": "1.65.0",
-    "license": "Proprietary",
-    "url": "https://github.com/getstation/desktop-app-releases/releases/download/1.65.0/browserX-1.65.0-full.nupkg",
-    "hash": "sha1:0ada8303baa27679fc44ce4bd8e2e36c5a060b6f",
-    "extract_dir": "lib\\net45",
-    "bin": "Station.exe",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/getstation/desktop-app/releases/download/v3.1.0/Station-Setup.exe#/dl.7z",
+            "hash": "sha512:a0656341e49401d495d726d5e6e7cd860c509e185bab4fdf7fb87e3263eafa240f336d6fbc9bbb55b8aaf4f72e66cd3a6b61d46759c6277a0b1313c69d30ea84"
+        }
+    },
+    "pre_install": [
+        "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\" -Removal | Out-Null",
+        "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*.exe\" -Force -Recurse"
+    ],
     "shortcuts": [
         [
             "Station.exe",
@@ -14,12 +20,17 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/getstation/desktop-app-releases"
+        "github": "https://github.com/getstation/desktop-app"
     },
     "autoupdate": {
-        "url": "https://github.com/getstation/desktop-app-releases/releases/download/$version/browserX-$version-full.nupkg",
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/getstation/desktop-app/releases/download/v$version/Station-Setup.exe#/dl.7z"
+            }
+        },
         "hash": {
-            "url": "$baseurl/RELEASES"
+            "url": "$baseurl/latest.yml",
+            "regex": "(?sm)$basename.*?$base64"
         }
     }
 }
