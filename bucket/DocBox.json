@@ -1,26 +1,46 @@
 {
-    "version": "2.12.43",
-    "homepage": "https://www.ghxi.com/docbox.html",
-    "description": "DocBox Green",
-    "license": "Freeware",
-    "url": "https://cloud-0-index.vercel.app/api/raw/?path=/packages/scoop/DocBox_2.12.43.7z#/dl.7z_",
-    "hash": "14E9D7537E18EE9BE9687F8ACE288095F50743B5898D7CF071532EC9F358DD56",
-    "pre_install": "Expand-7zipArchive -Path \"$dir\\dl.7z_\" -DestinationPath \"$dir\" -Removal -Switches '-pmuggle'",
+    "version": "2.10.36",
+    "description": "极致 去繁 无广告 不加任何广告，为深度学习而生",
+    "homepage": "https://www.daokeyuedu.com/index.php",
+    "license": "Unknown",
+    "url": "https://github.com/zhuping96119/scoop-attachment/raw/master/DocBox_2.10.36_Green.7z",
+    "hash": "D7597C734B92D793A123F5BC774968D766CD43257A59B7773B4AD61AEFB7DCCB",
+    "extract_dir": "DocBox_2.10.36_Green",
     "installer": {
         "script": [
-            "Import-Module $(Join-Path $(Find-BucketDirectory -Root -Name muggle) scripts/DoradoUtils.psm1)",
-            "Mount-ExternalRuntimeData -Source \"$persist_dir\\DocBox\" -Target \"$env:APPDATA\\DocBox\"",
-            "Remove-Module -Name DoradoUtils"
+            "# handle runtime cache",
+            "if (!(Test-Path $persist_dir)) {",
+            "    New-Item $persist_dir -Type Directory -Force | Out-Null",
+            "}",
+            "$runtimeCache = \"$env:APPDATA\\DocBox\"",
+            "$runtimeCachePersist = \"$persist_dir\\appdata\"",
+            "if (Test-Path $runtimeCachePersist) {",
+            "    Remove-Item $runtimeCache -Force -Recurse -ErrorAction SilentlyContinue",
+            "    New-Item -Type Junction -Path $runtimeCache -Target $runtimeCachePersist | Out-Null",
+            "} else {",
+            "    if (Test-Path $runtimeCache) {",
+            "        Move-Item $runtimeCache $runtimeCachePersist -Force",
+            "        New-Item -Type Junction -Path $runtimeCache -Target $runtimeCachePersist | Out-Null",
+            "    }",
+            "}"
         ]
     },
     "uninstaller": {
         "script": [
-            "Import-Module $(Join-Path $(Find-BucketDirectory -Root -Name muggle) scripts/DoradoUtils.psm1)",
-            "Dismount-ExternalRuntimeData -Target \"$env:APPDATA\\DocBox\"",
-            "Remove-Module -Name DoradoUtils"
+            "$runtimeCache = \"$env:APPDATA\\DocBox\"",
+            "$runtimeCachePersist = \"$persist_dir\\appdata\"",
+            "if (!(Test-Path $runtimeCachePersist)) {",
+            "    Move-Item $runtimeCache $runtimeCachePersist -Force",
+            "} else {",
+            "    Remove-Item $runtimeCache -Force -Recurse -ErrorAction SilentlyContinue",
+            "}"
         ]
     },
     "shortcuts": [
+        [
+            "DocBox.exe",
+            "DocBox"
+        ],
         [
             "DocBox.exe",
             "稻壳阅读器"
