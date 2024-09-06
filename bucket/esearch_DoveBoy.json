@@ -1,5 +1,5 @@
 {
-    "version": "13.0.1",
+    "version": "13.1.0",
     "description": "截屏 离线OCR 搜索翻译 以图搜图 贴图 录屏 滚动截屏 Screenshot OCR search translate search for picture paste the picture on the screen screen recorder",
     "homepage": "https://esearch-app.netlify.app/",
     "license": {
@@ -8,16 +8,16 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/xushengfeng/eSearch/releases/download/13.0.1/eSearch-13.0.1-win32-x64.exe#/dl.7z",
-            "hash": "6dc35fc9773cbee2de678cb887df945da16b49952f86322a26a0bdafb567c4eb",
+            "url": "https://github.com/xushengfeng/eSearch/releases/download/13.1.0/eSearch-13.1.0-win32-x64.exe#/dl.7z",
+            "hash": "03c569b4d71da4b9f7d5b162d9653e6bc5b5a22db2d2a5c8c6d5aa72d05b4548",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R0\" -Force -Recurse"
             ]
         },
         "arm64": {
-            "url": "https://github.com/xushengfeng/eSearch/releases/download/13.0.1/eSearch-13.0.1-win32-arm64.exe#/dl.7z",
-            "hash": "9f83ed3bae150c3b507ea30f216b019fff00a9f10b5185ed5a81231a2297df67",
+            "url": "https://github.com/xushengfeng/eSearch/releases/download/13.1.0/eSearch-13.1.0-win32-arm64.exe#/dl.7z",
+            "hash": "47cd6a50c81704bf8b1b8f71aa0d03a2dd4a42e2a0bcab3361cd85299e47faca",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-arm64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R0\" -Force -Recurse"
