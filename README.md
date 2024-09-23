@@ -84,8 +84,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - iquiw/scoop-bucket
 - mogeko/scoop-sysinternals
 - Velgus/Scoop-Portapps
-- aliesbelik/poldi
 - brian6932/dank-scoop
+- aliesbelik/poldi
 - jfut/scoop-jfut
 - SayCV/scoop-cvp
 - cc713/ownscoop
