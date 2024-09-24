@@ -84,8 +84,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - iquiw/scoop-bucket
 - mogeko/scoop-sysinternals
 - Velgus/Scoop-Portapps
-- brian6932/dank-scoop
 - aliesbelik/poldi
+- brian6932/dank-scoop
 - jfut/scoop-jfut
 - SayCV/scoop-cvp
 - cc713/ownscoop
@@ -104,6 +104,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - seumsc/scoop-seu
 - HUMORCE/nuke
 - Toddli468/Pentest-Scoop-Bucket
+- kengwang/scoop-ctftools-bucket
 - mo-san/scoop-bucket
 - beer-psi/scoop-bucket
 - yuusakuri/scoop-bucket
