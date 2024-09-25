@@ -103,7 +103,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - starise/Scoop-Confetti
 - seumsc/scoop-seu
 - HUMORCE/nuke
-- Toddli468/Pentest-Scoop-Bucket
 - kengwang/scoop-ctftools-bucket
 - mo-san/scoop-bucket
 - beer-psi/scoop-bucket
