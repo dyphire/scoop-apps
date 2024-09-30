@@ -82,9 +82,9 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - 42wim/scoop-bucket
 - AStupidBear/scoop-bear
 - iquiw/scoop-bucket
+- aliesbelik/poldi
 - mogeko/scoop-sysinternals
 - Velgus/Scoop-Portapps
-- aliesbelik/poldi
 - brian6932/dank-scoop
 - jfut/scoop-jfut
 - SayCV/scoop-cvp
