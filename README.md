@@ -73,8 +73,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - charmbracelet/scoop-bucket
 - amorphobia/siku
 - naderi/scoop-bucket
-- NyaMisty/scoopbucketmisty
 - hu3rror/scoop-muggle
+- NyaMisty/scoopbucketmisty
 - ygguorun/scoop-bucket
 - noql-net/scoop
 - batkiz/backit
