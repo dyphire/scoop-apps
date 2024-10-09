@@ -60,8 +60,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - Qv2ray/mochi
 - wangzq/scoop-bucket
 - kiennq/scoop-misc
-- TheRandomLabs/Scoop-Bucket
 - ViCrack/scoop-bucket
+- TheRandomLabs/Scoop-Bucket
 - niheaven/scoop-sysinternals
 - akirco/aki-apps
 - whoopscs/scoop-security
