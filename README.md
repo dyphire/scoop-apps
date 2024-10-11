@@ -99,11 +99,11 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - alextwothousand/scoop-bucket
 - Weidows-projects/scoop-3rd
 - littleli/Scoop-littleli
+- kengwang/scoop-ctftools-bucket
 - AkariiinMKII/Scoop4kariiin
 - starise/Scoop-Confetti
 - seumsc/scoop-seu
 - HUMORCE/nuke
-- kengwang/scoop-ctftools-bucket
 - mo-san/scoop-bucket
 - beer-psi/scoop-bucket
 - yuusakuri/scoop-bucket
