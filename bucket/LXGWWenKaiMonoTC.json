@@ -1,11 +1,18 @@
 {
-    "version": "1.0.22",
-    "description": "Sarasa Gothic, a CJK (Chinese-Japanese-Korean) programming font based on Iosevka and Source Han Sans. (Korean version)",
-    "homepage": "https://github.com/be5invis/Sarasa-Gothic",
+    "version": "1.501",
+    "description": "An open-source Traditional Chinese font derived from Fontworks' Klee One. 一款基于 FONTWORKS 出品字型 Klee One 改造的開源正體（繁體）中文字型。",
+    "homepage": "https://github.com/lxgw/LxgwWenkaiTC",
     "license": "OFL-1.1",
-    "url": "https://github.com/be5invis/Sarasa-Gothic/releases/download/v1.0.22/Sarasa-TTF-1.0.22.7z",
-    "hash": "68f508816f7c75c8fcb28cef37913ff49d38e0ee8d6baedc059bc128ae8e305c",
-    "pre_install": "Remove-Item \"$dir\\*.ttf\" -Exclude *K-*.ttf",
+    "url": [
+        "https://github.com/lxgw/LxgwWenkaiTC/releases/download/v1.501/LXGWWenKaiMonoTC-Light.ttf",
+        "https://github.com/lxgw/LxgwWenkaiTC/releases/download/v1.501/LXGWWenKaiMonoTC-Regular.ttf",
+        "https://github.com/lxgw/LxgwWenkaiTC/releases/download/v1.501/LXGWWenKaiMonoTC-Medium.ttf"
+    ],
+    "hash": [
+        "c78377537ce832bcb45dbc47de3dd111ddad6b9765b04a496ac3044413ea53b4",
+        "fb5bbd85f26506355b2bf72a0f6c9896e435c04dc02b54372d1a617bcfa93e4f",
+        "5351bf013a117e09a2bc106512e353b34ed6d24da65f0b4a0d090ade7df886bb"
+    ],
     "installer": {
         "script": [
             "$currentBuildNumber = [int] (Get-ItemProperty \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\").CurrentBuildNumber",
@@ -82,12 +89,16 @@
             "    Remove-Item \"$fontInstallDir\\$($_.Name)\" -Force -ErrorAction SilentlyContinue",
             "}",
             "if ($cmd -eq \"uninstall\") {",
-            "    Write-Host \"The 'Sarasa-Gothic' Font family has been uninstalled and will not be present after restarting your computer.\" -Foreground Magenta",
+            "    Write-Host \"Font family '$app' has been uninstalled and will not be present after restarting your computer.\" -Foreground Magenta",
             "}"
         ]
     },
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/be5invis/Sarasa-Gothic/releases/download/v$version/Sarasa-TTF-$version.7z"
+        "url": [
+            "https://github.com/lxgw/LxgwWenkaiTC/releases/download/v$version/LXGWWenKaiMonoTC-Light.ttf",
+            "https://github.com/lxgw/LxgwWenkaiTC/releases/download/v$version/LXGWWenKaiMonoTC-Regular.ttf",
+            "https://github.com/lxgw/LxgwWenkaiTC/releases/download/v$version/LXGWWenKaiMonoTC-Medium.ttf"
+        ]
     }
 }
