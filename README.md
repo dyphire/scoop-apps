@@ -59,10 +59,10 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - everyx/scoop-bucket
 - Qv2ray/mochi
 - wangzq/scoop-bucket
+- niheaven/scoop-sysinternals
 - kiennq/scoop-misc
 - ViCrack/scoop-bucket
 - TheRandomLabs/Scoop-Bucket
-- niheaven/scoop-sysinternals
 - akirco/aki-apps
 - whoopscs/scoop-security
 - wzv5/ScoopBucket
@@ -98,13 +98,13 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - TianXiaTech/scoop-txt
 - alextwothousand/scoop-bucket
 - Weidows-projects/scoop-3rd
-- littleli/Scoop-littleli
 - kengwang/scoop-ctftools-bucket
 - AkariiinMKII/Scoop4kariiin
 - starise/Scoop-Confetti
 - seumsc/scoop-seu
 - HUMORCE/nuke
 - Toddli468/Pentest-Scoop-Bucket
+- littleli/Scoop-littleli
 - mo-san/scoop-bucket
 - beer-psi/scoop-bucket
 - yuusakuri/scoop-bucket
