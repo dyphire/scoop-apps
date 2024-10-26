@@ -77,12 +77,12 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - NyaMisty/scoopbucketmisty
 - ygguorun/scoop-bucket
 - noql-net/scoop
+- Velgus/Scoop-Portapps
 - batkiz/backit
 - ChungZH/peach
 - 42wim/scoop-bucket
 - AStupidBear/scoop-bear
 - iquiw/scoop-bucket
-- Velgus/Scoop-Portapps
 - aliesbelik/poldi
 - mogeko/scoop-sysinternals
 - liaoya/scoop-bucket
@@ -101,12 +101,12 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - Weidows-projects/scoop-3rd
 - kengwang/scoop-ctftools-bucket
 - AkariiinMKII/Scoop4kariiin
+- abgox/abgobucket
 - starise/Scoop-Confetti
 - seumsc/scoop-seu
 - HUMORCE/nuke
 - Toddli468/Pentest-Scoop-Bucket
 - littleli/Scoop-littleli
-- abgox/abgobucket
 - mo-san/scoop-bucket
 - beer-psi/scoop-bucket
 - yuusakuri/scoop-bucket
