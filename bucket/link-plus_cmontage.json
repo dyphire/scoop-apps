@@ -1,0 +1,62 @@
+{
+  "version": "3.0.4",
+  "description": "Multifunctional integrated, cross platform, highly compatible assistant for your keyboard.",
+  "homepage": "https://github.com/lnelab/link-plus",
+  "license": "Unknown",
+  "notes": [
+    "Visit following site for user guide:",
+    "https://www.lnelab.com/docs"
+  ],
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/lnelab/link-plus/releases/download/3.0.4/link-plus-win-3.0.4.exe#/dl.7z",
+      "hash": "sha512:2cc7ef2709781ed84af08056a3c7121e39c2459465e541617be62719ee6ce615c40f5934945657917a390cee7c66ad1be52bcc81147fda93e43e793bd74547f0",
+      "pre_install": [
+        "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+        "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R0\" -Force -Recurse"
+      ]
+    }
+  },
+  "installer": {
+    "script": [
+      "$S4UtilsPath = Find-BucketDirectory -Root -Name $bucket | Join-Path -ChildPath \"scripts\\S4Utils.psm1\"",
+      "if (Test-Path $S4UtilsPath) {",
+      "    Unblock-File $S4UtilsPath",
+      "    Import-Module $S4UtilsPath",
+      "    Mount-ExternalRuntimeData -Source \"$persist_dir\\link-plus\" -AppData",
+      "    Remove-Module -Name S4Utils -ErrorAction SilentlyContinue",
+      "} else {",
+      "    Write-Host \"Missing files, please re-add Scoop4kariiin bucket and re-install this app.\" -ForegroundColor Red",
+      "}"
+    ]
+  },
+  "shortcuts": [
+    [
+      "LINK+.exe",
+      "LINK+"
+    ]
+  ],
+  "uninstaller": {
+    "script": [
+      "$S4UtilsPath = Find-BucketDirectory -Root -Name $install.bucket | Join-Path -ChildPath \"scripts\\S4Utils.psm1\"",
+      "if (Test-Path $S4UtilsPath) {",
+      "    Unblock-File $S4UtilsPath",
+      "    Import-Module $S4UtilsPath",
+      "    Dismount-ExternalRuntimeData -Target \"link-plus\" -AppData",
+      "    Remove-Module -Name S4Utils -ErrorAction SilentlyContinue",
+      "}"
+    ]
+  },
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/lnelab/link-plus/releases/download/$version/link-plus-win-$version.exe#/dl.7z",
+        "hash": {
+          "url": "$baseurl/latest.yml",
+          "regex": "sha512:\\s+$base64"
+        }
+      }
+    }
+  }
+}

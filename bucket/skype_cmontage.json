@@ -1,0 +1,28 @@
+{
+  "version": "8.112.0.206",
+  "description": "Communication tool for free calls and chat.",
+  "homepage": "https://www.skype.com/",
+  "license": {
+    "identifier": "Freeware",
+    "url": "https://www.microsoft.com/en-us/servicesagreement/"
+  },
+  "url": "http://download.skype.com/s4l/download/win/Skype-8.112.0.206.exe",
+  "hash": "49bd6b8fc6eca312560b0d00c3e32572f1bf945d51fec8e6f8abc95302c630b1",
+  "innosetup": true,
+  "shortcuts": [
+    [
+      "Skype.exe",
+      "Skype"
+    ]
+  ],
+  "checkver": {
+    "script": [
+      "$resp = [System.Net.WebRequest]::Create('http://get.skype.com/go/getskype-skypeforwindows').GetResponse()",
+      "Write-Output = $resp.ResponseUri.LocalPath"
+    ],
+    "regex": "Skype-([\\d.]+)\\.exe"
+  },
+  "autoupdate": {
+    "url": "http://download.skype.com/s4l/download/win/Skype-$version.exe"
+  }
+}

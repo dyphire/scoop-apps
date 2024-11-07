@@ -1,0 +1,46 @@
+{
+  "version": "1698466972",
+  "description": "An open-source remote desktop software, written in Rust.",
+  "homepage": "https://github.com/rustdesk/rustdesk",
+  "license": "AGPL-3.0-only",
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/rustdesk/rustdesk/releases/download/nightly/rustdesk-1.2.4-x86_64.exe",
+      "hash": "3db3dcc844b6c40b8e5dcef7381c9c7fb8d48f4e54b34b5edbec8b57f788466a"
+    },
+    "32bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/rustdesk/rustdesk/releases/download/nightly/rustdesk-1.2.4-x86-sciter.exe",
+      "hash": "32af41843fdf0e8fad3fb118365547066259262aed13be005555a11188cf405e"
+    }
+  },
+  "shortcuts": [
+    [
+      "RustDesk.exe",
+      "RustDesk"
+    ]
+  ],
+  "pre_install": "Get-ChildItem \"$dir\" 'rustdesk-*.exe' | Select-Object -First 1 | Rename-Item -NewName 'RustDesk.exe'",
+  "checkver": {
+    "script": [
+      "try {",
+      "    $api = Invoke-RestMethod 'https://api.github.com/repositories/299354207/releases/tags/nightly'",
+      "    foreach ($name in $api.assets.name) { if ($name -clike '*-x86_64.exe') { $asset = $name; break } }",
+      "    (Get-Date $api.assets[0].updated_at -UFormat %s), $asset -join ' '",
+      "}",
+      "catch {",
+      "    ''",
+      "}"
+    ],
+    "regex": "\\A(\\d+) rustdesk-(?<release>[\\d.-]+)-x86_64.exe\\Z"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/rustdesk/rustdesk/releases/download/nightly/rustdesk-$matchRelease-x86_64.exe"
+      },
+      "32bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/rustdesk/rustdesk/releases/download/nightly/rustdesk-$matchRelease-x86-sciter.exe"
+      }
+    }
+  }
+}

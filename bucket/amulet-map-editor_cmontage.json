@@ -1,0 +1,29 @@
+{
+  "version": "0.10.36",
+  "description": "Minecraft world editor and converter that supports all versions since Java 1.12 and Bedrock 1.7",
+  "homepage": "https://www.amuletmc.com",
+  "license": "Unknown",
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/Amulet-Team/Amulet-Map-Editor/releases/download/0.10.36/Amulet-v0.10.36-Windows-x64.zip",
+      "hash": "189fe3ce9b23f7faa44218d946b3bf1a2ec9bfdf150bfad3eff6da4b2b3fc6bb",
+      "extract_dir": "Amulet"
+    }
+  },
+  "shortcuts": [
+    [
+      "amulet_app.exe",
+      "Amulet Map Editor"
+    ]
+  ],
+  "persist": [
+    "config",
+    "logs"
+  ],
+  "checkver": {
+    "github": "https://github.com/Amulet-Team/Amulet-Map-Editor"
+  },
+  "autoupdate": {
+    "url": "https://mirror.ghproxy.com/https://github.com/Amulet-Team/Amulet-Map-Editor/releases/download/$version/Amulet-v$version-Windows-x64.zip"
+  }
+}

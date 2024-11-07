@@ -1,0 +1,36 @@
+{
+  "version": "20240130",
+  "description": "Neovim GUI which uses a Golang Qt backend",
+  "homepage": "https://github.com/akiyosi/goneovim",
+  "license": "MIT",
+  "suggest": {
+    "neovim": "neovim"
+  },
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/akiyosi/goneovim/releases/download/nightly/goneovim-windows.zip",
+      "hash": "5a3c18d29fd974b3a62385153fbde6dbb46e9d0cba84f2d0342fbc4915a3ea9c"
+    }
+  },
+  "extract_dir": "goneovim-windows",
+  "bin": "goneovim.exe",
+  "shortcuts": [
+    [
+      "goneovim.exe",
+      "Goneovim-nightly"
+    ]
+  ],
+  "checkver": {
+    "url": "https://api.github.com/repositories/107124394/releases/tags/nightly",
+    "jsonpath": "$.assets[?(@.name=='goneovim-windows.zip')].updated_at",
+    "regex": ".*(?<year>\\d{4})\\D(?<month>\\d{2})\\D(?<day>\\d{2}).*",
+    "replace": "${year}${month}${day}"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/akiyosi/goneovim/releases/download/nightly/goneovim-windows.zip"
+      }
+    }
+  }
+}

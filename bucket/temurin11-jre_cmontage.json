@@ -1,0 +1,47 @@
+{
+  "description": "Eclipse Temurin is a runtime provided by Eclipse Adoptium for general use across the Java ecosystem",
+  "homepage": "https://adoptium.net",
+  "version": "11.0.22-7",
+  "license": "GPL-2.0-only WITH Classpath-exception-2.0",
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.22+7/OpenJDK11U-jre_x64_windows_hotspot_11.0.22_7.zip",
+      "hash": "a2f404d6ce8a1911a0e8c8fd940643f3b0227a205e3bed5f521a48d0fcc14cf2"
+    },
+    "32bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.22+7/OpenJDK11U-jre_x86-32_windows_hotspot_11.0.22_7.zip",
+      "hash": "e7d3e80242ced088f8205b7e0f37a61d167f5faee513cd93fd114e2d210b237d"
+    }
+  },
+  "extract_dir": "jdk-11.0.22+7-jre",
+  "env_add_path": "bin",
+  "env_set": {
+    "JAVA_HOME": "$dir"
+  },
+  "checkver": {
+    "url": "https://api.adoptium.net/v3/assets/feature_releases/11/ga?jvm_impl=hotspot&heap_size=normal&os=windows&architecture=x64&image_type=jre&project=jdk&vendor=eclipse&page_size=1&sort_order=DESC",
+    "script": [
+      "$ver = (json_path $page $..version_data.semver).replace('+', '-')",
+      "$link = (json_path $page $..release_link).replace('%2B', '+')",
+      "$name = json_path $page $..binaries[0].package.name",
+      "Write-Output \"$ver $link $name\""
+    ],
+    "regex": "(?<ver>.*?) https://github.com/(?<link>.*?)/tag/(?<tag>.*?) (?<name>(?<prefix>OpenJDK[\\dU]*-[dejkr]{3})_x64_(?<suffix>.*))",
+    "replace": "${ver}"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/$matchLink/download/$matchTag/$matchName"
+      },
+      "32bit": {
+        "url": "https://github.com/$matchLink/download/$matchTag/$matchPrefix_x86-32_$matchSuffix"
+      }
+    },
+    "hash": {
+      "url": "$url.sha256.txt",
+      "find": "^([a-fA-F0-9]+)\\s"
+    },
+    "extract_dir": "$matchTag-jre"
+  }
+}

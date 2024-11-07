@@ -1,0 +1,58 @@
+{
+  "version": "2024.1-241.9959.30",
+  "description": "Cross-Platform IDE for Python by JetBrains. (Early Access Program)",
+  "homepage": "https://www.jetbrains.com/pycharm/",
+  "license": {
+    "identifier": "Proprietary",
+    "url": "https://www.jetbrains.com/store/license.html"
+  },
+  "url": "https://download.jetbrains.com/python/pycharm-professional-241.9959.30.exe#/dl.7z",
+  "hash": "a53c326e347b7ac5ca6157428dd0d38e486bf2d79869845e72f9c2ca9b42dae0",
+  "extract_to": "IDE",
+  "installer": {
+    "script": [
+      "& \"$bucketsdir\\$bucket\\scripts\\jetbrains\\portable.ps1\" $dir $persist_dir",
+      "Remove-Item \"$dir\\IDE\\`$*\" -Force -Recurse"
+    ]
+  },
+  "architecture": {
+    "64bit": {
+      "bin": [
+        [
+          "IDE\\bin\\pycharm64.exe",
+          "pycharm"
+        ]
+      ],
+      "shortcuts": [
+        [
+          "IDE\\bin\\pycharm64.exe",
+          "JetBrains\\PyCharm Professional (Early Access Program)"
+        ]
+      ]
+    },
+    "32bit": {
+      "bin": "IDE\\bin\\pycharm.exe",
+      "shortcuts": [
+        [
+          "IDE\\bin\\pycharm.exe",
+          "JetBrains\\PyCharm Professional (Early Access Program)"
+        ]
+      ]
+    }
+  },
+  "persist": [
+    "IDE\\bin\\idea.properties",
+    "profile"
+  ],
+  "checkver": {
+    "url": "https://data.services.jetbrains.com/products/releases?code=PCP&latest=true&platform=zip&type=eap",
+    "regex": "version\":\"(?<ver>[\\d.]+)\".*\"build\":\"(?<build>[\\d.]+)\"",
+    "replace": "${ver}-${build}"
+  },
+  "autoupdate": {
+    "url": "https://download.jetbrains.com/python/pycharm-professional-$preReleaseVersion.exe#/dl.7z",
+    "hash": {
+      "url": "$url.sha256"
+    }
+  }
+}

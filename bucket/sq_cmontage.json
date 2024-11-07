@@ -1,0 +1,27 @@
+{
+  "version": "0.40.0",
+  "homepage": "https://sq.io",
+  "description": "sq is a swiss army knife for data",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/neilotoole/sq/releases/download/v0.40.0/sq-0.40.0-windows-amd64.zip",
+      "hash": "1ff4ad9ba7fa2c6c7928f2f598b2b9d947a16dea5964f3c96ceeb8bdd9a6c7bd"
+    }
+  },
+  "bin": "sq.exe",
+  "checkver": {
+    "github": "https://github.com/neilotoole/sq"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/neilotoole/sq/releases/download/v$version/sq-$version-windows-amd64.zip"
+      }
+    },
+    "hash": {
+      "url": "https://mirror.ghproxy.com/https://github.com/neilotoole/sq/releases/download/v$version/checksums.txt",
+      "mode": "extract"
+    }
+  }
+}

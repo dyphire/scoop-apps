@@ -1,0 +1,33 @@
+{
+  "version": "4.7.0",
+  "description": "A Discord and Fosscord web-based client.",
+  "homepage": "https://github.com/SpacingBat3/WebCord",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/SpacingBat3/WebCord/releases/download/v4.7.0/WebCord-win32-x64-4.7.0.zip",
+      "hash": "52d4a91840dda0fc75445995d919215f7360d1f3bc97ebf8892bcb539ee05ee4"
+    },
+    "32bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/SpacingBat3/WebCord/releases/download/v4.7.0/WebCord-win32-ia32-4.7.0.zip",
+      "hash": "248f183b60597dd1a17e11e0544c57b37e0479dae70812b4774c033f761793f5"
+    }
+  },
+  "shortcuts": [
+    [
+      "webcord.exe",
+      "WebCord"
+    ]
+  ],
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/SpacingBat3/WebCord/releases/download/v$version/WebCord-win32-x64-$version.zip"
+      },
+      "32bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/SpacingBat3/WebCord/releases/download/v$version/WebCord-win32-ia32-$version.zip"
+      }
+    }
+  }
+}

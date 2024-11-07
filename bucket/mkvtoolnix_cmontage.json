@@ -1,0 +1,62 @@
+{
+  "version": "82.0",
+  "description": "A set of tools to create, alter and inspect Matroska files.",
+  "homepage": "https://mkvtoolnix.download",
+  "license": "GPL-2.0-only",
+  "architecture": {
+    "64bit": {
+      "url": "https://mkvtoolnix.download/windows/releases/82.0/mkvtoolnix-64-bit-82.0.7z",
+      "hash": "sha512:892437a168178be9c44616db6e4e199b55015875f31ca2a4e45a6f5f6c51dd026dec664220736577e0151fc9341aed70e1b139f31d2feff18995d5b336ce1675"
+    },
+    "32bit": {
+      "url": "https://mkvtoolnix.download/windows/releases/82.0/mkvtoolnix-32-bit-82.0.7z",
+      "hash": "sha512:2393a4cb3684690928b90a27183b96f68f30b1f14bda9d9014f67b1c63162af3b61e95ec6cbe12a12cfe33717470e540caeed5129b5b67ed55726a2696c6855a"
+    }
+  },
+  "extract_dir": "mkvtoolnix",
+  "pre_install": [
+    "if (Test-Path \"$persist_dir\\mkvtoolnix-gui.ini\") {",
+    "    # Persist mkvtoolnix-gui.ini manully because symlink doesn't work.",
+    "    Copy-Item \"$persist_dir\\mkvtoolnix-gui.ini\" \"$dir\"",
+    "} else {",
+    "    Set-Content \"$dir\\mkvtoolnix-gui.ini\" @('[settings]', 'updates\\checkForUpdates=false') -Encoding Ascii",
+    "}"
+  ],
+  "uninstaller": {
+    "script": "Copy-Item \"$dir\\mkvtoolnix-gui.ini\" \"$persist_dir\" -ErrorAction 'SilentlyContinue' -Force"
+  },
+  "bin": [
+    "mkvextract.exe",
+    "mkvinfo.exe",
+    "mkvmerge.exe",
+    "mkvpropedit.exe",
+    "mkvtoolnix-gui.exe"
+  ],
+  "shortcuts": [
+    [
+      "mkvtoolnix-gui.exe",
+      "MKVToolNix GUI"
+    ]
+  ],
+  "persist": [
+    "cache",
+    "jobQueue"
+  ],
+  "checkver": {
+    "url": "https://mkvtoolnix.download/doc/NEWS.md",
+    "regex": "([\\d.]+)"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://mkvtoolnix.download/windows/releases/$version/mkvtoolnix-64-bit-$version.7z"
+      },
+      "32bit": {
+        "url": "https://mkvtoolnix.download/windows/releases/$version/mkvtoolnix-32-bit-$version.7z"
+      }
+    },
+    "hash": {
+      "url": "$baseurl/sha512sums.txt"
+    }
+  }
+}

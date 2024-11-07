@@ -1,0 +1,48 @@
+{
+  "version": "10.2.1.385",
+  "description": "A small, fast, and feature-rich PDF viewer/editor.",
+  "homepage": "https://www.pdf-xchange.com/product/pdf-xchange-editor",
+  "license": {
+    "identifier": "Freeware",
+    "url": "https://www.tracker-software.com/PDF_VE.pdf"
+  },
+  "architecture": {
+    "64bit": {
+      "url": "https://www.pdf-xchange.com/downloads/PDFXEdit10_Portable_x64.zip",
+      "hash": "25ddcbd37bc4c4aebcb0512a12d7c8e601f414c3563c06c06013fd3506a59b7f"
+    },
+    "32bit": {
+      "url": "https://www.pdf-xchange.com/downloads/PDFXEdit10_Portable_x86.zip",
+      "hash": "cbd29a2089916b2b13bc44443468153eb7ec102fb0c896f1586fc37156d20dfe"
+    }
+  },
+  "persist": [
+    "History.dat",
+    "Settings.dat"
+  ],
+  "bin": "PDFXEdit.exe",
+  "shortcuts": [
+    [
+      "PDFXEdit.exe",
+      "PDF-XChange Editor"
+    ]
+  ],
+  "pre_install": [
+    "if(!(Test-Path \"$persist_dir\\History.dat\")) { New-Item \"$dir\\History.dat\" | Out-Null }",
+    "if(!(Test-Path \"$persist_dir\\Settings.dat\")) { New-Item \"$dir\\Settings.dat\" | Out-Null }"
+  ],
+  "checkver": {
+    "url": "https://www.pdf-xchange.com/product/pdf-xchange-editor/history/download-text-file",
+    "regex": "Build ([\\d.]+)"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://www.pdf-xchange.com/downloads/PDFXEdit10_Portable_x64.zip"
+      },
+      "32bit": {
+        "url": "https://www.pdf-xchange.com/downloads/PDFXEdit10_Portable_x86.zip"
+      }
+    }
+  }
+}

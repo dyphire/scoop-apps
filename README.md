@@ -108,6 +108,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - Toddli468/Pentest-Scoop-Bucket
 - littleli/Scoop-littleli
 - BenjaminMichaelis/Config
+- cmontage/scoopbucket-third
 - mo-san/scoop-bucket
 - beer-psi/scoop-bucket
 - yuusakuri/scoop-bucket

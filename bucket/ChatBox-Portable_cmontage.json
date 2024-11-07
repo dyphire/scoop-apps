@@ -1,0 +1,24 @@
+{
+  "version": "1.1.1",
+  "description": "ChatBox. a cross-platform desktop client for OpenAI API, also a prompt debugging and management tool.",
+  "homepage": "https://github.com/Bin-Huang/chatbox",
+  "license": "NO LICENSE",
+  "changelog": "https://github.com/Bin-Huang/chatbox/releases",
+  "url": "https://mirror.ghproxy.com/https://github.com/Bin-Huang/chatbox/releases/download/v1.1.1/Chatbox-1.1.1-Setup.exe#/setup.exe",
+  "hash": "117db69d262dcd120e5e25e99155ef065a8e310d6df163c36811114b52b7fcd1",
+  "extract_dir": "PFiles\\chatbox",
+  "bin": "chatbox.exe",
+  "shortcuts": [
+    [
+      "chatbox.exe",
+      "ChatBox"
+    ]
+  ],
+  "checkver": {
+    "url": "https://api.github.com/repos/Bin-Huang/chatbox/releases",
+    "regex": "/releases/tag/v([\\d\\.]+)"
+  },
+  "autoupdate": {
+    "url": "https://mirror.ghproxy.com/https://github.com/Bin-Huang/chatbox/releases/download/v$version/Chatbox-$version-Setup.exe#/setup.exe"
+  }
+}

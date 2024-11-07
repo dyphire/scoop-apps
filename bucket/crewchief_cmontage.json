@@ -1,0 +1,23 @@
+{
+  "version": "4.17.1.4",
+  "description": "Team radio engineer compatible with iRacing, Assetto Corsa, Project Cars, and other racing games",
+  "homepage": "https://mr_belowski.gitlab.io/CrewChiefV4/index.html",
+  "license": "MIT",
+  "url": "https://thecrewchief.org/downloads/CrewChiefV4.msi",
+  "hash": "741f85c3cd977468d53700a62394c13279cdfbbc85487a24b9906abde079dc2b",
+  "extract_dir": "Britton IT Ltd/CrewChiefV4",
+  "bin": "CrewChiefV4.exe",
+  "shortcuts": [
+    [
+      "CrewChiefV4.exe",
+      "CrewChiefV4"
+    ]
+  ],
+  "checkver": {
+    "url": "https://thecrewchief.org/downloads/change_log_for_auto_updated.html",
+    "regex": "Version ([\\d.]+)"
+  },
+  "autoupdate": {
+    "url": "https://thecrewchief.org/downloads/CrewChiefV4.msi"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "version": "6.24",
+  "description": "File archiver utility.",
+  "homepage": "https://rarlab.com/",
+  "license": "Shareware",
+  "architecture": {
+    "64bit": {
+      "url": "https://www.rarlab.com/rar/winrar-x64-624.exe",
+      "hash": "794481dbbc9009a2565726fb5b4a4ab2fe216ff9edbb08951548ee765de9b4a6"
+    },
+    "32bit": {
+      "url": "https://www.rarlab.com/rar/winrar-x32-624.exe",
+      "hash": "c8ad5d77a2882ad8fee57fff69d8f90d58cb7490b5d1cdf5571472f5fa8c7cdc"
+    }
+  },
+  "installer": {
+    "args": [
+      "/s",
+      "/d$dir"
+    ]
+  },
+  "post_install": "Remove-Item -Recurse \"$([Environment]::GetFolderPath('startmenu'))\\Programs\\WinRAR\"",
+  "uninstaller": {
+    "file": "Uninstall.exe",
+    "args": "/s"
+  },
+  "bin": [
+    "Rar.exe",
+    "UnRAR.exe",
+    "WinRAR.exe"
+  ],
+  "shortcuts": [
+    [
+      "WinRAR.exe",
+      "WinRAR"
+    ]
+  ],
+  "checkver": "WinRAR and RAR ([\\d.]+) release",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://www.rarlab.com/rar/winrar-x64-$cleanVersion.exe"
+      },
+      "32bit": {
+        "url": "https://www.rarlab.com/rar/winrar-x32-$cleanVersion.exe"
+      }
+    }
+  }
+}

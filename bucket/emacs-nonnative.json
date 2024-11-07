@@ -1,0 +1,30 @@
+{
+  "homepage": "https://github.com/ShuguangSun/emacs-build-nonnative",
+  "version": "30.12.20230724.fe2ace3",
+  "description": "Scripts to build a distribution of Emacs from sources, using MSYS2 and Mingw64(32).",
+  "license": "GPL (Emacs) + MIT (build script)",
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/ShuguangSun/emacs-build-nonnative/releases/download/v30.12.20230724.fe2ace3/emacs-master-x86_64-full.zip",
+      "hash": "b38bc863acb8dd5ddd30440cb93afe25e9911be5759282aec390ab5aa41ad09a"
+    }
+  },
+  "shortcuts": [
+    [
+      "bin\\runemacs.exe",
+      "Emacs (Non-NativeComp)"
+    ]
+  ],
+  "checkver": {
+    "url": "https://api.github.com/repos/ShuguangSun/emacs-build-nonnative/releases",
+    "jsonpath": "$[0].tag_name",
+    "regex": "v([\\d.a-z]+)"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/ShuguangSun/emacs-build-nonnative/releases/download/v$version/emacs-master-x86_64-full.zip"
+      }
+    }
+  }
+}

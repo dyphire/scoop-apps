@@ -1,0 +1,48 @@
+{
+  "$schema": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/ScoopInstaller/Scoop/master/schema.json",
+  "homepage": "https://github.com/PowerShell/PowerShell",
+  "description": "PowerShell for every system! https://Microsoft.com/PowerShell",
+  "version": "7.3.9",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/PowerShell/PowerShell/releases/download/v7.3.9/PowerShell-7.3.9-win-x64.zip",
+      "hash": "d23ba4c96874bc30178c253a4e89a4a67e273ebdbbd0c33951a185f7887c4aa1"
+    },
+    "32bit": {
+      "url": "https://mirror.ghproxy.com/https://github.com/PowerShell/PowerShell/releases/download/v7.3.9/PowerShell-7.3.9-win-x86.zip",
+      "hash": "53d1405124589514b899853e65e486d5926c52fbe8602b664c63fec8c5b857e4"
+    }
+  },
+  "bin": [
+    "pwsh.exe",
+    [
+      "pwsh.exe",
+      "pwsh-bare",
+      "-nop -nol -noni -ex bypass"
+    ]
+  ],
+  "shortcuts": [
+    [
+      "pwsh.exe",
+      "PowerShell Core"
+    ]
+  ],
+  "checkver": {
+    "github": "https://github.com/PowerShell/PowerShell"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/PowerShell/PowerShell/releases/download/v$version/PowerShell-$version-win-x64.zip"
+      },
+      "32bit": {
+        "url": "https://mirror.ghproxy.com/https://github.com/PowerShell/PowerShell/releases/download/v$version/PowerShell-$version-win-x86.zip"
+      }
+    },
+    "hash": {
+      "url": "https://github.com/PowerShell/PowerShell/releases/tag/v$version/",
+      "find": "$basename\\s*<ul>\\s*<li>([A-Fa-f\\d]{64})"
+    }
+  }
+}
