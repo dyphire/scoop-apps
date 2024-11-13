@@ -93,6 +93,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - abgox/abgobucket
 - cc713/ownscoop
 - aoisummer/scoop-bucket
+- cmontage/scoopbucket-third
 - krproject/qi-windows
 - rivy/scoop-bucket
 - excitoon/scoop-user
@@ -103,7 +104,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - starise/Scoop-Confetti
 - kengwang/scoop-ctftools-bucket
 - AkariiinMKII/Scoop4kariiin
-- cmontage/scoopbucket-third
 - seumsc/scoop-seu
 - HUMORCE/nuke
 - Toddli468/Pentest-Scoop-Bucket
