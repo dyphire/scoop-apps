@@ -86,14 +86,14 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - liaoya/scoop-bucket
 - aliesbelik/poldi
 - mogeko/scoop-sysinternals
+- abgox/abgobucket
+- cmontage/scoopbucket-third
 - brian6932/dank-scoop
 - jfut/scoop-jfut
 - SayCV/scoop-cvp
 - starise/Scoop-Gaming
-- abgox/abgobucket
 - cc713/ownscoop
 - aoisummer/scoop-bucket
-- cmontage/scoopbucket-third
 - krproject/qi-windows
 - rivy/scoop-bucket
 - excitoon/scoop-user
