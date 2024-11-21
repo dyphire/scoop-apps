@@ -37,9 +37,9 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - ScoopInstaller/Versions
 - borger/scoop-galaxy-integrations
 - TheCjw/scoop-retools
+- arch3rPro/PST-Bucket
 - TheRandomLabs/scoop-nonportable
 - kodybrown/scoop-nirsoft
-- arch3rPro/PST-Bucket
 - littleli/scoop-clojure
 - hoilc/scoop-lemon
 - ScoopInstaller/Nirsoft
@@ -61,9 +61,9 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - wangzq/scoop-bucket
 - Qv2ray/mochi
 - niheaven/scoop-sysinternals
+- whoopscs/scoop-security
 - kiennq/scoop-misc
 - TheRandomLabs/Scoop-Bucket
-- whoopscs/scoop-security
 - akirco/aki-apps
 - wzv5/ScoopBucket
 - zhoujin7/tomato
@@ -71,8 +71,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - DoveBoy/Apps
 - jonz94/scoop-sarasa-nerd-fonts
 - charmbracelet/scoop-bucket
-- amorphobia/siku
 - naderi/scoop-bucket
+- amorphobia/siku
 - hu3rror/scoop-muggle
 - NyaMisty/scoopbucketmisty
 - ygguorun/scoop-bucket
@@ -94,6 +94,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - starise/Scoop-Gaming
 - cc713/ownscoop
 - aoisummer/scoop-bucket
+- kengwang/scoop-ctftools-bucket
 - krproject/qi-windows
 - rivy/scoop-bucket
 - excitoon/scoop-user
@@ -102,7 +103,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - alextwothousand/scoop-bucket
 - Weidows-projects/scoop-3rd
 - starise/Scoop-Confetti
-- kengwang/scoop-ctftools-bucket
 - AkariiinMKII/Scoop4kariiin
 - seumsc/scoop-seu
 - HUMORCE/nuke
