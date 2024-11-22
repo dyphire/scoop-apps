@@ -1,82 +1,27 @@
 {
-    "##": "64-bit version is able to build both 32-bit and 64-bit packages",
-    "version": "2024-11-16",
-    "description": "A software distro and building platform for Windows.",
-    "homepage": "http://msys2.github.io",
-    "license": "GPL-2.0-only|BSD-3-Clause",
-    "notes": "Please run 'msys2' now for the MSYS2 setup to complete!",
+    "homepage": "http://www.msys2.org",
+    "version": "20161025",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/msys2/msys2-installer/releases/download/2024-11-16/msys2-base-x86_64-20241116.tar.xz",
-            "hash": "341ca7c4ddf2f86ec548295a52920ababb8a0d47e449c0d5a066f5982169c021",
-            "extract_dir": "msys64"
+            "url": "http://repo.msys2.org/distrib/x86_64/msys2-base-x86_64-20161025.tar.xz",
+            "hash": "bb1f1a0b35b3d96bf9c15092da8ce969a84a134f7b08811292fbc9d84d48c65d",
+            "extract_dir": "msys64",
+            "shortcuts": [
+                ["msys2.exe", "MSYS2 Simulator"],
+                ["mingw64.exe", "Mingw64 Simulator"]
+            ]
+        },
+        "32bit": {
+            "url": "http://repo.msys2.org/distrib/i686/msys2-base-i686-20161025.tar.xz",
+            "hash": "8bafd3d52f5a51528a8671c1cae5591b36086d6ea5b1e76e17e390965cf6768f",
+            "extract_dir": "msys32",
+            "shortcuts": [
+                ["msys2.exe", "MSYS2"],
+                ["mingw32.exe", "Mingw32"]
+            ]
         }
     },
-    "bin": [
-        [
-            "msys2_shell.cmd",
-            "msys2",
-            "-msys2 -defterm -here -no-start"
-        ],
-        [
-            "msys2_shell.cmd",
-            "mingw",
-            "-mingw -defterm -here -full-path -no-start"
-        ],
-        [
-            "msys2_shell.cmd",
-            "mingw32",
-            "-mingw32 -defterm -here -full-path -no-start"
-        ],
-        [
-            "msys2_shell.cmd",
-            "mingw64",
-            "-mingw64 -defterm -here -full-path -no-start"
-        ],
-        [
-            "msys2_shell.cmd",
-            "clang64",
-            "-clang64 -defterm -here -full-path -no-start"
-        ],
-        [
-            "msys2_shell.cmd",
-            "ucrt64",
-            "-ucrt64 -defterm -here -full-path -no-start"
-        ]
-    ],
-    "shortcuts": [
-        [
-            "msys2.exe",
-            "MSYS2"
-        ],
-        [
-            "mingw32.exe",
-            "MinGW32"
-        ],
-        [
-            "mingw64.exe",
-            "MinGW64"
-        ],
-        [
-            "clang64.exe",
-            "Clang64"
-        ],
-        [
-            "ucrt64.exe",
-            "UCRT64"
-        ]
-    ],
-    "persist": "home",
-    "checkver": {
-        "url": "https://api.github.com/repos/msys2/msys2-installer/tags",
-        "jsonpath": "$..name",
-        "regex": "(?<version>(?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2}))"
-    },
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/msys2/msys2-installer/releases/download/$version/msys2-base-x86_64-$matchYear$matchMonth$matchDay.tar.xz"
-            }
-        }
-    }
+    "bin" : [
+        "msys2_shell.cmd"
+    ]
 }
