@@ -1,0 +1,42 @@
+{
+    "version": "3.14.2",
+    "description": "夸克网盘",
+    "homepage": "https://pan.quark.cn/",
+    "license": "Proprietary",
+    "url": "https://pdds.quark.cn/download/stfile/ccighjgeccdgcekef/QuarkCloudDrive_v3.14.2_release_(Build1983216-20241114145230).exe",
+    "hash": "8ecc177d686b9187d14a5c7933098a97b167cdc434ac114e2e247e65fda7761b",
+    "depends": "ar/innounpacker",
+    "shortcuts": [
+        [
+            "QuarkCloudDrive.exe",
+            "QuarkCloudDrive"
+        ]
+    ],
+    "pre_install": [
+        "Move-Item -Force -Path \"$dir\\$fname\" -Destination \"$dir\\Setup.exe\"",
+        "innounpack.exe -x -d\"$dir\" \"$dir\\Setup.exe\"",
+        "Move-Item -Force -Path \"$dir\\{code_GetDestDir}\\*\" -Destination \"$dir\"",
+        "Remove-Item -Force -Recurse -Path \"$dir\\{code_GetDestDir}\"",
+        "Remove-Item -Force -Recurse -Path \"$dir\\{app}\"",
+        "Remove-Item -Force -Recurse -Path \"$dir\\{autocf64}\"",
+        "Remove-Item -Force -Recurse -Path \"$dir\\{tmp}\"",
+        "Remove-Item -Force -Recurse -Path \"$dir\\{usercf}\"",
+        "Remove-Item -Force -Recurse -Path \"$dir\\Setup.exe\""
+    ],
+    "uninstaller": {
+        "script": [
+            "$runtimeCache = \"$env:APPDATA\\quark-cloud-drive\"",
+            "write-host \"$runtimeCache\"",
+            "Remove-Item $runtimeCache -Force -Recurse -ErrorAction SilentlyContinue"
+        ]
+    },
+    "checkver": {
+        "url": "https://pan.quark.cn/api/client_version",
+        "jsonpath": "$.data.clouddrive_backup_packages[0].winInstallerUrl",
+        "re": "pdds.quark.cn/download/stfile/(?<release>\\w+)/QuarkCloudDrive_v(?<version>[\\d.]+)_release_\\(Build(?<build>\\d+)-(?<timestamp>\\d+)\\).exe",
+        "replace": "${version}"
+    },
+    "autoupdate": {
+        "url": "https://pdds.quark.cn/download/stfile/$matchRelease/QuarkCloudDrive_v$matchVersion_release_(Build$matchBuild-$matchTimestamp).exe"
+    }
+}

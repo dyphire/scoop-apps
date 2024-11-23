@@ -1,0 +1,32 @@
+{
+    "version": "22.0.1",
+    "description": "JPEXS Free Flash Decompiler is an open source Flash SWF decompiler and editor.",
+    "homepage": "https://github.com/jindrapetrik/jpexs-decompiler",
+    "license": "GPL-3.0-only",
+    "url": "https://github.com/jindrapetrik/jpexs-decompiler/releases/download/version22.0.1/ffdec_22.0.1.zip",
+    "hash": "39bf2e630a50e5c025915398e1e86956551a83c3626d3ce8f0f3bda2521713fa",
+    "bin": "ffdec-cli.jar",
+    "shortcuts": [
+        [
+            "ffdec.bat",
+            "JPEXS Free Flash Decompiler",
+            "",
+            "icon.ico"
+        ]
+    ],
+    "pre_install": "(Get-Content -Raw \"$dir\\ffdec.bat\") -replace '\\njava ', 'start javaw ' | Set-Content \"$dir\\ffdec.bat\"",
+    "suggest": {
+        "JDK": [
+            "java/temurin-jdk",
+            "java/zulu-jdk"
+        ]
+    },
+    "notes": "You need to have JRE 8+ installed on your computer to use JPEXS Free Flash Decompiler.",
+    "checkver": {
+        "url": "https://github.com/jindrapetrik/jpexs-decompiler/releases.atom",
+        "regex": "Repository/\\d+/version([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/jindrapetrik/jpexs-decompiler/releases/download/version$version/ffdec_$version.zip"
+    }
+}

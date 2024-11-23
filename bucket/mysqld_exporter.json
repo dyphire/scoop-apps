@@ -1,0 +1,35 @@
+{
+    "version": "0.16.0",
+    "description": "A Prometheus exporter for MySQL server metrics.",
+    "homepage": "https://github.com/prometheus/mysqld_exporter",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/prometheus/mysqld_exporter/releases/download/v0.16.0/mysqld_exporter-0.16.0.windows-amd64.tar.gz",
+            "hash": "f555e596ebf33f7eff95e3795d74cc397962eefb8ee18cd495978dff2bec2cd5",
+            "extract_dir": "mysqld_exporter-0.16.0.windows-amd64"
+        },
+        "32bit": {
+            "url": "https://github.com/prometheus/mysqld_exporter/releases/download/v0.16.0/mysqld_exporter-0.16.0.windows-386.tar.gz",
+            "hash": "87e6a7b28cdac36c85d2a6958dd84c73302d9982967a8c50fe31f42cdc16c633",
+            "extract_dir": "mysqld_exporter-0.16.0.windows-386"
+        }
+    },
+    "bin": "mysqld_exporter.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/prometheus/mysqld_exporter/releases/download/v$version/mysqld_exporter-$version.windows-amd64.tar.gz",
+                "extract_dir": "mysqld_exporter-$version.windows-amd64"
+            },
+            "32bit": {
+                "url": "https://github.com/prometheus/mysqld_exporter/releases/download/v$version/mysqld_exporter-$version.windows-386.tar.gz",
+                "extract_dir": "mysqld_exporter-$version.windows-386"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/sha256sums.txt"
+        }
+    }
+}

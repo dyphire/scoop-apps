@@ -1,0 +1,37 @@
+{
+    "version": "3.5",
+    "description": "A client blocker compatible with qBittorrent/Transmission (Beta)/BitComet (Beta, Partial) which is prohibited to include but not limited to clients such as Xunlei.",
+    "homepage": "https://github.com/Simple-Tracker/qBittorrent-ClientBlocker",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Simple-Tracker/qBittorrent-ClientBlocker/releases/download/3.5/qBittorrent-ClientBlocker-3.5-windows-amd64.zip",
+            "hash": "4f376c8f5105bb61eef3bd6b3c9f34c589727491e26b403f74f2b4d9fd009513"
+        },
+        "32bit": {
+            "url": "https://github.com/Simple-Tracker/qBittorrent-ClientBlocker/releases/download/3.5/qBittorrent-ClientBlocker-3.5-windows-386.zip",
+            "hash": "44fd3524912c5e57943adb015fc758e43ee4c84f1b4be2f06cea4ce8abdc70e4"
+        },
+        "arm64": {
+            "url": "https://github.com/Simple-Tracker/qBittorrent-ClientBlocker/releases/download/3.5/qBittorrent-ClientBlocker-3.5-windows-arm64.zip",
+            "hash": "d87a4124a65953e5645da0fc3f2f46264c9cd7edee7b6df41a46348187ddd069"
+        }
+    },
+    "bin": "qBittorrent-ClientBlocker.exe",
+    "persist": "config.json",
+    "notes": "The configuration file: $dir\\config.json",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Simple-Tracker/qBittorrent-ClientBlocker/releases/download/$version/qBittorrent-ClientBlocker-$version-windows-amd64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/Simple-Tracker/qBittorrent-ClientBlocker/releases/download/$version/qBittorrent-ClientBlocker-$version-windows-386.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/Simple-Tracker/qBittorrent-ClientBlocker/releases/download/$version/qBittorrent-ClientBlocker-$version-windows-arm64.zip"
+            }
+        }
+    }
+}

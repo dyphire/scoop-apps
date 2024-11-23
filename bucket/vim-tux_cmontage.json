@@ -1,0 +1,112 @@
+{
+  "version": "9.1.0880_20241120",
+  "description": "A highly configurable text editor for efficiently creating and changing any kind of text. (tux build)",
+  "homepage": "https://tuxproject.de/projects/vim",
+  "license": "Vim",
+  "notes": "Add gVim as a context menu option by running: \"$dir\\install-context.reg\"",
+  "suggest": {
+    "vimtutor": "vimtutor"
+  },
+  "architecture": {
+    "64bit": {
+      "url": "https://tuxproject.de/projects/vim/complete-x64.7z",
+      "hash": "43bb473a0f0e0beb194c75ee09018117d7ccb3772a8fa6a4895b7cd4c370b0e9"
+    },
+    "32bit": {
+      "url": "https://tuxproject.de/projects/vim/complete-x86.7z",
+      "hash": "57e5018a4f122867f73f616d0c9cc8a96a5bb6a7108310f665d5cb216914bb1e"
+    }
+  },
+  "post_install": [
+    "'install-context.reg', 'uninstall-context.reg' | ForEach-Object {",
+    "    $vimpath = \"$dir\\gVim.exe\".Replace('\\', '\\\\')",
+    "    $content = (Get-Content \"$bucketsdir\\$bucket\\scripts\\vim\\$_\").Replace('$vim', $vimpath)",
+    "    if ($global) { $content = $content.Replace('HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE') }",
+    "    Set-Content \"$dir\\$_\" $content",
+    "}"
+  ],
+  "bin": [
+    "vim.exe",
+    [
+      "vim.exe",
+      "vi"
+    ],
+    [
+      "vim.exe",
+      "ex",
+      "-e"
+    ],
+    [
+      "vim.exe",
+      "view",
+      "-R"
+    ],
+    [
+      "vim.exe",
+      "rvim",
+      "-Z"
+    ],
+    [
+      "vim.exe",
+      "rview",
+      "-RZ"
+    ],
+    [
+      "vim.exe",
+      "vimdiff",
+      "-d"
+    ],
+    "gvim.exe",
+    [
+      "gvim.exe",
+      "gview",
+      "-R"
+    ],
+    [
+      "gvim.exe",
+      "evim",
+      "-y"
+    ],
+    [
+      "gvim.exe",
+      "eview",
+      "-Ry"
+    ],
+    [
+      "gvim.exe",
+      "rgvim",
+      "-Z"
+    ],
+    [
+      "gvim.exe",
+      "rgview",
+      "-RZ"
+    ],
+    [
+      "gvim.exe",
+      "gvimdiff",
+      "-d"
+    ],
+    "xxd.exe"
+  ],
+  "shortcuts": [
+    [
+      "gvim.exe",
+      "gVim"
+    ]
+  ],
+  "checkver": {
+    "regex": "Latest compiled update:</b>\\s(?<y>\\d+)&#45;(?<m>\\d+)&#45;(?<d>\\d+)\\s.*<b>Vim version:</b>\\s+(?<version>[\\d.]+)",
+    "replace": "${version}_${y}${m}${d}"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://tuxproject.de/projects/vim/complete-x64.7z"
+      },
+      "32bit": {
+        "url": "https://tuxproject.de/projects/vim/complete-x86.7z"
+      }
+    }
+  }
+}

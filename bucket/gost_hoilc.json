@@ -1,0 +1,42 @@
+{
+    "version": "3.0.0-nightly.20241122",
+    "description": "GO Simple Tunnel - a simple tunnel written in golang.",
+    "homepage": "https://gost.run/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/go-gost/gost/releases/download/v3.0.0-nightly.20241122/gost_3.0.0-nightly.20241122_windows_amd64.zip",
+            "hash": "9ab079faf98b748de9a43d8bd5495dcd2dc1dffbfacc35dbac9f51dceb7b3f03"
+        },
+        "32bit": {
+            "url": "https://github.com/go-gost/gost/releases/download/v3.0.0-nightly.20241122/gost_3.0.0-nightly.20241122_windows_386.zip",
+            "hash": "814bb2320e82028f595f2fa2a3dc8b0929b7c63aba2d340e91e4d7cc94624aaf"
+        },
+        "arm64": {
+            "url": "https://github.com/go-gost/gost/releases/download/v3.0.0-nightly.20241122/gost_3.0.0-nightly.20241122_windows_arm64.zip",
+            "hash": "e8e962c6cf39482e78d5984b04c0a8026fefcfb7eb4247081e038f58156f933c"
+        }
+    },
+    "bin": "gost.exe",
+    "persist": "conf",
+    "checkver": {
+        "url": "https://github.com/go-gost/gost/releases.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/go-gost/gost/releases/download/v$version/gost_$version_windows_amd64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/go-gost/gost/releases/download/v$version/gost_$version_windows_386.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/go-gost/gost/releases/download/v$version/gost_$version_windows_arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}

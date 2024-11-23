@@ -1,0 +1,31 @@
+{
+    "version": "1.22",
+    "description": "本地硬盘千万级图库以图搜图",
+    "homepage": "https://github.com/ldqk/ImageSearch",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ldqk/ImageSearch/releases/download/1.22/ImageSearch_win_x64_1.22.exe#/ImageSearch.exe",
+            "hash": "9371f836efc1b009e95d5be63b7a9b9480f551c5ceda8ffdceb6f1bbbb39aa37"
+        }
+    },
+    "shortcuts": [
+        [
+            "ImageSearch.exe",
+            "ImageSearch"
+        ]
+    ],
+    "pre_install": "if (!(Test-Path \"$persist_dir\\index.json\")) { Set-Content -Encoding ASCII -Path \"$dir\\index.json\" -Value '{}' }",
+    "persist": [
+        "index.json",
+        "logs"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/ldqk/ImageSearch/releases/download/$version/ImageSearch_x64_$version.exe#/ImageSearch.exe"
+            }
+        }
+    }
+}

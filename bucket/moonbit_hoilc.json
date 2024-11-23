@@ -1,0 +1,47 @@
+{
+    "version": "20241119",
+    "description": "An end-to-end programming language toolchain for cloud and edge computing using WebAssembly.",
+    "homepage": "https://www.moonbitlang.com/",
+    "license": "Proprietary",
+    "architecture": {
+        "64bit": {
+            "url": [
+                "https://cli.moonbitlang.com/windows/moon.exe",
+                "https://cli.moonbitlang.com/windows/moonc.exe",
+                "https://cli.moonbitlang.com/windows/moonfmt.exe",
+                "https://cli.moonbitlang.com/windows/moonrun.exe"
+            ],
+            "hash": [
+                "6129234fbbb58e579c9169d7a92a155ce5905001432d95a0ef56e5ff2f683b03",
+                "bf80a189908c68c7cf9d5d49c12e09d3629dc10639975fb747b69fb659764cd7",
+                "e302895828ef4540e537898af3d865dadcef32debd689cb75851bfa95bcebe25",
+                "2ccf423433858d3e02f2c7a4256f72b28ecf62f609aa9ed7d6408bc5f9d21d62"
+            ]
+        }
+    },
+    "bin": [
+        "moon.exe",
+        "moonc.exe",
+        "moonfmt.exe",
+        "moonrun.exe"
+    ],
+    "checkver": {
+        "script": [
+            "try { $detail = Invoke-WebRequest -Method HEAD 'https://cli.moonbitlang.com/windows/moon.exe' -MaximumRedirection 0 -ErrorAction Ignore } catch { $_.Exception.Response }",
+            "if ($detail.StatusCode -eq 200) { return ([DateTime][String]$detail.Headers.'Last-Modified').ToUniversalTime().ToString(\"yyyyMMdd\") } else { return '' }"
+        ],
+        "regex": "(\\d{8})"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": [
+                    "https://cli.moonbitlang.com/windows/moon.exe",
+                    "https://cli.moonbitlang.com/windows/moonc.exe",
+                    "https://cli.moonbitlang.com/windows/moonfmt.exe",
+                    "https://cli.moonbitlang.com/windows/moonrun.exe"
+                ]
+            }
+        }
+    }
+}

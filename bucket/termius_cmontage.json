@@ -1,0 +1,34 @@
+{
+  "version": "9.8.6",
+  "description": "Modern SSH client",
+  "homepage": "https://www.termius.com",
+  "license": "Unknown",
+  "url": "https://autoupdate.termius.com/windows/Install%20Termius.exe#/dl.7z",
+  "hash": "sha512:7a22927bdffcc10c6b645dc2dfdc4ac83209340750c9216f1e6d8b8131f693db24dbdb02aa6116998c0f3db7d50c3543aafebc643027f3d95903b8b93ef082ce",
+  "architecture": {
+    "64bit": {
+      "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
+    },
+    "32bit": {
+      "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\""
+    }
+  },
+  "post_install": "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Recurse",
+  "shortcuts": [
+    [
+      "Termius.exe",
+      "Termius"
+    ]
+  ],
+  "checkver": {
+    "url": "https://autoupdate.termius.com/windows/latest.yml",
+    "regex": "version:\\s*([\\d.]+)"
+  },
+  "autoupdate": {
+    "url": "https://autoupdate.termius.com/windows/Install%20Termius.exe#/dl.7z",
+    "hash": {
+      "url": "$baseurl/latest.yml",
+      "regex": "sha512:\\s+$base64"
+    }
+  }
+}

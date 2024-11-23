@@ -1,0 +1,34 @@
+{
+    "version": "r1951",
+    "description": "A command-line decoder that converts hundreds of video game music formats and codecs to .wav.",
+    "homepage": "https://vgmstream.org",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://github.com/vgmstream/vgmstream/blob/master/COPYING"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/vgmstream/vgmstream/releases/download/r1951/vgmstream-win64.zip",
+            "hash": "36257aacdc9fd839a00ed87a00dbd08ce0fa3edafb90a4886270328cbae1129a"
+        },
+        "32bit": {
+            "url": "https://github.com/vgmstream/vgmstream/releases/download/r1951/vgmstream-win.zip",
+            "hash": "d653fd9ecf2b39f726807a3fac6fc8a03b90c244e11c7fb557c9bf0bd5fe6d5d"
+        }
+    },
+    "bin": "vgmstream-cli.exe",
+    "checkver": {
+        "url": "https://github.com/vgmstream/vgmstream/releases/latest",
+        "regex": "/vgmstream/tree/([^/]+?)\""
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/vgmstream/vgmstream/releases/download/$version/vgmstream-win64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/vgmstream/vgmstream/releases/download/$version/vgmstream-win.zip"
+            }
+        }
+    }
+}

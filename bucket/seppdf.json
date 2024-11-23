@@ -1,0 +1,22 @@
+{
+    "version": "3.84",
+    "description": "A tool to split PDF file containing multiple pages into individualized single PDF files for each page.",
+    "homepage": "https://www.ne.jp/asahi/foresth/home/indexe.htm#spdf",
+    "license": "Freeware",
+    "url": "https://www.ne.jp/asahi/foresth/home/spdf384.zip",
+    "hash": "7bdc65c65161e06eabd0e20cdb472b31774a1b1950c1ce4c1800e9f30b4dd4e3",
+    "shortcuts": [
+        [
+            "SepPDF.EXE",
+            "SepPDF"
+        ]
+    ],
+    "pre_install": "if (!(Test-Path \"$persist_dir\\SepPDF.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\SepPDF.ini\" -Value $null }",
+    "persist": "SepPDF.ini",
+    "checkver": {
+        "regex": "(?sm)SepPDF.*?Ver([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://www.ne.jp/asahi/foresth/home/spdf$cleanVersion.zip"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "version": "4-4169",
+    "description": "A sophisticated text editor for code, markup and prose",
+    "homepage": "https://www.sublimetext.com",
+    "license": {
+        "identifier": "Shareware",
+        "url": "https://www.sublimetext.com/eula"
+    },
+    "notes": [
+        "汉化特别版 - 果核剥壳"
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/arch3rPro/PST-Files/raw/refs/heads/main/SublimeText.zip",
+            "hash": "5D2B575AD541112D19F2F7EEC5E993DA5B6C3B7A5C6B101FE8015C6F842FF402"
+        }
+    },
+    "bin": "subl.exe",
+    "shortcuts": [
+        [
+            "sublime_text.exe",
+            "Sublime Text 4"
+        ]
+    ],
+    "persist": "Data"
+}

@@ -1,0 +1,60 @@
+{
+  "version": "2024.3-243.21565.202",
+  "description": "Cross-Platform IDE for PHP by JetBrains.",
+  "homepage": "https://www.jetbrains.com/phpstorm/",
+  "license": {
+    "identifier": "Proprietary",
+    "url": "https://www.jetbrains.com/store/license.html"
+  },
+  "url": "https://download.jetbrains.com/webide/PhpStorm-2024.3.win.zip",
+  "hash": "d2c20ef7a1b445e2bbd07e4cddf2d76cd81f0a68c8c305812434f46194dca394",
+  "extract_to": "IDE",
+  "installer": {
+    "script": [
+      "& \"$bucketsdir\\$bucket\\scripts\\jetbrains\\portable.ps1\" $dir $persist_dir",
+      "Remove-Item \"$dir\\IDE\\`$*\" -Force -Recurse"
+    ]
+  },
+  "architecture": {
+    "64bit": {
+      "bin": [
+        [
+          "IDE\\bin\\phpstorm64.exe",
+          "phpstorm"
+        ]
+      ],
+      "shortcuts": [
+        [
+          "IDE\\bin\\phpstorm64.exe",
+          "JetBrains\\PhpStorm"
+        ]
+      ]
+    },
+    "32bit": {
+      "bin": "IDE\\bin\\phpstorm.exe",
+      "shortcuts": [
+        [
+          "IDE\\bin\\phpstorm.exe",
+          "JetBrains\\PhpStorm"
+        ]
+      ]
+    }
+  },
+  "persist": [
+    "IDE\\bin\\idea.properties",
+    "IDE\\bin\\phpstorm.exe.vmoptions",
+    "IDE\\bin\\phpstorm64.exe.vmoptions",
+    "profile"
+  ],
+  "checkver": {
+    "url": "https://data.services.jetbrains.com/products/releases?code=PS&latest=true&platform=zip&type=release",
+    "regex": "version\":\"(?<ver>[\\d.]+)\".*\"build\":\"(?<build>[\\d.]+)\"",
+    "replace": "${ver}-${build}"
+  },
+  "autoupdate": {
+    "url": "https://download.jetbrains.com/webide/PhpStorm-$matchVer.win.zip",
+    "hash": {
+      "url": "$url.sha256"
+    }
+  }
+}

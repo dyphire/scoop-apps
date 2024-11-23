@@ -1,0 +1,29 @@
+{
+    "version": "2.20.0",
+    "description": "Local development against a remote Kubernetes or OpenShift cluster.",
+    "homepage": "https://www.telepresence.io/",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://app.getambassador.io/download/tel2/windows/amd64/2.20.0/telepresence.zip",
+            "hash": "c3dd3a9340ba4b44813b36b611d29e98ceb91be8d16af2206c88060679372b61"
+        }
+    },
+    "post_install": "Remove-Item \"$dir\\*.msi\", \"$dir\\*.ps1\" -Force -Recurse",
+    "bin": "telepresence.exe",
+    "suggest": {
+        "sshfs": "nonportable/sshfs-np",
+        "winfsp": "nonportable/winfsp-np"
+    },
+    "checkver": {
+        "url": "https://github.com/datawire/homebrew-blackbird/raw/master/Formula/telepresence.rb",
+        "regex": "/amd64/([\\d.]+)/telepresence"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://app.getambassador.io/download/tel2/windows/amd64/$version/telepresence.zip"
+            }
+        }
+    }
+}

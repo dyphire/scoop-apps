@@ -1,0 +1,39 @@
+{
+    "version": "1.33.1",
+    "description": "A fast, minimal browser that protects your privacy.",
+    "homepage": "https://minbrowser.org/",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/minbrowser/min/releases/download/v1.33.1/Min-v1.33.1-windows.zip",
+            "hash": "14ef6a544dee6d894a08ca9af31d001417e84223dc6cbbb849e6528430292907"
+        }
+    },
+    "extract_dir": "Min-v1.33.1",
+    "bin": [
+        [
+            "Min.exe",
+            "Min",
+            "--user-data-dir=\"$dir\\User Data\""
+        ]
+    ],
+    "shortcuts": [
+        [
+            "Min.exe",
+            "Min",
+            "--user-data-dir=\"$dir\\User Data\""
+        ]
+    ],
+    "persist": "User Data",
+    "checkver": {
+        "github": "https://github.com/minbrowser/min"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/minbrowser/min/releases/download/v$version/Min-v$version-windows.zip"
+            }
+        },
+        "extract_dir": "Min-v$version"
+    }
+}
