@@ -87,9 +87,9 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - liaoya/scoop-bucket
 - cmontage/scoopbucket-third
 - SayCV/scoop-cvp
+- abgox/abgobucket
 - mogeko/scoop-sysinternals
 - kengwang/scoop-ctftools-bucket
-- abgox/abgobucket
 - brian6932/dank-scoop
 - jfut/scoop-jfut
 - starise/Scoop-Gaming
