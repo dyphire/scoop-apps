@@ -78,6 +78,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - ygguorun/scoop-bucket
 - noql-net/scoop
 - Velgus/Scoop-Portapps
+- cmontage/scoopbucket-third
 - aliesbelik/poldi
 - batkiz/backit
 - ChungZH/peach
@@ -85,7 +86,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - AStupidBear/scoop-bear
 - iquiw/scoop-bucket
 - liaoya/scoop-bucket
-- cmontage/scoopbucket-third
 - SayCV/scoop-cvp
 - abgox/abgobucket
 - mogeko/scoop-sysinternals
