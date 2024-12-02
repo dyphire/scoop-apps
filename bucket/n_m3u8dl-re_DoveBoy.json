@@ -1,6 +1,6 @@
 {
-    "version": "v0.2.1-beta",
-    "description": "Cross-Platform, modern and powerful stream downloader for MPD/M3U8/ISM",
+    "version": "0.2.1-beta",
+    "description": "Cross-Platform, modern and powerful stream downloader for MPD/M3U8/ISM. English/简体中文/繁體中文.",
     "homepage": "https://github.com/nilaoda/N_m3u8DL-RE",
     "license": "MIT",
     "suggest": {
@@ -21,20 +21,25 @@
             "extract_dir": "N_m3u8DL-RE_Beta_win-arm64"
         }
     },
-    "bin": "N_m3u8DL-RE.exe",
+    "bin": [
+        "N_m3u8DL-RE.exe",
+        [
+            "N_m3u8DL-RE.exe",
+            "N_m3u8DL"
+        ]
+    ],
     "checkver": {
         "url": "https://api.github.com/repos/nilaoda/N_m3u8DL-RE/releases",
-        "regex": "releases/download/(?<tag>[vV]?[\\w-.]+)/N_m3u8DL-RE_Beta_win-x64_(?<date>[\\d.-]+).zip",
-        "replace": "${tag}"
+        "regex": "releases/download/v([\\w-.]+)/N_m3u8DL-RE_Beta_win-x64_(?<date>[\\d.-]+).zip"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/nilaoda/N_m3u8DL-RE/releases/download/$matchTag/N_m3u8DL-RE_Beta_win-x64_$matchDate.zip",
+                "url": "https://github.com/nilaoda/N_m3u8DL-RE/releases/download/v$version/N_m3u8DL-RE_Beta_win-x64_$matchDate.zip",
                 "extract_dir": "N_m3u8DL-RE_Beta_win-x64"
             },
             "arm64": {
-                "url": "https://github.com/nilaoda/N_m3u8DL-RE/releases/download/$matchTag/N_m3u8DL-RE_Beta_win-arm64_$matchDate.zip",
+                "url": "https://github.com/nilaoda/N_m3u8DL-RE/releases/download/v$version/N_m3u8DL-RE_Beta_win-arm64_$matchDate.zip",
                 "extract_dir": "N_m3u8DL-RE_Beta_win-arm64"
             }
         }
