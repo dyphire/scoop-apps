@@ -56,11 +56,11 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - couleur-tweak-tips/utils
 - dodorz/scoop
 - borger/scoop-emulators
+- whoopscs/scoop-security
 - everyx/scoop-bucket
 - niheaven/scoop-sysinternals
 - ViCrack/scoop-bucket
 - wangzq/scoop-bucket
-- whoopscs/scoop-security
 - Qv2ray/mochi
 - kiennq/scoop-misc
 - TheRandomLabs/Scoop-Bucket
