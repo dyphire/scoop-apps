@@ -105,6 +105,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - Weidows-projects/scoop-3rd
 - AkariiinMKII/Scoop4kariiin
 - seumsc/scoop-seu
+- Darkatse/Scoop-KanColle
 - HUMORCE/nuke
 - Toddli468/Pentest-Scoop-Bucket
 - littleli/Scoop-littleli
@@ -113,4 +114,3 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - beer-psi/scoop-bucket
 - yuusakuri/scoop-bucket
 - ChinLong/scoop-customize
-- Darkatse/Scoop-KanColle
