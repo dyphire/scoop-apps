@@ -32,8 +32,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - chawyehsu/dorado
 - matthewjberger/scoop-nerd-fonts
 - Calinou/scoop-games
-- ivaquero/scoopet
 - ScoopInstaller/Java
+- ivaquero/scoopet
 - ScoopInstaller/Versions
 - borger/scoop-galaxy-integrations
 - TheCjw/scoop-retools
@@ -83,11 +83,11 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - batkiz/backit
 - ChungZH/peach
 - 42wim/scoop-bucket
+- abgox/abgobucket
 - AStupidBear/scoop-bear
 - iquiw/scoop-bucket
 - liaoya/scoop-bucket
 - SayCV/scoop-cvp
-- abgox/abgobucket
 - mogeko/scoop-sysinternals
 - kengwang/scoop-ctftools-bucket
 - brian6932/dank-scoop
