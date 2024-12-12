@@ -1,9 +1,11 @@
 {
     "version": "3.7.1",
-    "description": "Audacity. An easy-to-use, multi-track audio editor and recorder",
+    "description": "An easy-to-use, multi-track audio editor and recorder",
     "homepage": "https://www.audacityteam.org",
-    "license": "GPL-2.0-or-later",
-    "changelog": "https://wiki.audacityteam.org/wiki/Audacity_Versions",
+    "license": {
+        "identifier": "GPL-2.0-or-later|GPL-3.0-only|CC-BY-3.0",
+        "url": "https://github.com/audacity/audacity/blob/master/LICENSE.txt"
+    },
     "architecture": {
         "64bit": {
             "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.7.1/audacity-win-3.7.1-64bit.zip",
@@ -31,8 +33,8 @@
     ],
     "persist": "Portable Settings",
     "checkver": {
-        "url": "https://github.com/audacity/audacity/releases",
-        "regex": "\">Audacity ([\\d.]+)"
+        "github": "https://github.com/audacity/audacity",
+        "regex": "Audacity-([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
@@ -44,6 +46,10 @@
                 "url": "https://github.com/audacity/audacity/releases/download/Audacity-$version/audacity-win-$version-32bit.zip",
                 "extract_dir": "audacity-win-$version-32bit"
             }
+        },
+        "hash": {
+            "url": "$baseurl/CHECKSUMS.txt",
+            "regex": "$basename.*?$sha256"
         }
     }
 }
