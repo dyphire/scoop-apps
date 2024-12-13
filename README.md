@@ -78,12 +78,12 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - ygguorun/scoop-bucket
 - cmontage/scoopbucket-third
 - noql-net/scoop
+- abgox/abgobucket
 - Velgus/Scoop-Portapps
 - aliesbelik/poldi
 - batkiz/backit
 - ChungZH/peach
 - 42wim/scoop-bucket
-- abgox/abgobucket
 - AStupidBear/scoop-bear
 - iquiw/scoop-bucket
 - liaoya/scoop-bucket

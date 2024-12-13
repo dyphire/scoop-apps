@@ -1,5 +1,5 @@
 {
-    "version": "2.1.0",
+    "version": "2.2.1",
     "description": "一个基于 electron typescript vue3 的桌面音乐播放器",
     "homepage": "https://github.com/algerkong/AlgerMusicPlayer",
     "license": {
@@ -8,24 +8,24 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Tohrusky/Final2x/releases/download/2024-11-09/Final2x-windows-x64-setup.exe#/dl.7z",
-            "hash": "5877dbeafa12b4a226328f3f7f171496663b6f43ec07abba52fc4ac6790de3ff",
+            "url": "https://github.com/algerkong/AlgerMusicPlayer/releases/download/2.2.1/AlgerMusic_2.1.0_Setup_x64.exe#/dl.7z",
+            "hash": "21753c613d35ab69536fe192db3b26056746e0140a3ce6fed630a75ac8763b2f",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\" -Force -Recurse"
             ]
         },
         "32bit": {
-            "url": "https://github.com/Tohrusky/Final2x/releases/download/2024-11-09/Final2x-windows-arm64-setup.exe#/dl.7z",
-            "hash": "fa4ed9533c2148a63c214810889e6dfd8f3203fbf3163f482d5ebc755e65439c",
+            "url": "https://github.com/algerkong/AlgerMusicPlayer/releases/download/2.2.1/AlgerMusic_2.1.0_Setup_x86.exe#/dl.7z",
+            "hash": "96fb9d609c777da6cb24b3a461b506cfff5f3e662396763fbce750cacfd654fa",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\" -Force -Recurse"
             ]
         },
         "arm64": {
-            "url": "https://github.com/Tohrusky/Final2x/releases/download/2024-11-09/Final2x-windows-arm64-setup.exe#/dl.7z",
-            "hash": "fa4ed9533c2148a63c214810889e6dfd8f3203fbf3163f482d5ebc755e65439c",
+            "url": "https://github.com/algerkong/AlgerMusicPlayer/releases/download/2.2.1/AlgerMusic_2.1.0_Setup_arm64.exe#/dl.7z",
+            "hash": "b18044034025d6f5f2a32256dd7dd58b9c4018ff19740d458f7f12593225069a",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-arm64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\" -Force -Recurse"
