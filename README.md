@@ -85,8 +85,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - ChungZH/peach
 - 42wim/scoop-bucket
 - AStupidBear/scoop-bear
-- iquiw/scoop-bucket
 - kengwang/scoop-ctftools-bucket
+- iquiw/scoop-bucket
 - liaoya/scoop-bucket
 - SayCV/scoop-cvp
 - mogeko/scoop-sysinternals
