@@ -57,8 +57,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - dodorz/scoop
 - borger/scoop-emulators
 - whoopscs/scoop-security
-- everyx/scoop-bucket
 - niheaven/scoop-sysinternals
+- everyx/scoop-bucket
 - ViCrack/scoop-bucket
 - wangzq/scoop-bucket
 - Qv2ray/mochi
@@ -79,13 +79,13 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - cmontage/scoopbucket-third
 - noql-net/scoop
 - abgox/abgobucket
+- kengwang/scoop-ctftools-bucket
 - aliesbelik/poldi
 - Velgus/Scoop-Portapps
 - batkiz/backit
 - ChungZH/peach
 - 42wim/scoop-bucket
 - AStupidBear/scoop-bear
-- kengwang/scoop-ctftools-bucket
 - iquiw/scoop-bucket
 - liaoya/scoop-bucket
 - SayCV/scoop-cvp
