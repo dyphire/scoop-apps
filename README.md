@@ -111,6 +111,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - littleli/Scoop-littleli
 - BenjaminMichaelis/Config
 - mo-san/scoop-bucket
+- babo4d/scoop-xrtools
 - beer-psi/scoop-bucket
 - yuusakuri/scoop-bucket
 - ChinLong/scoop-customize
