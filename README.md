@@ -36,8 +36,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - ivaquero/scoopet
 - ScoopInstaller/Versions
 - borger/scoop-galaxy-integrations
-- TheCjw/scoop-retools
 - arch3rPro/PST-Bucket
+- TheCjw/scoop-retools
 - kodybrown/scoop-nirsoft
 - TheRandomLabs/scoop-nonportable
 - littleli/scoop-clojure
@@ -113,5 +113,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - mo-san/scoop-bucket
 - babo4d/scoop-xrtools
 - beer-psi/scoop-bucket
+- Small-Ku/turbo-bucket
 - yuusakuri/scoop-bucket
 - ChinLong/scoop-customize
