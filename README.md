@@ -96,6 +96,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - cc713/ownscoop
 - starise/Scoop-Confetti
 - aoisummer/scoop-bucket
+- seumsc/scoop-seu
 - krproject/qi-windows
 - rivy/scoop-bucket
 - excitoon/scoop-user
@@ -104,7 +105,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - alextwothousand/scoop-bucket
 - Weidows-projects/scoop-3rd
 - AkariiinMKII/Scoop4kariiin
-- seumsc/scoop-seu
 - Darkatse/Scoop-KanColle
 - HUMORCE/nuke
 - Toddli468/Pentest-Scoop-Bucket
