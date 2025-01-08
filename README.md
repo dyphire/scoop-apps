@@ -103,11 +103,11 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - TianXiaTech/scoop-txt
 - alextwothousand/scoop-bucket
 - Weidows-projects/scoop-3rd
-- AkariiinMKII/Scoop4kariiin
 - Darkatse/Scoop-KanColle
 - HUMORCE/nuke
 - Toddli468/Pentest-Scoop-Bucket
 - littleli/Scoop-littleli
+- AkariiinMKII/Scoop4kariiin
 - BenjaminMichaelis/Config
 - mo-san/scoop-bucket
 - WinApps-share/WinApps-bucket
