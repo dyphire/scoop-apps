@@ -1,6 +1,6 @@
 {
     "version": "1.4.0-0111",
-    "description": "交互式应用安全测试平台-Cyber Security ALL-IN-ONE Platform(Scoop bucket by arch3rpro)",
+    "description": "(Scoop bucket by arch3rpro) yakit - 交互式应用安全测试平台-Cyber Security ALL-IN-ONE Platform",
     "homepage": "https://github.com/yaklang/yakit",
     "notes": "安装成功后需手动启动并初始化本地引擎^-^",
     "license": "AGPL-3.0",
@@ -12,7 +12,7 @@
         }
     },
     "pre_install": [
-        "taskkill /f /im Yakit.exe",
+        "if (Get-Process -Name 'Yakit' -ErrorAction SilentlyContinue) { taskkill /f /im Yakit.exe }",
         "Remove-Item \"$dir\\*\" -Exclude 'app-64.7z' -Force -Recurse",
         "Expand-7zipArchive \"$dir\\app-64.7z\" \"$dir\" -Removal"
     ],
