@@ -115,4 +115,3 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - beer-psi/scoop-bucket
 - Small-Ku/turbo-bucket
 - yuusakuri/scoop-bucket
-- ChinLong/scoop-customize
