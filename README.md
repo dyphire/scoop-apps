@@ -75,8 +75,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - amorphobia/siku
 - hu3rror/scoop-muggle
 - NyaMisty/scoopbucketmisty
-- ygguorun/scoop-bucket
 - cmontage/scoopbucket-third
+- ygguorun/scoop-bucket
 - noql-net/scoop
 - abgox/abgobucket
 - kengwang/scoop-ctftools-bucket
@@ -115,3 +115,4 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - beer-psi/scoop-bucket
 - Small-Ku/turbo-bucket
 - yuusakuri/scoop-bucket
+- ChinLong/scoop-customize
