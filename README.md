@@ -57,9 +57,9 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - dodorz/scoop
 - borger/scoop-emulators
 - niheaven/scoop-sysinternals
+- ViCrack/scoop-bucket
 - whoopscs/scoop-security
 - everyx/scoop-bucket
-- ViCrack/scoop-bucket
 - wangzq/scoop-bucket
 - Qv2ray/mochi
 - kiennq/scoop-misc
@@ -74,8 +74,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - naderi/scoop-bucket
 - amorphobia/siku
 - hu3rror/scoop-muggle
-- NyaMisty/scoopbucketmisty
 - cmontage/scoopbucket-third
+- NyaMisty/scoopbucketmisty
 - ygguorun/scoop-bucket
 - noql-net/scoop
 - abgox/abgobucket
@@ -105,6 +105,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - Weidows-projects/scoop-3rd
 - babo4d/scoop-xrtools
 - Darkatse/Scoop-KanColle
+- xrgzs/sdoog
 - HUMORCE/nuke
 - Toddli468/Pentest-Scoop-Bucket
 - littleli/Scoop-littleli
