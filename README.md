@@ -55,15 +55,15 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - hermanjustnu/scoop-emulators
 - couleur-tweak-tips/utils
 - dodorz/scoop
-- borger/scoop-emulators
 - niheaven/scoop-sysinternals
 - ViCrack/scoop-bucket
 - whoopscs/scoop-security
+- borger/scoop-emulators
 - everyx/scoop-bucket
 - wangzq/scoop-bucket
 - Qv2ray/mochi
-- kiennq/scoop-misc
 - TheRandomLabs/Scoop-Bucket
+- kiennq/scoop-misc
 - akirco/aki-apps
 - zhoujin7/tomato
 - wzv5/ScoopBucket
