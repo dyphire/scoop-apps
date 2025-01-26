@@ -102,10 +102,10 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - Darkatse/Scoop-Darkatse
 - TianXiaTech/scoop-txt
 - alextwothousand/scoop-bucket
+- xrgzs/sdoog
 - Weidows-projects/scoop-3rd
 - babo4d/scoop-xrtools
 - Darkatse/Scoop-KanColle
-- xrgzs/sdoog
 - HUMORCE/nuke
 - Toddli468/Pentest-Scoop-Bucket
 - littleli/Scoop-littleli
