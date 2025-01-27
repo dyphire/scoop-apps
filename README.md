@@ -92,6 +92,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - brian6932/dank-scoop
 - jfut/scoop-jfut
 - starise/Scoop-Gaming
+- xrgzs/sdoog
 - cc713/ownscoop
 - starise/Scoop-Confetti
 - aoisummer/scoop-bucket
@@ -102,7 +103,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - Darkatse/Scoop-Darkatse
 - TianXiaTech/scoop-txt
 - alextwothousand/scoop-bucket
-- xrgzs/sdoog
 - Weidows-projects/scoop-3rd
 - babo4d/scoop-xrtools
 - Darkatse/Scoop-KanColle
