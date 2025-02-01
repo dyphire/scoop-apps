@@ -1,20 +1,20 @@
 {
-    "version": "0.0.9",
+    "version": "0.1.0",
     "description": "检测节点可用性,去除不可用节点",
     "homepage": "https://github.com/bestruirui/mihomo-check",
     "license": "Unknown",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/bestruirui/mihomo-check/releases/download/v0.0.9/mihomo-check_0.0.9_windows_amd64.tar.gz",
-            "hash": "28faf28350c5208f66915d04c0cff91f2da402838df00365ebb380944f37db95"
+            "url": "https://github.com/bestruirui/mihomo-check/releases/download/v0.1.0/mihomo-check_0.1.0_windows_amd64.tar.gz",
+            "hash": "ccb8153ca31f76c62278888446f9a0cacc2f59f3af24ca6fb0d667993194b30c"
         },
         "32bit": {
-            "url": "https://github.com/bestruirui/mihomo-check/releases/download/v0.0.9/mihomo-check_0.0.9_windows_386.tar.gz",
-            "hash": "24c222f323904e8e74ae64ef0a6f24f4da6bf2c73664cdad3d9fb0465ef85dfd"
+            "url": "https://github.com/bestruirui/mihomo-check/releases/download/v0.1.0/mihomo-check_0.1.0_windows_386.tar.gz",
+            "hash": "33f5ff6721d2ce4e6f2662b0cc927097d673836445a5209c866c382936926188"
         },
         "arm64": {
-            "url": "https://github.com/bestruirui/mihomo-check/releases/download/v0.0.9/mihomo-check_0.0.9_windows_arm64.tar.gz",
-            "hash": "6d20a68f66255ec11947fd9474050b42f0e3e8e9e755cb0261d969b0b1485fad"
+            "url": "https://github.com/bestruirui/mihomo-check/releases/download/v0.1.0/mihomo-check_0.1.0_windows_arm64.tar.gz",
+            "hash": "04cdcc2bcc3884fcc1153a7e3b360358254b01d77de946c6f49143dae08b6f8b"
         }
     },
     "bin": "mihomo-check.exe",
