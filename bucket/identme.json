@@ -1,20 +1,20 @@
 {
-    "version": "0.1",
+    "version": "0.2.1",
     "description": "Public IP address lookup",
     "homepage": "https://www.ident.me",
     "license": "0BSD",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/pcarrier/ident.me/releases/download/v0.1/identme.x86.exe#/identme.exe",
-            "hash": "dda00a0138ea2ed2370ea855afe3b93cf9a61a241f20721f319215a830c95065"
+            "url": "https://github.com/pcarrier/ident.me/releases/download/v0.2.1/identme.x86.exe#/identme.exe",
+            "hash": "467e58b267b0b1bd20c32fe737a3973d555ae1a4552dfaf539442ab04945a60f"
         },
         "64bit": {
-            "url": "https://github.com/pcarrier/ident.me/releases/download/v0.1/identme.x64.exe#/identme.exe",
-            "hash": "1123615eb7e770efd319921948ceb901924494efcaf118f1ea5bf6c72942d62f"
+            "url": "https://github.com/pcarrier/ident.me/releases/download/v0.2.1/identme.x64.exe#/identme.exe",
+            "hash": "bdaeb761dd3c1dd33faac126071956e880c0538be5c7ebaf1df4f669ce92b757"
         },
         "arm64": {
-            "url": "https://github.com/pcarrier/ident.me/releases/download/v0.1/identme.arm64.exe#/identme.exe",
-            "hash": "eecc76c97cca927a93bfbecf65f4c446311708e4286d04cbcc7dbe4a77c11aee"
+            "url": "https://github.com/pcarrier/ident.me/releases/download/v0.2.1/identme.arm64.exe#/identme.exe",
+            "hash": "f174df735ed7055a898a7160d0dd7d88c8ce93a39ffcf91b596d8efc2b05dc7b"
         }
     },
     "bin": "identme.exe",
