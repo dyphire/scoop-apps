@@ -19,14 +19,6 @@
         }
     },
     "pre_install": [
-        "$pythonLocation = where.exe python",
-        "$pipLocation = where.exe pip",
-        "if($pythonLocation){",
-        "   Remove-Item $pythonLocation -Force",
-        "}",
-        "if($pipLocation){",
-        "   Remove-Item $pipLocation -Force",
-        "}",
         "$py_root = \"$dir\".Replace('\\', '\\\\')",
         "$py_archLabel = '64-bit'",
         "$bit = '64'",
@@ -63,41 +55,53 @@
             "}",
             "Remove-Item \"$dir\\_tmp\", \"$dir\\setup.exe\" -Force -Recurse",
             "if ($global) {",
-            "    $pathext = (env 'PATHEXT' $true) -replace ';.PYW?', ''",
-            "    env 'PATHEXT' $true \"$pathext;.PY;.PYW\"",
+            "    $pathext = (Get-EnvVar -Name PATHEXT -Global) -replace ';.PYW?', ''",
+            "    Set-EnvVar -Name PATHEXT -Value \"$pathext;.PY;.PYW\" -Global",
             "}"
         ]
     },
-    "uninstaller": {
-        "script": [
-            "if ($global) {",
-            "    $pathext = (env 'PATHEXT' $true) -replace ';.PYW?', ''",
-            "    env 'PATHEXT' $true \"$pathext\"",
-            "}"
-        ]
-    },
-    "bin": [
-        [
-            "python.exe",
-            "python"
-        ],
-        "Lib\\idlelib\\idle.bat",
-        [
-            "Lib\\idlelib\\idle.bat",
-            "idle3"
-        ]
+    "post_install": [
+        "python -E -s -m ensurepip -U --default-pip | Out-Null",
+        "Write-Output \"$([char]0x1b)[0m\" # Reset ansi to prevent color leak from installer"
     ],
     "env_add_path": [
         "Scripts",
         "."
     ],
+    "bin": [
+        [
+            "python.exe",
+            "python3"
+        ],
+        [
+            "python.exe",
+            "python313"
+        ],
+        "Lib\\idlelib\\idle.bat",
+        [
+            "Lib\\idlelib\\idle.bat",
+            "idle3"
+        ],
+        [
+            "Lib\\idlelib\\idle.bat",
+            "idle313"
+        ]
+    ],
     "persist": [
         "Scripts",
         "Lib\\site-packages"
     ],
+    "uninstaller": {
+        "script": [
+            "if ($global) {",
+            "    $pathext = (Get-EnvVar -Name PATHEXT -Global) -replace ';.PYW?', ''",
+            "    Set-EnvVar -Name PATHEXT -Value \"$pathext\" -Global",
+            "}"
+        ]
+    },
     "checkver": {
         "url": "https://www.python.org/downloads/windows/",
-        "regex": "Latest Python 3 Release - Python ([\\d.]+)"
+        "regex": "python-(3\\.13\\.[\\d.]+)-"
     },
     "autoupdate": {
         "architecture": {
