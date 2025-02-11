@@ -80,6 +80,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - noql-net/scoop
 - abgox/abgobucket
 - kengwang/scoop-ctftools-bucket
+- xrgzs/sdoog
 - aliesbelik/poldi
 - Velgus/Scoop-Portapps
 - batkiz/backit
@@ -87,7 +88,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - 42wim/scoop-bucket
 - AStupidBear/scoop-bear
 - iquiw/scoop-bucket
-- xrgzs/sdoog
 - SayCV/scoop-cvp
 - mogeko/scoop-sysinternals
 - brian6932/dank-scoop
