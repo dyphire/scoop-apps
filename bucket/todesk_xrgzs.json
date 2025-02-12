@@ -1,13 +1,13 @@
 {
-    "version": "4.7.6.2",
+    "version": "4.7.6.3",
     "homepage": "https://www.todesk.com/",
     "description": "ToDesk远程桌面软件-免费安全流畅的远程连接电脑手机",
     "license": {
         "identifier": "Proprietary",
         "url": "https://www.todesk.com/licence.html"
     },
-    "url": "https://alist.xrgzs.top/d/pxy/Software/Tools/Backup/ToDesk/ToDesk.exe#/dl.7z",
-    "hash": "0831d04b38bc9bfd5051e23a8eded29dc9df14ce62ebb1a9790102b091227dbc",
+    "url": "https://alist.xrgzs.top/d/pxy/Software/Tools/Backup/ToDesk/ToDesk_4.7.6.3.exe#/dl.7z",
+    "hash": "5cb11ae8d25ef106f6dc42034f7b388990b6c85413cf4008a6f2797978bf6a7c",
     "shortcuts": [
         [
             "ToDesk.exe",
@@ -46,9 +46,10 @@
         "regex": "([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://alist.xrgzs.top/d/pxy/Software/Tools/Backup/ToDesk/ToDesk.exe#/dl.7z",
+        "url": "https://alist.xrgzs.top/d/pxy/Software/Tools/Backup/ToDesk/ToDesk_$version.exe#/dl.7z",
         "hash": {
-            "url": "$baseurl/ToDesk.exe.sha256"
+            "url": "$url.sha256",
+            "mode": "extract"
         }
     }
 }
