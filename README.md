@@ -62,8 +62,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - wangzq/scoop-bucket
 - everyx/scoop-bucket
 - Qv2ray/mochi
-- TheRandomLabs/Scoop-Bucket
 - kiennq/scoop-misc
+- TheRandomLabs/Scoop-Bucket
 - akirco/aki-apps
 - zhoujin7/tomato
 - wzv5/ScoopBucket
@@ -74,13 +74,13 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - charmbracelet/scoop-bucket
 - amorphobia/siku
 - hu3rror/scoop-muggle
-- NyaMisty/scoopbucketmisty
 - cmontage/scoopbucket-third
+- NyaMisty/scoopbucketmisty
 - ygguorun/scoop-bucket
-- noql-net/scoop
 - abgox/abgobucket
-- kengwang/scoop-ctftools-bucket
 - xrgzs/sdoog
+- noql-net/scoop
+- kengwang/scoop-ctftools-bucket
 - aliesbelik/poldi
 - Velgus/Scoop-Portapps
 - batkiz/backit
@@ -104,6 +104,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - Darkatse/Scoop-Darkatse
 - alextwothousand/scoop-bucket
 - Weidows-projects/scoop-3rd
+- mo-san/scoop-bucket
 - babo4d/scoop-xrtools
 - Darkatse/Scoop-KanColle
 - HUMORCE/nuke
@@ -111,7 +112,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - littleli/Scoop-littleli
 - AkariiinMKII/Scoop4kariiin
 - BenjaminMichaelis/Config
-- mo-san/scoop-bucket
 - WinApps-share/WinApps-bucket
 - beer-psi/scoop-bucket
 - Small-Ku/turbo-bucket
