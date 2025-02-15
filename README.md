@@ -106,6 +106,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - Weidows-projects/scoop-3rd
 - mo-san/scoop-bucket
 - babo4d/scoop-xrtools
+- Small-Ku/turbo-bucket
 - Darkatse/Scoop-KanColle
 - HUMORCE/nuke
 - Toddli468/Pentest-Scoop-Bucket
@@ -114,6 +115,5 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - BenjaminMichaelis/Config
 - WinApps-share/WinApps-bucket
 - beer-psi/scoop-bucket
-- Small-Ku/turbo-bucket
 - yuusakuri/scoop-bucket
 - ChinLong/scoop-customize
