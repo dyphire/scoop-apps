@@ -1,33 +1,38 @@
 {
-    "version": "1.6.0",
-    "description": "Golang Version Manager",
-    "homepage": "https://github.com/voidint/g",
+    "version": "0.29.1",
+    "description": "Powerful and cross-platform ls built for modern terminal",
+    "homepage": "https://github.com/Equationzhao/g",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/voidint/g/releases/download/v1.6.0/g1.6.0.windows-amd64.zip",
-            "hash": "c87b71f9dec70f6b29242b99e7bdddc587a33045d4d4973234f663e241139093"
+            "url": "https://github.com/Equationzhao/g/releases/download/v0.29.1/g-windows-amd64.exe#/g.exe",
+            "hash": "524531cc0bc93c4fe683fd8ed2f014dfff1e3ea3dd67b2cfc9db718f9053b1a7"
         },
         "32bit": {
-            "url": "https://github.com/voidint/g/releases/download/v1.6.0/g1.6.0.windows-386.zip",
-            "hash": "0f26dda3d345c9534f67632a788b1e0c79ec7595e621380c75bfedc367be51d5"
+            "url": "https://github.com/Equationzhao/g/releases/download/v0.29.1/g-windows-386.exe#/g.exe",
+            "hash": "4bf5c8ccbada6e10cc4a3536e806f1769395558bb0cc8cff5541b70c63ac6b3b"
+        },
+        "arm64": {
+            "url": "https://github.com/Equationzhao/g/releases/download/v0.29.1/g-windows-arm64.exe#/g.exe",
+            "hash": "12ebf6f5f3e3a434cfe8c257a4b7338f23369c3f3124c846bac7e1922bd95f46"
         }
     },
     "bin": "g.exe",
-    "env_set": {
-        "G_HOME": "$dir\\g"
-    },
-    "env_add_path": "g\\go\\bin",
-    "persist": "g",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/voidint/g/releases/download/v$version/g$version.windows-amd64.zip"
+                "url": "https://github.com/Equationzhao/g/releases/download/v$version/g-windows-amd64.exe#/g.exe"
             },
             "32bit": {
-                "url": "https://github.com/voidint/g/releases/download/v$version/g$version.windows-386.zip"
+                "url": "https://github.com/Equationzhao/g/releases/download/v$version/g-windows-386.exe#/g.exe"
+            },
+            "arm64": {
+                "url": "https://github.com/Equationzhao/g/releases/download/v$version/g-windows-arm64.exe#/g.exe"
             }
+        },
+        "hash": {
+            "url": "$baseurl/checksum.txt"
         }
     }
 }
