@@ -90,6 +90,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - iquiw/scoop-bucket
 - SayCV/scoop-cvp
 - mogeko/scoop-sysinternals
+- aoisummer/scoop-bucket
 - brian6932/dank-scoop
 - seumsc/scoop-seu
 - jfut/scoop-jfut
@@ -97,7 +98,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - starise/Scoop-Gaming
 - cc713/ownscoop
 - starise/Scoop-Confetti
-- aoisummer/scoop-bucket
 - krproject/qi-windows
 - rivy/scoop-bucket
 - excitoon/scoop-user
