@@ -39,8 +39,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - arch3rPro/PST-Bucket
 - TheCjw/scoop-retools
 - kodybrown/scoop-nirsoft
-- TheRandomLabs/scoop-nonportable
 - hoilc/scoop-lemon
+- TheRandomLabs/scoop-nonportable
 - littleli/scoop-clojure
 - ScoopInstaller/Nirsoft
 - scoopcn/scoopcn
@@ -76,9 +76,9 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - hu3rror/scoop-muggle
 - NyaMisty/scoopbucketmisty
 - cmontage/scoopbucket-third
+- abgox/abgobucket
 - xrgzs/sdoog
 - ygguorun/scoop-bucket
-- abgox/abgobucket
 - noql-net/scoop
 - kengwang/scoop-ctftools-bucket
 - aliesbelik/poldi
