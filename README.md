@@ -95,9 +95,9 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - seumsc/scoop-seu
 - jfut/scoop-jfut
 - TianXiaTech/scoop-txt
+- starise/Scoop-Confetti
 - starise/Scoop-Gaming
 - cc713/ownscoop
-- starise/Scoop-Confetti
 - krproject/qi-windows
 - rivy/scoop-bucket
 - excitoon/scoop-user
