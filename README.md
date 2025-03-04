@@ -32,7 +32,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - chawyehsu/dorado
 - matthewjberger/scoop-nerd-fonts
 - Calinou/scoop-games
-- ivaquero/scoopet
+- Scoopforge/Extras-CN
 - ScoopInstaller/Java
 - ScoopInstaller/Versions
 - borger/scoop-galaxy-integrations
