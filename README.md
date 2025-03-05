@@ -57,8 +57,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - dodorz/scoop
 - whoopscs/scoop-security
 - niheaven/scoop-sysinternals
-- ViCrack/scoop-bucket
 - borger/scoop-emulators
+- ViCrack/scoop-bucket
 - wangzq/scoop-bucket
 - everyx/scoop-bucket
 - Qv2ray/mochi
