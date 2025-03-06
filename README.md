@@ -76,8 +76,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - NyaMisty/scoopbucketmisty
 - amorphobia/siku
 - cmontage/scoopbucket-third
-- abgox/abgobucket
 - xrgzs/sdoog
+- abgox/abgobucket
 - ygguorun/scoop-bucket
 - noql-net/scoop
 - kengwang/scoop-ctftools-bucket
