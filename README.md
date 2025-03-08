@@ -89,12 +89,12 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - AStupidBear/scoop-bear
 - iquiw/scoop-bucket
 - brian6932/dank-scoop
+- TianXiaTech/scoop-txt
 - SayCV/scoop-cvp
 - mogeko/scoop-sysinternals
 - aoisummer/scoop-bucket
 - seumsc/scoop-seu
 - jfut/scoop-jfut
-- TianXiaTech/scoop-txt
 - starise/Scoop-Confetti
 - starise/Scoop-Gaming
 - cc713/ownscoop
