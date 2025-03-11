@@ -307,6 +307,7 @@ catalyst.json    ScoopInstaller/Extras
 qucs-s.json    ScoopInstaller/Extras
 ungit.json    ScoopInstaller/Extras
 kdiff3.json    ScoopInstaller/Extras
+zed-opengl.json    ScoopInstaller/Extras
 centertaskbar.json    ScoopInstaller/Extras
 portable-virtualbox.json    ScoopInstaller/Extras
 asar7z.json    ScoopInstaller/Extras
@@ -1929,6 +1930,7 @@ ani-cli.json    ScoopInstaller/Extras
 i2pdbrowser.json    ScoopInstaller/Extras
 mobalivecd.json    ScoopInstaller/Extras
 xca.json    ScoopInstaller/Extras
+zed.json    ScoopInstaller/Extras
 mypaint.json    ScoopInstaller/Extras
 mozbackup.json    ScoopInstaller/Extras
 mednafen.json    ScoopInstaller/Extras
@@ -3907,6 +3909,7 @@ phantomjs19.json    ScoopInstaller/Versions
 imageglass-moon.json    ScoopInstaller/Versions
 love6.json    ScoopInstaller/Versions
 neochat-nightly.json    ScoopInstaller/Versions
+zed-opengl-nightly.json    ScoopInstaller/Versions
 spotify-qt-nightly.json    ScoopInstaller/Versions
 firefox-beta.json    ScoopInstaller/Versions
 mingw-winlibs-ucrt-mcf.json    ScoopInstaller/Versions
@@ -4151,6 +4154,7 @@ graphicsmagick-q16.json    ScoopInstaller/Versions
 terraform011.json    ScoopInstaller/Versions
 flow031.json    ScoopInstaller/Versions
 composer1.json    ScoopInstaller/Versions
+php84.json    ScoopInstaller/Versions
 explorerplusplus-dev.json    ScoopInstaller/Versions
 postgresql14.json    ScoopInstaller/Versions
 glslang-nightly.json    ScoopInstaller/Versions
@@ -4168,6 +4172,7 @@ postgresql12.json    ScoopInstaller/Versions
 mongodb36.json    ScoopInstaller/Versions
 lite-xl-addons.json    ScoopInstaller/Versions
 arduino-ide-rc.json    ScoopInstaller/Versions
+postgresql16.json    ScoopInstaller/Versions
 dotnet6-sdk.json    ScoopInstaller/Versions
 v-weekly.json    ScoopInstaller/Versions
 hyper-beta.json    ScoopInstaller/Versions
@@ -4188,6 +4193,7 @@ love8.json    ScoopInstaller/Versions
 beef-nightly.json    ScoopInstaller/Versions
 marknote-nightly.json    ScoopInstaller/Versions
 php82.json    ScoopInstaller/Versions
+zotero6.json    ScoopInstaller/Versions
 teamcity-eap.json    ScoopInstaller/Versions
 r43.json    ScoopInstaller/Versions
 php74-xdebug.json    ScoopInstaller/Versions
@@ -4236,12 +4242,12 @@ gcc-msys.json    ScoopInstaller/Versions
 mysql57.json    ScoopInstaller/Versions
 rtools42.json    ScoopInstaller/Versions
 scala2.json    ScoopInstaller/Versions
-whatsapp-beta.json    ScoopInstaller/Versions
 cuda8.0.json    ScoopInstaller/Versions
 dbeaver-ea.json    ScoopInstaller/Versions
 ffmpeg-shared-nightly.json    ScoopInstaller/Versions
 idea-ultimate-rc.json    ScoopInstaller/Versions
 de4dot-netcoreapp3.1.json    ScoopInstaller/Versions
+qbittorrent-nightly.json    ScoopInstaller/Versions
 python312.json    ScoopInstaller/Versions
 xournalpp-nightly.json    ScoopInstaller/Versions
 systeminformer-nightly.json    ScoopInstaller/Versions
@@ -4268,6 +4274,7 @@ keepassxc2.6.6.json    ScoopInstaller/Versions
 freac-continuous.json    ScoopInstaller/Versions
 clion-eap.json    ScoopInstaller/Versions
 swift-nightly_ScoopInstaller.json    ScoopInstaller/Versions
+idea-ultimate-latest.json    ScoopInstaller/Versions
 kicad-lite-nightly.json    ScoopInstaller/Versions
 nodejs5.json    ScoopInstaller/Versions
 tomcat9.json    ScoopInstaller/Versions
@@ -4276,6 +4283,7 @@ chromium-dev.json    ScoopInstaller/Versions
 tesseract3.json    ScoopInstaller/Versions
 emule-cv.json    ScoopInstaller/Versions
 chromium-dev-nosync.json    ScoopInstaller/Versions
+whatsapp-beta.json    ScoopInstaller/Versions
 galaxy-paradox.json    borger/scoop-galaxy-integrations
 galaxy-battlenet.json    borger/scoop-galaxy-integrations
 galaxy-gw2.json    borger/scoop-galaxy-integrations
@@ -9687,6 +9695,7 @@ shellcheck.json    akirco/aki-apps
 bcut.json    akirco/aki-apps
 qqmusic_akirco.json    akirco/aki-apps
 instaloader.json    akirco/aki-apps
+ima-copilot.json    akirco/aki-apps
 mdcat_akirco.json    akirco/aki-apps
 electerm_akirco.json    akirco/aki-apps
 yt-dlp.json    akirco/aki-apps
@@ -9729,6 +9738,7 @@ googlechrome_akirco.json    akirco/aki-apps
 topgrade.json    akirco/aki-apps
 tup.json    akirco/aki-apps
 unzip.json    akirco/aki-apps
+doubao_akirco.json    akirco/aki-apps
 directory-predictor.json    akirco/aki-apps
 registry-finder_akirco.json    akirco/aki-apps
 officetoolplus_akirco.json    akirco/aki-apps
@@ -10188,6 +10198,7 @@ flclash-portable.json    DoveBoy/Apps
 backup-start-menu-layout_DoveBoy.json    DoveBoy/Apps
 rubick_DoveBoy.json    DoveBoy/Apps
 scrcpy_DoveBoy.json    DoveBoy/Apps
+crystaldiskinfo-aoi-edition_DoveBoy.json    DoveBoy/Apps
 everything-lite_DoveBoy.json    DoveBoy/Apps
 ofgb-with-runtime.json    DoveBoy/Apps
 droppoint-portable_DoveBoy.json    DoveBoy/Apps
@@ -25054,7 +25065,7 @@ zebar_cmontage.json    cmontage/scoopbucket-third
 zecwallet-cli.json    cmontage/scoopbucket-third
 zecwallet-lite.json    cmontage/scoopbucket-third
 zed-nightly_cmontage.json    cmontage/scoopbucket-third
-zed.json    cmontage/scoopbucket-third
+zed_cmontage.json    cmontage/scoopbucket-third
 zeebe-modeler_cmontage.json    cmontage/scoopbucket-third
 zeebe1.3_cmontage.json    cmontage/scoopbucket-third
 zelda-oot-soh.json    cmontage/scoopbucket-third
@@ -25833,7 +25844,6 @@ gotop_aliesbelik.json    aliesbelik/poldi
 termscp_aliesbelik.json    aliesbelik/poldi
 tailspin.json    aliesbelik/poldi
 yamlfmt.json    aliesbelik/poldi
-wait4x_aliesbelik.json    aliesbelik/poldi
 eget_aliesbelik.json    aliesbelik/poldi
 bandwhich.json    aliesbelik/poldi
 ov.json    aliesbelik/poldi
