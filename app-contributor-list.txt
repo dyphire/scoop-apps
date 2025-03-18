@@ -2675,7 +2675,6 @@ SarasaGothic-J.json    matthewjberger/scoop-nerd-fonts
 CodeNewRoman-NF-Propo.json    matthewjberger/scoop-nerd-fonts
 Lilex-NF-Propo.json    matthewjberger/scoop-nerd-fonts
 Lekton-NF.json    matthewjberger/scoop-nerd-fonts
-Maple-Mono-SC-NF.json    matthewjberger/scoop-nerd-fonts
 andika-compact.json    matthewjberger/scoop-nerd-fonts
 SarasaGothic-TC.json    matthewjberger/scoop-nerd-fonts
 Mali.json    matthewjberger/scoop-nerd-fonts
@@ -2702,6 +2701,7 @@ Go-Mono-NF.json    matthewjberger/scoop-nerd-fonts
 UbuntuMono-NF-Propo.json    matthewjberger/scoop-nerd-fonts
 Anuphan.json    matthewjberger/scoop-nerd-fonts
 smiley-sans-dev.json    matthewjberger/scoop-nerd-fonts
+Maple-Mono-NF-CN.json    matthewjberger/scoop-nerd-fonts
 Prompt.json    matthewjberger/scoop-nerd-fonts
 EnvyCodeR-NF-Propo.json    matthewjberger/scoop-nerd-fonts
 HeavyData-NF-Mono.json    matthewjberger/scoop-nerd-fonts
@@ -3015,6 +3015,7 @@ Open-Sans.json    matthewjberger/scoop-nerd-fonts
 Wenquanyi-Microhei.json    matthewjberger/scoop-nerd-fonts
 Klee-One.json    matthewjberger/scoop-nerd-fonts
 OpenDyslexic-NF-Propo.json    matthewjberger/scoop-nerd-fonts
+Maple-Mono-SC-NF.json    matthewjberger/scoop-nerd-fonts
 BoldItalic-NF-Mono.json    matthewjberger/scoop-nerd-fonts
 Italic-NF.json    matthewjberger/scoop-nerd-fonts
 Regular-NF.json    matthewjberger/scoop-nerd-fonts
@@ -4910,7 +4911,7 @@ fenrirfs.json    hoilc/scoop-lemon
 verycapture_hoilc.json    hoilc/scoop-lemon
 cortextool.json    hoilc/scoop-lemon
 helio.json    hoilc/scoop-lemon
-maple-mono-nf-cn.json    hoilc/scoop-lemon
+maple-mono-nf-cn_hoilc.json    hoilc/scoop-lemon
 riemann.json    hoilc/scoop-lemon
 imagesearch.json    hoilc/scoop-lemon
 pixi_hoilc.json    hoilc/scoop-lemon
@@ -9596,19 +9597,6 @@ golang.json    kiennq/scoop-misc
 emax64.json    kiennq/scoop-misc
 sourcedepot.json    kiennq/scoop-misc
 gsudo-x.json    kiennq/scoop-misc
-ffmpeg-for-audacity.json    TheRandomLabs/Scoop-Bucket
-shellexview_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
-win10-initial-setup-script.json    TheRandomLabs/Scoop-Bucket
-musescore-nightly-with-file-associations.json    TheRandomLabs/Scoop-Bucket
-windows-sdk-signing-tools.json    TheRandomLabs/Scoop-Bucket
-raylib_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
-rfxgen.json    TheRandomLabs/Scoop-Bucket
-corsair-icue.json    TheRandomLabs/Scoop-Bucket
-custom-resolution-utility_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
-neovim-dev.json    TheRandomLabs/Scoop-Bucket
-luyten_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
-visualvm_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
-aomei-partition-assistant-standard.json    TheRandomLabs/Scoop-Bucket
 x265.json    akirco/aki-apps
 php.json    akirco/aki-apps
 flutter_akirco.json    akirco/aki-apps
@@ -9792,6 +9780,7 @@ typora_akirco.json    akirco/aki-apps
 alipan.json    akirco/aki-apps
 notion_akirco.json    akirco/aki-apps
 fleet.json    akirco/aki-apps
+crow-translate_akirco.json    akirco/aki-apps
 figma_akirco.json    akirco/aki-apps
 restic.json    akirco/aki-apps
 nali.json    akirco/aki-apps
@@ -9908,6 +9897,19 @@ uwd.json    akirco/aki-apps
 imewlconverter_akirco.json    akirco/aki-apps
 FixWin10.json    akirco/aki-apps
 clash-for-windows_akirco.json    akirco/aki-apps
+ffmpeg-for-audacity.json    TheRandomLabs/Scoop-Bucket
+shellexview_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
+win10-initial-setup-script.json    TheRandomLabs/Scoop-Bucket
+musescore-nightly-with-file-associations.json    TheRandomLabs/Scoop-Bucket
+windows-sdk-signing-tools.json    TheRandomLabs/Scoop-Bucket
+raylib_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
+rfxgen.json    TheRandomLabs/Scoop-Bucket
+corsair-icue.json    TheRandomLabs/Scoop-Bucket
+custom-resolution-utility_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
+neovim-dev.json    TheRandomLabs/Scoop-Bucket
+luyten_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
+visualvm_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
+aomei-partition-assistant-standard.json    TheRandomLabs/Scoop-Bucket
 UltraCodingSwitch.json    zhoujin7/tomato
 AdiIRC_zhoujin7.json    zhoujin7/tomato
 HBuilderX-Full.json    zhoujin7/tomato
@@ -13741,9 +13743,9 @@ XSearch_cmontage.json    cmontage/scoopbucket-third
 XStudio.json    cmontage/scoopbucket-third
 XToolBox-Portable_cmontage.json    cmontage/scoopbucket-third
 XVI32_cmontage.json    cmontage/scoopbucket-third
-XYplorer_cmontage.json    cmontage/scoopbucket-third
 XYplorerFree.json    cmontage/scoopbucket-third
 XYplorer_Weidows-projects.json    cmontage/scoopbucket-third
+XYplorer_abgox.json    cmontage/scoopbucket-third
 Xftp_kkzzhizhou.json    cmontage/scoopbucket-third
 Xidel_dodorz.json    cmontage/scoopbucket-third
 XiebroC2_cmontage.json    cmontage/scoopbucket-third
@@ -13801,6 +13803,7 @@ Zoom-Portable_cmontage.json    cmontage/scoopbucket-third
 Zoom-Portable_ACooper81.json    cmontage/scoopbucket-third
 Zotero-Install_cmontage.json    cmontage/scoopbucket-third
 Zotero_abgox.json    cmontage/scoopbucket-third
+aDrive_ygguorun.json    cmontage/scoopbucket-third
 aTunes_cmontage.json    cmontage/scoopbucket-third
 aacDECdrop_cmontage.json    cmontage/scoopbucket-third
 aapt2_cmontage.json    cmontage/scoopbucket-third
@@ -13951,7 +13954,6 @@ adrive_cmontage.json    cmontage/scoopbucket-third
 adrive_HCLonely.json    cmontage/scoopbucket-third
 adrive_Scoopforge.json    cmontage/scoopbucket-third
 adrive_amorphobia.json    cmontage/scoopbucket-third
-adrive_echoiron.json    cmontage/scoopbucket-third
 adspower.json    cmontage/scoopbucket-third
 advanced-combat-tracker_cmontage.json    cmontage/scoopbucket-third
 advanced-ip-scanner_cmontage.json    cmontage/scoopbucket-third
@@ -14537,6 +14539,7 @@ bili-cli-rs_cmontage.json    cmontage/scoopbucket-third
 bili.copilot.json    cmontage/scoopbucket-third
 biliTickerBuy.json    cmontage/scoopbucket-third
 bilibili-backup_cmontage.json    cmontage/scoopbucket-third
+bilibili-backup_DoveBoy.json    cmontage/scoopbucket-third
 bilibili-desktop.json    cmontage/scoopbucket-third
 bilibili-livehime_cmontage.json    cmontage/scoopbucket-third
 bilibili-manga-downloader_cmontage.json    cmontage/scoopbucket-third
@@ -14933,7 +14936,6 @@ changie.json    cmontage/scoopbucket-third
 chaptereditor.json    cmontage/scoopbucket-third
 chapters-for-mpv.json    cmontage/scoopbucket-third
 charles_cmontage.json    cmontage/scoopbucket-third
-charles_akirco.json    cmontage/scoopbucket-third
 charm-gum_FlawlessCasual17.json    cmontage/scoopbucket-third
 charm-gum_charmbracelet.json    cmontage/scoopbucket-third
 charm_cmontage.json    cmontage/scoopbucket-third
@@ -14971,6 +14973,7 @@ checksum-compare_cmontage.json    cmontage/scoopbucket-third
 chef-workstation_cmontage.json    cmontage/scoopbucket-third
 chefdk_cmontage.json    cmontage/scoopbucket-third
 cherry-studio-np.json    cmontage/scoopbucket-third
+cherry-studio-pre_cmontage.json    cmontage/scoopbucket-third
 cherry-studio_cmontage.json    cmontage/scoopbucket-third
 cherry-studio_ShuguangSun.json    cmontage/scoopbucket-third
 cherry-studio_TianXiaTech.json    cmontage/scoopbucket-third
@@ -15425,6 +15428,7 @@ crispy-doom_cmontage.json    cmontage/scoopbucket-third
 crmdmt_cmontage.json    cmontage/scoopbucket-third
 cro-mag-rally_cmontage.json    cmontage/scoopbucket-third
 croc_DoveBoy.json    cmontage/scoopbucket-third
+cromite_cmontage.json    cmontage/scoopbucket-third
 cronical_cmontage.json    cmontage/scoopbucket-third
 crow-translate_cmontage.json    cmontage/scoopbucket-third
 cru_cmontage.json    cmontage/scoopbucket-third
@@ -16240,7 +16244,7 @@ emeditor-fixed.json    cmontage/scoopbucket-third
 emeditor-random-keygen_cmontage.json    cmontage/scoopbucket-third
 emeditor_cmontage.json    cmontage/scoopbucket-third
 emeditor_ScoopInstaller.json    cmontage/scoopbucket-third
-emeditor_echoiron.json    cmontage/scoopbucket-third
+emeditor_ViCrack.json    cmontage/scoopbucket-third
 emeditor_jfut.json    cmontage/scoopbucket-third
 emet_cmontage.json    cmontage/scoopbucket-third
 empty-recycle-bin_cmontage.json    cmontage/scoopbucket-third
@@ -16357,7 +16361,7 @@ everything-toolbar-np.json    cmontage/scoopbucket-third
 everything-toolbar-scripts.json    cmontage/scoopbucket-third
 everything-toolbar_cmontage.json    cmontage/scoopbucket-third
 everything-toolbar_FlawlessCasual17.json    cmontage/scoopbucket-third
-everything-toolbar_WinApps-share.json    cmontage/scoopbucket-third
+everything-toolbar_naderi.json    cmontage/scoopbucket-third
 everything_cmontage.json    cmontage/scoopbucket-third
 everything_DoveBoy.json    cmontage/scoopbucket-third
 everything_WinApps-share.json    cmontage/scoopbucket-third
@@ -18152,7 +18156,7 @@ jointbilateral.json    cmontage/scoopbucket-third
 joker_cmontage.json    cmontage/scoopbucket-third
 jookdb.json    cmontage/scoopbucket-third
 joplin-pre_cmontage.json    cmontage/scoopbucket-third
-joplin-pre_ScoopInstaller.json    cmontage/scoopbucket-third
+joplin-pre_DoveBoy.json    cmontage/scoopbucket-third
 joplin_cmontage.json    cmontage/scoopbucket-third
 joplin_DoveBoy.json    cmontage/scoopbucket-third
 josm-generic.json    cmontage/scoopbucket-third
@@ -19052,7 +19056,6 @@ memo_akirco.json    cmontage/scoopbucket-third
 memory-checker.json    cmontage/scoopbucket-third
 memreduct_cmontage.json    cmontage/scoopbucket-third
 memreduct_DoveBoy.json    cmontage/scoopbucket-third
-memreduct_akirco.json    cmontage/scoopbucket-third
 memshellparty_cmontage.json    cmontage/scoopbucket-third
 memtest.json    cmontage/scoopbucket-third
 mendeley_cmontage.json    cmontage/scoopbucket-third
@@ -19091,7 +19094,6 @@ mgtv_TianXiaTech.json    cmontage/scoopbucket-third
 mh-audio-converter.json    cmontage/scoopbucket-third
 mh-lyrics-finder.json    cmontage/scoopbucket-third
 mhc2-dev.json    cmontage/scoopbucket-third
-mi-assistant.json    cmontage/scoopbucket-third
 micaforeveryone-dev_cmontage.json    cmontage/scoopbucket-third
 micaforeveryone_cmontage.json    cmontage/scoopbucket-third
 micmute_cmontage.json    cmontage/scoopbucket-third
@@ -19681,7 +19683,7 @@ neverball_cmontage.json    cmontage/scoopbucket-third
 newLISP_cmontage.json    cmontage/scoopbucket-third
 newer-tanooki_cmontage.json    cmontage/scoopbucket-third
 newfiletime_cmontage.json    cmontage/scoopbucket-third
-newfiletime_echoiron.json    cmontage/scoopbucket-third
+newfiletime_ViCrack.json    cmontage/scoopbucket-third
 newrain-duplicate-photo-finder_cmontage.json    cmontage/scoopbucket-third
 nextcloud-uploader_cmontage.json    cmontage/scoopbucket-third
 nextcloud_cmontage.json    cmontage/scoopbucket-third
@@ -19963,7 +19965,7 @@ ofd2pdf_cmontage.json    cmontage/scoopbucket-third
 office-365-apps-minimal-np_cmontage.json    cmontage/scoopbucket-third
 office-365-apps-minimal-np_ScoopInstaller.json    cmontage/scoopbucket-third
 office-365-apps-np_cmontage.json    cmontage/scoopbucket-third
-office-365-apps-np_TheRandomLabs.json    cmontage/scoopbucket-third
+office-365-apps-np_ScoopInstaller.json    cmontage/scoopbucket-third
 office-image-extraction-wizard.json    cmontage/scoopbucket-third
 office-key-fix.json    cmontage/scoopbucket-third
 office-tool-plus_cmontage.json    cmontage/scoopbucket-third
@@ -20028,7 +20030,6 @@ ojdkbuild9_cmontage.json    cmontage/scoopbucket-third
 okPlayer_cmontage.json    cmontage/scoopbucket-third
 okular-nightly_cmontage.json    cmontage/scoopbucket-third
 okular_cmontage.json    cmontage/scoopbucket-third
-okular_akirco.json    cmontage/scoopbucket-third
 okular_rivy.json    cmontage/scoopbucket-third
 oleviewdotnet_cmontage.json    cmontage/scoopbucket-third
 olive-editor-nightly_cmontage.json    cmontage/scoopbucket-third
@@ -20897,7 +20898,6 @@ php73_cmontage.json    cmontage/scoopbucket-third
 php74-nts.json    cmontage/scoopbucket-third
 php74-xdebug_cmontage.json    cmontage/scoopbucket-third
 php74_cmontage.json    cmontage/scoopbucket-third
-php74_akirco.json    cmontage/scoopbucket-third
 php74_fixed.json    cmontage/scoopbucket-third
 php8.0-nts.json    cmontage/scoopbucket-third
 php8.0.json    cmontage/scoopbucket-third
@@ -21701,6 +21701,7 @@ react-native-debugger_cmontage.json    cmontage/scoopbucket-third
 reader_cmontage.json    cmontage/scoopbucket-third
 reader_DoveBoy.json    cmontage/scoopbucket-third
 readest_cmontage.json    cmontage/scoopbucket-third
+readest_DoveBoy.json    cmontage/scoopbucket-third
 real-esrgan_cmontage.json    cmontage/scoopbucket-third
 real_cmontage.json    cmontage/scoopbucket-third
 realesrgan-gui_cmontage.json    cmontage/scoopbucket-third
@@ -22106,9 +22107,9 @@ sandboxie-classic_cmontage.json    cmontage/scoopbucket-third
 sandboxie-plus-np_cmontage.json    cmontage/scoopbucket-third
 sandboxie-plus-np_DoveBoy.json    cmontage/scoopbucket-third
 sandboxie-plus_cmontage.json    cmontage/scoopbucket-third
+sandboxie-plus_DoveBoy.json    cmontage/scoopbucket-third
 sandboxie-plus_HUMORCE.json    cmontage/scoopbucket-third
 sandboxie-plus_chawyehsu.json    cmontage/scoopbucket-third
-sandboxie-plus_echoiron.json    cmontage/scoopbucket-third
 sandman_cmontage.json    cmontage/scoopbucket-third
 sapling_rivy.json    cmontage/scoopbucket-third
 sapmachine-jdk_cmontage.json    cmontage/scoopbucket-third
@@ -22745,6 +22746,7 @@ sq.json    cmontage/scoopbucket-third
 sql-server-management-studio-np_cmontage.json    cmontage/scoopbucket-third
 sql-workbench-dev_cmontage.json    cmontage/scoopbucket-third
 sql-workbench_cmontage.json    cmontage/scoopbucket-third
+sqlc.json    cmontage/scoopbucket-third
 sqlce_40_runtime_cmontage.json    cmontage/scoopbucket-third
 sqlformatter_cmontage.json    cmontage/scoopbucket-third
 sqlite-gui_cmontage.json    cmontage/scoopbucket-third
@@ -23795,7 +23797,7 @@ v2rayn-core_seumsc.json    cmontage/scoopbucket-third
 v2rayn-pre_cmontage.json    cmontage/scoopbucket-third
 v2rayn-pro.json    cmontage/scoopbucket-third
 v2rayn_cmontage.json    cmontage/scoopbucket-third
-v2rayn_DoveBoy.json    cmontage/scoopbucket-third
+v2rayn_ScoopInstaller.json    cmontage/scoopbucket-third
 v2rayn_echoiron.json    cmontage/scoopbucket-third
 v2rayn_noql-net.json    cmontage/scoopbucket-third
 v@0.3.2.json    cmontage/scoopbucket-third
@@ -24851,8 +24853,8 @@ xxd-rs.json    cmontage/scoopbucket-third
 xxd.json    cmontage/scoopbucket-third
 xxmi_cmontage.json    cmontage/scoopbucket-third
 xy-vsfilter.json    cmontage/scoopbucket-third
+xyplorer_cmontage.json    cmontage/scoopbucket-third
 xyplorer_ScoopInstaller.json    cmontage/scoopbucket-third
-xyplorer_echoiron.json    cmontage/scoopbucket-third
 xyplorerpro.json    cmontage/scoopbucket-third
 xysubfilter-libass-np_cmontage.json    cmontage/scoopbucket-third
 xysubfilter-np_cmontage.json    cmontage/scoopbucket-third
@@ -24919,7 +24921,7 @@ you-get_aoisummer.json    cmontage/scoopbucket-third
 youdaodict_cmontage.json    cmontage/scoopbucket-third
 youku-cvp.json    cmontage/scoopbucket-third
 youku_cmontage.json    cmontage/scoopbucket-third
-youku_TianXiaTech.json    cmontage/scoopbucket-third
+youku_DoveBoy.json    cmontage/scoopbucket-third
 yourav.json    cmontage/scoopbucket-third
 youtrack_cmontage.json    cmontage/scoopbucket-third
 youtube-dl-gui_cmontage.json    cmontage/scoopbucket-third
@@ -25929,7 +25931,7 @@ werf_aliesbelik.json    aliesbelik/poldi
 phraze_aliesbelik.json    aliesbelik/poldi
 ego_aliesbelik.json    aliesbelik/poldi
 lazysql_aliesbelik.json    aliesbelik/poldi
-sqlc.json    aliesbelik/poldi
+sqlc_aliesbelik.json    aliesbelik/poldi
 diffnav_aliesbelik.json    aliesbelik/poldi
 vscli_aliesbelik.json    aliesbelik/poldi
 schemacheck_aliesbelik.json    aliesbelik/poldi
