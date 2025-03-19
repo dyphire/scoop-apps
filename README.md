@@ -59,10 +59,10 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - niheaven/scoop-sysinternals
 - borger/scoop-emulators
 - ViCrack/scoop-bucket
-- wangzq/scoop-bucket
 - Qv2ray/mochi
 - everyx/scoop-bucket
 - kiennq/scoop-misc
+- wangzq/scoop-bucket
 - akirco/aki-apps
 - TheRandomLabs/Scoop-Bucket
 - zhoujin7/tomato
