@@ -117,3 +117,4 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - WinApps-share/WinApps-bucket
 - beer-psi/scoop-bucket
 - yuusakuri/scoop-bucket
+- ChinLong/scoop-customize
