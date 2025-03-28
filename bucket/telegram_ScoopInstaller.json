@@ -1,0 +1,39 @@
+{
+  "version": "5.13.0",
+  "description": "A messaging app with a focus on speed and security",
+  "homepage": "https://telegram.org",
+  "license": "GPL-3.0-only",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v5.13.0/tportable-x64.5.13.0.zip",
+      "hash": "059bda9018547b996c79afa30e548c64d6286096042c0d51fef1656b9505ef83"
+    },
+    "32bit": {
+      "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v5.13.0/tportable.5.13.0.zip",
+      "hash": "cc60eac1fed16df6906d104895208f90665b1e724f60432a4b59958eff6f139a"
+    }
+  },
+  "extract_dir": "Telegram",
+  "pre_install": "Set-Content \"$dir\\telegram.cmd\" '@start \"Telegram\" /D \"%~dp0\" \"%~dp0Telegram.exe\" %*' -Encoding Ascii",
+  "bin": "telegram.cmd",
+  "shortcuts": [
+    [
+      "Telegram.exe",
+      "Telegram"
+    ]
+  ],
+  "persist": "tdata",
+  "checkver": {
+    "github": "https://github.com/telegramdesktop/tdesktop"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v$version/tportable-x64.$version.zip"
+      },
+      "32bit": {
+        "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v$version/tportable.$version.zip"
+      }
+    }
+  }
+}
