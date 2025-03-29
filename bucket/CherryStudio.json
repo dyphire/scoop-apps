@@ -1,15 +1,15 @@
 {
-    "version": "1.1.10",
+    "version": "1.1.16",
     "description": "֧A multi-LLM desktop client",
     "homepage": "https://cherry-ai.com/",
     "license": {
         "url": "https://github.com/CherryHQ/cherry-studio?tab=License-1-ov-file"
     },
-    "url": "https://github.com/CherryHQ/cherry-studio/releases/download/v1.1.10/Cherry-Studio-1.1.10-portable.exe",
+    "url": "https://github.com/CherryHQ/cherry-studio/releases/download/v1.1.16/Cherry-Studio-1.1.16-portable.exe",
     "installer": {
         "script": "Get-ChildItem \"$dir\\Cherry-Studio-*.exe\" | Rename-Item -NewName 'Cherry-Studio-portable.exe'"
     },
-    "hash": "4051949316170cb605cbdea886d1fbb447fd35e6b4002c1ef4de223784c7b5a7",
+    "hash": "5f52ee9341794ff551c5b142abf179907f00f7027007770af990fdcdd76d0a04",
     "bin": "Cherry-Studio-portable.exe",
     "shortcuts": [
         [
