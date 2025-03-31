@@ -92,10 +92,10 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - TianXiaTech/scoop-txt
 - SayCV/scoop-cvp
 - mogeko/scoop-sysinternals
+- starise/Scoop-Confetti
 - aoisummer/scoop-bucket
 - seumsc/scoop-seu
 - jfut/scoop-jfut
-- starise/Scoop-Confetti
 - starise/Scoop-Gaming
 - cc713/ownscoop
 - krproject/qi-windows
