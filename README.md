@@ -72,10 +72,10 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - charmbracelet/scoop-bucket
 - jonz94/scoop-sarasa-nerd-fonts
 - naderi/scoop-bucket
+- cmontage/scoopbucket-third
 - amorphobia/siku
 - hu3rror/scoop-muggle
 - NyaMisty/scoopbucketmisty
-- cmontage/scoopbucket-third
 - xrgzs/sdoog
 - abgox/abgobucket
 - ygguorun/scoop-bucket

@@ -3,7 +3,10 @@
     "description": "A modern, lightweight text editor with a minimalist design.",
     "homepage": "https://www.notepadsapp.com/",
     "license": "MIT",
-    "depends": "gsudo",
+    "depends": [
+        "main/gsudo",
+        "Scoop4kariiin/Scoop4kariiinUtils"
+    ],
     "url": "https://github.com/0x7c13/Notepads/releases/download/v1.5.6.0/Notepads_1.5.6.0_x86_x64_arm64.msixbundle#/Notepads.msixbundle",
     "hash": "64e48c47ee39aa63616946e4d9f3d287d96b4650fc119eb8cbc73a1d58b36540",
     "installer": {
@@ -19,18 +22,35 @@
         "    Start-Sleep -Milliseconds 250",
         "    $package_name = (Get-AppxPackage -Name '*JackieLiu*Notepads*').PackageFamilyName",
         "}",
-        "$notepads_settings = \"$env:LOCALAPPDATA\\Packages\\$package_name\\Settings\\settings.dat\"",
-        "while (-not (Test-Path $notepads_settings)) { Start-Sleep -Milliseconds 250 }",
-        "Copy-Item -Path \"$persist_dir\\Settings\" -Destination \"$env:LOCALAPPDATA\\Packages\\$package_name\" -Force -Recurse"
+        "$package_dir = \"$env:LOCALAPPDATA\\Packages\\$package_name\"",
+        "while (-not (Test-Path \"$package_dir\\Settings\\settings.dat\")) { Start-Sleep -Milliseconds 250 }",
+        "Import-Module -Name Scoop4kariiinUtils -ErrorAction Stop",
+        "Mount-ExternalRuntimeData -Source \"$persist_dir\\Settings\" -Target \"$package_dir\\Settings\"",
+        "Mount-ExternalRuntimeData -Source \"$persist_dir\\LocalState\" -Target \"$package_dir\\LocalState\"",
+        "Remove-Module -Name Scoop4kariiinUtils -ErrorAction SilentlyContinue"
     ],
-    "persist": "Settings",
     "uninstaller": {
         "script": [
-            "Stop-Process -Name Notepads -ErrorAction Ignore",
-            "Start-Sleep -Milliseconds 250",
+            "$ProgressPreference = \"SilentlyContinue\"",
+            "if (Get-Process -Name Notepads -ErrorAction SilentlyContinue) {",
+            "    Write-Host \"`nNotepads is running, would you like to continue?\" -ForegroundColor Yellow",
+            "    $answer = Read-Host -Prompt \"Enter 'y' to continue, any other key to cancel\"",
+            "    if ('y' -eq $answer) {",
+            "        Write-Host \"Stopping process ...\" -ForegroundColor Yellow",
+            "        Stop-Process -Name Notepads -ErrorAction Stop",
+            "        Start-Sleep -Milliseconds 250",
+            "    } else {",
+            "        Write-Host \"Uninstallation cancelled.\" -ForegroundColor Red",
+            "        break",
+            "    }",
+            "}",
             "$package = Get-AppxPackage -Name '*JackieLiu*Notepads*'",
-            "Remove-Item -Path \"$persist_dir\\Settings\" -Force -Recurse -ErrorAction Ignore",
-            "Copy-Item -Path \"$env:LOCALAPPDATA\\Packages\\$($package.PackageFamilyName)\\Settings\" -Destination \"$persist_dir\" -Force -Recurse",
+            "$package_dir = \"$env:LOCALAPPDATA\\Packages\\$($package.PackageFamilyName)\"",
+            "Import-Module -Name Scoop4kariiinUtils -ErrorAction Stop",
+            "Dismount-ExternalRuntimeData -Target \"$package_dir\\Settings\"",
+            "Dismount-ExternalRuntimeData -Target \"$package_dir\\LocalState\"",
+            "Remove-Module -Name Scoop4kariiinUtils -ErrorAction SilentlyContinue",
+            "Get-ChildItem -Path \"$persist_dir\\LocalState\" -Filter \"_WinStoreSDK_Receipt_Cache\" | Remove-Item -Force -Recurse -ErrorAction SilentlyContinue",
             "Remove-AppxPackage $package"
         ]
     },
