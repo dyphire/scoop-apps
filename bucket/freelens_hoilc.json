@@ -1,0 +1,34 @@
+{
+    "version": "1.2.0",
+    "description": "A free and open-source user interface designed for managing Kubernetes clusters.",
+    "homepage": "https://freelens.app/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/freelensapp/freelens/releases/download/v1.2.0/Freelens-1.2.0-windows-amd64.exe#/dl.7z",
+            "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+            "hash": "cc7d3170a09ae8a3e314bbd3a58855555190361c7ca9ff8a1d24a12f70718f4e"
+        }
+    },
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R0\", \"$dir\\resources\\app-update.yml\" -Force -Recurse",
+    "shortcuts": [
+        [
+            "Freelens.exe",
+            "Freelens"
+        ]
+    ],
+    "notes": "Freelens is NOT portable.",
+    "checkver": {
+        "github": "https://github.com/freelensapp/freelens"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/freelensapp/freelens/releases/download/v$version/Freelens-$version-windows-amd64.exe#/dl.7z"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
