@@ -96,12 +96,12 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - aoisummer/scoop-bucket
 - seumsc/scoop-seu
 - jfut/scoop-jfut
+- Darkatse/Scoop-Darkatse
 - starise/Scoop-Gaming
 - cc713/ownscoop
 - krproject/qi-windows
 - rivy/scoop-bucket
 - excitoon/scoop-user
-- Darkatse/Scoop-Darkatse
 - alextwothousand/scoop-bucket
 - Weidows-projects/scoop-3rd
 - mo-san/scoop-bucket
