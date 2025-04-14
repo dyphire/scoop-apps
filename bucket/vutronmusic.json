@@ -1,5 +1,5 @@
 {
-    "version": "1.6.0",
+    "version": "1.7.0",
     "description": "高颜值的第三方网易云播放器；支持流媒体音乐，如navidrome、emby；支持本地音乐播放、离线歌单、桌面歌词、Touch Bar歌词、Mac状态栏歌词显示、Linux-gnome桌面状态栏歌词显示。支持 Windows / macOS / Linux :electron:",
     "homepage": "https://github.com/stark81/VutronMusic",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/stark81/VutronMusic/releases/download/v1.6.0/VutronMusic.1.6.0_x64.exe#/dl.7z",
-            "hash": "sha512:152c4c01da354fd4696f06c5f74760c4e95c1fe8f17b046d22f9a0bc1748ece39acf102ca8c62dbb9939ef52fcd7cc6c823d2945613083e845058d78ca23b51c",
+            "url": "https://github.com/stark81/VutronMusic/releases/download/v1.7.0/VutronMusic.1.7.0_x64.exe#/dl.7z",
+            "hash": "sha512:1f553f586a2790860652a1a5ddfac452e025eb49d2106f308a97afacc9c2dde4916b87530623c5e5a174fffa068b4222289edbdb068b47572d165b47c221c6c7",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\" -Force -Recurse"
