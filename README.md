@@ -35,8 +35,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - Scoopforge/Extras-CN
 - ScoopInstaller/Java
 - ScoopInstaller/Versions
-- borger/scoop-galaxy-integrations
 - arch3rPro/PST-Bucket
+- borger/scoop-galaxy-integrations
 - TheCjw/scoop-retools
 - hoilc/scoop-lemon
 - kodybrown/scoop-nirsoft
@@ -104,11 +104,11 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - excitoon/scoop-user
 - alextwothousand/scoop-bucket
 - Weidows-projects/scoop-3rd
+- HUMORCE/nuke
 - mo-san/scoop-bucket
 - babo4d/scoop-xrtools
 - Small-Ku/turbo-bucket
 - Darkatse/Scoop-KanColle
-- HUMORCE/nuke
 - Toddli468/Pentest-Scoop-Bucket
 - MCOfficer/scoop-bucket
 - littleli/Scoop-littleli
