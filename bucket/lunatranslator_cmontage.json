@@ -1,0 +1,48 @@
+{
+  "homepage": "https://github.com/HIllya51/LunaTranslator",
+  "description": "Galgame translator",
+  "license": "GPL-3.0",
+  "version": "8.6.5",
+  "architecture": {
+    "64bit": {
+      "url": "https://lunatranslator.org/r2/luna/LunaTranslator_v8.6.5_x64.zip",
+      "hash": "691672afa5262f0a490b7e430ff620639989738024920e774bb50ee0ca7e59d2",
+      "extract_to": "temp",
+      "pre_install": [
+        "Move-Item -Path \"$dir\\temp\\LunaTranslator\\*\" -Destination \"$dir\"",
+        "Remove-Item \"$dir\\temp\" -Force -Recurse"
+      ]
+    },
+    "32bit": {
+      "url": "https://lunatranslator.org/r2/luna/LunaTranslator_v8.6.5_x86.zip",
+      "hash": "eca4a87be28735d7f41675f888c487d956164466a7f4770edbf588b4d710983d",
+      "extract_to": "temp",
+      "pre_install": [
+        "Move-Item -Path \"$dir\\temp\\LunaTranslator_x86\\*\" -Destination \"$dir\"",
+        "Remove-Item \"$dir\\temp\" -Force -Recurse"
+      ]
+    }
+  },
+  "shortcuts": [
+    [
+      "LunaTranslator.exe",
+      "LunaTranslator"
+    ]
+  ],
+  "persist": [
+    "cache",
+    "translation_record",
+    "userconfig"
+  ],
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://lunatranslator.org/r2/luna/LunaTranslator_v$version_x64.zip"
+      },
+      "32bit": {
+        "url": "https://lunatranslator.org/r2/luna/LunaTranslator_v$version_x86.zip"
+      }
+    }
+  }
+}
