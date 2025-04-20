@@ -1,0 +1,53 @@
+{
+    "##": "The 64-bit version is just a placeholder to pass CI checks.",
+    "version": "b5158",
+    "description": "(OpenCL Backend for Qualcomm Adreno GPU) LLM inference in C/C++.",
+    "homepage": "https://github.com/ggml-org/llama.cpp",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b5158/llama-b5158-bin-win-avx2-x64.zip",
+            "hash": "639afd2aa9dbb41e5e642f42f0424cff695368a87a06772023ecdbf246d500d1"
+        },
+        "arm64": {
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b5158/llama-b5158-bin-win-llvm-arm64-opencl-adreno.zip",
+            "hash": "0ecd1f788dccc02f11097776dd1ad036ceaa8029735ea18093fab6227b4affb5"
+        }
+    },
+    "bin": [
+        "llama-cli.exe",
+        "llama-server.exe",
+        "llama-perplexity.exe",
+        "llama-bench.exe",
+        "llama-run.exe",
+        "llama-batched.exe",
+        "llama-batched-bench.exe",
+        "llama-cvector-generator.exe",
+        "llama-embedding.exe",
+        "llama-gguf.exe",
+        "llama-gguf-hash.exe",
+        "llama-gguf-split.exe",
+        "llama-imatrix.exe",
+        "llama-llava-cli.exe",
+        "llama-llava-clip-quantize-cli.exe",
+        "llama-minicpmv-cli.exe",
+        "llama-qwen2vl-cli.exe",
+        "llama-quantize.exe",
+        "llama-tokenize.exe",
+        "llama-tts.exe"
+    ],
+    "checkver": {
+        "url": "https://github.com/ggml-org/llama.cpp/releases.atom",
+        "regex": "Repository/\\d+/(b\\d+)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/ggml-org/llama.cpp/releases/download/$version/llama-$version-bin-win-avx2-x64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/ggml-org/llama.cpp/releases/download/$version/llama-$version-bin-win-llvm-arm64-opencl-adreno.zip"
+            }
+        }
+    }
+}

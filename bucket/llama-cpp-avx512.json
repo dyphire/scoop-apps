@@ -1,0 +1,45 @@
+{
+    "version": "b5158",
+    "description": "(CPU-AVX512 Backend) LLM inference in C/C++.",
+    "homepage": "https://github.com/ggml-org/llama.cpp",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b5158/llama-b5158-bin-win-avx512-x64.zip",
+            "hash": "a309ed7b52a0dee846d62337997d41178b7738d55c5ad9581c7c37c6095bd15c"
+        }
+    },
+    "bin": [
+        "llama-cli.exe",
+        "llama-server.exe",
+        "llama-perplexity.exe",
+        "llama-bench.exe",
+        "llama-run.exe",
+        "llama-batched.exe",
+        "llama-batched-bench.exe",
+        "llama-cvector-generator.exe",
+        "llama-embedding.exe",
+        "llama-gguf.exe",
+        "llama-gguf-hash.exe",
+        "llama-gguf-split.exe",
+        "llama-imatrix.exe",
+        "llama-llava-cli.exe",
+        "llama-llava-clip-quantize-cli.exe",
+        "llama-minicpmv-cli.exe",
+        "llama-qwen2vl-cli.exe",
+        "llama-quantize.exe",
+        "llama-tokenize.exe",
+        "llama-tts.exe"
+    ],
+    "checkver": {
+        "url": "https://github.com/ggml-org/llama.cpp/releases.atom",
+        "regex": "Repository/\\d+/(b\\d+)<"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/ggml-org/llama.cpp/releases/download/$version/llama-$version-bin-win-avx512-x64.zip"
+            }
+        }
+    }
+}
