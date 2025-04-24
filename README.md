@@ -99,6 +99,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - Darkatse/Scoop-Darkatse
 - starise/Scoop-Gaming
 - cc713/ownscoop
+- Small-Ku/turbo-bucket
 - krproject/qi-windows
 - rivy/scoop-bucket
 - excitoon/scoop-user
@@ -107,7 +108,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - HUMORCE/nuke
 - mo-san/scoop-bucket
 - babo4d/scoop-xrtools
-- Small-Ku/turbo-bucket
 - Darkatse/Scoop-KanColle
 - Toddli468/Pentest-Scoop-Bucket
 - MCOfficer/scoop-bucket
