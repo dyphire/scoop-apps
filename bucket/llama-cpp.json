@@ -1,16 +1,16 @@
 {
-    "version": "b5193",
+    "version": "b5196",
     "description": "(CPU Backend) LLM inference in C/C++.",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b5193/llama-b5193-bin-win-avx2-x64.zip",
-            "hash": "abb22ae30821785f9820b168c3ad2067b1569199f7d4afba1e85bc4ead755dc1"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b5196/llama-b5196-bin-win-avx2-x64.zip",
+            "hash": "2ff34fdf70e94b264880800a7bed3243f05691fbb4228207dd2501c8b4484093"
         },
         "arm64": {
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b5193/llama-b5193-bin-win-llvm-arm64.zip",
-            "hash": "023f69f82091be96fb3ae42ee718656db5e27dbc5772c33b00e684492c522967"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b5196/llama-b5196-bin-win-llvm-arm64.zip",
+            "hash": "db6b14df97c751db28078b9f961742d870893e373685bb2fa2921f44229d3ee5"
         }
     },
     "bin": [
