@@ -1,12 +1,12 @@
 {
-    "version": "b5199",
-    "description": "(CPU-AVX512 Backend) LLM inference in C/C++.",
+    "version": "b5201",
+    "description": "(CPU-AVX512 Backend) llama.cpp enables LLM inference with minimal setup and state-of-the-art performance on a wide range of hardware.",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b5199/llama-b5199-bin-win-avx512-x64.zip",
-            "hash": "2b076999dcbac53b8c20f89c45bfc12bf61aa01c4a504f45c0c15e4f1244c4b7"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b5201/llama-b5201-bin-win-avx512-x64.zip",
+            "hash": "d9a796b0fb5e5fc4f89927ea4e2cbf9f39ed33177f2dbf901872b7c7d2f8d61d"
         }
     },
     "bin": [
@@ -23,13 +23,10 @@
         "llama-gguf-hash.exe",
         "llama-gguf-split.exe",
         "llama-imatrix.exe",
-        "llama-llava-cli.exe",
-        "llama-llava-clip-quantize-cli.exe",
-        "llama-minicpmv-cli.exe",
-        "llama-qwen2vl-cli.exe",
         "llama-quantize.exe",
         "llama-tokenize.exe",
-        "llama-tts.exe"
+        "llama-tts.exe",
+        "llama-mtmd-cli.exe"
     ],
     "checkver": {
         "url": "https://github.com/ggml-org/llama.cpp/releases.atom",
