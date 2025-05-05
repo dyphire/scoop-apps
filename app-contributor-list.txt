@@ -5896,6 +5896,7 @@ splayer-legacy.json    hoilc/scoop-lemon
 devtunnel.json    hoilc/scoop-lemon
 img-convert.json    hoilc/scoop-lemon
 velad.json    hoilc/scoop-lemon
+sqlpkg.json    hoilc/scoop-lemon
 ismylcdok.json    hoilc/scoop-lemon
 copyplusplus.json    hoilc/scoop-lemon
 ikago.json    hoilc/scoop-lemon
@@ -6245,7 +6246,6 @@ portx.json    hoilc/scoop-lemon
 briar.json    hoilc/scoop-lemon
 mcfly.json    hoilc/scoop-lemon
 opensearch-cli.json    hoilc/scoop-lemon
-sqlpkg-cli.json    hoilc/scoop-lemon
 torrent7z.json    hoilc/scoop-lemon
 gif123.json    hoilc/scoop-lemon
 musictag.json    hoilc/scoop-lemon
@@ -25442,6 +25442,7 @@ uniextract_naderi.json    naderi/scoop-bucket
 thunderbird-fa_naderi.json    naderi/scoop-bucket
 picard-portable_naderi.json    naderi/scoop-bucket
 affine_naderi.json    naderi/scoop-bucket
+crapfixer.json    naderi/scoop-bucket
 win-aio_naderi.json    naderi/scoop-bucket
 snipaste_naderi.json    naderi/scoop-bucket
 wox-portable_naderi.json    naderi/scoop-bucket
@@ -25684,7 +25685,6 @@ desktopnaotu_hu3rror.json    hu3rror/scoop-muggle
 163MusicLyrics-lite_hu3rror.json    hu3rror/scoop-muggle
 icns_hu3rror.json    hu3rror/scoop-muggle
 usbeam-hosts-editor_hu3rror.json    hu3rror/scoop-muggle
-tuya_hu3rror.json    hu3rror/scoop-muggle
 dota2_realblood_hu3rror.json    hu3rror/scoop-muggle
 bootice_hu3rror.json    hu3rror/scoop-muggle
 ani_hu3rror.json    hu3rror/scoop-muggle
@@ -25729,7 +25729,6 @@ uup-download-wizard-converter_hu3rror.json    hu3rror/scoop-muggle
 prtscr_hu3rror.json    hu3rror/scoop-muggle
 tianruoocr-cl_hu3rror.json    hu3rror/scoop-muggle
 smartzip_hu3rror.json    hu3rror/scoop-muggle
-chatbox_hu3rror.json    hu3rror/scoop-muggle
 watt-toolkit_hu3rror.json    hu3rror/scoop-muggle
 anx-reader_hu3rror.json    hu3rror/scoop-muggle
 163MusicLyrics-pro_hu3rror.json    hu3rror/scoop-muggle
@@ -25738,10 +25737,11 @@ qaac-qtfiles_hu3rror.json    hu3rror/scoop-muggle
 pixivbiu_hu3rror.json    hu3rror/scoop-muggle
 spek-X_hu3rror.json    hu3rror/scoop-muggle
 q_hu3rror.json    hu3rror/scoop-muggle
+mobaxterm-sp.json    hu3rror/scoop-muggle
 run-hidden_hu3rror.json    hu3rror/scoop-muggle
 vysor_hu3rror.json    hu3rror/scoop-muggle
-calibre-cjk_hu3rror.json    hu3rror/scoop-muggle
 kopiaui_hu3rror.json    hu3rror/scoop-muggle
+harmonyOS-sans_hu3rror.json    hu3rror/scoop-muggle
 md5checker-cn_hu3rror.json    hu3rror/scoop-muggle
 supergrate_hu3rror.json    hu3rror/scoop-muggle
 chromium-np_hu3rror.json    hu3rror/scoop-muggle
@@ -25791,14 +25791,12 @@ clipboard-online_hu3rror.json    hu3rror/scoop-muggle
 musictag_hu3rror.json    hu3rror/scoop-muggle
 nsudo_hu3rror.json    hu3rror/scoop-muggle
 simpread-sync_hu3rror.json    hu3rror/scoop-muggle
-cherry-studio_hu3rror.json    hu3rror/scoop-muggle
 terminusplayer_hu3rror.json    hu3rror/scoop-muggle
 geminicommit-cli_hu3rror.json    hu3rror/scoop-muggle
 get-childitemcolor_hu3rror.json    hu3rror/scoop-muggle
 mpv-handler_hu3rror.json    hu3rror/scoop-muggle
 neat-converter_hu3rror.json    hu3rror/scoop-muggle
 NsEmuTools_hu3rror.json    hu3rror/scoop-muggle
-calibre-normal-cjk_hu3rror.json    hu3rror/scoop-muggle
 nanarun_hu3rror.json    hu3rror/scoop-muggle
 emby_carnival_hu3rror.json    hu3rror/scoop-muggle
 qemu-img_hu3rror.json    hu3rror/scoop-muggle
@@ -25818,11 +25816,14 @@ pixeval_hu3rror.json    hu3rror/scoop-muggle
 xanmod-WSL2-lts-x64v2_hu3rror.json    hu3rror/scoop-muggle
 xanmod-WSL2_hu3rror.json    hu3rror/scoop-muggle
 xanmod-WSL2-x64v2_hu3rror.json    hu3rror/scoop-muggle
+tuya_hu3rror.json    hu3rror/scoop-muggle
 animation-garden_hu3rror.json    hu3rror/scoop-muggle
 b23downloader_hu3rror.json    hu3rror/scoop-muggle
 logseq-legacy_hu3rror.json    hu3rror/scoop-muggle
 chromium-dev-avx2-nosync_hu3rror.json    hu3rror/scoop-muggle
 telegram-beta_hu3rror.json    hu3rror/scoop-muggle
+chatbox_hu3rror.json    hu3rror/scoop-muggle
+calibre-cjk_hu3rror.json    hu3rror/scoop-muggle
 animation-garden-dev_hu3rror.json    hu3rror/scoop-muggle
 xanmod-WSL2-x64v3.json    hu3rror/scoop-muggle
 scapple_hu3rror.json    hu3rror/scoop-muggle
@@ -25837,8 +25838,10 @@ wonderpen-beta_hu3rror.json    hu3rror/scoop-muggle
 neovim-nightly_hu3rror.json    hu3rror/scoop-muggle
 iso-creator-tool_hu3rror.json    hu3rror/scoop-muggle
 fehviewer_hu3rror.json    hu3rror/scoop-muggle
+cherry-studio_hu3rror.json    hu3rror/scoop-muggle
 exa_hu3rror.json    hu3rror/scoop-muggle
 chromium-chrupd_hu3rror.json    hu3rror/scoop-muggle
+calibre-normal-cjk_hu3rror.json    hu3rror/scoop-muggle
 calibre-cjk-patch_hu3rror.json    hu3rror/scoop-muggle
 foobox-cn_hu3rror.json    hu3rror/scoop-muggle
 foobar2000-foobox-en-pack_hu3rror.json    hu3rror/scoop-muggle
