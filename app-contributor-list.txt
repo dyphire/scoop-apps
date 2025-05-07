@@ -437,6 +437,7 @@ ctypes.json    ScoopInstaller/Extras
 apache-tinkerpop-gremlin-server.json    ScoopInstaller/Extras
 tabby.json    ScoopInstaller/Extras
 tftpd.json    ScoopInstaller/Extras
+windsurf.json    ScoopInstaller/Extras
 windowsdesktop-runtime-lts.json    ScoopInstaller/Extras
 ueli.json    ScoopInstaller/Extras
 mesonlsp.json    ScoopInstaller/Extras
@@ -557,6 +558,7 @@ dotPeek.json    ScoopInstaller/Extras
 mathpix.json    ScoopInstaller/Extras
 playnite.json    ScoopInstaller/Extras
 tweakstyle.json    ScoopInstaller/Extras
+walksnail-osd-tool.json    ScoopInstaller/Extras
 simplyserial.json    ScoopInstaller/Extras
 filebot.json    ScoopInstaller/Extras
 tsukimi.json    ScoopInstaller/Extras
@@ -1311,6 +1313,7 @@ free-manga-downloader2.json    ScoopInstaller/Extras
 pixitracker.json    ScoopInstaller/Extras
 kdeconnect.json    ScoopInstaller/Extras
 kopiaui.json    ScoopInstaller/Extras
+escrcpy.json    ScoopInstaller/Extras
 paint.net-plugin-pyrochild.json    ScoopInstaller/Extras
 patheditor.json    ScoopInstaller/Extras
 cryptomator.json    ScoopInstaller/Extras
@@ -2561,6 +2564,7 @@ hellofont.json    chawyehsu/dorado
 solana.json    chawyehsu/dorado
 winlibs-mingw-ucrt.json    chawyehsu/dorado
 s2cb.json    chawyehsu/dorado
+chezscheme.json    chawyehsu/dorado
 steampp.json    chawyehsu/dorado
 mosdns-cn.json    chawyehsu/dorado
 mcskin3d.json    chawyehsu/dorado
@@ -4372,6 +4376,7 @@ w3cschool.json    arch3rPro/PST-Bucket
 igdm_arch3rPro.json    arch3rPro/PST-Bucket
 notify.json    arch3rPro/PST-Bucket
 filezilla_arch3rPro.json    arch3rPro/PST-Bucket
+webview2.json    arch3rPro/PST-Bucket
 clash-windows.json    arch3rPro/PST-Bucket
 rubick.json    arch3rPro/PST-Bucket
 treesize_arch3rPro.json    arch3rPro/PST-Bucket
@@ -5369,6 +5374,7 @@ otfcc.json    hoilc/scoop-lemon
 cirrus-cli.json    hoilc/scoop-lemon
 rsql.json    hoilc/scoop-lemon
 yank-note.json    hoilc/scoop-lemon
+quincy.json    hoilc/scoop-lemon
 scalr-cli.json    hoilc/scoop-lemon
 kubectl-kcp.json    hoilc/scoop-lemon
 sclock.json    hoilc/scoop-lemon
@@ -5438,6 +5444,7 @@ gogdl.json    hoilc/scoop-lemon
 projectdiscovery-notify.json    hoilc/scoop-lemon
 git-hound.json    hoilc/scoop-lemon
 obs-browser-plus.json    hoilc/scoop-lemon
+reduct-cli.json    hoilc/scoop-lemon
 echosync.json    hoilc/scoop-lemon
 wifi-filter-tool.json    hoilc/scoop-lemon
 sunny.json    hoilc/scoop-lemon
@@ -5447,6 +5454,7 @@ gojo.json    hoilc/scoop-lemon
 redisfish.json    hoilc/scoop-lemon
 flashpad.json    hoilc/scoop-lemon
 victoria-metrics-cluster.json    hoilc/scoop-lemon
+qrtool.json    hoilc/scoop-lemon
 curlie.json    hoilc/scoop-lemon
 terranetes-cli.json    hoilc/scoop-lemon
 imagesearch.json    hoilc/scoop-lemon
@@ -5518,6 +5526,7 @@ copyparty-u2c.json    hoilc/scoop-lemon
 kube-burner.json    hoilc/scoop-lemon
 tclkitsh.json    hoilc/scoop-lemon
 xk6.json    hoilc/scoop-lemon
+minhtml.json    hoilc/scoop-lemon
 wubilex_hoilc.json    hoilc/scoop-lemon
 sendme.json    hoilc/scoop-lemon
 cjk-romanizer.json    hoilc/scoop-lemon
@@ -5832,6 +5841,7 @@ whisper-model-ggml-medium.json    hoilc/scoop-lemon
 maple-mono@6.json    hoilc/scoop-lemon
 lock-cursor-tools.json    hoilc/scoop-lemon
 lucy.json    hoilc/scoop-lemon
+reductstore.json    hoilc/scoop-lemon
 unftp.json    hoilc/scoop-lemon
 splayer.json    hoilc/scoop-lemon
 gotestsum.json    hoilc/scoop-lemon
@@ -5893,6 +5903,7 @@ oggdropxpd-libvorbis.json    hoilc/scoop-lemon
 leafview.json    hoilc/scoop-lemon
 autohidemousecursor.json    hoilc/scoop-lemon
 osm.json    hoilc/scoop-lemon
+gfold.json    hoilc/scoop-lemon
 tuic.json    hoilc/scoop-lemon
 ktor-cli.json    hoilc/scoop-lemon
 cfiler.json    hoilc/scoop-lemon
@@ -6227,6 +6238,7 @@ onenote-md-exporter.json    hoilc/scoop-lemon
 maxlauncher.json    hoilc/scoop-lemon
 pmlite.json    hoilc/scoop-lemon
 filen-cli.json    hoilc/scoop-lemon
+rustscan.json    hoilc/scoop-lemon
 duga-player.json    hoilc/scoop-lemon
 cf-terraforming.json    hoilc/scoop-lemon
 timoni.json    hoilc/scoop-lemon
@@ -8669,7 +8681,7 @@ HaE_whoopscs.json    whoopscs/scoop-security
 mitan_whoopscs.json    whoopscs/scoop-security
 afrog_whoopscs.json    whoopscs/scoop-security
 proguard_whoopscs.json    whoopscs/scoop-security
-RustScan.json    whoopscs/scoop-security
+RustScan_whoopscs.json    whoopscs/scoop-security
 dnsx_whoopscs.json    whoopscs/scoop-security
 commix_whoopscs.json    whoopscs/scoop-security
 XiebroC2_whoopscs.json    whoopscs/scoop-security
@@ -9184,7 +9196,7 @@ Diffuse.json    dodorz/scoop
 Noto-Mono-Font_dodorz.json    dodorz/scoop
 EUX.json    dodorz/scoop
 TinyPlay.json    dodorz/scoop
-ChezScheme.json    dodorz/scoop
+ChezScheme_dodorz.json    dodorz/scoop
 Jarte.json    dodorz/scoop
 Trout.json    dodorz/scoop
 WinMemoryCleaner_dodorz.json    dodorz/scoop
@@ -9281,7 +9293,7 @@ aTunes.json    dodorz/scoop
 Citrio.json    dodorz/scoop
 TheSemwareEditor.json    dodorz/scoop
 Acme-SAC.json    dodorz/scoop
-Windsurf.json    dodorz/scoop
+Windsurf_dodorz.json    dodorz/scoop
 Plume.json    dodorz/scoop
 Grid.json    dodorz/scoop
 NetPWAge_dodorz.json    dodorz/scoop
@@ -9917,7 +9929,6 @@ maven.json    akirco/aki-apps
 geekuninstaller_akirco.json    akirco/aki-apps
 nvs.json    akirco/aki-apps
 say.json    akirco/aki-apps
-go-cn_akirco.json    akirco/aki-apps
 vim.json    akirco/aki-apps
 libwebp.json    akirco/aki-apps
 gitomatic.json    akirco/aki-apps
@@ -10791,7 +10802,7 @@ shadowsocks-rust.json    DoveBoy/Apps
 everything-lite_DoveBoy.json    DoveBoy/Apps
 volta-tab-completion.json    DoveBoy/Apps
 energystar.json    DoveBoy/Apps
-escrcpy.json    DoveBoy/Apps
+escrcpy_DoveBoy.json    DoveBoy/Apps
 youku.json    DoveBoy/Apps
 gnupg.json    DoveBoy/Apps
 v2rayn_DoveBoy.json    DoveBoy/Apps
@@ -21318,7 +21329,7 @@ qrcp_DoveBoy.json    cmontage/scoopbucket-third
 qrcp_akirco.json    cmontage/scoopbucket-third
 qrrs.json    cmontage/scoopbucket-third
 qrscan_cmontage.json    cmontage/scoopbucket-third
-qrtool.json    cmontage/scoopbucket-third
+qrtool_cmontage.json    cmontage/scoopbucket-third
 qscan_cmontage.json    cmontage/scoopbucket-third
 qshell_cmontage.json    cmontage/scoopbucket-third
 qsv_amorphobia.json    cmontage/scoopbucket-third
@@ -23936,7 +23947,7 @@ webstorm_cmontage.json    cmontage/scoopbucket-third
 webtorrent_cmontage.json    cmontage/scoopbucket-third
 webvideocap_cmontage.json    cmontage/scoopbucket-third
 webvideocap_ScoopInstaller.json    cmontage/scoopbucket-third
-webview2.json    cmontage/scoopbucket-third
+webview2_cmontage.json    cmontage/scoopbucket-third
 wechat-backup_cmontage.json    cmontage/scoopbucket-third
 wechat-beta_cmontage.json    cmontage/scoopbucket-third
 wechat-cvp.json    cmontage/scoopbucket-third
