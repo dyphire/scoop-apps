@@ -1,18 +1,19 @@
 {
-    "version": "3943",
+    "version": "3960",
     "description": "(BLAS Nightly Version) whisper.cpp is high-performance inference of OpenAI's Whisper automatic speech recognition (ASR) model",
     "homepage": "https://github.com/ggerganov/whisper.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://nightly.link/ggml-org/whisper.cpp/actions/runs/14835050397/whisper-blas-bin-x64.zip",
-            "hash": "b97266d74291100fff0dd860e6f4886ab9534ab6520b1533cf3f9892dfa894d9"
+            "url": "https://nightly.link/ggml-org/whisper.cpp/actions/runs/14890097878/whisper-blas-bin-x64.zip#/dl.zip",
+            "hash": "645a4824e8ca717ad5afd3b4b5471e55015fd22c18fe71baa01287ecf750478a"
         },
         "32bit": {
-            "url": "https://nightly.link/ggml-org/whisper.cpp/actions/runs/14835050397/whisper-blas-bin-Win32.zip",
-            "hash": "7b6995908faa45954b97638ef1ea6d14923e0487e7993918dd0f300fe1eeb565"
+            "url": "https://nightly.link/ggml-org/whisper.cpp/actions/runs/14890097878/whisper-blas-bin-Win32.zip#/dl.zip",
+            "hash": "d55aa2b2e01ed13fc1cb2ae711251049e68c6738e4f4c16578eb39a512bdc17c"
         }
     },
+    "pre_install": "Get-ChildItem \"$dir\" 'whisper*.zip' | Select-Object -First 1 -ExpandProperty FullName | Expand-7zipArchive -Destination \"$dir\" -ExtractDir 'Release' -Removal",
     "bin": [
         [
             "whisper-cli.exe",
@@ -50,10 +51,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://nightly.link/ggml-org/whisper.cpp/actions/runs/$matchRun/whisper-blas-bin-x64.zip"
+                "url": "https://nightly.link/ggml-org/whisper.cpp/actions/runs/$matchRun/whisper-blas-bin-x64.zip#/dl.zip"
             },
             "32bit": {
-                "url": "https://nightly.link/ggml-org/whisper.cpp/actions/runs/$matchRun/whisper-blas-bin-Win32.zip"
+                "url": "https://nightly.link/ggml-org/whisper.cpp/actions/runs/$matchRun/whisper-blas-bin-Win32.zip#/dl.zip"
             }
         }
     }
