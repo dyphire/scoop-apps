@@ -1,12 +1,12 @@
 {
-    "version": "b5321",
+    "version": "b5332",
     "description": "(ROCm/HIP gfx1100 Backend) llama.cpp enables LLM inference with minimal setup and state-of-the-art performance on a wide range of hardware.",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b5321/llama-b5321-bin-win-hip-x64-gfx1100.zip",
-            "hash": "7dc20ed9efa64b2e2bacfa2bf0f03c284fcf5aa31d0697cccd9d356524361f59"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b5332/llama-b5332-bin-win-hip-x64-gfx1100.zip",
+            "hash": "e8b441b48931d4ae453fead538a62c6cd9805833f79ce37a0adad9b74d94cee0"
         }
     },
     "bin": [
@@ -15,17 +15,15 @@
         "llama-perplexity.exe",
         "llama-bench.exe",
         "llama-run.exe",
-        "llama-batched.exe",
-        "llama-batched-bench.exe",
-        "llama-embedding.exe",
-        "llama-gguf.exe",
-        "llama-gguf-hash.exe",
-        "llama-gguf-split.exe",
         "llama-imatrix.exe",
         "llama-quantize.exe",
         "llama-tokenize.exe",
         "llama-tts.exe",
-        "llama-mtmd-cli.exe"
+        "llama-mtmd-cli.exe",
+        [
+            "rpc-server.exe",
+            "llama-rpc-server"
+        ]
     ],
     "checkver": {
         "url": "https://github.com/ggml-org/llama.cpp/releases.atom",
