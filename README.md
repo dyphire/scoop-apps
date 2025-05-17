@@ -107,10 +107,10 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - alextwothousand/scoop-bucket
 - Weidows-projects/scoop-3rd
 - HUMORCE/nuke
+- Toddli468/Pentest-Scoop-Bucket
 - babo4d/scoop-xrtools
 - Darkatse/Scoop-KanColle
 - KnotUntied/scoop-fonts
-- Toddli468/Pentest-Scoop-Bucket
 - MCOfficer/scoop-bucket
 - littleli/Scoop-littleli
 - AkariiinMKII/Scoop4kariiin
