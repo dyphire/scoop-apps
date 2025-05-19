@@ -3862,6 +3862,7 @@ chromium-dev-nosync.json    ScoopInstaller/Versions
 lite-xl-addons.json    ScoopInstaller/Versions
 assimp3.json    ScoopInstaller/Versions
 ffmpeg-shared-nightly.json    ScoopInstaller/Versions
+llama.cpp-cu124.json    ScoopInstaller/Versions
 premake5.json    ScoopInstaller/Versions
 cuda11.8.json    ScoopInstaller/Versions
 gcc45.json    ScoopInstaller/Versions
@@ -3889,6 +3890,7 @@ godot-beta.json    ScoopInstaller/Versions
 thorium-avx2.json    ScoopInstaller/Versions
 php71-xdebug.json    ScoopInstaller/Versions
 audacity2.4.2.json    ScoopInstaller/Versions
+llama.cpp-opencl.json    ScoopInstaller/Versions
 ruby25.json    ScoopInstaller/Versions
 dotnet2-sdk.json    ScoopInstaller/Versions
 vlc-nightly.json    ScoopInstaller/Versions
@@ -3898,12 +3900,12 @@ dbeaver-ea.json    ScoopInstaller/Versions
 brave-nightly.json    ScoopInstaller/Versions
 haxe-dev.json    ScoopInstaller/Versions
 mongodb36.json    ScoopInstaller/Versions
-openssl-lts.json    ScoopInstaller/Versions
 duplicati-canary.json    ScoopInstaller/Versions
 r42.json    ScoopInstaller/Versions
 chromedriver-canary.json    ScoopInstaller/Versions
 arduino18.json    ScoopInstaller/Versions
 jdownloader.json    ScoopInstaller/Versions
+llama.cpp-hip-gfx1030.json    ScoopInstaller/Versions
 haskell863.json    ScoopInstaller/Versions
 openssh-msys.json    ScoopInstaller/Versions
 flow031.json    ScoopInstaller/Versions
@@ -3930,6 +3932,7 @@ freecad-weekly.json    ScoopInstaller/Versions
 php70-xdebug.json    ScoopInstaller/Versions
 chromedriver-dev.json    ScoopInstaller/Versions
 php56-xdebug.json    ScoopInstaller/Versions
+llama.cpp-hip-gfx1100.json    ScoopInstaller/Versions
 winget1.5.json    ScoopInstaller/Versions
 nodejs012.json    ScoopInstaller/Versions
 php80.json    ScoopInstaller/Versions
@@ -3957,7 +3960,6 @@ godot-rc.json    ScoopInstaller/Versions
 php73.json    ScoopInstaller/Versions
 winpython37cod.json    ScoopInstaller/Versions
 oracle-instant-client19.json    ScoopInstaller/Versions
-openssl-lts-light.json    ScoopInstaller/Versions
 glslang-nightly.json    ScoopInstaller/Versions
 everything-beta.json    ScoopInstaller/Versions
 atom-beta.json    ScoopInstaller/Versions
@@ -4127,7 +4129,6 @@ love8.json    ScoopInstaller/Versions
 smplayer-with-smtube.json    ScoopInstaller/Versions
 winget1.4.json    ScoopInstaller/Versions
 rust-msvc-nightly.json    ScoopInstaller/Versions
-openssl-light.json    ScoopInstaller/Versions
 winpython3741.json    ScoopInstaller/Versions
 windowsdesktop-runtime-7.0.json    ScoopInstaller/Versions
 julia-lts.json    ScoopInstaller/Versions
@@ -4203,6 +4204,7 @@ love10.json    ScoopInstaller/Versions
 odin-nightly.json    ScoopInstaller/Versions
 megatools-beta.json    ScoopInstaller/Versions
 posh-git-beta.json    ScoopInstaller/Versions
+llama.cpp-cpu.json    ScoopInstaller/Versions
 github-beta.json    ScoopInstaller/Versions
 ferdium-nightly.json    ScoopInstaller/Versions
 cuda8.0.json    ScoopInstaller/Versions
@@ -4212,11 +4214,13 @@ typora-dev.json    ScoopInstaller/Versions
 winpython37.json    ScoopInstaller/Versions
 postman-canary.json    ScoopInstaller/Versions
 nodejs22.json    ScoopInstaller/Versions
+llama.cpp-sycl.json    ScoopInstaller/Versions
 tesseract4.json    ScoopInstaller/Versions
 clion-rc.json    ScoopInstaller/Versions
 oneget.json    ScoopInstaller/Versions
 postgresql14.json    ScoopInstaller/Versions
 brave-beta.json    ScoopInstaller/Versions
+llama.cpp-hip-gfx1101.json    ScoopInstaller/Versions
 tachidesk-server-preview.json    ScoopInstaller/Versions
 wireshark3.json    ScoopInstaller/Versions
 7zip-beta.json    ScoopInstaller/Versions
@@ -4322,6 +4326,7 @@ zotero6.json    ScoopInstaller/Versions
 influxdb1.json    ScoopInstaller/Versions
 php54.json    ScoopInstaller/Versions
 winpython37ps2.json    ScoopInstaller/Versions
+llama.cpp-vulkan.json    ScoopInstaller/Versions
 chromedriver-beta.json    ScoopInstaller/Versions
 ant19.json    ScoopInstaller/Versions
 lcow.json    ScoopInstaller/Versions
@@ -4335,6 +4340,7 @@ php55.json    ScoopInstaller/Versions
 rubymine-eap.json    ScoopInstaller/Versions
 openvpn-w7.json    ScoopInstaller/Versions
 rider-eap.json    ScoopInstaller/Versions
+llama.cpp-cu117.json    ScoopInstaller/Versions
 php70.json    ScoopInstaller/Versions
 neovim-nightly.json    ScoopInstaller/Versions
 neochat-nightly.json    ScoopInstaller/Versions
@@ -10243,6 +10249,7 @@ bcut.json    akirco/aki-apps
 dark.json    akirco/aki-apps
 marktext_akirco.json    akirco/aki-apps
 poppler.json    akirco/aki-apps
+cursor_akirco.json    akirco/aki-apps
 qrcp.json    akirco/aki-apps
 wp-cli.json    akirco/aki-apps
 gsudo.json    akirco/aki-apps
@@ -12526,7 +12533,7 @@ LogitechSetPoint-Install_cmontage.json    cmontage/scoopbucket-third
 LogitechUnifyingSoftware-Install_cmontage.json    cmontage/scoopbucket-third
 LovelyMem.json    cmontage/scoopbucket-third
 LuDaShi_cmontage.json    cmontage/scoopbucket-third
-LunaTranslator_cmontage.json    cmontage/scoopbucket-third
+LunaTranslator_cc713.json    cmontage/scoopbucket-third
 Lunacy-Portable_cmontage.json    cmontage/scoopbucket-third
 LuxCLI-Portable_cmontage.json    cmontage/scoopbucket-third
 LxgwNeoXiHei_ShuguangSun.json    cmontage/scoopbucket-third
@@ -14803,8 +14810,8 @@ brave-nightly_cmontage.json    cmontage/scoopbucket-third
 brave-np.json    cmontage/scoopbucket-third
 brave_cmontage.json    cmontage/scoopbucket-third
 brave32_cmontage.json    cmontage/scoopbucket-third
+brave_ScoopInstaller.json    cmontage/scoopbucket-third
 brave_WinApps-share.json    cmontage/scoopbucket-third
-brave_rasa.json    cmontage/scoopbucket-third
 breitbandmessung_cmontage.json    cmontage/scoopbucket-third
 briss.json    cmontage/scoopbucket-third
 brokenithm-kb.json    cmontage/scoopbucket-third
@@ -14844,7 +14851,7 @@ bugn_cmontage.json    cmontage/scoopbucket-third
 buildcache_cmontage.json    cmontage/scoopbucket-third
 buildcache_MCOfficer.json    cmontage/scoopbucket-third
 buildkit.json    cmontage/scoopbucket-third
-buildkit_batkiz.json    cmontage/scoopbucket-third
+buildkit_iquiw.json    cmontage/scoopbucket-third
 bulk-crap-uninstaller_cmontage.json    cmontage/scoopbucket-third
 bulk-crap-uninstaller_DoveBoy.json    cmontage/scoopbucket-third
 bulk-extractor.json    cmontage/scoopbucket-third
@@ -16731,7 +16738,7 @@ firefox-eme-free_cmontage.json    cmontage/scoopbucket-third
 firefox-esr-115-zh-cn.json    cmontage/scoopbucket-third
 firefox-esr-portable.json    cmontage/scoopbucket-third
 firefox-esr-zh-cn.json    cmontage/scoopbucket-third
-firefox-esr-zh-cn_amorphobia.json    cmontage/scoopbucket-third
+firefox-esr-zh-cn_aoisummer.json    cmontage/scoopbucket-third
 firefox-esr_cmontage.json    cmontage/scoopbucket-third
 firefox-it.json    cmontage/scoopbucket-third
 firefox-jp.json    cmontage/scoopbucket-third
@@ -18080,7 +18087,7 @@ iosevka-ss16.json    cmontage/scoopbucket-third
 iosevka-ss17.json    cmontage/scoopbucket-third
 iosevka-ss18.json    cmontage/scoopbucket-third
 iosevka.json    cmontage/scoopbucket-third
-iosevka_KnotUntied.json    cmontage/scoopbucket-third
+iosevka_iquiw.json    cmontage/scoopbucket-third
 iosevkacustom.json    cmontage/scoopbucket-third
 ip2location-io-cli_cmontage.json    cmontage/scoopbucket-third
 ipcalc_DoveBoy.json    cmontage/scoopbucket-third
@@ -18316,7 +18323,7 @@ jxl-winthumb.json    cmontage/scoopbucket-third
 jxl-winthumb_Small-Ku.json    cmontage/scoopbucket-third
 jy-srt-tools.json    cmontage/scoopbucket-third
 jyso_cmontage.json    cmontage/scoopbucket-third
-jyso_whoopscs.json    cmontage/scoopbucket-third
+jyso_ViCrack.json    cmontage/scoopbucket-third
 k-lite-codec-pack-basic-np_cmontage.json    cmontage/scoopbucket-third
 k-lite-codec-pack-full-np_cmontage.json    cmontage/scoopbucket-third
 k-lite-codec-pack-mega-np_cmontage.json    cmontage/scoopbucket-third
@@ -18918,7 +18925,7 @@ lunarips.json    cmontage/scoopbucket-third
 lunarvim_cmontage.json    cmontage/scoopbucket-third
 lunatask.json    cmontage/scoopbucket-third
 lunatic.json    cmontage/scoopbucket-third
-lunatranslator_aoisummer.json    cmontage/scoopbucket-third
+lunatranslator_cmontage.json    cmontage/scoopbucket-third
 lux_DoveBoy.json    cmontage/scoopbucket-third
 luyten_cmontage.json    cmontage/scoopbucket-third
 luyten_TheRandomLabs.json    cmontage/scoopbucket-third
@@ -19542,7 +19549,7 @@ multicommander_cmontage.json    cmontage/scoopbucket-third
 multidoge.json    cmontage/scoopbucket-third
 multimarkdown_cmontage.json    cmontage/scoopbucket-third
 multimc_cmontage.json    cmontage/scoopbucket-third
-multimc_The-Simples.json    cmontage/scoopbucket-third
+multimc_Deide.json    cmontage/scoopbucket-third
 multimc_chawyehsu.json    cmontage/scoopbucket-third
 multimonitortool_cmontage.json    cmontage/scoopbucket-third
 multimonitortool_kodybrown.json    cmontage/scoopbucket-third
@@ -20297,9 +20304,9 @@ openssh_DoveBoy.json    cmontage/scoopbucket-third
 openssh_HCLonely.json    cmontage/scoopbucket-third
 openssh_SayCV.json    cmontage/scoopbucket-third
 openssh_rivy.json    cmontage/scoopbucket-third
-openssl-light_cmontage.json    cmontage/scoopbucket-third
-openssl-lts-light_cmontage.json    cmontage/scoopbucket-third
-openssl-lts_cmontage.json    cmontage/scoopbucket-third
+openssl-light.json    cmontage/scoopbucket-third
+openssl-lts-light.json    cmontage/scoopbucket-third
+openssl-lts.json    cmontage/scoopbucket-third
 openssl1-light_cmontage.json    cmontage/scoopbucket-third
 openssl1_cmontage.json    cmontage/scoopbucket-third
 openssl@1.0.2u.json    cmontage/scoopbucket-third
@@ -26420,6 +26427,7 @@ curlie_aliesbelik.json    aliesbelik/poldi
 tf-summarize.json    aliesbelik/poldi
 bandwhich.json    aliesbelik/poldi
 mqtt-cli_aliesbelik.json    aliesbelik/poldi
+wait4x_aliesbelik.json    aliesbelik/poldi
 termscp_aliesbelik.json    aliesbelik/poldi
 taplo.json    aliesbelik/poldi
 ghz.json    aliesbelik/poldi
@@ -27828,17 +27836,6 @@ MicrobenchmarksGui_Darkatse.json    Darkatse/Scoop-Darkatse
 MaaAssistantArknights_Darkatse.json    Darkatse/Scoop-Darkatse
 Cinebench2024_Darkatse.json    Darkatse/Scoop-Darkatse
 Shanaencoder_Darkatse.json    Darkatse/Scoop-Darkatse
-flawless-widescreen.json    starise/Scoop-Gaming
-nvidia-display-driver.json    starise/Scoop-Gaming
-nvidia-geforce-experience.json    starise/Scoop-Gaming
-borderless-gaming.json    starise/Scoop-Gaming
-sam_starise.json    starise/Scoop-Gaming
-directx.json    starise/Scoop-Gaming
-uniws-patcher.json    starise/Scoop-Gaming
-nvidia-physx-legacy.json    starise/Scoop-Gaming
-steamless.json    starise/Scoop-Gaming
-gamesave-manager_starise.json    starise/Scoop-Gaming
-idlemaster-extended_starise.json    starise/Scoop-Gaming
 mpv.net-CM_cc713.json    cc713/ownscoop
 TsubakiTranslator_cc713.json    cc713/ownscoop
 GARbro_cc713.json    cc713/ownscoop
@@ -28761,6 +28758,17 @@ vlang_alextwothousand.json    alextwothousand/scoop-bucket
 emscripten.json    alextwothousand/scoop-bucket
 luajit.json    alextwothousand/scoop-bucket
 openssl-developer.json    alextwothousand/scoop-bucket
+flawless-widescreen.json    starise/Scoop-Gaming
+nvidia-display-driver.json    starise/Scoop-Gaming
+nvidia-geforce-experience.json    starise/Scoop-Gaming
+borderless-gaming.json    starise/Scoop-Gaming
+sam_starise.json    starise/Scoop-Gaming
+directx.json    starise/Scoop-Gaming
+uniws-patcher.json    starise/Scoop-Gaming
+nvidia-physx-legacy.json    starise/Scoop-Gaming
+steamless.json    starise/Scoop-Gaming
+gamesave-manager_starise.json    starise/Scoop-Gaming
+idlemaster-extended_starise.json    starise/Scoop-Gaming
 wps-office_Weidows-projects.json    Weidows-projects/scoop-3rd
 UsbEAm-Hosts-Editor_Weidows-projects.json    Weidows-projects/scoop-3rd
 Motrix-linking-aria2_Weidows-projects.json    Weidows-projects/scoop-3rd
