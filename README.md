@@ -57,8 +57,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - whoopscs/scoop-security
 - dodorz/scoop
 - niheaven/scoop-sysinternals
-- borger/scoop-emulators
 - ViCrack/scoop-bucket
+- borger/scoop-emulators
 - akirco/aki-apps
 - everyx/scoop-bucket
 - kiennq/scoop-misc
@@ -70,8 +70,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - DoveBoy/Apps
 - TheRandomLabs/Scoop-Python
 - cmontage/scoopbucket-third
-- charmbracelet/scoop-bucket
 - xrgzs/sdoog
+- charmbracelet/scoop-bucket
 - naderi/scoop-bucket
 - jonz94/scoop-sarasa-nerd-fonts
 - amorphobia/siku
