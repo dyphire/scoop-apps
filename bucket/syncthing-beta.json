@@ -1,5 +1,5 @@
 {
-    "version": "1.29.7-rc.2",
+    "version": "2.0.0-rc.17",
     "description": "Open Source Continuous File Synchronization.",
     "homepage": "https://syncthing.net/",
     "license": {
@@ -9,19 +9,19 @@
     "notes": "To start syncthing automatically, use a method described at https://docs.syncthing.net/users/autostart.html#windows",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/syncthing/syncthing/releases/download/v1.29.7-rc.2/syncthing-windows-amd64-v1.29.7-rc.2.zip",
-            "hash": "1c4a7c9d3ac17b0b4afc645ac21add46c52fddd175cfbedadb0d7c40ea8c3299",
-            "extract_dir": "syncthing-windows-amd64-v1.29.7-rc.2"
+            "url": "https://github.com/syncthing/syncthing/releases/download/v2.0.0-rc.17/syncthing-windows-amd64-v2.0.0-rc.17.zip",
+            "hash": "d551e57b47c18f07c55e0acac036ed8ad6784b8e134478e081e20d9df226eda5",
+            "extract_dir": "syncthing-windows-amd64-v2.0.0-rc.17"
         },
         "32bit": {
-            "url": "https://github.com/syncthing/syncthing/releases/download/v1.29.7-rc.2/syncthing-windows-386-v1.29.7-rc.2.zip",
-            "hash": "08f0d1282bd59654ff29bd2e408abc4ab09968cba7d3330e146da42a0fc38168",
-            "extract_dir": "syncthing-windows-386-v1.29.7-rc.2"
+            "url": "https://github.com/syncthing/syncthing/releases/download/v2.0.0-rc.17/syncthing-windows-386-v2.0.0-rc.17.zip",
+            "hash": "8bdaa954c041ab5d07d770e6d8a8093b01a2d21a764e4e5c0fa0192b6fe000d2",
+            "extract_dir": "syncthing-windows-386-v2.0.0-rc.17"
         },
         "arm64": {
-            "url": "https://github.com/syncthing/syncthing/releases/download/v1.29.7-rc.2/syncthing-windows-arm64-v1.29.7-rc.2.zip",
-            "hash": "d8cfbdec20263e2cc60c538d1d620cb56b5732da763f8d6196564ae70ea32196",
-            "extract_dir": "syncthing-windows-arm64-v1.29.7-rc.2"
+            "url": "https://github.com/syncthing/syncthing/releases/download/v2.0.0-rc.17/syncthing-windows-arm64-v2.0.0-rc.17.zip",
+            "hash": "1aa05b51cb6577e0a2601b2e28e44236e2c9fd97a9d4bb46b34706a865b9f615",
+            "extract_dir": "syncthing-windows-arm64-v2.0.0-rc.17"
         }
     },
     "pre_install": [
