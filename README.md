@@ -75,7 +75,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - naderi/scoop-bucket
 - jonz94/scoop-sarasa-nerd-fonts
 - amorphobia/siku
-- abgox/abgobucket
 - NyaMisty/scoopbucketmisty
 - hu3rror/scoop-muggle
 - noql-net/scoop
