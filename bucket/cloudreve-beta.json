@@ -1,5 +1,5 @@
 {
-    "version": "3.8.3",
+    "version": "4.0.0-beta.13",
     "description": "🌩 Self-hosted file management and sharing system, supports multiple storage providers",
     "homepage": "https://cloudreve.org/",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cloudreve/Cloudreve/releases/download/3.8.3/cloudreve_3.8.3_windows_amd64.zip",
-            "hash": "d81b8c06b90d98f3625196b0e2bbc1efd66221d93dbaa4626d58402973b64201"
+            "url": "https://github.com/cloudreve/Cloudreve/releases/download/4.0.0-beta.13/cloudreve_4.0.0-beta.13_windows_amd64.zip",
+            "hash": "6ff49f572f0498f2a62c7f78a2d0a8819c188c9de7ac1664093085d94f481033"
         },
         "arm64": {
-            "url": "https://github.com/cloudreve/Cloudreve/releases/download/3.8.3/cloudreve_3.8.3_windows_arm64.zip",
-            "hash": "d294affe66d239bc7caf602156233d04669973b275afa68f7fc52ffed2e6a2e0"
+            "url": "https://github.com/cloudreve/Cloudreve/releases/download/4.0.0-beta.13/cloudreve_4.0.0-beta.13_windows_arm64.zip",
+            "hash": "0114e3d75b3dfdc1533e7445d1fd23be33ac752be7e19d4a017de1bcb8276408"
         }
     },
     "bin": "cloudreve.exe",
@@ -24,8 +24,8 @@
         ]
     ],
     "checkver": {
-        "url": "https://api.github.com/repos/cloudreve/Cloudreve/releases/latest",
-        "regex": "/releases/tag/([\\d.]+)"
+        "url": "https://api.github.com/repos/cloudreve/Cloudreve/releases",
+        "regex": "/releases/tag/([\\d.]+-[\\w.]+)"
     },
     "autoupdate": {
         "architecture": {
