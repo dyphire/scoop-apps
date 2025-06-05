@@ -1,13 +1,18 @@
 {
-    "version": "1.0.31",
-    "description": "HM Gothic, a Chinese programming font based on Inter, Iosevka and HarmonyOS Sans. (TTC version)",
-    "homepage": "https://github.com/xrgzs/HM-Gothic",
-    "license": {
-        "identifier": "Proprietary",
-        "url": "https://github.com/xrgzs/HM-Gothic?tab=License-1-ov-file"
-    },
-    "url": "https://github.com/xrgzs/HM-Gothic/releases/download/v1.0.31/HM-TTC-Unhinted-1.0.31.7z",
-    "hash": "34466121b0f3422afa83b29f037cb57be18e19f15b7d8455ccff921c017c226f",
+    "version": "18.0d1e1",
+    "description": "SF Mono is a monospaced variant of San Francisco for coding, with six weights and multi-script support.",
+    "homepage": "https://developer.apple.com/fonts/",
+    "license": "Proprietary",
+    "url": "https://devimages-cdn.apple.com/design/resources/download/SF-Mono.dmg",
+    "hash": "6d4a0b78e3aacd06f913f642cead1c7db4af34ed48856d7171a2e0b55d9a7945",
+    "pre_install": [
+        "Expand-7zipArchive \"$dir\\$fname\" \"$dir\\Deploy\" -Removal",
+        "Expand-7zipArchive \"$dir\\Deploy\\SFMonoFonts\\SF Mono Fonts.pkg\" \"$dir\\Deploy\" -ExtractDir 'SFMonoFonts.pkg' -Removal",
+        "Expand-7zipArchive \"$dir\\Deploy\\Payload\" \"$dir\\Deploy\" -Removal",
+        "Expand-7zipArchive \"$dir\\Deploy\\Payload~\" \"$dir\\Deploy\" -ExtractDir '.\\Library\\Fonts' -Removal",
+        "Copy-Item \"$dir\\Deploy\\*.otf\" $dir -Force",
+        "Remove-Item \"$dir\\Deploy\" -Force -Recurse"
+    ],
     "installer": {
         "script": [
             "$currentBuildNumber = [int] (Get-ItemProperty \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\").CurrentBuildNumber",
@@ -40,7 +45,7 @@
             "}",
             "$registryRoot = if ($global) { \"HKLM\" } else { \"HKCU\" }",
             "$registryKey = \"${registryRoot}:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts\"",
-            "Get-ChildItem $dir -Filter '*.ttc' | ForEach-Object {",
+            "Get-ChildItem $dir -Filter '*.otf' | ForEach-Object {",
             "    $value = if ($global) { $_.Name } else { \"$fontInstallDir\\$($_.Name)\" }",
             "    New-ItemProperty -Path $registryKey -Name $_.Name.Replace($_.Extension, ' (TrueType)') -Value $value -Force | Out-Null",
             "    Copy-Item -LiteralPath $_.FullName -Destination $fontInstallDir",
@@ -49,7 +54,7 @@
     },
     "pre_uninstall": [
         "$fontInstallDir = if ($global) { \"$env:windir\\Fonts\" } else { \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\" }",
-        "Get-ChildItem $dir -Filter '*.ttc' | ForEach-Object {",
+        "Get-ChildItem $dir -Filter '*.otf' | ForEach-Object {",
         "    Get-ChildItem $fontInstallDir -Filter $_.Name | ForEach-Object {",
         "        try {",
         "            Rename-Item $_.FullName $_.FullName -ErrorVariable LockError -ErrorAction Stop",
@@ -79,17 +84,13 @@
             "$fontInstallDir = if ($global) { \"$env:windir\\Fonts\" } else { \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\" }",
             "$registryRoot = if ($global) { \"HKLM\" } else { \"HKCU\" }",
             "$registryKey = \"${registryRoot}:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts\"",
-            "Get-ChildItem $dir -Filter '*.ttc' | ForEach-Object {",
+            "Get-ChildItem $dir -Filter '*.otf' | ForEach-Object {",
             "    Remove-ItemProperty -Path $registryKey -Name $_.Name.Replace($_.Extension, ' (TrueType)') -Force -ErrorAction SilentlyContinue",
             "    Remove-Item \"$fontInstallDir\\$($_.Name)\" -Force -ErrorAction SilentlyContinue",
             "}",
             "if ($cmd -eq \"uninstall\") {",
-            "    Write-Host \"The 'HM-Gothic' Font family has been uninstalled and will not be present after restarting your computer.\" -Foreground Magenta",
+            "    Write-Host \"The '$app' font family has been uninstalled and will not be present after restarting your computer.\" -Foreground Magenta",
             "}"
         ]
-    },
-    "checkver": "github",
-    "autoupdate": {
-        "url": "https://github.com/xrgzs/HM-Gothic/releases/download/v$version/HM-TTC-Unhinted-$version.7z"
     }
 }
