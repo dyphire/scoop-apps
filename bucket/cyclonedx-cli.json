@@ -1,20 +1,20 @@
 {
-    "version": "0.27.2",
+    "version": "0.28.2",
     "description": "CycloneDX CLI tool for SBOM analysis, merging, diffs and format conversions.",
     "homepage": "https://cyclonedx.org/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/CycloneDX/cyclonedx-cli/releases/download/v0.27.2/cyclonedx-win-x64.exe#/cyclonedx.exe",
-            "hash": "bb26bb56293ebe6f08fa63d2bf50653fc6b180174fded975c81ac96ac192a7db"
+            "url": "https://github.com/CycloneDX/cyclonedx-cli/releases/download/v0.28.2/cyclonedx-win-x64.exe#/cyclonedx.exe",
+            "hash": "f3df3c0481e8335bd096efbba1a1ea79b5262e122053e83b7b7e5201828b03f5"
         },
         "32bit": {
-            "url": "https://github.com/CycloneDX/cyclonedx-cli/releases/download/v0.27.2/cyclonedx-win-x86.exe#/cyclonedx.exe",
-            "hash": "3971273d9c8ad34769e615212194c2e71cff02ccd0441ba1a5bd84f98dc7126d"
+            "url": "https://github.com/CycloneDX/cyclonedx-cli/releases/download/v0.28.2/cyclonedx-win-x86.exe#/cyclonedx.exe",
+            "hash": "9cf8305d2cfc2a9353d7cdbbea1cf3ff4a02487461e8362aac476839ae0fea8f"
         },
         "arm64": {
-            "url": "https://github.com/CycloneDX/cyclonedx-cli/releases/download/v0.27.2/cyclonedx-win-arm64.exe#/cyclonedx.exe",
-            "hash": "35762d3e1979576f474ffc1c5b2273e19c33cdca44e5f1994c3de5d9cd0e9c1d"
+            "url": "https://github.com/CycloneDX/cyclonedx-cli/releases/download/v0.28.2/cyclonedx-win-arm64.exe#/cyclonedx.exe",
+            "hash": "6c48aba7ef5c933127cdd97a4e0800b96882db35b547b896093d716b3617028d"
         }
     },
     "bin": "cyclonedx.exe",
