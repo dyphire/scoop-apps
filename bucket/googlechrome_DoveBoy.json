@@ -24,11 +24,6 @@
             "chrome.exe",
             "chrome",
             "--user-data-dir=\"$dir\\User Data\""
-        ],
-        [
-            "chrome.exe",
-            "google-chrome",
-            "--user-data-dir=\"$dir\\User Data\""
         ]
     ],
     "shortcuts": [
@@ -38,6 +33,15 @@
             "--user-data-dir=\"$dir\\User Data\""
         ]
     ],
+    "post_install": [
+        "if (!(Test-Path \"$dir\\User Data\\*\") -and (Test-Path \"$env:LocalAppData\\Google\\Chrome\\User Data\")) {",
+        "    info '[Portable Mode]: Copying user data...'",
+        "    Copy-Item \"$env:LocalAppData\\Google\\Chrome\\User Data\\*\" \"$dir\\User Data\" -Recurse",
+        "}"
+    ],
+    "env_set": {
+        "CHROME_EXECUTABLE": "$dir\\chrome.exe"
+    },
     "persist": "User Data",
     "checkver": {
         "url": "https://scoopinstaller.github.io/UpdateTracker/googlechrome/chrome.min.xml",
