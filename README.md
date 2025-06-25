@@ -31,8 +31,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - ScoopInstaller/Extras
 - chawyehsu/dorado
 - matthewjberger/scoop-nerd-fonts
-- Calinou/scoop-games
 - Scoopforge/Extras-CN
+- Calinou/scoop-games
 - ScoopInstaller/Java
 - ScoopInstaller/Versions
 - arch3rPro/PST-Bucket
