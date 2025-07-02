@@ -15,12 +15,7 @@
             "extract_dir": "BaiduPCS-Go-v3.9.7-windows-x86"
         }
     },
-    "shortcuts": [
-        [
-            "BaiduPCS-Go.exe.exe",
-            "BaiduPCS-Go"
-        ]
-    ],
+    "bin": "BaiduPCS-Go.exe",
     "persist": [
         "config",
         "Downloads"
