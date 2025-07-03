@@ -100,6 +100,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - starise/Scoop-Gaming
 - cc713/ownscoop
 - mo-san/scoop-bucket
+- babo4d/scoop-xrtools
 - krproject/qi-windows
 - rivy/scoop-bucket
 - excitoon/scoop-user
@@ -107,7 +108,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - Weidows-projects/scoop-3rd
 - HUMORCE/nuke
 - Toddli468/Pentest-Scoop-Bucket
-- babo4d/scoop-xrtools
 - Darkatse/Scoop-KanColle
 - KnotUntied/scoop-fonts
 - MCOfficer/scoop-bucket
