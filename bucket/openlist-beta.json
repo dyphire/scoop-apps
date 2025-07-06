@@ -1,0 +1,50 @@
+{
+    "version": "2025.07.06.055801",
+    "description": "A file list program that supports multiple storages, powered by Gin and SolidJS, fork of AList.",
+    "homepage": "https://oplist.org/",
+    "license": "AGPL-3.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/OpenListTeam/OpenList/releases/download/beta/openlist-windows-amd64.zip",
+            "hash": "3a7c16211cf3650c44fabfe99c04d06e0c5d44c2d2b881183f5ae25b0a4e7c1c"
+        },
+        "32bit": {
+            "url": "https://github.com/OpenListTeam/OpenList/releases/download/beta/openlist-windows-386.zip",
+            "hash": "414494e9e8723118ff2817296da4734d6121aa159e6e83422de2d1a7f7df1dee"
+        },
+        "arm64": {
+            "url": "https://github.com/OpenListTeam/OpenList/releases/download/beta/openlist-windows-amd64.zip",
+            "hash": "3a7c16211cf3650c44fabfe99c04d06e0c5d44c2d2b881183f5ae25b0a4e7c1c"
+        }
+    },
+    "bin": [
+        [
+            "openlist.exe",
+            "openlist",
+            "--force-bin-dir"
+        ]
+    ],
+    "persist": [
+        "data",
+        "log"
+    ],
+    "checkver": {
+        "url": "https://api.github.com/repos/OpenListTeam/OpenList/releases/tags/beta",
+        "jsonpath": "$.assets[?(@.name == 'openlist-windows-amd64.zip')].updated_at",
+        "regex": "(\\d+)-(\\d+)-(\\d+)T(\\d+):(\\d+):(\\d+)Z",
+        "replace": "${1}.${2}.${3}.${4}${5}${6}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/OpenListTeam/OpenList/releases/download/beta/openlist-windows-amd64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/OpenListTeam/OpenList/releases/download/beta/openlist-windows-386.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/OpenListTeam/OpenList/releases/download/beta/openlist-windows-amd64.zip"
+            }
+        }
+    }
+}
