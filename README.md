@@ -81,10 +81,10 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - ygguorun/scoop-bucket
 - aliesbelik/poldi
 - SayCV/scoop-cvp
+- batkiz/backit
 - kengwang/scoop-ctftools-bucket
 - Velgus/Scoop-Portapps
 - brian6932/dank-scoop
-- batkiz/backit
 - Darkatse/Scoop-Darkatse
 - TianXiaTech/scoop-txt
 - ChungZH/peach
