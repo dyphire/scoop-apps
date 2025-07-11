@@ -61,8 +61,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - ViCrack/scoop-bucket
 - kiennq/scoop-misc
 - akirco/aki-apps
-- everyx/scoop-bucket
 - wangzq/scoop-bucket
+- everyx/scoop-bucket
 - Qv2ray/mochi
 - TheRandomLabs/Scoop-Bucket
 - zhoujin7/tomato
@@ -106,8 +106,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - excitoon/scoop-user
 - alextwothousand/scoop-bucket
 - Weidows-projects/scoop-3rd
-- HUMORCE/nuke
 - Toddli468/Pentest-Scoop-Bucket
+- HUMORCE/nuke
 - Darkatse/Scoop-KanColle
 - KnotUntied/scoop-fonts
 - MCOfficer/scoop-bucket
