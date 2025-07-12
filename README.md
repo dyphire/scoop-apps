@@ -70,8 +70,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - wzv5/ScoopBucket
 - DoveBoy/Apps
 - xrgzs/sdoog
-- TheRandomLabs/Scoop-Python
 - charmbracelet/scoop-bucket
+- TheRandomLabs/Scoop-Python
 - naderi/scoop-bucket
 - jonz94/scoop-sarasa-nerd-fonts
 - amorphobia/siku
