@@ -5,7 +5,6 @@
     "license": "Unknown",
     "url": "https://github.com/PasteBar/PasteBarApp/releases/download/v0.7.0/PasteBar_0.7.0_x64-portable.zip",
     "hash": "ed661b9734c4d35d7223437f026359d25d22be6bec0e567882745809005cb9a9",
-    "pre_install": "Remove-Item \"$dir\\`$*\", \"$dir\\uninst*\" -Force -Recurse",
     "installer": {
         "script": [
             "# handle runtime cache",
