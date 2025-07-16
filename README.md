@@ -80,13 +80,14 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - noql-net/scoop
 - ygguorun/scoop-bucket
 - aliesbelik/poldi
+- asimov-platform/scoop-bucket
 - SayCV/scoop-cvp
 - batkiz/backit
 - kengwang/scoop-ctftools-bucket
 - Velgus/Scoop-Portapps
 - brian6932/dank-scoop
-- Darkatse/Scoop-Darkatse
 - TianXiaTech/scoop-txt
+- Darkatse/Scoop-Darkatse
 - ChungZH/peach
 - 42wim/scoop-bucket
 - AStupidBear/scoop-bear
