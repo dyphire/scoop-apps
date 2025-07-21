@@ -1,0 +1,47 @@
+{
+    "version": "1.7.103.0",
+    "description": "一款适用于班级多媒体屏幕的课表的信息显示工具，可以一目了然地显示各种信息。",
+    "homepage": "https://classisland.tech/",
+    "license": "GPL-3.0-or-later",
+    "architecture": {
+        "arm64": {
+            "url": "https://github.com/ClassIsland/ClassIsland/releases/download/1.7.103.0/ClassIsland_app_windows_arm64_selfContained_folder.zip",
+            "hash": "7b383e6eb774554e05fd10fe17db7392dd9520597cd6fee2c588bf7fba402ea1"
+        },
+        "64bit": {
+            "url": "https://github.com/ClassIsland/ClassIsland/releases/download/1.7.103.0/ClassIsland_app_windows_x64_selfContained_folder.zip",
+            "hash": "826f2a12be2113aa65d244b959d5422620af73923a30b9e223722e03d9bae8ab"
+        },
+        "32bit": {
+            "url": "https://github.com/ClassIsland/ClassIsland/releases/download/1.7.103.0/ClassIsland_app_windows_x86_selfContained_folder.zip",
+            "hash": "36dc898f9868637ac7ade7c4cbd2a725db9a42c1ea3f62a86beba43d853ed838"
+        }
+    },
+    "shortcuts": [
+        [
+            "ClassIsland.exe",
+            "ClassIsland"
+        ]
+    ],
+    "persist": [
+        "data"
+    ],
+    "post_uninstall": "Remove-Item \"$env:APPDATA\\Microsoft\\Windows\\Start Menu\\ClassIsland.lnk\" -Force -ErrorAction SilentlyContinue | Out-Null",
+    "checkver": {
+        "url": "https://api.github.com/repos/ClassIsland/ClassIsland/releases?per_page=1",
+        "jsonpath": "$.tag_name"
+    },
+    "autoupdate": {
+        "architecture": {
+            "arm64": {
+                "url": "https://github.com/ClassIsland/ClassIsland/releases/download/$version/ClassIsland_app_windows_arm64_selfContained_folder.zip"
+            },
+            "64bit": {
+                "url": "https://github.com/ClassIsland/ClassIsland/releases/download/$version/ClassIsland_app_windows_x64_selfContained_folder.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/ClassIsland/ClassIsland/releases/download/$version/ClassIsland_app_windows_x86_selfContained_folder.zip"
+            }
+        }
+    }
+}
