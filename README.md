@@ -106,6 +106,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - rivy/scoop-bucket
 - excitoon/scoop-user
 - alextwothousand/scoop-bucket
+- AkariiinMKII/Scoop4kariiin
 - Weidows-projects/scoop-3rd
 - Toddli468/Pentest-Scoop-Bucket
 - HUMORCE/nuke
@@ -113,7 +114,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - KnotUntied/scoop-fonts
 - MCOfficer/scoop-bucket
 - littleli/Scoop-littleli
-- AkariiinMKII/Scoop4kariiin
 - BenjaminMichaelis/Config
 - WinApps-share/WinApps-bucket
 - beer-psi/scoop-bucket
