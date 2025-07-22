@@ -112,6 +112,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - HUMORCE/nuke
 - Darkatse/Scoop-KanColle
 - KnotUntied/scoop-fonts
+- Deide/deide-bucket
 - MCOfficer/scoop-bucket
 - littleli/Scoop-littleli
 - BenjaminMichaelis/Config
