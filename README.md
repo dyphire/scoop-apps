@@ -118,5 +118,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - BenjaminMichaelis/Config
 - WinApps-share/WinApps-bucket
 - beer-psi/scoop-bucket
+- natecohen/scoop-av
 - yuusakuri/scoop-bucket
 - ChinLong/scoop-customize
