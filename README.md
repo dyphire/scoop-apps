@@ -110,13 +110,13 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - AkariiinMKII/Scoop4kariiin
 - Weidows-projects/scoop-3rd
 - Toddli468/Pentest-Scoop-Bucket
+- WinApps-share/WinApps-bucket
 - Darkatse/Scoop-KanColle
 - HUMORCE/nuke
 - Deide/deide-bucket
 - MCOfficer/scoop-bucket
 - littleli/Scoop-littleli
 - BenjaminMichaelis/Config
-- WinApps-share/WinApps-bucket
 - beer-psi/scoop-bucket
 - natecohen/scoop-av
 - yuusakuri/scoop-bucket
