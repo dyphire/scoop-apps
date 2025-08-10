@@ -37,8 +37,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - ScoopInstaller/Versions
 - arch3rPro/PST-Bucket
 - borger/scoop-galaxy-integrations
-- TheCjw/scoop-retools
 - hoilc/scoop-lemon
+- TheCjw/scoop-retools
 - kodybrown/scoop-nirsoft
 - TheRandomLabs/scoop-nonportable
 - littleli/scoop-clojure
@@ -53,8 +53,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - echoiron/echo-scoop
 - cderv/r-bucket
 - hermanjustnu/scoop-emulators
-- couleur-tweak-tips/utils
 - whoopscs/scoop-security
+- couleur-tweak-tips/utils
 - dodorz/scoop
 - niheaven/scoop-sysinternals
 - borger/scoop-emulators
