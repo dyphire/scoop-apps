@@ -1,12 +1,15 @@
 {
-    "version": "5.0.1263.0",
-    "description": "NanaZip is an open source file archiver intended for the modern Windows experience, forked from the source code of well-known open source file archiver 7-Zip.",
-    "homepage": "https://github.com/M2Team/NanaZip",
+    "version": "6.4.810.0",
+    "description": "获取商店应用 | 离线下载 Microsoft Store 商店应用",
+    "homepage": "https://github.com/Gaoyifei1011/GetStoreApp",
     "license": "MIT",
-    "url": "https://github.com/M2Team/NanaZip/releases/download/5.0.1263.0/NanaZip_5.0.1263.0.msixbundle#/dl.7z",
-    "hash": "dd038067a86052324a3d71104fb0504405fefbce3eec6fa9ff8aae31a388992c",
+    "url": "https://github.com/Gaoyifei1011/GetStoreApp/releases/download/v6.4.810.0/GetStoreAppPackage_6.4.810.0_x86_x64_arm64.msixbundle#/dl.7z",
+    "hash": "2928f7a664e152aaa6c5061fd592c89beb5f099b77198dcc3077a2f5829da080",
     "extract_to": "Deploy",
     "architecture": {
+        "32bit": {
+            "pre_install": "Get-ChildItem \"$dir\\Deploy\\*_x86.msix\" | ForEach-Object { Expand-7zipArchive $_ $dir }"
+        },
         "64bit": {
             "pre_install": "Get-ChildItem \"$dir\\Deploy\\*_x64.msix\" | ForEach-Object { Expand-7zipArchive $_ $dir }"
         },
@@ -14,12 +17,6 @@
             "pre_install": "Get-ChildItem \"$dir\\Deploy\\*_ARM64.msix\" | ForEach-Object { Expand-7zipArchive $_ $dir }"
         }
     },
-    "shortcuts": [
-        [
-            "NanaZip.Modern.exe",
-            "NanaZip"
-        ]
-    ],
     "installer": {
         "script": [
             ". \"$bucketsdir\\$bucket\\bin\\utils.ps1\"",
@@ -33,17 +30,18 @@
     "pre_uninstall": [
         "$bucket = $install.bucket",
         ". \"$bucketsdir\\$bucket\\bin\\utils.ps1\"",
-        "Stop-App",
         "Import-AppxPSModule",
+        "Stop-App",
         "if ($cmd -eq 'uninstall') {",
-        "    reg.exe delete \"HKEY_CURRENT_USER\\SOFTWARE\\NanaZip\" /f",
-        "    Get-AppxPackage -Name \"40174MouriNaruto.NanaZip\" | Remove-AppxPackage",
+        "    Get-AppxPackage -Name \"Gaoyifei1011.GetStoreApp\" | Remove-AppxPackage",
         "} else {",
-        "    Get-AppxPackage -Name \"40174MouriNaruto.NanaZip\" | Remove-AppxPackage -PreserveApplicationData",
+        "    Get-AppxPackage -Name \"Gaoyifei1011.GetStoreApp\" | Remove-AppxPackage -PreserveApplicationData",
         "}"
     ],
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/Gaoyifei1011/GetStoreApp"
+    },
     "autoupdate": {
-        "url": "https://github.com/M2Team/NanaZip/releases/download/$version/NanaZip_$version.msixbundle#/dl.7z"
+        "url": "https://github.com/Gaoyifei1011/GetStoreApp/releases/download/v$version/GetStoreAppPackage_$version_x86_x64_arm64.msixbundle#/dl.7z"
     }
 }

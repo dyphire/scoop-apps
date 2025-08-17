@@ -1,0 +1,34 @@
+{
+    "version": "0.6.22+96",
+    "description": "v2ray, xray, ... GUI for Windows, macOS, Linux, Android",
+    "homepage": "https://github.com/AnyPortal/AnyPortal",
+    "license": "Unknown",
+    "url": "https://github.com/AnyPortal/AnyPortal/releases/download/v0.6.22%2B96/anyportal-windows.zip",
+    "hash": "15ae1fb390281826460abab4d72494b6523a60bec94d1214a6f336c1f7940fca",
+    "extract_dir": "anyportal-windows",
+    "shortcuts": [
+        [
+            "anyportal.exe",
+            "AnyPortal"
+        ]
+    ],
+    "installer": {
+        "script": [
+            ". \"$bucketsdir\\$bucket\\bin\\utils.ps1\"",
+            "New-PersistDirectory \"$env:APPDATA\\com.github.anyportal\" \"$persist_dir\\AppData\" -Migrate"
+        ]
+    },
+    "pre_uninstall": [
+        "$bucket = $install.bucket",
+        ". \"$bucketsdir\\$bucket\\bin\\utils.ps1\"",
+        "Stop-App",
+        "Remove-Junction \"$env:APPDATA\\com.github.anyportal\""
+    ],
+    "checkver": {
+        "regex": "/releases/tag/v(?<rawver>(?<ver>[\\d.]+)%2B(?<build>\\d+))",
+        "replace": "${ver}+${build}"
+    },
+    "autoupdate": {
+        "url": "https://github.com/AnyPortal/AnyPortal/releases/download/v$matchRawver/anyportal-windows.zip"
+    }
+}

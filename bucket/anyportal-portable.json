@@ -7,11 +7,11 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/AnyPortal/AnyPortal/releases/download/v0.6.23+97/anyportal-windows-setup.exe",
-            "hash": "c38b18409a5063c2184ea2d5705e764f34844c7954a64105c2783d6e0e3a9beb"
+            "url": "https://github.com/AnyPortal/AnyPortal/releases/download/v0.6.23+97/anyportal-windows.zip",
+            "hash": "8ca9bb9f2ec29e654d28f8567c125c9b61f65826f714fd041841789278f9a1f2"
         }
     },
-    "innosetup": true,
+    "extract_dir": "anyportal-windows",
     "installer": {
         "script": [
             "# handle runtime cache",
@@ -45,7 +45,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/AnyPortal/AnyPortal/releases/download/v$version/anyportal-windows-setup.exe"
+                "url": "https://github.com/AnyPortal/AnyPortal/releases/download/v$version/anyportal-windows.zip"
             }
         }
     }
