@@ -1,16 +1,16 @@
 {
-    "version": "0.14.1",
+    "version": "0.14.3",
     "description": "The CLI for Axiom, a log management and analytics solution.",
     "homepage": "https://axiom.co",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/axiomhq/cli/releases/download/v0.14.1/axiom_0.14.1_windows_amd64.zip",
-            "hash": "0a851694b0f52c15f9ce205ad7a46df4bef3b30a94170e750021063a617eeaeb"
+            "url": "https://github.com/axiomhq/cli/releases/download/v0.14.3/axiom_0.14.3_windows_amd64.zip",
+            "hash": "d4e0240f850af2574b21c969f773101fee257e26007be0c9343f82b62153804e"
         },
         "32bit": {
-            "url": "https://github.com/axiomhq/cli/releases/download/v0.14.1/axiom_0.14.1_windows_386.zip",
-            "hash": "45c6bbfc499463c0eaadaaf4c0a6e2df51aa785716ddbfbc4f6e278913c73786"
+            "url": "https://github.com/axiomhq/cli/releases/download/v0.14.3/axiom_0.14.3_windows_386.zip",
+            "hash": "958a89c267ad1608e88ca9fce511a5fb9ab1fb19399488a4278292720c501056"
         }
     },
     "bin": "axiom.exe",
