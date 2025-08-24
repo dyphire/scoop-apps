@@ -95,13 +95,13 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - mogeko/scoop-sysinternals
 - starise/Scoop-Confetti
 - aoisummer/scoop-bucket
+- babo4d/scoop-xrtools
 - seumsc/scoop-seu
 - Small-Ku/turbo-bucket
 - jfut/scoop-jfut
 - starise/Scoop-Gaming
 - cc713/ownscoop
 - mo-san/scoop-bucket
-- babo4d/scoop-xrtools
 - krproject/qi-windows
 - rivy/scoop-bucket
 - KnotUntied/scoop-fonts
