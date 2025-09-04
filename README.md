@@ -41,8 +41,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - TheCjw/scoop-retools
 - kodybrown/scoop-nirsoft
 - TheRandomLabs/scoop-nonportable
-- ScoopInstaller/Nirsoft
 - littleli/scoop-clojure
+- ScoopInstaller/Nirsoft
 - scoopcn/scoopcn
 - rasa/scoops
 - ScoopInstaller/Nonportable
