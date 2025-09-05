@@ -1,32 +1,22 @@
 {
-    "version": "15.0.0.8",
-    "description": "IObit Uninstaller中文版是一款专业的软件卸载工具，IObit Uninstaller最新版功能包括：强制卸载， 批量卸载，安装监视器，文件粉碎，软件健康检查，卸载Windows 更新补丁，移除浏览器工具栏和扩展插件等。",
-    "homepage": "https://www.423down.com/7732.html",
+    "version": "15.0.0",
+    "description": "Complete Software Uninstall without Leaving a Trace",
+    "homepage": "https://www.iobit.com/en/advanceduninstaller.php",
     "license": "Freeware",
-    "url": "https://api.xrgzs.top/lanzou/?url=https://www.lanzoui.com/iUi49359szij&type=down#/dl.7z",
-    "hash": "63781dc6971e30eecd35c45897c813a87f272f47b5ee49a2379305f05d66a0f8",
-    "extract_dir": "IObitUninstaller",
+    "url": "https://cdn.iobit.com/dl/iobituninstaller.exe",
+    "hash": "de5e9547d05cb0edf5f80db717da1c73f8b828d1369b5a522fb989f5e3261d1f",
+    "innosetup": true,
+    "bin": "IObitUninstaler.exe",
     "shortcuts": [
         [
-            "IObitUninstallerPortable.exe",
-            "IObit Uninstaller"
+            "IObitUninstaler.exe",
+            "IObitUninstaler"
         ]
     ],
-    "persist": "Data",
-    "pre_uninstall": [
-        "$bucket = $install.bucket",
-        ". \"$bucketsdir\\$bucket\\bin\\utils.ps1\"",
-        "Stop-App"
-    ],
     "checkver": {
-        "script": [
-            ". \"$pwd\\bin\\utils.ps1\"",
-            "$f = Get-LanzouList \"https://423down.lanzouo.com/b0f19v03a\" | Where-Object { $_.name_all -like \"IObitUninstaller-Pro-*-Portable.exe\" } | Select-Object -First 1",
-            "$f.name_all + '=====' + $f.id"
-        ],
-        "regex": "IObitUninstaller-Pro-v?(.*)-Portable.exe=====(?<sharekey>.*)"
+        "regex": "<span>V\\s+([\\d.]+)</span>"
     },
     "autoupdate": {
-        "url": "https://api.xrgzs.top/lanzou/?url=https://www.lanzoui.com/$matchSharekey&type=down#/dl.7z"
+        "url": "https://cdn.iobit.com/dl/iobituninstaller.exe"
     }
 }

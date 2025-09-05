@@ -1,21 +1,21 @@
 {
-  "version": "0.2025.09.02.82d7195",
-  "description": "Data files from Loyalsoldier/v2ray-rules-dat, works for v2ray and Xray.",
-  "homepage": "https://github.com/Loyalsoldier/v2ray-rules-dat",
-  "license": {
-    "identifier": "GPL-3.0-or-later",
-    "url": "https://github.com/Loyalsoldier/v2ray-rules-dat/raw/master/LICENSE"
-  },
-  "url": "https://github.com/Loyalsoldier/v2ray-rules-dat/archive/82d719523b397e7d631da0cbb8fe2ac44411d1c5.zip",
-  "hash": "9711970f0396e7bf624c59747b4f25542ba896520314bd9a8edb855488c98980",
-  "extract_dir": "v2ray-rules-dat-82d719523b397e7d631da0cbb8fe2ac44411d1c5",
-  "checkver": {
-    "url": "https://github.com/Loyalsoldier/v2ray-rules-dat/commits/release.atom",
-    "regex": "(?s)>(\\d+)-(\\d+)-(\\d+)T.*?/(?<sha>(?<short>[0-9a-f]{7})[0-9a-f]{33})",
-    "replace": "0.${1}.${2}.${3}.${short}"
-  },
-  "autoupdate": {
-    "url": "https://github.com/Loyalsoldier/v2ray-rules-dat/archive/$matchSha.zip",
-    "extract_dir": "v2ray-rules-dat-$matchSha"
-  }
+    "version": "0.2025.09.04.9a59e6b",
+    "description": "Data files from Loyalsoldier/v2ray-rules-dat, works for v2ray and Xray.",
+    "homepage": "https://github.com/Loyalsoldier/v2ray-rules-dat",
+    "license": {
+        "identifier": "GPL-3.0-or-later",
+        "url": "https://github.com/Loyalsoldier/v2ray-rules-dat/raw/master/LICENSE"
+    },
+    "url": "https://github.com/Loyalsoldier/v2ray-rules-dat/archive/9a59e6b96ab2c46420f2941a9db97581730ee047.zip",
+    "hash": "ded45dfe5c337e825e0c6a591d074dcb9005199c79fd283b855f5f3c7af8cebf",
+    "extract_dir": "v2ray-rules-dat-9a59e6b96ab2c46420f2941a9db97581730ee047",
+    "checkver": {
+        "url": "https://github.com/Loyalsoldier/v2ray-rules-dat/commits/release.atom",
+        "regex": "(?s)>(\\d+)-(\\d+)-(\\d+)T.*?/(?<sha>(?<short>[0-9a-f]{7})[0-9a-f]{33})",
+        "replace": "0.${1}.${2}.${3}.${short}"
+    },
+    "autoupdate": {
+        "url": "https://github.com/Loyalsoldier/v2ray-rules-dat/archive/$matchSha.zip",
+        "extract_dir": "v2ray-rules-dat-$matchSha"
+    }
 }
