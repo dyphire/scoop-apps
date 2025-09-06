@@ -11175,7 +11175,6 @@ picotorrent_DoveBoy.json    DoveBoy/Apps
 trafficmonitor-lite_DoveBoy.json    DoveBoy/Apps
 pot-desktop_DoveBoy.json    DoveBoy/Apps
 rustdesk_DoveBoy.json    DoveBoy/Apps
-electerm_DoveBoy.json    DoveBoy/Apps
 7zip-beta_DoveBoy.json    DoveBoy/Apps
 easyserviceoptimizer_DoveBoy.json    DoveBoy/Apps
 daisy.json    DoveBoy/Apps
@@ -12820,8 +12819,8 @@ Fotor_cmontage.json    cmontage/scoopbucket-third
 Foxmail_cmontage.json    cmontage/scoopbucket-third
 FrChannelPlus.json    cmontage/scoopbucket-third
 FrameScanGUI.json    cmontage/scoopbucket-third
+Frameless_cmontage.json    cmontage/scoopbucket-third
 Frchannel.json    cmontage/scoopbucket-third
-FreeCAD_dodorz.json    cmontage/scoopbucket-third
 FreeFileSync-Portable_cmontage.json    cmontage/scoopbucket-third
 FreeFileSync_cc713.json    cmontage/scoopbucket-third
 FreeFileSync_dodorz.json    cmontage/scoopbucket-third
@@ -13506,6 +13505,7 @@ Notepad--_dodorz.json    cmontage/scoopbucket-third
 Notepad3-mod_cmontage.json    cmontage/scoopbucket-third
 Notepad3_dodorz.json    cmontage/scoopbucket-third
 Notepad4_dodorz.json    cmontage/scoopbucket-third
+Notepad4_zh-Hans_cmontage.json    cmontage/scoopbucket-third
 NotepadNext_abgox.json    cmontage/scoopbucket-third
 Notepads.json    cmontage/scoopbucket-third
 Notepads_AkariiinMKII.json    cmontage/scoopbucket-third
@@ -15096,6 +15096,8 @@ asap.json    cmontage/scoopbucket-third
 asar7z_cmontage.json    cmontage/scoopbucket-third
 ascii-sector_cmontage.json    cmontage/scoopbucket-third
 asciidocfx_cmontage.json    cmontage/scoopbucket-third
+asimov-apify-module.json    cmontage/scoopbucket-third
+asimov-brightdata-module.json    cmontage/scoopbucket-third
 asimov-chromium-module.json    cmontage/scoopbucket-third
 asimov-cli.json    cmontage/scoopbucket-third
 asimov-ftp-module.json    cmontage/scoopbucket-third
@@ -15108,8 +15110,10 @@ asimov-luma-module.json    cmontage/scoopbucket-third
 asimov-maildir-module.json    cmontage/scoopbucket-third
 asimov-mbox-module.json    cmontage/scoopbucket-third
 asimov-module-cli.json    cmontage/scoopbucket-third
+asimov-near-module.json    cmontage/scoopbucket-third
 asimov-outlook-module.json    cmontage/scoopbucket-third
 asimov-readwise-module.json    cmontage/scoopbucket-third
+asimov-serpapi-module.json    cmontage/scoopbucket-third
 asimov-signal-module.json    cmontage/scoopbucket-third
 asimov-snapshot-cli.json    cmontage/scoopbucket-third
 asimov-telegram-module.json    cmontage/scoopbucket-third
@@ -16050,7 +16054,6 @@ clcl_naderi.json    cmontage/scoopbucket-third
 clean-my-wechat.json    cmontage/scoopbucket-third
 cleanafterme_cmontage.json    cmontage/scoopbucket-third
 cleanafterme_ScoopInstaller.json    cmontage/scoopbucket-third
-cleanmgrplus-de.json    cmontage/scoopbucket-third
 cleanmgrplus.json    cmontage/scoopbucket-third
 cleanmywechat_cmontage.json    cmontage/scoopbucket-third
 cleanmywechat_amorphobia.json    cmontage/scoopbucket-third
@@ -17289,7 +17292,7 @@ evernote_cmontage.json    cmontage/scoopbucket-third
 evernote_kidonng.json    cmontage/scoopbucket-third
 everyone-can-use-english.json    cmontage/scoopbucket-third
 everything-alpha_cmontage.json    cmontage/scoopbucket-third
-everything-alpha_DoveBoy.json    cmontage/scoopbucket-third
+everything-alpha_ScoopInstaller.json    cmontage/scoopbucket-third
 everything-beta-np_cmontage.json    cmontage/scoopbucket-third
 everything-beta-np_ScoopInstaller.json    cmontage/scoopbucket-third
 everything-beta_cmontage.json    cmontage/scoopbucket-third
@@ -24905,7 +24908,7 @@ v2rayn-core_seumsc.json    cmontage/scoopbucket-third
 v2rayn-pre_cmontage.json    cmontage/scoopbucket-third
 v2rayn-pro.json    cmontage/scoopbucket-third
 v2rayn_cmontage.json    cmontage/scoopbucket-third
-v2rayn_ScoopInstaller.json    cmontage/scoopbucket-third
+v2rayn_DoveBoy.json    cmontage/scoopbucket-third
 v2rayn_echoiron.json    cmontage/scoopbucket-third
 v2rayn_noql-net.json    cmontage/scoopbucket-third
 v@0.3.2.json    cmontage/scoopbucket-third
@@ -27519,7 +27522,7 @@ mqttui_aliesbelik.json    aliesbelik/poldi
 dblab_aliesbelik.json    aliesbelik/poldi
 dsq_aliesbelik.json    aliesbelik/poldi
 tt_aliesbelik.json    aliesbelik/poldi
-asimov-serpapi-module.json    asimov-platform/scoop-bucket
+asimov-serpapi-module_asimov-platform.json    asimov-platform/scoop-bucket
 asimov-x-module_asimov-platform.json    asimov-platform/scoop-bucket
 asimov-mbox-module_asimov-platform.json    asimov-platform/scoop-bucket
 asimov-vcard-module_asimov-platform.json    asimov-platform/scoop-bucket
@@ -27527,15 +27530,15 @@ asimov-ftp-module_asimov-platform.json    asimov-platform/scoop-bucket
 asimov-module-cli_asimov-platform.json    asimov-platform/scoop-bucket
 asimov-jinja-module_asimov-platform.json    asimov-platform/scoop-bucket
 asimov-imap-module_asimov-platform.json    asimov-platform/scoop-bucket
-asimov-near-module.json    asimov-platform/scoop-bucket
+asimov-near-module_asimov-platform.json    asimov-platform/scoop-bucket
 asimov-chromium-module_asimov-platform.json    asimov-platform/scoop-bucket
 asimov-telegram-module_asimov-platform.json    asimov-platform/scoop-bucket
 asimov-ipfs-module_asimov-platform.json    asimov-platform/scoop-bucket
 asimov-readwise-module_asimov-platform.json    asimov-platform/scoop-bucket
 asimov-http-module_asimov-platform.json    asimov-platform/scoop-bucket
-asimov-apify-module.json    asimov-platform/scoop-bucket
+asimov-apify-module_asimov-platform.json    asimov-platform/scoop-bucket
 asimov-luma-module_asimov-platform.json    asimov-platform/scoop-bucket
-asimov-brightdata-module.json    asimov-platform/scoop-bucket
+asimov-brightdata-module_asimov-platform.json    asimov-platform/scoop-bucket
 asimov-jq-module_asimov-platform.json    asimov-platform/scoop-bucket
 asimov-outlook-module_asimov-platform.json    asimov-platform/scoop-bucket
 asimov-signal-module_asimov-platform.json    asimov-platform/scoop-bucket
