@@ -65,12 +65,12 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - everyx/scoop-bucket
 - Qv2ray/mochi
 - TheRandomLabs/Scoop-Bucket
+- cmontage/scoopbucket-third
 - zhoujin7/tomato
 - DoveBoy/Apps
 - xrgzs/sdoog
-- cmontage/scoopbucket-third
-- wzv5/ScoopBucket
 - charmbracelet/scoop-bucket
+- wzv5/ScoopBucket
 - TheRandomLabs/Scoop-Python
 - jonz94/scoop-sarasa-nerd-fonts
 - naderi/scoop-bucket
