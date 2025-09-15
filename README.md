@@ -72,9 +72,9 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - charmbracelet/scoop-bucket
 - wzv5/ScoopBucket
 - TheRandomLabs/Scoop-Python
+- amorphobia/siku
 - jonz94/scoop-sarasa-nerd-fonts
 - naderi/scoop-bucket
-- amorphobia/siku
 - hu3rror/scoop-muggle
 - NyaMisty/scoopbucketmisty
 - noql-net/scoop
@@ -118,6 +118,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - Deide/deide-bucket
 - MCOfficer/scoop-bucket
 - littleli/Scoop-littleli
+- littleli/Scoop-AtariEmulators
 - Scoopforge/Extras-Plus
 - beer-psi/scoop-bucket
 - yuusakuri/scoop-bucket
