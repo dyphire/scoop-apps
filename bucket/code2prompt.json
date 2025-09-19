@@ -1,30 +1,20 @@
 {
-    "version": "4.0.1",
+    "version": "4.0.2",
     "description": "A CLI tool to convert your codebase into a single LLM prompt with source tree, prompt templating, and token counting.",
     "homepage": "https://github.com/mufeedvh/code2prompt",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/code2prompt-4.0.1/code2prompt-4.0.1-x86_64-pc-windows-msvc.tar.gz",
-            "hash": "37dd8e24d7c9e502c4d51dea1a98950656b35021b61d4691e4c6f73f5528e2a0"
-        },
-        "arm64": {
-            "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/code2prompt-4.0.1/code2prompt-4.0.1-aarch64-pc-windows-msvc.tar.gz",
-            "hash": "e053bfc0b5761ddb62f26cf8f617211200beb3db9d6b8b2eb045d02cbede6f0a"
+            "url": "https://github.com/mufeedvh/code2prompt/releases/download/v4.0.2/code2prompt-x86_64-pc-windows-msvc.exe#/code2prompt.exe",
+            "hash": "4db4bd0c2845376f785868cf3ee2b4e526d37e36d07169469fd57acce9100d8b"
         }
     },
     "bin": "code2prompt.exe",
-    "checkver": {
-        "url": "https://crates.io/api/v1/crates/code2prompt?include=default_version",
-        "jsonpath": "$.crate.default_version"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/code2prompt-$version/code2prompt-$version-x86_64-pc-windows-msvc.tar.gz"
-            },
-            "arm64": {
-                "url": "https://github.com/cargo-bins/cargo-quickinstall/releases/download/code2prompt-$version/code2prompt-$version-aarch64-pc-windows-msvc.tar.gz"
+                "url": "https://github.com/mufeedvh/code2prompt/releases/download/v$version/code2prompt-x86_64-pc-windows-msvc.exe#/code2prompt.exe"
             }
         }
     }
