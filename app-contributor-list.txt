@@ -204,6 +204,7 @@ shinjiru.json    ScoopInstaller/Extras
 ferdi.json    ScoopInstaller/Extras
 terminus.json    ScoopInstaller/Extras
 kindlegen.json    ScoopInstaller/Extras
+nekoray.json    ScoopInstaller/Extras
 .markdownlint.json    ScoopInstaller/Extras
 protege.json    ScoopInstaller/Extras
 garbro.json    ScoopInstaller/Extras
@@ -2010,6 +2011,7 @@ yek.json    ScoopInstaller/Extras
 twitchtest.json    ScoopInstaller/Extras
 adguardian.json    ScoopInstaller/Extras
 contour.json    ScoopInstaller/Extras
+throne.json    ScoopInstaller/Extras
 aws-session-manager-plugin.json    ScoopInstaller/Extras
 react-native-debugger.json    ScoopInstaller/Extras
 powertab.json    ScoopInstaller/Extras
@@ -2190,7 +2192,6 @@ gammy.json    ScoopInstaller/Extras
 steamcmd.json    ScoopInstaller/Extras
 gitkraken.json    ScoopInstaller/Extras
 ssh-agent-wsl.json    ScoopInstaller/Extras
-nekoray.json    ScoopInstaller/Extras
 tinynvidiaupdatechecker.json    ScoopInstaller/Extras
 cnping.json    ScoopInstaller/Extras
 youtrack.json    ScoopInstaller/Extras
@@ -6122,6 +6123,7 @@ kvirc.json    hoilc/scoop-lemon
 vexctl.json    hoilc/scoop-lemon
 addlicense.json    hoilc/scoop-lemon
 transifex-cli.json    hoilc/scoop-lemon
+zerolaunch.json    hoilc/scoop-lemon
 wechatbaktool.json    hoilc/scoop-lemon
 bed.json    hoilc/scoop-lemon
 codelobster.json    hoilc/scoop-lemon
@@ -6729,7 +6731,7 @@ keepass-plugin-keepassrdp.json    hoilc/scoop-lemon
 zincsearch.json    hoilc/scoop-lemon
 srumecmd.json    hoilc/scoop-lemon
 swagger-codegen-cli.json    hoilc/scoop-lemon
-throne.json    hoilc/scoop-lemon
+throne_hoilc.json    hoilc/scoop-lemon
 protofetch.json    hoilc/scoop-lemon
 keepass-plugin-keepassotp.json    hoilc/scoop-lemon
 hcledit.json    hoilc/scoop-lemon
@@ -14711,6 +14713,8 @@ batteryhistoryview_cmontage.json    cmontage/scoopbucket-third
 batteryhistoryview_kodybrown.json    cmontage/scoopbucket-third
 batteryinfoview_cmontage.json    cmontage/scoopbucket-third
 batteryinfoview_kodybrown.json    cmontage/scoopbucket-third
+batterymode-portable.json    cmontage/scoopbucket-third
+batterymode.json    cmontage/scoopbucket-third
 battlenet_cmontage.json    cmontage/scoopbucket-third
 baulk_cmontage.json    cmontage/scoopbucket-third
 bazelisk_rivy.json    cmontage/scoopbucket-third
@@ -15773,7 +15777,7 @@ csvdiff_cmontage.json    cmontage/scoopbucket-third
 csved_naderi.json    cmontage/scoopbucket-third
 csvfileview_cmontage.json    cmontage/scoopbucket-third
 csvfileview_AStupidBear.json    cmontage/scoopbucket-third
-csvfileview_ScoopInstaller.json    cmontage/scoopbucket-third
+csvfileview_kodybrown.json    cmontage/scoopbucket-third
 csvq_cmontage.json    cmontage/scoopbucket-third
 csvq_batkiz.json    cmontage/scoopbucket-third
 csvq_littleli.json    cmontage/scoopbucket-third
@@ -16129,6 +16133,7 @@ diskgenius-zh-cn.json    cmontage/scoopbucket-third
 diskgenius-zh_cmontage.json    cmontage/scoopbucket-third
 diskgenius_cmontage.json    cmontage/scoopbucket-third
 diskgeniusCN.json    cmontage/scoopbucket-third
+diskgenius_DoveBoy.json    cmontage/scoopbucket-third
 diskgenius_WinApps-share.json    cmontage/scoopbucket-third
 diskgenius_akirco.json    cmontage/scoopbucket-third
 diskmon_cmontage.json    cmontage/scoopbucket-third
@@ -16242,8 +16247,8 @@ dokany-np_cmontage.json    cmontage/scoopbucket-third
 dokany-np_ScoopInstaller.json    cmontage/scoopbucket-third
 dolphin-beta_cmontage.json    cmontage/scoopbucket-third
 dolphin-dev_cmontage.json    cmontage/scoopbucket-third
-dolphin-dev_Calinou.json    cmontage/scoopbucket-third
 dolphin-dev_borger.json    cmontage/scoopbucket-third
+dolphin-dev_hermanjustnu.json    cmontage/scoopbucket-third
 dolphin-nightly_cmontage.json    cmontage/scoopbucket-third
 dolphin_cmontage.json    cmontage/scoopbucket-third
 dolphin_Deide.json    cmontage/scoopbucket-third
@@ -16784,6 +16789,10 @@ famistudio_chawyehsu.json    cmontage/scoopbucket-third
 famistudio_naderi.json    cmontage/scoopbucket-third
 famitracker_cmontage.json    cmontage/scoopbucket-third
 fan-control.json    cmontage/scoopbucket-third
+fancontrol-net4.8-portable.json    cmontage/scoopbucket-third
+fancontrol-net4.8.json    cmontage/scoopbucket-third
+fancontrol-net8.0-portable.json    cmontage/scoopbucket-third
+fancontrol-net8.0.json    cmontage/scoopbucket-third
 fancontrol_cmontage.json    cmontage/scoopbucket-third
 fancywm.json    cmontage/scoopbucket-third
 fanqienovel-downloader.json    cmontage/scoopbucket-third
@@ -19292,6 +19301,8 @@ lyx_naderi.json    cmontage/scoopbucket-third
 lz4_aoisummer.json    cmontage/scoopbucket-third
 lzdoom_cmontage.json    cmontage/scoopbucket-third
 m3u8-downloader_cmontage.json    cmontage/scoopbucket-third
+m3u8d-cli.json    cmontage/scoopbucket-third
+m3u8d-ui.json    cmontage/scoopbucket-third
 m4a-to-mp3-converter_cmontage.json    cmontage/scoopbucket-third
 m4acut_cmontage.json    cmontage/scoopbucket-third
 mRemoteNG-Portable_cmontage.json    cmontage/scoopbucket-third
@@ -24663,7 +24674,7 @@ vscode@1.59.1.json    cmontage/scoopbucket-third
 vscode@1.64.0.json    cmontage/scoopbucket-third
 vscode@1.68.1.json    cmontage/scoopbucket-third
 vscode@1.76.2.json    cmontage/scoopbucket-third
-vscode_ScoopInstaller.json    cmontage/scoopbucket-third
+vscode_Weidows-projects.json    cmontage/scoopbucket-third
 vscode_WinApps-share.json    cmontage/scoopbucket-third
 vscode_akirco.json    cmontage/scoopbucket-third
 vscode_rivy.json    cmontage/scoopbucket-third
@@ -25131,6 +25142,7 @@ wintogo_cmontage.json    cmontage/scoopbucket-third
 wintools.json    cmontage/scoopbucket-third
 wintun.json    cmontage/scoopbucket-third
 winuae_cmontage.json    cmontage/scoopbucket-third
+winupdateminitool.json    cmontage/scoopbucket-third
 winupdateslist_cmontage.json    cmontage/scoopbucket-third
 winupdatesview_cmontage.json    cmontage/scoopbucket-third
 winusb.json    cmontage/scoopbucket-third
@@ -25950,7 +25962,7 @@ tmspeech_DoveBoy.json    DoveBoy/Apps
 b0pass_DoveBoy.json    DoveBoy/Apps
 wechat_DoveBoy.json    DoveBoy/Apps
 littletips-portable_DoveBoy.json    DoveBoy/Apps
-m3u8d-cli.json    DoveBoy/Apps
+m3u8d-cli_DoveBoy.json    DoveBoy/Apps
 qbittorrent-enhanced_DoveBoy.json    DoveBoy/Apps
 irfanview_DoveBoy.json    DoveBoy/Apps
 ftpserver_DoveBoy.json    DoveBoy/Apps
@@ -25988,7 +26000,7 @@ splayer_DoveBoy.json    DoveBoy/Apps
 openotp_DoveBoy.json    DoveBoy/Apps
 yarn-completion_DoveBoy.json    DoveBoy/Apps
 czkawka-gui_DoveBoy.json    DoveBoy/Apps
-fancontrol-net4.8-portable.json    DoveBoy/Apps
+fancontrol-net4.8-portable_DoveBoy.json    DoveBoy/Apps
 webcam-on-off_DoveBoy.json    DoveBoy/Apps
 final2x-portable_DoveBoy.json    DoveBoy/Apps
 yazi.json    DoveBoy/Apps
@@ -26180,7 +26192,7 @@ fd.json    DoveBoy/Apps
 easymusic_DoveBoy.json    DoveBoy/Apps
 energystarx_DoveBoy.json    DoveBoy/Apps
 winget.json    DoveBoy/Apps
-batterymode-portable.json    DoveBoy/Apps
+batterymode-portable_DoveBoy.json    DoveBoy/Apps
 iwck_DoveBoy.json    DoveBoy/Apps
 tiktokdownloader_DoveBoy.json    DoveBoy/Apps
 video-srt-windows-with-ffmpeg_DoveBoy.json    DoveBoy/Apps
@@ -26189,7 +26201,7 @@ resizem_DoveBoy.json    DoveBoy/Apps
 lsar_DoveBoy.json    DoveBoy/Apps
 voice-pro_DoveBoy.json    DoveBoy/Apps
 hashcat.json    DoveBoy/Apps
-batterymode.json    DoveBoy/Apps
+batterymode_DoveBoy.json    DoveBoy/Apps
 telegram-downloader_DoveBoy.json    DoveBoy/Apps
 libreoffice_DoveBoy.json    DoveBoy/Apps
 abdownloadmanager_DoveBoy.json    DoveBoy/Apps
@@ -26216,7 +26228,7 @@ diskcheckup_DoveBoy.json    DoveBoy/Apps
 ttyd.json    DoveBoy/Apps
 zyplayer_DoveBoy.json    DoveBoy/Apps
 youku_DoveBoy.json    DoveBoy/Apps
-winupdateminitool.json    DoveBoy/Apps
+winupdateminitool_DoveBoy.json    DoveBoy/Apps
 opensearcher-win7_DoveBoy.json    DoveBoy/Apps
 qkeymapper-qt6_DoveBoy.json    DoveBoy/Apps
 whisper_DoveBoy.json    DoveBoy/Apps
@@ -26377,7 +26389,7 @@ v2ray-rules-dat-git_DoveBoy.json    DoveBoy/Apps
 clone-voice_DoveBoy.json    DoveBoy/Apps
 clash-rev-compatible-go120_DoveBoy.json    DoveBoy/Apps
 xx-net_DoveBoy.json    DoveBoy/Apps
-fancontrol-net8.0-portable.json    DoveBoy/Apps
+fancontrol-net8.0-portable_DoveBoy.json    DoveBoy/Apps
 pscompletions_DoveBoy.json    DoveBoy/Apps
 nattypetester_DoveBoy.json    DoveBoy/Apps
 typora-plugin_DoveBoy.json    DoveBoy/Apps
@@ -26405,7 +26417,7 @@ alist.json    DoveBoy/Apps
 urlfinder_DoveBoy.json    DoveBoy/Apps
 mocreak_DoveBoy.json    DoveBoy/Apps
 obs-studio-pre_DoveBoy.json    DoveBoy/Apps
-fancontrol-net8.0.json    DoveBoy/Apps
+fancontrol-net8.0_DoveBoy.json    DoveBoy/Apps
 nomeiryoui_DoveBoy.json    DoveBoy/Apps
 grep.json    DoveBoy/Apps
 npm-tab-completion_DoveBoy.json    DoveBoy/Apps
@@ -26479,13 +26491,13 @@ study-xxqg-sjkhsl_DoveBoy.json    DoveBoy/Apps
 convert.net_DoveBoy.json    DoveBoy/Apps
 ps-guicompletion_DoveBoy.json    DoveBoy/Apps
 syncthing-beta_DoveBoy.json    DoveBoy/Apps
-m3u8d-ui.json    DoveBoy/Apps
+m3u8d-ui_DoveBoy.json    DoveBoy/Apps
 thunder-https_DoveBoy.json    DoveBoy/Apps
 mpv.net-beta_DoveBoy.json    DoveBoy/Apps
 runastool_DoveBoy.json    DoveBoy/Apps
 lettura_DoveBoy.json    DoveBoy/Apps
 vutronmusic_DoveBoy.json    DoveBoy/Apps
-fancontrol-net4.8.json    DoveBoy/Apps
+fancontrol-net4.8_DoveBoy.json    DoveBoy/Apps
 magpie_DoveBoy.json    DoveBoy/Apps
 croc.json    DoveBoy/Apps
 ghostscript.json    DoveBoy/Apps
@@ -28031,6 +28043,7 @@ yj_aliesbelik.json    aliesbelik/poldi
 kcli_aliesbelik.json    aliesbelik/poldi
 sqlc_aliesbelik.json    aliesbelik/poldi
 tpm_aliesbelik.json    aliesbelik/poldi
+lazyssh_aliesbelik.json    aliesbelik/poldi
 dijo_aliesbelik.json    aliesbelik/poldi
 fortio_aliesbelik.json    aliesbelik/poldi
 query_aliesbelik.json.json    aliesbelik/poldi
@@ -31447,6 +31460,7 @@ kindle_Scoopforge.json    Scoopforge/Extras-Plus
 file-converter_Scoopforge.json    Scoopforge/Extras-Plus
 linkandroid_Scoopforge.json    Scoopforge/Extras-Plus
 voov-meeting_Scoopforge.json    Scoopforge/Extras-Plus
+wox-beta_Scoopforge.json    Scoopforge/Extras-Plus
 vibe_Scoopforge.json    Scoopforge/Extras-Plus
 texlive_Scoopforge.json    Scoopforge/Extras-Plus
 tropy_Scoopforge.json    Scoopforge/Extras-Plus
