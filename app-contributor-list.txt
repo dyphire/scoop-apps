@@ -3605,6 +3605,7 @@ temurin-lts-nightly-jdk.json    ScoopInstaller/Java
 jmc.json    ScoopInstaller/Java
 temurin17-jre.json    ScoopInstaller/Java
 intellij-jbr11-sdk.json    ScoopInstaller/Java
+liberica25-jdk.json    ScoopInstaller/Java
 openjdk25.json    ScoopInstaller/Java
 ojdkbuild15-jre.json    ScoopInstaller/Java
 semeru-lts-jdk.json    ScoopInstaller/Java
@@ -3615,9 +3616,11 @@ openjdk.json    ScoopInstaller/Java
 liberica15-jre.json    ScoopInstaller/Java
 liberica14-jdk.json    ScoopInstaller/Java
 liberica11-full-jdk.json    ScoopInstaller/Java
+liberica21-lite-jdk.json    ScoopInstaller/Java
 intellij-jbr21.json    ScoopInstaller/Java
 openjdk15.json    ScoopInstaller/Java
 graalvm-nightly.json    ScoopInstaller/Java
+liberica21-lts-jre.json    ScoopInstaller/Java
 corretto18-jdk.json    ScoopInstaller/Java
 ojdkbuild-full.json    ScoopInstaller/Java
 semeru18-jdk.json    ScoopInstaller/Java
@@ -3644,6 +3647,7 @@ liberica-full-lts-jre.json    ScoopInstaller/Java
 dragonwell21-jdk.json    ScoopInstaller/Java
 liberica-jdk.json    ScoopInstaller/Java
 corretto16-jdk.json    ScoopInstaller/Java
+liberica21-jre.json    ScoopInstaller/Java
 liberica-full-jdk.json    ScoopInstaller/Java
 graalvm19-jdk8.json    ScoopInstaller/Java
 zulufx21-jre.json    ScoopInstaller/Java
@@ -3667,6 +3671,8 @@ libericamc.json    ScoopInstaller/Java
 dragonwell11-jdk-extended.json    ScoopInstaller/Java
 graalvm-oracle-jdk.json    ScoopInstaller/Java
 zulufx14-jre.json    ScoopInstaller/Java
+liberica25-lts-jdk.json    ScoopInstaller/Java
+liberica25-full-lts-jre.json    ScoopInstaller/Java
 zulufx22-jre.json    ScoopInstaller/Java
 temurin8-jdk.json    ScoopInstaller/Java
 corretto22-jdk.json    ScoopInstaller/Java
@@ -3692,6 +3698,7 @@ temurin-nightly-jdk.json    ScoopInstaller/Java
 liberica11-jre.json    ScoopInstaller/Java
 temurin-lts-jdk.json    ScoopInstaller/Java
 openjdk11.json    ScoopInstaller/Java
+liberica21-lts-jdk.json    ScoopInstaller/Java
 semeru-jre.json    ScoopInstaller/Java
 graalvm-oracle-21jdk.json    ScoopInstaller/Java
 corretto21-jdk.json    ScoopInstaller/Java
@@ -3723,13 +3730,17 @@ gluon-openjfx-jmods.json    ScoopInstaller/Java
 temurin-jre.json    ScoopInstaller/Java
 zulufx13-jdk.json    ScoopInstaller/Java
 ojdkbuild17-full.json    ScoopInstaller/Java
+liberica21-lite-lts-jdk.json    ScoopInstaller/Java
+liberica21-full-lts-jdk.json    ScoopInstaller/Java
 zulu22-jdk.json    ScoopInstaller/Java
 liberica-jre.json    ScoopInstaller/Java
 temurin20-jdk.json    ScoopInstaller/Java
+liberica21-full-jdk.json    ScoopInstaller/Java
 graalvm-jdk11.json    ScoopInstaller/Java
 semeru23-jdk.json    ScoopInstaller/Java
 zulu17-jre.json    ScoopInstaller/Java
 oraclejre8.json    ScoopInstaller/Java
+liberica21-full-jre.json    ScoopInstaller/Java
 intellij-jbr21-sdk-jcef.json    ScoopInstaller/Java
 microsoft16-jdk.json    ScoopInstaller/Java
 liberica16-full-jre.json    ScoopInstaller/Java
@@ -3737,6 +3748,7 @@ zulufx17-jre.json    ScoopInstaller/Java
 ojdkbuild13.json    ScoopInstaller/Java
 semeru-lts-jre.json    ScoopInstaller/Java
 graalvm20.json    ScoopInstaller/Java
+liberica25-lite-lts-jdk.json    ScoopInstaller/Java
 liberica-lite-lts-jdk.json    ScoopInstaller/Java
 zulu22-jre.json    ScoopInstaller/Java
 corretto20-jdk.json    ScoopInstaller/Java
@@ -3770,6 +3782,7 @@ ojdkbuild11-jre.json    ScoopInstaller/Java
 liberica15-lite-jdk.json    ScoopInstaller/Java
 gluon-openjfx-jmods-ea.json    ScoopInstaller/Java
 corretto11-jdk.json    ScoopInstaller/Java
+liberica25-lts-jre.json    ScoopInstaller/Java
 microsoft21-jdk.json    ScoopInstaller/Java
 zulufx11-jre.json    ScoopInstaller/Java
 graalvm22-jdk17.json    ScoopInstaller/Java
@@ -3780,6 +3793,7 @@ semeru19-jre.json    ScoopInstaller/Java
 temurin24-jre.json    ScoopInstaller/Java
 intellij-jbr11-sdk-jcef.json    ScoopInstaller/Java
 liberica17-full-jdk.json    ScoopInstaller/Java
+liberica25-full-lts-jdk.json    ScoopInstaller/Java
 gluon-openjfx-sdk.json    ScoopInstaller/Java
 openjdk16.json    ScoopInstaller/Java
 openjdk14.json    ScoopInstaller/Java
@@ -3797,6 +3811,7 @@ temurin-lts-jre.json    ScoopInstaller/Java
 liberica14-lite-jdk.json    ScoopInstaller/Java
 openjdk22.json    ScoopInstaller/Java
 semeru22-jre.json    ScoopInstaller/Java
+liberica25-lite-jdk.json    ScoopInstaller/Java
 ojdkbuild17.json    ScoopInstaller/Java
 sapmachine-lts-jre.json    ScoopInstaller/Java
 temurin17-jdk.json    ScoopInstaller/Java
@@ -3824,6 +3839,8 @@ zulu21-jre.json    ScoopInstaller/Java
 zulu11-jre.json    ScoopInstaller/Java
 ojdkbuild17-jre.json    ScoopInstaller/Java
 openjdk19.json    ScoopInstaller/Java
+liberica25-full-jre.json    ScoopInstaller/Java
+liberica21-full-lts-jre.json    ScoopInstaller/Java
 ojdkbuild8-full.json    ScoopInstaller/Java
 graalvm-oracle-17jdk.json    ScoopInstaller/Java
 zulu8-jre.json    ScoopInstaller/Java
@@ -3865,7 +3882,9 @@ zulufx8-jre.json    ScoopInstaller/Java
 liberica17-lite-jdk.json    ScoopInstaller/Java
 icedtea-web.json    ScoopInstaller/Java
 ojdkbuild14.json    ScoopInstaller/Java
+liberica25-jre.json    ScoopInstaller/Java
 microsoft-lts-jdk.json    ScoopInstaller/Java
+liberica21-jdk.json    ScoopInstaller/Java
 liberica-lts-jre.json    ScoopInstaller/Java
 liberica13-jre.json    ScoopInstaller/Java
 semeru8-jdk.json    ScoopInstaller/Java
@@ -3876,6 +3895,7 @@ temurin20-jre.json    ScoopInstaller/Java
 semeru11-jre.json    ScoopInstaller/Java
 graalvm-nightly-jdk11.json    ScoopInstaller/Java
 ojdkbuild13-full.json    ScoopInstaller/Java
+liberica25-full-jdk.json    ScoopInstaller/Java
 ojdkbuild9.json    ScoopInstaller/Java
 zulu11-jdk.json    ScoopInstaller/Java
 zulu14-jre.json    ScoopInstaller/Java
@@ -5408,6 +5428,7 @@ ultrasearch.json    hoilc/scoop-lemon
 nvenc.json    hoilc/scoop-lemon
 danmaku-factory.json    hoilc/scoop-lemon
 n3dr.json    hoilc/scoop-lemon
+zxtune.json    hoilc/scoop-lemon
 mai.gif.json    hoilc/scoop-lemon
 xplist.json    hoilc/scoop-lemon
 dufs.json    hoilc/scoop-lemon
@@ -5851,6 +5872,7 @@ xiaolai.json    hoilc/scoop-lemon
 desktopnoteok.json    hoilc/scoop-lemon
 syndicationd.json    hoilc/scoop-lemon
 feluda.json    hoilc/scoop-lemon
+secretspec.json    hoilc/scoop-lemon
 tipp10.json    hoilc/scoop-lemon
 vgrep.json    hoilc/scoop-lemon
 xplorer_hoilc.json    hoilc/scoop-lemon
@@ -6207,6 +6229,7 @@ scalr-cli.json    hoilc/scoop-lemon
 foks.json    hoilc/scoop-lemon
 vtfedit-reloaded.json    hoilc/scoop-lemon
 pinwin.json    hoilc/scoop-lemon
+regal.json    hoilc/scoop-lemon
 kf.json    hoilc/scoop-lemon
 dumbpipe.json    hoilc/scoop-lemon
 trrntzip.net.json    hoilc/scoop-lemon
@@ -6360,6 +6383,7 @@ mdfried.json    hoilc/scoop-lemon
 ezviewer.json    hoilc/scoop-lemon
 simple-firefox-backup.json    hoilc/scoop-lemon
 r3playx.json    hoilc/scoop-lemon
+go-sendxmpp.json    hoilc/scoop-lemon
 score-k8s.json    hoilc/scoop-lemon
 perses.json    hoilc/scoop-lemon
 dashlane-cli.json    hoilc/scoop-lemon
@@ -11096,8 +11120,8 @@ ActiveGo_cmontage.json    cmontage/scoopbucket-third
 ActiveMQ-Artemis_zhoujin7.json    cmontage/scoopbucket-third
 ActiveMQ-Classic.json    cmontage/scoopbucket-third
 AdGuardHome-Portable_cmontage.json    cmontage/scoopbucket-third
-AdGuardHome_cmontage.json    cmontage/scoopbucket-third
-AdguardHome_dodorz.json    cmontage/scoopbucket-third
+AdGuardHome_ViCrack.json    cmontage/scoopbucket-third
+AdguardHome_cmontage.json    cmontage/scoopbucket-third
 AdiIRC_zhoujin7.json    cmontage/scoopbucket-third
 AdobeAcrobatReader-Install_cmontage.json    cmontage/scoopbucket-third
 AdobeCreativeCloud-ManualInstall_cmontage.json    cmontage/scoopbucket-third
@@ -11410,8 +11434,8 @@ ChatBox_Darkatse.json    cmontage/scoopbucket-third
 ChatBox_Weidows-projects.json    cmontage/scoopbucket-third
 ChatGLM_cmontage.json    cmontage/scoopbucket-third
 ChatWise_dodorz.json    cmontage/scoopbucket-third
+Chatbox_cmontage.json    cmontage/scoopbucket-third
 Chatbox_abgox.json    cmontage/scoopbucket-third
-Chatbox_dodorz.json    cmontage/scoopbucket-third
 ChecksumControlPortable.json    cmontage/scoopbucket-third
 ChenYuLuoYen-Thin_cmontage.json    cmontage/scoopbucket-third
 CherrytreePortable.json    cmontage/scoopbucket-third
@@ -11853,7 +11877,7 @@ FlashpointInfinity-Portable_cmontage.json    cmontage/scoopbucket-third
 FlickerList_cmontage.json    cmontage/scoopbucket-third
 Flow-Launcher_abgox.json    cmontage/scoopbucket-third
 FlowLauncher-Portable_cmontage.json    cmontage/scoopbucket-third
-FlowUs_dodorz.json    cmontage/scoopbucket-third
+FlowUs_cmontage.json    cmontage/scoopbucket-third
 Fluent-Search_cmontage.json    cmontage/scoopbucket-third
 Fluent-for-Steam.json    cmontage/scoopbucket-third
 FluentReader-Portable_cmontage.json    cmontage/scoopbucket-third
@@ -12127,7 +12151,7 @@ IdeaCE.json    cmontage/scoopbucket-third
 Idea_abgox.json    cmontage/scoopbucket-third
 ImDiskToolkit.json    cmontage/scoopbucket-third
 ImPlay_ygguorun.json    cmontage/scoopbucket-third
-ImTip_cmontage.json    cmontage/scoopbucket-third
+ImTip_hu3rror.json    cmontage/scoopbucket-third
 ImTip_ygguorun.json    cmontage/scoopbucket-third
 ImageGlass-Portable_cmontage.json    cmontage/scoopbucket-third
 ImageGlass_abgox.json    cmontage/scoopbucket-third
@@ -12216,7 +12240,7 @@ Jan_cmontage.json    cmontage/scoopbucket-third
 JaneReader_cmontage.json    cmontage/scoopbucket-third
 Jarte_cmontage.json    cmontage/scoopbucket-third
 JartePortable.json    cmontage/scoopbucket-third
-Java-Editor_dodorz.json    cmontage/scoopbucket-third
+Java-Editor_cmontage.json    cmontage/scoopbucket-third
 Java-RPG-Maker-MV-Decrypter.json    cmontage/scoopbucket-third
 Java.json    cmontage/scoopbucket-third
 Java64.json    cmontage/scoopbucket-third
@@ -12679,7 +12703,7 @@ Notable_dodorz.json    cmontage/scoopbucket-third
 Notation_cmontage.json    cmontage/scoopbucket-third
 NoteExpress_cmontage.json    cmontage/scoopbucket-third
 Notepad++Portable.json    cmontage/scoopbucket-third
-Notepad--_dodorz.json    cmontage/scoopbucket-third
+Notepad--_cmontage.json    cmontage/scoopbucket-third
 Notepad2-modPortable.json    cmontage/scoopbucket-third
 Notepad2Portable.json    cmontage/scoopbucket-third
 Notepad3-mod_cmontage.json    cmontage/scoopbucket-third
@@ -14450,6 +14474,7 @@ ariang-native_beer-psi.json    cmontage/scoopbucket-third
 arimo.json    cmontage/scoopbucket-third
 ark-smart-breeding_cmontage.json    cmontage/scoopbucket-third
 ark_cmontage.json    cmontage/scoopbucket-third
+ark_ShuguangSun.json    cmontage/scoopbucket-third
 armadillo-key-tool.json    cmontage/scoopbucket-third
 armadillo-splicerebase.json    cmontage/scoopbucket-third
 armageddon.json    cmontage/scoopbucket-third
@@ -14814,7 +14839,7 @@ bilibili-manga-downloader_hu3rror.json    cmontage/scoopbucket-third
 bilibili-toolkit.json    cmontage/scoopbucket-third
 bilibili_cmontage.json    cmontage/scoopbucket-third
 bilibili_DoveBoy.json    cmontage/scoopbucket-third
-bilibili_akirco.json    cmontage/scoopbucket-third
+bilibili_chawyehsu.json    cmontage/scoopbucket-third
 bilibilidown-with-jre.json    cmontage/scoopbucket-third
 bilibilidown_DoveBoy.json    cmontage/scoopbucket-third
 bilibilitoolpro.json    cmontage/scoopbucket-third
@@ -15224,9 +15249,9 @@ chatall_cmontage.json    cmontage/scoopbucket-third
 chatall_DoveBoy.json    cmontage/scoopbucket-third
 chatall_hu3rror.json    cmontage/scoopbucket-third
 chatbox-ce_cmontage.json    cmontage/scoopbucket-third
-chatbox_cmontage.json    cmontage/scoopbucket-third
 chatbox_DoveBoy.json    cmontage/scoopbucket-third
 chatbox_Scoopforge.json    cmontage/scoopbucket-third
+chatbox_ShuguangSun.json    cmontage/scoopbucket-third
 chatbox_TianXiaTech.json    cmontage/scoopbucket-third
 chatbox_ce.json    cmontage/scoopbucket-third
 chatbox_hu3rror.json    cmontage/scoopbucket-third
@@ -15745,7 +15770,7 @@ cruft_cmontage.json    cmontage/scoopbucket-third
 cruiser.json    cmontage/scoopbucket-third
 crunchy-cli_cmontage.json    cmontage/scoopbucket-third
 crush_cmontage.json    cmontage/scoopbucket-third
-crush_akirco.json    cmontage/scoopbucket-third
+crush_charmbracelet.json    cmontage/scoopbucket-third
 cryfs.json    cmontage/scoopbucket-third
 cryptomator_cmontage.json    cmontage/scoopbucket-third
 crystaldiskinfo-aoi-edition_cmontage.json    cmontage/scoopbucket-third
@@ -16543,9 +16568,9 @@ elasticsearch2_cmontage.json    cmontage/scoopbucket-third
 elasticsearch5_cmontage.json    cmontage/scoopbucket-third
 electerm_cmontage.json    cmontage/scoopbucket-third
 electerm_SayCV.json    cmontage/scoopbucket-third
-electerm_ScoopInstaller.json    cmontage/scoopbucket-third
 electerm_akirco.json    cmontage/scoopbucket-third
 electerm_chawyehsu.json    cmontage/scoopbucket-third
+electerm_kkzzhizhou.json    cmontage/scoopbucket-third
 electrem_cmontage.json    cmontage/scoopbucket-third
 electron-cash_cmontage.json    cmontage/scoopbucket-third
 electron-cash_chawyehsu.json    cmontage/scoopbucket-third
@@ -17065,7 +17090,7 @@ flow-launcher_cmontage.json    cmontage/scoopbucket-third
 flow030_cmontage.json    cmontage/scoopbucket-third
 flow031_cmontage.json    cmontage/scoopbucket-third
 flowgorithm_cmontage.json    cmontage/scoopbucket-third
-flowus_cmontage.json    cmontage/scoopbucket-third
+flowus_chawyehsu.json    cmontage/scoopbucket-third
 fluent-m3u8.json    cmontage/scoopbucket-third
 fluent-reader_cmontage.json    cmontage/scoopbucket-third
 fluent-reader_ACooper81.json    cmontage/scoopbucket-third
@@ -17556,7 +17581,7 @@ gitea-beta_cmontage.json    cmontage/scoopbucket-third
 gitext4_cmontage.json    cmontage/scoopbucket-third
 gitextensions_cmontage.json    cmontage/scoopbucket-third
 gitextensions_DoveBoy.json    cmontage/scoopbucket-third
-gitextensions_cc713.json    cmontage/scoopbucket-third
+gitextensions_ScoopInstaller.json    cmontage/scoopbucket-third
 gitg.json    cmontage/scoopbucket-third
 github-beta_cmontage.json    cmontage/scoopbucket-third
 github-beta_DoveBoy.json    cmontage/scoopbucket-third
@@ -18279,7 +18304,7 @@ immudb.json    cmontage/scoopbucket-third
 imo-messenger_cmontage.json    cmontage/scoopbucket-third
 implay.json    cmontage/scoopbucket-third
 impregnate_cmontage.json    cmontage/scoopbucket-third
-imtip_WinApps-share.json    cmontage/scoopbucket-third
+imtip_cmontage.json    cmontage/scoopbucket-third
 inbac_cmontage.json    cmontage/scoopbucket-third
 inboxer_cmontage.json    cmontage/scoopbucket-third
 inbucket_cmontage.json    cmontage/scoopbucket-third
@@ -18489,7 +18514,7 @@ java-chains_cmontage.json    cmontage/scoopbucket-third
 java-chains_kengwang.json    cmontage/scoopbucket-third
 java-echo-generator-release_cmontage.json    cmontage/scoopbucket-third
 java-echo-generator_cmontage.json    cmontage/scoopbucket-third
-java-editor_cmontage.json    cmontage/scoopbucket-third
+java-editor_naderi.json    cmontage/scoopbucket-third
 java-memshell-generator_cmontage.json    cmontage/scoopbucket-third
 java-memshell-generator_ViCrack.json    cmontage/scoopbucket-third
 java-memshell-generator_kengwang.json    cmontage/scoopbucket-third
@@ -19829,6 +19854,7 @@ mpv.net-cm_hu3rror.json    cmontage/scoopbucket-third
 mpv.net_cmontage.json    cmontage/scoopbucket-third
 mpv.net_DoveBoy.json    cmontage/scoopbucket-third
 mpv_DoveBoy.json    cmontage/scoopbucket-third
+mpv_PlayKit.json    cmontage/scoopbucket-third
 mpv_abgox.json    cmontage/scoopbucket-third
 mpvconfigurator.json    cmontage/scoopbucket-third
 mpxplay_cmontage.json    cmontage/scoopbucket-third
@@ -20256,7 +20282,7 @@ notable_cmontage.json    cmontage/scoopbucket-third
 note-gen.json    cmontage/scoopbucket-third
 notegen_cmontage.json    cmontage/scoopbucket-third
 notejoy_cmontage.json    cmontage/scoopbucket-third
-notepad--_cmontage.json    cmontage/scoopbucket-third
+notepad--_ViCrack.json    cmontage/scoopbucket-third
 notepad--_WinApps-share.json    cmontage/scoopbucket-third
 notepad--_zhoujin7.json    cmontage/scoopbucket-third
 notepad2-mod_cmontage.json    cmontage/scoopbucket-third
@@ -20907,7 +20933,7 @@ pcstory.json    cmontage/scoopbucket-third
 pcsx2-avx2-qt_cmontage.json    cmontage/scoopbucket-third
 pcsx2-avx2-vxwidgets_cmontage.json    cmontage/scoopbucket-third
 pcsx2-dev_cmontage.json    cmontage/scoopbucket-third
-pcsx2-dev_borger.json    cmontage/scoopbucket-third
+pcsx2-dev_Calinou.json    cmontage/scoopbucket-third
 pcsx2-sse4-qt_cmontage.json    cmontage/scoopbucket-third
 pcsx2-sse4-vxwidgets_cmontage.json    cmontage/scoopbucket-third
 pcsx2_cmontage.json    cmontage/scoopbucket-third
@@ -24414,7 +24440,7 @@ v2rayn-core_seumsc.json    cmontage/scoopbucket-third
 v2rayn-pre_cmontage.json    cmontage/scoopbucket-third
 v2rayn-pro.json    cmontage/scoopbucket-third
 v2rayn_cmontage.json    cmontage/scoopbucket-third
-v2rayn_ScoopInstaller.json    cmontage/scoopbucket-third
+v2rayn_DoveBoy.json    cmontage/scoopbucket-third
 v2rayn_echoiron.json    cmontage/scoopbucket-third
 v2rayn_noql-net.json    cmontage/scoopbucket-third
 v@0.3.2.json    cmontage/scoopbucket-third
@@ -25716,7 +25742,7 @@ zola_cmontage.json    cmontage/scoopbucket-third
 zola_akirco.json    cmontage/scoopbucket-third
 zombie.json    cmontage/scoopbucket-third
 zoom_cmontage.json    cmontage/scoopbucket-third
-zoom_ScoopInstaller.json    cmontage/scoopbucket-third
+zoom_akirco.json    cmontage/scoopbucket-third
 zoomit_cmontage.json    cmontage/scoopbucket-third
 zoomit_DoveBoy.json    cmontage/scoopbucket-third
 zoomit_mo-san.json    cmontage/scoopbucket-third
@@ -26169,7 +26195,6 @@ vimtutor.json    DoveBoy/Apps
 imfile-portable_DoveBoy.json    DoveBoy/Apps
 scoop-shim.json    DoveBoy/Apps
 tabby_DoveBoy.json    DoveBoy/Apps
-ddu_DoveBoy.json    DoveBoy/Apps
 clash-nyanpasu_DoveBoy.json    DoveBoy/Apps
 dreamscene2_DoveBoy.json    DoveBoy/Apps
 hitomi-downloader_DoveBoy.json    DoveBoy/Apps
@@ -26264,6 +26289,7 @@ openbbterminal-pre_DoveBoy.json    DoveBoy/Apps
 registry-key-jumper_DoveBoy.json    DoveBoy/Apps
 qr.json    DoveBoy/Apps
 flut-renamer_DoveBoy.json    DoveBoy/Apps
+karing-portable.json    DoveBoy/Apps
 localsqueeze_DoveBoy.json    DoveBoy/Apps
 wechatrealfriends_DoveBoy.json    DoveBoy/Apps
 fnm.json    DoveBoy/Apps
@@ -26351,6 +26377,7 @@ downkyi_DoveBoy.json    DoveBoy/Apps
 pdfarranger_DoveBoy.json    DoveBoy/Apps
 pnpm-tab-completion_DoveBoy.json    DoveBoy/Apps
 freefilesync_DoveBoy.json    DoveBoy/Apps
+nilesoft-shell_DoveBoy.json    DoveBoy/Apps
 bbk-cli.json    DoveBoy/Apps
 auto-unlocker_DoveBoy.json    DoveBoy/Apps
 spotx_DoveBoy.json    DoveBoy/Apps
@@ -26396,6 +26423,7 @@ pscompletions_DoveBoy.json    DoveBoy/Apps
 nattypetester_DoveBoy.json    DoveBoy/Apps
 typora-plugin_DoveBoy.json    DoveBoy/Apps
 context-menu-manager_DoveBoy.json    DoveBoy/Apps
+karing_DoveBoy.json    DoveBoy/Apps
 winsw_DoveBoy.json    DoveBoy/Apps
 cmder.json    DoveBoy/Apps
 chatall_DoveBoy.json    DoveBoy/Apps
@@ -28609,6 +28637,7 @@ tinytex_batkiz.json    batkiz/backit
 nyan_batkiz.json    batkiz/backit
 raven-reader_batkiz.json    batkiz/backit
 pdm_batkiz.json    batkiz/backit
+esptool.json    batkiz/backit
 g_batkiz.json    batkiz/backit
 racket-minimal-cs_batkiz.json    batkiz/backit
 redli_batkiz.json    batkiz/backit
@@ -30651,7 +30680,7 @@ tiantian-workbench_Weidows-projects.json    Weidows-projects/scoop-3rd
 SamToki-pack_Weidows-projects.json    Weidows-projects/scoop-3rd
 ModOrganizer_Weidows-projects.json    Weidows-projects/scoop-3rd
 gamebuff_Weidows-projects.json    Weidows-projects/scoop-3rd
-mpv_PlayKit.json    Weidows-projects/scoop-3rd
+mpv_PlayKit_Weidows-projects.json    Weidows-projects/scoop-3rd
 UmamusumeResponseAnalyzer_Weidows-projects.json    Weidows-projects/scoop-3rd
 telegram-downloader_Weidows-projects.json    Weidows-projects/scoop-3rd
 MicrosoftEdge-dev-portable_Weidows-projects.json    Weidows-projects/scoop-3rd
