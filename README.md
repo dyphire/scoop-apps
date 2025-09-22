@@ -64,8 +64,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - akirco/aki-apps
 - everyx/scoop-bucket
 - Qv2ray/mochi
-- TheRandomLabs/Scoop-Bucket
 - cmontage/scoopbucket-third
+- TheRandomLabs/Scoop-Bucket
 - zhoujin7/tomato
 - DoveBoy/Apps
 - xrgzs/sdoog
@@ -104,7 +104,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - mo-san/scoop-bucket
 - krproject/qi-windows
 - rivy/scoop-bucket
-- KnotUntied/scoop-fonts
 - excitoon/scoop-user
 - alextwothousand/scoop-bucket
 - AkariiinMKII/Scoop4kariiin
@@ -113,6 +112,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - natecohen/scoop-av
 - WinApps-share/WinApps-bucket
 - Darkatse/Scoop-KanColle
+- KnotUntied/scoop-fonts
 - BenjaminMichaelis/Config
 - HUMORCE/nuke
 - Deide/deide-bucket
