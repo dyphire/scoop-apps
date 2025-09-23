@@ -52,6 +52,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - KNOXDEV/wsl
 - echoiron/echo-scoop
 - cderv/r-bucket
+- ScoopInstaller/PHP
 - hermanjustnu/scoop-emulators
 - whoopscs/scoop-security
 - dodorz/scoop
@@ -119,6 +120,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - MCOfficer/scoop-bucket
 - littleli/Scoop-littleli
 - littleli/Scoop-AtariEmulators
+- typst-community/scoop-bucket
 - Scoopforge/Extras-Plus
 - beer-psi/scoop-bucket
 - yuusakuri/scoop-bucket
