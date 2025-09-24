@@ -112,6 +112,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - Toddli468/Pentest-Scoop-Bucket
 - natecohen/scoop-av
 - WinApps-share/WinApps-bucket
+- Scoopforge/Extras-Plus
 - Darkatse/Scoop-KanColle
 - KnotUntied/scoop-fonts
 - BenjaminMichaelis/Config
@@ -121,7 +122,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - littleli/Scoop-littleli
 - littleli/Scoop-AtariEmulators
 - typst-community/scoop-bucket
-- Scoopforge/Extras-Plus
 - beer-psi/scoop-bucket
 - yuusakuri/scoop-bucket
 - ChinLong/scoop-customize
