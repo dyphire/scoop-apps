@@ -19,8 +19,8 @@
         "Settings are stored in '%APPDATA%\\PikPak', and will be purged during uninstallation."
     ],
     "checkver": {
-        "script": "try { & $dir\\..\\bin\\Get-DumplingsVersion.ps1 -PreferRealVersion -AppName 'PIKCLOUD.PikPak' } catch { \"\" }",
-        "regex": "([\\d.]+)"
+        "script": "try { & $dir\\..\\bin\\Get-DumplingsVersion.ps1 -Verbose -PreferRealVersion -AppName 'PIKCLOUD.PikPak' } catch { \"\" }",
+        "regex": "^([\\d.]+)"
     },
     "autoupdate": {
         "url": "https://download.mypikpak.net/desktop/official_PikPak.exe#/dl.7z"
