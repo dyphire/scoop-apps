@@ -1,12 +1,12 @@
 {
-    "version": "919bacb",
+    "version": "20250926-2100-a9a6a12",
     "description": "A programming language and a proof assistant designed for formalizing math and type-directed programming.",
     "homepage": "https://github.com/aya-prover/aya-dev",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": "https://github.com/aya-prover/aya-dev/releases/download/nightly-build/aya-prover_jlink_windows-x64.zip",
-            "hash": "3af17d3fa92eb306dc61ee595642dce8fc1ecef6ae036f53fe6ce75175b6758e"
+            "hash": "a0487106495635d2762bded42456c05d6256c8735ea0ff3a396cda05c7e786a4"
         }
     },
     "bin": [
@@ -15,7 +15,8 @@
     ],
     "checkver": {
         "url": "https://github.com/aya-prover/aya-dev/releases/tag/nightly-build",
-        "regex": "/aya-prover/aya-dev/commit/([\\da-f]{7})"
+        "regex": "(?sm)(?<year>\\d{4})/(?<month>\\d{2})/(?<day>\\d{2})-(?<hour>\\d{2}):(?<minute>\\d{2}) nightly build.*/aya-prover/aya-dev/commit/(?<commit>[\\da-f]{7})",
+        "replace": "${year}${month}${day}-${hour}${minute}-${commit}"
     },
     "autoupdate": {
         "architecture": {
