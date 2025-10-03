@@ -1,5 +1,5 @@
 {
-    "version": "2509-109",
+    "version": "2509-117",
     "description": "A Nintendo GameCube and Wii emulator, with enhancements and Netplay. (development version)",
     "homepage": "https://dolphin-emu.org/",
     "license": {
@@ -11,13 +11,13 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://dl.dolphin-emu.org/builds/bf/50/dolphin-master-2509-109-x64.7z",
-            "hash": "89c6dec4bc326657b2f7a0b80abb7549534f4bafa8b0c5162a910ee779842636",
+            "url": "https://dl.dolphin-emu.org/builds/c4/91/dolphin-master-2509-117-x64.7z",
+            "hash": "f65afbb5c52cf3e8035e9a1c54b6c643f22ec272d036ce45acb8c32e01378975",
             "extract_dir": "Dolphin-x64"
         },
         "arm64": {
-            "url": "https://dl.dolphin-emu.org/builds/97/c7/dolphin-master-2509-109-ARM64.7z",
-            "hash": "b6759eb389e9127d681b273554afe25fd0a3a07b4f8491ab037951c7ac6f5471",
+            "url": "https://dl.dolphin-emu.org/builds/c3/82/dolphin-master-2509-117-ARM64.7z",
+            "hash": "fff44a499318349a02b912ae13e322b4c1e93575d24f2065f7bfc344edc203a7",
             "extract_dir": "Dolphin-ARM64"
         }
     },
