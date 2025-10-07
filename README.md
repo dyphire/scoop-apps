@@ -46,8 +46,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - scoopcn/scoopcn
 - ScoopInstaller/Nonportable
 - rasa/scoops
-- Paxxs/Cluttered-bucket
 - kidonng/sushi
+- Paxxs/Cluttered-bucket
 - ACooper81/scoop-apps
 - KNOXDEV/wsl
 - echoiron/echo-scoop
@@ -67,8 +67,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - Qv2ray/mochi
 - cmontage/scoopbucket-third
 - TheRandomLabs/Scoop-Bucket
-- DoveBoy/Apps
 - xrgzs/sdoog
+- DoveBoy/Apps
 - zhoujin7/tomato
 - wzv5/ScoopBucket
 - TheRandomLabs/Scoop-Python
@@ -112,7 +112,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - Toddli468/Pentest-Scoop-Bucket
 - WinApps-share/WinApps-bucket
 - Scoopforge/Extras-Plus
-- Darkatse/Scoop-KanColle
 - KnotUntied/scoop-fonts
 - HUMORCE/nuke
 - Deide/deide-bucket
@@ -124,3 +123,4 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - beer-psi/scoop-bucket
 - yuusakuri/scoop-bucket
 - ChinLong/scoop-customize
+- Darkatse/Scoop-KanColle
