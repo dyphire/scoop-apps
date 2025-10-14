@@ -11,20 +11,11 @@
     },
     "extract_dir": "Ditto",
     "pre_install": [
-        "if (!(Test-Path \"$persist_dir\\Ditto.db\")) {",
-        "    Write-Host 'File Ditto.db does not exists. Creating.' -f Yellow",
-        "    Start-Process -FilePath \"$dir\\Ditto.exe\"",
-        "    while (!(Test-Path \"$dir\\Ditto.db\")) {",
-        "        Start-Sleep -Milliseconds 500",
-        "    }",
-        "    Start-Sleep 1",
-        "    Stop-Process -Name Ditto",
-        "}",
         "$file = 'Ditto.Settings'",
         "if (!(Test-Path \"$persist_dir\\$file\")) {",
-        "    Write-Host 'File' $file 'does not exists. Creating.' -f Yellow",
-        "    $CONT = @('[Ditto]', 'DBPath3=Ditto.db')",
-        "    Set-Content \"$dir\\$file\" ($CONT -join \"`r`n\") -Encoding Ascii",
+            "Write-Host 'File' $file 'does not exists. Creating.' -f Yellow",
+            "$CONT = @('[Ditto]', 'DBPath3=Ditto.db')",
+            "Set-Content \"$dir\\$file\" ($CONT -join \"`r`n\") -Encoding Ascii",
         "}"
     ],
     "bin": "Ditto.exe",
@@ -47,7 +38,7 @@
                 "url": "https://github.com/sabrogden/Ditto/releases/download/$version/DittoPortable_$underscoreVersion.zip",
                 "hash": {
                     "url": "https://github.com/sabrogden/Ditto/releases/expanded_assets/$version",
-                    "regex": "DittoPortable_(?<version>[\\d_]+).+zip([a-f0-9]{64})"
+                    "regex": "DittoPortable_(?<version>[\\d_]+).+zip.+([a-f0-9]{64})"
                 }
             }
         }
