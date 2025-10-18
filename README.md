@@ -101,6 +101,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - seumsc/scoop-seu
 - jfut/scoop-jfut
 - cc713/ownscoop
+- WinApps-share/WinApps-bucket
 - mo-san/scoop-bucket
 - krproject/qi-windows
 - rivy/scoop-bucket
@@ -110,7 +111,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - starise/Scoop-Gaming
 - Weidows-projects/scoop-3rd
 - Toddli468/Pentest-Scoop-Bucket
-- WinApps-share/WinApps-bucket
 - Scoopforge/Extras-Plus
 - KnotUntied/scoop-fonts
 - HUMORCE/nuke
