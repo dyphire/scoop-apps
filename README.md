@@ -79,8 +79,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - naderi/scoop-bucket
 - NyaMisty/scoopbucketmisty
 - noql-net/scoop
-- ygguorun/scoop-bucket
 - kengwang/scoop-ctftools-bucket
+- ygguorun/scoop-bucket
 - aliesbelik/poldi
 - asimov-platform/scoop-bucket
 - SayCV/scoop-cvp
