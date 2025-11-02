@@ -99,12 +99,12 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - aoisummer/scoop-bucket
 - babo4d/scoop-xrtools
 - seumsc/scoop-seu
+- Scoopforge/Extras-Plus
 - jfut/scoop-jfut
 - Weidows-projects/scoop-3rd
 - cc713/ownscoop
 - WinApps-share/WinApps-bucket
 - mo-san/scoop-bucket
-- Scoopforge/Extras-Plus
 - krproject/qi-windows
 - rivy/scoop-bucket
 - excitoon/scoop-user
