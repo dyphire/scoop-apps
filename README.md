@@ -58,6 +58,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - dodorz/scoop
 - couleur-tweak-tips/utils
 - niheaven/scoop-sysinternals
+- borger/scoop-emulators
 - ViCrack/scoop-bucket
 - akirco/aki-apps
 - kiennq/scoop-misc
