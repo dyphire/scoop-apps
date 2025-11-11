@@ -60,8 +60,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - niheaven/scoop-sysinternals
 - borger/scoop-emulators
 - ViCrack/scoop-bucket
-- akirco/aki-apps
 - kiennq/scoop-misc
+- akirco/aki-apps
 - wangzq/scoop-bucket
 - everyx/scoop-bucket
 - Qv2ray/mochi
@@ -92,11 +92,11 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - TianXiaTech/scoop-txt
 - ChungZH/peach
 - 42wim/scoop-bucket
+- starise/Scoop-Confetti
 - iquiw/scoop-bucket
 - seumsc/scoop-seu
 - Small-Ku/turbo-bucket
 - mogeko/scoop-sysinternals
-- starise/Scoop-Confetti
 - aoisummer/scoop-bucket
 - babo4d/scoop-xrtools
 - Scoopforge/Extras-Plus
