@@ -97,11 +97,11 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - seumsc/scoop-seu
 - Small-Ku/turbo-bucket
 - mogeko/scoop-sysinternals
+- Weidows-projects/scoop-3rd
 - aoisummer/scoop-bucket
 - babo4d/scoop-xrtools
 - Scoopforge/Extras-Plus
 - jfut/scoop-jfut
-- Weidows-projects/scoop-3rd
 - cc713/ownscoop
 - WinApps-share/WinApps-bucket
 - mo-san/scoop-bucket
