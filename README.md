@@ -53,16 +53,16 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - echoiron/echo-scoop
 - cderv/r-bucket
 - whoopscs/scoop-security
-- ScoopInstaller/PHP
 - hermanjustnu/scoop-emulators
+- ScoopInstaller/PHP
 - dodorz/scoop
 - couleur-tweak-tips/utils
 - niheaven/scoop-sysinternals
 - borger/scoop-emulators
 - ViCrack/scoop-bucket
+- wangzq/scoop-bucket
 - kiennq/scoop-misc
 - akirco/aki-apps
-- wangzq/scoop-bucket
 - everyx/scoop-bucket
 - Qv2ray/mochi
 - cmontage/scoopbucket-third
@@ -102,6 +102,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - babo4d/scoop-xrtools
 - Scoopforge/Extras-Plus
 - jfut/scoop-jfut
+- starise/Scoop-Gaming
 - cc713/ownscoop
 - WinApps-share/WinApps-bucket
 - mo-san/scoop-bucket
@@ -110,7 +111,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - excitoon/scoop-user
 - alextwothousand/scoop-bucket
 - AkariiinMKII/Scoop4kariiin
-- starise/Scoop-Gaming
 - Toddli468/Pentest-Scoop-Bucket
 - KnotUntied/scoop-fonts
 - jingyu9575/scoop-jingyu9575
