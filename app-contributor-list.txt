@@ -2277,6 +2277,7 @@ rabbitmqadmin-ng.json    ScoopInstaller/Extras
 inboxer.json    ScoopInstaller/Extras
 tracker.json    ScoopInstaller/Extras
 vifm.json    ScoopInstaller/Extras
+tsshd.json    ScoopInstaller/Extras
 electrum.json    ScoopInstaller/Extras
 userbenchmark.json    ScoopInstaller/Extras
 hysteria.json    ScoopInstaller/Extras
@@ -3177,6 +3178,7 @@ videocaptioner.json    Scoopforge/Extras-CN
 gimp-cn.json    Scoopforge/Extras-CN
 mpv.net-cm.json    Scoopforge/Extras-CN
 vlc-cn.json    Scoopforge/Extras-CN
+msys2-cn_Scoopforge.json    Scoopforge/Extras-CN
 freetex.json    Scoopforge/Extras-CN
 neteasemusic_Scoopforge.json    Scoopforge/Extras-CN
 aboboo-full.json    Scoopforge/Extras-CN
@@ -10025,6 +10027,7 @@ MarkEditor.json    dodorz/scoop
 CMDFocus.json    dodorz/scoop
 DismPlusPlus_dodorz.json    dodorz/scoop
 MstyStudio.json    dodorz/scoop
+shandianshuo.json    dodorz/scoop
 STDUViewer_dodorz.json    dodorz/scoop
 Midori.json    dodorz/scoop
 KISSPlayer.json    dodorz/scoop
@@ -10461,6 +10464,7 @@ LaTeXDraw.json    dodorz/scoop
 SE-MediaPlayer.json    dodorz/scoop
 ColorStorm.json    dodorz/scoop
 Effie.json    dodorz/scoop
+ima.copilot.json    dodorz/scoop
 IECache.json    dodorz/scoop
 PanDownload_dodorz.json    dodorz/scoop
 Keybase.json    dodorz/scoop
@@ -10793,6 +10797,7 @@ retroarch-nightly_borger.json    borger/scoop-emulators
 2ship2harkinian_borger.json    borger/scoop-emulators
 mgba_borger.json    borger/scoop-emulators
 snes9x-dev_borger.json    borger/scoop-emulators
+gopher64_borger.json    borger/scoop-emulators
 visualboyadvance-m-nightly_borger.json    borger/scoop-emulators
 spaghettikart.json    borger/scoop-emulators
 rpcs3_borger.json    borger/scoop-emulators
@@ -10809,14 +10814,11 @@ mgba-dev_borger.json    borger/scoop-emulators
 shipwright_borger.json    borger/scoop-emulators
 sameboy_borger.json    borger/scoop-emulators
 project64-dev_borger.json    borger/scoop-emulators
-cemuhook_borger.json    borger/scoop-emulators
 ares_borger.json    borger/scoop-emulators
 mesen-s_borger.json    borger/scoop-emulators
-mame_borger.json    borger/scoop-emulators
 desmume_borger.json    borger/scoop-emulators
 ryujinx_borger.json    borger/scoop-emulators
 xenia_borger.json    borger/scoop-emulators
-simple64_borger.json    borger/scoop-emulators
 mednafen_borger.json    borger/scoop-emulators
 ppsspp_borger.json    borger/scoop-emulators
 dolphin-dev_borger.json    borger/scoop-emulators
@@ -27299,6 +27301,7 @@ ghostdownloader3_DoveBoy.json    DoveBoy/Apps
 saber_DoveBoy.json    DoveBoy/Apps
 trafficmonitor-lite_DoveBoy.json    DoveBoy/Apps
 watttoolkit_DoveBoy.json    DoveBoy/Apps
+fancontrol-net10.0-portable.json    DoveBoy/Apps
 refreshenv.json    DoveBoy/Apps
 min_DoveBoy.json    DoveBoy/Apps
 videofusion_DoveBoy.json    DoveBoy/Apps
@@ -27328,6 +27331,7 @@ github-hosts_DoveBoy.json    DoveBoy/Apps
 adb_DoveBoy.json    DoveBoy/Apps
 dreamcreator_DoveBoy.json    DoveBoy/Apps
 note-gen_DoveBoy.json    DoveBoy/Apps
+ffmpeg_DoveBoy.json    DoveBoy/Apps
 scoop-search-chriscp_DoveBoy.json    DoveBoy/Apps
 eartrumpet_DoveBoy.json    DoveBoy/Apps
 croc.json    DoveBoy/Apps
@@ -27367,7 +27371,6 @@ xhs-downloader_DoveBoy.json    DoveBoy/Apps
 cloudreve_DoveBoy.json    DoveBoy/Apps
 github-beta_DoveBoy.json    DoveBoy/Apps
 sniffnet_DoveBoy.json    DoveBoy/Apps
-fancontrol-net8.0_DoveBoy.json    DoveBoy/Apps
 miniserve_DoveBoy.json    DoveBoy/Apps
 irfanview-lean_DoveBoy.json    DoveBoy/Apps
 sing-box_DoveBoy.json    DoveBoy/Apps
@@ -27486,6 +27489,7 @@ dua.json    DoveBoy/Apps
 min-portable_DoveBoy.json    DoveBoy/Apps
 rustdesk_DoveBoy.json    DoveBoy/Apps
 v2ray_DoveBoy.json    DoveBoy/Apps
+fancontrol-net10.0.json    DoveBoy/Apps
 spacedrive_DoveBoy.json    DoveBoy/Apps
 gnupg.json    DoveBoy/Apps
 cloudflarespeedtest_DoveBoy.json    DoveBoy/Apps
@@ -27704,7 +27708,6 @@ quickclipboard_DoveBoy.json    DoveBoy/Apps
 gitalias_DoveBoy.json    DoveBoy/Apps
 bat.json    DoveBoy/Apps
 nomeiryoui_DoveBoy.json    DoveBoy/Apps
-fancontrol-net8.0-portable_DoveBoy.json    DoveBoy/Apps
 winupdateminitool_DoveBoy.json    DoveBoy/Apps
 openoffice_DoveBoy.json    DoveBoy/Apps
 mobilecontrolguru_DoveBoy.json    DoveBoy/Apps
@@ -27936,7 +27939,6 @@ clashn-core_DoveBoy.json    DoveBoy/Apps
 mihomo-compatible-go120_DoveBoy.json    DoveBoy/Apps
 wechatmsg_DoveBoy.json    DoveBoy/Apps
 openotp_DoveBoy.json    DoveBoy/Apps
-openark_DoveBoy.json    DoveBoy/Apps
 clash.meta-alpha_DoveBoy.json    DoveBoy/Apps
 typoracracker-code_DoveBoy.json    DoveBoy/Apps
 pdf-guru_DoveBoy.json    DoveBoy/Apps
@@ -29156,6 +29158,7 @@ mqtt-cli_aliesbelik.json    aliesbelik/poldi
 ddosify.json    aliesbelik/poldi
 tcping_aliesbelik.json    aliesbelik/poldi
 gut.json    aliesbelik/poldi
+ttdl_aliesbelik.json    aliesbelik/poldi
 taplo.json    aliesbelik/poldi
 jc.json    aliesbelik/poldi
 oha.json    aliesbelik/poldi
