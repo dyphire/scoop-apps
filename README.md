@@ -40,8 +40,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - borger/scoop-galaxy-integrations
 - TheCjw/scoop-retools
 - kodybrown/scoop-nirsoft
-- TheRandomLabs/scoop-nonportable
 - ScoopInstaller/Nirsoft
+- TheRandomLabs/scoop-nonportable
 - littleli/scoop-clojure
 - scoopcn/scoopcn
 - ScoopInstaller/Nonportable
