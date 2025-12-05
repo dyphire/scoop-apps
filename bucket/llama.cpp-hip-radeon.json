@@ -1,0 +1,42 @@
+{
+    "version": "b7271",
+    "description": "Inference of LLaMA model in pure C/C++ (HIP version for AMD GPUs)",
+    "homepage": "https://github.com/ggml-org/llama.cpp",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b7271/llama-b7271-bin-win-hip-radeon-x64.zip",
+            "hash": "824f9cf86f490f066bc211e525e0eaf4f92555aeea55416ec3583ffac430bace"
+        }
+    },
+    "bin": [
+        "llama-batched-bench.exe",
+        "llama-bench.exe",
+        "llama-cli.exe",
+        "llama-gemma3-cli.exe",
+        "llama-gguf-split.exe",
+        "llama-imatrix.exe",
+        "llama-llava-cli.exe",
+        "llama-minicpmv-cli.exe",
+        "llama-mtmd-cli.exe",
+        "llama-perplexity.exe",
+        "llama-quantize.exe",
+        "llama-qwen2vl-cli.exe",
+        "llama-run.exe",
+        "llama-server.exe",
+        "llama-tokenize.exe",
+        "llama-tts.exe"
+    ],
+    "persist": "models",
+    "checkver": {
+        "github": "https://github.com/ggml-org/llama.cpp",
+        "regex": "/releases/tag/(b[\\d]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/ggml-org/llama.cpp/releases/download/$version/llama-$version-bin-win-hip-radeon-x64.zip"
+            }
+        }
+    }
+}
