@@ -1,22 +1,24 @@
 {
   "version": "0.7.5",
-  "description": "The AI IDE for prototype to production",
-  "homepage": "https://kiro.dev",
-  "license": "Proprietary",
+  "description": "The AI IDE for prototype to productionr",
+  "homepage": "https://kiro.dev/",
+  "license": {
+    "identifier": "Proprietary"
+  },
   "architecture": {
     "64bit": {
-      "url": "https://prod.download.desktop.kiro.dev/releases/stable/win32-x64/signed/0.7.5/kiro-ide-0.7.5-stable-win32-x64.exe",
-      "hash": "cb07ff1ad64c2637b36f39c43355e70ad22aa85f1518159ea4fd9f103d17a2df"
+      "url": "https://prod.download.desktop.kiro.dev/releases/stable/win32-x64/signed/0.7.5/kiro-ide-0.7.5-stable-win32-x64.zip",
+      "hash": "9056fd75d0758afa2fc1bc7986cd154581256b532eb5fb8b5ae0523a84967b95"
     }
   },
   "post_install": [
     "if (!(Test-Path \"$dir\\data\\extensions\") -and (Test-Path \"$env:USERPROFILE\\.kiro\\extensions\")) {",
     "    info '[Portable Mode] Copying extensions...'",
-    "    Copy-Item \"$env:USERPROFILE\\.kiro\\extensions\" \"$dir\\data\" -Recurse",
+    "    Move-Item \"$env:USERPROFILE\\.kiro\\extensions\" \"$dir\\data\" -Recurse",
     "}",
     "if (!(Test-Path \"$dir\\data\\user-data\") -and (Test-Path \"$env:AppData\\Kiro\")) {",
     "    info '[Portable Mode] Copying user data...'",
-    "    Copy-Item \"$env:AppData\\Kiro\" \"$dir\\data\\user-data\" -Recurse",
+    "    Move-Item \"$env:AppData\\Kiro\" \"$dir\\data\\user-data\" -Recurse",
     "}",
     "$extensions_file = \"$dir\\data\\extensions\\extensions.json\"",
     "if ((Test-Path \"$extensions_file\")) {",
@@ -40,15 +42,7 @@
   ],
   "persist": "data",
   "checkver": {
-    "url": "https://prod.download.desktop.kiro.dev/stable/metadata-win32-x64-user-stable.json",
-    "regex": "\"version\":\"(?<version>[\\d.]+)\".*?\"url\":\"(?<url>[^\"].*)\"",
-    "replace": "${version}"
-  },
-  "autoupdate": {
-    "architecture": {
-      "64bit": {
-        "url": "$matchUrl"
-      }
-    }
+    "url": "https://kiro.dev/changelog/",
+    "regex": "\\\"version\\\":\\\"([\\d.]+)"
   }
 }
