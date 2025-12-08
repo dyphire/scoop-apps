@@ -53,8 +53,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - echoiron/echo-scoop
 - cderv/r-bucket
 - TLDRO/scoop-security
-- hermanjustnu/scoop-emulators
 - ScoopInstaller/PHP
+- hermanjustnu/scoop-emulators
 - dodorz/scoop
 - couleur-tweak-tips/utils
 - niheaven/scoop-sysinternals
@@ -65,9 +65,9 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - akirco/aki-apps
 - everyx/scoop-bucket
 - cmontage/scoopbucket-third
+- xrgzs/sdoog
 - TheRandomLabs/Scoop-Bucket
 - Qv2ray/mochi
-- xrgzs/sdoog
 - DoveBoy/Apps
 - zhoujin7/tomato
 - wzv5/ScoopBucket
