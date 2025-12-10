@@ -50,9 +50,9 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - kidonng/sushi
 - ACooper81/scoop-apps
 - KNOXDEV/wsl
+- TLDRO/scoop-security
 - echoiron/echo-scoop
 - cderv/r-bucket
-- TLDRO/scoop-security
 - ScoopInstaller/PHP
 - hermanjustnu/scoop-emulators
 - dodorz/scoop
@@ -82,13 +82,13 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - kengwang/scoop-ctftools-bucket
 - ygguorun/scoop-bucket
 - aliesbelik/poldi
+- WinApps-share/WinApps-bucket
 - asimov-platform/scoop-bucket
 - SayCV/scoop-cvp
 - batkiz/backit
 - AStupidBear/scoop-bear
 - brian6932/dank-scoop
 - Velgus/Scoop-Portapps
-- WinApps-share/WinApps-bucket
 - Darkatse/Scoop-Darkatse
 - TianXiaTech/scoop-txt
 - ChungZH/peach
