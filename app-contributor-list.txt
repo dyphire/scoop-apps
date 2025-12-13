@@ -4282,6 +4282,7 @@ go120.json    ScoopInstaller/Versions
 everything-alpha.json    ScoopInstaller/Versions
 haskell863.json    ScoopInstaller/Versions
 premake5.json    ScoopInstaller/Versions
+phpstorm-latest.json    ScoopInstaller/Versions
 doublecmd-beta.json    ScoopInstaller/Versions
 pijul.json    ScoopInstaller/Versions
 tdm-gcc.json    ScoopInstaller/Versions
@@ -8133,7 +8134,6 @@ stevedore-np.json    ScoopInstaller/Nonportable
 everything-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 textpad-np.json    ScoopInstaller/Nonportable
 mullvadvpn-np.json    ScoopInstaller/Nonportable
-veyon-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 fman-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 lantern-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 anki-np_ScoopInstaller.json    ScoopInstaller/Nonportable
@@ -11251,7 +11251,6 @@ ollama_akirco.json    akirco/aki-apps
 x264.json    akirco/aki-apps
 mysql.json    akirco/aki-apps
 notion_akirco.json    akirco/aki-apps
-cursor_akirco.json    akirco/aki-apps
 maven.json    akirco/aki-apps
 ima-copilot.json    akirco/aki-apps
 speedtest-cli_akirco.json    akirco/aki-apps
@@ -11363,6 +11362,7 @@ easywsl.json    akirco/aki-apps
 nali.json    akirco/aki-apps
 snipaste_akirco.json    akirco/aki-apps
 uv_akirco.json    akirco/aki-apps
+crush_akirco.json    akirco/aki-apps
 everything_akirco.json    akirco/aki-apps
 wegame_akirco.json    akirco/aki-apps
 git-town.json    akirco/aki-apps
@@ -12796,8 +12796,8 @@ IdeaCE.json    cmontage/scoopbucket-third
 Idea_abgox.json    cmontage/scoopbucket-third
 ImDiskToolkit.json    cmontage/scoopbucket-third
 ImPlay_ygguorun.json    cmontage/scoopbucket-third
+ImTip_cmontage.json    cmontage/scoopbucket-third
 ImTip_hu3rror.json    cmontage/scoopbucket-third
-ImTip_ygguorun.json    cmontage/scoopbucket-third
 ImageGlass-Portable_cmontage.json    cmontage/scoopbucket-third
 ImageGlass_abgox.json    cmontage/scoopbucket-third
 ImageMagick-portable-Q16-HDRI.json    cmontage/scoopbucket-third
@@ -15122,7 +15122,7 @@ apfs.json    cmontage/scoopbucket-third
 api-monitor_cmontage.json    cmontage/scoopbucket-third
 api-monitor_naderi.json    cmontage/scoopbucket-third
 apifox_cmontage.json    cmontage/scoopbucket-third
-apifox_ScoopInstaller.json    cmontage/scoopbucket-third
+apifox_ViCrack.json    cmontage/scoopbucket-third
 apifox_WinApps-share.json    cmontage/scoopbucket-third
 apifox_scoopcn.json    cmontage/scoopbucket-third
 apifox_ygguorun.json    cmontage/scoopbucket-third
@@ -16130,6 +16130,7 @@ chromium-nosync_cmontage.json    cmontage/scoopbucket-third
 chromium-np.json    cmontage/scoopbucket-third
 chromium-xp.json    cmontage/scoopbucket-third
 chromium_cmontage.json    cmontage/scoopbucket-third
+chromium_akirco.json    cmontage/scoopbucket-third
 chromium_hu3rror.json    cmontage/scoopbucket-third
 chrono.json    cmontage/scoopbucket-third
 chroot_brian6932.json    cmontage/scoopbucket-third
@@ -17581,7 +17582,7 @@ evernote_cmontage.json    cmontage/scoopbucket-third
 evernote_kidonng.json    cmontage/scoopbucket-third
 everyone-can-use-english.json    cmontage/scoopbucket-third
 everything-alpha_cmontage.json    cmontage/scoopbucket-third
-everything-alpha_ScoopInstaller.json    cmontage/scoopbucket-third
+everything-alpha_DoveBoy.json    cmontage/scoopbucket-third
 everything-alpha_maboloshi.json    cmontage/scoopbucket-third
 everything-beta-np_cmontage.json    cmontage/scoopbucket-third
 everything-beta-np_ScoopInstaller.json    cmontage/scoopbucket-third
@@ -19287,7 +19288,7 @@ immudb.json    cmontage/scoopbucket-third
 imo-messenger_cmontage.json    cmontage/scoopbucket-third
 implay.json    cmontage/scoopbucket-third
 impregnate_cmontage.json    cmontage/scoopbucket-third
-imtip_cmontage.json    cmontage/scoopbucket-third
+imtip_WinApps-share.json    cmontage/scoopbucket-third
 inbac_cmontage.json    cmontage/scoopbucket-third
 inboxer_cmontage.json    cmontage/scoopbucket-third
 inbucket_cmontage.json    cmontage/scoopbucket-third
@@ -22136,6 +22137,7 @@ pdfsam_cmontage.json    cmontage/scoopbucket-third
 pdfshaper_cmontage.json    cmontage/scoopbucket-third
 pdfsizeopt.json    cmontage/scoopbucket-third
 pdftk-builder_cmontage.json    cmontage/scoopbucket-third
+pdftk-java_cmontage.json    cmontage/scoopbucket-third
 pdftkbuilder.json    cmontage/scoopbucket-third
 pdfxedit.json    cmontage/scoopbucket-third
 pdm.json    cmontage/scoopbucket-third
@@ -22612,6 +22614,7 @@ php82_cmontage.json    cmontage/scoopbucket-third
 php83-nts.json    cmontage/scoopbucket-third
 php83-xdebug_cmontage.json    cmontage/scoopbucket-third
 php83_cmontage.json    cmontage/scoopbucket-third
+php84-xdebug_cmontage.json    cmontage/scoopbucket-third
 php84_cmontage.json    cmontage/scoopbucket-third
 phpStudy.json    cmontage/scoopbucket-third
 php_akirco.json    cmontage/scoopbucket-third
@@ -22715,8 +22718,8 @@ pixivutil2.json    cmontage/scoopbucket-third
 pixivutil2_cc713.json    cmontage/scoopbucket-third
 pixpin-np.json    cmontage/scoopbucket-third
 pixpin_cmontage.json    cmontage/scoopbucket-third
+pixpin_Scoopforge.json    cmontage/scoopbucket-third
 pixpin_ViCrack.json    cmontage/scoopbucket-third
-pixpin_WinApps-share.json    cmontage/scoopbucket-third
 pixpin_amorphobia.json    cmontage/scoopbucket-third
 pixpin_echoiron.json    cmontage/scoopbucket-third
 pixpin_ygguorun.json    cmontage/scoopbucket-third
@@ -25474,6 +25477,7 @@ tsshd_cmontage.json    cmontage/scoopbucket-third
 tsukimi_cmontage.json    cmontage/scoopbucket-third
 tt.json    cmontage/scoopbucket-third
 ttdl_cmontage.json    cmontage/scoopbucket-third
+ttdl_aliesbelik.json    cmontage/scoopbucket-third
 ttdl_wangzq.json    cmontage/scoopbucket-third
 ttfautohint.json    cmontage/scoopbucket-third
 ttfautohint_jingyu9575.json    cmontage/scoopbucket-third
@@ -27251,6 +27255,21 @@ zyplayer_TianXiaTech.json    cmontage/scoopbucket-third
 zyplayer_cc713.json    cmontage/scoopbucket-third
 zyplayer_yuanying1199.json    cmontage/scoopbucket-third
 package.json    cmontage/scoopbucket-third
+qv2ray-plugin-ss_Qv2ray.json    Qv2ray/mochi
+v2ray-domain-list-community_Qv2ray.json    Qv2ray/mochi
+trojan.json    Qv2ray/mochi
+v2ray.json    Qv2ray/mochi
+v2ray-geoip_Qv2ray.json    Qv2ray/mochi
+xray_Qv2ray.json    Qv2ray/mochi
+trojan-go_Qv2ray.json    Qv2ray/mochi
+qv2ray-plugin-naiveproxy_Qv2ray.json    Qv2ray/mochi
+naiveproxy.json    Qv2ray/mochi
+qv2ray_Qv2ray.json    Qv2ray/mochi
+v2ray-rules-dat_Qv2ray.json    Qv2ray/mochi
+qv2ray-plugin-trojan_Qv2ray.json    Qv2ray/mochi
+qv2ray-plugin-command_Qv2ray.json    Qv2ray/mochi
+qv2ray-plugin-trojan-go_Qv2ray.json    Qv2ray/mochi
+qv2ray-plugin-ssr_Qv2ray.json    Qv2ray/mochi
 karing_xrgzs.json    xrgzs/sdoog
 tiny-frpc.json    xrgzs/sdoog
 jigdo-lite.json    xrgzs/sdoog
@@ -27599,21 +27618,6 @@ corsair-icue_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
 shellexview_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
 rfxgen_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
 raylib_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
-qv2ray-plugin-ss_Qv2ray.json    Qv2ray/mochi
-v2ray-domain-list-community_Qv2ray.json    Qv2ray/mochi
-trojan.json    Qv2ray/mochi
-v2ray.json    Qv2ray/mochi
-v2ray-geoip_Qv2ray.json    Qv2ray/mochi
-xray_Qv2ray.json    Qv2ray/mochi
-trojan-go_Qv2ray.json    Qv2ray/mochi
-qv2ray-plugin-naiveproxy_Qv2ray.json    Qv2ray/mochi
-naiveproxy.json    Qv2ray/mochi
-qv2ray_Qv2ray.json    Qv2ray/mochi
-v2ray-rules-dat_Qv2ray.json    Qv2ray/mochi
-qv2ray-plugin-trojan_Qv2ray.json    Qv2ray/mochi
-qv2ray-plugin-command_Qv2ray.json    Qv2ray/mochi
-qv2ray-plugin-trojan-go_Qv2ray.json    Qv2ray/mochi
-qv2ray-plugin-ssr_Qv2ray.json    Qv2ray/mochi
 karing_DoveBoy.json    DoveBoy/Apps
 bbdown-beta_DoveBoy.json    DoveBoy/Apps
 youku_DoveBoy.json    DoveBoy/Apps

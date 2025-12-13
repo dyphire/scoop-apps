@@ -1,16 +1,16 @@
 {
-    "version": "1.4.0",
+    "version": "1.5.1",
     "description": "A production-ready, fast MITM proxy with PAC support.",
     "homepage": "https://opensource.saucelabs.com/forwarder/",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/saucelabs/forwarder/releases/download/v1.4.0/forwarder-1.4.0_windows.x86_64.zip",
-            "hash": "8ff39040f0098f7c315c079410759d24d18e76956f83152614e518232871a63a"
+            "url": "https://github.com/saucelabs/forwarder/releases/download/v1.5.1/forwarder-1.5.1_windows.x86_64.zip",
+            "hash": "5f3b1d6ec790b4888630359b7c4bb04d97d18ea89a46605bf42025cad7cd14f2"
         },
         "arm64": {
-            "url": "https://github.com/saucelabs/forwarder/releases/download/v1.4.0/forwarder-1.4.0_windows.aarch64.zip",
-            "hash": "2e1492965a2d21de2e8499a3f002441a6992425fe5b74c5ff5d6d3b1ec7c6688"
+            "url": "https://github.com/saucelabs/forwarder/releases/download/v1.5.1/forwarder-1.5.1_windows.aarch64.zip",
+            "hash": "d07711740666d66ec5e3281d030fe082dfee73a7db78c14d6c323a992cf99d6d"
         }
     },
     "bin": "forwarder.exe",
