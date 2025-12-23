@@ -80,9 +80,9 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - NyaMisty/scoopbucketmisty
 - noql-net/scoop
 - kengwang/scoop-ctftools-bucket
+- WinApps-share/WinApps-bucket
 - ygguorun/scoop-bucket
 - aliesbelik/poldi
-- WinApps-share/WinApps-bucket
 - asimov-platform/scoop-bucket
 - SayCV/scoop-cvp
 - batkiz/backit
