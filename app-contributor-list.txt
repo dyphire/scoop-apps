@@ -1292,6 +1292,7 @@ gcc-arm-none-linux-gnueabihf.json    ScoopInstaller/Extras
 blender-benchmark-cli.json    ScoopInstaller/Extras
 neovide.json    ScoopInstaller/Extras
 easytier.json    ScoopInstaller/Extras
+resizer2.json    ScoopInstaller/Extras
 chromas.json    ScoopInstaller/Extras
 integerscaler.json    ScoopInstaller/Extras
 yed.json    ScoopInstaller/Extras
@@ -2231,6 +2232,7 @@ soapui.json    ScoopInstaller/Extras
 scantailor-advanced.json    ScoopInstaller/Extras
 nmkoder.json    ScoopInstaller/Extras
 ssd-z.json    ScoopInstaller/Extras
+copy-dialog-lunar-lander.json    ScoopInstaller/Extras
 ocauxiliarytools.json    ScoopInstaller/Extras
 wizmouse.json    ScoopInstaller/Extras
 switcheroo.json    ScoopInstaller/Extras
@@ -4279,6 +4281,7 @@ winpython37cod.json    ScoopInstaller/Versions
 obs-studio28.json    ScoopInstaller/Versions
 kdenlive-nightly.json    ScoopInstaller/Versions
 ruffle-nightly.json    ScoopInstaller/Versions
+gallery-dl-nightly.json    ScoopInstaller/Versions
 scribus-dev.json    ScoopInstaller/Versions
 git-flow-next-pre.json    ScoopInstaller/Versions
 stunnel-beta.json    ScoopInstaller/Versions
@@ -4353,6 +4356,7 @@ ruby25.json    ScoopInstaller/Versions
 kotatogram-beta.json    ScoopInstaller/Versions
 posh-git-beta.json    ScoopInstaller/Versions
 ferdium-nightly.json    ScoopInstaller/Versions
+rubymine-latest.json    ScoopInstaller/Versions
 ffmpeg-shared-nightly.json    ScoopInstaller/Versions
 kdeconnect-nightly.json    ScoopInstaller/Versions
 git19.json    ScoopInstaller/Versions
@@ -4441,6 +4445,7 @@ miniconda3-py38.json    ScoopInstaller/Versions
 calibre-normal5.json    ScoopInstaller/Versions
 ant19.json    ScoopInstaller/Versions
 joplin-pre.json    ScoopInstaller/Versions
+tor-browser-alpha.json    ScoopInstaller/Versions
 spotify-qt-nightly.json    ScoopInstaller/Versions
 tesseract3.json    ScoopInstaller/Versions
 atom-ng.json    ScoopInstaller/Versions
@@ -28106,6 +28111,7 @@ http-downloader_DoveBoy.json    DoveBoy/Apps
 runastool_DoveBoy.json    DoveBoy/Apps
 delapp_DoveBoy.json    DoveBoy/Apps
 pikatorrent_DoveBoy.json    DoveBoy/Apps
+electerm_DoveBoy.json    DoveBoy/Apps
 waveterm_DoveBoy.json    DoveBoy/Apps
 pot-desktop_DoveBoy.json    DoveBoy/Apps
 one-api_DoveBoy.json    DoveBoy/Apps
@@ -29460,7 +29466,6 @@ gopherus_kengwang.json    kengwang/scoop-ctftools-bucket
 MDUT_kengwang.json    kengwang/scoop-ctftools-bucket
 JSFinder_kengwang.json    kengwang/scoop-ctftools-bucket
 EtherGhost_kengwang.json    kengwang/scoop-ctftools-bucket
-CTFCrackTools_kengwang.json    kengwang/scoop-ctftools-bucket
 Webshell_Generate_kengwang.json    kengwang/scoop-ctftools-bucket
 gogo_kengwang.json    kengwang/scoop-ctftools-bucket
 ffuf_kengwang.json    kengwang/scoop-ctftools-bucket
@@ -30388,7 +30393,6 @@ dino-rss_batkiz.json    batkiz/backit
 jqp_batkiz.json    batkiz/backit
 fscan_batkiz.json    batkiz/backit
 teal_batkiz.json    batkiz/backit
-kreya_batkiz.json    batkiz/backit
 git-stack_batkiz.json    batkiz/backit
 autocorrect_batkiz.json    batkiz/backit
 ptex-ng_batkiz.json    batkiz/backit
@@ -30401,10 +30405,8 @@ raven-reader_batkiz.json    batkiz/backit
 xq_batkiz.json    batkiz/backit
 Icalingua-plus-plus_batkiz.json    batkiz/backit
 linqpad_batkiz.json    batkiz/backit
-lychee.json    batkiz/backit
 switchfin_batkiz.json    batkiz/backit
 redis-viewer_batkiz.json    batkiz/backit
-dotnet-core-uninstall_batkiz.json    batkiz/backit
 llvm_batkiz.json    batkiz/backit
 fsql_batkiz.json    batkiz/backit
 bloomrpc_batkiz.json    batkiz/backit
@@ -30485,7 +30487,6 @@ tectonic.json    batkiz/backit
 office-tool-plus-with-runtime_batkiz.json    batkiz/backit
 gping_batkiz.json    batkiz/backit
 dasel_batkiz.json    batkiz/backit
-micro_batkiz.json    batkiz/backit
 curlie_batkiz.json    batkiz/backit
 git-who_batkiz.json    batkiz/backit
 fselect.json    batkiz/backit
@@ -30494,13 +30495,11 @@ glow_batkiz.json    batkiz/backit
 git-branch-stash_batkiz.json    batkiz/backit
 fnm_batkiz.json    batkiz/backit
 pdm_batkiz.json    batkiz/backit
-dotnet-sdk-preview_batkiz.json    batkiz/backit
 wayback_batkiz.json    batkiz/backit
 legendary_batkiz.json    batkiz/backit
 forcebindip.json    batkiz/backit
 cowyo_batkiz.json    batkiz/backit
 cpufetch.json    batkiz/backit
-vivaldi-snapshot_batkiz.json    batkiz/backit
 animeko_batkiz.json    batkiz/backit
 eza_batkiz.json    batkiz/backit
 bitcomet_batkiz.json    batkiz/backit
@@ -30531,15 +30530,21 @@ golangci-lint.json    batkiz/backit
 schema_batkiz.json    batkiz/backit
 pixeval_batkiz.json    batkiz/backit
 delete-self-poc_batkiz.json    batkiz/backit
+kreya_batkiz.json    batkiz/backit
+lychee.json    batkiz/backit
+dotnet-core-uninstall_batkiz.json    batkiz/backit
 wiznotelite_batkiz.json    batkiz/backit
 antsword_batkiz.json    batkiz/backit
 wrangler_batkiz.json    batkiz/backit
 swiftlatex_batkiz.json    batkiz/backit
 apple-music-electron_batkiz.json    batkiz/backit
 ungoogled-chromium-portable_batkiz.json    batkiz/backit
+micro_batkiz.json    batkiz/backit
 pathman_batkiz.json    batkiz/backit
+dotnet-sdk-preview_batkiz.json    batkiz/backit
 yu-writer_batkiz.json    batkiz/backit
 gotip_batkiz.json    batkiz/backit
+vivaldi-snapshot_batkiz.json    batkiz/backit
 arc.json    batkiz/backit
 miflash_batkiz.json    batkiz/backit
 bitvise-ssh-client_batkiz.json    batkiz/backit
@@ -30894,7 +30899,6 @@ starward_Small-Ku.json    Small-Ku/turbo-bucket
 orbolay_Small-Ku.json    Small-Ku/turbo-bucket
 ddu_Small-Ku.json    Small-Ku/turbo-bucket
 kondo.json    Small-Ku/turbo-bucket
-zluda5_Small-Ku.json    Small-Ku/turbo-bucket
 stardb-exporter_Small-Ku.json    Small-Ku/turbo-bucket
 gemini-cli_Small-Ku.json    Small-Ku/turbo-bucket
 source-han-sans-vf-ttc_Small-Ku.json    Small-Ku/turbo-bucket
@@ -30911,6 +30915,7 @@ stuntman_Small-Ku.json    Small-Ku/turbo-bucket
 gpu-z-portable_Small-Ku.json    Small-Ku/turbo-bucket
 lapce-nightly_Small-Ku.json    Small-Ku/turbo-bucket
 untrunc_Small-Ku.json    Small-Ku/turbo-bucket
+zluda.json    Small-Ku/turbo-bucket
 liteloader-qqnt_Small-Ku.json    Small-Ku/turbo-bucket
 multimc_Small-Ku.json    Small-Ku/turbo-bucket
 process-lasso_Small-Ku.json    Small-Ku/turbo-bucket
