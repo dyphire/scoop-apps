@@ -49,8 +49,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - Paxxs/Cluttered-bucket
 - kidonng/sushi
 - ACooper81/scoop-apps
-- KNOXDEV/wsl
 - tldro/scoop-security
+- KNOXDEV/wsl
 - cderv/r-bucket
 - echoiron/echo-scoop
 - ScoopInstaller/PHP
