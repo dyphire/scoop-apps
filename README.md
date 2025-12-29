@@ -99,8 +99,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - Weidows-projects/scoop-3rd
 - seumsc/scoop-seu
 - mogeko/scoop-sysinternals
-- Scoopforge/Extras-Plus
 - aoisummer/scoop-bucket
+- Scoopforge/Extras-Plus
 - babo4d/scoop-xrtools
 - jfut/scoop-jfut
 - starise/Scoop-Gaming
