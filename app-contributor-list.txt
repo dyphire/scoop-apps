@@ -1126,6 +1126,7 @@ sourcetrail.json    ScoopInstaller/Extras
 iconview.json    ScoopInstaller/Extras
 lunatranslator.json    ScoopInstaller/Extras
 spyder.json    ScoopInstaller/Extras
+plakar.json    ScoopInstaller/Extras
 folo.json    ScoopInstaller/Extras
 rehex.json    ScoopInstaller/Extras
 shadered.json    ScoopInstaller/Extras
@@ -5959,7 +5960,7 @@ maple-mono_hoilc.json    hoilc/scoop-lemon
 flyscrape.json    hoilc/scoop-lemon
 lunatranslator_hoilc.json    hoilc/scoop-lemon
 technitium-dns-server.json    hoilc/scoop-lemon
-plakar.json    hoilc/scoop-lemon
+plakar_hoilc.json    hoilc/scoop-lemon
 wasm-bindgen-cli.json    hoilc/scoop-lemon
 everestctl.json    hoilc/scoop-lemon
 privexec.json    hoilc/scoop-lemon
@@ -11655,6 +11656,19 @@ VideoPanoramasPlayer.json    everyx/scoop-bucket
 hellofont_everyx.json    everyx/scoop-bucket
 SourceHanSansHK.json    everyx/scoop-bucket
 clash-for-windows_everyx.json    everyx/scoop-bucket
+neovim-dev.json    TheRandomLabs/Scoop-Bucket
+aomei-partition-assistant-standard.json    TheRandomLabs/Scoop-Bucket
+custom-resolution-utility_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
+visualvm_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
+luyten_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
+musescore-nightly-with-file-associations.json    TheRandomLabs/Scoop-Bucket
+win10-initial-setup-script.json    TheRandomLabs/Scoop-Bucket
+ffmpeg-for-audacity.json    TheRandomLabs/Scoop-Bucket
+windows-sdk-signing-tools.json    TheRandomLabs/Scoop-Bucket
+corsair-icue.json    TheRandomLabs/Scoop-Bucket
+shellexview_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
+rfxgen.json    TheRandomLabs/Scoop-Bucket
+raylib_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
 qv2ray-plugin-ss_Qv2ray.json    Qv2ray/mochi
 v2ray-domain-list-community_Qv2ray.json    Qv2ray/mochi
 trojan.json    Qv2ray/mochi
@@ -12321,7 +12335,6 @@ DejaVuSansMono-NF-Propo_cmontage.json    cmontage/scoopbucket-third
 DejaVuSansMono-NF_cmontage.json    cmontage/scoopbucket-third
 DelAge_cmontage.json    cmontage/scoopbucket-third
 DeleteProfiles_cmontage.json    cmontage/scoopbucket-third
-DeltaCopy_cmontage.json    cmontage/scoopbucket-third
 Delugia-Mono-Nerd-Font-Complete_cmontage.json    cmontage/scoopbucket-third
 Delugia-Mono-Nerd-Font_cmontage.json    cmontage/scoopbucket-third
 Delugia-Nerd-Font-Book_cmontage.json    cmontage/scoopbucket-third
@@ -15211,7 +15224,7 @@ anytype_windedge.json    cmontage/scoopbucket-third
 ao_cmontage.json    cmontage/scoopbucket-third
 aofv_cmontage.json    cmontage/scoopbucket-third
 aom.json    cmontage/scoopbucket-third
-aomei-partition-assistant-standard.json    cmontage/scoopbucket-third
+aomei-partition-assistant-standard_cmontage.json    cmontage/scoopbucket-third
 apache-directory-studio_cmontage.json    cmontage/scoopbucket-third
 apache-ivy_cmontage.json    cmontage/scoopbucket-third
 apache-mod-fcgid_cmontage.json    cmontage/scoopbucket-third
@@ -16630,7 +16643,7 @@ corretto23-jdk_cmontage.json    cmontage/scoopbucket-third
 corretto25-jdk_cmontage.json    cmontage/scoopbucket-third
 corretto8-jdk_cmontage.json    cmontage/scoopbucket-third
 corretto8-jre_cmontage.json    cmontage/scoopbucket-third
-corsair-icue.json    cmontage/scoopbucket-third
+corsair-icue_cmontage.json    cmontage/scoopbucket-third
 cosbrowser_cmontage.json    cmontage/scoopbucket-third
 cosbrowser_akirco.json    cmontage/scoopbucket-third
 cosbrowser_echoiron.json    cmontage/scoopbucket-third
@@ -17912,7 +17925,7 @@ ffmetrics_natecohen.json    cmontage/scoopbucket-third
 ffmpeg-aoks.json    cmontage/scoopbucket-third
 ffmpeg-batch_cmontage.json    cmontage/scoopbucket-third
 ffmpeg-essentials.json    cmontage/scoopbucket-third
-ffmpeg-for-audacity.json    cmontage/scoopbucket-third
+ffmpeg-for-audacity_cmontage.json    cmontage/scoopbucket-third
 ffmpeg-gyan-nightly_cmontage.json    cmontage/scoopbucket-third
 ffmpeg-nightly_cmontage.json    cmontage/scoopbucket-third
 ffmpeg-shared-4.4.1_cmontage.json    cmontage/scoopbucket-third
@@ -20839,7 +20852,7 @@ microsoft16-jdk_cmontage.json    cmontage/scoopbucket-third
 microsoft17-jdk_cmontage.json    cmontage/scoopbucket-third
 microsoft21-jdk_cmontage.json    cmontage/scoopbucket-third
 microsoftedge-beta_cmontage.json    cmontage/scoopbucket-third
-microsoftedge-beta_maboloshi.json    cmontage/scoopbucket-third
+microsoftedge-beta_chawyehsu.json    cmontage/scoopbucket-third
 microsoftedge-canary_cmontage.json    cmontage/scoopbucket-third
 microsoftedge-dev_cmontage.json    cmontage/scoopbucket-third
 microsoftedge_cmontage.json    cmontage/scoopbucket-third
@@ -21227,7 +21240,7 @@ mupen64plus_cmontage.json    cmontage/scoopbucket-third
 murata-simsurfing.json    cmontage/scoopbucket-third
 murphysec.json    cmontage/scoopbucket-third
 museeks_cmontage.json    cmontage/scoopbucket-third
-musescore-nightly-with-file-associations.json    cmontage/scoopbucket-third
+musescore-nightly-with-file-associations_cmontage.json    cmontage/scoopbucket-third
 musescore-nightly_cmontage.json    cmontage/scoopbucket-third
 musescore_cmontage.json    cmontage/scoopbucket-third
 musescore3-nightly_cmontage.json    cmontage/scoopbucket-third
@@ -21381,7 +21394,7 @@ neovide-beta.json    cmontage/scoopbucket-third
 neovide-dev_cmontage.json    cmontage/scoopbucket-third
 neovide_cmontage.json    cmontage/scoopbucket-third
 neovide_younger-1.json    cmontage/scoopbucket-third
-neovim-dev.json    cmontage/scoopbucket-third
+neovim-dev_cmontage.json    cmontage/scoopbucket-third
 neovim-nightly_cmontage.json    cmontage/scoopbucket-third
 neovim-nightly_hu3rror.json    cmontage/scoopbucket-third
 neovim-qt_cmontage.json    cmontage/scoopbucket-third
@@ -21418,7 +21431,7 @@ neteasemusic_echoiron.json    cmontage/scoopbucket-third
 neteasemusic_wzv5.json    cmontage/scoopbucket-third
 neteasepopo_cmontage.json    cmontage/scoopbucket-third
 neteaseuu_cmontage.json    cmontage/scoopbucket-third
-neteaseuu_DoveBoy.json    cmontage/scoopbucket-third
+neteaseuu_chawyehsu.json    cmontage/scoopbucket-third
 neteaseuuvoice_cmontage.json    cmontage/scoopbucket-third
 netfetch.json    cmontage/scoopbucket-third
 netflix-verify.json    cmontage/scoopbucket-third
@@ -23868,7 +23881,7 @@ revokemsgpatcher_amorphobia.json    cmontage/scoopbucket-third
 revoker.json    cmontage/scoopbucket-third
 revouninstaller_cmontage.json    cmontage/scoopbucket-third
 rewrk.json    cmontage/scoopbucket-third
-rfxgen.json    cmontage/scoopbucket-third
+rfxgen_cmontage.json    cmontage/scoopbucket-third
 rg-gui_cmontage.json    cmontage/scoopbucket-third
 rgbds_cmontage.json    cmontage/scoopbucket-third
 rhash_liaoya.json    cmontage/scoopbucket-third
@@ -25609,7 +25622,7 @@ tracy_cmontage.json    cmontage/scoopbucket-third
 tracy_naderi.json    cmontage/scoopbucket-third
 tradingview_cmontage.json    cmontage/scoopbucket-third
 trae-cn_cmontage.json    cmontage/scoopbucket-third
-trae-cn_akirco.json    cmontage/scoopbucket-third
+trae-cn_chawyehsu.json    cmontage/scoopbucket-third
 trae_cmontage.json    cmontage/scoopbucket-third
 traefik1_cmontage.json    cmontage/scoopbucket-third
 trafficmonitor-lite_cmontage.json    cmontage/scoopbucket-third
@@ -26204,6 +26217,7 @@ vkquake2_cmontage.json    cmontage/scoopbucket-third
 vlang-weekly.json    cmontage/scoopbucket-third
 vlang.json    cmontage/scoopbucket-third
 vlang_HUMORCE.json    cmontage/scoopbucket-third
+vlang_younger-1.json    cmontage/scoopbucket-third
 vlc-bluray-plugin_cmontage.json    cmontage/scoopbucket-third
 vlc-cn_cmontage.json    cmontage/scoopbucket-third
 vlc-installer_cmontage.json    cmontage/scoopbucket-third
@@ -26582,7 +26596,7 @@ win-gpg.json    cmontage/scoopbucket-third
 win-portacle_cmontage.json    cmontage/scoopbucket-third
 win-theme-toggle-mini.json    cmontage/scoopbucket-third
 win-vind_cmontage.json    cmontage/scoopbucket-third
-win10-initial-setup-script.json    cmontage/scoopbucket-third
+win10-initial-setup-script_cmontage.json    cmontage/scoopbucket-third
 win10-initial-setup-script_yuusakuri.json    cmontage/scoopbucket-third
 win10-virtual-desktop-enhancer.json    cmontage/scoopbucket-third
 win10_brightnessslider_cmontage.json    cmontage/scoopbucket-third
@@ -26648,7 +26662,7 @@ windows-kill.json    cmontage/scoopbucket-third
 windows-manage-tool.json    cmontage/scoopbucket-third
 windows-repair-toolbox.json    cmontage/scoopbucket-third
 windows-repair.json    cmontage/scoopbucket-third
-windows-sdk-signing-tools.json    cmontage/scoopbucket-third
+windows-sdk-signing-tools_cmontage.json    cmontage/scoopbucket-third
 windows-terminal-preview_cmontage.json    cmontage/scoopbucket-third
 windows-terminal-preview_SayCV.json    cmontage/scoopbucket-third
 windows-terminal-quake_akirco.json    cmontage/scoopbucket-third
@@ -27838,19 +27852,6 @@ amd-software-adrenalin-edition-rdna-combined.json    xrgzs/sdoog
 wsl.json    xrgzs/sdoog
 bilidown.json    xrgzs/sdoog
 schema_xrgzs.json    xrgzs/sdoog
-neovim-dev_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
-aomei-partition-assistant-standard_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
-custom-resolution-utility_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
-visualvm_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
-luyten_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
-musescore-nightly-with-file-associations_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
-win10-initial-setup-script_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
-ffmpeg-for-audacity_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
-windows-sdk-signing-tools_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
-corsair-icue_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
-shellexview_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
-rfxgen_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
-raylib_TheRandomLabs.json    TheRandomLabs/Scoop-Bucket
 karing_DoveBoy.json    DoveBoy/Apps
 bbdown-beta_DoveBoy.json    DoveBoy/Apps
 youku_DoveBoy.json    DoveBoy/Apps
