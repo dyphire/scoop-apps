@@ -1,11 +1,26 @@
 {
-    "url": "https://github.com/awaescher/Fusion/releases/download/v1.4/Fusion++.1.4.zip",
-    "version": "1.4",
-    "bin": [
-        ["fusion++.exe", "fusionpp", ""],
-        ["fusion++.exe", "fuslogvwpp", ""]
-    ],
+    "version": "1.5",
+    "description": "A modern alternative to the Microsoft Assembly Binding Log Viewer (FUSLOGVW.exe).",
+    "homepage": "https://github.com/awaescher/Fusion",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/awaescher/Fusion/releases/download/v1.5/Fusion++.1.5.zip",
+            "hash": "8fe25a17edee20a0c8a7ad51d7ec24167ba82a621f1f7aca9ee55da807d1d3ee"
+        }
+    },
     "shortcuts": [
-        ["fusion++.exe", "Fusion++"]
-    ]
+        [
+            "Fusion++.exe",
+            "Fusion++"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/awaescher/Fusion/releases/download/v$version/Fusion++.$version.zip"
+            }
+        }
+    }
 }
