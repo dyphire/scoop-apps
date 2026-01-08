@@ -54,14 +54,14 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - cderv/r-bucket
 - echoiron/echo-scoop
 - ScoopInstaller/PHP
-- hermanjustnu/scoop-emulators
 - dodorz/scoop
+- hermanjustnu/scoop-emulators
 - couleur-tweak-tips/utils
 - niheaven/scoop-sysinternals
 - borger/scoop-emulators
 - ViCrack/scoop-bucket
-- akirco/aki-apps
 - wangzq/scoop-bucket
+- akirco/aki-apps
 - kiennq/scoop-misc
 - everyx/scoop-bucket
 - TheRandomLabs/Scoop-Bucket
