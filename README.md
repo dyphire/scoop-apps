@@ -70,11 +70,11 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - xrgzs/sdoog
 - DoveBoy/Apps
 - zhoujin7/tomato
-- wzv5/ScoopBucket
 - charmbracelet/scoop-bucket
+- wzv5/ScoopBucket
 - TheRandomLabs/Scoop-Python
-- amorphobia/siku
 - hu3rror/scoop-muggle
+- amorphobia/siku
 - jonz94/scoop-sarasa-nerd-fonts
 - NyaMisty/scoopbucketmisty
 - naderi/scoop-bucket
@@ -100,10 +100,10 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - seumsc/scoop-seu
 - mogeko/scoop-sysinternals
 - aoisummer/scoop-bucket
-- Scoopforge/Extras-Plus
 - babo4d/scoop-xrtools
 - jfut/scoop-jfut
 - starise/Scoop-Gaming
+- Scoopforge/Extras-Plus
 - mo-san/scoop-bucket
 - krproject/qi-windows
 - rivy/scoop-bucket
