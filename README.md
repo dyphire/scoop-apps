@@ -65,9 +65,9 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - akirco/aki-apps
 - everyx/scoop-bucket
 - cmontage/scoopbucket-third
+- xrgzs/sdoog
 - TheRandomLabs/Scoop-Bucket
 - Qv2ray/mochi
-- xrgzs/sdoog
 - DoveBoy/Apps
 - zhoujin7/tomato
 - charmbracelet/scoop-bucket
