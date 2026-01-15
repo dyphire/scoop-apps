@@ -1,12 +1,12 @@
 {
-    "version": "b7730",
+    "version": "b7735",
     "description": "Inference of LLaMA model in pure C/C++ (Vulkan version)",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b7730/llama-b7730-bin-win-vulkan-x64.zip",
-            "hash": "7be114e699be5e39a795a7a924cb9a4b0956bc933f05515fa6a625aa7a9cc36c"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b7735/llama-b7735-bin-win-vulkan-x64.zip",
+            "hash": "2bfdbfd1c083b4ab66696d79fd83a7b0cf7237eeccc15fcac5d39515303e605f"
         }
     },
     "bin": [
