@@ -1,18 +1,20 @@
 {
-    "version": "b7761",
+    "version": "b7762",
     "description": "Inference of LLaMA model in pure C/C++ (HIP version for AMD GPUs)",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b7761/llama-b7761-bin-win-hip-radeon-x64.zip",
-            "hash": "dc06cb5ad6b31ac11d87815eeef48bc51d0259413584d2aee225a40de4e5d171"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b7762/llama-b7762-bin-win-hip-radeon-x64.zip",
+            "hash": "b0bbd824f3537e46d938fa0548f459be9432303c069e1af4c091fa725c0a3fb7"
         }
     },
     "bin": [
         "llama-batched-bench.exe",
         "llama-bench.exe",
         "llama-cli.exe",
+        "llama-completion.exe",
+        "llama-fit-params.exe",
         "llama-gemma3-cli.exe",
         "llama-gguf-split.exe",
         "llama-imatrix.exe",
@@ -22,7 +24,6 @@
         "llama-perplexity.exe",
         "llama-quantize.exe",
         "llama-qwen2vl-cli.exe",
-        "llama-run.exe",
         "llama-server.exe",
         "llama-tokenize.exe",
         "llama-tts.exe"
