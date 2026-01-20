@@ -56,8 +56,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - ScoopInstaller/PHP
 - dodorz/scoop
 - hermanjustnu/scoop-emulators
-- niheaven/scoop-sysinternals
 - couleur-tweak-tips/utils
+- niheaven/scoop-sysinternals
 - borger/scoop-emulators
 - ViCrack/scoop-bucket
 - wangzq/scoop-bucket
@@ -115,6 +115,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - natecohen/scoop-av
 - KnotUntied/scoop-fonts
 - jingyu9575/scoop-jingyu9575
+- BenjaminMichaelis/Config
 - HUMORCE/nuke
 - Deide/deide-bucket
 - MCOfficer/scoop-bucket
