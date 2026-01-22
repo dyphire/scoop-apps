@@ -88,6 +88,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - batkiz/backit
 - ChungZH/peach
 - AStupidBear/scoop-bear
+- Weidows-projects/scoop-3rd
 - brian6932/dank-scoop
 - Velgus/Scoop-Portapps
 - Small-Ku/turbo-bucket
@@ -96,7 +97,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - 42wim/scoop-bucket
 - starise/Scoop-Confetti
 - iquiw/scoop-bucket
-- Weidows-projects/scoop-3rd
 - seumsc/scoop-seu
 - mogeko/scoop-sysinternals
 - aoisummer/scoop-bucket
