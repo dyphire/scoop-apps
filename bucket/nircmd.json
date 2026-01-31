@@ -1,9 +1,17 @@
 {
-    "homepage": "https://www.nirsoft.net/utils/nircmd.html",
-    "checkver": "NirCmd v(\\d+\\.\\d\\d)",
     "version": "2.87",
-    "license": "freeware",
-    "description": "NirCmd is a small command-line utility that allows you to do some useful tasks without displaying any user interface. By running NirCmd with simple command-line option, you can write and delete values and keys in the Registry, write values into INI file, dial to your internet account or connect to a VPN network, restart windows or shut down the computer, create shortcut to a file, change the created/modified date of a file, change your display settings, turn off your monitor, open the door of your CD-ROM drive, and more...",
+    "homepage": "https://www.nirsoft.net/utils/nircmd.html",
+    "bin": "nircmd.exe",
+    "shortcuts": [
+        [
+            "nircmd.exe",
+            "NirSoft\\NirCmd"
+        ]
+    ],
+    "persist": [
+        "nircmd_lng.ini",
+        "nircmd.cfg"
+    ],
     "architecture": {
         "64bit": {
             "url": "https://www.nirsoft.net/utils/nircmd-x64.zip",
@@ -14,6 +22,13 @@
             "hash": "122aee2fbdd0c793367b519635c45e5611688159b72f5e58a27f9256a53c9014"
         }
     },
+    "description": "Do many useful tasks from command-line.",
+    "license": "Freeware",
+    "notes": "If this application is useful to you, please consider donating to NirSoft - https://www.nirsoft.net/donate.html",
+    "checkver": {
+        "url": "https://www.nirsoft.net/pad/nircmd.xml",
+        "xpath": "/XML_DIZ_INFO/Program_Info/Program_Version"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
@@ -23,12 +38,5 @@
                 "url": "https://www.nirsoft.net/utils/nircmd.zip"
             }
         }
-    },
-    "bin": "nircmd.exe",
-    "shortcuts": [
-        [
-            "nircmd.exe",
-            "NirSoft\\NirCmd - Do many useful tasks from command-line"
-        ]
-    ]
+    }
 }
