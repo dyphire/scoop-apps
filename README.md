@@ -83,13 +83,13 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - ygguorun/scoop-bucket
 - WinApps-share/WinApps-bucket
 - aliesbelik/poldi
+- brian6932/dank-scoop
 - asimov-platform/scoop-bucket
 - SayCV/scoop-cvp
 - batkiz/backit
 - ChungZH/peach
 - AStupidBear/scoop-bear
 - Weidows-projects/scoop-3rd
-- brian6932/dank-scoop
 - Velgus/Scoop-Portapps
 - Small-Ku/turbo-bucket
 - Darkatse/Scoop-Darkatse
