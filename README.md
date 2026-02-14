@@ -102,6 +102,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - aoisummer/scoop-bucket
 - babo4d/scoop-xrtools
 - jfut/scoop-jfut
+- AkariiinMKII/Scoop4kariiin
 - starise/Scoop-Gaming
 - Scoopforge/Extras-Plus
 - mo-san/scoop-bucket
@@ -109,7 +110,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - rivy/scoop-bucket
 - excitoon/scoop-user
 - alextwothousand/scoop-bucket
-- AkariiinMKII/Scoop4kariiin
 - Toddli468/Pentest-Scoop-Bucket
 - cc713/ownscoop
 - natecohen/scoop-av
