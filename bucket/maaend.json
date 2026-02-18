@@ -1,26 +1,15 @@
 {
-    "version": "1.13.0",
-    "description": "MaaEnd（终末地小助手）- 明日方舟：终末地全自动辅助工具",
-    "homepage": "https://github.com/maaend/maaend",
-    "license": "AGPL-3.0-or-later",
+    "version": "1.12.9",
+    "description": "High-precision automation assistant. Designed for heavy-duty operations and maximum efficiency in Arknights: Endfield.",
+    "homepage": "https://github.com/MaaEnd/MaaEnd",
+    "license": "AGPL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/maaend/maaend/releases/download/v1.13.0/MaaEnd-win-x86_64-v1.13.0.zip",
-            "hash": "cc067527db3f043b9a5b82f190f0eff83a961c140610e9ed14c84528b5c04183"
-        },
-        "arm64": {
-            "url": "https://github.com/maaend/maaend/releases/download/v1.13.0/MaaEnd-win-aarch64-v1.13.0.zip",
-            "hash": "cbf39dd8cae93ba5710f208570dfbf07ffd3f480e55c100e4e9baf1d0c09023c"
+            "url": "https://github.com/MaaEnd/MaaEnd/releases/download/v1.12.9/MaaEnd-win-x86_64-v1.12.9.zip",
+            "hash": "8bcba775741dcc6e7ab149fd12e1b49371876d89390d7a128c2d7c2505fbfcff"
         }
     },
-    "pre_install": [
-        "if (!(Test-Path \"$persist_dir\\config\")) {",
-        "    New-Item -ItemType Directory -Path \"$persist_dir\\config\" -Force | Out-Null",
-        "}",
-        "if (!(Test-Path \"$persist_dir\\cache\")) {",
-        "    New-Item -ItemType Directory -Path \"$persist_dir\\cache\" -Force | Out-Null",
-        "}"
-    ],
+    "bin": "MaaEnd.exe",
     "shortcuts": [
         [
             "MaaEnd.exe",
@@ -28,19 +17,15 @@
         ]
     ],
     "persist": [
+        "cache",
         "config",
-        "cache"
+        "debug"
     ],
-    "checkver": {
-        "github": "https://github.com/maaend/maaend"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/maaend/maaend/releases/download/v$version/MaaEnd-win-x86_64-v$version.zip"
-            },
-            "arm64": {
-                "url": "https://github.com/maaend/maaend/releases/download/v$version/MaaEnd-win-aarch64-v$version.zip"
+                "url": "https://github.com/MaaEnd/MaaEnd/releases/download/v$version/MaaEnd-win-x86_64-v$version.zip"
             }
         }
     }
