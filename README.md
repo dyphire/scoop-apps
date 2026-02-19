@@ -87,13 +87,13 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - asimov-platform/scoop-bucket
 - SayCV/scoop-cvp
 - batkiz/backit
-- ChungZH/peach
 - AStupidBear/scoop-bear
 - Weidows-projects/scoop-3rd
 - Velgus/Scoop-Portapps
 - Small-Ku/turbo-bucket
 - Darkatse/Scoop-Darkatse
 - TianXiaTech/scoop-txt
+- ChungZH/peach
 - 42wim/scoop-bucket
 - starise/Scoop-Confetti
 - iquiw/scoop-bucket
