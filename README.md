@@ -102,6 +102,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - aoisummer/scoop-bucket
 - babo4d/scoop-xrtools
 - jfut/scoop-jfut
+- ocodo/wezterm-alt-windows-icon-builds
 - AkariiinMKII/Scoop4kariiin
 - starise/Scoop-Gaming
 - Scoopforge/Extras-Plus
