@@ -95,8 +95,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - TianXiaTech/scoop-txt
 - ChungZH/peach
 - 42wim/scoop-bucket
-- starise/Scoop-Confetti
 - iquiw/scoop-bucket
+- starise/Scoop-Confetti
 - seumsc/scoop-seu
 - mogeko/scoop-sysinternals
 - aoisummer/scoop-bucket
