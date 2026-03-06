@@ -3,7 +3,7 @@
     "version": "0.1-10861",
     "description": "Sony Playstation emulator",
     "license": {
-        "identifier": "GPL-3.0-only",
+        "identifier": "CC-BY-NC-ND-4.0",
         "url": "https://github.com/stenzek/duckstation/blob/master/LICENSE"
     },
     "architecture": {
@@ -24,18 +24,22 @@
             ]
         }
     },
+    "suggest": {
+        "Microsoft Visual C++ Runtime 2022": "extras/vcredist2022"
+    },
     "pre_install": [
-        "function create($path, $type, $content) {",
+        "function create($Path, $Type, $Content) {",
         "   if (-not (Test-Path \"$path\")) {",
-        "       New-Item \"$path\" -ItemType $type -Value $content | Out-Null",
+        "       New-Item \"$path\" -ItemType $type -Value ($content -join \"`n\") -Force | Out-Null",
         "       Write-Output \"Creating $path...\"",
         "   }",
         "}",
         "$settings = \"$dir\\settings.ini\"",
         "$portable = \"$dir\\portable.txt\"",
-        "create $settings File",
-        "create $portable File"
+        "create $settings -Type File -Content ('[Main]', 'SettingsVersion = 3', \"`n`n[AutoUpdater]\", 'CheckAtStartup = false')",
+        "create $portable -Type File"
     ],
+    "pre_uninstall": "Copy-Item \"$dir\\settings.ini\" \"$persist_dir\" -ErrorAction SilentlyContinue -Force",
     "persist": [
         "portable.txt",
         "settings.ini",
@@ -43,14 +47,18 @@
         "cache",
         "cheats",
         "covers",
-        "dump",
+        "gameicons",
         "gamesettings",
         "inputprofiles",
         "memcards",
+        "patches",
+        "resources",
         "savestates",
         "screenshots",
         "shaders",
-        "textures"
+        "subchannels",
+        "textures",
+        "videos"
     ],
     "checkver": {
         "url": "https://api.github.com/repos/stenzek/duckstation/releases",
