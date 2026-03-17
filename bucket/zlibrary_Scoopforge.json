@@ -16,7 +16,7 @@
     "persist": "User Data",
     "checkver": {
         "url": "https://library-access.sk/",
-        "regex": "Z-Library_([\\d.]+)_amd64\\.deb"
+        "regex": "Z-Library_(\\d[\\.\\d]+)_amd64\\.deb"
     },
     "autoupdate": {
         "url": "https://s3proxy.cdn-zlib.sk/te_public_files/soft/windows/zlibrary-setup-portable-latest.exe#/dl.7z"
