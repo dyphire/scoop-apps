@@ -59,10 +59,10 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - niheaven/scoop-sysinternals
 - couleur-tweak-tips/utils
 - borger/scoop-emulators
+- kiennq/scoop-misc
 - ViCrack/scoop-bucket
 - wangzq/scoop-bucket
 - xrgzs/sdoog
-- kiennq/scoop-misc
 - akirco/aki-apps
 - cmontage/scoopbucket-third
 - everyx/scoop-bucket
@@ -72,8 +72,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - DoveBoy/Apps
 - zhoujin7/tomato
 - wzv5/ScoopBucket
-- TheRandomLabs/Scoop-Python
 - hu3rror/scoop-muggle
+- TheRandomLabs/Scoop-Python
 - amorphobia/siku
 - jonz94/scoop-sarasa-nerd-fonts
 - NyaMisty/scoopbucketmisty
@@ -99,8 +99,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - starise/Scoop-Confetti
 - seumsc/scoop-seu
 - mogeko/scoop-sysinternals
-- aoisummer/scoop-bucket
 - Scoopforge/Extras-Plus
+- aoisummer/scoop-bucket
 - babo4d/scoop-xrtools
 - jfut/scoop-jfut
 - ocodo/wezterm-alt-windows-icon-builds
