@@ -4251,6 +4251,7 @@ llama.cpp-hip-gfx1101.json    ScoopInstaller/Versions
 odin-nightly.json    ScoopInstaller/Versions
 php84.json    ScoopInstaller/Versions
 php84-xdebug.json    ScoopInstaller/Versions
+raddebugger-alpha.json    ScoopInstaller/Versions
 tomcat9.json    ScoopInstaller/Versions
 windowsdesktop-runtime-10.0.json    ScoopInstaller/Versions
 okular-nightly.json    ScoopInstaller/Versions
@@ -5441,6 +5442,7 @@ srumecmd.json    hoilc/scoop-lemon
 customasm.json    hoilc/scoop-lemon
 zedis_hoilc.json    hoilc/scoop-lemon
 extractnow.json    hoilc/scoop-lemon
+rebased.json    hoilc/scoop-lemon
 leetup.json    hoilc/scoop-lemon
 redisfx.json    hoilc/scoop-lemon
 jsonwatch.json    hoilc/scoop-lemon
@@ -5680,6 +5682,7 @@ surrealdb-migrations.json    hoilc/scoop-lemon
 oplus-sans.json    hoilc/scoop-lemon
 coscli.json    hoilc/scoop-lemon
 katago-opencl.json    hoilc/scoop-lemon
+jar-analyzer-engine.json    hoilc/scoop-lemon
 earthly.json    hoilc/scoop-lemon
 wintun-libs.json    hoilc/scoop-lemon
 synology-cloud-sync-decryption-tool.json    hoilc/scoop-lemon
@@ -6227,6 +6230,7 @@ winmemorycleaner_hoilc.json    hoilc/scoop-lemon
 exhale.json    hoilc/scoop-lemon
 imageworsener.json    hoilc/scoop-lemon
 wally.json    hoilc/scoop-lemon
+filesystemanalyzer.json    hoilc/scoop-lemon
 vnt.json    hoilc/scoop-lemon
 kalc.json    hoilc/scoop-lemon
 luaperfect.json    hoilc/scoop-lemon
@@ -6372,6 +6376,7 @@ surgescript.json    hoilc/scoop-lemon
 cleanwechatx.json    hoilc/scoop-lemon
 llama-cpp-hip.json    hoilc/scoop-lemon
 foobox6-cn.json    hoilc/scoop-lemon
+class-obf.json    hoilc/scoop-lemon
 buildozer.json    hoilc/scoop-lemon
 venera.json    hoilc/scoop-lemon
 geni.json    hoilc/scoop-lemon
@@ -6441,7 +6446,6 @@ pdfarranger_hoilc.json    hoilc/scoop-lemon
 amazon-ec2-metadata-mock.json    hoilc/scoop-lemon
 feroxbuster_hoilc.json    hoilc/scoop-lemon
 whisper-ps.json    hoilc/scoop-lemon
-cvemap.json    hoilc/scoop-lemon
 kmymoney-nightly.json    hoilc/scoop-lemon
 mahou.json    hoilc/scoop-lemon
 cryptoknife.json    hoilc/scoop-lemon
@@ -6645,7 +6649,6 @@ helio.json    hoilc/scoop-lemon
 qontrolpanel.json    hoilc/scoop-lemon
 fuso.json    hoilc/scoop-lemon
 64gram_hoilc.json    hoilc/scoop-lemon
-wasmcloud.json    hoilc/scoop-lemon
 neeview_hoilc.json    hoilc/scoop-lemon
 keyhac.json    hoilc/scoop-lemon
 nak.json    hoilc/scoop-lemon
@@ -6741,7 +6744,6 @@ cdsctl.json    hoilc/scoop-lemon
 nuclei_hoilc.json    hoilc/scoop-lemon
 talhelper.json    hoilc/scoop-lemon
 dssim.json    hoilc/scoop-lemon
-b23downloader.json    hoilc/scoop-lemon
 beeceptor-cli.json    hoilc/scoop-lemon
 hostsx.json    hoilc/scoop-lemon
 lumen.json    hoilc/scoop-lemon
@@ -6775,7 +6777,6 @@ wincontig.json    hoilc/scoop-lemon
 findstr.json    hoilc/scoop-lemon
 airdcpp.json    hoilc/scoop-lemon
 basalt.json    hoilc/scoop-lemon
-tkforge.json    hoilc/scoop-lemon
 rrdtool.json    hoilc/scoop-lemon
 mftecmd.json    hoilc/scoop-lemon
 forgejo-cli.json    hoilc/scoop-lemon
@@ -7080,7 +7081,6 @@ move2kube.json    hoilc/scoop-lemon
 code-radio-cli.json    hoilc/scoop-lemon
 gtk-sharp-libs.json    hoilc/scoop-lemon
 exdupe.json    hoilc/scoop-lemon
-rssguard_hoilc.json    hoilc/scoop-lemon
 libportable-iceweasel.json    hoilc/scoop-lemon
 cpz.json    hoilc/scoop-lemon
 throne_hoilc.json    hoilc/scoop-lemon
@@ -7106,7 +7106,6 @@ redumper.json    hoilc/scoop-lemon
 siteone-crawler.json    hoilc/scoop-lemon
 sling.json    hoilc/scoop-lemon
 graaljs-community-jvm.json    hoilc/scoop-lemon
-downkyi_hoilc.json    hoilc/scoop-lemon
 minidump-stackwalk.json    hoilc/scoop-lemon
 library.net.json    hoilc/scoop-lemon
 resamplescope.json    hoilc/scoop-lemon
@@ -7316,9 +7315,11 @@ kui_hoilc.json    hoilc/scoop-lemon
 findstr-eng.json    hoilc/scoop-lemon
 categraf.json    hoilc/scoop-lemon
 nebula-console.json    hoilc/scoop-lemon
+vulnx.json    hoilc/scoop-lemon
 hck.json    hoilc/scoop-lemon
 vgmstream-cli.json    hoilc/scoop-lemon
 mitex.json    hoilc/scoop-lemon
+pdfdir.json    hoilc/scoop-lemon
 xdvdfs.json    hoilc/scoop-lemon
 moon.json    hoilc/scoop-lemon
 sylpheed.json    hoilc/scoop-lemon
@@ -7599,18 +7600,23 @@ wingetui.json    hoilc/scoop-lemon
 yida.json    hoilc/scoop-lemon
 cnative.json    hoilc/scoop-lemon
 spline-cn.json    hoilc/scoop-lemon
+wasmcloud.json    hoilc/scoop-lemon
 ocis.json    hoilc/scoop-lemon
 tdengine-client-beta.json    hoilc/scoop-lemon
 go-proxy-checker.json    hoilc/scoop-lemon
 data-assistant.json    hoilc/scoop-lemon
 foobox-en.json    hoilc/scoop-lemon
 us3browser.json    hoilc/scoop-lemon
+b23downloader.json    hoilc/scoop-lemon
 napptive-playground-cli.json    hoilc/scoop-lemon
+tkforge.json    hoilc/scoop-lemon
 hibernation-recon.json    hoilc/scoop-lemon
 zally.json    hoilc/scoop-lemon
 coodesker_hoilc.json    hoilc/scoop-lemon
 priv10.json    hoilc/scoop-lemon
 tinyimageprocessor.json    hoilc/scoop-lemon
+rssguard_hoilc.json    hoilc/scoop-lemon
+downkyi_hoilc.json    hoilc/scoop-lemon
 dockle.json    hoilc/scoop-lemon
 start-reader.json    hoilc/scoop-lemon
 chatlog.json    hoilc/scoop-lemon
@@ -10541,6 +10547,7 @@ goose-CLI.json    dodorz/scoop
 Mihomo-TUI.json    dodorz/scoop
 clink-zoxide.json    dodorz/scoop
 fasd.json    dodorz/scoop
+OfficeCLI.json    dodorz/scoop
 mdcat.json    dodorz/scoop
 ExplorerXP.json    dodorz/scoop
 FreeVD.json    dodorz/scoop
@@ -31001,14 +31008,17 @@ qqplayer_TianXiaTech.json    TianXiaTech/scoop-txt
 nextai-translator_TianXiaTech.json    TianXiaTech/scoop-txt
 aliyundrive_TianXiaTech.json    TianXiaTech/scoop-txt
 neohtop_TianXiaTech.json    TianXiaTech/scoop-txt
+whisper-cpp-cublas-1240.json    TianXiaTech/scoop-txt
 picgo_TianXiaTech.json    TianXiaTech/scoop-txt
 imewlconverter_TianXiaTech.json    TianXiaTech/scoop-txt
+whisper-cpp-blas_TianXiaTech.json    TianXiaTech/scoop-txt
 ffmpegFreeUI_TianXiaTech.json    TianXiaTech/scoop-txt
 iconEase_TianXiaTech.json    TianXiaTech/scoop-txt
 jianyingpro_TianXiaTech.json    TianXiaTech/scoop-txt
 gopeed_TianXiaTech.json    TianXiaTech/scoop-txt
 qqmusic_TianXiaTech.json    TianXiaTech/scoop-txt
 baidunetdisk_TianXiaTech.json    TianXiaTech/scoop-txt
+whisper-cpp_TianXiaTech.json    TianXiaTech/scoop-txt
 kugou_TianXiaTech.json    TianXiaTech/scoop-txt
 winsw_TianXiaTech.json    TianXiaTech/scoop-txt
 mgtv_TianXiaTech.json    TianXiaTech/scoop-txt
@@ -31022,6 +31032,7 @@ cc-switch_TianXiaTech.json    TianXiaTech/scoop-txt
 youku_TianXiaTech.json    TianXiaTech/scoop-txt
 cursor_TianXiaTech.json    TianXiaTech/scoop-txt
 blinko_TianXiaTech.json    TianXiaTech/scoop-txt
+whisper-cpp-cublas-1180.json    TianXiaTech/scoop-txt
 winsw-alpha_TianXiaTech.json    TianXiaTech/scoop-txt
 zyfun_TianXiaTech.json    TianXiaTech/scoop-txt
 writingTools_TianXiaTech.json    TianXiaTech/scoop-txt
@@ -31741,6 +31752,7 @@ opentofu@1.11.3_rivy.json    rivy/scoop-bucket
 innounp_rivy.json    rivy/scoop-bucket
 go@1.19.13.json    rivy/scoop-bucket
 perl@5.18.4.1+gcc.json    rivy/scoop-bucket
+nasm@3.01.json    rivy/scoop-bucket
 resourceHacker.json    rivy/scoop-bucket
 djgpp@3.2-gcc-10.3.0_rivy.json    rivy/scoop-bucket
 gcc@7.3.0-x32_rivy.json    rivy/scoop-bucket
@@ -31860,6 +31872,7 @@ nodejs@7.10.0.json    rivy/scoop-bucket
 go@1.14.2.json    rivy/scoop-bucket
 python@mini-3.11.5.json    rivy/scoop-bucket
 curl@8.2.1_2_rivy.json    rivy/scoop-bucket
+clang@20.1.8.json    rivy/scoop-bucket
 ldc@1.22.0-multilib_rivy.json    rivy/scoop-bucket
 openssl@1.1.1d_rivy.json    rivy/scoop-bucket
 perl@5.28.1.1.json    rivy/scoop-bucket
@@ -32004,6 +32017,7 @@ embcc_rivy.json    rivy/scoop-bucket
 ldc@1.30.0-multilib.json    rivy/scoop-bucket
 gpg@2.2.5+gui.json    rivy/scoop-bucket
 pandoc@2.14.2_rivy.json    rivy/scoop-bucket
+clang@19.1.7.json    rivy/scoop-bucket
 gcc@9.2.0-x64+x32.json    rivy/scoop-bucket
 uutils-coreutils@0.0.14_rivy.json    rivy/scoop-bucket
 restic@0.9.5.json    rivy/scoop-bucket
@@ -32116,6 +32130,7 @@ perl@5.12.1.0+gcc.json    rivy/scoop-bucket
 premake@5.0.0-alpha16_rivy.json    rivy/scoop-bucket
 deno@1.2.0_rivy.json    rivy/scoop-bucket
 nim@1.0.4-x64.json    rivy/scoop-bucket
+clang@21.1.8.json    rivy/scoop-bucket
 vscode_rivy.json    rivy/scoop-bucket
 clang@10.0.0.json    rivy/scoop-bucket
 qalculate_rivy.json    rivy/scoop-bucket
@@ -32187,6 +32202,7 @@ perl@5.32.1.1+gcc.json    rivy/scoop-bucket
 perl@5.22.2.1+gcc.json    rivy/scoop-bucket
 uutils-coreutils@0.0.18-lean.json    rivy/scoop-bucket
 ldc.json    rivy/scoop-bucket
+nasm@2.16.01_rivy.json    rivy/scoop-bucket
 perl@5.24.3.1+gcc+PDL.json    rivy/scoop-bucket
 zig@0.8.0_rivy.json    rivy/scoop-bucket
 msvc@2019_rivy.json    rivy/scoop-bucket
@@ -32286,6 +32302,7 @@ llvm@12.0.1.json    rivy/scoop-bucket
 clang@18.1.8-llvmdev.json    rivy/scoop-bucket
 dosbox_rivy.json    rivy/scoop-bucket
 watchman@2023.09.18.00_rivy.json    rivy/scoop-bucket
+clang@22.1.2.json    rivy/scoop-bucket
 tcc.json    rivy/scoop-bucket
 nodejs@7.5.0.json    rivy/scoop-bucket
 premake5@5.0.0-alpha12_rivy.json    rivy/scoop-bucket
