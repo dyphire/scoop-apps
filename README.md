@@ -61,9 +61,9 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - borger/scoop-emulators
 - wangzq/scoop-bucket
 - xrgzs/sdoog
+- ViCrack/scoop-bucket
 - kiennq/scoop-misc
 - cmontage/scoopbucket-third
-- ViCrack/scoop-bucket
 - akirco/aki-apps
 - everyx/scoop-bucket
 - TheRandomLabs/Scoop-Bucket
@@ -80,10 +80,10 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - jonz94/scoop-sarasa-nerd-fonts
 - kengwang/scoop-ctftools-bucket
 - WinApps-share/WinApps-bucket
+- Small-Ku/turbo-bucket
 - noql-net/scoop
 - ygguorun/scoop-bucket
 - brian6932/dank-scoop
-- Small-Ku/turbo-bucket
 - aliesbelik/poldi
 - asimov-platform/scoop-bucket
 - SayCV/scoop-cvp
