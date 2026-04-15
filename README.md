@@ -88,11 +88,11 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - asimov-platform/scoop-bucket
 - SayCV/scoop-cvp
 - batkiz/backit
+- Scoopforge/Extras-Plus
 - AStupidBear/scoop-bear
 - Weidows-projects/scoop-3rd
 - Velgus/Scoop-Portapps
 - Darkatse/Scoop-Darkatse
-- Scoopforge/Extras-Plus
 - TianXiaTech/scoop-txt
 - ChungZH/peach
 - 42wim/scoop-bucket
@@ -121,6 +121,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - Deide/deide-bucket
 - MCOfficer/scoop-bucket
 - littleli/Scoop-littleli
+- maboloshi/scoop-private
 - littleli/Scoop-AtariEmulators
 - typst-community/scoop-bucket
 - beer-psi/scoop-bucket
