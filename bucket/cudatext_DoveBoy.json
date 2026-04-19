@@ -1,11 +1,8 @@
 {
     "version": "1.234.0.2",
-    "description": "A cross-platform, open-source text editor written in Object Pascal, available free of charge for both personal and commercial use, featuring fast startup and extensibility through Python-based add-ons.",
+    "description": "Text editor",
     "homepage": "https://cudatext.github.io",
-    "license": {
-        "identifier": "MPL-2.0",
-        "url": "https://github.com/Alexey-T/CudaText/blob/HEAD/LICENSE"
-    },
+    "license": "MPL-2.0",
     "architecture": {
         "64bit": {
             "url": "https://sourceforge.net/projects/cudatext/files/release/1.234.0.2/cudatext-windows-amd64-1.234.0.2.zip",
@@ -17,14 +14,6 @@
         }
     },
     "extract_dir": "cudatext",
-    "post_install": [
-        "'py', 'data' | ForEach-Object {",
-        "    if (Test-Path -Path \"$dir\\$_.original\" -PathType Container) {",
-        "        Copy-Item -Path \"$dir\\$_.original\\*\" -Destination \"$dir\\$_\" -Force -Recurse",
-        "        Remove-Item -Path \"$dir\\$_.original\" -Recurse -Force -ErrorAction SilentlyContinue",
-        "    }",
-        "}"
-    ],
     "bin": "cudatext.exe",
     "shortcuts": [
         [
@@ -32,11 +21,7 @@
             "CudaText"
         ]
     ],
-    "persist": [
-        "py",
-        "data",
-        "settings"
-    ],
+    "persist": "settings",
     "checkver": {
         "sourceforge": "cudatext/release"
     },
