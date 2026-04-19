@@ -117,8 +117,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - KnotUntied/scoop-fonts
 - jingyu9575/scoop-jingyu9575
 - BenjaminMichaelis/Config
-- HUMORCE/nuke
 - Deide/deide-bucket
+- HUMORCE/nuke
 - MCOfficer/scoop-bucket
 - littleli/Scoop-littleli
 - maboloshi/scoop-private
