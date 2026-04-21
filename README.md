@@ -87,8 +87,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - aliesbelik/poldi
 - asimov-platform/scoop-bucket
 - SayCV/scoop-cvp
-- batkiz/backit
 - Scoopforge/Extras-Plus
+- batkiz/backit
 - AStupidBear/scoop-bear
 - Weidows-projects/scoop-3rd
 - Velgus/Scoop-Portapps
