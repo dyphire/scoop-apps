@@ -1,0 +1,27 @@
+{
+    "version": "0.2.13",
+    "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+    "homepage": "https://github.com/multica-ai/multica",
+    "license": {
+        "identifier": "Unknown",
+        "url": "https://github.com/multica-ai/multica?tab=License-1-ov-file#readme"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/multica-ai/multica/releases/download/v0.2.13/multica_windows_amd64.zip",
+            "hash": "81c61e62a56054b74b9955818d7b1b04645f0a0f6cf7a569444b2dca1108e6f5"
+        }
+    },
+    "bin": "multica.exe",
+    "checkver": {
+        "github": "https://github.com/multica-ai/multica"
+    },
+    "autoupdate": {
+        "url": "https://github.com/multica-ai/multica/releases/download/v$version/multica_windows_amd64.zip",
+        "hash": {
+            "mode": "extract",
+            "url": "https://github.com/multica-ai/multica/releases/expanded_assets/v$version",
+            "regex": "multica_windows_amd64\\.zip.*?sha256:$sha256"
+        }
+    }
+}
