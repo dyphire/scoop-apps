@@ -1,12 +1,12 @@
 {
-    "version": "b8922",
+    "version": "b8927",
     "description": "Inference of LLaMA model in pure C/C++ (HIP version for AMD GPUs)",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b8922/llama-b8922-bin-win-hip-radeon-x64.zip",
-            "hash": "205d516b31ff50ec9e564e0cbe24a01d7be493271eab8f0fb2c1b47790ce0d5f"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b8927/llama-b8927-bin-win-hip-radeon-x64.zip",
+            "hash": "522b7c78d7348d2acca9ac148ba58fcc19369108f6ae05bae2b2d77a7e929e71"
         }
     },
     "bin": [
