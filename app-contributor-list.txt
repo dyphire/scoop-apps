@@ -3307,9 +3307,9 @@ cajviewer.json    Scoopforge/Extras-CN
 obs-studio-cn.json    Scoopforge/Extras-CN
 revoke-msg-patcher.json    Scoopforge/Extras-CN
 navicat-premium-lite-cn.json    Scoopforge/Extras-CN
+retain-pdf.json    Scoopforge/Extras-CN
 lx-music.json    Scoopforge/Extras-CN
 pot-desktop.json    Scoopforge/Extras-CN
-vscode-win7.json    Scoopforge/Extras-CN
 adrive.json    Scoopforge/Extras-CN
 hbuilderx.json    Scoopforge/Extras-CN
 jianying-pro.json    Scoopforge/Extras-CN
@@ -3785,7 +3785,9 @@ temurin19-nightly-jdk.json    ScoopInstaller/Java
 corretto17-jdk.json    ScoopInstaller/Java
 ojdkbuild9-full.json    ScoopInstaller/Java
 jmc.json    ScoopInstaller/Java
+intellij-jbr25.json    ScoopInstaller/Java
 graalvm-oracle-21jdk.json    ScoopInstaller/Java
+intellij-jbr25-sdk-jcef.json    ScoopInstaller/Java
 zulu10-jdk.json    ScoopInstaller/Java
 icedtea-web.json    ScoopInstaller/Java
 liberica12-jdk.json    ScoopInstaller/Java
@@ -3853,6 +3855,7 @@ ojdkbuild9.json    ScoopInstaller/Java
 liberica15-full-jre.json    ScoopInstaller/Java
 zulu22-jre.json    ScoopInstaller/Java
 openjdk20.json    ScoopInstaller/Java
+intellij-jbr25-sdk.json    ScoopInstaller/Java
 graalvm-nightly-jdk17.json    ScoopInstaller/Java
 temurin23-jdk.json    ScoopInstaller/Java
 gluon-openjfx-monocle-sdk-ea.json    ScoopInstaller/Java
@@ -3918,6 +3921,7 @@ zulufx25-jre.json    ScoopInstaller/Java
 corretto21-jdk.json    ScoopInstaller/Java
 liberica17-jdk.json    ScoopInstaller/Java
 openjdk9.json    ScoopInstaller/Java
+intellij-jbr25-jcef.json    ScoopInstaller/Java
 graalvm20.json    ScoopInstaller/Java
 intellij-jbr17.json    ScoopInstaller/Java
 temurin22-jdk.json    ScoopInstaller/Java
@@ -4664,6 +4668,7 @@ nodejs8.json    ScoopInstaller/Versions
 slack-beta.json    ScoopInstaller/Versions
 haxe-dev.json    ScoopInstaller/Versions
 nodejs24.json    ScoopInstaller/Versions
+rufus-beta.json    ScoopInstaller/Versions
 go116.json    ScoopInstaller/Versions
 ruby30.json    ScoopInstaller/Versions
 idea-eap.json    ScoopInstaller/Versions
@@ -12372,7 +12377,6 @@ pup.json    akirco/aki-apps
 time.json    akirco/aki-apps
 vcredist2010_akirco.json    akirco/aki-apps
 dingtalk_akirco.json    akirco/aki-apps
-fluent-reader_akirco.json    akirco/aki-apps
 svtplay-dl.json    akirco/aki-apps
 git-town.json    akirco/aki-apps
 bob_akirco.json    akirco/aki-apps
@@ -26515,7 +26519,7 @@ vscode-portable-association.json    cmontage/scoopbucket-third
 vscode-portable.json    cmontage/scoopbucket-third
 vscode-portable32.json    cmontage/scoopbucket-third
 vscode-portapps.json    cmontage/scoopbucket-third
-vscode-win7_cmontage.json    cmontage/scoopbucket-third
+vscode-win7.json    cmontage/scoopbucket-third
 vscode-x_cmontage.json    cmontage/scoopbucket-third
 vscode_cmontage.json    cmontage/scoopbucket-third
 vscode@1.59.1.json    cmontage/scoopbucket-third
@@ -30377,6 +30381,7 @@ git-extras_aliesbelik.json    aliesbelik/poldi
 humanlog_aliesbelik.json    aliesbelik/poldi
 yj_aliesbelik.json    aliesbelik/poldi
 lstr_aliesbelik.json    aliesbelik/poldi
+gickup_aliesbelik.json    aliesbelik/poldi
 ghs_aliesbelik.json    aliesbelik/poldi
 bed_aliesbelik.json    aliesbelik/poldi
 s3scanner_aliesbelik.json    aliesbelik/poldi
