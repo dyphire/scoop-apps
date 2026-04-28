@@ -1,18 +1,18 @@
 {
-    "version": "25.0.1-b266.34",
+    "version": "25.0.2-b432.48",
     "homepage": "https://github.com/JetBrains/JetBrainsRuntime",
     "description": "A fork of OpenJDK that supports enhanced class redefinition (DCEVM), features optional JCEF, a framework for embedding Chromium-based browsers, includes a number of improvements in font rendering, keyboards support, windowing/focus subsystems, HiDPI, accessibility, and performance, provides better desktop integration and bugfixes not yet present in OpenJDK.",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.1-windows-x64-b266.34.tar.gz",
-            "hash": "sha512:9cd81048244e3e696c6be131cc37868bcbb51db161fd327b26b79fddc280075d96f18487e2ad5f4b3164dabfaff3845c841a45f667584f0a87ccb9105317773b",
-            "extract_dir": "jbrsdk-25.0.1-windows-x64-b266.34"
+            "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.2-windows-x64-b432.48.tar.gz",
+            "hash": "sha512:0ebfac7569b59f4c2caf85c2554f9ee418481f950bf55240d366a45beb0b094974dfdb719ec13c57bb102b0e2b28b419bb287d9d6b6beacbdaddd8ee99148fe6",
+            "extract_dir": "jbrsdk-25.0.2-windows-x64-b432.48"
         },
         "arm64": {
-            "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.1-windows-aarch64-b266.34.tar.gz",
-            "hash": "sha512:d3b9bd219ff25c874ceb9a10f286e9ee1ceb091442b2357f22bdc7479ac442e7df86b419e918936fb9aa446ede9d710c446baca634bd21a81abb968af903eb53",
-            "extract_dir": "jbrsdk-25.0.1-windows-aarch64-b266.34"
+            "url": "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-25.0.2-windows-aarch64-b432.48.tar.gz",
+            "hash": "sha512:caea74e6fa01ddb9c59d90bbb8e7d9e622b550fab183b53391f940cb5be0a56ae2d2276e798c03ac41bc910a0aeb462d508dd3917c460d76a6e74eac31c16560",
+            "extract_dir": "jbrsdk-25.0.2-windows-aarch64-b432.48"
         }
     },
     "env_set": {
