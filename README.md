@@ -85,13 +85,13 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - ygguorun/scoop-bucket
 - brian6932/dank-scoop
 - aliesbelik/poldi
+- Velgus/Scoop-Portapps
 - asimov-platform/scoop-bucket
 - SayCV/scoop-cvp
 - Scoopforge/Extras-Plus
 - batkiz/backit
 - AStupidBear/scoop-bear
 - Weidows-projects/scoop-3rd
-- Velgus/Scoop-Portapps
 - Darkatse/Scoop-Darkatse
 - TianXiaTech/scoop-txt
 - ChungZH/peach
@@ -102,11 +102,11 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - mogeko/scoop-sysinternals
 - starise/Scoop-Gaming
 - aoisummer/scoop-bucket
+- mo-san/scoop-bucket
 - babo4d/scoop-xrtools
 - jfut/scoop-jfut
 - ocodo/wezterm-alt-windows-icon-builds
 - AkariiinMKII/Scoop4kariiin
-- mo-san/scoop-bucket
 - krproject/qi-windows
 - rivy/scoop-bucket
 - excitoon/scoop-user
