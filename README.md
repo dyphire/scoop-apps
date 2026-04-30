@@ -90,11 +90,11 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - SayCV/scoop-cvp
 - Scoopforge/Extras-Plus
 - batkiz/backit
+- ChungZH/peach
 - AStupidBear/scoop-bear
 - Weidows-projects/scoop-3rd
 - Darkatse/Scoop-Darkatse
 - TianXiaTech/scoop-txt
-- ChungZH/peach
 - 42wim/scoop-bucket
 - iquiw/scoop-bucket
 - starise/Scoop-Confetti
