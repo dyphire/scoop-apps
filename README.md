@@ -59,9 +59,9 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - niheaven/scoop-sysinternals
 - couleur-tweak-tips/utils
 - borger/scoop-emulators
-- xrgzs/sdoog
 - ViCrack/scoop-bucket
 - wangzq/scoop-bucket
+- xrgzs/sdoog
 - kiennq/scoop-misc
 - cmontage/scoopbucket-third
 - akirco/aki-apps
@@ -70,8 +70,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - Qv2ray/mochi
 - charmbracelet/scoop-bucket
 - DoveBoy/Apps
-- zhoujin7/tomato
 - EFLKumo/jam
+- zhoujin7/tomato
 - wzv5/ScoopBucket
 - hu3rror/scoop-muggle
 - TheRandomLabs/Scoop-Python
