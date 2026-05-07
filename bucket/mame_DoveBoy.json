@@ -1,5 +1,5 @@
 {
-    "version": "0.287",
+    "version": "0287",
     "description": "Arcade machine emulator",
     "homepage": "http://mamedev.org",
     "license": {
@@ -60,7 +60,8 @@
     ],
     "checkver": {
         "github": "https://github.com/mamedev/mame",
-        "regex": "MAME ([\\d.]+)"
+        "jp": "$.tag_name",
+        "regex": "mame([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
