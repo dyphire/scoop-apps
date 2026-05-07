@@ -22,7 +22,8 @@
     "persist": "Configurations",
     "checkver": {
         "github": "https://api.github.com/repos/Ftbom/Aria2Manager/releases",
-        "regex": "/releases/tag/v([\\d.]+)"
+        "jp": "$[0].assets[*].browser_download_url",
+        "regex": "/releases/download/v([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
