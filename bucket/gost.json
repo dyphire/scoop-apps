@@ -1,26 +1,28 @@
 {
-    "version": "3.2.6",
-    "homepage": "https://github.com/go-gost/gost",
-    "description": "GO Simple Tunnel - a simple tunnel written in golang.(Scoop bucket by arch3rpro)",
+    "version": "3.2.7-nightly.20260426",
+    "description": "GO Simple Tunnel - a simple tunnel written in golang.",
+    "homepage": "https://gost.run/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/go-gost/gost/releases/download/v3.2.6/gost_3.2.6_windows_amd64.zip",
-            "hash": "32f4edf3d94b622e67f1979f6f5de82dac62abc0977772cf96215dd199ef7e7b"
+            "url": "https://github.com/go-gost/gost/releases/download/v3.2.7-nightly.20260426/gost_3.2.7-nightly.20260426_windows_amd64.zip",
+            "hash": "24845c71633138e9f3704e00d2cb4b299053ba37ba8ab284c0cac7c3739c28c0"
         },
         "32bit": {
-            "url": "https://github.com/go-gost/gost/releases/download/v3.2.6/gost_3.2.6_windows_386.zip",
-            "hash": "4f64ecf0c2b13548010d00ddbe0be616381e8cee4c3bb3947945a0f14407b28f"
+            "url": "https://github.com/go-gost/gost/releases/download/v3.2.7-nightly.20260426/gost_3.2.7-nightly.20260426_windows_386.zip",
+            "hash": "f982b6c356801e19111035288346ef1c79c42e5a07e44de7a9d294363bb0818c"
+        },
+        "arm64": {
+            "url": "https://github.com/go-gost/gost/releases/download/v3.2.7-nightly.20260426/gost_3.2.7-nightly.20260426_windows_arm64.zip",
+            "hash": "0b3c4b7eb4663996fcaffd057e4e70a868dec9195f241603893e47b374f883e4"
         }
     },
-    "bin": [
-        [
-            "gost.exe",
-            "gost"
-        ]
-    ],
-    "post_install": "Invoke-WebRequest -URI \"https://raw.githubusercontent.com/go-gost/gost/master/gost.yml\" -OutFile \"$dir\\gost.yml\"",
-    "checkver": "github",
+    "bin": "gost.exe",
+    "persist": "conf",
+    "checkver": {
+        "url": "https://github.com/go-gost/gost/releases.atom",
+        "regex": "Repository/\\d+/v(.+?)<"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
@@ -28,7 +30,13 @@
             },
             "32bit": {
                 "url": "https://github.com/go-gost/gost/releases/download/v$version/gost_$version_windows_386.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/go-gost/gost/releases/download/v$version/gost_$version_windows_arm64.zip"
             }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
         }
     }
 }

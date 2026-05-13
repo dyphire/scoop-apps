@@ -1,12 +1,12 @@
 {
-    "version": "b9114",
+    "version": "b9124",
     "description": "Inference of LLaMA model in pure C/C++ (SYCL version)",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b9114/llama-b9114-bin-win-sycl-x64.zip",
-            "hash": "5767cdfab6a9f8f58050f6ad7938c57895d227e81d1f5c80f86d13ea55ff6039"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b9124/llama-b9124-bin-win-sycl-x64.zip",
+            "hash": "b36a587fd2ae2a20950a2215d051b7b8eaaaf284cd4eac3a7d1fa1fbe1d4d71f"
         }
     },
     "bin": [

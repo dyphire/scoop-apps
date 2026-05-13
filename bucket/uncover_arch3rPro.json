@@ -1,0 +1,28 @@
+{
+    "version": "1.2.0",
+    "description": "(Scoop bucket by arch3rpro) uncover - Quickly discover exposed hosts on the internet using multiple search engines.",
+    "homepage": "https://github.com/projectdiscovery/uncover",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/projectdiscovery/uncover/releases/download/v1.2.0/uncover_1.2.0_windows_amd64.zip",
+            "hash": "feae175060413f7833b0f9208468b6939a41fe96be2d9801d8281f3a4b875b73"
+        },
+        "32bit": {
+            "url": "https://github.com/projectdiscovery/uncover/releases/download/v1.2.0/uncover_1.2.0_windows_386.zip",
+            "hash": "4a3b7e785304db8341814dae4a4722747e1ddc587c0889c63f7ce809ad3b4dee"
+        }
+    },
+    "bin": "uncover.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/projectdiscovery/uncover/releases/download/v$version/uncover_$version_windows_amd64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/projectdiscovery/uncover/releases/download/v$version/uncover_$version_windows_386.zip"
+            }
+        }
+    }
+}
