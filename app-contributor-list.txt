@@ -211,7 +211,6 @@ tortoisehg.json    ScoopInstaller/Extras
 raylib.json    ScoopInstaller/Extras
 furnace.json    ScoopInstaller/Extras
 reicon.json    ScoopInstaller/Extras
-echoargs.json    ScoopInstaller/Extras
 terminals.json    ScoopInstaller/Extras
 dbeaver.json    ScoopInstaller/Extras
 workrave.json    ScoopInstaller/Extras
@@ -635,7 +634,6 @@ inkscape.json    ScoopInstaller/Extras
 arcadedb.json    ScoopInstaller/Extras
 codetrack.json    ScoopInstaller/Extras
 simplyserial.json    ScoopInstaller/Extras
-miru.json    ScoopInstaller/Extras
 zotero.json    ScoopInstaller/Extras
 tacky-borders.json    ScoopInstaller/Extras
 jellyfin.json    ScoopInstaller/Extras
@@ -1148,7 +1146,6 @@ notion-enhanced.json    ScoopInstaller/Extras
 eclipse-dsl.json    ScoopInstaller/Extras
 yubioath.json    ScoopInstaller/Extras
 rectanglewin.json    ScoopInstaller/Extras
-gammy.json    ScoopInstaller/Extras
 opennetmeter.json    ScoopInstaller/Extras
 reduce-memory.json    ScoopInstaller/Extras
 sdl2-image.json    ScoopInstaller/Extras
@@ -1172,7 +1169,6 @@ natron.json    ScoopInstaller/Extras
 waifu2x-snowshell.json    ScoopInstaller/Extras
 clingo.json    ScoopInstaller/Extras
 firefox.json    ScoopInstaller/Extras
-winfbe.json    ScoopInstaller/Extras
 winfile.json    ScoopInstaller/Extras
 plezy.json    ScoopInstaller/Extras
 ocenaudio.json    ScoopInstaller/Extras
@@ -1731,7 +1727,6 @@ polsedit.json    ScoopInstaller/Extras
 wumgr.json    ScoopInstaller/Extras
 everythingtoolbar_ScoopInstaller.json    ScoopInstaller/Extras
 ffdec.json    ScoopInstaller/Extras
-engauge-digitizer.json    ScoopInstaller/Extras
 speedtest.json    ScoopInstaller/Extras
 harmonoid.json    ScoopInstaller/Extras
 keyguard.json    ScoopInstaller/Extras
@@ -2419,7 +2414,6 @@ mucommander.json    ScoopInstaller/Extras
 youtubedownloader.json    ScoopInstaller/Extras
 librewolf.json    ScoopInstaller/Extras
 camstudio.json    ScoopInstaller/Extras
-glimpse.json    ScoopInstaller/Extras
 wifi-manager.json    ScoopInstaller/Extras
 pet.json    ScoopInstaller/Extras
 slic3r.json    ScoopInstaller/Extras
@@ -2476,6 +2470,7 @@ todotxt-net.json    ScoopInstaller/Extras
 everything.json    ScoopInstaller/Extras
 strokesplus.json    ScoopInstaller/Extras
 tanoshi.json    ScoopInstaller/Extras
+echoargs.json    ScoopInstaller/Extras
 winrar-helper.json    ScoopInstaller/Extras
 strawberry.json    ScoopInstaller/Extras
 terminus.json    ScoopInstaller/Extras
@@ -2484,6 +2479,7 @@ git-credential-manager-core.json    ScoopInstaller/Extras
 notepad2-zufuliu.json    ScoopInstaller/Extras
 triliumnext.json    ScoopInstaller/Extras
 keenwrite.json    ScoopInstaller/Extras
+miru.json    ScoopInstaller/Extras
 cider.json    ScoopInstaller/Extras
 pandownload.json    ScoopInstaller/Extras
 pomotodo.json    ScoopInstaller/Extras
@@ -2499,7 +2495,9 @@ chefdk.json    ScoopInstaller/Extras
 jaspersoft-studio.json    ScoopInstaller/Extras
 moar.json    ScoopInstaller/Extras
 p4merge.json    ScoopInstaller/Extras
+gammy.json    ScoopInstaller/Extras
 paperwork.json    ScoopInstaller/Extras
+winfbe.json    ScoopInstaller/Extras
 processhacker.json    ScoopInstaller/Extras
 aegisubdc.json    ScoopInstaller/Extras
 86box-manager.json    ScoopInstaller/Extras
@@ -2513,6 +2511,7 @@ riot.json    ScoopInstaller/Extras
 deepl.json    ScoopInstaller/Extras
 opencode.json    ScoopInstaller/Extras
 sagemath.json    ScoopInstaller/Extras
+engauge-digitizer.json    ScoopInstaller/Extras
 ibmcloud-cli.json    ScoopInstaller/Extras
 webcamoid.json    ScoopInstaller/Extras
 libreoffice-fresh.json    ScoopInstaller/Extras
@@ -2528,6 +2527,7 @@ shinjiru.json    ScoopInstaller/Extras
 nekoray.json    ScoopInstaller/Extras
 kicad-lite.json    ScoopInstaller/Extras
 toggl.json    ScoopInstaller/Extras
+glimpse.json    ScoopInstaller/Extras
 .markdownlint.json    ScoopInstaller/Extras
 sandboxie-plus.json    chawyehsu/dorado
 tableau-desktop.json    chawyehsu/dorado
@@ -4416,6 +4416,7 @@ dolphin-nightly.json    ScoopInstaller/Versions
 llama.cpp-hip-gfx1100.json    ScoopInstaller/Versions
 bandizip6.json    ScoopInstaller/Versions
 n-m3u8dl-re-beta.json    ScoopInstaller/Versions
+cuda13.2.json    ScoopInstaller/Versions
 premake5.json    ScoopInstaller/Versions
 php74.json    ScoopInstaller/Versions
 glslang-nightly.json    ScoopInstaller/Versions
@@ -28673,6 +28674,7 @@ tcping_DoveBoy.json    DoveBoy/Apps
 droppoint-portable_DoveBoy.json    DoveBoy/Apps
 adb_DoveBoy.json    DoveBoy/Apps
 restart-explorer_DoveBoy.json    DoveBoy/Apps
+qbittorrent_DoveBoy.json    DoveBoy/Apps
 scoop-search-chriscp_DoveBoy.json    DoveBoy/Apps
 mpv-lazy_DoveBoy.json    DoveBoy/Apps
 qtunblockneteasemusic_DoveBoy.json    DoveBoy/Apps
@@ -28730,6 +28732,7 @@ lettura_DoveBoy.json    DoveBoy/Apps
 gui-for-singbox_DoveBoy.json    DoveBoy/Apps
 diskgenius_DoveBoy.json    DoveBoy/Apps
 bilibili-backup_DoveBoy.json    DoveBoy/Apps
+xiadown-portable.json    DoveBoy/Apps
 flyoobe_DoveBoy.json    DoveBoy/Apps
 anyportal-portable_DoveBoy.json    DoveBoy/Apps
 syncthing.json    DoveBoy/Apps
@@ -28950,6 +28953,7 @@ mobilecontrolguru_DoveBoy.json    DoveBoy/Apps
 iobit-unlocker_DoveBoy.json    DoveBoy/Apps
 clash-rev-cgo_DoveBoy.json    DoveBoy/Apps
 energystar_DoveBoy.json    DoveBoy/Apps
+xiadown.json    DoveBoy/Apps
 delta.json    DoveBoy/Apps
 openlist_DoveBoy.json    DoveBoy/Apps
 zyplayer_DoveBoy.json    DoveBoy/Apps

@@ -1,5 +1,5 @@
 {
-    "version": "2026.5.1",
+    "version": "2026.5.2",
     "description": "A modern object-oriented programming language with functional features.",
     "homepage": "https://objeck.org/",
     "license": {
@@ -8,14 +8,14 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://sourceforge.net/projects/objeck-lang/files/v2026.5.1/objeck-windows-x64_2026.5.1.zip",
+            "url": "https://github.com/objeck/objeck-lang/releases/download/v2026.5.2/objeck-windows-x64_2026.5.2.zip",
             "extract_dir": "objeck-lang-x64",
-            "hash": "sha1:232e33edcd864f7361b8eb121cce538c1de01151"
+            "hash": "3b54d475dfd26343abe5a9f3a3d8157bae630e6fef31a93990263ee8f5300d94"
         },
         "arm64": {
-            "url": "https://sourceforge.net/projects/objeck-lang/files/v2026.5.1/objeck-windows-arm64_2026.5.1.zip",
+            "url": "https://github.com/objeck/objeck-lang/releases/download/v2026.5.2/objeck-windows-arm64_2026.5.2.zip",
             "extract_dir": "objeck-lang-arm64",
-            "hash": "sha1:0adefa9525f305a63925895d2ebe14ec3285a3f4"
+            "hash": "2c1ca41cd65593a5533fa8ef82262dbc2536395000c37caa37dba6a0b872e562"
         }
     },
     "shortcuts": [
@@ -28,6 +28,7 @@
         "bin\\obb.exe",
         "bin\\obc.exe",
         "bin\\obi.exe",
+        "bin\\obd.exe",
         "bin\\obr.exe"
     ],
     "env_set": {
@@ -39,10 +40,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://sourceforge.net/projects/objeck-lang/files/v$version/objeck-windows-x64_$version.zip"
+                "url": "https://github.com/objeck/objeck-lang/releases/download/v$version/objeck-windows-x64_$version.zip"
             },
             "arm64": {
-                "url": "https://sourceforge.net/projects/objeck-lang/files/v$version/objeck-windows-arm64_$version.zip"
+                "url": "https://github.com/objeck/objeck-lang/releases/download/v$version/objeck-windows-arm64_$version.zip"
             }
         }
     }
