@@ -1,7 +1,7 @@
 {
     "version": "3.9.0",
     "description": "A full-featured download manager — rebuilt from the ground up.",
-    "homepage": "https://motrix-next.pages.dev",
+    "homepage": "https://motrix-next.pages.dev/",
     "license": "MIT",
     "architecture": {
         "64bit": {
@@ -13,12 +13,22 @@
             "hash": "1579f7ff576d175cbfde4cf682ebcbc1ff34f739b5b8007f8cf57b3893e7ebcf"
         }
     },
-    "pre_install": "Remove-Item -Path \"$dir\\`$*\" -Force -Recurse",
     "shortcuts": [
         [
             "motrix-next.exe",
-            "Motrix Next"
+            "MotrixNext"
         ]
+    ],
+    "pre_install": [
+        ". \"$bucketsdir\\$bucket\\bin\\utils.ps1\"",
+        "New-PersistDirectory \"$env:LOCALAPPDATA\\com.motrix.next\" \"$persist_dir\\LocalAppData\" -Migrate"
+    ],
+    "post_install": "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall.exe\" -Force -Recurse -ErrorAction Ignore | Out-Null",
+    "pre_uninstall": [
+        "$bucket = $install.bucket",
+        ". \"$bucketsdir\\$bucket\\bin\\utils.ps1\"",
+        "Stop-App",
+        "Remove-Junction \"$env:LOCALAPPDATA\\com.motrix.next\""
     ],
     "checkver": {
         "github": "https://github.com/AnInsomniacy/motrix-next"
