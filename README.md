@@ -119,6 +119,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - jingyu9575/scoop-jingyu9575
 - BenjaminMichaelis/Config
 - p8rdev/scoop-portableapps
+- AntonOks/scoop-aoks
 - Deide/deide-bucket
 - HUMORCE/nuke
 - MCOfficer/scoop-bucket
