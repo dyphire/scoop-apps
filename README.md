@@ -60,9 +60,9 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - couleur-tweak-tips/utils
 - borger/scoop-emulators
 - kiennq/scoop-misc
+- xrgzs/sdoog
 - ViCrack/scoop-bucket
 - wangzq/scoop-bucket
-- xrgzs/sdoog
 - cmontage/scoopbucket-third
 - akirco/aki-apps
 - TheRandomLabs/Scoop-Bucket
@@ -75,8 +75,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - hu3rror/scoop-muggle
 - wzv5/ScoopBucket
 - TheRandomLabs/Scoop-Python
-- amorphobia/siku
 - naderi/scoop-bucket
+- amorphobia/siku
 - jonz94/scoop-sarasa-nerd-fonts
 - NyaMisty/scoopbucketmisty
 - kengwang/scoop-ctftools-bucket
