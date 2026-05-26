@@ -83,9 +83,9 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - WinApps-share/WinApps-bucket
 - Small-Ku/turbo-bucket
 - noql-net/scoop
-- ygguorun/scoop-bucket
 - brian6932/dank-scoop
 - Scoopforge/Extras-Plus
+- ygguorun/scoop-bucket
 - aliesbelik/poldi
 - Velgus/Scoop-Portapps
 - asimov-platform/scoop-bucket
