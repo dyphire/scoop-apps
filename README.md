@@ -100,12 +100,12 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - iquiw/scoop-bucket
 - starise/Scoop-Confetti
 - seumsc/scoop-seu
+- ocodo/wezterm-alt-windows-icon-builds
 - mogeko/scoop-sysinternals
 - starise/Scoop-Gaming
 - mo-san/scoop-bucket
 - babo4d/scoop-xrtools
 - jfut/scoop-jfut
-- ocodo/wezterm-alt-windows-icon-builds
 - AkariiinMKII/Scoop4kariiin
 - aoisummer/scoop-bucket
 - krproject/qi-windows
