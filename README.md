@@ -115,6 +115,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - Toddli468/Pentest-Scoop-Bucket
 - cc713/ownscoop
 - natecohen/scoop-av
+- typst-community/scoop-bucket
 - KnotUntied/scoop-fonts
 - jingyu9575/scoop-jingyu9575
 - BenjaminMichaelis/Config
@@ -126,7 +127,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - littleli/Scoop-littleli
 - maboloshi/scoop-private
 - littleli/Scoop-AtariEmulators
-- typst-community/scoop-bucket
 - beer-psi/scoop-bucket
 - yuusakuri/scoop-bucket
 - ChinLong/scoop-customize
