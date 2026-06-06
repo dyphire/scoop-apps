@@ -4209,6 +4209,7 @@ sqlitebrowser-nightly.json    ScoopInstaller/Versions
 cuda9.json    ScoopInstaller/Versions
 cuda8.0.json    ScoopInstaller/Versions
 git-without-openssh.json    ScoopInstaller/Versions
+tabby-agent-vulkan.json    ScoopInstaller/Versions
 rstudio-preview.json    ScoopInstaller/Versions
 miniconda3-py310.json    ScoopInstaller/Versions
 postgresql17.json    ScoopInstaller/Versions
@@ -4437,6 +4438,7 @@ cuda11.7.json    ScoopInstaller/Versions
 yazi-nightly.json    ScoopInstaller/Versions
 cuda10.json    ScoopInstaller/Versions
 cmake-nightly.json    ScoopInstaller/Versions
+tabby-agent-cuda.json    ScoopInstaller/Versions
 premake4.json    ScoopInstaller/Versions
 googlechrome-beta.json    ScoopInstaller/Versions
 hadoop-winutils33.json    ScoopInstaller/Versions
@@ -8641,6 +8643,7 @@ zerotier-np.json    ScoopInstaller/Nonportable
 vokoscreenng-np.json    ScoopInstaller/Nonportable
 vmware-horizon-client-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 textpad-np.json    ScoopInstaller/Nonportable
+DetSql.json    tldrw/scoop-security
 afrog_tldrw.json    tldrw/scoop-security
 BurpFastJsonScan.json    tldrw/scoop-security
 quake_rs_tldrw.json    tldrw/scoop-security
@@ -8674,8 +8677,11 @@ jadx_tldrw.json    tldrw/scoop-security
 Ingram.json    tldrw/scoop-security
 goby_tldrw.json    tldrw/scoop-security
 enscan_tldrw.json    tldrw/scoop-security
+xia_tan.json    tldrw/scoop-security
+OssScan.json    tldrw/scoop-security
 sqlmap_tldrw.json    tldrw/scoop-security
 ksubdomain_tldrw.json    tldrw/scoop-security
+Galaxy.json    tldrw/scoop-security
 CaA.json    tldrw/scoop-security
 JavaGadgetGenerator.json    tldrw/scoop-security
 feroxbuster_tldrw.json    tldrw/scoop-security
@@ -8686,6 +8692,7 @@ dirsearch_tldrw.json    tldrw/scoop-security
 JDumpSpider.json    tldrw/scoop-security
 rustcat_tldrw.json    tldrw/scoop-security
 TinyRDM.json    tldrw/scoop-security
+Upload_Auto_Fuzz.json    tldrw/scoop-security
 SharpScan_tldrw.json    tldrw/scoop-security
 HashcatGui.json    tldrw/scoop-security
 TscanPlus_tldrw.json    tldrw/scoop-security
@@ -8708,6 +8715,7 @@ XiebroC2_tldrw.json    tldrw/scoop-security
 scan4all_tldrw.json    tldrw/scoop-security
 jar-analyzer_tldrw.json    tldrw/scoop-security
 HopLa.json    tldrw/scoop-security
+burp-variables.json    tldrw/scoop-security
 dudesuite_tldrw.json    tldrw/scoop-security
 Everything_tldrw.json    tldrw/scoop-security
 crawlergo_tldrw.json    tldrw/scoop-security
@@ -8716,6 +8724,7 @@ netspy_tldrw.json    tldrw/scoop-security
 AuxTools_tldrw.json    tldrw/scoop-security
 nuclei_tldrw.json    tldrw/scoop-security
 Dirscan_tldrw.json    tldrw/scoop-security
+Axon.json    tldrw/scoop-security
 JMG.json    tldrw/scoop-security
 JDumpSpiderGUI.json    tldrw/scoop-security
 xapp_tldrw.json    tldrw/scoop-security
@@ -8743,6 +8752,7 @@ xmap.json    tldrw/scoop-security
 Neo-reGeorg_tldrw.json    tldrw/scoop-security
 RVScan.json    tldrw/scoop-security
 DockerApiRCE.json    tldrw/scoop-security
+nowafpls.json    tldrw/scoop-security
 masscan_tldrw.json    tldrw/scoop-security
 Behinder_tldrw.json    tldrw/scoop-security
 xpoc_tldrw.json    tldrw/scoop-security
@@ -13531,6 +13541,7 @@ KillCopy_cmontage.json    cmontage/scoopbucket-third
 KillEmAll_cmontage.json    cmontage/scoopbucket-third
 KillEmAllMini_cmontage.json    cmontage/scoopbucket-third
 Kimi_cmontage.json    cmontage/scoopbucket-third
+KimiCode_cmontage.json    cmontage/scoopbucket-third
 KindleMate_cmontage.json    cmontage/scoopbucket-third
 KindleSend_cmontage.json    cmontage/scoopbucket-third
 KindleUnpack_cmontage.json    cmontage/scoopbucket-third
@@ -13922,7 +13933,7 @@ Notation_cmontage.json    cmontage/scoopbucket-third
 NoteExpress_cmontage.json    cmontage/scoopbucket-third
 NoteGen_cmontage.json    cmontage/scoopbucket-third
 Notepad++Portable.json    cmontage/scoopbucket-third
-Notepad--_cmontage.json    cmontage/scoopbucket-third
+Notepad--_dodorz.json    cmontage/scoopbucket-third
 Notepad2-modPortable.json    cmontage/scoopbucket-third
 Notepad2Portable.json    cmontage/scoopbucket-third
 Notepad3-mod_cmontage.json    cmontage/scoopbucket-third
@@ -14242,7 +14253,7 @@ Qoder-CLI_dodorz.json    cmontage/scoopbucket-third
 Qoder_cmontage.json    cmontage/scoopbucket-third
 QoderCN_cmontage.json    cmontage/scoopbucket-third
 QoderWork_cmontage.json    cmontage/scoopbucket-third
-Qoder_dodorz.json    cmontage/scoopbucket-third
+Qoder_akirco.json    cmontage/scoopbucket-third
 QtDesigner.json    cmontage/scoopbucket-third
 QtPass_dodorz.json    cmontage/scoopbucket-third
 QuickBMS_cmontage.json    cmontage/scoopbucket-third
@@ -16317,7 +16328,6 @@ bugdom_cmontage.json    cmontage/scoopbucket-third
 bugn_cmontage.json    cmontage/scoopbucket-third
 buildcache_cmontage.json    cmontage/scoopbucket-third
 buildkit_batkiz.json    cmontage/scoopbucket-third
-buildkit_iquiw.json    cmontage/scoopbucket-third
 bulk-crap-uninstaller_cmontage.json    cmontage/scoopbucket-third
 bulk-crap-uninstaller_DoveBoy.json    cmontage/scoopbucket-third
 bulk-extractor.json    cmontage/scoopbucket-third
@@ -21645,7 +21655,7 @@ mpv-easy-player_cmontage.json    cmontage/scoopbucket-third
 mpv-eko5624_cmontage.json    cmontage/scoopbucket-third
 mpv-git_cmontage.json    cmontage/scoopbucket-third
 mpv-git_DoveBoy.json    cmontage/scoopbucket-third
-mpv-git_ScoopInstaller.json    cmontage/scoopbucket-third
+mpv-git_brian6932.json    cmontage/scoopbucket-third
 mpv-handler.json    cmontage/scoopbucket-third
 mpv-lachs0r_cmontage.json    cmontage/scoopbucket-third
 mpv-lazy_cmontage.json    cmontage/scoopbucket-third
@@ -22146,7 +22156,7 @@ notable_cmontage.json    cmontage/scoopbucket-third
 note-gen_cmontage.json    cmontage/scoopbucket-third
 notegen_Scoopforge.json    cmontage/scoopbucket-third
 notejoy_cmontage.json    cmontage/scoopbucket-third
-notepad--_ScoopInstaller.json    cmontage/scoopbucket-third
+notepad--_cmontage.json    cmontage/scoopbucket-third
 notepad--_ViCrack.json    cmontage/scoopbucket-third
 notepad--_WinApps-share.json    cmontage/scoopbucket-third
 notepad--_zhoujin7.json    cmontage/scoopbucket-third
@@ -22396,6 +22406,7 @@ ofgb-with-runtime.json    cmontage/scoopbucket-third
 ofgb_cmontage.json    cmontage/scoopbucket-third
 ofview_cmontage.json    cmontage/scoopbucket-third
 ogg.json    cmontage/scoopbucket-third
+oh-my-pi_LaelLuo.json    cmontage/scoopbucket-third
 oh-my-posh-and-wsl_cmontage.json    cmontage/scoopbucket-third
 oh-my-posh_cmontage.json    cmontage/scoopbucket-third
 oh-my-posh2_cmontage.json    cmontage/scoopbucket-third
@@ -22826,6 +22837,7 @@ parsify-desktop.json    cmontage/scoopbucket-third
 parsify.json    cmontage/scoopbucket-third
 partition-assistant_cmontage.json    cmontage/scoopbucket-third
 paseo-desktop.json    cmontage/scoopbucket-third
+paseo.json    cmontage/scoopbucket-third
 pass-winmenu-nogpg_cmontage.json    cmontage/scoopbucket-third
 passrec_cmontage.json    cmontage/scoopbucket-third
 password.json    cmontage/scoopbucket-third
@@ -25943,8 +25955,8 @@ telegram-np.json    cmontage/scoopbucket-third
 telegram_cmontage.json    cmontage/scoopbucket-third
 telegram_DoveBoy.json    cmontage/scoopbucket-third
 telegram_HUMORCE.json    cmontage/scoopbucket-third
-telegram_ScoopInstaller.json    cmontage/scoopbucket-third
 telegram_WinApps-share.json    cmontage/scoopbucket-third
+telegram_akirco.json    cmontage/scoopbucket-third
 television_cmontage.json    cmontage/scoopbucket-third
 temurin-jdk_cmontage.json    cmontage/scoopbucket-third
 temurin-jre_cmontage.json    cmontage/scoopbucket-third
@@ -26282,6 +26294,7 @@ tracy_naderi.json    cmontage/scoopbucket-third
 tradingview_cmontage.json    cmontage/scoopbucket-third
 trae-cn_cmontage.json    cmontage/scoopbucket-third
 trae-cn_LaelLuo.json    cmontage/scoopbucket-third
+trae-cn_akirco.json    cmontage/scoopbucket-third
 trae-cn_chawyehsu.json    cmontage/scoopbucket-third
 trae_cmontage.json    cmontage/scoopbucket-third
 trae_LaelLuo.json    cmontage/scoopbucket-third
@@ -26315,8 +26328,8 @@ trays.json    cmontage/scoopbucket-third
 trayweather_cmontage.json    cmontage/scoopbucket-third
 trayy_cmontage.json    cmontage/scoopbucket-third
 trdlCLI-Portable_cmontage.json    cmontage/scoopbucket-third
-trdsql_cmontage.json    cmontage/scoopbucket-third
 trdsqlCLI-Portable_cmontage.json    cmontage/scoopbucket-third
+trdsql_aliesbelik.json    cmontage/scoopbucket-third
 tre.json    cmontage/scoopbucket-third
 tredis.json    cmontage/scoopbucket-third
 tree-sitter_ShuguangSun.json    cmontage/scoopbucket-third
@@ -28055,6 +28068,7 @@ ytsubconverter_cmontage.json    cmontage/scoopbucket-third
 yu-writer_batkiz.json    cmontage/scoopbucket-third
 yuanbao_cmontage.json    cmontage/scoopbucket-third
 yuanbao_LaelLuo.json    cmontage/scoopbucket-third
+yuanbao_akirco.json    cmontage/scoopbucket-third
 yubikey-manager-qt_cmontage.json    cmontage/scoopbucket-third
 yubikey-personalization-gui_cmontage.json    cmontage/scoopbucket-third
 yubikey-piv-manager_cmontage.json    cmontage/scoopbucket-third
@@ -28175,6 +28189,7 @@ zoomit_cmontage.json    cmontage/scoopbucket-third
 zoomit_DoveBoy.json    cmontage/scoopbucket-third
 zoomit_mo-san.json    cmontage/scoopbucket-third
 zopfli.json    cmontage/scoopbucket-third
+zot_cmontage.json    cmontage/scoopbucket-third
 zotero-np.json    cmontage/scoopbucket-third
 zotero6_cmontage.json    cmontage/scoopbucket-third
 zotero_ACooper81.json    cmontage/scoopbucket-third
@@ -28532,6 +28547,7 @@ vscode_akirco.json    akirco/aki-apps
 restic_akirco.json    akirco/aki-apps
 time_akirco.json    akirco/aki-apps
 lsd_akirco.json    akirco/aki-apps
+crush_akirco.json    akirco/aki-apps
 tomcat8_akirco.json    akirco/aki-apps
 gof_akirco.json    akirco/aki-apps
 dismplusplus_akirco.json    akirco/aki-apps
@@ -30780,7 +30796,7 @@ akochan-reviewer_ygguorun.json    ygguorun/scoop-bucket
 LyricTools_ygguorun.json    ygguorun/scoop-bucket
 TextLocator_ygguorun.json    ygguorun/scoop-bucket
 youdaodict_ygguorun.json    ygguorun/scoop-bucket
-paseo.json    ygguorun/scoop-bucket
+paseo_ygguorun.json    ygguorun/scoop-bucket
 COMTool_ygguorun.json    ygguorun/scoop-bucket
 DotNetVersions_ygguorun.json    ygguorun/scoop-bucket
 jpfont-nds_ygguorun.json    ygguorun/scoop-bucket
@@ -31122,7 +31138,6 @@ brows_aliesbelik.json    aliesbelik/poldi
 termora_aliesbelik.json    aliesbelik/poldi
 naabu_aliesbelik.json    aliesbelik/poldi
 dblab_aliesbelik.json    aliesbelik/poldi
-websocat_aliesbelik.json    aliesbelik/poldi
 gonzo_aliesbelik.json    aliesbelik/poldi
 dstp_aliesbelik.json    aliesbelik/poldi
 tfsort_aliesbelik.json    aliesbelik/poldi
@@ -31149,6 +31164,7 @@ tlrc_aliesbelik.json    aliesbelik/poldi
 ov.json    aliesbelik/poldi
 karing_aliesbelik.json    aliesbelik/poldi
 jo_aliesbelik.json    aliesbelik/poldi
+websocat_aliesbelik.json    aliesbelik/poldi
 restfox_aliesbelik.json    aliesbelik/poldi
 bandwhich.json    aliesbelik/poldi
 bombardier.json    aliesbelik/poldi
@@ -31167,6 +31183,7 @@ tcping_aliesbelik.json    aliesbelik/poldi
 fresh.json    aliesbelik/poldi
 tailspin.json    aliesbelik/poldi
 doggo_aliesbelik.json    aliesbelik/poldi
+trdsql_aliesbelik.json    aliesbelik/poldi
 riff_aliesbelik.json    aliesbelik/poldi
 taplo.json    aliesbelik/poldi
 lazysql_aliesbelik.json    aliesbelik/poldi
@@ -31243,7 +31260,6 @@ gat_aliesbelik.json    aliesbelik/poldi
 gokey_aliesbelik.json    aliesbelik/poldi
 hulak_aliesbelik.json    aliesbelik/poldi
 flog_aliesbelik.json    aliesbelik/poldi
-trdsql_aliesbelik.json    aliesbelik/poldi
 dcv_aliesbelik.json    aliesbelik/poldi
 yatto_aliesbelik.json    aliesbelik/poldi
 assh_aliesbelik.json    aliesbelik/poldi
@@ -31261,6 +31277,7 @@ hey_aliesbelik.json    aliesbelik/poldi
 gojq_aliesbelik.json    aliesbelik/poldi
 kubewall_aliesbelik.json    aliesbelik/poldi
 werf-v2_aliesbelik.json    aliesbelik/poldi
+t-req.json    aliesbelik/poldi
 sqluv_aliesbelik.json    aliesbelik/poldi
 helmify_aliesbelik.json    aliesbelik/poldi
 kcli_aliesbelik.json    aliesbelik/poldi
