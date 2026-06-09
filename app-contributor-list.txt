@@ -568,6 +568,7 @@ caprine.json    ScoopInstaller/Extras
 tad.json    ScoopInstaller/Extras
 mpc-hc-fork.json    ScoopInstaller/Extras
 baka-mplayer.json    ScoopInstaller/Extras
+ferrite.json    ScoopInstaller/Extras
 hydrogen.json    ScoopInstaller/Extras
 freerapid.json    ScoopInstaller/Extras
 garbro.json    ScoopInstaller/Extras
@@ -3499,6 +3500,7 @@ mcedit2.json    Calinou/scoop-games
 xivlauncher.json    Calinou/scoop-games
 betacraft-launcher-v2.json    Calinou/scoop-games
 pandoralauncher.json    Calinou/scoop-games
+eden-nightly.json    Calinou/scoop-games
 extremetuxracer.json    Calinou/scoop-games
 daggerfallunity.json    Calinou/scoop-games
 steam-achievement-manager-syntaxtm.json    Calinou/scoop-games
@@ -4477,6 +4479,7 @@ go123.json    ScoopInstaller/Versions
 rambox-ce.json    ScoopInstaller/Versions
 idea-ultimate-rc.json    ScoopInstaller/Versions
 xampp74.json    ScoopInstaller/Versions
+php85-xdebug.json    ScoopInstaller/Versions
 dotnet9-sdk.json    ScoopInstaller/Versions
 omnisharp-http-net6.json    ScoopInstaller/Versions
 xournalpp-nightly.json    ScoopInstaller/Versions
@@ -11039,7 +11042,7 @@ DiagramDesigner.json    dodorz/scoop
 RimageGUI.json    dodorz/scoop
 mpg123-dynamic.json    dodorz/scoop
 FreeMat.json    dodorz/scoop
-Ferrite.json    dodorz/scoop
+Ferrite_dodorz.json    dodorz/scoop
 Nomad.NET.json    dodorz/scoop
 FLVExtract_dodorz.json    dodorz/scoop
 WindowsManager.json    dodorz/scoop
@@ -13704,7 +13707,7 @@ MarkdownPad_cmontage.json    cmontage/scoopbucket-third
 MarkdownViewer_cmontage.json    cmontage/scoopbucket-third
 Marker_cmontage.json    cmontage/scoopbucket-third
 Markpad_cmontage.json    cmontage/scoopbucket-third
-Markra_cmontage.json    cmontage/scoopbucket-third
+Markra_dodorz.json    cmontage/scoopbucket-third
 Marp-deprecated_cmontage.json    cmontage/scoopbucket-third
 Martian-Mono-otf_cmontage.json    cmontage/scoopbucket-third
 Martian-Mono_cmontage.json    cmontage/scoopbucket-third
@@ -14314,7 +14317,7 @@ RegCool-Portable_cmontage.json    cmontage/scoopbucket-third
 RegCool-Portable_cc713.json    cmontage/scoopbucket-third
 RegCool_cmontage.json    cmontage/scoopbucket-third
 RegSeeker_cmontage.json    cmontage/scoopbucket-third
-Regester_dodorz.json    cmontage/scoopbucket-third
+Regester_cmontage.json    cmontage/scoopbucket-third
 RegexMatchTracer.json    cmontage/scoopbucket-third
 Regina_cmontage.json    cmontage/scoopbucket-third
 RegistryWorkshop-zh-cn_cmontage.json    cmontage/scoopbucket-third
@@ -14538,7 +14541,7 @@ SoftwareOKPrintTestPageOK-Portable_cmontage.json    cmontage/scoopbucket-third
 SogouPinyin-Portable_cmontage.json    cmontage/scoopbucket-third
 SogouWubi-Portable_cmontage.json    cmontage/scoopbucket-third
 SolfegePortable.json    cmontage/scoopbucket-third
-SoloMD_dodorz.json    cmontage/scoopbucket-third
+SoloMD_cmontage.json    cmontage/scoopbucket-third
 Sonarr-Portable_cmontage.json    cmontage/scoopbucket-third
 SophiApp-Portable_cmontage.json    cmontage/scoopbucket-third
 SophiApp-Portable_ACooper81.json    cmontage/scoopbucket-third
@@ -15437,7 +15440,7 @@ aimp_cmontage.json    cmontage/scoopbucket-third
 aimp_Deide.json    cmontage/scoopbucket-third
 ain.json    cmontage/scoopbucket-third
 ainiee_cmontage.json    cmontage/scoopbucket-third
-ainiee_Scoopforge.json    cmontage/scoopbucket-third
+ainiee_hu3rror.json    cmontage/scoopbucket-third
 aionui_LaelLuo.json    cmontage/scoopbucket-third
 aionui_Scoopforge.json    cmontage/scoopbucket-third
 air_cderv.json    cmontage/scoopbucket-third
@@ -17519,10 +17522,11 @@ dim2clear.json    cmontage/scoopbucket-third
 dingtalk-gov_cmontage.json    cmontage/scoopbucket-third
 dingtalk_cmontage.json    cmontage/scoopbucket-third
 dingtalk@7.0.10.1026.json    cmontage/scoopbucket-third
-dingtalk_Scoopforge.json    cmontage/scoopbucket-third
 dingtalk_akirco.json    cmontage/scoopbucket-third
 dingtalk_chawyehsu.json    cmontage/scoopbucket-third
 dingtalk_echoiron.json    cmontage/scoopbucket-third
+dingtalk_maboloshi.json    cmontage/scoopbucket-third
+dingtalk_scoopcn.json    cmontage/scoopbucket-third
 dino-rss.json    cmontage/scoopbucket-third
 dinorss.json    cmontage/scoopbucket-third
 directory-compare.json    cmontage/scoopbucket-third
@@ -18166,8 +18170,8 @@ etlas_cmontage.json    cmontage/scoopbucket-third
 etterna_cmontage.json    cmontage/scoopbucket-third
 etwanalyzer_cmontage.json    cmontage/scoopbucket-third
 eudic_cmontage.json    cmontage/scoopbucket-third
-eudic_Scoopforge.json    cmontage/scoopbucket-third
 eudic_echoiron.json    cmontage/scoopbucket-third
+eudic_naderi.json    cmontage/scoopbucket-third
 euler_cmontage.json    cmontage/scoopbucket-third
 eva_Weidows-projects.json    cmontage/scoopbucket-third
 evcapture_cmontage.json    cmontage/scoopbucket-third
@@ -18545,7 +18549,7 @@ firewallappblocker_DoveBoy.json    cmontage/scoopbucket-third
 firmwaretablesview_cmontage.json    cmontage/scoopbucket-third
 firmwaretablesview_kodybrown.json    cmontage/scoopbucket-third
 fishing-funds_cmontage.json    cmontage/scoopbucket-third
-fishing-funds_Scoopforge.json    cmontage/scoopbucket-third
+fishing-funds_ygguorun.json    cmontage/scoopbucket-third
 fishingfunds.json    cmontage/scoopbucket-third
 fishstrap_cmontage.json    cmontage/scoopbucket-third
 fitwin.json    cmontage/scoopbucket-third
@@ -19612,6 +19616,7 @@ helmsman_iquiw.json    cmontage/scoopbucket-third
 hemmelig_cmontage.json    cmontage/scoopbucket-third
 heptabase.json    cmontage/scoopbucket-third
 hercules.json    cmontage/scoopbucket-third
+hermes-desktop-portable.json    cmontage/scoopbucket-third
 hermes-desktop.json    cmontage/scoopbucket-third
 heroic-games-launcher_cmontage.json    cmontage/scoopbucket-third
 hetty_cmontage.json    cmontage/scoopbucket-third
@@ -20229,7 +20234,6 @@ jianyingpro_cmontage.json    cmontage/scoopbucket-third
 jianyingpro_TianXiaTech.json    cmontage/scoopbucket-third
 jianyingpro_akirco.json    cmontage/scoopbucket-third
 jiduscan_cmontage.json    cmontage/scoopbucket-third
-jigdo.json    cmontage/scoopbucket-third
 jigsaw_cmontage.json    cmontage/scoopbucket-third
 jijidown.json    cmontage/scoopbucket-third
 jim_cmontage.json    cmontage/scoopbucket-third
@@ -21150,7 +21154,7 @@ makeme.json    cmontage/scoopbucket-third
 makeme@0.10.8.json    cmontage/scoopbucket-third
 makemkv_cmontage.json    cmontage/scoopbucket-third
 malware-patch_cmontage.json    cmontage/scoopbucket-third
-malware-patch_Scoopforge.json    cmontage/scoopbucket-third
+malware-patch_DoveBoy.json    cmontage/scoopbucket-third
 mambaforge_cmontage.json    cmontage/scoopbucket-third
 mambaforge_ShuguangSun.json    cmontage/scoopbucket-third
 mame_cmontage.json    cmontage/scoopbucket-third
@@ -21188,7 +21192,7 @@ markflowy_windedge.json    cmontage/scoopbucket-third
 markn_cmontage.json    cmontage/scoopbucket-third
 marknote-nightly_cmontage.json    cmontage/scoopbucket-third
 markpad_404NetworkError.json    cmontage/scoopbucket-third
-markra_batkiz.json    cmontage/scoopbucket-third
+markra_cmontage.json    cmontage/scoopbucket-third
 markscribe.json    cmontage/scoopbucket-third
 marktext-aoks.json    cmontage/scoopbucket-third
 marktext-dev.json    cmontage/scoopbucket-third
@@ -21655,7 +21659,7 @@ mpv-easy-player_cmontage.json    cmontage/scoopbucket-third
 mpv-eko5624_cmontage.json    cmontage/scoopbucket-third
 mpv-git_cmontage.json    cmontage/scoopbucket-third
 mpv-git_DoveBoy.json    cmontage/scoopbucket-third
-mpv-git_brian6932.json    cmontage/scoopbucket-third
+mpv-git_ScoopInstaller.json    cmontage/scoopbucket-third
 mpv-handler.json    cmontage/scoopbucket-third
 mpv-lachs0r_cmontage.json    cmontage/scoopbucket-third
 mpv-lazy_cmontage.json    cmontage/scoopbucket-third
@@ -23415,7 +23419,6 @@ phpstorm-latest_cmontage.json    cmontage/scoopbucket-third
 phpstorm-rc_cmontage.json    cmontage/scoopbucket-third
 phpstorm_cmontage.json    cmontage/scoopbucket-third
 phpstudy-lagecy-scoop_cmontage.json    cmontage/scoopbucket-third
-phpstudy-lagecy-scoop_Scoopforge.json    cmontage/scoopbucket-third
 phpstudy2016_cmontage.json    cmontage/scoopbucket-third
 phraseexpress_cmontage.json    cmontage/scoopbucket-third
 phraseexpress_ACooper81.json    cmontage/scoopbucket-third
@@ -24079,8 +24082,8 @@ qqlite-patch.json    cmontage/scoopbucket-third
 qqlite.json    cmontage/scoopbucket-third
 qqlive-cvp.json    cmontage/scoopbucket-third
 qqlive_cmontage.json    cmontage/scoopbucket-third
-qqlive_DoveBoy.json    cmontage/scoopbucket-third
 qqlive_echoiron.json    cmontage/scoopbucket-third
+qqlive_wzv5.json    cmontage/scoopbucket-third
 qqmusic-cvp.json    cmontage/scoopbucket-third
 qqmusic_cmontage.json    cmontage/scoopbucket-third
 qqmusic_DoveBoy.json    cmontage/scoopbucket-third
@@ -24316,7 +24319,6 @@ rdpv_cmontage.json    cmontage/scoopbucket-third
 react-native-debugger_cmontage.json    cmontage/scoopbucket-third
 readeck-aoks.json    cmontage/scoopbucket-third
 reader.json    cmontage/scoopbucket-third
-reader_DoveBoy.json    cmontage/scoopbucket-third
 readest_cmontage.json    cmontage/scoopbucket-third
 readest_DoveBoy.json    cmontage/scoopbucket-third
 readest_EFLKumo.json    cmontage/scoopbucket-third
@@ -24380,7 +24382,6 @@ regdllview_cmontage.json    cmontage/scoopbucket-third
 regdllview_kodybrown.json    cmontage/scoopbucket-third
 regeditor_cmontage.json    cmontage/scoopbucket-third
 regedix_cmontage.json    cmontage/scoopbucket-third
-regester_cmontage.json    cmontage/scoopbucket-third
 regex-tool.json    cmontage/scoopbucket-third
 regexp_cmontage.json    cmontage/scoopbucket-third
 regexp_akirco.json    cmontage/scoopbucket-third
@@ -24782,9 +24783,9 @@ sandboxie-plus-aoks.json    cmontage/scoopbucket-third
 sandboxie-plus-np_cmontage.json    cmontage/scoopbucket-third
 sandboxie-plus-np_DoveBoy.json    cmontage/scoopbucket-third
 sandboxie-plus_cmontage.json    cmontage/scoopbucket-third
-sandboxie-plus_DoveBoy.json    cmontage/scoopbucket-third
 sandboxie-plus_HUMORCE.json    cmontage/scoopbucket-third
 sandboxie-plus_chawyehsu.json    cmontage/scoopbucket-third
+sandboxie-plus_echoiron.json    cmontage/scoopbucket-third
 sandboxie-plus_kidonng.json    cmontage/scoopbucket-third
 sandman_cmontage.json    cmontage/scoopbucket-third
 sapling_rivy.json    cmontage/scoopbucket-third
@@ -25357,7 +25358,7 @@ sokoban_cmontage.json    cmontage/scoopbucket-third
 solana_cmontage.json    cmontage/scoopbucket-third
 soldat.json    cmontage/scoopbucket-third
 solidity_chawyehsu.json    cmontage/scoopbucket-third
-solomd_cmontage.json    cmontage/scoopbucket-third
+solomd_ScoopInstaller.json    cmontage/scoopbucket-third
 solvespace_cmontage.json    cmontage/scoopbucket-third
 sometypemono.json    cmontage/scoopbucket-third
 sonarr.json    cmontage/scoopbucket-third
@@ -27265,7 +27266,6 @@ whynot-win11.json    cmontage/scoopbucket-third
 whynotwin11_DoveBoy.json    cmontage/scoopbucket-third
 widelands_cmontage.json    cmontage/scoopbucket-third
 widgets.json    cmontage/scoopbucket-third
-wifi-crack-tool.json    cmontage/scoopbucket-third
 wifi-direct-legacy-ap-plus.json    cmontage/scoopbucket-third
 wifi-manager_cmontage.json    cmontage/scoopbucket-third
 wifichannelmonitor_cmontage.json    cmontage/scoopbucket-third
@@ -27618,6 +27618,7 @@ wordle.json    cmontage/scoopbucket-third
 wordmark_cmontage.json    cmontage/scoopbucket-third
 work-crawler.json    cmontage/scoopbucket-third
 workbuddy_cmontage.json    cmontage/scoopbucket-third
+workbuddy_LaelLuo.json    cmontage/scoopbucket-third
 workman-np_cmontage.json    cmontage/scoopbucket-third
 workman-np_ScoopInstaller.json    cmontage/scoopbucket-third
 workman-p-np_cmontage.json    cmontage/scoopbucket-third
@@ -28716,6 +28717,7 @@ flyoobe_DoveBoy.json    DoveBoy/Apps
 vget_DoveBoy.json    DoveBoy/Apps
 twinkle-tray_DoveBoy.json    DoveBoy/Apps
 downkyi_DoveBoy.json    DoveBoy/Apps
+singcast.json    DoveBoy/Apps
 optimizer_DoveBoy.json    DoveBoy/Apps
 typora_DoveBoy.json    DoveBoy/Apps
 pdfarranger_DoveBoy.json    DoveBoy/Apps
@@ -29313,7 +29315,6 @@ mrrss-portable_DoveBoy.json    DoveBoy/Apps
 starship_DoveBoy.json    DoveBoy/Apps
 pixeval_DoveBoy.json    DoveBoy/Apps
 bbdown_DoveBoy.json    DoveBoy/Apps
-clash-for-flutter_DoveBoy.json    DoveBoy/Apps
 imfile-portable_DoveBoy.json    DoveBoy/Apps
 github-hosts_DoveBoy.json    DoveBoy/Apps
 gping.json    DoveBoy/Apps
@@ -31323,6 +31324,7 @@ grpcui_aliesbelik.json    aliesbelik/poldi
 spoofdpi_aliesbelik.json    aliesbelik/poldi
 bed_aliesbelik.json    aliesbelik/poldi
 vi-mongo_aliesbelik.json    aliesbelik/poldi
+memtui.json    aliesbelik/poldi
 klog_aliesbelik.json    aliesbelik/poldi
 gomi_aliesbelik.json    aliesbelik/poldi
 doxx_aliesbelik.json    aliesbelik/poldi
@@ -32225,7 +32227,7 @@ shion_Weidows-projects.json    Weidows-projects/scoop-3rd
 wwgjx-portable_Weidows-projects.json    Weidows-projects/scoop-3rd
 chrome-power-app_Weidows-projects.json    Weidows-projects/scoop-3rd
 bilibili-backup_Weidows-projects.json    Weidows-projects/scoop-3rd
-hermes-desktop-portable.json    Weidows-projects/scoop-3rd
+hermes-desktop-portable_Weidows-projects.json    Weidows-projects/scoop-3rd
 SD-LoRA-Manager_Weidows-projects.json    Weidows-projects/scoop-3rd
 bw_add_sshkeys_Weidows-projects.json    Weidows-projects/scoop-3rd
 vscode_Weidows-projects.json    Weidows-projects/scoop-3rd
