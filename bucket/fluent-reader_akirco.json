@@ -21,7 +21,7 @@
     ],
     "checkver": {
         "github": "https://github.com/yang991178/fluent-reader",
-        "regex": "^v([\\d.]+)$"
+        "regex": "tag/v([\\w.-]+)"
     },
     "autoupdate": {
         "architecture": {
