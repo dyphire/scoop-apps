@@ -79,8 +79,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - amorphobia/siku
 - jonz94/scoop-sarasa-nerd-fonts
 - NyaMisty/scoopbucketmisty
-- WinApps-share/WinApps-bucket
 - Small-Ku/turbo-bucket
+- WinApps-share/WinApps-bucket
 - kengwang/scoop-ctftools-bucket
 - noql-net/scoop
 - ygguorun/scoop-bucket
@@ -91,7 +91,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - asimov-platform/scoop-bucket
 - SayCV/scoop-cvp
 - batkiz/backit
-- ChungZH/peach
+- zirnc/peach
 - AStupidBear/scoop-bear
 - Weidows-projects/scoop-3rd
 - Darkatse/Scoop-Darkatse
