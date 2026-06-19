@@ -1,8 +1,11 @@
 {
-    "version": "1.4.4-ucrt64",
-    "description": "An astronomical image processing tool.",
+    "version": "1.4.4",
+    "description": "The Siril image processing software for amateur astronomy",
     "homepage": "https://siril.org/",
-    "license": "GPL-3.0-or-later",
+    "license": {
+        "identifier": "GPL-3.0-or-later",
+        "url": "https://gitlab.com/free-astro/siril/-/blob/master/LICENSE.md"
+    },
     "architecture": {
         "64bit": {
             "url": "https://free-astro.org/download/siril-1.4.4-ucrt64_win.zip",
@@ -22,12 +25,12 @@
     ],
     "checkver": {
         "url": "https://siril.org/download/",
-        "regex": "siril-(.+?)_win"
+        "regex": "siril-(.+?)-ucrt64_win"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://free-astro.org/download/siril-$version_win.zip"
+                "url": "https://free-astro.org/download/siril-$version-ucrt64_win.zip"
             }
         }
     }
