@@ -332,6 +332,7 @@ vrcx.json    ScoopInstaller/Extras
 aws-nosql-workbench.json    ScoopInstaller/Extras
 hydrus-network.json    ScoopInstaller/Extras
 opensca-cli.json    ScoopInstaller/Extras
+hongdown.json    ScoopInstaller/Extras
 electron-fiddle.json    ScoopInstaller/Extras
 tomcat.json    ScoopInstaller/Extras
 assume-role.json    ScoopInstaller/Extras
@@ -2031,6 +2032,7 @@ juce.json    ScoopInstaller/Extras
 owncloud.json    ScoopInstaller/Extras
 mu-editor.json    ScoopInstaller/Extras
 mancy.json    ScoopInstaller/Extras
+quickclipboard.json    ScoopInstaller/Extras
 xc.json    ScoopInstaller/Extras
 infekt.json    ScoopInstaller/Extras
 cairo-desktop.json    ScoopInstaller/Extras
@@ -3289,7 +3291,6 @@ aigcpanel.json    Scoopforge/Extras-CN
 freetex.json    Scoopforge/Extras-CN
 obs-studio-cn.json    Scoopforge/Extras-CN
 cajviewer.json    Scoopforge/Extras-CN
-dingtalk_Scoopforge.json    Scoopforge/Extras-CN
 edrawmax.json    Scoopforge/Extras-CN
 frhelper.json    Scoopforge/Extras-CN
 subrenamer.json    Scoopforge/Extras-CN
@@ -4778,11 +4779,13 @@ yuzu-ea.json    hoilc/scoop-lemon
 reth.json    hoilc/scoop-lemon
 suyu.json    hoilc/scoop-lemon
 graalpy-community-jvm.json    hoilc/scoop-lemon
+httpmaster-professional.json    hoilc/scoop-lemon
 comrak.json    hoilc/scoop-lemon
 zeno.json    hoilc/scoop-lemon
 tinyimageprocessor.json    hoilc/scoop-lemon
 edgedb-cli-nightly.json    hoilc/scoop-lemon
 graaljs-community-jvm.json    hoilc/scoop-lemon
+httpmaster-express.json    hoilc/scoop-lemon
 chatlog.json    hoilc/scoop-lemon
 daytona.json    hoilc/scoop-lemon
 cnative.json    hoilc/scoop-lemon
@@ -5026,7 +5029,6 @@ miniserve.json    hoilc/scoop-lemon
 cmix.json    hoilc/scoop-lemon
 wau-manager.json    hoilc/scoop-lemon
 buck2.json    hoilc/scoop-lemon
-httpmaster-professional.json    hoilc/scoop-lemon
 sling.json    hoilc/scoop-lemon
 s-search.json    hoilc/scoop-lemon
 piskvork.json    hoilc/scoop-lemon
@@ -5161,7 +5163,6 @@ siteone-crawler.json    hoilc/scoop-lemon
 bilibili-manga-watermark-remover.json    hoilc/scoop-lemon
 comicenhancepro.json    hoilc/scoop-lemon
 gosmee.json    hoilc/scoop-lemon
-httpmaster-express.json    hoilc/scoop-lemon
 simsu.json    hoilc/scoop-lemon
 ark-nightly.json    hoilc/scoop-lemon
 git-stack.json    hoilc/scoop-lemon
@@ -5999,7 +6000,6 @@ connectagram.json    hoilc/scoop-lemon
 wimlib_hoilc.json    hoilc/scoop-lemon
 jj.json    hoilc/scoop-lemon
 cnosdb.json    hoilc/scoop-lemon
-stable-diffusion-cpp-avx512.json    hoilc/scoop-lemon
 pointofix.json    hoilc/scoop-lemon
 snova-asio.json    hoilc/scoop-lemon
 comng.json    hoilc/scoop-lemon
@@ -6634,6 +6634,7 @@ oggenc2-libvorbis-aotuv.json    hoilc/scoop-lemon
 versatiles.json    hoilc/scoop-lemon
 whisper-model-ggml-base.json    hoilc/scoop-lemon
 upcloud-cli.json    hoilc/scoop-lemon
+stable-diffusion-cpp-rocm.json    hoilc/scoop-lemon
 justnullname-quickview.json    hoilc/scoop-lemon
 git-cola_hoilc.json    hoilc/scoop-lemon
 rbspy.json    hoilc/scoop-lemon
@@ -6703,6 +6704,7 @@ swego.json    hoilc/scoop-lemon
 tanka.json    hoilc/scoop-lemon
 tracerx-viewer.json    hoilc/scoop-lemon
 redis_exporter.json    hoilc/scoop-lemon
+nyaterm.json    hoilc/scoop-lemon
 wamr.json    hoilc/scoop-lemon
 qrrs.json    hoilc/scoop-lemon
 sokobanp.json    hoilc/scoop-lemon
@@ -7008,6 +7010,7 @@ zip2dir.json    hoilc/scoop-lemon
 weasis.json    hoilc/scoop-lemon
 colorconsole.json    hoilc/scoop-lemon
 traefik-certs-dumper.json    hoilc/scoop-lemon
+httpmaster.json    hoilc/scoop-lemon
 tsac.json    hoilc/scoop-lemon
 opdf.json    hoilc/scoop-lemon
 rapidraw.json    hoilc/scoop-lemon
@@ -7272,6 +7275,7 @@ smb3-foundry.json    hoilc/scoop-lemon
 excel-mcp-server.json    hoilc/scoop-lemon
 ik-llama-cpp.json    hoilc/scoop-lemon
 runpodctl.json    hoilc/scoop-lemon
+appgroup.json    hoilc/scoop-lemon
 talhelper.json    hoilc/scoop-lemon
 pngout.json    hoilc/scoop-lemon
 perfview_hoilc.json    hoilc/scoop-lemon
@@ -12034,7 +12038,6 @@ sublinkpro.json    ViCrack/scoop-bucket
 rad_ViCrack.json    ViCrack/scoop-bucket
 screentogif_ViCrack.json    ViCrack/scoop-bucket
 filemenutools_ViCrack.json    ViCrack/scoop-bucket
-siyuan_ViCrack.json    ViCrack/scoop-bucket
 mootool.json    ViCrack/scoop-bucket
 woodpecker_ViCrack.json    ViCrack/scoop-bucket
 dudesuite_ViCrack.json    ViCrack/scoop-bucket
@@ -24566,7 +24569,7 @@ quick-any2ico_cmontage.json    cmontage/scoopbucket-third
 quick-picture-viewer_cmontage.json    cmontage/scoopbucket-third
 quickbib_cmontage.json    cmontage/scoopbucket-third
 quickclipboard-portable.json    cmontage/scoopbucket-third
-quickclipboard.json    cmontage/scoopbucket-third
+quickclipboard_cmontage.json    cmontage/scoopbucket-third
 quickcpu_cmontage.json    cmontage/scoopbucket-third
 quickcpu_HUMORCE.json    cmontage/scoopbucket-third
 quicker_cmontage.json    cmontage/scoopbucket-third
@@ -30196,6 +30199,7 @@ edge-portable-beta_naderi.json    naderi/scoop-bucket
 wlx2explorer_naderi.json    naderi/scoop-bucket
 cpod_naderi.json    naderi/scoop-bucket
 1by1_naderi.json    naderi/scoop-bucket
+encrypto_naderi.json    naderi/scoop-bucket
 iconview_naderi.json    naderi/scoop-bucket
 font-tanha_naderi.json    naderi/scoop-bucket
 youtube-downloader-hd_naderi.json    naderi/scoop-bucket
@@ -31190,6 +31194,7 @@ pdf4qt_Scoopforge.json    Scoopforge/Extras-Plus
 ecopaste_Scoopforge.json    Scoopforge/Extras-Plus
 winhance_Scoopforge.json    Scoopforge/Extras-Plus
 scihubeva_Scoopforge.json    Scoopforge/Extras-Plus
+dingtalk-en.json    Scoopforge/Extras-Plus
 linkandroid_Scoopforge.json    Scoopforge/Extras-Plus
 doxygen-gui_Scoopforge.json    Scoopforge/Extras-Plus
 bitcomet_Scoopforge.json    Scoopforge/Extras-Plus
@@ -32221,6 +32226,7 @@ Lively-Wallpaper_Weidows-projects.json    Weidows-projects/scoop-3rd
 DevEco-Studio_Weidows-projects.json    Weidows-projects/scoop-3rd
 hermes-desktop-portable_Weidows-projects.json    Weidows-projects/scoop-3rd
 SD-LoRA-Manager_Weidows-projects.json    Weidows-projects/scoop-3rd
+XHS-Downloader_Weidows-projects.json    Weidows-projects/scoop-3rd
 XYplorer_Weidows-projects.json    Weidows-projects/scoop-3rd
 gamebuff_Weidows-projects.json    Weidows-projects/scoop-3rd
 Windows-Theme-HighContract-Tokyo-Night_Weidows-projects.json    Weidows-projects/scoop-3rd
