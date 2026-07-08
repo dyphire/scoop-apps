@@ -100,10 +100,10 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - 42wim/scoop-bucket
 - iquiw/scoop-bucket
 - starise/Scoop-Confetti
+- mo-san/scoop-bucket
 - seumsc/scoop-seu
 - mogeko/scoop-sysinternals
 - starise/Scoop-Gaming
-- mo-san/scoop-bucket
 - babo4d/scoop-xrtools
 - jfut/scoop-jfut
 - AkariiinMKII/Scoop4kariiin
