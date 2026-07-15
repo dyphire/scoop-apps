@@ -1,32 +1,43 @@
 {
-  "version": "4.9.0",
-  "description": "MiTeC Task Manager DeLuxe 32/64",
-  "homepage": "https://www.mitec.cz/tmx.html",
-  "license": "Proprietary",
-  "url": "https://www.mitec.cz/Downloads/TMX.zip",
-  "hash": "9d1a14f4fce1b0183a61261350dd62fb9d85f31b47d46d42ab2c2a0edbd85600",
-  "architecture": {
-    "64bit": {
-      "pre_install": [
-        "Remove-Item \"$dir\\TMX.exe\" -Force",
-        "Get-ChildItem $dir 'TMX*exe' | Rename-Item -NewName 'TMX.exe' -Force"
-      ]
+    "version": "4.12.1",
+    "description": "MiTeC Task Manager DeLuxe (TMX) is a full-featured task manager replacement that offers powerful features with many more enhancements.",
+    "homepage": "https://www.mitec.cz/wp/tmx/",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://www.mitec.cz/wp/support/"
     },
-    "32bit": {
-      "pre_install": "Remove-Item \"$dir\\TMX64.exe\" -Force"
+    "url": "https://www.mitec.cz/wp/files/TMX.zip",
+    "hash": "6315ae767c4a33fa6c69a2d4de8be09699bad78e890835f5cf86830ba9672855",
+    "architecture": {
+        "64bit": {
+            "bin": [
+                [
+                    "TMX64.exe",
+                    "tmx"
+                ]
+            ],
+            "shortcuts": [
+                [
+                    "TMX64.exe",
+                    "MiTeC Task Manager DeLuxe"
+                ]
+            ]
+        },
+        "32bit": {
+            "bin": "TMX.exe",
+            "shortcuts": [
+                [
+                    "TMX.exe",
+                    "MiTeC Task Manager DeLuxe"
+                ]
+            ]
+        }
+    },
+    "checkver": {
+        "url": "https://www.mitec.cz/webupdate.html",
+        "regex": "<META NAME=\"TMXVersion\" CONTENT=\"([\\d.]+)\\.0\">"
+    },
+    "autoupdate": {
+        "url": "https://www.mitec.cz/wp/files/TMX.zip"
     }
-  },
-  "shortcuts": [
-    [
-      "TMX.exe",
-      "MiTeC\\Task Manager DeLuxe"
-    ]
-  ],
-  "checkver": {
-    "url": "https://www.mitec.cz/Data/XML/data_downloads.xml",
-    "regex": "<NAME>MiTeC Task Manager DeLuxe 32/64\\s+([\\d.]+)<"
-  },
-  "autoupdate": {
-    "url": "https://www.mitec.cz/Downloads/TMX.zip"
-  }
 }
