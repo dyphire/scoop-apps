@@ -1,0 +1,57 @@
+{
+    "version": "0.2.2",
+    "description": "Cross-platform download manager with multi-protocol (HTTP/2/HTTPS/FTP/BitTorrent) support, resumable & segmented downloading, zero ads, zero tracking, local-first privacy design. [Portable Edition]",
+    "homepage": "https://fluxdown.zerx.dev/",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://fluxdown.zerx.dev/terms"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://fluxdown.zerx.dev/api/download/FluxDown-0.2.2-windows-x64-portable.zip",
+            "hash": "e6af033a62edeb8b9d55564d14f8a89baaff2273cbc05f6aa96e5d0de45fe215"
+        },
+        "arm64": {
+            "url": "https://fluxdown.zerx.dev/api/download/FluxDown-0.2.2-windows-arm64-portable.zip",
+            "hash": "6028fae84936996c8a5749f90bdd7768b47a325135a3f7b030c6a7f02094adfc"
+        }
+    },
+    "bin": "flux_down.exe",
+    "shortcuts": [
+        [
+            "flux_down.exe",
+            "FluxDown"
+        ]
+    ],
+    "installer": {
+        "script": [
+            ". \"$bucketsdir\\$bucket\\bin\\utils.ps1\"",
+            "New-PersistDirectory \"$env:APPDATA\\FluxDown\" \"$persist_dir\\AppData\" -Migrate",
+            "# The portable FluxDown saves SQLite database in program directory.",
+            "# To avoid data loss, we turn it into non-portable.",
+            "Remove-Item \"$dir\\portable\" -Force",
+            "New-PersistDirectory \"$env:LOCALAPPDATA\\FluxDown\" \"$persist_dir\\LocalAppData\" -Migrate"
+        ]
+    },
+    "pre_uninstall": [
+        "$bucket = $install.bucket",
+        ". \"$bucketsdir\\$bucket\\bin\\utils.ps1\"",
+        "Stop-App",
+        "Remove-Junction \"$env:APPDATA\\FluxDown\"",
+        "Remove-Junction \"$env:LOCALAPPDATA\\FluxDown\""
+    ],
+    "checkver": {
+        "url": "https://fluxdown.zerx.dev/api/release",
+        "jsonpath": "$.version"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://fluxdown.zerx.dev/api/download/FluxDown-$version-windows-x64-portable.zip"
+            },
+            "arm64": {
+                "url": "https://fluxdown.zerx.dev/api/download/FluxDown-$version-windows-arm64-portable.zip"
+            }
+        }
+    }
+}
