@@ -76,8 +76,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - wzv5/ScoopBucket
 - TheRandomLabs/Scoop-Python
 - naderi/scoop-bucket
-- amorphobia/siku
 - jonz94/scoop-sarasa-nerd-fonts
+- amorphobia/siku
 - NyaMisty/scoopbucketmisty
 - Small-Ku/turbo-bucket
 - WinApps-share/WinApps-bucket
@@ -114,6 +114,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - alextwothousand/scoop-bucket
 - Toddli468/Pentest-Scoop-Bucket
 - cc713/ownscoop
+- maboloshi/scoop-private
 - natecohen/scoop-av
 - typst-community/scoop-bucket
 - KnotUntied/scoop-fonts
@@ -126,7 +127,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - HUMORCE/nuke
 - MCOfficer/scoop-bucket
 - littleli/Scoop-littleli
-- maboloshi/scoop-private
 - littleli/Scoop-AtariEmulators
 - beer-psi/scoop-bucket
 - yuusakuri/scoop-bucket
