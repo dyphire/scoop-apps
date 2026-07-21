@@ -6,18 +6,12 @@
         "identifier": "Creative Commons Public Licenses",
         "url": "https://github.com/darkmatter2048/WindowsCleaner#License-1-ov-file"
     },
-    "url": "https://github.com/darkmatter2048/WindowsCleaner/releases/download/v6.0.1/WindowsCleaner-v6.0.1-x64-portable.exe",
+    "url": "https://github.com/darkmatter2048/WindowsCleaner/releases/download/v6.0.1/WindowsCleaner-v6.0.1-x64-portable.exe#/WindowsCleaner.exe",
     "hash": "de8cd4f1e8b457fdd3a94937d5aee8a58abd46c1115d935878ab8a800e0838e6",
-    "innosetup": true,
-    "bin": [
-        [
-            "main.exe",
-            "WindowsCleaner"
-        ]
-    ],
+    "bin": "WindowsCleaner.exe",
     "shortcuts": [
         [
-            "main.exe",
+            "WindowsCleaner.exe",
             "WindowsCleaner"
         ]
     ],
@@ -27,6 +21,6 @@
         "regex": "/releases/download/v([\\d.]+)/(?<file>.*?\\.exe)"
     },
     "autoupdate": {
-        "url": "https://github.com/darkmatter2048/WindowsCleaner/releases/download/v$version/$matchFile"
+        "url": "https://github.com/darkmatter2048/WindowsCleaner/releases/download/v$version/$matchFile#/WindowsCleaner.exe"
     }
 }
