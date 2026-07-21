@@ -118,13 +118,13 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - natecohen/scoop-av
 - typst-community/scoop-bucket
 - KnotUntied/scoop-fonts
-- 404NetworkError/scoop-bucket
 - jingyu9575/scoop-jingyu9575
 - BenjaminMichaelis/Config
 - p8rdev/scoop-portableapps
 - AntonOks/scoop-aoks
 - Deide/deide-bucket
 - HUMORCE/nuke
+- 404NetworkError/scoop-bucket
 - MCOfficer/scoop-bucket
 - littleli/Scoop-littleli
 - littleli/Scoop-AtariEmulators

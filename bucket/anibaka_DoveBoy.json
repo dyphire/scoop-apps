@@ -6,8 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/AniBakaBaka/AniBaka/releases/download/5.0.1/baka-5.0.1+0718-windows.msix#/dl.7z",
-            "hash": "87cacf2171dd9ce1e0f02eeff0513a1d6c87a295ab090a257a65393fb338dada",
-            "pre_install": "Remove-Item \"$dir\\*.xml\" -Force -Recurse"
+            "hash": "87cacf2171dd9ce1e0f02eeff0513a1d6c87a295ab090a257a65393fb338dada"
         }
     },
     "installer": {
@@ -35,13 +34,13 @@
     "checkver": {
         "github": "https://api.github.com/repos/AniBakaBaka/AniBaka/releases",
         "jp": "$[0].assets[*].browser_download_url",
-        "regex": "/releases/download/([\\d.]+)/baka-([\\d.]+)%2B([\\d]+)-windows",
+        "regex": "/releases/download/([\\d.]+)/windows-x64-zip-baka-([\\d.]+)%2B([\\d.]+)-windows\\.zip",
         "replace": "${2}.${3}"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/AniBakaBaka/AniBaka/releases/download/$match1/baka-$match2+$match3-windows.msix#/dl.7z"
+                "url": "https://github.com/AniBakaBaka/AniBaka/releases/download/$match1/windows-x64-zip-baka-$macth2+$macth3-windows.zip"
             }
         }
     }
