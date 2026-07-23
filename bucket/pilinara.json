@@ -1,51 +1,42 @@
 {
-  "version": "2.1.0.5534",
-  "description": "基于PiliPlus做了一些自用修改",
-  "homepage": "https://karing.app/",
-  "license": {
-    "identifier": "GPL-3.0 license",
-    "url": "https://github.com/Starfallan/PiliNara#GPL-3.0-1-ov-file"
-  },
-  "architecture": {
-    "64bit": {
-      "url": "https://github.com/Starfallan/PiliNara/releases/download/2.1.0.2-beta1/PiliNara_windows_2.1.0+5534_x64_setup.exe",
-      "hash": "872cee30f0dc471e45dc73dd1288f4b9714b71786571608811de3323f0112af7"
-    }
-  },
-  "innosetup": true,
-  "installer": {
-    "script": [
-      "# handle runtime cache",
-      "Import-Module $(Join-Path $(Find-BucketDirectory -Root -Name apps) scripts/AppsUtils.psm1)",
-      "Mount-ExternalRuntimeData -Source \"$persist_dir\\appdata\" -Target \"$env:APPDATA\\com.example\"",
-      "Remove-Module -Name AppsUtils"
-    ]
-  },
-  "uninstaller": {
-    "script": [
-      "Import-Module $(Join-Path $(Find-BucketDirectory -Root -Name apps) scripts/AppsUtils.psm1)",
-      "Dismount-ExternalRuntimeData -Target \"$env:APPDATA\\com.example\"",
-      "Remove-Module -Name AppsUtils"
-    ]
-  },
-  "bin": "pilinara.exe",
-  "shortcuts": [
-    [
-      "pilinara.exe",
-      "PiliNara"
-    ]
-  ],
-  "checkver": {
-    "github": "https://api.github.com/repos/Starfallan/PiliNara/releases",
-    "jp": "$[0].assets[*].browser_download_url",
-    "regex": "/releases/download/(?<tag>[0-9A-Za-z.-]+)/PiliNara_windows_([\\d.]+)%2B([\\d]+)_x64",
-    "replace": "${1}.${2}"
-  },
-  "autoupdate": {
+    "version": "2.1.0.1-Himeko",
+    "description": "PiliNara - 第三方BiliBili客户端 (BiliBili third-party client)",
+    "homepage": "https://github.com/Starfallan/PiliNara",
+    "license": "GPL-3.0-only",
     "architecture": {
-      "64bit": {
-        "url": "https://github.com/Starfallan/PiliNara/releases/download/$matchTag/PiliNara_windows_$match1+$match2_x64_setup.exe"
-      }
+        "64bit": {
+            "url": "https://github.com/Starfallan/PiliNara/releases/download/2.1.0.1-Himeko/PiliNara_windows_2.1.0%2B5524_x64_portable.zip",
+            "hash": "8bb80b6120f205c751496bf241e790e8c092129a16a33525c19cdac6bd7bf4a9",
+            "extract_dir": "PiliNara-Win"
+        }
+    },
+    "installer": {
+        "script": [
+            ". \"$bucketsdir\\$bucket\\bin\\utils.ps1\"",
+            "New-PersistDirectory \"$env:APPDATA\\com.example.piliplus\" \"$persist_dir\\AppData\" -Migrate"
+        ]
+    },
+    "shortcuts": [
+        [
+            "pilinara.exe",
+            "PiliNara"
+        ]
+    ],
+    "pre_uninstall": [
+        "$bucket = $install.bucket",
+        ". \"$bucketsdir\\$bucket\\bin\\utils.ps1\"",
+        "Stop-App",
+        "Remove-Junction \"$env:APPDATA\\com.example.piliplus\""
+    ],
+    "checkver": {
+        "url": "https://api.github.com/repos/Starfallan/PiliNara/releases/latest",
+        "regex": "\"tag_name\"\\s*:\\s*\"([\\d.]+-[\\w]+)\"[\\s\\S]*?PiliNara_windows_([\\d.]+)\\+(\\d+)_x64_portable\\.zip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Starfallan/PiliNara/releases/download/$version/PiliNara_windows_$match2%2B$match3_x64_portable.zip"
+            }
+        }
     }
-  }
 }
