@@ -1,43 +1,20 @@
 {
-    "version": "2.7.5",
+    "##": "see the source copy from https://github.com/ScoopInstaller/Main/blob/master/bucket/sftpgo.json",
+    "version": "2.4.3",
     "description": "Fully featured and highly configurable SFTP server with optional HTTP, FTP/S and WebDAV support",
     "homepage": "https://github.com/drakkan/sftpgo",
     "license": "AGPL-3.0-only",
     "notes": "Register SFTPGo as Windows Service by running: \"sftpgo service install\" as Administrator",
-    "url": "https://github.com/drakkan/sftpgo/releases/download/v2.6.2/sftpgo_v2.6.2_windows_portable.zip",
-    "architecture": {
-        "64bit": {
-            "url": "https://github.com/drakkan/sftpgo/releases/download/v2.7.5/sftpgo_v2.7.5_windows_x86_64.exe",
-            "hash": "30077c982530de4c301b901631a5033a854a88fe28a9dcf769e84f0097beecbf"
-        },
-        "32bit": {
-            "url": "https://github.com/drakkan/sftpgo/releases/download/v2.7.5/sftpgo_v2.7.5_windows_x86.exe",
-            "hash": "2ee6f79838f31867694ce7671660e0b3cf18ef87a40dee61672a1db3957eba9a"
-        },
-        "arm64": {
-            "url": "https://github.com/drakkan/sftpgo/releases/download/v2.7.5/sftpgo_v2.7.5_windows_arm64.exe",
-            "hash": "1dc60a1122c2d85c8722671cc52410c91d652b44bd42d07af7fd57133b0294ed"
-        }
-    },
-    "installer": {
-        "args": [
-            "/VERYSILENT",
-            "/DIR=\"$dir\"",
-            "/SUPPRESSMSGBOXES",
-            "/NORESTART",
-            "/CLOSEAPPLICATIONS",
-            "/NORESTARTAPPLICATIONS",
-            "/SP-"
-        ]
-    },
-    "uninstaller": {
-        "file": "unins000.exe",
-        "args": [
-            "/VERYSILENT",
-            "/SUPPRESSMSGBOXES",
-            "/NORESTART"
-        ]
-    },
+    "url": "https://github.com/drakkan/sftpgo/releases/download/v2.4.3/sftpgo_v2.4.3_windows_portable.zip",
+    "hash": "65c18a74da4f96661d9532af200ddc1918d3415b401cbeaca42632ed2bb7b1d4",
+    "pre_install": [
+        "if ($architecture -eq '32bit') {",
+        "   Move-Item \"$dir\\x86\\sftpgo.exe\" \"$dir\\\" -Force",
+        "} elseif ($architecture -eq 'arm64') {",
+        "   Move-Item \"$dir\\arm64\\sftpgo.exe\" \"$dir\\\" -Force",
+        "}",
+        "Remove-Item \"$dir\\arm64\", \"$dir\\x86\" -Recurse -Force"
+    ],
     "bin": "sftpgo.exe",
     "persist": [
         "sftpgo.db",
@@ -47,16 +24,6 @@
         "github": "https://github.com/drakkan/sftpgo"
     },
     "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/drakkan/sftpgo/releases/download/v$version/sftpgo_v$version_windows_x86_64.exe"
-            },
-            "32bit": {
-                "url": "https://github.com/drakkan/sftpgo/releases/download/v$version/sftpgo_v$version_windows_x86.exe"
-            },
-            "arm64": {
-                "url": "https://github.com/drakkan/sftpgo/releases/download/v$version/sftpgo_v$version_windows_arm64.exe"
-            }
-        }
+        "url": "https://github.com/drakkan/sftpgo/releases/download/v$version/sftpgo_v$version_windows_portable.zip"
     }
 }
