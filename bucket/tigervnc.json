@@ -1,18 +1,24 @@
 {
-    "homepage": "https://tigervnc.org/",
-    "version": "1.13.1",
-    "license": "GPL-2.0-only",
+    "version": "1.16.2",
+    "description": "TigerVNC - high-performance VNC viewer for remote desktop access",
+    "homepage": "https://tigervnc.org",
+    "license": "GPL-2.0-or-later",
+    "notes": [
+        "This is the TigerVNC viewer. The VNC server (WinVNC) is available separately as 'tigervnc-server'.",
+        "Viewer settings are stored in the registry (HKCU\\Software\\TigerVNC)."
+    ],
     "architecture": {
         "64bit": {
-            "url": "https://downloads.sourceforge.net/project/tigervnc/stable/1.13.1/tigervnc64-1.13.1.exe",
-            "hash": "536ca6bcf77c8ee3fbffe294a25269bb9d1d26b038bdb682fd3161e6c7fda3f3"
+            "url": "https://sourceforge.net/projects/tigervnc/files/stable/1.16.2/tigervnc64-1.16.2.exe",
+            "hash": "sha1:bb3a1d423cb36cf2aad80c0151dca78ce60454f0"
         },
         "32bit": {
-            "url": "https://downloads.sourceforge.net/project/tigervnc/stable/1.13.1/tigervnc-1.13.1.exe",
-            "hash": "60e7e26fa996be70156747941d7fb92d116d1ccc442614192bb96df20ca599e6"
+            "url": "https://sourceforge.net/projects/tigervnc/files/stable/1.16.2/tigervnc-1.16.2.exe",
+            "hash": "sha1:60ddc92e48b50cc6f185efbbbf8197d0a98ec6b1"
         }
     },
     "innosetup": true,
+    "bin": "vncviewer.exe",
     "shortcuts": [
         [
             "vncviewer.exe",
@@ -20,16 +26,16 @@
         ]
     ],
     "checkver": {
-        "url": "https://sourceforge.net/projects/tigervnc/rss?path=/",
-        "regex": "/stable/(?<version>[\\d.]+)/tigervnc64-(?<suffix>[\\d.]+).exe"
+        "sourceforge": "tigervnc",
+        "regex": "stable/([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://downloads.sourceforge.net/project/tigervnc/stable/$version/tigervnc64-$matchSuffix.exe"
+                "url": "https://sourceforge.net/projects/tigervnc/files/stable/$version/tigervnc64-$version.exe"
             },
             "32bit": {
-                "url": "https://downloads.sourceforge.net/project/tigervnc/stable/$version/tigervnc-$matchSuffix.exe"
+                "url": "https://sourceforge.net/projects/tigervnc/files/stable/$version/tigervnc-$version.exe"
             }
         }
     }
