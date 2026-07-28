@@ -126,9 +126,9 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - HUMORCE/nuke
 - 404NetworkError/scoop-bucket
 - MCOfficer/scoop-bucket
-- littleli/Scoop-littleli
 - littleli/Scoop-AtariEmulators
 - beer-psi/scoop-bucket
+- littleli/Scoop-littleli
 - yuusakuri/scoop-bucket
 - ChinLong/scoop-customize
 - Darkatse/Scoop-KanColle
