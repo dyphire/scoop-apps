@@ -91,7 +91,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - asimov-platform/scoop-bucket
 - SayCV/scoop-cvp
 - batkiz/backit
-- zirnc/peach
 - AStupidBear/scoop-bear
 - Weidows-projects/scoop-3rd
 - ocodo/wezterm-alt-windows-icon-builds
@@ -118,6 +117,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - natecohen/scoop-av
 - typst-community/scoop-bucket
 - KnotUntied/scoop-fonts
+- LaelLuo/scoop
 - jingyu9575/scoop-jingyu9575
 - BenjaminMichaelis/Config
 - p8rdev/scoop-portableapps
