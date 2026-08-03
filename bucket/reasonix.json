@@ -1,5 +1,5 @@
 {
-    "version": "1.19.2",
+    "version": "1.19.4",
     "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
     "homepage": "https://reasonix.io/",
     "license": "MIT",
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/esengine/DeepSeek-Reasonix/releases/download/v1.19.2/reasonix-windows-amd64.zip",
-            "hash": "df2879691a566cea4063fbf2347506d7ffa098ab84b9613764dd70332560a71b"
+            "url": "https://github.com/esengine/DeepSeek-Reasonix/releases/download/v1.19.4/reasonix-windows-amd64.zip",
+            "hash": "b14a92bd63dded7a58f510e744fb5877e2e803bcb7ede89d9675b8b2298a77d4"
         },
         "arm64": {
-            "url": "https://github.com/esengine/DeepSeek-Reasonix/releases/download/v1.19.2/reasonix-windows-arm64.zip",
-            "hash": "0e90b05a5e93b5f144294e8f8272a02dfade1f246b31efc16eb8268fdb8bcbb4"
+            "url": "https://github.com/esengine/DeepSeek-Reasonix/releases/download/v1.19.4/reasonix-windows-arm64.zip",
+            "hash": "408db90d11cf4ad01cf2f7e868dd32ca6c6b6f41e4af824ce9c6b0c04a4e5ae7"
         }
     },
     "bin": "reasonix.exe",
