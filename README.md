@@ -112,6 +112,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - excitoon/scoop-user
 - alextwothousand/scoop-bucket
 - Toddli468/Pentest-Scoop-Bucket
+- 404NetworkError/scoop-bucket
 - cc713/ownscoop
 - maboloshi/scoop-private
 - natecohen/scoop-av
@@ -124,7 +125,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - AntonOks/scoop-aoks
 - Deide/deide-bucket
 - HUMORCE/nuke
-- 404NetworkError/scoop-bucket
 - MCOfficer/scoop-bucket
 - littleli/Scoop-AtariEmulators
 - beer-psi/scoop-bucket
