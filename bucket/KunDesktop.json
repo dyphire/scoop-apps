@@ -1,12 +1,12 @@
 {
-    "version": "0.3.0",
+    "version": "0.3.2",
     "description": "A three-entry coding agent that shares the same local Kun runtime for Code, Write, and connecting to a phone.",
     "homepage": "https://www.kun-agent.com/",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://www.kun-agent.com/api/r2/deepseek-gui/channels/stable/latest/Kun-0.3.0-win-x64.exe#/dl.7z",
-            "hash": "c36de563274504790a5cc3c9f1f23754fef419e867988837df6839469d67889a",
+            "url": "https://www.kun-agent.com/api/r2/deepseek-gui/channels/stable/latest/Kun-0.3.2-win-x64.exe#/dl.7z",
+            "hash": "c7fdcdd8a74e50fc6355f0ce96cf4fcc60a7138311e65ba26607b81eda2f47ac",
             "installer": {
                 "script": [
                     "Expand-7ZipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\" -Removal",

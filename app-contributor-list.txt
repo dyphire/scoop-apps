@@ -3312,9 +3312,9 @@ iansui.json    matthewjberger/scoop-nerd-fonts
 SarasaGothic-HK.json    matthewjberger/scoop-nerd-fonts
 octave-cn.json    Scoopforge/Extras-CN
 tencent-meeting.json    Scoopforge/Extras-CN
+qunwen.json    Scoopforge/Extras-CN
 lceda-pro_Scoopforge.json    Scoopforge/Extras-CN
 dehelper.json    Scoopforge/Extras-CN
-qoderwork-cn.json    Scoopforge/Extras-CN
 neteasemusic_Scoopforge.json    Scoopforge/Extras-CN
 lyx-cn.json    Scoopforge/Extras-CN
 quarkclouddrive.json    Scoopforge/Extras-CN
@@ -3324,7 +3324,6 @@ pixpin_Scoopforge.json    Scoopforge/Extras-CN
 eshelper.json    Scoopforge/Extras-CN
 libreoffice-cn.json    Scoopforge/Extras-CN
 ting-fr.json    Scoopforge/Extras-CN
-pot-desktop.json    Scoopforge/Extras-CN
 obs-studio-cn.json    Scoopforge/Extras-CN
 aboboo.json    Scoopforge/Extras-CN
 utools_Scoopforge.json    Scoopforge/Extras-CN
@@ -3378,7 +3377,6 @@ yuque_Scoopforge.json    Scoopforge/Extras-CN
 partition-assistant.json    Scoopforge/Extras-CN
 ting-es.json    Scoopforge/Extras-CN
 qt-creator-cn.json    Scoopforge/Extras-CN
-fishing-funds.json    Scoopforge/Extras-CN
 wechatdevtools_Scoopforge.json    Scoopforge/Extras-CN
 julia-cn.json    Scoopforge/Extras-CN
 goldendict-ng.json    Scoopforge/Extras-CN
@@ -3386,7 +3384,6 @@ navicat-premium-lite-cn.json    Scoopforge/Extras-CN
 wpsoffice-cn.json    Scoopforge/Extras-CN
 baidupcs-go.json    Scoopforge/Extras-CN
 aboboo-full.json    Scoopforge/Extras-CN
-downkyi_Scoopforge.json    Scoopforge/Extras-CN
 misakatranslator.json    Scoopforge/Extras-CN
 edrawmax8.json    Scoopforge/Extras-CN
 lx-music.json    Scoopforge/Extras-CN
@@ -4313,6 +4310,7 @@ gogs0.json    ScoopInstaller/Versions
 gradle5.json    ScoopInstaller/Versions
 php56-xdebug.json    ScoopInstaller/Versions
 cuda11.2.json    ScoopInstaller/Versions
+aegisub-beta.json    ScoopInstaller/Versions
 ffmpeg-yt-dlp-nightly.json    ScoopInstaller/Versions
 godot-mono-rc.json    ScoopInstaller/Versions
 julia-lts.json    ScoopInstaller/Versions
@@ -4548,6 +4546,7 @@ qt-creator-beta.json    ScoopInstaller/Versions
 yt-dlp-nightly.json    ScoopInstaller/Versions
 v2rayn-desktop-pre.json    ScoopInstaller/Versions
 atom-beta.json    ScoopInstaller/Versions
+roc-nightly.json    ScoopInstaller/Versions
 gitversion-beta.json    ScoopInstaller/Versions
 cuda7.0.json    ScoopInstaller/Versions
 php80-xdebug.json    ScoopInstaller/Versions
@@ -6467,7 +6466,7 @@ pdgthumbviewer.json    hoilc/scoop-lemon
 librevna.json    hoilc/scoop-lemon
 voice.json    hoilc/scoop-lemon
 ctstraffic.json    hoilc/scoop-lemon
-roc-nightly.json    hoilc/scoop-lemon
+roc-nightly_hoilc.json    hoilc/scoop-lemon
 rojo.json    hoilc/scoop-lemon
 siteone-crawler.json    hoilc/scoop-lemon
 buildifier.json    hoilc/scoop-lemon
@@ -7421,6 +7420,7 @@ cherry-studio_hoilc.json    hoilc/scoop-lemon
 il2cppdumper.json    hoilc/scoop-lemon
 mtail.json    hoilc/scoop-lemon
 iiscrypto.json    hoilc/scoop-lemon
+readaware.json    hoilc/scoop-lemon
 electronmail_hoilc.json    hoilc/scoop-lemon
 airshipper.json    hoilc/scoop-lemon
 solar-compiler.json    hoilc/scoop-lemon
@@ -19643,7 +19643,7 @@ firewallappblocker_cmontage.json    cmontage/scoopbucket-third
 firewallappblocker_DoveBoy.json    cmontage/scoopbucket-third
 firmwaretablesview_cmontage.json    cmontage/scoopbucket-third
 firmwaretablesview_kodybrown.json    cmontage/scoopbucket-third
-fishing-funds_cmontage.json    cmontage/scoopbucket-third
+fishing-funds.json    cmontage/scoopbucket-third
 fishing-funds_ygguorun.json    cmontage/scoopbucket-third
 fishingfunds.json    cmontage/scoopbucket-third
 fishstrap_cmontage.json    cmontage/scoopbucket-third
@@ -25059,7 +25059,7 @@ postman-portapps.json    cmontage/scoopbucket-third
 postman_cmontage.json    cmontage/scoopbucket-third
 postman9_cmontage.json    cmontage/scoopbucket-third
 postman_akirco.json    cmontage/scoopbucket-third
-pot-desktop_cmontage.json    cmontage/scoopbucket-third
+pot-desktop.json    cmontage/scoopbucket-third
 pot-desktop_DoveBoy.json    cmontage/scoopbucket-third
 pot-desktop_WinApps-share.json    cmontage/scoopbucket-third
 pot-desktop_hu3rror.json    cmontage/scoopbucket-third
@@ -25504,7 +25504,7 @@ qmplay2_cmontage.json    cmontage/scoopbucket-third
 qnapi_cmontage.json    cmontage/scoopbucket-third
 qoder-cli_Small-Ku.json    cmontage/scoopbucket-third
 qoder_LaelLuo.json    cmontage/scoopbucket-third
-qoderwork-cn_cmontage.json    cmontage/scoopbucket-third
+qoderwork-cn.json    cmontage/scoopbucket-third
 qoderwork_LaelLuo.json    cmontage/scoopbucket-third
 qownnotes-aoks.json    cmontage/scoopbucket-third
 qownnotes_ScoopInstaller.json    cmontage/scoopbucket-third
@@ -30741,7 +30741,6 @@ host-editor_DoveBoy.json    DoveBoy/Apps
 vidbee_DoveBoy.json    DoveBoy/Apps
 clash-verge-rev_DoveBoy.json    DoveBoy/Apps
 treesize_DoveBoy.json    DoveBoy/Apps
-obs-studio_DoveBoy.json    DoveBoy/Apps
 auto-unlocker_DoveBoy.json    DoveBoy/Apps
 ghostdownloader3_DoveBoy.json    DoveBoy/Apps
 typora-plugin_DoveBoy.json    DoveBoy/Apps
@@ -31117,6 +31116,7 @@ lynmusic_DoveBoy.json    DoveBoy/Apps
 inputshare_DoveBoy.json    DoveBoy/Apps
 xmusicdownloader_DoveBoy.json    DoveBoy/Apps
 imagemagick.json    DoveBoy/Apps
+purelive.json    DoveBoy/Apps
 ali_DoveBoy.json    DoveBoy/Apps
 idm_DoveBoy.json    DoveBoy/Apps
 telegram_DoveBoy.json    DoveBoy/Apps
@@ -33002,6 +33002,7 @@ openconsole_brian6932.json    brian6932/dank-scoop
 catbox_brian6932.json    brian6932/dank-scoop
 artroom-stable-diffusion_brian6932.json    brian6932/dank-scoop
 freds-controller-tester_brian6932.json    brian6932/dank-scoop
+claude-desktop.json    Scoopforge/Extras-Plus
 cap_Scoopforge.json    Scoopforge/Extras-Plus
 wisecare365_Scoopforge.json    Scoopforge/Extras-Plus
 next-ai-drawio_Scoopforge.json    Scoopforge/Extras-Plus
@@ -33015,7 +33016,6 @@ mogan_Scoopforge.json    Scoopforge/Extras-Plus
 flying-carpet_Scoopforge.json    Scoopforge/Extras-Plus
 normcap_Scoopforge.json    Scoopforge/Extras-Plus
 texlive_Scoopforge.json    Scoopforge/Extras-Plus
-itunes_Scoopforge.json    Scoopforge/Extras-Plus
 linkandroid_Scoopforge.json    Scoopforge/Extras-Plus
 buzz_Scoopforge.json    Scoopforge/Extras-Plus
 hermes-one_Scoopforge.json    Scoopforge/Extras-Plus
@@ -33034,7 +33034,6 @@ bitcomet_Scoopforge.json    Scoopforge/Extras-Plus
 pdf4qt_Scoopforge.json    Scoopforge/Extras-Plus
 tylina_Scoopforge.json    Scoopforge/Extras-Plus
 defender-remover_Scoopforge.json    Scoopforge/Extras-Plus
-claude-code-desktop_Scoopforge.json    Scoopforge/Extras-Plus
 vibe_Scoopforge.json    Scoopforge/Extras-Plus
 cytoscape_Scoopforge.json    Scoopforge/Extras-Plus
 comfyui_Scoopforge.json    Scoopforge/Extras-Plus
