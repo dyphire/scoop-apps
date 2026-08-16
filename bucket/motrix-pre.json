@@ -1,5 +1,5 @@
 {
-    "version": "1.8.19",
+    "version": "2.0.0-beta.13",
     "description": "A full-featured download manager.",
     "homepage": "https://motrix.app",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/agalwood/Motrix/releases/download/v1.8.19/Motrix-Setup-1.8.19.exe#/dl.7z",
-            "hash": "sha512:b8af895ba86f77ed5837b8a65580ec828b45fab647998bc1c82dc82426b857340a4306fc5222a6fb64c0f1c338bb221b90d8f563c7c7aa87d46664722ad56ab9",
+            "url": "https://github.com/agalwood/Motrix/releases/download/v2.0.0-beta.13/Motrix-Setup-2.0.0-beta.13.exe#/dl.7z",
+            "hash": "sha512:380c0582d3f785042173b4afa02cf72f7c7c92cefa808733fc0f526a4eb4b683efc3a71b867bca64e626b2cbdcfd3e4ff1cf1087df8bfde74dc0d07aab510149",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\", \"$dir\\resources\" -Force -Recurse"
@@ -39,16 +39,16 @@
         ]
     ],
     "checkver": {
-        "github": "https://api.github.com/repos/agalwood/Motrix/releases/latest",
-        "jp": "$.tag_name",
-        "regex": "v([\\d.]+)"
+        "github": "https://api.github.com/repos/agalwood/Motrix/releases",
+        "jp": "$[*].tag_name",
+        "regex": "v([\\d.]+-[\\w.]+)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
                 "url": "https://github.com/agalwood/Motrix/releases/download/v$version/Motrix-Setup-$version.exe#/dl.7z",
                 "hash": {
-                    "url": "$baseurl/latest.yml",
+                    "url": "$baseurl/beta.yml",
                     "regex": "sha512:\\s+$base64"
                 }
             }
