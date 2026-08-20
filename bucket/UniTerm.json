@@ -3,17 +3,15 @@
     "description": "A lightweight all-in-one terminal with 20+ protocols - SSH, RDP, SFTP, databases, Kubernetes and more, with a built-in autonomous AI Agent that plans and runs multi-turn shell commands",
     "homepage": "https://uniterm.net",
     "license": "Apache-2.0",
-    "notes": [
-        "The executable is unsigned and may trigger false positives in some antivirus engines. Download only from the official open-source channels (GitHub and Gitee)."
-    ],
+    "notes": "The executable is unsigned and may trigger false positives in some antivirus engines. Download only from the official open-source channels (GitHub and Gitee).",
     "architecture": {
         "64bit": {
             "url": "https://github.com/ys-ll/uniterm/releases/download/v1.7.0/uniterm-windows-amd64-portable-v1.7.0.zip",
-            "hash": "F04B214F74B40F52E5F5E8780BD69CE586976A583CCBA40FCA311A8555FF999C"
+            "hash": "f04b214f74b40f52e5f5e8780bd69ce586976a583ccba40fca311a8555ff999c"
         },
         "arm64": {
             "url": "https://github.com/ys-ll/uniterm/releases/download/v1.7.0/uniterm-windows-arm64-portable-v1.7.0.zip",
-            "hash": "E983B1928AA270195CE388CB76997D88B0C5595C6243236AFE75E6AEAC361F3A"
+            "hash": "e983b1928aa270195ce388cb76997d88b0c5595c6243236afe75e6aeac361f3a"
         }
     },
     "bin": "uniTerm.exe",
