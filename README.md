@@ -62,8 +62,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - borger/scoop-emulators
 - kiennq/scoop-misc
 - ViCrack/scoop-bucket
-- cmontage/scoopbucket-third
 - akirco/aki-apps
+- cmontage/scoopbucket-third
 - wangzq/scoop-bucket
 - charmbracelet/scoop-bucket
 - TheRandomLabs/Scoop-Bucket
@@ -90,11 +90,11 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - Velgus/Scoop-Portapps
 - asimov-platform/scoop-bucket
 - SayCV/scoop-cvp
+- Darkatse/Scoop-Darkatse
 - batkiz/backit
 - AStupidBear/scoop-bear
 - Weidows-projects/scoop-3rd
 - ocodo/wezterm-alt-windows-icon-builds
-- Darkatse/Scoop-Darkatse
 - TianXiaTech/scoop-txt
 - 42wim/scoop-bucket
 - iquiw/scoop-bucket
@@ -111,6 +111,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - rivy/scoop-bucket
 - excitoon/scoop-user
 - alextwothousand/scoop-bucket
+- LaelLuo/scoop
 - Toddli468/Pentest-Scoop-Bucket
 - 404NetworkError/scoop-bucket
 - cc713/ownscoop
@@ -118,7 +119,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - natecohen/scoop-av
 - typst-community/scoop-bucket
 - KnotUntied/scoop-fonts
-- LaelLuo/scoop
 - jingyu9575/scoop-jingyu9575
 - BenjaminMichaelis/Config
 - p8rdev/scoop-portableapps
