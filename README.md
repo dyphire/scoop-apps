@@ -111,7 +111,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - rivy/scoop-bucket
 - excitoon/scoop-user
 - alextwothousand/scoop-bucket
-- LaelLuo/scoop
 - Toddli468/Pentest-Scoop-Bucket
 - 404NetworkError/scoop-bucket
 - cc713/ownscoop
@@ -119,6 +118,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - natecohen/scoop-av
 - typst-community/scoop-bucket
 - KnotUntied/scoop-fonts
+- LaelLuo/scoop
 - jingyu9575/scoop-jingyu9575
 - BenjaminMichaelis/Config
 - p8rdev/scoop-portableapps
