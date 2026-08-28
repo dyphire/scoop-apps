@@ -111,12 +111,12 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - rivy/scoop-bucket
 - excitoon/scoop-user
 - alextwothousand/scoop-bucket
-- Toddli468/Pentest-Scoop-Bucket
 - 404NetworkError/scoop-bucket
 - cc713/ownscoop
 - maboloshi/scoop-private
 - natecohen/scoop-av
 - typst-community/scoop-bucket
+- Toddli468/Pentest-Scoop-Bucket
 - KnotUntied/scoop-fonts
 - LaelLuo/scoop
 - jingyu9575/scoop-jingyu9575
@@ -127,6 +127,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - HUMORCE/nuke
 - MCOfficer/scoop-bucket
 - littleli/Scoop-AtariEmulators
+- Rinkerbel/scooped
 - beer-psi/scoop-bucket
 - littleli/Scoop-littleli
 - yuusakuri/scoop-bucket

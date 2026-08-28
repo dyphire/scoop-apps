@@ -1,0 +1,23 @@
+{
+    "version": "1.85.0",
+    "homepage": "https://autobrr.com/",
+    "description": "Modern, easy to use download automation for torrents and usenet.",
+    "license": "GPL-2.0-or-later",
+    "url": "https://github.com/autobrr/autobrr/releases/download/v1.85.0/autobrr_1.85.0_windows_x86_64.zip",
+    "hash": "6b356c9e7c4ed4f95200071eb06d3945dc1a0b9f58ffccf5068f394e28ddd19d",
+    "bin": [
+        [
+            "autobrr.exe",
+            "autobrr",
+            "--config $dir\\config"
+        ],
+        "autobrrctl.exe"
+    ],
+    "persist": "config",
+    "checkver": {
+        "github": "https://github.com/autobrr/autobrr"
+    },
+    "autoupdate": {
+        "url": "https://github.com/autobrr/autobrr/releases/download/v$version/autobrr_$version_windows_x86_64.zip"
+    }
+}
