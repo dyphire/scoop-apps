@@ -112,9 +112,9 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - excitoon/scoop-user
 - alextwothousand/scoop-bucket
 - LaelLuo/scoop
+- Toddli468/Pentest-Scoop-Bucket
 - 404NetworkError/scoop-bucket
 - cc713/ownscoop
-- Toddli468/Pentest-Scoop-Bucket
 - maboloshi/scoop-private
 - natecohen/scoop-av
 - typst-community/scoop-bucket

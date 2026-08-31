@@ -1,0 +1,17 @@
+{
+  "version": "1.2.6",
+  "description": "基于 JavaFX 的图形化 webshell 生成工具，整合并改写了多语言（JSP/ASP/ASPX/PHP 等）免杀 webshell，支持 cmd、蚁剑、冰蝎、哥斯拉连接方式，内置多种免杀技巧。",
+  "homepage": "https://github.com/cseroad/Webshell_Generate",
+  "license": "Unknown",
+  "url": "https://github.com/cseroad/Webshell_Generate/releases/download/v1.2.6/Webshell_Generate-1.2.6.jar",
+  "hash": "afa4576ae87db483767037a56fec7dfdc3b24899c58e426c168cc43eb898a064",
+  "checkver": {
+    "github": "https://github.com/cseroad/Webshell_Generate"
+  },
+  "autoupdate": {
+    "url": "https://github.com/cseroad/Webshell_Generate/releases/download/v$version/Webshell_Generate-$version.jar",
+    "hash": {
+      "mode": "github"
+    }
+  }
+}
