@@ -592,6 +592,7 @@ emule.json    ScoopInstaller/Extras
 psfzf.json    ScoopInstaller/Extras
 depends.json    ScoopInstaller/Extras
 yacreader.json    ScoopInstaller/Extras
+grok-bot.json    ScoopInstaller/Extras
 final2x.json    ScoopInstaller/Extras
 mqtt-explorer.json    ScoopInstaller/Extras
 cpu-z.json    ScoopInstaller/Extras
@@ -856,6 +857,7 @@ universal-ctags.json    ScoopInstaller/Extras
 manictime_ScoopInstaller.json    ScoopInstaller/Extras
 komorebi.json    ScoopInstaller/Extras
 pure-data.json    ScoopInstaller/Extras
+obs-cmd.json    ScoopInstaller/Extras
 pdfarranger.json    ScoopInstaller/Extras
 amule.json    ScoopInstaller/Extras
 darktable.json    ScoopInstaller/Extras
@@ -5495,6 +5497,7 @@ swagger-codegen-cli.json    hoilc/scoop-lemon
 picsharp.json    hoilc/scoop-lemon
 chsrc.json    hoilc/scoop-lemon
 fdf.json    hoilc/scoop-lemon
+mq-tui.json    hoilc/scoop-lemon
 ort.json    hoilc/scoop-lemon
 anime4kcpp-cli.json    hoilc/scoop-lemon
 bob.json    hoilc/scoop-lemon
@@ -5770,7 +5773,7 @@ flying-carpet.json    hoilc/scoop-lemon
 lettura.json    hoilc/scoop-lemon
 kubemq.json    hoilc/scoop-lemon
 pure-data_hoilc.json    hoilc/scoop-lemon
-obs-cmd.json    hoilc/scoop-lemon
+obs-cmd_hoilc.json    hoilc/scoop-lemon
 lxi-tools.json    hoilc/scoop-lemon
 jardiff.json    hoilc/scoop-lemon
 pdfarranger_hoilc.json    hoilc/scoop-lemon
@@ -5858,6 +5861,7 @@ github-markdown-toc-go.json    hoilc/scoop-lemon
 scooter.json    hoilc/scoop-lemon
 dstask.json    hoilc/scoop-lemon
 par2.json    hoilc/scoop-lemon
+brogue-ce.json    hoilc/scoop-lemon
 sqlpkg.json    hoilc/scoop-lemon
 opus-tools.json    hoilc/scoop-lemon
 mujing.json    hoilc/scoop-lemon
@@ -6759,6 +6763,7 @@ azure-mcp.json    hoilc/scoop-lemon
 uplink.json    hoilc/scoop-lemon
 steghide.json    hoilc/scoop-lemon
 mdx-notes.json    hoilc/scoop-lemon
+spotify-downloader.json    hoilc/scoop-lemon
 gajim-nightly.json    hoilc/scoop-lemon
 minidump-stackwalk.json    hoilc/scoop-lemon
 angle-grinder.json    hoilc/scoop-lemon
@@ -6874,6 +6879,7 @@ graalpy-community.json    hoilc/scoop-lemon
 hiddify_hoilc.json    hoilc/scoop-lemon
 usbeam-hosts-editor.json    hoilc/scoop-lemon
 x2goclient.json    hoilc/scoop-lemon
+maw.json    hoilc/scoop-lemon
 mtputty.json    hoilc/scoop-lemon
 jnv.json    hoilc/scoop-lemon
 cdncheck.json    hoilc/scoop-lemon
@@ -6897,6 +6903,7 @@ frame.json    hoilc/scoop-lemon
 shanggu-mono.json    hoilc/scoop-lemon
 firefox-sync-client.json    hoilc/scoop-lemon
 kcptun-libev.json    hoilc/scoop-lemon
+dbc.json    hoilc/scoop-lemon
 llama-cpp-rocm.json    hoilc/scoop-lemon
 malware-patch_hoilc.json    hoilc/scoop-lemon
 comng.json    hoilc/scoop-lemon
@@ -7038,6 +7045,7 @@ jasp.json    hoilc/scoop-lemon
 nifskope.json    hoilc/scoop-lemon
 manhuagui-downloader.json    hoilc/scoop-lemon
 vocabulary.net.json    hoilc/scoop-lemon
+mq.json    hoilc/scoop-lemon
 wiznoteplus.json    hoilc/scoop-lemon
 wax-comic.json    hoilc/scoop-lemon
 kzip.json    hoilc/scoop-lemon
@@ -7100,6 +7108,7 @@ pvm.json    hoilc/scoop-lemon
 lyricify.json    hoilc/scoop-lemon
 mitec-certificate-information.json    hoilc/scoop-lemon
 humble-cli.json    hoilc/scoop-lemon
+neofetch-win.json    hoilc/scoop-lemon
 ctr-makerom.json    hoilc/scoop-lemon
 wx3270.json    hoilc/scoop-lemon
 onetagger-cli.json    hoilc/scoop-lemon
@@ -7210,6 +7219,7 @@ xpeviewer.json    hoilc/scoop-lemon
 spire.json    hoilc/scoop-lemon
 qv2ray-nightly.json    hoilc/scoop-lemon
 aleapp.json    hoilc/scoop-lemon
+heartratemonitor.json    hoilc/scoop-lemon
 minder.json    hoilc/scoop-lemon
 kibi.json    hoilc/scoop-lemon
 spacectl.json    hoilc/scoop-lemon
@@ -9226,6 +9236,7 @@ vmware-workstation-player-np.json    ScoopInstaller/Nonportable
 sandboxie-plus-np.json    ScoopInstaller/Nonportable
 tunnelbear-np.json    ScoopInstaller/Nonportable
 autohotkey-np.json    ScoopInstaller/Nonportable
+gpg-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 glasswire-lite-np.json    ScoopInstaller/Nonportable
 zadig-np_ScoopInstaller.json    ScoopInstaller/Nonportable
 everything-beta-np_ScoopInstaller.json    ScoopInstaller/Nonportable
@@ -10358,7 +10369,7 @@ rstudio-2026.04.json    cderv/r-bucket
 chrome-headless-shell.json    cderv/r-bucket
 rstudio-2023.12.json    cderv/r-bucket
 rstudio-2024.04.json    cderv/r-bucket
-mq-tui.json    cderv/r-bucket
+mq-tui_cderv.json    cderv/r-bucket
 q2.json    cderv/r-bucket
 beads-rust_cderv.json    cderv/r-bucket
 rstudio-2023.03.json    cderv/r-bucket
@@ -10402,7 +10413,7 @@ beads-viewer.json    cderv/r-bucket
 quarto-prerelease.json    cderv/r-bucket
 tinytex.json    cderv/r-bucket
 cairn.json    cderv/r-bucket
-mq.json    cderv/r-bucket
+mq_cderv.json    cderv/r-bucket
 positron_cderv.json    cderv/r-bucket
 rstudio-2022.02.json    cderv/r-bucket
 delve.json    cderv/r-bucket
@@ -13181,6 +13192,7 @@ chromium_akirco.json    akirco/aki-apps
 pseverything.json    akirco/aki-apps
 yddict.json    akirco/aki-apps
 winxray.json    akirco/aki-apps
+bilibili-livehime_akirco.json    akirco/aki-apps
 yuque_akirco.json    akirco/aki-apps
 instaloader.json    akirco/aki-apps
 hellofont_akirco.json    akirco/aki-apps
@@ -31403,6 +31415,7 @@ speedtest-go_DoveBoy.json    DoveBoy/Apps
 picktv_DoveBoy.json    DoveBoy/Apps
 pscompletions_DoveBoy.json    DoveBoy/Apps
 scrcpy_DoveBoy.json    DoveBoy/Apps
+mpv-git_DoveBoy.json    DoveBoy/Apps
 m3u8d-cli_DoveBoy.json    DoveBoy/Apps
 cudatext_DoveBoy.json    DoveBoy/Apps
 iobit-advanced-system-care-free_DoveBoy.json    DoveBoy/Apps
@@ -34090,6 +34103,7 @@ atac.json    aliesbelik/poldi
 ghgrab.json    aliesbelik/poldi
 atlas-ce_aliesbelik.json    aliesbelik/poldi
 fresh.json    aliesbelik/poldi
+doggo_aliesbelik.json    aliesbelik/poldi
 tailspin.json    aliesbelik/poldi
 bandwhich.json    aliesbelik/poldi
 superfile.json    aliesbelik/poldi
@@ -36200,6 +36214,8 @@ K8sPenTool_Toddli468.json    Toddli468/Pentest-Scoop-Bucket
 apktool.json    Toddli468/Pentest-Scoop-Bucket
 API_Sword.json    Toddli468/Pentest-Scoop-Bucket
 Webshell_Generate_Toddli468.json    Toddli468/Pentest-Scoop-Bucket
+TscanPlus_Toddli468.json    Toddli468/Pentest-Scoop-Bucket
+fupo_for_yonyou_Toddli468.json    Toddli468/Pentest-Scoop-Bucket
 ondsel-es-weekly_404NetworkError.json    404NetworkError/scoop-bucket
 ondsel-es_404NetworkError.json    404NetworkError/scoop-bucket
 windowsdesktop-runtime-7.0_404NetworkError.json    404NetworkError/scoop-bucket
