@@ -1,12 +1,12 @@
 {
-    "version": "b10751",
+    "version": "b10760",
     "description": "Inference of LLaMA model in pure C/C++ (OpenVINO version)",
     "homepage": "https://github.com/ggml-org/llama.cpp",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b10751/llama-b10751-bin-win-openvino-2026.3.1-x64.zip",
-            "hash": "fa7f7cb32ece41eec712fd243c7779d14ddff8e06c9f4d563478841f3b831d3d"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b10760/llama-b10760-bin-win-openvino-2026.3.1-x64.zip",
+            "hash": "e4eba4281a793daf8176ec4ea70d7b704faf4efaf5f553decdc098fadbd6d8c6"
         }
     },
     "bin": [
