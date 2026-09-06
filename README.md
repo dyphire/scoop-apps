@@ -80,8 +80,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - jonz94/scoop-sarasa-nerd-fonts
 - NyaMisty/scoopbucketmisty
 - WinApps-share/WinApps-bucket
-- Small-Ku/turbo-bucket
 - ygguorun/scoop-bucket
+- Small-Ku/turbo-bucket
 - kengwang/scoop-ctftools-bucket
 - noql-net/scoop
 - brian6932/dank-scoop
