@@ -1295,6 +1295,7 @@ tftputil-gui.json    ScoopInstaller/Extras
 nirlauncher.json    ScoopInstaller/Extras
 freemove.json    ScoopInstaller/Extras
 tak.json    ScoopInstaller/Extras
+navop.json    ScoopInstaller/Extras
 min.json    ScoopInstaller/Extras
 chk.json    ScoopInstaller/Extras
 dual-monitor-tools.json    ScoopInstaller/Extras
@@ -1713,6 +1714,7 @@ crunchy-cli.json    ScoopInstaller/Extras
 tlaplus-toolbox.json    ScoopInstaller/Extras
 amule.json    ScoopInstaller/Extras
 mkvmergebatcher.json    ScoopInstaller/Extras
+gonavi-cli.json    ScoopInstaller/Extras
 deadbeef.json    ScoopInstaller/Extras
 quick-picture-viewer.json    ScoopInstaller/Extras
 vitomu.json    ScoopInstaller/Extras
@@ -4681,6 +4683,7 @@ haxe-dev.json    ScoopInstaller/Versions
 aegisub-beta.json    ScoopInstaller/Versions
 emacs27.2.json    ScoopInstaller/Versions
 dataspell-eap.json    ScoopInstaller/Versions
+nvm1.json    ScoopInstaller/Versions
 tomcat11.json    ScoopInstaller/Versions
 rubymine-latest.json    ScoopInstaller/Versions
 llama.cpp-cu117.json    ScoopInstaller/Versions
@@ -4702,6 +4705,7 @@ greenshot-unstable.json    ScoopInstaller/Versions
 llama.cpp-cu133-dll.json    ScoopInstaller/Versions
 git19.json    ScoopInstaller/Versions
 explorerplusplus-dev.json    ScoopInstaller/Versions
+falkon-nightly.json    ScoopInstaller/Versions
 beyondcompare4.json    ScoopInstaller/Versions
 nheko-nightly.json    ScoopInstaller/Versions
 rubymine-eap.json    ScoopInstaller/Versions
@@ -5973,6 +5977,7 @@ autocursorlock.json    hoilc/scoop-lemon
 frame.json    hoilc/scoop-lemon
 libportable-iceweasel.json    hoilc/scoop-lemon
 gfold.json    hoilc/scoop-lemon
+beeim.json    hoilc/scoop-lemon
 hfsexplorer.json    hoilc/scoop-lemon
 gost-v2.json    hoilc/scoop-lemon
 theaeroclock.json    hoilc/scoop-lemon
@@ -6424,7 +6429,6 @@ libredb-studio.json    hoilc/scoop-lemon
 opensearch-cli.json    hoilc/scoop-lemon
 unpdf.json    hoilc/scoop-lemon
 rogcat.json    hoilc/scoop-lemon
-pixshell.json    hoilc/scoop-lemon
 iaito.json    hoilc/scoop-lemon
 closewindow.json    hoilc/scoop-lemon
 mo.json    hoilc/scoop-lemon
@@ -6910,6 +6914,7 @@ kubectl-rook-ceph.json    hoilc/scoop-lemon
 doh-proxy.json    hoilc/scoop-lemon
 pumpkin-nightly.json    hoilc/scoop-lemon
 aube.json    hoilc/scoop-lemon
+gost-nightly.json    hoilc/scoop-lemon
 rsonpath.json    hoilc/scoop-lemon
 mql.json    hoilc/scoop-lemon
 qontrolpanel.json    hoilc/scoop-lemon
@@ -7137,7 +7142,7 @@ tssh.json    hoilc/scoop-lemon
 xmlcopyeditor.json    hoilc/scoop-lemon
 master-packager-suite.json    hoilc/scoop-lemon
 autogram.json    hoilc/scoop-lemon
-falkon-nightly.json    hoilc/scoop-lemon
+falkon-nightly_hoilc.json    hoilc/scoop-lemon
 iplookup.json    hoilc/scoop-lemon
 osm.json    hoilc/scoop-lemon
 taubyte-cli.json    hoilc/scoop-lemon
@@ -7953,6 +7958,7 @@ foobox-en.json    hoilc/scoop-lemon
 reth.json    hoilc/scoop-lemon
 foobox-cn.json    hoilc/scoop-lemon
 msmbps.json    hoilc/scoop-lemon
+pixshell.json    hoilc/scoop-lemon
 tkforge.json    hoilc/scoop-lemon
 tanoshi_hoilc.json    hoilc/scoop-lemon
 graaljs-community-jvm.json    hoilc/scoop-lemon
@@ -11146,6 +11152,7 @@ FreeMat.json    dodorz/scoop
 jmacs-static.json    dodorz/scoop
 RSSOwl.json    dodorz/scoop
 dd.json    dodorz/scoop
+TigerVNCServer-np.json    dodorz/scoop
 pTeX-NG.json    dodorz/scoop
 FullscreenPhotoViewer.json    dodorz/scoop
 DelAge.json    dodorz/scoop
@@ -11371,6 +11378,7 @@ BaiduNetdisk_dodorz.json    dodorz/scoop
 Notepad--_dodorz.json    dodorz/scoop
 BitviseClient.json    dodorz/scoop
 Qute.json    dodorz/scoop
+JumpDesktop.json    dodorz/scoop
 CompareAdvance.json    dodorz/scoop
 TCC-RT.json    dodorz/scoop
 SendMessage.json    dodorz/scoop
@@ -11395,6 +11403,7 @@ TraeCN.json    dodorz/scoop
 UltraSearch_dodorz.json    dodorz/scoop
 Spread32.json    dodorz/scoop
 ModifyProfile.json    dodorz/scoop
+TigerVNCViewer.json    dodorz/scoop
 iniTool.json    dodorz/scoop
 UndeletePlus.json    dodorz/scoop
 doxx.json    dodorz/scoop
@@ -12676,7 +12685,6 @@ fastgithub_ViCrack.json    ViCrack/scoop-bucket
 cherry-studio_ViCrack.json    ViCrack/scoop-bucket
 ling.json    ViCrack/scoop-bucket
 z0scan.json    ViCrack/scoop-bucket
-siyuan_ViCrack.json    ViCrack/scoop-bucket
 rmx.json    ViCrack/scoop-bucket
 filemenutools_ViCrack.json    ViCrack/scoop-bucket
 cyberapi.json    ViCrack/scoop-bucket
@@ -12800,6 +12808,7 @@ mvndaemon.json    akirco/aki-apps
 python.json    akirco/aki-apps
 geekuninstaller_akirco.json    akirco/aki-apps
 highlight.json    akirco/aki-apps
+bilibili-livehime_akirco.json    akirco/aki-apps
 qt-creator_akirco.json    akirco/aki-apps
 officetoolplus_akirco.json    akirco/aki-apps
 png2jpeg.json    akirco/aki-apps
@@ -34917,7 +34926,6 @@ tencentDocs_TianXiaTech.json    TianXiaTech/scoop-txt
 cherry-studio_TianXiaTech.json    TianXiaTech/scoop-txt
 recordly_TianXiaTech.json    TianXiaTech/scoop-txt
 qqmusic_TianXiaTech.json    TianXiaTech/scoop-txt
-qzonearchive_TianXiaTech.json    TianXiaTech/scoop-txt
 qqplayer_TianXiaTech.json    TianXiaTech/scoop-txt
 iconEase_TianXiaTech.json    TianXiaTech/scoop-txt
 cursor_TianXiaTech.json    TianXiaTech/scoop-txt
@@ -34948,9 +34956,11 @@ tencentVideo_TianXiaTech.json    TianXiaTech/scoop-txt
 audioVisual_TianXiaTech.json    TianXiaTech/scoop-txt
 zyplayer_TianXiaTech.json    TianXiaTech/scoop-txt
 weixin_TianXiaTech.json    TianXiaTech/scoop-txt
+qzonearchive_TianXiaTech.json    TianXiaTech/scoop-txt
 chatbox_TianXiaTech.json    TianXiaTech/scoop-txt
 clash-for-windows-cn_TianXiaTech.json    TianXiaTech/scoop-txt
 openai-translator_TianXiaTech.json    TianXiaTech/scoop-txt
+package_TianXiaTech.json    TianXiaTech/scoop-txt
 360wallpaper_TianXiaTech.json    TianXiaTech/scoop-txt
 geekdesk_TianXiaTech.json    TianXiaTech/scoop-txt
 msedge-stable_42wim.json    42wim/scoop-bucket
@@ -36274,6 +36284,7 @@ open-pencil_LaelLuo.json    LaelLuo/scoop
 codex-rust_LaelLuo.json    LaelLuo/scoop
 workbuddy_LaelLuo.json    LaelLuo/scoop
 crossdesk_LaelLuo.json    LaelLuo/scoop
+podman-desktop_LaelLuo.json    LaelLuo/scoop
 github-stars-manager_LaelLuo.json    LaelLuo/scoop
 droid_LaelLuo.json    LaelLuo/scoop
 easytshark_LaelLuo.json    LaelLuo/scoop
@@ -36321,6 +36332,7 @@ oomol_LaelLuo.json    LaelLuo/scoop
 bun_LaelLuo.json    LaelLuo/scoop
 open-pencil_LaelLuo.json    LaelLuo/scoop
 codex-rust_LaelLuo.json    LaelLuo/scoop
+podman-desktop_LaelLuo.json    LaelLuo/scoop
 github-stars-manager_LaelLuo.json    LaelLuo/scoop
 droid_LaelLuo.json    LaelLuo/scoop
 easytshark_LaelLuo.json    LaelLuo/scoop
@@ -36336,6 +36348,7 @@ qoder_LaelLuo.json    LaelLuo/scoop
 pocketbase_LaelLuo.json    LaelLuo/scoop
 virtual-browser_LaelLuo.json    LaelLuo/scoop
 zcode_LaelLuo.json    LaelLuo/scoop
+afrog_Toddli468.json    Toddli468/Pentest-Scoop-Bucket
 Onyx_Toddli468.json    Toddli468/Pentest-Scoop-Bucket
 xia    Toddli468/Pentest-Scoop-Bucket
 SQL    Toddli468/Pentest-Scoop-Bucket
