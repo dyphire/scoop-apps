@@ -98,11 +98,11 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - TianXiaTech/scoop-txt
 - 42wim/scoop-bucket
 - iquiw/scoop-bucket
+- starise/Scoop-Gaming
 - starise/Scoop-Confetti
 - mo-san/scoop-bucket
 - seumsc/scoop-seu
 - mogeko/scoop-sysinternals
-- starise/Scoop-Gaming
 - babo4d/scoop-xrtools
 - jfut/scoop-jfut
 - AkariiinMKII/Scoop4kariiin
