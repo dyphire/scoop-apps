@@ -81,8 +81,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - NyaMisty/scoopbucketmisty
 - WinApps-share/WinApps-bucket
 - ygguorun/scoop-bucket
-- Small-Ku/turbo-bucket
 - kengwang/scoop-ctftools-bucket
+- Small-Ku/turbo-bucket
 - noql-net/scoop
 - brian6932/dank-scoop
 - SayCV/scoop-cvp
