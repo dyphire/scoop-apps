@@ -1,34 +1,30 @@
 {
-    "version": "18.3.5",
-    "description": "终端优先的 AI 编码代理，内置文件编辑、搜索、浏览器、子代理与会话能力",
-    "homepage": "https://omp.sh/",
-    "license": "MIT",
+    "version": "2.1.283",
+    "description": "Anthropic 官方 Claude Code CLI（原生二进制版，irm claude.ai/install.ps1 同源；区别于 claude 清单的桌面版）。",
+    "homepage": "https://claude.ai/claude-code",
+    "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/can1357/oh-my-pi/releases/download/v18.3.5/omp-windows-x64.exe",
-            "hash": "34504ca248c04efe1e74f0414ee52e0997f66edf5f17d6d35e84c3b39f0f8beb"
+            "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.283/claude-win32-x64.zip",
+            "hash": "07c23b91ee6596914d683ed8bd97b4ed2c002ae5f997859cf4b8d11d7b62fb9c"
         }
     },
-    "bin": [
-        [
-            "omp-windows-x64.exe",
-            "omp"
-        ]
-    ],
-    "notes": [
-        "OMP 在 Windows 上完整使用通常需要 bash shell。建议安装 git 以提供 Git Bash。",
-        "如果未自动识别 bash，可在 ~/.omp/agent/settings.json 中设置 shellPath。"
-    ],
+    "bin": "claude.exe",
     "checkver": {
-        "github": "https://github.com/can1357/oh-my-pi"
+        "github": "https://github.com/anthropics/claude-code"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/can1357/oh-my-pi/releases/download/v$version/omp-windows-x64.exe"
+                "url": "https://github.com/anthropics/claude-code/releases/download/v$version/claude-win32-x64.zip",
+                "hash": {
+                    "url": "https://github.com/anthropics/claude-code/releases/download/v$version/SHASUMS256.txt",
+                    "regex": "([0-9a-f]{64})\\s+claude-win32-x64\\.zip"
+                }
             }
         }
     },
+    "notes": "上游为 GitHub Releases 官方原生二进制（与 irm claude.ai/install.ps1 安装通道同源，该脚本被 Cloudflare 挑战不适合清单直连）；autoupdate 哈希取自官方 SHASUMS256.txt 免下载重算；~\\.claude 配置目录已映射 persist。CLI 内置自更新会尝试替换自身二进制，更新走 scoop update claude-code。",
     "post_install": [
         "#region scoop-portable-profile",
         "# Portable profile helpers for Scoop manifests.",
@@ -167,7 +163,8 @@
         "}",
         "#endregion",
         "Invoke-PortableMappings -Action Install -Context @{ Dir = $dir; PersistDir = $persist_dir } -Mappings @(",
-        "    @{ Label = 'home-omp'; Source = 'UserProfile/.omp'; Target = \"$persist_dir/home/.omp\"; Strategy = 'symlink'; EnsureTarget = $true; TargetType = 'directory' }",
+        "    @{ Label = 'home-config'; Source = 'UserProfile/.claude'; Target = \"$persist_dir/home\"; Strategy = 'symlink'; EnsureTarget = $true; TargetType = 'directory' },",
+        "    @{ Label = 'home-config-json'; Source = 'UserProfile/.claude.json'; Target = \"$persist_dir/home/claude.json\"; Strategy = 'symlink'; EnsureTarget = $true; TargetType = 'file' }",
         ") -Log:$true"
     ],
     "pre_uninstall": [
@@ -308,7 +305,8 @@
         "}",
         "#endregion",
         "Invoke-PortableMappings -Action Uninstall -Context @{ Dir = $dir; PersistDir = $persist_dir } -Mappings @(",
-        "    @{ Label = 'home-omp'; Source = 'UserProfile/.omp'; Target = \"$persist_dir/home/.omp\"; Strategy = 'symlink'; EnsureTarget = $true; TargetType = 'directory' }",
+        "    @{ Label = 'home-config'; Source = 'UserProfile/.claude'; Target = \"$persist_dir/home\"; Strategy = 'symlink'; EnsureTarget = $true; TargetType = 'directory' },",
+        "    @{ Label = 'home-config-json'; Source = 'UserProfile/.claude.json'; Target = \"$persist_dir/home/claude.json\"; Strategy = 'symlink'; EnsureTarget = $true; TargetType = 'file' }",
         ") -Log:$true"
     ]
 }
