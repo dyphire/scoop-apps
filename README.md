@@ -106,6 +106,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - babo4d/scoop-xrtools
 - jfut/scoop-jfut
 - AkariiinMKII/Scoop4kariiin
+- cc713/ownscoop
 - aoisummer/scoop-bucket
 - krproject/qi-windows
 - rivy/scoop-bucket
@@ -113,13 +114,11 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - alextwothousand/scoop-bucket
 - LaelLuo/scoop
 - Toddli468/Pentest-Scoop-Bucket
-- cc713/ownscoop
 - 404NetworkError/scoop-bucket
 - maboloshi/scoop-private
 - natecohen/scoop-av
 - typst-community/scoop-bucket
 - KnotUntied/scoop-fonts
-- jingyu9575/scoop-jingyu9575
 - BenjaminMichaelis/Config
 - p8rdev/scoop-portableapps
 - AntonOks/scoop-aoks
