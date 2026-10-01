@@ -34,13 +34,13 @@
 	"pre_uninstall": "Copy-Item \"$dir\\model.json\" \"$persist_dir\\model.json\" -ErrorAction 'SilentlyContinue'",
 	"architecture": {
 		"64bit": {
-			"url": "https://github.com/Blinue/Magpie/releases/download/v0.12.1/Magpie-v0.12.1-x64.zip",
-			"hash": "8bc8bc233438f546b7996b00b21d7376f4f7d3d8a4940e6a8800babd2225b2de"
+			"url": "https://github.com/Blinue/Magpie/releases/download/v0.13.0-preview02/Magpie-v0.13.0-preview02-x64.zip",
+			"hash": "d320e0ac744a9fa597d08567b5fc77fa53d31e382d73304df7c01dde89675bca"
 		},
 		"arm64": {
-			"url": "https://github.com/Blinue/Magpie/releases/download/v0.12.1/Magpie-v0.12.1-ARM64.zip",
-			"hash": "f61ec427c31cef202403c81b27f76e95dc9ee85db3fb8b15076afb02ee753c0d"
+			"url": "https://github.com/Blinue/Magpie/releases/download/v0.13.0-preview02/Magpie-v0.13.0-preview02-ARM64.zip",
+			"hash": "da077bc40b5c649f3b3e514067c4fb81c8126a8fdba8ca8663b79408d1f5d73b"
 		}
 	},
-	"version": "v0.12.1"
+	"version": "v0.13.0-preview02"
 }
