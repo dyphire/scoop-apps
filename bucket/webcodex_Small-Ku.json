@@ -1,16 +1,16 @@
 {
-	"version": "0.4.3",
+	"version": "0.4.5",
 	"description": "Give cloud AI agents a real development environment on your own machines.",
 	"homepage": "https://github.com/yyjeqhc/webcodex",
 	"license": "Apache-2.0",
 	"architecture": {
 		"64bit": {
-			"url": "https://github.com/yyjeqhc/webcodex/releases/download/v0.4.3/webcodex-v0.4.3-win32-x64.tar.gz",
-			"hash": "7f030cad4b80c75ad9e1b6aa3836d154ee6e304938d3e50679b178285e6fcfe0"
+			"url": "https://github.com/yyjeqhc/webcodex/releases/download/v0.4.5/webcodex-v0.4.5-win32-x64.tar.gz",
+			"hash": "7b1b191fad469d5136ac43f18ff3a33d40ee18001eae5f0a589bc0106ebd395b"
 		},
 		"arm64": {
-			"url": "https://github.com/yyjeqhc/webcodex/releases/download/v0.4.3/webcodex-v0.4.3-win32-arm64.tar.gz",
-			"hash": "0b2e1ec106b93d8ad17aec6313624a63ad78172d2da30aeedd2b86d278e74fc4"
+			"url": "https://github.com/yyjeqhc/webcodex/releases/download/v0.4.5/webcodex-v0.4.5-win32-arm64.tar.gz",
+			"hash": "6501c4cdef3b6078712d7de0b16d1fd716c0a64f31790d6c5dc5964c702ead74"
 		}
 	},
 	"bin": ["webcodex.exe", "webcodex-server.exe", "webcodex-runner.exe"],
