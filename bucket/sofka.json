@@ -1,16 +1,16 @@
 {
-    "version": "0.29.9",
+    "version": "0.30.0",
     "description": "A Kubernetes TUI, reimagined in Rust - built on kube-rs and ratatui, async-first from the ground up.",
     "homepage": "https://github.com/nklmilojevic/sofka",
     "license": "Apache-2.0|MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/nklmilojevic/sofka/releases/download/v0.29.9/sofka-v0.29.9-x86_64-pc-windows-msvc.zip",
-            "hash": "1edc047c641f7a0c0463511732061883ece12f1c6134b9c7596edd8d843984f0"
+            "url": "https://github.com/nklmilojevic/sofka/releases/download/v0.30.0/sofka-v0.30.0-x86_64-pc-windows-msvc.zip",
+            "hash": "0e91f308c746fa2ee4ed029f77ac91859a6aced353efb51c8ff7d4cf8201ba90"
         },
         "arm64": {
-            "url": "https://github.com/nklmilojevic/sofka/releases/download/v0.29.9/sofka-v0.29.9-aarch64-pc-windows-msvc.zip",
-            "hash": "92b00675293732510a5a2f47386792c78e08ddec6fc6a12643fd698569b9d5ea"
+            "url": "https://github.com/nklmilojevic/sofka/releases/download/v0.30.0/sofka-v0.30.0-aarch64-pc-windows-msvc.zip",
+            "hash": "336350fb5cb4cbed94c05ad55ba1965069041dc26edc7e56f9285412fd988ac4"
         }
     },
     "bin": "sofka.exe",
