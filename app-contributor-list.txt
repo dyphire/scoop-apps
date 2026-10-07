@@ -975,6 +975,7 @@ detect-it-easy.json    ScoopInstaller/Extras
 driverstoreexplorer.json    ScoopInstaller/Extras
 picview.json    ScoopInstaller/Extras
 neoaxis-engine.json    ScoopInstaller/Extras
+ortie.json    ScoopInstaller/Extras
 arcwelder.json    ScoopInstaller/Extras
 windowsdesktop-runtime-lts.json    ScoopInstaller/Extras
 infoqube.json    ScoopInstaller/Extras
@@ -4314,6 +4315,7 @@ python314.json    ScoopInstaller/Versions
 edgedriver-canary.json    ScoopInstaller/Versions
 odin-dev.json    ScoopInstaller/Versions
 odin-nightly.json    ScoopInstaller/Versions
+whisper.cpp-cuda.json    ScoopInstaller/Versions
 python-alpha.json    ScoopInstaller/Versions
 ollama-rocm.json    ScoopInstaller/Versions
 cuda6.0.json    ScoopInstaller/Versions
@@ -4506,7 +4508,6 @@ mingw-winlibs-msvcrt.json    ScoopInstaller/Versions
 neovide-nightly.json    ScoopInstaller/Versions
 xournalpp-nightly.json    ScoopInstaller/Versions
 cuda11.4.json    ScoopInstaller/Versions
-whisper.cpp-nightly.json    ScoopInstaller/Versions
 bun-canary.json    ScoopInstaller/Versions
 tomcat7.json    ScoopInstaller/Versions
 komorebi-nightly.json    ScoopInstaller/Versions
@@ -4718,6 +4719,7 @@ lua51.json    ScoopInstaller/Versions
 arduino18.json    ScoopInstaller/Versions
 teamcity-eap.json    ScoopInstaller/Versions
 love9.json    ScoopInstaller/Versions
+whisper.cpp-opencl.json    ScoopInstaller/Versions
 taiga-beta.json    ScoopInstaller/Versions
 mingw-winlibs-ucrt.json    ScoopInstaller/Versions
 kdenlive-nightly.json    ScoopInstaller/Versions
@@ -4884,6 +4886,7 @@ nodejs010.json    ScoopInstaller/Versions
 fluxctl.json    ScoopInstaller/Versions
 teamcity-rc.json    ScoopInstaller/Versions
 r36.json    ScoopInstaller/Versions
+whisper.cpp-blas.json    ScoopInstaller/Versions
 less-beta.json    ScoopInstaller/Versions
 googlechrome-beta.json    ScoopInstaller/Versions
 postman-canary.json    ScoopInstaller/Versions
@@ -4909,6 +4912,7 @@ spark-scala2.13.json    ScoopInstaller/Versions
 llama.cpp-hip-gfx1030.json    ScoopInstaller/Versions
 llama.cpp-hip-gfx1100.json    ScoopInstaller/Versions
 openssh-msys.json    ScoopInstaller/Versions
+whisper.cpp-nightly.json    ScoopInstaller/Versions
 whatsapp-beta.json    ScoopInstaller/Versions
 processhacker-nightly.json    ScoopInstaller/Versions
 v2rayn-selfcontained.json    ScoopInstaller/Versions
@@ -32194,6 +32198,7 @@ omniget-openselena-portable_DoveBoy.json    DoveBoy/Apps
 blockthespot_DoveBoy.json    DoveBoy/Apps
 bat.json    DoveBoy/Apps
 convert.net_DoveBoy.json    DoveBoy/Apps
+mpv-git_DoveBoy.json    DoveBoy/Apps
 mangodisk-cli_DoveBoy.json    DoveBoy/Apps
 gns3_DoveBoy.json    DoveBoy/Apps
 losslesscut_DoveBoy.json    DoveBoy/Apps
@@ -32227,6 +32232,7 @@ mingw.json    DoveBoy/Apps
 fluent-m3u8_DoveBoy.json    DoveBoy/Apps
 opensearcher_DoveBoy.json    DoveBoy/Apps
 ventoy_DoveBoy.json    DoveBoy/Apps
+libreoffice_DoveBoy.json    DoveBoy/Apps
 ydl-ui_DoveBoy.json    DoveBoy/Apps
 proxypin_DoveBoy.json    DoveBoy/Apps
 refreshenv.json    DoveBoy/Apps
@@ -32821,6 +32827,7 @@ pympress_naderi.json    naderi/scoop-bucket
 font-parastoo_naderi.json    naderi/scoop-bucket
 xnview-classic_naderi.json    naderi/scoop-bucket
 responsively-portable_naderi.json    naderi/scoop-bucket
+kast.json    naderi/scoop-bucket
 winusb_naderi.json    naderi/scoop-bucket
 cinta-notes_naderi.json    naderi/scoop-bucket
 hdcleaner_naderi.json    naderi/scoop-bucket
@@ -34362,6 +34369,7 @@ murphysec_batkiz.json    batkiz/backit
 animeko_batkiz.json    batkiz/backit
 cowyo_batkiz.json    batkiz/backit
 irust_batkiz.json    batkiz/backit
+designcraft.json    batkiz/backit
 downkyicore_batkiz.json    batkiz/backit
 ran_batkiz.json    batkiz/backit
 scoop-completion_batkiz.json    batkiz/backit
@@ -34378,9 +34386,11 @@ redli_batkiz.json    batkiz/backit
 linkcode_batkiz.json    batkiz/backit
 bloomrpc_batkiz.json    batkiz/backit
 wayback_batkiz.json    batkiz/backit
+printcraft_batkiz.json    batkiz/backit
 Icalingua-plus-plus_batkiz.json    batkiz/backit
 git-branch-stash_batkiz.json    batkiz/backit
 revive_batkiz.json    batkiz/backit
+filmcraft_batkiz.json    batkiz/backit
 linqpad_batkiz.json    batkiz/backit
 ghdl.json    batkiz/backit
 ptex-ng_batkiz.json    batkiz/backit
@@ -34405,10 +34415,13 @@ datastation_batkiz.json    batkiz/backit
 embarcadero-dev-cpp_batkiz.json    batkiz/backit
 httpie-go_batkiz.json    batkiz/backit
 hey_batkiz.json    batkiz/backit
+photocraft_batkiz.json    batkiz/backit
 bilibili-toolkit_batkiz.json    batkiz/backit
 ffsend.json    batkiz/backit
+vectorcraft_batkiz.json    batkiz/backit
 plumber_batkiz.json    batkiz/backit
 fscan_batkiz.json    batkiz/backit
+lightcraft_batkiz.json    batkiz/backit
 deepseek-harness_batkiz.json    batkiz/backit
 redis-viewer_batkiz.json    batkiz/backit
 dev-toys-cli_batkiz.json    batkiz/backit
@@ -34428,6 +34441,7 @@ dino-rss_batkiz.json    batkiz/backit
 lite_batkiz.json    batkiz/backit
 buildkit.json    batkiz/backit
 csvq_batkiz.json    batkiz/backit
+effectcraft_batkiz.json    batkiz/backit
 fnm_batkiz.json    batkiz/backit
 goimports-reviser_batkiz.json    batkiz/backit
 filebrowser_batkiz.json    batkiz/backit
@@ -34446,6 +34460,7 @@ racket-minimal-cs_batkiz.json    batkiz/backit
 waku_batkiz.json    batkiz/backit
 jj_batkiz.json    batkiz/backit
 tokei_batkiz.json    batkiz/backit
+artcraft.json    batkiz/backit
 chr_batkiz.json    batkiz/backit
 go-unstable_batkiz.json    batkiz/backit
 legendary_batkiz.json    batkiz/backit
@@ -34618,6 +34633,7 @@ cdncheck_aliesbelik.json    aliesbelik/poldi
 ldapx_aliesbelik.json    aliesbelik/poldi
 hq_aliesbelik.json    aliesbelik/poldi
 byedpi_aliesbelik.json    aliesbelik/poldi
+rjq.json    aliesbelik/poldi
 tcping-go_aliesbelik.json    aliesbelik/poldi
 cassowary_aliesbelik.json    aliesbelik/poldi
 grpc-client-cli_aliesbelik.json    aliesbelik/poldi
@@ -35151,7 +35167,6 @@ sshpass.json    Weidows-projects/scoop-3rd
 Edge-Webdriver-Stable_Weidows-projects.json    Weidows-projects/scoop-3rd
 BrutalityExtractor_Weidows-projects.json    Weidows-projects/scoop-3rd
 Remix-desktop_Weidows-projects.json    Weidows-projects/scoop-3rd
-tiantian-workbench_Weidows-projects.json    Weidows-projects/scoop-3rd
 Pixeval_Weidows-projects.json    Weidows-projects/scoop-3rd
 Lively-Wallpaper_Weidows-projects.json    Weidows-projects/scoop-3rd
 PartAssist_Weidows-projects.json    Weidows-projects/scoop-3rd
@@ -35287,6 +35302,7 @@ obs-plugin-droidcam_fixed_Weidows-projects.json    Weidows-projects/scoop-3rd
 CAJViewer_Weidows-projects.json    Weidows-projects/scoop-3rd
 OBSStudio-Portable_Weidows-projects.json    Weidows-projects/scoop-3rd
 ComfyUI-Windows-Portable_Weidows-projects.json    Weidows-projects/scoop-3rd
+tiantian-workbench_Weidows-projects.json    Weidows-projects/scoop-3rd
 Motrix-linking-aria2_Weidows-projects.json    Weidows-projects/scoop-3rd
 wps-photoplus_Weidows-projects.json    Weidows-projects/scoop-3rd
 WePE_Weidows-projects.json    Weidows-projects/scoop-3rd
@@ -35452,6 +35468,7 @@ jxrlib_starise.json    starise/Scoop-Confetti
 ultrasearch_starise.json    starise/Scoop-Confetti
 lossless-audio-checker_starise.json    starise/Scoop-Confetti
 heavyload_starise.json    starise/Scoop-Confetti
+ps4pkgtool.json    starise/Scoop-Confetti
 4k-videotomp3_starise.json    starise/Scoop-Confetti
 clipgrab_starise.json    starise/Scoop-Confetti
 hasher_starise.json    starise/Scoop-Confetti
@@ -35989,6 +36006,7 @@ docutranslate_cc713.json    cc713/ownscoop
 ContextMenuManagerPlus_cc713.json    cc713/ownscoop
 qimgv-dev_cc713.json    cc713/ownscoop
 rstudio_cc713.json    cc713/ownscoop
+omni-search.json    cc713/ownscoop
 jpegview-fork_cc713.json    cc713/ownscoop
 zyfun_cc713.json    cc713/ownscoop
 manuskript_cc713.json    cc713/ownscoop
