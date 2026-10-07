@@ -1,16 +1,16 @@
 {
-    "version": "0.12.2",
+    "version": "0.12.4",
     "description": "A high-performance, GPU-accelerated Redis client built with Rust and GPUI.",
     "homepage": "https://github.com/vicanso/zedis",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/vicanso/zedis/releases/download/v0.12.2/zedis-windows-x86_64.zip",
-            "hash": "f289ff982c8d217a148a8b503ffabc72797c1ca4c608aa8d17b7638c1d996cfb"
+            "url": "https://github.com/vicanso/zedis/releases/download/v0.12.4/zedis-windows-x86_64.zip",
+            "hash": "7dfd70760bc7b603f1a4e4241a89de7d458fa44f333ec650325d6098d9682205"
         },
         "arm64": {
-            "url": "https://github.com/vicanso/zedis/releases/download/v0.12.2/zedis-windows-aarch64.zip",
-            "hash": "884f060a1b6e4413da5e127856e536452c6497b8bade5961f6ae2aeaa85f4c88"
+            "url": "https://github.com/vicanso/zedis/releases/download/v0.12.4/zedis-windows-aarch64.zip",
+            "hash": "6f6d6d3c52ff6de89ff2314ad5a6cfb950ac82e96777d699a6d2f01d0602491c"
         }
     },
     "shortcuts": [
