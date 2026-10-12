@@ -1,5 +1,5 @@
 {
-    "version": "0.6.40",
+    "version": "0.6.42",
     "description": "Lightweight, cross-platform database client",
     "homepage": "https://dbxio.com",
     "license": "Apache-2.0",
@@ -9,12 +9,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/t8y2/dbx/releases/download/v0.6.40/DBX_0.6.40_x64-portable.zip",
-            "hash": "37f73832fe35dad7043822107dbd3496a34bb4ae17188c47e6bc5048bdcc02ad"
+            "url": "https://github.com/t8y2/dbx/releases/download/v0.6.42/DBX_0.6.42_x64-portable.zip",
+            "hash": "4e0a917f3612843750d2595dc9eebb5dc7e3dd42ee9152029c674b586d55fc73"
         },
         "arm64": {
-            "url": "https://github.com/t8y2/dbx/releases/download/v0.6.40/DBX_0.6.40_arm64-portable.zip",
-            "hash": "f649f89b81d5115361438d4eb9a134a70947e9796ba8322ba3e1586bb777d5c3"
+            "url": "https://github.com/t8y2/dbx/releases/download/v0.6.42/DBX_0.6.42_arm64-portable.zip",
+            "hash": "38f4b68589add04cb944c34ab4655a55a3dff57f6fe672a4cab90b03bccbd9ae"
         }
     },
     "shortcuts": [
