@@ -1,5 +1,5 @@
 {
-    "version": "1.34.0",
+    "version": "1.34.1",
     "description": "酷安跨平台桌面版",
     "homepage": "https://github.com/daimiaopeng/coolapk-desktop",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/daimiaopeng/coolapk-desktop/releases/download/v1.34.0/coolapk-desktop_1.34.0_x64-setup.exe#/dl.7z",
-            "hash": "907e69b642edf74b76cfd636c60cff2b67a5eecbedb17dc62598a2002d9c433b"
+            "url": "https://github.com/daimiaopeng/coolapk-desktop/releases/download/v1.34.1/coolapk-desktop_1.34.1_x64-setup.exe#/dl.7z",
+            "hash": "18f56504625f450038297ff43feaf3709514d51a2fb1ed8362592e216d3451e1"
         },
         "arm64": {
-            "url": "https://github.com/daimiaopeng/coolapk-desktop/releases/download/v1.34.0/coolapk-desktop_1.34.0_arm64-setup.exe#/dl.7z",
-            "hash": "5613052dad5e45d52b9841bb413b3ebca0571c70429ba0e72fb3abf968a45349"
+            "url": "https://github.com/daimiaopeng/coolapk-desktop/releases/download/v1.34.1/coolapk-desktop_1.34.1_arm64-setup.exe#/dl.7z",
+            "hash": "349ab60ad2bda3270140e8b219aa2d0ff4684a43bc7ded49695b6be4d84552c6"
         }
     },
     "pre_install": [

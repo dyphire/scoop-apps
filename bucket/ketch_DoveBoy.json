@@ -1,5 +1,5 @@
 {
-    "version": "0.8.0",
+    "version": "0.8.1",
     "description": "A fast, open-source download manager for every device you own.",
     "homepage": "https://github.com/linroid/Ketch",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/linroid/Ketch/releases/download/v0.8.0/ketch-desktop-0.8.0-windows-x64.msi",
-            "hash": "152ab3c3d43e6db950be3f52222e67f1e0ba9777d013a450f581112a2a5b5eb4"
+            "url": "https://github.com/linroid/Ketch/releases/download/v0.8.1/ketch-desktop-0.8.1-windows-x64.msi",
+            "hash": "cf8f10259262cb757e1b8cc566b2cae13bae5d3d6a12103944bb46393995713a"
         },
         "arm64": {
-            "url": "https://github.com/linroid/Ketch/releases/download/v0.8.0/ketch-desktop-0.8.0-windows-arm64.msi",
-            "hash": "e838356c3aa23c6bff50d975cbcc5235e9be1146c2b2d587bc6d22616cfaded4"
+            "url": "https://github.com/linroid/Ketch/releases/download/v0.8.1/ketch-desktop-0.8.1-windows-arm64.msi",
+            "hash": "c58809c76c202bb61dc2d85d9170d72d7e3b979397392965a56324da6d35dfc1"
         }
     },
     "extract_dir": "Ketch",
