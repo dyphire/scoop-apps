@@ -1,0 +1,55 @@
+{
+    "version": "4.11.3.0",
+    "description": "Computer monitoring and classroom management software.",
+    "homepage": "https://veyon.io/",
+    "license": "GPL-2.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/veyon/veyon/releases/download/v4.11.3/veyon-4.11.3.0-win64-setup.exe#/installer.exe",
+            "hash": "6acad4fc310e915a631477373f7649d51b74fbe8c41c5b0ab38d2fa852876b73"
+        },
+        "32bit": {
+            "url": "https://github.com/veyon/veyon/releases/download/v4.11.3/veyon-4.11.3.0-win32-setup.exe#/installer.exe",
+            "hash": "6a194340c1417a40417f43c661a94b7ea07e39b1ce2ab9612beceb33772d181b"
+        }
+    },
+    "installer": {
+        "script": [
+            "Invoke-ExternalCommand \"$dir\\installer.exe\" -ArgumentList @('/S', \"/D=$dir\") -RunAs | Out-Null",
+            "Remove-Item -Recurse \"$([Environment]::GetFolderPath('commonstartmenu'))\\Programs\\Veyon\"",
+            "Remove-Item \"$dir\\installer.exe\""
+        ]
+    },
+    "uninstaller": {
+        "script": "Start-Process \"$dir\\uninstall.exe\" -ArgumentList @('/S') -Verb RunAs -Wait | Out-Null"
+    },
+    "bin": [
+        "veyon-cli.exe",
+        "veyon-configurator.exe",
+        "veyon-master.exe"
+    ],
+    "shortcuts": [
+        [
+            "veyon-configurator.exe",
+            "Veyon Configurator"
+        ],
+        [
+            "veyon-master.exe",
+            "Veyon Master"
+        ]
+    ],
+    "checkver": {
+        "url": "https://veyon.io/download/",
+        "regex": "veyon-([\\d.]+)-win64-setup.exe"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/veyon/veyon/releases/download/v$majorVersion.$minorVersion.$patchVersion/veyon-$version-win64-setup.exe#/installer.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/veyon/veyon/releases/download/v$majorVersion.$minorVersion.$patchVersion/veyon-$version-win32-setup.exe#/installer.exe"
+            }
+        }
+    }
+}

@@ -1,67 +1,67 @@
 {
-    "version": "1.20.4-3168-gda4d6eda8a38",
-    "description": "Sony PlayStation Portable (PSP) emulator",
-    "homepage": "https://www.ppsspp.org",
-    "license": "GPL-2.0-or-later",
-    "architecture": {
-        "64bit": {
-            "url": "https://builds.ppsspp.org/builds/v1.20.4-3168-gda4d6eda8a38/ppsspp_win_v1.20.4-3168-gda4d6eda8a38.zip",
-            "hash": "116b7dcb299d6a8a69b0d425d14d8f382bfd6498d1190c0ec86b352e2ca13181",
-            "shortcuts": [
-                [
-                    "PPSSPPWindows64.exe",
-                    "Sony PlayStation Portable [psp][ppsspp] (dev)"
-                ]
-            ]
-        },
-        "32bit": {
-            "url": "https://builds.ppsspp.org/builds/v1.20.4-3168-gda4d6eda8a38/ppsspp_win_v1.20.4-3168-gda4d6eda8a38.zip",
-            "hash": "116b7dcb299d6a8a69b0d425d14d8f382bfd6498d1190c0ec86b352e2ca13181",
-            "shortcuts": [
-                [
-                    "PPSSPPWindows.exe",
-                    "Sony PlayStation Portable [psp][ppsspp] (dev)"
-                ]
-            ]
-        },
-        "arm64": {
-            "url": "https://builds.ppsspp.org/builds/v1.20.4-3168-gda4d6eda8a38/PPSSPPWindowsARM64_v1.20.4-3168-gda4d6eda8a38.zip",
-            "hash": "f2d450086bcf2929af1270b2ca4331127438590b616db58f89b5d842eb4e3831",
-            "shortcuts": [
-                [
-                    "PPSSPPWindowsARM64.exe",
-                    "Sony PlayStation Portable [psp][ppsspp] (dev)"
-                ]
-            ]
-        }
+  "version": "1.20.4-3118-gf6aea4c85c29",
+  "description": "Sony PlayStation Portable (PSP) emulator",
+  "homepage": "https://www.ppsspp.org",
+  "license": "GPL-2.0-or-later",
+  "architecture": {
+    "64bit": {
+      "url": "https://builds.ppsspp.org/builds/v1.20.4-3118-gf6aea4c85c29/ppsspp_win_v1.20.4-3118-gf6aea4c85c29.zip",
+      "hash": "0d3db26508b114452078f3d5961b63ad2979fd464b42fb4a13da3e1f176a4ec7",
+      "shortcuts": [
+        [
+          "PPSSPPWindows64.exe",
+          "Sony PlayStation Portable [psp][ppsspp] (dev)"
+        ]
+      ]
     },
-    "pre_install": [
-        "if (!(Test-Path \"$persist_dir\")) {",
-        "   New-item \"$persist_dir\" -ItemType Directory | Out-Null",
-        "   New-item \"$persist_dir\\memstick\" -ItemType Directory | Out-Null",
-        "}"
-    ],
-    "persist": [
-        "memstick",
-        "assets",
-        "demos"
-    ],
-    "checkver": {
-        "url": "https://builds.ppsspp.org/meta/history.json",
-        "regex": "ppsspp_win_v(?<version>[\\d.]+)-(?<build>[\\d]+)-g(?<commit>[\\da-fA-F]+)\\.zip",
-        "replace": "${version}-${build}-g${commit}"
+    "32bit": {
+      "url": "https://builds.ppsspp.org/builds/v1.20.4-3118-gf6aea4c85c29/ppsspp_win_v1.20.4-3118-gf6aea4c85c29.zip",
+      "hash": "0d3db26508b114452078f3d5961b63ad2979fd464b42fb4a13da3e1f176a4ec7",
+      "shortcuts": [
+        [
+          "PPSSPPWindows.exe",
+          "Sony PlayStation Portable [psp][ppsspp] (dev)"
+        ]
+      ]
     },
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://builds.ppsspp.org/builds/v$matchVersion-$matchBuild-g$matchCommit/ppsspp_win_v$matchVersion-$matchBuild-g$matchCommit.zip"
-            },
-            "32bit": {
-                "url": "https://builds.ppsspp.org/builds/v$matchVersion-$matchBuild-g$matchCommit/ppsspp_win_v$matchVersion-$matchBuild-g$matchCommit.zip"
-            },
-            "arm64": {
-                "url": "https://builds.ppsspp.org/builds/v$matchVersion-$matchBuild-g$matchCommit/PPSSPPWindowsARM64_v$matchVersion-$matchBuild-g$matchCommit.zip"
-            }
-        }
+    "arm64": {
+      "url": "https://builds.ppsspp.org/builds/v1.20.4-3118-gf6aea4c85c29/PPSSPPWindowsARM64_v1.20.4-3118-gf6aea4c85c29.zip",
+      "hash": "4b0f49fe4502aed1c46d3eea314175a70a5d1ee911cb0e23fc26bfd0435b0c76",
+      "shortcuts": [
+        [
+          "PPSSPPWindowsARM64.exe",
+          "Sony PlayStation Portable [psp][ppsspp] (dev)"
+        ]
+      ]
     }
+  },
+  "pre_install": [
+    "if (!(Test-Path \"$persist_dir\")) {",
+    "   New-item \"$persist_dir\" -ItemType Directory | Out-Null",
+    "   New-item \"$persist_dir\\memstick\" -ItemType Directory | Out-Null",
+    "}"
+  ],
+  "persist": [
+    "memstick",
+    "assets",
+    "demos"
+  ],
+  "checkver": {
+    "url": "https://builds.ppsspp.org/meta/history.json",
+    "regex": "ppsspp_win_v(?<version>[\\d.]+)-(?<build>[\\d]+)-g(?<commit>[\\da-fA-F]+)\\.zip",
+    "replace": "${version}-${build}-g${commit}"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://builds.ppsspp.org/builds/v$matchVersion-$matchBuild-g$matchCommit/ppsspp_win_v$matchVersion-$matchBuild-g$matchCommit.zip"
+      },
+      "32bit": {
+        "url": "https://builds.ppsspp.org/builds/v$matchVersion-$matchBuild-g$matchCommit/ppsspp_win_v$matchVersion-$matchBuild-g$matchCommit.zip"
+      },
+      "arm64": {
+        "url": "https://builds.ppsspp.org/builds/v$matchVersion-$matchBuild-g$matchCommit/PPSSPPWindowsARM64_v$matchVersion-$matchBuild-g$matchCommit.zip"
+      }
+    }
+  }
 }
