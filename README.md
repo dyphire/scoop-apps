@@ -126,6 +126,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - HUMORCE/nuke
 - MCOfficer/scoop-bucket
 - littleli/Scoop-AtariEmulators
+- bright-angel/scoop-bucket
 - beer-psi/scoop-bucket
 - littleli/Scoop-littleli
 - yuusakuri/scoop-bucket
