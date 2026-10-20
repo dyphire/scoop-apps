@@ -1,5 +1,5 @@
 {
-    "version": "5.9.7",
+    "version": "5.9.9",
     "description": "A modern, high-performance local file search and productivity tool for Windows. A sleek, customizable alternative to Everything and Listary built with C# WPF and NT Services, featuring instant NTFS MFT parsing, real-time USN monitoring, and plugin support.",
     "homepage": "https://lertaro.github.io/",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Lertaro/Lertaro/releases/download/v5.9.7/Lertaro-Setup.exe",
-            "hash": "97e312cc6d98d5f0d8936195555cf389918f4a5d6a59154dffba04822691c6f6"
+            "url": "https://github.com/Lertaro/Lertaro/releases/download/v5.9.9/Lertaro-Setup.exe",
+            "hash": "90478589c287d90bd26ddd6d1f45506c6a48654ecbd27de078a54c31004fff3b"
         },
         "arm64": {
-            "url": "https://github.com/Lertaro/Lertaro/releases/download/v5.9.7/Lertaro-Setup-arm64.exe",
-            "hash": "21227e2772fee9b84baf46b9f2e8f08fcbcc6866b56ac6ddaf91663367e586e2"
+            "url": "https://github.com/Lertaro/Lertaro/releases/download/v5.9.9/Lertaro-Setup-arm64.exe",
+            "hash": "7503274a7b7cb70f2ffdce0a16b17317e52d0a609c00c1e454236c8604b8118c"
         }
     },
     "innosetup": true,
