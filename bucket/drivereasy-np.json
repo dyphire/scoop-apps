@@ -1,0 +1,44 @@
+{
+    "version": "7.2.2.6490",
+    "description": "专业驱动更新管理软件",
+    "homepage": "https://www.mefcl.com/drivereasy.html",
+    "license": "Proprietary",
+    "url": "https://api.xrgzs.top/sdlp/lanzou/?url=https://www.lanzoui.com/iORY34btu25c&type=down#/installer.exe",
+    "hash": "c318f7d2df748d5b8b652c4ab6c8443389e37e1720b70fd5253a1a79a7037ac4",
+    "shortcuts": [
+        [
+            "DriverEasy.exe",
+            "DriverEasy"
+        ]
+    ],
+    "installer": {
+        "script": [
+            ". \"$bucketsdir\\$bucket\\bin\\utils.ps1\"",
+            "New-PersistDirectory \"$env:APPDATA\\Easeware\\DriverEasy\" \"$persist_dir\\AppData\" -Migrate",
+            "",
+            "Invoke-ExternalCommand \"$dir\\installer.exe\" -ArgumentList @('/S', \"/D=$dir\") -Quiet",
+            "Remove-Item \"$dir\\installer.exe\" -Force -ErrorAction SilentlyContinue | Out-Null",
+            "Remove-Item \"$([Environment]::GetFolderPath('programs'))\\DriverEasy\" -Recurse -Force -ErrorAction SilentlyContinue | Out-Null"
+        ]
+    },
+    "pre_uninstall": [
+        "Invoke-ExternalCommand \"$dir\\uninstall.exe\" -ArgumentList '/S' -Quiet",
+        "Start-Sleep -Seconds 10",
+        "$bucket = $install.bucket",
+        ". \"$bucketsdir\\$bucket\\bin\\utils.ps1\"",
+        "Stop-App",
+        "Remove-Junction \"$env:APPDATA\\Easeware\\DriverEasy\""
+    ],
+    "checkver": {
+        "script": [
+            ". \"$pwd\\bin\\utils.ps1\"",
+            "$f = Get-LanzouList \"https://mefcl.lanzouw.com/b012r9reb\" 3rs6 | Where-Object { $_.name_all -like \"DriverEasyPro_*_mefcl_Setup.exe\" } | Select-Object -First 1",
+            "$n = $f.name_all -replace 'Stable', ''",
+            "$n + '=====' + $f.id"
+        ],
+        "regex": "DriverEasyPro_(.*)_mefcl_Setup.exe=====(?<sharekey>.*)"
+    },
+    "autoupdate": {
+        "url": "https://api.xrgzs.top/sdlp/lanzou/?url=https://www.lanzoui.com/$matchSharekey&type=down#/installer.exe"
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "version": "8.0.0110r",
+    "description": "Effortless File Transfers Over A Network (Free for Home/School)",
+    "homepage": "https://www.423down.com/8196.html",
+    "license": "Proprietary",
+    "url": "https://api.xrgzs.top/sdlp/lanzou/?url=https://www.lanzoui.com/izVEa46k034d&type=down#/dl.7z",
+    "hash": "2512a97e40afb0245a73a5a1620344450ff35c106e04ab0aeacd6b7a69b0a08b",
+    "extract_dir": "Xftp",
+    "shortcuts": [
+        [
+            "Xftp.exe",
+            "Xftp 8",
+            "",
+            "XftpIcon.ico"
+        ]
+    ],
+    "installer": {
+        "script": "Invoke-ExternalCommand \"$dir\\!)绿化处理.bat\" -Quiet"
+    },
+    "pre_uninstall": [
+        "(Get-Content \"$dir\\!)卸载移除.bat\") -replace 'CHOICE /C 1 /N >NUL 2>NUL', 'exit /b' | Set-Content \"$dir\\!)卸载移除.bat\"",
+        "Invoke-ExternalCommand \"$dir\\!)卸载移除.bat\" -Quiet",
+        "$bucket = $install.bucket",
+        ". \"$bucketsdir\\$bucket\\bin\\utils.ps1\"",
+        "Stop-App"
+    ],
+    "checkver": {
+        "script": [
+            ". \"$pwd\\bin\\utils.ps1\"",
+            "$f = Get-LanzouList \"https://423down.lanzouo.com/b0f19ry9g\" | Where-Object { $_.name_all -like \"Xftp-*-Modified-Green.7z\" } | Select-Object -First 1",
+            "$f.name_all + '=====' + $f.id"
+        ],
+        "regex": "Xftp-(.*)-Modified-Green.7z=====(?<sharekey>.*)"
+    },
+    "autoupdate": {
+        "url": "https://api.xrgzs.top/sdlp/lanzou/?url=https://www.lanzoui.com/$matchSharekey&type=down#/dl.7z"
+    }
+}

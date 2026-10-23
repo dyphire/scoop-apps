@@ -1,0 +1,101 @@
+{
+    "version": "0.6.1",
+    "description": "Rust 驱动的多协议下载管理器，支持 HTTP/FTP/BitTorrent 磁力链接及 HLS/DASH 流媒体，智能多线程加速与浏览器无缝集成。精美界面，极致性能，永久免费，零广告。",
+    "homepage": "https://fluxdown.zerx.dev/",
+    "license": "AGPL-3.0-only",
+    "suggest": {
+        "FluxDown-CLI": "sdoog/fluxdown-cli"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://fluxdown.zerx.dev/api/download/FluxDown-0.6.1-windows-x64-portable.zip",
+            "hash": "3b1097cefae42110a9864d89f4833873ec400e09e89c8aa16ed57bba573f7bab"
+        },
+        "arm64": {
+            "url": "https://fluxdown.zerx.dev/api/download/FluxDown-0.6.1-windows-arm64-portable.zip",
+            "hash": "777249f362c8d2736973e0c7542a492d2e086b60c9d0df7f0f7a0321512f39d8"
+        }
+    },
+    "shortcuts": [
+        [
+            "fluxdown-desktop.exe",
+            "FluxDown"
+        ]
+    ],
+    "installer": {
+        "script": [
+            ". \"$bucketsdir\\$bucket\\bin\\utils.ps1\"",
+            "New-PersistDirectory \"$env:APPDATA\\FluxDown\" \"$persist_dir\\AppData\" -Migrate",
+            "# The portable FluxDown saves SQLite database in program directory.",
+            "# To avoid data loss, we turn it into non-portable.",
+            "Remove-Item \"$dir\\portable\" -Force",
+            "New-PersistDirectory \"$env:LOCALAPPDATA\\FluxDown\" \"$persist_dir\\LocalAppData\" -Migrate",
+            "",
+            "# Register URL protocol, torrent file association, and auto-start",
+            "if ($global) {",
+            "    $registry_scope = \"HKEY_LOCAL_MACHINE\"",
+            "} else {",
+            "    $registry_scope = \"HKEY_CURRENT_USER\"",
+            "}",
+            "$instdir = $($dir -replace '\\\\', '\\\\')",
+            "@\"",
+            "Windows Registry Editor Version 5.00",
+            "",
+            "[$registry_scope\\SOFTWARE\\Classes\\fluxdown]",
+            "@=\"URL:FluxDown Protocol\"",
+            "\"URL Protocol\"=\"\"",
+            "",
+            "[$registry_scope\\SOFTWARE\\Classes\\fluxdown\\DefaultIcon]",
+            "@=\"\\\"$instdir\\flux_down.exe\\\",0\"",
+            "",
+            "[$registry_scope\\SOFTWARE\\Classes\\fluxdown\\shell\\open\\command]",
+            "@=\"\\\"$instdir\\flux_down.exe\\\" \\\"%1\\\"\"",
+            "",
+            "[$registry_scope\\SOFTWARE\\Classes\\FluxDown.TorrentFile]",
+            "@=\"BitTorrent File\"",
+            "",
+            "[$registry_scope\\SOFTWARE\\Classes\\FluxDown.TorrentFile\\DefaultIcon]",
+            "@=\"\\\"$instdir\\flux_down.exe\\\",0\"",
+            "",
+            "[$registry_scope\\SOFTWARE\\Classes\\FluxDown.TorrentFile\\shell\\open\\command]",
+            "@=\"\\\"$instdir\\flux_down.exe\\\" \\\"%1\\\"\"",
+            "",
+            "[$registry_scope\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run]",
+            "\"FluxDown\"=\"\\\"$instdir\\flux_down.exe\\\" --silentStart\"",
+            "\"@ | Set-Content -Path \"$dir\\install-fluxdown.reg\" -Encoding Unicode",
+            "",
+            "reg import \"$dir\\install-fluxdown.reg\""
+        ]
+    },
+    "pre_uninstall": [
+        "$bucket = $install.bucket",
+        ". \"$bucketsdir\\$bucket\\bin\\utils.ps1\"",
+        "Stop-App",
+        "Remove-Junction \"$env:APPDATA\\FluxDown\"",
+        "Remove-Junction \"$env:LOCALAPPDATA\\FluxDown\"",
+        "",
+        "# Clean up registry entries",
+        "if ($global) {",
+        "    $registry_scope = \"HKLM\"",
+        "} else {",
+        "    $registry_scope = \"HKCU\"",
+        "}",
+        "reg.exe delete \"$registry_scope\\SOFTWARE\\Classes\\fluxdown\" /f",
+        "reg.exe delete \"$registry_scope\\SOFTWARE\\Classes\\FluxDown.TorrentFile\" /f",
+        "reg.exe delete \"$registry_scope\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\" /v \"FluxDown\" /f"
+    ],
+    "checkver": {
+        "url": "https://fluxdown.zerx.dev/api/release",
+        "jsonpath": "$.version"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://fluxdown.zerx.dev/api/download/FluxDown-$version-windows-x64-portable.zip"
+            },
+            "arm64": {
+                "url": "https://fluxdown.zerx.dev/api/download/FluxDown-$version-windows-arm64-portable.zip"
+            }
+        }
+    }
+}

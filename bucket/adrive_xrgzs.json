@@ -1,0 +1,43 @@
+{
+    "version": "6.9.3.0",
+    "description": "阿里云盘是一款速度快、不打扰、够安全、易于分享的网盘，你可以在这里存储、管理和探索内容，尽情打造丰富的数字世界。",
+    "homepage": "https://www.alipan.com/",
+    "license": {
+        "identifier": "EULA",
+        "url": "https://www.alipan.com/protocol/service"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "http://api.xrgzs.top/sdlp/360baoku/?appid=2000003258#/dl.7z",
+            "hash": "3ccbdfa920528bd0295c1197a84bcd552cc1cfe2bf2ad722ace7d5dd93bdb281"
+        }
+    },
+    "shortcuts": [
+        [
+            "aDrive.exe",
+            "阿里云盘"
+        ]
+    ],
+    "post_install": [
+        "Remove-Item \"$dir\\`$*\" -Recurse -Force",
+        ". \"$bucketsdir\\$bucket\\bin\\utils.ps1\"",
+        "New-PersistDirectory \"$env:APPDATA\\aDrive\" \"$persist_dir\\AppData\" -Migrate"
+    ],
+    "pre_uninstall": [
+        "$bucket = $install.bucket",
+        ". \"$bucketsdir\\$bucket\\bin\\utils.ps1\"",
+        "Stop-App",
+        "Remove-Junction \"$env:APPDATA\\aDrive\""
+    ],
+    "checkver": {
+        "url": "https://soft-api.safe.360.cn/main/v1/soft/info?softid=2000003258",
+        "jsonpath": "$.data.version"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "http://api.xrgzs.top/sdlp/360baoku/?appid=2000003258#/dl.7z"
+            }
+        }
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "version": "1.6.0",
+    "description": "Flix 快传 | 像聊天一样传文件",
+    "homepage": "https://flix.center/",
+    "license": "Proprietary",
+    "architecture": {
+        "64bit": {
+            "url": "https://dl.xrgzs.top/d/pxy/System/Windows/Other/Share/Flix/flix_win.1.6.0.exe",
+            "hash": "a5664ecc677a92ea9191f78c0ca6161f0978f4fd27c637d3cd8aaad6834761bb"
+        }
+    },
+    "innosetup": true,
+    "shortcuts": [
+        [
+            "flix.exe",
+            "Flix"
+        ]
+    ],
+    "installer": {
+        "script": [
+            ". \"$bucketsdir\\$bucket\\bin\\utils.ps1\"",
+            "New-PersistDirectory \"$env:APPDATA\\com.ifreedomer\" \"$persist_dir\\AppData\" -Migrate"
+        ]
+    },
+    "pre_uninstall": [
+        "$bucket = $install.bucket",
+        ". \"$bucketsdir\\$bucket\\bin\\utils.ps1\"",
+        "Stop-App",
+        "Remove-Junction \"$env:APPDATA\\com.ifreedomer\""
+    ],
+    "checkver": {
+        "url": "https://1.mashiro.asia/",
+        "regex": "(\\d+\\.[\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://dl.xrgzs.top/d/pxy/System/Windows/Other/Share/Flix/flix_win.$version.exe"
+            }
+        }
+    }
+}

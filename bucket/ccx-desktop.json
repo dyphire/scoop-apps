@@ -1,0 +1,46 @@
+{
+    "version": "2.9.37",
+    "description": "Claude / Codex / Gemini AI API proxy and protocol translation gateway",
+    "homepage": "https://benedictking.github.io/ccx/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/BenedictKing/ccx/releases/download/v2.9.37/CCX-Desktop-2.9.37-windows-amd64-setup.exe#/dl.7z",
+            "hash": "20cd67a318059fedc1b222031c26bf5ca5e6956c7658037abfb70ea2568545ea"
+        },
+        "arm64": {
+            "url": "https://github.com/BenedictKing/ccx/releases/download/v2.9.37/CCX-Desktop-2.9.37-windows-arm64-setup.exe#/dl.7z",
+            "hash": "8a06dcc58e6f72c77ea25a60ad5d22bca1935eea48259fc037c8ee062e6cf502"
+        }
+    },
+    "shortcuts": [
+        [
+            "ccx-desktop.exe",
+            "CCX Desktop"
+        ]
+    ],
+    "pre_install": [
+        ". \"$bucketsdir\\$bucket\\bin\\utils.ps1\"",
+        "New-PersistDirectory \"$env:APPDATA\\ccx-desktop\" \"$persist_dir\\AppData\" -Migrate"
+    ],
+    "post_install": "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall.exe\" -Force -Recurse -ErrorAction Ignore | Out-Null",
+    "pre_uninstall": [
+        "$bucket = $install.bucket",
+        ". \"$bucketsdir\\$bucket\\bin\\utils.ps1\"",
+        "Stop-App",
+        "Remove-Junction \"$env:APPDATA\\ccx-desktop\""
+    ],
+    "checkver": {
+        "github": "https://github.com/BenedictKing/ccx"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/BenedictKing/ccx/releases/download/v$version/CCX-Desktop-$version-windows-amd64-setup.exe#/dl.7z"
+            },
+            "arm64": {
+                "url": "https://github.com/BenedictKing/ccx/releases/download/v$version/CCX-Desktop-$version-windows-arm64-setup.exe#/dl.7z"
+            }
+        }
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "version": "2.23.10.20",
+    "homepage": "https://www.bitcomet.com/",
+    "license": {
+        "identifier": "freeware for non-commercial use",
+        "url": "https://www.bitcomet.com/en/license"
+    },
+    "suggest": {
+        "PeerBanHelper": "sdoog/peerbanhelper"
+    },
+    "url": "https://api.xrgzs.top/sdlp/lanzou/?url=https://www.lanzoui.com/i7tKd4cu41zc&type=down#/dl.7z",
+    "hash": "68a5ebd7ed5260672adc1d74c728c7bf7af98eaee44a12f5e322e852b13ad276",
+    "extract_dir": "BitComet",
+    "persist": [
+        "BitComet.xml",
+        "Downloads.xml",
+        "torrents",
+        "share",
+        "archive"
+    ],
+    "installer": {
+        "script": [
+            "if (!(Test-Path \"$persist_dir\\Downloads.xml\") -or !(Get-Item \"$persist_dir\\Downloads.xml\").Length) {",
+            "    New-Item \"$persist_dir\\Downloads.xml\" -ItemType File -Force -ErrorAction SilentlyContinue | Out-Null",
+            "    Set-Content -Path \"$persist_dir\\Downloads.xml\" -Value '<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><BitComet Author=\"RnySmile\" Version=\"0.1\"><Torrents/></BitComet>'",
+            "}"
+        ]
+    },
+    "architecture": {
+        "64bit": {
+            "shortcuts": [
+                [
+                    "BitComet_x64.exe",
+                    "BitComet"
+                ]
+            ]
+        },
+        "32bit": {
+            "shortcuts": [
+                [
+                    "BitComet.exe",
+                    "BitComet"
+                ]
+            ]
+        }
+    },
+    "checkver": {
+        "script": [
+            ". \"$pwd\\bin\\utils.ps1\"",
+            "$f = Get-LanzouList \"https://423down.lanzouo.com/b0f1awgqb\" | Where-Object { $_.name_all -like \"BitComet-*.7z\" } | Select-Object -First 1",
+            "$f.name_all + '=====' + $f.id"
+        ],
+        "regex": "BitComet-(.*)-Stable-Modify-x86-x64.7z=====(?<sharekey>.*)"
+    },
+    "autoupdate": {
+        "url": "https://api.xrgzs.top/sdlp/lanzou/?url=https://www.lanzoui.com/$matchSharekey&type=down#/dl.7z"
+    }
+}

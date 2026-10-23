@@ -1,34 +1,58 @@
 {
-  "version": "3.4.12",
-  "description": "A fast, lightweight, and clean image viewer developed by Guohe team.",
-  "homepage": "https://pic.ghxi.com/",
-  "license": "Freeware",
-  "url": "https://rj.lovestu.com/api/v1/release-files/197/download#/dl.7z",
-  "hash": "a9bf10a802fdd7c9ff825ebef40daa33ffc0b8c798f9005836db51b364992d74",
-  "extract_dir": "GuoheViewPortable",
-  "post_install": [
-    "if (Test-Path -PathType Container \"$persist_dir\\config.ini\") { Remove-Item -Path \"$persist_dir\\config.ini\" -Force } # removes folder config.ini if exists",
-    "if (!(Test-Path \"$persist_dir\\config.ini\")) { New-Item -ItemType File \"$dir\\config.ini\" | Out-Null } # creates config file config.ini if doesn't exist",
-    "Remove-Item -Path \"$dir\\GuoheView-Updater.exe\" -Force -Recurse -ErrorAction SilentlyContinue"
-  ],
-  "bin": "GuoheView.exe",
-  "shortcuts": [
-    [
-      "GuoheView.exe",
-      "果核看图"
-    ]
-  ],
-  "persist": "config.ini",
-  "checkver": {
-    "url": "https://rj.lovestu.com/download/gh_view",
-    "jsonpath": "$.data",
-    "regex": "\"version\":\\s*\"(?<version>[\\d.]+)\"[\\s\\S]*?\"id\":\\s*(?<id>\\d+)[^}]*?\\.7z\""
-  },
-  "autoupdate": {
-    "url": "https://rj.lovestu.com/api/v1/release-files/$matchId/download#/dl.7z",
-    "hash": {
-      "url": "https://rj.lovestu.com/download/gh_view",
-      "jsonpath": "$.data.files[?(@.id == '$matchId')].md5"
+    "version": "3.4.12.120",
+    "description": "极速看图，不止于快。",
+    "homepage": "https://pic.ghxi.com",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://pic.ghxi.com/legal"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://rj.lovestu.com/api/v1/release-files/197/download#/dl.7z",
+            "hash": "md5:b24f9122e1053a3b1189d499e31a9049"
+        }
+    },
+    "extract_dir": "GuoheViewPortable",
+    "pre_install": [
+        "Remove-Item \"$dir\\GuoheView-Updater.exe\", \"$dir\\news.exe\" -Force -ErrorAction SilentlyContinue | Out-Null",
+        "if (!(Test-Path \"$dir\\config.ini\") -or !(Get-Item \"$dir\\config.ini\").Length) {",
+        "    New-Item \"$dir\\config.ini\" -ItemType File -Force -ErrorAction SilentlyContinue | Out-Null",
+        "}"
+    ],
+    "shortcuts": [
+        [
+            "GuoheView.exe",
+            "果核看图"
+        ]
+    ],
+    "persist": [
+        "config.ini",
+        "plugins",
+        "portable.ini"
+    ],
+    "pre_uninstall": [
+        "$bucket = $install.bucket",
+        ". \"$bucketsdir\\$bucket\\bin\\utils.ps1\"",
+        "Stop-App"
+    ],
+    "checkver": {
+        "script": [
+            "$response = Invoke-RestMethod -Uri 'https://rj.lovestu.com/download/gh_view'",
+            "$version = \"$($response.data.version).$($response.data.version_code)\"",
+            "$file = $response.data.files | Where-Object { $_.name -like '*.7z' }",
+            "return \"$version=====$($file.md5)=====$($file.url)\""
+        ],
+        "regex": "(.*)=====(?<md5>.*)=====(?<url>.*)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "$matchUrl#/dl.7z",
+                "hash": {
+                    "url": "https://httpbin.org/get?md5=$matchMd5",
+                    "jsonpath": "$.args.md5"
+                }
+            }
+        }
     }
-  }
 }

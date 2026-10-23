@@ -1,0 +1,29 @@
+{
+    "version": "master",
+    "description": "Automated NoSQL database enumeration and web application exploitation tool.",
+    "homepage": "https://github.com/codingo/NoSQLMap",
+    "license": " GPL-3.0",
+    "suggest": {
+        "python": [
+            "miniconda3"
+        ]
+    },
+    "url": "https://github.com/codingo/NoSQLMap/archive/refs/heads/master.zip",
+    "extract_dir": "nosqlmap-master",
+    "pre_install": [
+        "Set-Content \"$dir\\nosqlmap.bat\" '@pushd %~dp0",
+        "@call activate python2env",
+        "@python nosqlmap.py %*",
+        "@popd' -Encoding Ascii"
+    ],
+    "post_install": [
+        "& cmd /c \"call activate python2env && pip install couchdb pbkdf2 pymongo ipcalc\""
+    ],
+    "bin": "nosqlmap.bat",
+    "notes": [
+        "【工具类型】: 安全测试工具",
+        "【主要功能】: NoSQL数据库自动枚举和Web应用漏洞利用工具",
+        "【适用场景】: NoSQL注入测试、数据库审计、渗透测试",
+        "【技术特点】: Python开发，命令行工具，需要Python2环境"
+    ]
+}
