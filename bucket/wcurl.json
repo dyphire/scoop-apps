@@ -1,5 +1,5 @@
 {
-    "version": "2024-07-02",
+    "version": "2026.10.12",
     "homepage": "https://salsa.debian.org/debian/wcurl",
     "description": "a simple wrapper around curl to easily download files",
     "license": {
@@ -7,22 +7,27 @@
         "url": "https://github.com/Debian/wcurl?tab=License-1-ov-file"
     },
     "url": [
-        "https://github.com/Debian/wcurl/raw/main/wcurl",
-        "https://github.com/Debian/wcurl/raw/main/wcurl.1",
-        "https://github.com/Debian/wcurl/raw/main/README.md"
+        "https://github.com/Debian/wcurl/releases/download/v$version/wcurl",
+        "https://github.com/Debian/wcurl/releases/download/v$version/wcurl.1"
     ],
     "hash": [
-        "02de86d59323bd3261b9aa5ad9b56048b8c7b7b407a40ee25fe00f94a2c505d9",
-        "672524105464c4401caea11ab3b79ffc506626b9a7752b1b00e2c2350afb7811",
-        "064584135d329f6c25a001663f9192fe1d94ae16e12f3234212b1bcd8d92f2bd"
+        "7aa2b82925e314578fff272bf6775a6e56f891182b42e11a3ecfd2cac5ea3927",
+        "2daab71a7d7efdf5ea0621d84791e54b8ee5e2bb6ad22274d9b00915b37c110b"
     ],
     "installer": {
         "script": [
-            "Set-Content \"$dir\\wcurl.bat\" '@for /f %%i in ('scoop prefix git') do @%%i\\bin\\bash.exe %~dp0\\wcurl %*' -Encoding ASCII",
+            "Set-Content \"$dir\\wcurl.bat\" '@for /f %%i in ('scoop prefix git') do @%%i\\bin\\bash.exe %~dp0wcurl %*' -Encoding ASCII"
         ]
     },
     "bin": "wcurl.bat",
     "checkver": {
-        "github": "https://github.com/Debian/wcurl"
+        "github": "https://github.com/Debian/wcurl",
+        "regex": "v?([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": [
+            "https://github.com/Debian/wcurl/releases/download/v$version/wcurl",
+            "https://github.com/Debian/wcurl/releases/download/v$version/wcurl.1"
+        ]
     }
 }
