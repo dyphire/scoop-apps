@@ -1,0 +1,16 @@
+{
+  "version": "main",
+  "description": "HaE (Highlighter and Extractor)：基于多引擎自定义正则对 HTTP/WS 请求响应报文进行精细打标与信息提取的 Burp Suite 插件，提升漏洞与数据分析效率。",
+  "homepage": "https://github.com/overspace-labs/HaENet.git",
+  "license": "Unknown",
+  "url": "https://github.com/overspace-labs/HaENet/archive/HEAD.zip",
+  "checkver": {
+    "github": "https://github.com/overspace-labs/HaENet.git"
+  },
+  "autoupdate": {
+    "url": "https://github.com/overspace-labs/HaENet/archive/HEAD.zip",
+    "hash": {
+      "mode": "github"
+    }
+  }
+}
