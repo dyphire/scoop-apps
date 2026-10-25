@@ -1,16 +1,16 @@
 {
-    "version": "2.1.17",
+    "version": "2.1.19",
     "description": "A terminal for coding agents with persistent sessions and a scriptable CLI.",
     "homepage": "https://kero.sh/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/egoist/kero/releases/download/v2.1.17/kero-2.1.17-windows-amd64.tar.gz",
-            "hash": "3912aae078b9d950a3eecb664850f78337c992e89fcdc391a6f301bdbbf22582"
+            "url": "https://github.com/egoist/kero/releases/download/v2.1.19/kero-2.1.19-windows-amd64.tar.gz",
+            "hash": "4585b62de7c5f1fea1e274952affe4a00c49d0724b976823ab10e633290eec7f"
         },
         "arm64": {
-            "url": "https://github.com/egoist/kero/releases/download/v2.1.17/kero-2.1.17-windows-arm64.tar.gz",
-            "hash": "33eec9a32abb1d210af9531cc5b89cdeb69ffabe2b2ccfbc1a65bd0cef9db795"
+            "url": "https://github.com/egoist/kero/releases/download/v2.1.19/kero-2.1.19-windows-arm64.tar.gz",
+            "hash": "16d45a64d100831ddc0b2f8e6dc7cfef2cdd4fca8215c5e32af16a8c4fb22ecc"
         }
     },
     "bin": "Kero.exe",
