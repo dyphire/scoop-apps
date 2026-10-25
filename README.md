@@ -70,9 +70,9 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - Qv2ray/mochi
 - TheRandomLabs/Scoop-Bucket
 - DoveBoy/Apps
+- hu3rror/scoop-muggle
 - EFLKumo/jam
 - zhoujin7/tomato
-- hu3rror/scoop-muggle
 - wzv5/ScoopBucket
 - TheRandomLabs/Scoop-Python
 - amorphobia/siku
