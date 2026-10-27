@@ -1,5 +1,5 @@
 {
-    "version": "3.0.1.12_3",
+    "version": "3.0.2.17",
     "description": "微信输入法",
     "homepage": "https://z.weixin.qq.com/",
     "license": "Freeware",
@@ -9,12 +9,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://download.z.weixin.qq.com/app/win/WeTypeSetup_3.0.1.12_3.exe#/WeTypeSetup.exe",
-            "hash": "c46ff212e8565b329e66290baadfe02a540e71cb2f06f9c29581820e40176ae6"
+            "url": "https://download.z.weixin.qq.com/app/win/WeTypeSetup_3.0.2.17.exe#/WeTypeSetup.exe",
+            "hash": "c42cb33479230faf0feac8fa054666a7ddc34e469f503817b68961c0aa13e5e3"
         },
         "arm64": {
-            "url": "https://download.z.weixin.qq.com/app/win/WeTypeSetup_3.0.1.12_3.exe#/WeTypeSetup.exe",
-            "hash": "c46ff212e8565b329e66290baadfe02a540e71cb2f06f9c29581820e40176ae6"
+            "url": "https://download.z.weixin.qq.com/app/win/WeTypeSetup_3.0.2.17.exe#/WeTypeSetup.exe",
+            "hash": "c42cb33479230faf0feac8fa054666a7ddc34e469f503817b68961c0aa13e5e3"
         }
     },
     "installer": {
