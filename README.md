@@ -118,6 +118,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - maboloshi/scoop-private
 - natecohen/scoop-av
 - typst-community/scoop-bucket
+- bright-angel/scoop-bucket
 - KnotUntied/scoop-fonts
 - BenjaminMichaelis/Config
 - p8rdev/scoop-portableapps
@@ -127,7 +128,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - MCOfficer/scoop-bucket
 - littleli/Scoop-AtariEmulators
 - Dicklesworthstone/scoop-bucket
-- bright-angel/scoop-bucket
 - beer-psi/scoop-bucket
 - littleli/Scoop-littleli
 - yuusakuri/scoop-bucket
