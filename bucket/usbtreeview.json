@@ -1,6 +1,6 @@
 {
     "version": "4.8.0",
-    "description": "USB Device Tree Viewer is an USB information tool for Windows.",
+    "description": "USB Device Tree Viewer",
     "homepage": "https://www.uwe-sieber.de/usbtreeview_e.html",
     "license": "Freeware",
     "architecture": {
@@ -17,17 +17,16 @@
             "hash": "355ef6d8dcb8cc6588c8ba9e6dac8992ec030253b2a7b2e8fa02416dc6bf2b8f"
         }
     },
+    "pre_install": "if (!(Test-Path \"$persist_dir\\UsbTreeView.ini\")) { New-Item \"$dir\\UsbTreeView.ini\" | Out-Null }",
+    "bin": "UsbTreeView.exe",
     "shortcuts": [
         [
             "UsbTreeView.exe",
             "USB Device Tree Viewer"
         ]
     ],
-    "pre_install": "if (!(Test-Path \"$persist_dir\\UsbTreeView.ini\")) { Set-Content -Encoding ASCII -Path \"$dir\\UsbTreeView.ini\" -Value $null }",
     "persist": "UsbTreeView.ini",
-    "checkver": {
-        "regex": "USB Device Tree Viewer V([\\d.]+)"
-    },
+    "checkver": "USB Device Tree Viewer V([\\d.]+)",
     "autoupdate": {
         "architecture": {
             "64bit": {
