@@ -94,13 +94,13 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - Darkatse/Scoop-Darkatse
 - AStupidBear/scoop-bear
 - Weidows-projects/scoop-3rd
+- mo-san/scoop-bucket
 - ocodo/wezterm-alt-windows-icon-builds
 - TianXiaTech/scoop-txt
 - 42wim/scoop-bucket
 - iquiw/scoop-bucket
 - starise/Scoop-Gaming
 - starise/Scoop-Confetti
-- mo-san/scoop-bucket
 - seumsc/scoop-seu
 - mogeko/scoop-sysinternals
 - babo4d/scoop-xrtools
