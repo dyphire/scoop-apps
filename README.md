@@ -112,6 +112,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - excitoon/scoop-user
 - alextwothousand/scoop-bucket
 - LaelLuo/scoop
+- p8rdev/scoop-portableapps
 - Toddli468/Pentest-Scoop-Bucket
 - 404NetworkError/scoop-bucket
 - aoisummer/scoop-bucket
@@ -121,7 +122,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - bright-angel/scoop-bucket
 - KnotUntied/scoop-fonts
 - BenjaminMichaelis/Config
-- p8rdev/scoop-portableapps
 - AntonOks/scoop-aoks
 - Deide/deide-bucket
 - HUMORCE/nuke
