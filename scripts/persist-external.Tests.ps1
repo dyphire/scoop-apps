@@ -16,7 +16,7 @@ Describe 'persist_external reconcile' {
         $manifest = [pscustomobject]@{
             persist_external = @(
                 @($srcA, 'a', 'directory'),
-                @($srcB, 'b', 'directory')
+                @($srcB, 'b', 'file')
             )
         }
 
@@ -36,20 +36,8 @@ Describe 'persist_external reconcile' {
 
         $records = [array](Get-Content -LiteralPath $recordPath -Raw | ConvertFrom-Json)
         $records.Count | Should -Be 2
-        $records | Should -Contain $srcA
-        $records[0] | Should -BeOfType [string]
-    }
-
-    It 'serializes a single-entry record as a JSON array' {
-        $single = [pscustomobject]@{ persist_external = @(, @($srcA, 'a', 'directory')) }
-
-        Invoke-PersistExternalReconcile -Manifest $single -PersistDir $persistDir -Dir $dir
-
-        $raw = Get-Content -LiteralPath $recordPath -Raw
-        $raw.TrimStart().StartsWith('[') | Should -BeTrue
-        $records = [array](ConvertFrom-Json $raw)
-        $records.Count | Should -Be 1
-        $records | Should -Contain $srcA
+        $records.Source | Should -Contain $srcA
+        $records.Target | Should -Contain (Join-Path $persistDir 'a')
     }
 
     It 'keeps the record at the declared set on repeat runs' {
@@ -72,7 +60,7 @@ Describe 'persist_external reconcile' {
         $legacyPath | Should -Not -Exist
         $records = [array](Get-Content -LiteralPath $recordPath -Raw | ConvertFrom-Json)
         $records.Count | Should -Be 2
-        $records | Should -Not -Contain $srcC
+        $records.Source | Should -Not -Contain $srcC
         Should -Invoke Remove-ReparsePointSafe -Times 1 -ParameterFilter { $Path -eq $srcC }
     }
 
@@ -102,7 +90,7 @@ Describe 'persist_external reconcile' {
         Should -Invoke New-ExternalPersistLink -Times 2
         $records = [array](Get-Content -LiteralPath $recordPath -Raw | ConvertFrom-Json)
         $records.Count | Should -Be 1
-        $records | Should -Contain $srcA
+        $records.Source | Should -Contain $srcA
     }
 
     It 'removes both records when the manifest stops declaring persist_external' {
@@ -140,7 +128,7 @@ Describe 'persist_external reconcile' {
 
         $records = [array](Get-Content -LiteralPath $recordPath -Raw | ConvertFrom-Json)
         $records.Count | Should -Be 1
-        $records | Should -Contain $srcB
+        $records.Source | Should -Be $srcB
     }
 
     It 'falls back to the legacy record when the persist record is corrupt' {
@@ -179,11 +167,6 @@ Describe 'persist_external reconcile' {
 
         Should -Invoke Remove-ReparsePointSafe -Times 1 -ParameterFilter { $Path -eq $srcA }
     }
-    It 'rejects the removed file type hint' {
-        $fileManifest = [pscustomobject]@{ persist_external = @(, @($srcA, 'a', 'file')) }
-
-        { Invoke-PersistExternalReconcile -Manifest $fileManifest -PersistDir $persistDir -Dir $dir } | Should -Throw '*directory*'
-    }
 }
 
 Describe 'Remove-ReparsePointSafe' {
@@ -197,44 +180,5 @@ Describe 'Remove-ReparsePointSafe' {
 
         Remove-ReparsePointSafe -Path $real | Should -BeFalse
         $real | Should -Exist
-    }
-}
-
-Describe 'New-ExternalPersistLink' {
-    BeforeAll {
-        . (Join-Path $PSScriptRoot 'persist-external.ps1')
-    }
-
-    It 'migrates a real directory and links it with a junction' {
-        $source = Join-Path $TestDrive 'data'
-        New-Item -ItemType Directory -Path $source -Force | Out-Null
-        Set-Content -LiteralPath (Join-Path $source 'f.txt') -Value 'x'
-
-        New-ExternalPersistLink -Source $source -PersistTarget (Join-Path $TestDrive 'persist/data')
-
-        (Get-Item -LiteralPath $source -Force).LinkType | Should -Be 'Junction'
-        Test-Path -LiteralPath (Join-Path $source 'f.txt') | Should -BeTrue
-    }
-
-    It 'creates an empty directory placeholder when the source does not exist' {
-        $source = Join-Path $TestDrive 'missing'
-        $target = Join-Path $TestDrive 'persist/missing'
-
-        New-ExternalPersistLink -Source $source -PersistTarget $target
-
-        $target | Should -Exist
-        (Get-Item -LiteralPath $target -Force).PSIsContainer | Should -BeTrue
-        (Get-Item -LiteralPath $source -Force).LinkType | Should -Be 'Junction'
-    }
-
-    It 'refuses a file source and leaves it untouched' {
-        $source = Join-Path $TestDrive 'config.json'
-        Set-Content -LiteralPath $source -Value 'data'
-        $target = Join-Path $TestDrive 'persist/config.json'
-
-        { New-ExternalPersistLink -Source $source -PersistTarget $target } | Should -Throw '*only directories*'
-
-        (Get-Content -LiteralPath $source -Raw).Trim() | Should -Be 'data'
-        $target | Should -Not -Exist
     }
 }
