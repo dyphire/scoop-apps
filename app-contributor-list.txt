@@ -193,6 +193,7 @@ dpanel-desktop-ce.json    ScoopInstaller/Extras
 uninstalr.json    ScoopInstaller/Extras
 jmeter-pm.json    ScoopInstaller/Extras
 dartium.json    ScoopInstaller/Extras
+noctis.json    ScoopInstaller/Extras
 86box.json    ScoopInstaller/Extras
 texstudio.json    ScoopInstaller/Extras
 shadowsocks.json    ScoopInstaller/Extras
@@ -1346,6 +1347,7 @@ butterfly.json    ScoopInstaller/Extras
 tracy.json    ScoopInstaller/Extras
 renderdoc.json    ScoopInstaller/Extras
 lagrange.json    ScoopInstaller/Extras
+openidea.json    ScoopInstaller/Extras
 qbittorrent.json    ScoopInstaller/Extras
 magpie-ai.json    ScoopInstaller/Extras
 quassel.json    ScoopInstaller/Extras
@@ -4400,6 +4402,7 @@ postman9.json    ScoopInstaller/Versions
 oh-my-posh2.json    ScoopInstaller/Versions
 php81.json    ScoopInstaller/Versions
 handbrake-snapshot.json    ScoopInstaller/Versions
+sophia-script-ps7.json    ScoopInstaller/Versions
 xournalpp-nightly.json    ScoopInstaller/Versions
 helium-pre.json    ScoopInstaller/Versions
 cuda8.0.json    ScoopInstaller/Versions
@@ -4506,6 +4509,7 @@ android-studio-beta.json    ScoopInstaller/Versions
 linqpad5.json    ScoopInstaller/Versions
 nodejs012.json    ScoopInstaller/Versions
 openvpn-w7.json    ScoopInstaller/Versions
+cuda13.5.json    ScoopInstaller/Versions
 python27.json    ScoopInstaller/Versions
 godot-mono-rc.json    ScoopInstaller/Versions
 sumatrapdf-pre.json    ScoopInstaller/Versions
@@ -4516,6 +4520,7 @@ con-terminal-beta.json    ScoopInstaller/Versions
 buck2-pre.json    ScoopInstaller/Versions
 ki-editor-master.json    ScoopInstaller/Versions
 kate-nightly.json    ScoopInstaller/Versions
+nodejs27.json    ScoopInstaller/Versions
 librehardwaremonitor-dotnet10.json    ScoopInstaller/Versions
 idea-ultimate-eap.json    ScoopInstaller/Versions
 ollama-rocm.json    ScoopInstaller/Versions
@@ -4555,6 +4560,7 @@ subtitleedit4.json    ScoopInstaller/Versions
 dotnet3-sdk.json    ScoopInstaller/Versions
 ruffle-nightly.json    ScoopInstaller/Versions
 cuda10.0.json    ScoopInstaller/Versions
+sophia-script-win10-ps7.json    ScoopInstaller/Versions
 multipar-beta.json    ScoopInstaller/Versions
 tomcat11.json    ScoopInstaller/Versions
 zed-pre.json    ScoopInstaller/Versions
@@ -4571,6 +4577,7 @@ zip-beta.json    ScoopInstaller/Versions
 winpython37.json    ScoopInstaller/Versions
 python37.json    ScoopInstaller/Versions
 dataspell-rc.json    ScoopInstaller/Versions
+sophia-script-ltsc2021.json    ScoopInstaller/Versions
 bottom-nightly.json    ScoopInstaller/Versions
 ruby25.json    ScoopInstaller/Versions
 godot-mono-dev.json    ScoopInstaller/Versions
@@ -4584,6 +4591,7 @@ inkscape-dev.json    ScoopInstaller/Versions
 webstorm-eap.json    ScoopInstaller/Versions
 cuda7.5.json    ScoopInstaller/Versions
 winpython38cod.json    ScoopInstaller/Versions
+sophia-script-ltsc2019.json    ScoopInstaller/Versions
 edgedriver-canary.json    ScoopInstaller/Versions
 mps-eap.json    ScoopInstaller/Versions
 smplayer-with-smtube.json    ScoopInstaller/Versions
@@ -4816,6 +4824,7 @@ go116.json    ScoopInstaller/Versions
 python36.json    ScoopInstaller/Versions
 gn.json    ScoopInstaller/Versions
 ruby27.json    ScoopInstaller/Versions
+sophia-script-win10.json    ScoopInstaller/Versions
 oracle-instant-client-sdk19.json    ScoopInstaller/Versions
 tabby-agent-cuda.json    ScoopInstaller/Versions
 php54.json    ScoopInstaller/Versions
@@ -4854,6 +4863,7 @@ whisper.cpp-blas.json    ScoopInstaller/Versions
 git-flow-next-pre.json    ScoopInstaller/Versions
 omnisharp-http-net6.json    ScoopInstaller/Versions
 sunshine-pre.json    ScoopInstaller/Versions
+tixl-pre.json    ScoopInstaller/Versions
 cuda6.json    ScoopInstaller/Versions
 de4dot-net45.json    ScoopInstaller/Versions
 winpython3741.json    ScoopInstaller/Versions
@@ -4875,6 +4885,7 @@ fluentcleaner-classic.json    ScoopInstaller/Versions
 sumatrapdf-installer.json    ScoopInstaller/Versions
 ollama-mlx.json    ScoopInstaller/Versions
 sql-workbench-dev.json    ScoopInstaller/Versions
+sophia-script-ltsc2024.json    ScoopInstaller/Versions
 bun-canary.json    ScoopInstaller/Versions
 maven4.json    ScoopInstaller/Versions
 nodejs10.json    ScoopInstaller/Versions
@@ -4896,6 +4907,7 @@ lightshot.json    ScoopInstaller/Versions
 espanso-pre.json    ScoopInstaller/Versions
 obs-studio28.json    ScoopInstaller/Versions
 love7.json    ScoopInstaller/Versions
+sophia-script-ltsc2024-ps7.json    ScoopInstaller/Versions
 avidemux-nightly.json    ScoopInstaller/Versions
 cuda11.4.json    ScoopInstaller/Versions
 mingw-winlibs-llvm-ucrt.json    ScoopInstaller/Versions
@@ -32117,6 +32129,7 @@ cloudflared.json    DoveBoy/Apps
 winscript_DoveBoy.json    DoveBoy/Apps
 gitalias_DoveBoy.json    DoveBoy/Apps
 readany_DoveBoy.json    DoveBoy/Apps
+nectarlink.json    DoveBoy/Apps
 jenny_DoveBoy.json    DoveBoy/Apps
 linkandroid_DoveBoy.json    DoveBoy/Apps
 any-listen-desktop-legacy_DoveBoy.json    DoveBoy/Apps
@@ -32642,6 +32655,7 @@ aya_DoveBoy.json    DoveBoy/Apps
 imfile-portable_DoveBoy.json    DoveBoy/Apps
 subtitle-ass-shifter_DoveBoy.json    DoveBoy/Apps
 mgtv_DoveBoy.json    DoveBoy/Apps
+mpv-git_DoveBoy.json    DoveBoy/Apps
 posh-git_DoveBoy.json    DoveBoy/Apps
 sshwifty_DoveBoy.json    DoveBoy/Apps
 nomeiryoui_DoveBoy.json    DoveBoy/Apps
@@ -32761,6 +32775,7 @@ picacomic-downloader-portable_DoveBoy.json    DoveBoy/Apps
 lemonpush_DoveBoy.json    DoveBoy/Apps
 officetoolplus-with-runtime_DoveBoy.json    DoveBoy/Apps
 voice-pro_DoveBoy.json    DoveBoy/Apps
+nectarlink-pre.json    DoveBoy/Apps
 clumsy_DoveBoy.json    DoveBoy/Apps
 ofgb_DoveBoy.json    DoveBoy/Apps
 microsoft-activation-scripts_DoveBoy.json    DoveBoy/Apps
@@ -32908,6 +32923,7 @@ slk-img2pixel_hu3rror.json    hu3rror/scoop-muggle
 ropy_hu3rror.json    hu3rror/scoop-muggle
 sonora_hu3rror.json    hu3rror/scoop-muggle
 mobaxterm-sp_hu3rror.json    hu3rror/scoop-muggle
+eglantine.json    hu3rror/scoop-muggle
 notepad3_hu3rror.json    hu3rror/scoop-muggle
 goldendict-ng_hu3rror.json    hu3rror/scoop-muggle
 kopiaui_hu3rror.json    hu3rror/scoop-muggle
@@ -32949,10 +32965,12 @@ DocBox_hu3rror.json    hu3rror/scoop-muggle
 chromium-np_hu3rror.json    hu3rror/scoop-muggle
 acttools_hu3rror.json    hu3rror/scoop-muggle
 witsy_hu3rror.json    hu3rror/scoop-muggle
+zed_hu3rror.json    hu3rror/scoop-muggle
 cloudmusic-green_hu3rror.json    hu3rror/scoop-muggle
 PicaComic_hu3rror.json    hu3rror/scoop-muggle
 nvidia-profile-inspector-pre_hu3rror.json    hu3rror/scoop-muggle
 dota2_ahk_hu3rror.json    hu3rror/scoop-muggle
+eglantine-pgo.json    hu3rror/scoop-muggle
 heynote_hu3rror.json    hu3rror/scoop-muggle
 zorite_hu3rror.json    hu3rror/scoop-muggle
 mihomo-shawl-service_hu3rror.json    hu3rror/scoop-muggle
@@ -34950,6 +34968,7 @@ g-np_batkiz.json    batkiz/backit
 tinytex-extra_batkiz.json    batkiz/backit
 go-unstable_batkiz.json    batkiz/backit
 bilibili-toolkit_batkiz.json    batkiz/backit
+elyterminal_batkiz.json    batkiz/backit
 kscan_batkiz.json    batkiz/backit
 lite_batkiz.json    batkiz/backit
 hgrep_batkiz.json    batkiz/backit
@@ -35021,6 +35040,7 @@ goimports-reviser_batkiz.json    batkiz/backit
 fsql_batkiz.json    batkiz/backit
 g.json    batkiz/backit
 RevokeMsgPatcher_batkiz.json    batkiz/backit
+menubarmijia.json    batkiz/backit
 redis-viewer_batkiz.json    batkiz/backit
 codex-tools_batkiz.json    batkiz/backit
 animeko_batkiz.json    batkiz/backit
@@ -35651,6 +35671,7 @@ Dependency-Walker_Weidows-projects.json    Weidows-projects/scoop-3rd
 Bongocat-Mver_Weidows-projects.json    Weidows-projects/scoop-3rd
 Adwaita-for-Steam_Weidows-projects.json    Weidows-projects/scoop-3rd
 Jvedio_Weidows-projects.json    Weidows-projects/scoop-3rd
+FlyDisk.json    Weidows-projects/scoop-3rd
 bw_add_sshkeys_Weidows-projects.json    Weidows-projects/scoop-3rd
 UltraUXThemePatcher_Weidows-projects.json    Weidows-projects/scoop-3rd
 brimdeck_Weidows-projects.json    Weidows-projects/scoop-3rd
@@ -36540,6 +36561,7 @@ thunderbird-zh-cn_cc713.json    cc713/ownscoop
 MTool_cc713.json    cc713/ownscoop
 qimgv-video_cc713.json    cc713/ownscoop
 NeeView_cc713.json    cc713/ownscoop
+kazumi_cc713.json    cc713/ownscoop
 ContextMenuManagerPlus_cc713.json    cc713/ownscoop
 VoiceStudio_cc713.json    cc713/ownscoop
 aaru_cc713.json    cc713/ownscoop
@@ -37349,6 +37371,7 @@ oh-my-pi.json    LaelLuo/scoop
 droid_LaelLuo.json    LaelLuo/scoop
 codekanban_LaelLuo.json    LaelLuo/scoop
 zcode_LaelLuo.json    LaelLuo/scoop
+project-graph_LaelLuo.json    LaelLuo/scoop
 trae-cn_LaelLuo.json    LaelLuo/scoop
 autoclaw_LaelLuo.json    LaelLuo/scoop
 bun_LaelLuo.json    LaelLuo/scoop
@@ -39453,6 +39476,7 @@ undelete_plus-aoks_AntonOks.json    AntonOks/scoop-aoks
 logseq-aoks_AntonOks.json    AntonOks/scoop-aoks
 gickup-aoks_AntonOks.json    AntonOks/scoop-aoks
 s5cmd-aoks_AntonOks.json    AntonOks/scoop-aoks
+jujutsu-aoks_AntonOks.json    AntonOks/scoop-aoks
 setacl-aoks_AntonOks.json    AntonOks/scoop-aoks
 _AntonOks.json-cli-aoks.json    AntonOks/scoop-aoks
 vcluster-aoks_AntonOks.json    AntonOks/scoop-aoks
