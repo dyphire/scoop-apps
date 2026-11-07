@@ -83,9 +83,9 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - kengwang/scoop-ctftools-bucket
 - brian6932/dank-scoop
 - Small-Ku/turbo-bucket
+- Scoopforge/Extras-Plus
 - ygguorun/scoop-bucket
 - noql-net/scoop
-- Scoopforge/Extras-Plus
 - SayCV/scoop-cvp
 - batkiz/backit
 - aliesbelik/poldi
@@ -120,7 +120,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - maboloshi/scoop-private
 - natecohen/scoop-av
 - typst-community/scoop-bucket
-- bright-angel/scoop-bucket
 - KnotUntied/scoop-fonts
 - BenjaminMichaelis/Config
 - Deide/deide-bucket
@@ -128,6 +127,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - MCOfficer/scoop-bucket
 - littleli/Scoop-AtariEmulators
 - Dicklesworthstone/scoop-bucket
+- bright-angel/scoop-bucket
 - beer-psi/scoop-bucket
 - littleli/Scoop-littleli
 - yuusakuri/scoop-bucket
