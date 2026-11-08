@@ -71,8 +71,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - TheRandomLabs/Scoop-Bucket
 - DoveBoy/Apps
 - hu3rror/scoop-muggle
-- EFLKumo/jam
 - zhoujin7/tomato
+- EFLKumo/jam
 - wzv5/ScoopBucket
 - TheRandomLabs/Scoop-Python
 - amorphobia/siku
@@ -80,10 +80,10 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - naderi/scoop-bucket
 - NyaMisty/scoopbucketmisty
 - WinApps-share/WinApps-bucket
+- Scoopforge/Extras-Plus
 - kengwang/scoop-ctftools-bucket
 - brian6932/dank-scoop
 - Small-Ku/turbo-bucket
-- Scoopforge/Extras-Plus
 - ygguorun/scoop-bucket
 - noql-net/scoop
 - SayCV/scoop-cvp
@@ -108,6 +108,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - AkariiinMKII/Scoop4kariiin
 - Toddli468/Pentest-Scoop-Bucket
 - cc713/ownscoop
+- maboloshi/scoop-private
 - krproject/qi-windows
 - rivy/scoop-bucket
 - excitoon/scoop-user
@@ -117,7 +118,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - AntonOks/scoop-aoks
 - 404NetworkError/scoop-bucket
 - aoisummer/scoop-bucket
-- maboloshi/scoop-private
 - natecohen/scoop-av
 - typst-community/scoop-bucket
 - KnotUntied/scoop-fonts
