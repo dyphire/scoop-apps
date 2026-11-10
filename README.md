@@ -128,6 +128,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - littleli/Scoop-AtariEmulators
 - Dicklesworthstone/scoop-bucket
 - bright-angel/scoop-bucket
+- Myraxion/Rojem-Scoop
 - beer-psi/scoop-bucket
 - littleli/Scoop-littleli
 - yuusakuri/scoop-bucket

@@ -1,0 +1,37 @@
+{
+    "version": "4.0.2",
+    "description": "Fast, lightweight Markdown and Mermaid viewer.",
+    "homepage": "https://tinta.cc",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/oipoistar/tinta/releases/download/v4.0.2/tinta.exe",
+            "hash": "b4e7bf9d404fa5eca32f8c2295c5118ba26163e2477fde69289ae88e775a8ec8"
+        }
+    },
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\settings.ini\")) { New-Item -Path \"$persist_dir\\settings.ini\" -ItemType File -Force | Out-Null }",
+        "if (!(Test-Path \"$persist_dir\\themes.ini\")) { New-Item -Path \"$persist_dir\\themes.ini\" -ItemType File -Force | Out-Null }"
+    ],
+    "shortcuts": [
+        [
+            "tinta.exe",
+            "Tinta"
+        ]
+    ],
+    "persist": [
+        "settings.ini",
+        "themes.ini",
+        "drafts"
+    ],
+    "checkver": {
+        "github": "https://github.com/oipoistar/tinta"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/oipoistar/tinta/releases/download/v$version/tinta.exe"
+            }
+        }
+    }
+}
