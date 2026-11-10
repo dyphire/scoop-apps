@@ -1,0 +1,25 @@
+{
+  "$schema": "https://raw.githubusercontent.com/editorconfig-checker/editorconfig-checker/v4.0.2/.editorconfig-checker.schema.json",
+  "$comment": "Copied from: rasa/dotfiles/.github/linters/.editorconfig-checker.json",
+  "$comment2": "EDIT THE ABOVE FILE, NOT THIS COPY, OR YOUR CHANGES WILL BE LOST!",
+  "Verbose": false,
+  "Debug": false,
+  "IgnoreDefaults": false,
+  "SpacesAfterTabs": false,
+  "NoColor": true,
+  "Exclude": [
+    "go.mod",
+    "go sum"
+  ],
+  "AllowedContentTypes": [],
+  "PassedFiles": [],
+  "Disable": {
+    "Charset": false,
+    "EndOfLine": false,
+    "Indentation": false,
+    "IndentSize": false,
+    "InsertFinalNewline": false,
+    "MaxLineLength": false,
+    "TrimTrailingWhitespace": false
+  }
+}
