@@ -1,0 +1,45 @@
+{
+    "version": "0.5.0",
+    "description": "An open-source, 3D texture painting workflow written from scratch in pure Rust.",
+    "homepage": "https://getartcraft.com/apps/texturecraft",
+    "license": "MIT|Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/storytold/texturecraft/releases/download/v0.5.0/texturecraft-0.5.0-windows-x64-portable.zip",
+            "hash": "b9c0ee967b8c304e8b3d2f07708b295bc4847995e77eee2f3f3ead4bbe4ab7b7",
+            "extract_dir": "texturecraft-0.5.0-windows-x64-portable"
+        },
+        "arm64": {
+            "url": "https://github.com/storytold/texturecraft/releases/download/v0.5.0/texturecraft-0.5.0-windows-arm64-portable.zip",
+            "hash": "55efdabd28eb753589b151d1aeeaf2f0df153133a499e029f4a0c54741bcc58a",
+            "extract_dir": "texturecraft-0.5.0-windows-arm64-portable"
+        }
+    },
+    "bin": "texturecraft-cli.exe",
+    "shortcuts": [
+        [
+            "texturecraft.exe",
+            "TextureCraft"
+        ]
+    ],
+    "checkver": {
+        "github": "https://api.github.com/repos/storytold/texturecraft/releases",
+        "jp": "$[0].tag_name",
+        "regex": "v([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/storytold/texturecraft/releases/download/v$version/texturecraft-$version-windows-x64-portable.zip",
+                "extract_dir": "texturecraft-$version-windows-x64-portable"
+            },
+            "arm64": {
+                "url": "https://github.com/storytold/texturecraft/releases/download/v$version/texturecraft-$version-windows-arm64-portable.zip",
+                "extract_dir": "texturecraft-$version-windows-arm64-portable"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/SHA256SUMS.txt"
+        }
+    }
+}

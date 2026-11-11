@@ -1,0 +1,45 @@
+{
+    "version": "0.3.0",
+    "description": "An open-source, node-based material designer written from scratch in pure Rust.",
+    "homepage": "https://getartcraft.com/apps/materialcraft",
+    "license": "MIT|Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/storytold/materialcraft/releases/download/v0.3.0/materialcraft-0.3.0-windows-x64-portable.zip",
+            "hash": "2748b5cf7984d9fc25ec087d7ef66124bcbf30fffdf7c5c2aa76c03de1177c0e",
+            "extract_dir": "materialcraft-0.3.0-windows-x64-portable"
+        },
+        "arm64": {
+            "url": "https://github.com/storytold/materialcraft/releases/download/v0.3.0/materialcraft-0.3.0-windows-arm64-portable.zip",
+            "hash": "535fc4698c457e10aa7276a88b0c5c1fe608862ab3701c2d5ca80816d2957350",
+            "extract_dir": "materialcraft-0.3.0-windows-arm64-portable"
+        }
+    },
+    "bin": "materialcraft-cli.exe",
+    "shortcuts": [
+        [
+            "materialcraft.exe",
+            "MaterialCraft"
+        ]
+    ],
+    "checkver": {
+        "github": "https://api.github.com/repos/storytold/materialcraft/releases",
+        "jp": "$[0].tag_name",
+        "regex": "v([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/storytold/materialcraft/releases/download/v$version/materialcraft-$version-windows-x64-portable.zip",
+                "extract_dir": "materialcraft-$version-windows-x64-portable"
+            },
+            "arm64": {
+                "url": "https://github.com/storytold/materialcraft/releases/download/v$version/materialcraft-$version-windows-arm64-portable.zip",
+                "extract_dir": "materialcraft-$version-windows-arm64-portable"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/SHA256SUMS.txt"
+        }
+    }
+}
