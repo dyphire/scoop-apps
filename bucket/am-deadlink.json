@@ -1,6 +1,6 @@
 {
     "version": "7.2",
-    "description": "A tool to detect dead links and redirections.",
+    "description": "Check URLs for dead links and redirections.",
     "homepage": "https://www.aignes.com/deadlink.htm",
     "license": "Freeware",
     "architecture": {
@@ -10,16 +10,13 @@
         }
     },
     "innosetup": true,
-    "bin": "deadlink.exe",
     "shortcuts": [
         [
             "deadlink.exe",
             "AM-DeadLink"
         ]
     ],
-    "checkver": {
-        "regex": "AM-DeadLink ([\\d.]+)"
-    },
+    "checkver": ">AM-DeadLink ([\\d.]+)<",
     "autoupdate": {
         "architecture": {
             "64bit": {
