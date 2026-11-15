@@ -86,11 +86,11 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - Small-Ku/turbo-bucket
 - ygguorun/scoop-bucket
 - noql-net/scoop
-- SayCV/scoop-cvp
 - batkiz/backit
 - aliesbelik/poldi
 - Velgus/Scoop-Portapps
 - asimov-platform/scoop-bucket
+- SayCV/scoop-cvp
 - Darkatse/Scoop-Darkatse
 - AStupidBear/scoop-bear
 - Weidows-projects/scoop-3rd
@@ -109,7 +109,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - Toddli468/Pentest-Scoop-Bucket
 - cc713/ownscoop
 - 404NetworkError/scoop-bucket
-- maboloshi/scoop-private
 - krproject/qi-windows
 - rivy/scoop-bucket
 - excitoon/scoop-user
@@ -118,6 +117,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - p8rdev/scoop-portableapps
 - AntonOks/scoop-aoks
 - aoisummer/scoop-bucket
+- maboloshi/scoop-private
 - natecohen/scoop-av
 - typst-community/scoop-bucket
 - KnotUntied/scoop-fonts

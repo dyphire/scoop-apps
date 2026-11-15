@@ -1,16 +1,16 @@
 {
-    "version": "1.1.680",
+    "version": "1.1.682",
     "description": "A moldable development environment.",
     "homepage": "https://gtoolkit.com",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/feenkcom/gtoolkit/releases/download/v1.1.680/GlamorousToolkit-Windows-x86_64-v1.1.680.zip",
-            "hash": "4512320dd9add162c5e75e402e035ef91d9be8419e9824db2d2e980e867b7c5c"
+            "url": "https://github.com/feenkcom/gtoolkit/releases/download/v1.1.682/GlamorousToolkit-Windows-x86_64-v1.1.682.zip",
+            "hash": "7264c84ebd5539414ddfc1f4a80125bd3a47104f132d61a0937cc308b12df755"
         },
         "arm64": {
-            "url": "https://github.com/feenkcom/gtoolkit/releases/download/v1.1.680/GlamorousToolkit-Windows-aarch64-v1.1.680.zip",
-            "hash": "0c3587204c32e4dd36ecc43c53c5b9b1b4b78b823e5d0b77ac749555dd56a2b8"
+            "url": "https://github.com/feenkcom/gtoolkit/releases/download/v1.1.682/GlamorousToolkit-Windows-aarch64-v1.1.682.zip",
+            "hash": "1ccfb893e3783e4d1c92927c49836b14b36fec568b16e3649e58e99fb1243e0c"
         }
     },
     "bin": "bin\\GlamorousToolkit-cli.exe",
