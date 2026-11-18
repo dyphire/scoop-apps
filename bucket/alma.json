@@ -1,5 +1,5 @@
 {
-    "version": "0.4.769",
+    "version": "0.4.796",
     "description": "A powerful harness of its own, and the best herdr GUI.",
     "homepage": "https://alma.now",
     "license": "Proprietary",
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/yetone/alma-releases/releases/download/v0.4.769/alma-0.4.769-win-x64.exe#/dl.7z",
-            "hash": "sha512:c742aa88436ee037219b10e8b8aa2de5d58a7192959275c7315cb5523806423f9c17a8ecc8b7d9a4a413be346394d0a294f487dc556655cb92650351dd68501a",
+            "url": "https://github.com/yetone/alma-releases/releases/download/v0.4.796/alma-0.4.796-win-x64.exe#/dl.7z",
+            "hash": "sha512:ba6420e9a1fb3528dab9dcacc03846adea1d7281f16d518f1b8f710e01ff9ab67c1f5870603e8a81c22fb7e629806eed4ebe0696c07b924346937c8de8dde6f4",
             "installer": {
                 "script": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\" -Force -Recurse"
             }

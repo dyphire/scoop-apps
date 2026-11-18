@@ -111,6 +111,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - 404NetworkError/scoop-bucket
 - krproject/qi-windows
 - rivy/scoop-bucket
+- KnotUntied/scoop-fonts
 - excitoon/scoop-user
 - alextwothousand/scoop-bucket
 - LaelLuo/scoop
@@ -120,7 +121,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - maboloshi/scoop-private
 - natecohen/scoop-av
 - typst-community/scoop-bucket
-- KnotUntied/scoop-fonts
 - BenjaminMichaelis/Config
 - Deide/deide-bucket
 - HUMORCE/nuke
