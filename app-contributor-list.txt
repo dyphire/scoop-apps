@@ -4449,6 +4449,7 @@ taiga-beta.json    ScoopInstaller/Versions
 ffmpeg-shared-nightly.json    ScoopInstaller/Versions
 php81-xdebug.json    ScoopInstaller/Versions
 youtube-dlc.json    ScoopInstaller/Versions
+windowsdesktop-runtime-11.0.json    ScoopInstaller/Versions
 furmark1.json    ScoopInstaller/Versions
 cuda11.0.json    ScoopInstaller/Versions
 tomcat7.json    ScoopInstaller/Versions
@@ -4757,6 +4758,7 @@ herdr-preview.json    ScoopInstaller/Versions
 godot-alpha.json    ScoopInstaller/Versions
 dotnet7-sdk.json    ScoopInstaller/Versions
 zed-nightly.json    ScoopInstaller/Versions
+php86.json    ScoopInstaller/Versions
 windowsdesktop-runtime-10.0.json    ScoopInstaller/Versions
 ngrok2.json    ScoopInstaller/Versions
 spark33.json    ScoopInstaller/Versions
@@ -4771,6 +4773,7 @@ rust-msvc-nightly.json    ScoopInstaller/Versions
 php72-xdebug.json    ScoopInstaller/Versions
 go113.json    ScoopInstaller/Versions
 posh-git-nightly.json    ScoopInstaller/Versions
+php86-nts.json    ScoopInstaller/Versions
 oracle-instant-client-sqlplus19.json    ScoopInstaller/Versions
 deepgit402.json    ScoopInstaller/Versions
 phpstorm-rc.json    ScoopInstaller/Versions
@@ -4964,6 +4967,7 @@ gradle7.json    ScoopInstaller/Versions
 gpac-nightly.json    ScoopInstaller/Versions
 lite-xl-addons.json    ScoopInstaller/Versions
 cuda13.1.json    ScoopInstaller/Versions
+dotnet11-sdk.json    ScoopInstaller/Versions
 cc-switch-pre.json    ScoopInstaller/Versions
 love9.json    ScoopInstaller/Versions
 rtools40.json    ScoopInstaller/Versions
@@ -5865,6 +5869,7 @@ gajim.json    hoilc/scoop-lemon
 darcs.json    hoilc/scoop-lemon
 praises.json    hoilc/scoop-lemon
 incus.json    hoilc/scoop-lemon
+arcmd.json    hoilc/scoop-lemon
 plow.json    hoilc/scoop-lemon
 render-cli.json    hoilc/scoop-lemon
 tuic.json    hoilc/scoop-lemon
@@ -13221,6 +13226,7 @@ instaloader.json    akirco/aki-apps
 httpstat.json    akirco/aki-apps
 upscaler.json    akirco/aki-apps
 marktext_akirco.json    akirco/aki-apps
+crush_akirco.json    akirco/aki-apps
 quarkpan.json    akirco/aki-apps
 simple-live.json    akirco/aki-apps
 tomcat8_akirco.json    akirco/aki-apps
@@ -17594,7 +17600,7 @@ archisteamfarm_HUMORCE.json    cmontage/scoopbucket-third
 archisteamfarm_chawyehsu.json    cmontage/scoopbucket-third
 archive.is_cmontage.json    cmontage/scoopbucket-third
 archwsl_cmontage.json    cmontage/scoopbucket-third
-arcmd.json    cmontage/scoopbucket-third
+arcmd_cmontage.json    cmontage/scoopbucket-third
 arcwelder_cmontage.json    cmontage/scoopbucket-third
 ardent.json    cmontage/scoopbucket-third
 arduino-ide-rc_cmontage.json    cmontage/scoopbucket-third
@@ -34879,8 +34885,10 @@ codex.json    Small-Ku/turbo-bucket
 antigravity-agent_Small-Ku.json    Small-Ku/turbo-bucket
 vencord-installer_Small-Ku.json    Small-Ku/turbo-bucket
 wintun_Small-Ku.json    Small-Ku/turbo-bucket
+clice_Small-Ku.json    Small-Ku/turbo-bucket
 thorium-edge_Small-Ku.json    Small-Ku/turbo-bucket
 compressonator_Small-Ku.json    Small-Ku/turbo-bucket
+clice-edge.json    Small-Ku/turbo-bucket
 audio-cpp-vulkan.json    Small-Ku/turbo-bucket
 antigravity-manager_Small-Ku.json    Small-Ku/turbo-bucket
 zluda3-lshqqytiger-edge_Small-Ku.json    Small-Ku/turbo-bucket
@@ -34911,6 +34919,7 @@ reshade-addon-dll_Small-Ku.json    Small-Ku/turbo-bucket
 stardb-exporter_Small-Ku.json    Small-Ku/turbo-bucket
 endfield-gacha_Small-Ku.json    Small-Ku/turbo-bucket
 natural-voice-sapi-adapter_Small-Ku.json    Small-Ku/turbo-bucket
+schema_Small-Ku.json    Small-Ku/turbo-bucket
 Reso_ygguorun.json    ygguorun/scoop-bucket
 TerminusPlayer_ygguorun.json    ygguorun/scoop-bucket
 ArctimePro_ygguorun.json    ygguorun/scoop-bucket
@@ -35192,6 +35201,7 @@ g.json    batkiz/backit
 RevokeMsgPatcher_batkiz.json    batkiz/backit
 menubarmijia_batkiz.json    batkiz/backit
 redis-viewer_batkiz.json    batkiz/backit
+rheo.json    batkiz/backit
 codex-tools_batkiz.json    batkiz/backit
 animeko_batkiz.json    batkiz/backit
 wayback_batkiz.json    batkiz/backit
@@ -37216,6 +37226,7 @@ appsettings_404NetworkError.json    404NetworkError/scoop-bucket
 rrox_404NetworkError.json    404NetworkError/scoop-bucket
 ondsel-es_404NetworkError.json    404NetworkError/scoop-bucket
 yumi-uefi_404NetworkError.json    404NetworkError/scoop-bucket
+windowsdesktop-runtime-6.0_404NetworkError.json    404NetworkError/scoop-bucket
 ondsel-es-weekly_404NetworkError.json    404NetworkError/scoop-bucket
 yumi-legacy_404NetworkError.json    404NetworkError/scoop-bucket
 windowsdesktop-runtime-7.0_404NetworkError.json    404NetworkError/scoop-bucket
@@ -38181,6 +38192,7 @@ codex-rust_LaelLuo.json    LaelLuo/scoop
 autoglm_LaelLuo.json    LaelLuo/scoop
 t3-code_LaelLuo.json    LaelLuo/scoop
 notion_LaelLuo.json    LaelLuo/scoop
+nightly-patrol.webhook.example.json    LaelLuo/scoop
 HedgewarsPortable_p8rdev.json    p8rdev/scoop-portableapps
 LynxPortable_p8rdev.json    p8rdev/scoop-portableapps
 ConverberPortable_p8rdev.json    p8rdev/scoop-portableapps
@@ -38702,6 +38714,7 @@ VictoriaMetrics-utils-aoks_AntonOks.json    AntonOks/scoop-aoks
 openbao-aoks_AntonOks.json    AntonOks/scoop-aoks
 jstock-aoks_AntonOks.json    AntonOks/scoop-aoks
 setacl_studio-aoks_AntonOks.json    AntonOks/scoop-aoks
+microsoft_safety_scanner-aoks_AntonOks.json    AntonOks/scoop-aoks
 opencode2-aoks_AntonOks.json    AntonOks/scoop-aoks
 scoop-search-aoks_AntonOks.json    AntonOks/scoop-aoks
 chorctl-aoks_AntonOks.json    AntonOks/scoop-aoks
@@ -39169,6 +39182,7 @@ zelda-mm-ultraship_Deide.json    Deide/deide-bucket
 dolphin_Deide.json    Deide/deide-bucket
 nekomata_Deide.json    Deide/deide-bucket
 nopaystation_Deide.json    Deide/deide-bucket
+zelda-ootr-longshot.json    Deide/deide-bucket
 exec_Deide.json    Deide/deide-bucket
 ontopreplica_Deide.json    Deide/deide-bucket
 edtracker_Deide.json    Deide/deide-bucket
@@ -39940,6 +39954,7 @@ NacosExploitGUI_bright-angel.json    bright-angel/scoop-bucket
 IDEA_bright-angel.json    bright-angel/scoop-bucket
 Proxifier-Keygen_bright-angel.json    bright-angel/scoop-bucket
 PyWxDump_bright-angel.json    bright-angel/scoop-bucket
+misterdownloadmanager_bright-angel.json    bright-angel/scoop-bucket
 xssor2_bright-angel.json    bright-angel/scoop-bucket
 shiro-550-with-NoCC_bright-angel.json    bright-angel/scoop-bucket
 burp-vulners-scanner_bright-angel.json    bright-angel/scoop-bucket
@@ -40064,6 +40079,7 @@ SSRFmap_bright-angel.json    bright-angel/scoop-bucket
 TscanPlus_bright-angel.json    bright-angel/scoop-bucket
 bkcrack_bright-angel.json    bright-angel/scoop-bucket
 icesky_bright-angel.json    bright-angel/scoop-bucket
+fastfuzz.json    bright-angel/scoop-bucket
 blind_watermark_bright-angel.json    bright-angel/scoop-bucket
 naabu_bright-angel.json    bright-angel/scoop-bucket
 cyberapi_bright-angel.json    bright-angel/scoop-bucket
@@ -40481,6 +40497,7 @@ handwrite-sim-rs_Myraxion.json    Myraxion/Rojem-Scoop
 dmm-game-player-fast-launcher_Myraxion.json    Myraxion/Rojem-Scoop
 imgbrd-grabber_Myraxion.json    Myraxion/Rojem-Scoop
 browser-tamer_Myraxion.json    Myraxion/Rojem-Scoop
+herdr-core_Myraxion.json    Myraxion/Rojem-Scoop
 rustystar_Myraxion.json    Myraxion/Rojem-Scoop
 wx-key_Myraxion.json    Myraxion/Rojem-Scoop
 af-media-bar_Myraxion.json    Myraxion/Rojem-Scoop
