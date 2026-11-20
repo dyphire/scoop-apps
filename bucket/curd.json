@@ -1,13 +1,13 @@
 {
-    "version": "2.0.14",
+    "version": "2.0.16",
     "description": "Watch anime in cli with Anilist Integration and Discord RPC.",
     "homepage": "https://github.com/Wraient/curd",
     "license": "GPL-3.0-or-later",
     "depends": "extras/mpv",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Wraient/curd/releases/download/v2.0.14/curd-windows-x86_64.exe#/curd.exe",
-            "hash": "bf999fea7a488b853542725781f17f86059710c9ca795a6f2bc863675fffacc5"
+            "url": "https://github.com/Wraient/curd/releases/download/v2.0.16/curd-windows-x86_64.exe#/curd.exe",
+            "hash": "835ff8741c5ff5ab2fdaae49a3afc62ac8824ff9bf86098c33d52db8ae5e9b50"
         }
     },
     "bin": "curd.exe",
