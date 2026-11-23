@@ -1,0 +1,44 @@
+{
+    "version": "4.6-rc.2",
+    "description": "Vietnamese input method editor",
+    "homepage": "https://unikey.org/en",
+    "license": "GPL-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://unikey.org/assets/release/unikey46RC2-230919-win64.zip",
+            "hash": "667b8d31b0d85fdc2ca17d54c4eab870ba7269063c1dd53acec7897a97af04e3"
+        },
+        "32bit": {
+            "url": "https://unikey.org/assets/release/unikey46RC2-230919-win32.zip",
+            "hash": "178e3530efdbe37c10c418aef5e8df20740c61bb3548f18e1d8478e333e1be65"
+        },
+        "arm64": {
+            "url": "https://unikey.org/assets/release/unikey46RC2-250531-arm64.zip",
+            "hash": "6ffdc649c7f449214f9d71dca1fe6aa37722ac28ea1961752d1f3e3966fedb1f"
+        }
+    },
+    "shortcuts": [
+        [
+            "UniKeyNT.exe",
+            "UniKey"
+        ]
+    ],
+    "checkver": {
+        "url": "https://unikey.org/download.html",
+        "regex": "unikey(?<major>[\\d]+)(?<minor>[\\d]+)RC(?<rc>[\\d]+)-(?<build>[\\d]+)",
+        "replace": "${major}.${minor}-rc.${rc}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://unikey.org/assets/release/unikey$matchMajor$matchMinorRC$matchRc-$matchBuild-win64.zip"
+            },
+            "32bit": {
+                "url": "https://unikey.org/assets/release/unikey$matchMajor$matchMinorRC$matchRc-$matchBuild-win32.zip"
+            },
+            "arm64": {
+                "url": "https://unikey.org/assets/release/unikey$matchMajor$matchMinorRC$matchRc-$matchBuild-arm64.zip"
+            }
+        }
+    }
+}

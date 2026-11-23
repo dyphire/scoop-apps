@@ -121,6 +121,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - maboloshi/scoop-private
 - natecohen/scoop-av
 - typst-community/scoop-bucket
+- zeldrisho/scoop-bucket
 - BenjaminMichaelis/Config
 - Deide/deide-bucket
 - HUMORCE/nuke
