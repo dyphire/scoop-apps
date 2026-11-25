@@ -1,18 +1,23 @@
 {
-	"version": "0.0.18-lean",
+	"version": "0.13.0-lean",
 	"description": "GNU coreutils (implemented in Rust; binaries compiled with MSVC)",
 	"homepage": "https://github.com/uutils/coreutils",
 	"license": "MIT",
 	"architecture": {
 		"64bit": {
-			"url": "https://github.com/uutils/coreutils/releases/download/0.0.18/coreutils-0.0.18-x86_64-pc-windows-msvc.zip",
-			"hash": "c23ad147dd36d657453f35fd056d8e561fb562e0ac562568318802eae1d2c3da",
-			"extract_dir": "coreutils-0.0.18-x86_64-pc-windows-msvc"
+			"url": "https://github.com/uutils/coreutils/releases/download/0.13.0/coreutils-0.13.0-x86_64-pc-windows-msvc.zip",
+			"hash": "sha256:a91c36e1abc911d47a835877f58bac9ac5ad00f01a1fb076d1012a2f39b4c8d0",
+			"extract_dir": "coreutils-0.13.0-x86_64-pc-windows-msvc"
 		},
 		"32bit": {
-			"url": "https://github.com/uutils/coreutils/releases/download/0.0.18/coreutils-0.0.18-i686-pc-windows-msvc.zip",
-			"hash": "0bd2df313324bec9b6e045235c3f03ab9c56fd11279bec970396f239d2c2a8d7",
-			"extract_dir": "coreutils-0.0.18-i686-pc-windows-msvc"
+			"url": "https://github.com/uutils/coreutils/releases/download/0.13.0/coreutils-0.13.0-i686-pc-windows-msvc.zip",
+			"hash": "sha256:ece3c5f117143904e3864b1f59895cd38951525246d7a5e4f0cb1a40852a7c33",
+			"extract_dir": "coreutils-0.13.0-i686-pc-windows-msvc"
+		},
+		"arm64": {
+			"url": "https://github.com/uutils/coreutils/releases/download/0.13.0/coreutils-0.13.0-aarch64-pc-windows-msvc.zip",
+			"hash": "sha256:ce8827a11efc8d05f0060b49b4c50a9a59cfa57d1a9a3ed0724b5ab0cb62a2f0",
+			"extract_dir": "coreutils-0.13.0-aarch64-pc-windows-msvc"
 		}
 	},
 	"bin": ["coreutils.exe", ["coreutils.exe", "uu"], ["coreutils.exe", "uutils"] // ,
