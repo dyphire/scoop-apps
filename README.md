@@ -43,8 +43,8 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - kodybrown/scoop-nirsoft
 - TheRandomLabs/scoop-nonportable
 - littleli/scoop-clojure
-- scoopcn/scoopcn
 - opsqw/scoop-security
+- scoopcn/scoopcn
 - ScoopInstaller/Nonportable
 - rasa/scoops
 - Paxxs/Cluttered-bucket
@@ -114,7 +114,6 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - KnotUntied/scoop-fonts
 - excitoon/scoop-user
 - alextwothousand/scoop-bucket
-- zeldrisho/scoop-bucket
 - p8rdev/scoop-portableapps
 - AntonOks/scoop-aoks
 - LaelLuo/scoop
@@ -122,6 +121,7 @@ scoop bucket add apps https://gitee.com/kkzzhizhou/scoop-apps
 - maboloshi/scoop-private
 - natecohen/scoop-av
 - typst-community/scoop-bucket
+- zeldrisho/scoop-bucket
 - BenjaminMichaelis/Config
 - Deide/deide-bucket
 - HUMORCE/nuke
