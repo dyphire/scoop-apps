@@ -1,5 +1,5 @@
 {
-    "version": "1.13.10",
+    "version": "1.12.8",
     "description": "A Telegram client, but déjà vu",
     "homepage": "https://mithka.ieb.app/",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/iebb/mithka/releases/download/v1.13.10/mithka-1.13.10-20261126-windows-x64-setup.exe",
-            "hash": "cdd4fca9831390034e6e42ccfb3010e06158d6c1e61cb819f54ba42d386d0210"
+            "url": "https://github.com/iebb/mithka/releases/download/v1.12.8/mithka-1.12.8-20261115-windows-x64-setup.exe",
+            "hash": "fa4c881e44aa7621823a16ae9fc7d80d30391f557eb1cdfa2a292f30766be1a2"
         },
         "arm64": {
-            "url": "https://github.com/iebb/mithka/releases/download/v1.13.10/mithka-1.13.10-20261126-windows-arm64-setup.exe",
-            "hash": "1d8074506e33c645e78c2fd3e4a4ad040a3242e9099992d77177ac1044f878e4"
+            "url": "https://github.com/iebb/mithka/releases/download/v1.12.8/mithka-1.12.8-20261115-windows-arm64-setup.exe",
+            "hash": "c5b275f01f88d256d4956888a8de1bd9dcb357bd24a676c9b291124bf6431c84"
         }
     },
     "innosetup": true,
